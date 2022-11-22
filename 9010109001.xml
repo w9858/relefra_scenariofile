@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010109001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="は～、お腹空いたあ……。&#xA;こんにちは、カトリーナさん。" speaker_show="True" stop="True" voice="mm11001_02_0952" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あら、モモちゃん、今日はひとりなの？&#xA;なんだか珍しいわね。" speaker_show="True" stop="True" voice="kt11009_02_0274" />
+    <move obj_id="カトリーナ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="声をかけたら今日はみんな予定が入ってて。&#xA;だからどうしようか迷ったんですけど……。" speaker_show="True" stop="True" voice="mm11001_02_0953" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="でも、カトリーナさんに会えるからと思って&#xA;食べに来ちゃいました。" speaker_show="True" stop="True" voice="mm11001_02_0954" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ふふっ、お腹が空いていたからじゃないの？&#xA;今日はどれにする？" speaker_show="True" stop="True" voice="kt11009_02_0275" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そうですね。えーっと……。&#xA;ハンバーグカレーお願いします。" speaker_show="True" stop="True" voice="mm11001_02_0955" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="了解。それじゃ、&#xA;すぐに用意するから待っててね。" speaker_show="True" stop="True" voice="kt11009_02_0276" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" lip_sync="False" text="（いつもはみんなと一緒だから&#xA;こうやってひとりで来るとちょっと緊張しちゃうな……。）" speaker_show="True" stop="True" voice="mm11001_02_0956" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="カトリーナ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="はい、お待たせ。ハンバーグカレーよ。&#xA;ゆっくり食べていってね、モモちゃん。" speaker_show="True" stop="True" voice="kt11009_02_0277" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="は、はい、ありがとうございます！&#xA;それでは、いただきまーす。" speaker_show="True" stop="True" voice="mm11001_02_0957" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="……ん～、やっぱりここのカレー、&#xA;スパイスが効いてておいしい～" speaker_show="True" stop="True" voice="mm11001_02_0958" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="そう言ってもらえると私も嬉しいわ。&#xA;ところで、前から少し気になっていたんだけど……。" speaker_show="True" stop="True" voice="kt11009_02_0278" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="学校とツキカゲの両立、大変じゃない？&#xA;何か困っていることがあったら言ってね。" speaker_show="True" stop="True" voice="kt11009_02_0279" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="困ってることは特にないです。&#xA;師匠たちはもちろん、みんな優しいので。" speaker_show="True" stop="True" voice="mm11001_02_0959" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="……でも、急にどうしたんですか？" speaker_show="True" stop="True" voice="mm11001_02_0960" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="あ、変なことを聞いてごめんなさいね。&#xA;何もないならいいのよ。" speaker_show="True" stop="True" voice="kt11009_02_0280" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ただ、みんなには言いにくいこともあるかと思って。&#xA;もし、そういうことがあれば遠慮なく話してね。" speaker_show="True" stop="True" voice="kt11009_02_0281" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ありがとうございます。&#xA;言いにくいこと……ですか？　……うーん……。" speaker_show="True" stop="True" voice="mm11001_02_0961" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="モモちゃんはあまり悩んだりしないみたいね。" speaker_show="True" stop="True" voice="kt11009_02_0282" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そんなことないですよ。&#xA;師匠の足手まといになっていないかとか……。" speaker_show="True" stop="True" voice="mm11001_02_0962" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そういう気持ちは、ずっとありますね。&#xA;まだまだ足りていないことばかりで。" speaker_show="True" stop="True" voice="mm11001_02_0963" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="気持ちはわかるけど、そこはそんなに&#xA;気にしなくても大丈夫じゃないかしら。" speaker_show="True" stop="True" voice="kt11009_02_0283" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="雪ちゃんだって、モモちゃんが弟子になって、&#xA;少しやわらかくなったっていうか……。" speaker_show="True" stop="True" voice="kt11009_02_0284" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="師匠が……ですか？" speaker_show="True" stop="True" voice="mm11001_02_0964" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="ええ、お互いにいい影響を与えていると思うわ。&#xA;だから、モモちゃんは今のまま自分らしく頑張って。" speaker_show="True" stop="True" voice="kt11009_02_0285" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="それが雪ちゃんのためにもなるし、&#xA;ちゃんと自分に返ってくると思うから。" speaker_show="True" stop="True" voice="kt11009_02_0286" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="……わかりました。それじゃあ私は、&#xA;これからも自分らしく頑張りますね！" speaker_show="True" stop="True" voice="mm11001_02_0965" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ふふっ、その調子よ！&#xA;じゃ、ゆっくりしていってね。" speaker_show="True" stop="True" voice="kt11009_02_0287" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" lip_sync="False" text="（えへへ、カトリーナさんにそう言ってもらえて&#xA;ちょっとホッとしたかも……！）" speaker_show="True" stop="True" voice="mm11001_02_0966" />
+  </command>
+</adv>

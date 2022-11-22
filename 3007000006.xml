@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007000006" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Quest2 スパイ感" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <bg show="True" file="04_shopstreetev_01" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="商店街" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="さて、私達は今から商店街の見回りだけど&#xA;準備は良い？　夏凜に園子。" speaker_show="True" stop="True" voice="ym11003_01_0513" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="はい～♪　うわ～、本当に別世界だ～。&#xA;四国の外に出たなんて、夢みたい～♪" speaker_show="True" stop="True" voice="ns96006_01_0015" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="それは良いんだけど……さ。ツキカゲって……&#xA;子供まで所属してる組織だったの？" speaker_show="True" stop="True" voice="mk96005_01_0014" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="オイ、いま私を見て言ったな!?&#xA;お前、暗殺されたいのか！" speaker_show="True" stop="True" voice="bk11008_01_0179" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="宣言してからの暗殺は&#xA;それもう、ただの殺やで？" speaker_show="True" stop="True" voice="ns96006_01_0016" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="白虎" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="何なんだコイツら。&#xA;新しいメンバーなんて聞いてないぞ！" speaker_show="True" stop="True" voice="bk11008_01_0180" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="まあ、色々あって、今回だけ助っ人に入った&#xA;通称、勇者部のうちの２人よ。慣れて。" speaker_show="True" stop="True" voice="sf11004_01_0547" />
+    <char_spine_animation obj_id="白虎" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="この白虎様がいるのに、助っ人だと!?&#xA;しかも、こんな弱っちそうなガキンチョ！" speaker_show="True" stop="True" voice="bk11008_01_0181" />
+    <move obj_id="白虎" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="あんたみたいな、チビッコに言われたくないわ！&#xA;こう見えても私は、完成型完璧勇者なんだからね！" speaker_show="True" stop="True" voice="mk96005_01_0015" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="完璧ですって…？　完全無欠と言えば&#xA;このアタシの事なのよ。" speaker_show="True" stop="True" voice="sf11004_01_0548" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ちょっと待て！　完全完璧無欠でムテキなのは&#xA;ツキカゲで１番強い、この白虎様だ！" speaker_show="True" stop="True" voice="bk11008_01_0182" />
+    <lip_sync target1="相模 楓" target2="白虎" />
+    <msg speaker="楓・夏凜・白虎" text="うぬぬぬぬぬ！" speaker_show="True" stop="True" voice="3007000006_05" />
+    <sound type="Se" />
+    <Comment comment="火花（バチバチバチ！）" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="白虎" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ちょいちょい、３人共やめーい。&#xA;任務はもう始まってるんだかんね。" speaker_show="True" stop="True" voice="ym11003_01_0514" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="聞き込みとかした方が良いですか～？&#xA;丁度あそこに、誰かいますけど～。" speaker_show="True" stop="True" voice="ns96006_01_0017" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="乃木 園子" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <msg speaker="？？？" text="………臨・兵・闘・者・皆・陣・列・在・前。&#xA;………天・元・行・躰・神・変・神・通・力。" speaker_show="True" stop="True" voice="3007000006_01" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="なに……４、５人で丸くなってブツブツと。&#xA;ん？　九字……？" speaker_show="True" stop="True" voice="mk96005_01_0017" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="……全員、フードを被って顔を隠してる。&#xA;これは、いきなり当たりを引いちゃったかも。" speaker_show="True" stop="True" voice="ym11003_01_0515" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="八千代 命" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <msg speaker="？？？" text="六根清浄急急如律令……&#xA;五陽霊神に願い奉り候……" speaker_show="True" stop="True" voice="3007000006_02" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="何か言ってるけど、意味が解らない。&#xA;師匠、どうします？" speaker_show="True" stop="True" voice="sf11004_01_0550" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="接触してみるしかないね。風魔、白虎&#xA;念のためにスパイス、キメとくよ。" speaker_show="True" stop="True" voice="ym11003_01_0516" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <lip_sync target1="白虎" target2="相模 楓" />
+    <msg speaker="楓・白虎" text="了解！" speaker_show="True" stop="True" voice="3007000006_03" />
+    <msg_window_show show="False" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="True" />
+    <sound type="Se" cue_name="Spice" />
+    <Comment comment="SE スパイス" />
+    <wait time="1" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="いきなりオーラが変わった～！　にぼっしー&#xA;私達も変身だ～♪　メタモルフォーーーゼッ！" speaker_show="True" stop="True" voice="ns96006_01_0018" />
+    <msg_window_show show="False" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="三好 夏凜" />
+    <sound type="Se" cue_name="3007000006_se01" />
+    <Comment comment="SE 勇者変身" />
+    <flash color="#ffffffff" count="1" time="1.0" wait="True" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <wait time="2" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <create_effect effect_id="bk_kirakira" effect_type="EffectKirakira" target_obj="白虎" />
+    <msg speaker="白虎" text="オワーーッ!?　何だソレ!!&#xA;日曜日の朝にやってるテレビみたいだナ！" speaker_show="True" stop="True" voice="bk11008_01_0185" />
+    <delete obj_id="bk_kirakira" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ふぉい！　声がでっかいって！" speaker_show="True" stop="True" voice="ym11003_01_0517" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="白虎" />
+    <delete obj_id="八千代 命" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <wait time="1" />
+    <sound type="Se" cue_name="Run" />
+    <Comment comment="【ＳＥ】数人ダッシュ" />
+    <wait time="1" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="あっ、気付かれた！&#xA;待ちなさーーーい！" speaker_show="True" stop="True" voice="sf11004_01_0552" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <Comment comment="【ＳＥ】ダッシュ" />
+    <move obj_id="相模 楓" position_id="right" x="1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1" wait="True" />
+    <delete obj_id="相模 楓" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <msg speaker="？？？" text="オントドマリギャキテイソワカ…！" speaker_show="True" stop="True" voice="99049_01_0003" />
+    <msg_window_show show="False" />
+    <sound type="Se" />
+    <Comment comment="【ＳＥ】小爆発（ボワンッ！）" />
+    <flash color="#ffffffff" count="1" time="0.2" />
+    <sound type="Se" cue_name="RoboAppearance" />
+    <Comment comment="機械人形:立ち絵は【あり】です" />
+    <wait time="0.3" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="えっ！　いきなり機械人形が!?&#xA;チッ、数が多い！" speaker_show="True" stop="True" voice="ym11003_01_0518" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="コイツらは、私達に任せて&#xA;ツキカゲは不審者を追いかけなさい！" speaker_show="True" stop="True" voice="mk96005_01_0018" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="ロボットなら戦えるよ～！　アチョー！" speaker_show="True" stop="True" voice="ns96006_01_0019" />
+    <msg_window_show show="False" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="三好 夏凜" />
+    <Comment comment="機械人形:立ち絵は【あり】です" />
+    <sound type="Se" cue_name="Slash" />
+    <Comment comment="【ＳＥ】攻撃炸裂" />
+    <flash color="#ffffffff" count="1" time="0.2" />
+    <wait time="0.3" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <Comment comment="機械人形:立ち絵は【あり】です" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="一撃で倒すとはやるな！　私も見せてやる！&#xA;どっりゃぁあああーーーーっ！" speaker_show="True" stop="True" voice="bk11008_01_0186" />
+    <sound type="Se" />
+    <Comment comment="【ＳＥ】跳び蹴り炸裂" />
+    <flash color="#ffffffff" count="1" time="0.2" />
+    <sound type="Se" cue_name="RoboDown" />
+    <wait time="1.0" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="跳び蹴り１発で……!?&#xA;口だけじゃなかったのね、見事だわ。" speaker_show="True" stop="True" voice="mk96005_01_0019" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="さあ、もう逃げられないわよ。観念して&#xA;何の企みで動いているのか吐きなさい！" speaker_show="True" stop="True" voice="sf11004_01_0553" />
+    <shake target="MsgWindow" obj_id="？【狂信者１】" x="10" y="10" time="0.3" />
+    <msg speaker="？？？" text="ぐああっ！　く…っ……大願成就……&#xA;………あぁ…あれ？　ここはどこだ？" speaker_show="True" stop="True" voice="99049_01_0004" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="……歯に薬を仕込んでたか。記憶を抹消した。&#xA;かなりマジもんだね。あれ？　何か持ってる。" speaker_show="True" stop="True" voice="ym11003_01_0519" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <create_effect effect_id="fu_Sweat" effect_type="MampSweat" life_time="1" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="え……わあああ!?　し、師匠、それって……&#xA;時限爆弾じゃないですか！" speaker_show="True" stop="True" voice="sf11004_01_0554" />
+    <delete obj_id="fu_Sweat" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="夏凜・園子" text="ばばば爆弾!?" speaker_show="True" stop="True" voice="3007000006_04" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="どうやら、うちらの読みは正しかったみたいだね。&#xA;みんなに報告しなきゃ。" speaker_show="True" stop="True" voice="ym11003_01_0520" />
+  </command>
+</adv>

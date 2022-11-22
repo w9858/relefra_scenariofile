@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030303" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" volume="100" cue_name="Adv2" />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <Comment comment="【ＳＥ】鍋煮え（グツグツ）※音が止まらないので設定しておりません" />
+    <telop text="Wasabi" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <sound cue_name="Simmer" volume="30" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="あぁ、これこれ、この感じ。&#xA;やっと絶妙なバランスが取れたわ！" speaker_show="True" stop="True" voice="if96003_01_0062" />
+    <sound_stop cue_name="Simmer" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" force_end="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="なるほど。カレーうどんの場合、スパイスは控えめで&#xA;和風出汁の風味を引き立てることが、重要なのね。" speaker_show="True" stop="True" voice="kt11009_01_0339" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="繊細なお出汁の香りまでをも解するとは……。&#xA;あなたはやはり、紛う事なき大和撫子！" speaker_show="True" stop="True" voice="tm96002_01_0082" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="嬉しい……そこまで言ってもらえるなんて。&#xA;ありがとう、東郷さん！" speaker_show="True" stop="True" voice="kt11009_01_0340" />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="加藤さん！" speaker_show="True" stop="True" voice="tm96002_01_0083" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="カトリーナ" position_id="left" x="75" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="東郷 美森" position_id="left" x="-75" x_move_type="MoveTo" time="0.5" wait="True" />
+    <Comment comment="【ＳＥ】抱き合う（ガシッ）" />
+    <sound cue_name="Hug" type="Se" />
+    <wait time="0.5" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="加藤言うなし……。&#xA;さてと、手打ちうどんも茹で上がってきたわよ。" speaker_show="True" stop="True" voice="if96003_01_0063" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" force_end="True" />
+    <msg speaker="東郷 美森" text="いよいよですね……。&#xA;麺とカレー出汁を組み合わせてみましょう。" speaker_show="True" stop="True" voice="tm96002_01_0084" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="御飯でもナンでもなく、うどんに合うカレーが&#xA;私達に作り出せたのか……ドキドキしてきたわねぇ。" speaker_show="True" stop="True" voice="kt11009_01_0341" />
+    <msg_window_show show="False" />
+    <Comment comment="【ＳＥ】スープ注ぐ" />
+    <sound cue_name="Simmer" />
+    <wait time="1.5" />
+    <sound_stop cue_name="Simmer" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="はぁあああ～、イイ匂いだぁ～。&#xA;東郷！　我に箸を持てぃ！" speaker_show="True" stop="True" voice="if96003_01_0064" />
+    <msg_window_show show="False" />
+    <move obj_id="犬吠埼 風" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="はっ！　勇者部部長閣下！　これに！" speaker_show="True" stop="True" voice="tm96002_01_0085" />
+    <msg_window_show show="False" />
+    <Comment comment="【ＳＥ】割り箸（パキッ）" />
+    <sound />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <shake target="Character" obj_id="犬吠埼 風" x="10" vibrate="10" time="0.5" />
+    <msg speaker="犬吠埼 風" text="ン。それでは、まずはひとくち味見を……&#xA;ズズ……ズズズッ…ズズッズバババババ!!" speaker_show="True" stop="True" voice="if96003_01_0065" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ひ、ひとくち……？" speaker_show="True" stop="True" voice="kt11009_01_0342" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" force_end="True" />
+    <msg speaker="犬吠埼 風" text="く……っ。なんちゅうもんを食わせてくれたんや……&#xA;なんちゅうもんを……" speaker_show="True" stop="True" voice="if96003_01_0066" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="ああ!?　風先輩の目から滝のような涙が……！" speaker_show="True" stop="True" voice="tm96002_01_0086" />
+    <char_spine_animation obj_id="犬吠埼 風" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <shake target="MsgWindow" x="10" y="10" vibrate="20" time="0.5" />
+    <msg speaker="犬吠埼 風" text="こんな美味いカレーうどんは&#xA;食べたことないでーーーーーーっ!!" speaker_show="True" stop="True" voice="if96003_01_0067" />
+    <msg_window_show show="False" />
+    <move obj_id="東郷 美森" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="犬吠埼 風" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <lip_sync target1="カトリーナ" />
+    <msg speaker="美森・カトリーナ" text="やったー！" speaker_show="True" stop="True" voice="3007030303_01" />
+    <msg_window_show show="False" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="東郷 美森" />
+    <Comment comment="【ＳＥ】ドア派手に開く（バタン！）" />
+    <sound cue_name="DoorOpen" type="Se" />
+    <wait time="1.0" />
+    <Comment comment="【ＳＥ】倒れ込む（ドサッ！）" />
+    <sound />
+    <wait time="1.0" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="1000" anchor="Bottom" />
+    <move obj_id="石川 五恵" x="150" x_move_type="MoveTo" y="-100" y_move_type="MoveValue" time="1.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" force_end="True" />
+    <char_spine_cheek obj_id="石川 五恵" type="Cheek03_strong" loop="True" />
+    <char_spine_eye obj_id="石川 五恵" type="Eye03_tear" loop="True" />
+    <msg speaker="石川 五恵" text="カ、カト～……しゃぁ…あ～～ん……。" speaker_show="True" stop="True" voice="ig11006_01_0484" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="Exclamation_goe" effect_type="MampExclamation" life_time="1.0" target_obj="カトリーナ" />
+    <msg speaker="カトリーナ" text="えっ……ごえちゃん!?&#xA;いったい何が！　誰にやられたの!?" speaker_show="True" stop="True" voice="kt11009_01_0344" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="ゆ、友奈ひゃん…にぃ～……。" speaker_show="True" stop="True" voice="ig11006_01_0485" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="そんな！　横綱のごえちゃんが中学生に!?&#xA;しかも素手でなんて、あり得ないわ！" speaker_show="True" stop="True" voice="kt11009_01_0345" />
+    <msg_window_show show="False" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="カトリーナ" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" position_id="left" x="-1000" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="0" anchor="Bottom" />
+    <wait time="0.1" />
+    <move obj_id="結城 友奈" x="-150" x_move_type="MoveTo" y="-100" y_move_type="MoveValue" time="1.0" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="結城 友奈" type="Cheek03_strong" loop="True" />
+    <msg speaker="結城 友奈" text="と、東郷ぉ～しゃぁ～～ん……。" speaker_show="True" stop="True" voice="yy96001_01_0071" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="Exclamation_goe" effect_type="MampExclamation" life_time="1.0" target_obj="東郷 美森" />
+    <msg speaker="東郷 美森" text="友奈ちゃん!?　いったいどうしたの!?" speaker_show="True" stop="True" voice="tm96002_01_0088" />
+    <char_spine_animation obj_id="結城 友奈" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="結城 友奈" text="五恵ひゃんと～……お互いにマッサージを～……。&#xA;ふにゃぁぁあ～～……。" speaker_show="True" stop="True" voice="yy96001_01_0072" />
+    <msg_window_show show="False" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="東郷 美森" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="えっ！　マッサージ!?　未だかつて友奈自身が&#xA;こんなヘロヘロになった事なんてないのに……！" speaker_show="True" stop="True" voice="if96003_01_0068" />
+    <msg_window_show show="False" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-225" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-450" y="-100" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" position_id="left" x="450" y="-100" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="225" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="True" />
+    <char_spine_cheek obj_id="結城 友奈" type="Cheek03_strong" loop="True" />
+    <char_spine_cheek obj_id="石川 五恵" type="Cheek03_strong" loop="True" />
+    <char_spine_eye obj_id="石川 五恵" type="Eye03_tear" loop="True" />
+    <msg speaker="東郷 美森" text="そ、そんな……友奈ちゃんが、揉むだけじゃなく&#xA;揉まれてしまうなんて……。高校生恐るべし……。" speaker_show="True" stop="True" voice="tm96002_01_0089" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="101_Facial_trouble" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="しっかりして、２人とも！　今、気つけに激辛の&#xA;カレー……は、無いんだったわ……カレー出汁しか。" speaker_show="True" stop="True" voice="kt11009_01_0346" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="わ、わたし…は…もぅ……らめれふ……&#xA;身体に全然力が入りませぇん……。" speaker_show="True" stop="True" voice="ig11006_01_0486" />
+    <char_spine_animation obj_id="結城 友奈" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="結城 友奈" text="わ、わたしも……こんなの……初めてれ～……&#xA;脱力が止まらにゃい……ふにゃあ。" speaker_show="True" stop="True" voice="yy96001_01_0073" />
+    <msg_window_show show="False" />
+    <move obj_id="石川 五恵" position_id="left" y="-1000" y_move_type="MoveValue" time="2.0" />
+    <move obj_id="結城 友奈" position_id="left" y="-1000" y_move_type="MoveValue" time="2.0" wait="True" />
+    <sound cue_name="KnockDown" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <shake target="MsgWindow" x="10" y="10" vibrate="20" time="0.5" />
+    <msg speaker="カトリーナ" text="えええーーーーーー!?" speaker_show="True" stop="True" voice="kt11009_01_0347" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <shake target="MsgWindow" x="20" y="20" vibrate="20" time="0.5" />
+    <msg speaker="東郷 美森" text="友奈ちゃん、嫌ぁああーーーー!!&#xA;目を開けてぇええーーーー!!" speaker_show="True" stop="True" voice="tm96002_01_0090" />
+    <msg_window_show show="False" />
+    <Comment comment="【ＳＥ】リン（チーン……）" />
+    <sound />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="結城 友奈" />
+    <move obj_id="カトリーナ" x="-300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="東郷 美森" x="300" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="うあ…ぁ…ぁ……すみません。&#xA;うちの友奈が本当に申し訳ございません……。" speaker_show="True" stop="True" voice="if96003_01_0069" />
+    <char_spine_animation obj_id="犬吠埼 風" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="二度と不用意に人様を揉まぬよう&#xA;帰ったらきつく言い聞かせますので……ハァ～。" speaker_show="True" stop="True" voice="if96003_01_0070" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="あなたも……部長とはいえ、色々と大変ねぇ。&#xA;勇者部が敵の組織でなくて本当に良かったわ。" speaker_show="True" stop="True" voice="kt11009_01_0348" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

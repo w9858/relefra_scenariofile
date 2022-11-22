@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3024000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="64_party" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="パーティ会場" in_time="0.5" show_time="0.5" out_time="0.5" wait="False" />
+    <wait time="1.0" />
+    <sound type="Se" cue_name="SwordHeavy" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="SlashDamageHeavyCritical" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="RoboWalk" />
+    <wait time="1.5" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="100" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" x="300" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="高坂 信" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="019_Facial_damage" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おかしいぞ、このトナカイ型ロボ。時間が経てば&#xA;経つほど、こっちの攻撃が通らなくなってく！" speaker_show="True" stop="True" voice="bk11008_03_0124" />
+    <create type="Character" obj_id="ニコラス" data_id="398010001" position_id="left" x="-400" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="102_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="当たり前だ。ルドルフはお前達の動きを&#xA;学習しながら戦ってるんだからなあ！" speaker_show="True" stop="True" voice="nk99012_03_0032" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="019_Facial_damage" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そ、それじゃあどんどん手強くなるってこと!?&#xA;信たちは疲れていく一方なのに！" speaker_show="True" stop="True" voice="ks11010_03_0129" />
+    <msg speaker="ニコラス" text="無知で邪悪な、穢れた大人共め聖なる夜に&#xA;ペッチャンコに踏み潰されろーーー！" speaker_show="True" stop="True" voice="nk99012_03_0033" />
+    <sound type="Se" cue_name="RoboWalk" />
+    <wait time="1.5" />
+    <msg speaker="源 モモ" text="待ちなさい！　ニコラス・ディッセンバルト！" speaker_show="True" stop="True" voice="mm11001_03_0302" />
+    <sound type="Se" cue_name="ThrowingDamageCritica" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="ThrowingDamageCritica" />
+    <wait time="0.5" />
+    <msg speaker="ニコラス" text="誰だ！" speaker_show="True" stop="True" voice="nk99012_03_0034" />
+    <sound type="Se" cue_name="StepForward" />
+    <wait time="0.5" />
+    <delete obj_id="白虎" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="300" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="150" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ニコラス博士。あなたは以前、善行をした時に脳から&#xA;微量に出る、未知のパルスを検知する事に成功した。" speaker_show="True" stop="True" voice="hy11002_03_0211" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="でも学会はそれを嘘だと決めつけ、あなたから博士号を&#xA;剥奪した上、脳科学会から永久追放してしまった。" speaker_show="True" stop="True" voice="mm11001_03_0303" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="その検知システムの名は『サンタクロースアイ』&#xA;今回、それを元に良い子を集めたのでしょう？" speaker_show="True" stop="True" voice="hy11002_03_0212" />
+    <msg speaker="ニコラス" text="な、何故それを！　そうだ……私は街中にある全ての&#xA;監視カメラにサンタクロースアイを植え付けたのさ。" speaker_show="True" stop="True" voice="nk99012_03_0035" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="450" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="クラッキング……。でも、そのシステムでは街中の&#xA;あらゆる善行をキャッチしてしまうんじゃないの？" speaker_show="True" stop="True" voice="kt11009_03_0120" />
+    <msg speaker="ニコラス" text="そんな物を作れる私に、年齢性別、姿形を選別する&#xA;プログラムが構築できないとでも思うのか？" speaker_show="True" stop="True" voice="nk99012_03_0036" />
+    <msg speaker="ニコラス" text="１度検知した対象はマーキングされ、自宅のインター&#xA;フォンでもＰＣカメラでも映ればすぐ居所が分かる。" speaker_show="True" stop="True" voice="nk99012_03_0037" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" x="300" />
+    <char_spine_eye obj_id="高坂 信" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="どうしてそんな手間暇をかけてまで、&#xA;良い子を集めるなんて面倒なまねを……。" speaker_show="True" stop="True" voice="ks11010_03_0130" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="嫌なんだよ、打算的な大人の中にいると怒りと穢れに&#xA;満ちた恐ろしい怪物になってしまう自分自身が……ググ。" speaker_show="True" stop="True" voice="nk99012_03_0038" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="102_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="見ろ、私を。この顔を。脳に大人を嫌悪するパルスが&#xA;溢れ、邪悪で忌まわしい悪魔のようじゃないか！" speaker_show="True" stop="True" voice="nk99012_03_0039" />
+    <msg speaker="ニコラス" text="だが、善のパルスを発する良い子がそばにいれば&#xA;私は常に心穏やかでいられる。私は善でいたいんだ！" speaker_show="True" stop="True" voice="nk99012_03_0040" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="何故解らないんだろうね……大人は。悲しいな。&#xA;馬鹿で頭が固い大人なんて……この世にいらないよ。" speaker_show="True" stop="True" voice="nk99012_03_0041" />
+    <msg speaker="ニコラス" text="汚い大人の世界に置いておけば、良い子もやがて&#xA;私のように病んでグロテスクになってしまうんだ……。" speaker_show="True" stop="True" voice="nk99012_03_0042" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="人格が……コロコロと。ニコラス博士、あなたは自分と&#xA;子供を救済するつもりでこんな計画を？" speaker_show="True" stop="True" voice="ks11010_03_0131" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="102_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="サンタクロースは見ている。良い子の良い行いを！&#xA;私は良い行いで良い子を救い、私自身も救う！" speaker_show="True" stop="True" voice="nk99012_03_0043" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="私が何故、天才的なシステムを作り得たか解るかい？&#xA;好きこそ物の上手なれ。子供が大ぁあい好きだからさ。" speaker_show="True" stop="True" voice="nk99012_03_0044" />
+    <create type="Character" obj_id="白虎" data_id="311007009" x="150" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ん？　悪でも善でもお前、ただの変態だろ？" speaker_show="True" stop="True" voice="bk11008_03_0125" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="102_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="ぐぉおおお！　敵め！　大人め！　大嫌いだ！&#xA;ルドルフよ！　さあ行っ……あれ？　止まってる!?" speaker_show="True" stop="True" voice="nk99012_03_0045" />
+    <delete obj_id="白虎" />
+    <delete obj_id="高坂 信" />
+    <msg speaker="青葉 初芽" text="ハッキング完了！" speaker_show="True" stop="True" voice="ah11005_03_0160" />
+    <sound type="Se" cue_name="RoboDown" />
+    <wait time="3" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="450" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="我々の仲間にも１人いるのよ。科学の天才がね。" speaker_show="True" stop="True" voice="hy11002_03_0213" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="102_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="なっ、私のシステムを破壊できるような者が…？&#xA;教えてくれ！　そいつは……未成年なのか!?" speaker_show="True" stop="True" voice="nk99012_03_0046" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" x="300" />
+    <char_spine_eye obj_id="高坂 信" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そ、そうだけど……。" speaker_show="True" stop="True" voice="ks11010_03_0132" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="ホゥ…ホゥ…ホゥ！　やはり子供は素晴らしいね♪&#xA;その天才ちゃんにメリーーーークリ……" speaker_show="True" stop="True" voice="nk99012_03_0047" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="150" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="013_Facial_angry" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="黙れ異常者！" speaker_show="True" stop="True" voice="kt11009_03_0121" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="1000" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="どおりゃああーーーーっ!!" speaker_show="True" stop="True" voice="bk11008_03_0126" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound type="Se" cue_name="BlowDamageKick" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="102_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="スマあーーーっ！" speaker_show="True" stop="True" voice="nk99012_03_0048" />
+    <move obj_id="ニコラス" position_id="left" x="-2000" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound type="Se" cue_name="CrackedWindow" />
+    <wait time="1.0" />
+    <sound type="Se" cue_name="BlowDamageImpact" />
+    <wait time="1.0" />
+    <delete obj_id="白虎" />
+    <msg speaker="相模 楓" text="お疲れ様です。&#xA;警察の皆さん、外でスタンバってますよ。" speaker_show="True" stop="True" voice="sf11004_03_0270" />
+    <msg speaker="八千代 命" text="師匠も、みんなも無事で何より♪&#xA;あ、それから、メリークリスマス！" speaker_show="True" stop="True" voice="ym11003_03_0254" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="-500" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="300" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="500" />
+    <char_spine_eye obj_id="高坂 信" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <lip_sync target1="カトリーナ" target2="白虎" target3="高坂 信" target4="源 モモ" target5="半蔵門 雪" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="カトリーナ・白虎・信・モモ・雪" text="メリークリスマス♪" speaker_show="True" stop="True" voice="3024000008_union_001" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

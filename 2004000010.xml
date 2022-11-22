@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000010" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound cue_name="Adv4" type="Bgm" />
+    <bg show="True" resource_type="Background" file="14_car_03" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="車内" in_time="0.5" wait="True" show_time="0.5" out_time="0.5" />
+    <msg window_type="SystemMsg" text="リザード。人形の販売で世界一を記録した事もある&#xA;大企業である。アメリカに本社を持つ。" stop="True" />
+    <msg window_type="SystemMsg" text="しかしその裏の顔は、違法に製造された&#xA;軍事用の人形を売りさばく死の商人でもあった。" stop="True" />
+    <msg window_type="SystemMsg" text="車内ではリザード幹部の話し合いが行われていた。" stop="True" />
+    <char_spine_animation obj_id="クリッシー" />
+    <create obj_id="クリッシー" data_id="316001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ゾーイ" />
+    <create obj_id="ゾーイ" data_id="316002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="軍事人形を大量生産しているネバダのファクトリーが&#xA;潰されて、社長は大変なお冠ですよゾーイ。" speaker_show="True" stop="True" voice="ks16001_02_0004" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="しょうがないねぇ。ファクトリーの責任者である&#xA;ガフガリオンはどうなったんだい？" speaker_show="True" stop="True" voice="zi16003_02_0043" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="ご想像の通りですよ。勤務地が本社の社長室に&#xA;なりました。" speaker_show="True" stop="True" voice="ks16001_02_0005" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="クリッシー" text="全身に金箔を塗られた芸術品として&#xA;社長の目を楽しませていくでしょう、永遠に。" speaker_show="True" stop="True" voice="ks16001_02_0006" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="それは……お気の毒だな……。" speaker_show="True" stop="True" voice="zi16003_02_0044" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="ハイ……彼の事を考えると、&#xA;こみあげてきて、しまいます。" speaker_show="True" stop="True" voice="ks16001_02_0007" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="我慢しなくていいよクリ。&#xA;アタシも付き合ってあげる。" speaker_show="True" stop="True" voice="zi16003_02_0045" />
+    <lip_sync target1="クリッシー" target2="ゾーイ" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="クリッシー・ゾーイ" text="ＨＡＨＡＨＡＨＡＨＡＨＡＨＡＨＡＨＡＨＡ&#xA;ＨＡＨＡＨＡＨＡＨＡＨＡＨＡＨＡ！！！！" speaker_show="True" stop="True" voice="2004000008_union_001" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="うけるねー。最後は嗜好品になっちまうなんてさ。&#xA;いけすかないガフガリオンらしい最期だよ。" speaker_show="True" stop="True" voice="zi16003_02_0047" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="彼の無能さはリザードの足を引っ張っていました。&#xA;死んでもらって助かりましたよ。" speaker_show="True" stop="True" voice="ks16001_02_0009" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="でもゾーイ。あなたのヒップにも&#xA;火がつきそうなんですよ。" speaker_show="True" stop="True" voice="ks16001_02_0010" />
+    <char_spine_animation obj_id="クリッシー" />
+    <msg speaker="クリッシー" text="なにせＺＥＴは日本の中京地区に根を張る&#xA;私設情報機関というではありませんか。" speaker_show="True" stop="True" voice="ks16001_02_0011" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="日本を統括するアタシは、そんな奴を&#xA;野放しにして何やってるって事か。" speaker_show="True" stop="True" voice="zi16003_02_0048" />
+    <char_spine_animation obj_id="ゾーイ" />
+    <msg speaker="ゾーイ" text="リザードとしてのケジメ案件だな。" speaker_show="True" stop="True" voice="zi16003_02_0049" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="ＹＥＳ。ゾーイにＺＥＴ討伐命令が&#xA;出ると思います。対策立ててるんですか？" speaker_show="True" stop="True" voice="ks16001_02_0012_a" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="もちろんさクリ。このまま付き合ってくれ。&#xA;是非見てもらいたいブツがあるんだ。" speaker_show="True" stop="True" voice="zi16003_02_0050" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="いいですとも。ただレジェンドとなるワタシの&#xA;時間を割くのです。面白いものである事を祈ります。" speaker_show="True" stop="True" voice="ks16001_02_0013" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="クリッシー" />
+    <delete obj_id="ゾーイ" />
+    <bg file="45_lizard_01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="リザード社" in_time="0.5" wait="True" show_time="0.5" out_time="0.5" />
+    <create obj_id="クリッシー" data_id="316001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create obj_id="ゾーイ" data_id="316002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create obj_id="アルム" data_id="316004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="これがアタシの最高傑作さ。&#xA;つい最近、ロールアウトしたんだ。" speaker_show="True" stop="True" voice="zi16003_02_0051" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="こ、これは何と素晴らしい造形美。&#xA;殆ど人間と変わりませんが人形、なんですよね。" speaker_show="True" stop="True" voice="ks16001_02_0014" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="アルムと言う。&#xA;こいつがＺＥＴを倒してくれるさ。" speaker_show="True" stop="True" voice="zi16003_02_0052" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="アルム。フランス語で武器という意味ですね。&#xA;フランスの血が入ってる貴方らしいネーミング。" speaker_show="True" stop="True" voice="ks16001_02_0015" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="009_Facial_blush" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="……それにしても本当に美しい。うっとりです。&#xA;さすが人形工学の権威、ゾーイです。" speaker_show="True" stop="True" voice="ks16001_02_0016" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="だろ？　さらに破壊力だけを追い求めた&#xA;ジャバウオックって言う人形も開発しているんだよ。" speaker_show="True" stop="True" voice="zi16003_02_0053" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="さぁアルム。目覚めるんだ。&#xA;任務は、とある人間の消去さ。" speaker_show="True" stop="True" voice="zi16003_02_0054" />
+    <char_spine_animation obj_id="アルム" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="アルム" text="――任務了解です、マスター。" speaker_show="True" stop="True" voice="ar16004_02_0001" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

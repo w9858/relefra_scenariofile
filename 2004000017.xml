@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000017" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg file="45_lizard_01" />
+    <telop text="リザード社" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="あんた情けないねぇアルム。&#xA;何度も標的を消去し損なうなんて。" speaker_show="True" stop="True" voice="zi16003_02_0060" />
+    <char_spine_animation obj_id="アルム" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="アルム" text="申し訳ありません、マスター。" speaker_show="True" stop="True" voice="ar16004_02_0043" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="アルムが超高性能である事は間違いありまセン。&#xA;敵がそれだけ強いと言う事なのでしょう。" speaker_show="True" stop="True" voice="ks16001_02_0023" />
+    <char_spine_animation obj_id="アルム" />
+    <msg speaker="アルム" text="クリ、フォローサンキュー。" speaker_show="True" stop="True" voice="ar16004_02_0044" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="だから！　ワタシに対してのみやたらと&#xA;フレンドリーすぎデス！" speaker_show="True" stop="True" voice="ks16001_02_0024" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="アルム、次はアタシの新型と一緒にいくんだ。&#xA;このジャバウオックとね。" speaker_show="True" stop="True" voice="zi16003_02_0061" />
+    <char_spine_animation obj_id="アルム" />
+    <msg speaker="アルム" text="ジャバウオック。……分析完了。&#xA;凄まじい強度。" speaker_show="True" stop="True" voice="ar16004_02_0045" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="賢さはアルムの方が圧倒的に上だけどね。&#xA;破壊力はこっちさ。" speaker_show="True" stop="True" voice="zi16003_02_0062" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="クリッシー" text="現状、リザードと繋がっている末端の組織が&#xA;ボロボロとやられていってますよゾーイ。" speaker_show="True" stop="True" voice="ks16001_02_0025" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="ゾーイ" text="ああ何とかするさ。だからアルムに続いて&#xA;ジャバウォックまで投入するんだ。" speaker_show="True" stop="True" voice="zi16003_02_0063" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="クリッシー" text="ワタシも手助けできたらいいのデスが&#xA;若くて優秀な分、社長に何かと使われてまして。" speaker_show="True" stop="True" voice="ks16001_02_0026" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" />
+    <msg speaker="クリッシー" text="（だからゾーイ。もし貴方に何かあれば敬愛していた&#xA;よしみです。ワタシが地位を引き継ぎましょう。）" speaker_show="True" stop="True" voice="ks16001_02_0027" lip_sync="False" />
+    <move obj_id="クリッシー" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="クリッシーは酷薄な笑みを浮かべて、&#xA;その場を去って行った。" stop="True" />
+    <delete obj_id="クリッシー" />
+    <move obj_id="ゾーイ" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="アルム" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="ゾーイ" text="クリは野心が高すぎる、いずれ墓穴を掘るね。" speaker_show="True" stop="True" voice="zi16003_02_0064" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="ま、その時は目をかけていたよしみだ。&#xA;お前が築いてたものはアタシがもらってやるさ。" speaker_show="True" stop="True" voice="zi16003_02_0065" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="ゾーイ" text="クリッシー・ガオだけじゃない。人間は、何を&#xA;考えているか分からない。いつ裏切るか分からない。" speaker_show="True" stop="True" voice="zi16003_02_0066" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="ゾーイ" text="でも人形は忠実だ。絶対マスターに逆らえない。&#xA;それがいい。生涯をかけて研究するに値するよ。" speaker_show="True" stop="True" voice="zi16003_02_0067" />
+    <char_spine_animation obj_id="アルム" />
+    <msg speaker="アルム" text="マスター、私は待機モードに移行します。" speaker_show="True" stop="True" voice="ar16004_02_0046" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="あぁ。次こそは本当に頼むよ。&#xA;貴方を創造したマスターのために。" speaker_show="True" stop="True" voice="zi16003_02_0068" />
+    <char_spine_animation obj_id="アルム" />
+    <msg speaker="アルム" text="（………ＺＥＴ。）" speaker_show="True" stop="True" voice="ar16004_02_0047" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="アルム" />
+    <delete obj_id="ゾーイ" />
+    <bg file="42_skyni_01" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルム。貴方が欲しいわ。&#xA;貴方は美しい。" speaker_show="True" stop="True" voice="sr13001_02_0329" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <delete obj_id="敷島 来夢" />
+    <bg file="45_lizard_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" />
+    <msg speaker="アルム" text="（……何だ私はバグでも流されたのか。）" speaker_show="True" stop="True" voice="ar16004_02_0048" lip_sync="False" />
+    <char_spine_animation obj_id="アルム" />
+    <msg speaker="アルム" text="（異常は検知できず。しかし、ざわざわする。&#xA;まさに理解不能。）" speaker_show="True" stop="True" voice="ar16004_02_0049" lip_sync="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

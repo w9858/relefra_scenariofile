@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010206001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" volume="0" />
+    <sound_volume type="Bgm" cue_name="Adv1" time="0" wait="False" />
+    <bg show="True" file="32_templeni_01" resource_type="Background" />
+    <sound type="Se" cue_name="Run" />
+    <fade_in time="0.5" wait="True" />
+    <wait time="2" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002012" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="五恵　ランニングウェア" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（やっぱり夜、走るのは人が少なくていいわね。&#xA;あれ、あそこに誰かいる……？）" speaker_show="True" stop="True" voice="hy11002_02_0699" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="True" loop="True" />
+    <msg speaker="石川 五恵" text="……。" speaker_show="True" stop="True" voice="ig11006_02_0498" lip_sync="False" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002012" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <Comment comment="五恵　ランニングウェア" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="五恵、どうしてここに？&#xA;こんな遅い時間、神社にお参り？" speaker_show="True" stop="True" voice="hy11002_02_0700" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え？　雪先輩こそどうして……。&#xA;もしかしてお参りですか？" speaker_show="True" stop="True" voice="ig11006_02_0499" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="私はたまたまランニングで通りかかっただけよ。" speaker_show="True" stop="True" voice="hy11002_02_0701" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="そうですか。今度学校で試験があるから&#xA;てっきりモモちのことでお願いにきたのかと……。" speaker_show="True" stop="True" voice="ig11006_02_0500" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="五恵もそれでここに？" speaker_show="True" stop="True" voice="hy11002_02_0702" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="いえ、私の場合は、師匠の次の発明が&#xA;成功するようにと思って。" speaker_show="True" stop="True" voice="ig11006_02_0501" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="もっとも師匠は、お参りなんてしなくても&#xA;大丈夫だとは思うんですけど。" speaker_show="True" stop="True" voice="ig11006_02_0502" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そう。……いい弟子ね。" speaker_show="True" stop="True" voice="hy11002_02_0703" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あの……雪先輩。&#xA;ひとつお願いしてもいいですか？" speaker_show="True" stop="True" voice="ig11006_02_0503" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="17_Hush" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="心配しなくても大丈夫よ。&#xA;今日のことはふたりだけの秘密にしておくから。" speaker_show="True" stop="True" voice="hy11002_02_0704" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ありがとうございます。" speaker_show="True" stop="True" voice="ig11006_02_0504" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="それより、こんな時間にひとりで危ないわ。&#xA;送ってあげるから帰りましょう。" speaker_show="True" stop="True" voice="hy11002_02_0705" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="そんな、大丈夫です。ひとりで帰れますから。" speaker_show="True" stop="True" voice="ig11006_02_0505" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="こういうときは素直に先輩の言うことを聞くものよ。" speaker_show="True" stop="True" voice="hy11002_02_0706" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="そ、それはそうですけど……。" speaker_show="True" stop="True" voice="ig11006_02_0506" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="01_Stay" force_end="False" loop="True" face_anim_type="002_Facial_smile" />
+    <msg speaker="半蔵門 雪" text="私もちょうど帰るところだから。&#xA;さ、行きましょう。" speaker_show="True" stop="True" voice="hy11002_02_0707" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="は、はい。" speaker_show="True" stop="True" voice="ig11006_02_0507" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_unique" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" lip_sync="False" text="（こんな夜遅くに出歩いていたから&#xA;もしかして怒ってるのかな……？）" speaker_show="True" stop="True" voice="ig11006_02_0508" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="……いつもモモと仲良くしてくれてありがとう。" speaker_show="True" stop="True" voice="hy11002_02_0708" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え？　そんな、とんでもないです。&#xA;こちらこそ師匠のこと、よろしくお願いします。" speaker_show="True" stop="True" voice="ig11006_02_0509" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="……やっぱりいい弟子だわ。" speaker_show="True" stop="True" voice="hy11002_02_0709" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

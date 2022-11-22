@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000011007" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound cue_name="Quest2" type="Bgm" />
+    <bg show="True" resource_type="Background" file="22_plant_05" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="倉庫" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="400" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-400" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <create_effect effect_id="shin01" effect_type="EffectShockWave" life_time="2" target_obj="高坂 信" attach_head_bone="True" />
+    <msg speaker="高坂 信" text="よーし、これで最後だ！" speaker_show="True" stop="True" voice="ks11010_03_0485" />
+    <delete obj_id="shin01" />
+    <sound type="Se" cue_name="RotaryDrill" />
+    <wait time="2" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="おぉっ、命中！" speaker_show="True" stop="True" voice="ym11003_03_0651" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="こちら風魔。犯人は無事確保。&#xA;人形も甚内が殲滅しました。" speaker_show="True" stop="True" voice="sf11004_03_0662" />
+    <msg speaker="青葉 初芽" text="了解。ミッション完了ですね。&#xA;皆さん、お疲れ様でした。" speaker_show="True" stop="True" voice="ah11005_03_0439" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="はぁ～、よかった。&#xA;一時はどうなることかと思ったよー。" speaker_show="True" stop="True" voice="ks11010_03_0486" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="師匠～！　すごいじゃん！" speaker_show="True" stop="True" voice="ym11003_03_0652" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="信さん、ありがとうございました。&#xA;アタシと師匠だけだったら本当に危なかったです。" speaker_show="True" stop="True" voice="sf11004_03_0663" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そんなにいっぱい褒められたら、&#xA;ちょっと恥ずかしいなぁ。" speaker_show="True" stop="True" voice="ks11010_03_0487" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="だって本当のことじゃないか～。&#xA;師匠はメイとフーを助けてくれた命の恩人！" speaker_show="True" stop="True" voice="ym11003_03_0653" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そうですよ、それからその左腕、&#xA;めちゃくちゃカッコよかったです。" speaker_show="True" stop="True" voice="sf11004_03_0664" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そんな……。けど、この腕が役に立って&#xA;よかったよ。" speaker_show="True" stop="True" voice="ks11010_03_0488" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そいじゃ、Wasabiに戻って、&#xA;勝利の美カレー、味わおう！" speaker_show="True" stop="True" voice="ym11003_03_0654" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="美カレーって、あんまり聞いたことないですけど&#xA;『勝利の美酒』みたいなことですか？" speaker_show="True" stop="True" voice="sf11004_03_0665" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うん、多分そうだよね。&#xA;とにかく、カトさんも待ってるし帰ろっか。" speaker_show="True" stop="True" voice="ks11010_03_0489" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="400" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-400" anchor="Bottom" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="02_wasabini_001" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <char_spine_eye obj_id="カトリーナ" type="Eye03_tear" loop="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="……シン様そんなに大活躍をなさったのですね。" speaker_show="True" stop="True" voice="kt11009_03_0288" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="って何でカトリーナさん泣いてるんですか!?" speaker_show="True" stop="True" voice="sf11004_03_0666" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="師匠の活躍が嬉しかったんだよねぇ。&#xA;わかるわかる。" speaker_show="True" stop="True" voice="ym11003_03_0655" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="違うわ！" speaker_show="True" stop="True" voice="kt11009_03_0289" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="-400" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="え？" speaker_show="True" stop="True" voice="ks11010_03_0490" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="これは悔し涙よ。" speaker_show="True" stop="True" voice="kt11009_03_0290" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="せっかくのシン様のご活躍ぶりを、この目で&#xA;拝むことが出来なかった……。" speaker_show="True" stop="True" voice="kt11009_03_0291" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="はぁ、あの時の私が憎い……。何故あの時、&#xA;本部に残ると言ってしまったのかしら。うぅっ……。" speaker_show="True" stop="True" voice="kt11009_03_0292" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="-400" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="カトーさん、元気を出してください。" speaker_show="True" stop="True" voice="ig11006_03_0521" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="師匠、大丈夫です。&#xA;現場の映像はモノミが録画してますよ。" speaker_show="True" stop="True" voice="ah11005_03_0440" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="kato01" effect_type="MampExclamation" life_time="0.5" target_obj="カトリーナ" attach_head_bone="True" />
+    <msg speaker="カトリーナ" text="何ですって！&#xA;はぁ、神は私を見捨てはしなかった！" speaker_show="True" stop="True" voice="kt11009_03_0293" />
+    <delete obj_id="kato01" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="モノミ、それから録画を指示した初芽ちゃん、&#xA;本当に本当にどうもありがとう！" speaker_show="True" stop="True" voice="kt11009_03_0294" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002003" position_id="left" x="-400" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="録画は取引の現場を押さえることを目的に&#xA;行っただけなのですが……。" speaker_show="True" stop="True" voice="hy11002_03_0408" />
+    <char_spine_eye obj_id="カトリーナ" type="Eye03_tear" loop="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="結果よければすべて良し！　シン様のご活躍ぶり、&#xA;エンドレス再生で拝ませていただきま～す！" speaker_show="True" stop="True" voice="kt11009_03_0295" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="400" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-400" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="相変わらず大げさだなぁ。" speaker_show="True" stop="True" voice="ks11010_03_0491" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="いや、さっきの師匠は超カッコよかったから&#xA;メイはカトーさんの意見に賛成だよ。" speaker_show="True" stop="True" voice="ym11003_03_0656" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="アタシも同感です。&#xA;さっきの信さん、本当に強くてカッコよかったです。" speaker_show="True" stop="True" voice="sf11004_03_0667" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="みんな……。どうもありがとう。&#xA;信も少しは成長できたってことだよね。" speaker_show="True" stop="True" voice="ks11010_03_0492" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="これからも頑張るから、信のこと&#xA;もっともっと頼ってね。" speaker_show="True" stop="True" voice="ks11010_03_0493" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

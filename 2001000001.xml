@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000001" />
+  </info>
+  <command>
+    <Start />
+    <bg show="True" file="01_school1mo_002" resource_type="Background" />
+    <fade_out time="0" type="Default" wait="True" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <msg window_type="SystemMsg" text="４月　空崎高校" stop="True" />
+    <msg window_type="SystemMsg" text="新学期。２年生に進級した平凡な少女・源モモは、&#xA;新しい友人を作ろうと張り切っていたが……。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="空崎高校　教室" in_time="0.5" show_time="0.5" out_time="0.5" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（……何もできないままお昼休みになっちゃった……。&#xA;それに……この進路調査票、どうしよう……）" speaker_show="True" stop="True" voice="mm11001_01_0133" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Shutter" type="In" color_change="False" time="0.5" wait="False" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" file="No_001" resource_type="AnimSS" wait="True" />
+    <transition effect="Shutter" type="In" color_change="False" time="0.5" wait="True" />
+    <msg speaker="畠山 結愛" text="うすっ、モモち！&#xA;どーよ、新しい友達できた？" speaker_show="True" stop="True" voice="ha99001_01_0006" />
+    <msg speaker="源 モモ" text="あ～結愛～！&#xA;……まだ。なかなか話しかけられなくて……。" speaker_show="True" stop="True" voice="mm11001_01_0134" />
+    <bg show="True" file="No_002" resource_type="AnimSS" wait="True" />
+    <msg speaker="畠山 結愛" text="ありゃ。……って、あれ？　進路調査票真っ白じゃん。&#xA;「警察官」って書かないの？" speaker_show="True" stop="True" voice="ha99001_01_0007" />
+    <msg speaker="源 モモ" text="……うん……。&#xA;なんか、自分に自信が持てないっていうか……。" speaker_show="True" stop="True" voice="mm11001_01_0135" />
+    <msg speaker="畠山 結愛" text="やれるよ、モモちなら！　鼻とか目すっげえいいし！&#xA;昨日も、なんか変なの見たんでしょ？" speaker_show="True" stop="True" voice="ha99001_01_0008" />
+    <bg show="True" file="No_003" resource_type="AnimSS" wait="True" />
+    <msg speaker="源 モモ" text="あ！　そうそう！&#xA;工場の夜景観てたら、怪しい人影が空に浮いてたの！" speaker_show="True" stop="True" voice="mm11001_01_0136" />
+    <msg_window_show show="False" />
+    <transition effect="Shutter" type="Out" color_change="False" time="0.5" wait="False" />
+    <bg show="True" file="01_school1mo_002" resource_type="Background" />
+    <transition effect="Shutter" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="――！！　メイちゃん……。" speaker_show="True" stop="True" voice="ig11006_01_0083" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="……うん。" speaker_show="True" stop="True" voice="ym11003_01_0090" />
+    <msg_window_show show="False" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="True" body_anim_type="02_Idle" />
+    <msg speaker="畠山 結愛" text="じゃあ、私そろそろクラス戻るわ～。" speaker_show="True" stop="True" voice="ha99001_01_0009" />
+    <char_spine_animation obj_id="畠山 結愛" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="うん！　来てくれてありがとー！" speaker_show="True" stop="True" voice="mm11001_01_0137" />
+    <msg_window_show show="False" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="True" />
+    <move obj_id="石川 五恵" x="-200" time="1.0" x_move_type="MoveTo" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <move obj_id="八千代 命" x="200" time="1.0" wait="True" x_move_type="MoveTo" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ねーねー、源さん。" speaker_show="True" stop="True" voice="ym11003_01_0091" />
+    <move obj_id="石川 五恵" x="-400" time="0.5" x_move_type="MoveTo" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <move obj_id="八千代 命" x="-150" time="0.5" wait="True" x_move_type="MoveTo" position_id="left" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="400" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="へ!?　や、八千代さん、石川さん!?" speaker_show="True" stop="True" voice="mm11001_01_0138" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="さっきの話、ちょっと聞こえてさー。&#xA;新しい友達ってヤツ。" speaker_show="True" stop="True" voice="ym11003_01_0092" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="席も近いし、これから仲良くしてくれない？" speaker_show="True" stop="True" voice="ym11003_01_0093" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="う、うん！　もちろんだよ！" speaker_show="True" stop="True" voice="mm11001_01_0139" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="良かった。" speaker_show="True" stop="True" voice="ig11006_01_0084" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="これからよろしくね、源さん！" speaker_show="True" stop="True" voice="ym11003_01_0094" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" wait="False" time="0.5" effect="Shutter" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="0.5" wait="False" />
+    <bg show="True" resource_type="AnimSS" file="No_004" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <transition type="In" color_change="False" wait="True" time="0.5" effect="Shutter" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="0.5" />
+    <msg speaker="源 モモ" text="（あれ……？　廊下歩いてくるの……半蔵門先輩!?&#xA;幼馴染の青葉先輩も……あ、目が合っちゃった……！）" speaker_show="True" stop="True" voice="mm11001_01_0140" lip_sync="False" />
+    <msg speaker="青葉 初芽" text="こんにちは。" speaker_show="True" stop="True" voice="ah11005_01_0073" />
+    <msg speaker="源 モモ" text="こ、こんにちは、ですっ!!" speaker_show="True" stop="True" voice="mm11001_01_0141" />
+    <msg_window_show show="False" />
+    <Comment comment="キラキラしたSEがあると良し" />
+    <bg show="True" resource_type="AnimSS" file="No_005" />
+    <sound type="Se" cue_name="Shinsama" />
+    <wait time="0.5" />
+    <msg speaker="半蔵門 雪" text="こんにちは。" speaker_show="True" stop="True" voice="hy11002_01_0080" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" wait="False" time="0.5" effect="Shutter" />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv2" />
+    <bg show="True" resource_type="Background" file="01_school1mo_003" />
+    <transition type="In" color_change="False" wait="True" time="0.5" effect="Shutter" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源 モモ" text="……はふぅ～。" speaker_show="True" stop="True" voice="mm11001_01_0142" />
+    <move obj_id="源 モモ" x="200" time="0.5" wait="True" x_move_type="MoveTo" position_id="left" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="固まってたね～。あの先輩に憧れてるの？" speaker_show="True" stop="True" voice="ym11003_01_0095" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="002_Facial_smile" />
+    <msg speaker="源 モモ" text="……わかる？&#xA;半蔵門雪先輩！　入学式の時からずっと憧れなの！" speaker_show="True" stop="True" voice="mm11001_01_0143" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" loop="False" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源 モモ" text="道場の跡取りで強くて綺麗で格好良くて頭も良くて……&#xA;私も、あんな風になれたらなって……。" speaker_show="True" stop="True" voice="mm11001_01_0144" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="……なるほどぉ。&#xA;ねー、源さん。今日の帰り、お茶でもしてかない？" speaker_show="True" stop="True" voice="ym11003_01_0096" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek01_default" loop="True" />
+    <msg speaker="源 モモ" text="うん！　ぜひ！" speaker_show="True" stop="True" voice="mm11001_01_0145" />
+    <move obj_id="源 モモ" x="300" time="0.5" wait="False" x_move_type="MoveTo" position_id="left" y="0" y_move_type="MoveValue" />
+    <move obj_id="八千代 命" x="0" time="0.5" wait="True" x_move_type="MoveTo" position_id="left" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="私がバイトしてるお店なら、おまけしてもらえるよ。&#xA;学校から近いし。" speaker_show="True" stop="True" voice="ig11006_01_0085" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="んじゃ、放課後は３人でWasabiに行くってことで！&#xA;決定～！" speaker_show="True" stop="True" voice="ym11003_01_0097" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

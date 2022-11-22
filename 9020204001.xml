@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9020204001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="37_toranomonmo_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="ある日。学校からの帰り道。&#xD;&#xA;乱獅子ゆらは、少々途方に暮れていた。" stop="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="101_Facial_unique" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="お前、なんでついてくんだよ～。" speaker_show="True" stop="True" voice="ry12002_02_0312" />
+    <sound type="Se" cue_name="Cat" volume="100" />
+    <msg window_type="SystemMsg" text="道端で、仔猫に懐かれていたのである。" stop="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="アタシ様、食いモンとか持ってねえぞ……。" speaker_show="True" stop="True" voice="ry12002_02_0313" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="あれ、何してんの？&#xA;ゆらちゃん。" speaker_show="True" stop="True" voice="th12004_02_0305" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="009_Facial_blush" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="はすみん！&#xA;いいとこに来た！" speaker_show="True" stop="True" voice="ry12002_02_0314" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="こいつ、なんとかしてくれ！" speaker_show="True" stop="True" voice="ry12002_02_0315" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Cat" volume="100" />
+    <delete obj_id="乱獅子 ゆら" />
+    <move obj_id="轟 葉栖美" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="おっ、猫さんだ。&#xA;なになに、どしたん～？" speaker_show="True" stop="True" voice="th12004_02_0306" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="……ありゃ、飼い主さんとはぐれちゃったのかー。" speaker_show="True" stop="True" voice="th12004_02_0307" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="轟 葉栖美" text="……ふむふむ……飼い主さんと同じ服を着てる&#xA;ゆらちゃんを⾒つけて、思わずついてきちゃったんだ。" speaker_show="True" stop="True" voice="th12004_02_0308" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="ということは、飼い主さんは⿊百合の⽣徒か〜。" speaker_show="True" stop="True" voice="th12004_02_0309" />
+    <msg_window_show show="False" />
+    <move obj_id="轟 葉栖美" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="……何度⾒てもスゲーな、その能力。" speaker_show="True" stop="True" voice="ry12002_02_0316" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="そういやはすみんは、どういう経緯で&#xA;それ身に付けたんだ？ ⽣まれつき？" speaker_show="True" stop="True" voice="ry12002_02_0317" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="101_Facial_unique" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="轟 葉栖美" text="いやいや、ゆらちゃんじゃないんだから。" speaker_show="True" stop="True" voice="th12004_02_0310" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="んーと、かいつまんで話すと、アタシの家、&#xA;父一人子一人だったんだけど、父親がダメダメでさ。" speaker_show="True" stop="True" voice="th12004_02_0311" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="その父や拾ってきた動物の面倒を⾒てるうちに、&#xA;自然と動物とも意思疎通できるようになったんよ。" speaker_show="True" stop="True" voice="th12004_02_0312" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="それで身につくモンか!?" speaker_show="True" stop="True" voice="ry12002_02_0318" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="016_Facial_smileBitter" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="やっぱ隊⻑や飛粋だけじゃなく、&#xA;はすみんもだいぶぶっ飛んでるよな〜。" speaker_show="True" stop="True" voice="ry12002_02_0319" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" lip_sync="False" text="（……しかし、ダメ父ね……）" speaker_show="True" stop="True" voice="ry12002_02_0320" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="乱獅子 ゆら" lip_sync="False" text="（アタシ様のダディもなかなかのダメっぷりだけど、&#xA;それとはまたベクトル違いそうだぜ……）" speaker_show="True" stop="True" voice="ry12002_02_0321" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="……ほんと、色んな奴がいておもしれーな、&#xA;凪の部隊!!" speaker_show="True" stop="True" voice="ry12002_02_0322" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="おお、なんか雑にまとめたな。" speaker_show="True" stop="True" voice="th12004_02_0313" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="ぶっとんでるって点では、ゆらちゃんが&#xA;ぶっちぎりだと思うけどね……。" speaker_show="True" stop="True" voice="th12004_02_0314" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <create_effect effect_id="Exclamation_hasumi" effect_type="MampExclamation" life_time="1.0" target_obj="轟 葉栖美" x="0" y="0" />
+    <msg speaker="轟 葉栖美" text="……ん？ あの、向こうでキョロキョロしてる⼦って、&#xA;もしかして……" speaker_show="True" stop="True" voice="th12004_02_0315" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="どう？ 猫さん。" speaker_show="True" stop="True" voice="th12004_02_0316" />
+    <sound type="Se" cue_name="Cat" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="……やっぱりそうだ！&#xA;飼い主さん、はっけーん！" speaker_show="True" stop="True" voice="th12004_02_0317" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

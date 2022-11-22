@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3002011003" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound cue_name="Adv6" />
+    <bg show="True" file="25_katrinahouse_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009005" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="はぁ～、今日もいいお湯だった。" speaker_show="True" stop="True" voice="kt11009_01_0276" />
+    <msg speaker="カトリーナ" text="ごえちゃんの言う通り、寒い日に暖かいお風呂に&#xA;浸かるって、最高にリラックス出来て素敵よね。" speaker_show="True" stop="True" voice="kt11009_01_0277" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="あら？　何だか今日はいつもより、&#xA;お肌が瑞々しい気がするわね。" speaker_show="True" stop="True" voice="kt11009_01_0278" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="きっと、ごえちゃんおすすめの入浴剤のお陰ね。" speaker_show="True" stop="True" voice="kt11009_01_0279" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="そうだ、今日買ってきたヘアオイルも、&#xA;早速、使ってみようかしら。" speaker_show="True" stop="True" voice="kt11009_01_0280" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <bg resource_type="Still" file="311009005" />
+    <transition effect="Default" type="In" time="1.0" wait="True" />
+    <msg speaker="カトリーナ" text="うん、香りも素敵だし、&#xA;髪にもスーッと馴染んで、いい感じ。" speaker_show="True" stop="True" voice="kt11009_01_0281" />
+    <msg speaker="カトリーナ" text="くし通りもなめらかだし、手触り気持ちいい。&#xA;ツヤ感はどうかしら？" speaker_show="True" stop="True" voice="kt11009_01_0282" />
+    <msg speaker="カトリーナ" text="凄い！　髪もツヤツヤで綺麗になったけど、&#xA;今日はお肌もいつもよりぷるぷるだわ！" speaker_show="True" stop="True" voice="kt11009_01_0283" />
+    <msg speaker="カトリーナ" text="入浴剤とヘアオイルを変えただけで、&#xA;こんなに変化があるなんて……。" speaker_show="True" stop="True" voice="kt11009_01_0284" />
+    <msg speaker="カトリーナ" text="お風呂の時間って、魔法の変身タイムみたいね。" speaker_show="True" stop="True" voice="kt11009_01_0285" />
+    <msg speaker="カトリーナ" text="入浴剤、選んでくれた&#xA;ごえちゃんに感謝しなくちゃ。" speaker_show="True" stop="True" voice="kt11009_01_0286" />
+    <msg speaker="カトリーナ" text="それにしても、自分でも何度も触りたくなる&#xA;くらいに、お肌も髪もいい感じね。" speaker_show="True" stop="True" voice="kt11009_01_0287" />
+    <msg speaker="カトリーナ" text="今、ごえちゃん達と並んで歩いたら、同年代に&#xA;見られるかも。……なんてね。うふふ。" speaker_show="True" stop="True" voice="kt11009_01_0288" />
+    <msg speaker="カトリーナ" text="こんなに素敵なお風呂タイムが待っていると思えば、&#xA;空崎の寒波もウェルカムだわ。" speaker_show="True" stop="True" voice="kt11009_01_0289" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" time="1.0" wait="True" />
+    <bg file="25_katrinahouse_01" />
+    <create obj_id="カトリーナ" data_id="311009005" />
+    <transition type="In" time="1.0" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="さあ、明日はどの入浴剤にしようかしら♪" speaker_show="True" stop="True" voice="kt11009_01_0290" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="って選ぶのは楽しいけれど、&#xA;……流石にちょっと買いすぎたかしら？" speaker_show="True" stop="True" voice="kt11009_01_0291" />
+    <msg speaker="カトリーナ" text="新発売という言葉を聞くと、ついつい試して&#xA;みたくなるものだけど……。" speaker_show="True" stop="True" voice="kt11009_01_0292" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="テーブルの上がお風呂グッズの山になって&#xA;しまっているものね。" speaker_show="True" stop="True" voice="kt11009_01_0293" />
+    <msg speaker="カトリーナ" text="うーん……。" speaker_show="True" stop="True" voice="kt11009_01_0294" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="そうだ！　今度みんなに、&#xA;おすそ分けをしてあげましょう！" speaker_show="True" stop="True" voice="kt11009_01_0295" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="みんなきっと、喜んでくれるわ。&#xA;うふふ、楽しみ。" speaker_show="True" stop="True" voice="kt11009_01_0296" />
+  </command>
+</adv>

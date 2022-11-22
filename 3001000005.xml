@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3001000005" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <Comment comment="街　空崎駅前 昼" />
+    <bg show="True" file="10_terminalmo_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <msg speaker="男１" text="うおおおー、特に理由はないけど好きだあああー！&#xA;オレの熱い接吻を受け取ってくれえええー！" speaker_show="True" stop="True" voice="99036_01_0001" />
+    <msg speaker="男2" text="や、やめろ……来るな、来るな来るな！&#xA;ウギャアアアアアーッ！" speaker_show="True" stop="True" voice="99037_01_0001" />
+    <msg speaker="女1" text="ね～え、そこのあなた？&#xA;私とそっちの暗がりで愛し合わな～い？" speaker_show="True" stop="True" voice="99038_01_0001" />
+    <msg speaker="女2" text="え？　あの、どちら様ですか？&#xA;そ、それに…私には、ちゃんと……。" speaker_show="True" stop="True" voice="99039_01_0001" />
+    <msg speaker="女1" text="うふふふ、私が誰だって別にいいじゃない。&#xA;さ、こっちにいらっしゃいな。" speaker_show="True" stop="True" voice="99038_01_0002" />
+    <msg speaker="女2" text="あ、やめ…は、離してください…！&#xA;路地は…路地でそういうのは、ダメですよぉ……！" speaker_show="True" stop="True" voice="99039_01_0002" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="た、大変なことになってるわね…&#xA;思っていたのと、だいぶ雰囲気が違うけど…。" speaker_show="True" stop="True" voice="sf11004_01_0260" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="無理やりキスしたり、抱きついたりしてるから、&#xA;暴徒と言えば暴徒…かなぁ？" speaker_show="True" stop="True" voice="mm11001_01_0465" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="それに、何だかちょっと変だよね？&#xA;性別に関係なく、襲いかかってるみたいだし…。" speaker_show="True" stop="True" voice="ig11006_01_0143" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="こちらカトー、３人とも聞こえる？" speaker_show="True" stop="True" voice="kt11009_01_0208" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="はい、こちら百地です。&#xA;今、駅前まで出て来たんですけど…。" speaker_show="True" stop="True" voice="mm11001_01_0466" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="そうね、戸惑うのもわかるわ。&#xA;私も半蔵から状況を聞いた時は驚いたもの。" speaker_show="True" stop="True" voice="kt11009_01_0209" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="でも、だからこそ今回の一件を引き起こした組織も&#xA;特定することができたわ。" speaker_show="True" stop="True" voice="kt11009_01_0210" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="え!?　本当ですか!?" speaker_show="True" stop="True" voice="mm11001_01_0467" />
+    <Comment comment="命令なし。カトーの立ち絵は出す？出さない？" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ええ…ラヴァーズ・アゲイン。&#xA;それが黒幕と思しき組織の名前よ。" speaker_show="True" stop="True" voice="kt11009_01_0211" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="全然聞いたことない組織ですね。" speaker_show="True" stop="True" voice="sf11004_01_0261" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="構成員が10から15名程度の小さな組織だから、&#xA;知らないのも無理ないわ。" speaker_show="True" stop="True" voice="kt11009_01_0212" />
+    <msg speaker="カトリーナ" text="でも、彼らの理想は壮大よ。&#xA;なんたって「世界平和」が目的なんだから。" speaker_show="True" stop="True" voice="kt11009_01_0213" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="せかい、へいわ…？" speaker_show="True" stop="True" voice="mm11001_01_0468" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="彼らは、全人類の思想や思考を統一すれば、&#xA;世界が平和になるって考えてるそうよ。" speaker_show="True" stop="True" voice="kt11009_01_0214" />
+    <msg speaker="カトリーナ" text="そして「性別の垣根を越えた愛」を広めさえすれば、&#xA;それが実現できると思っている。" speaker_show="True" stop="True" voice="kt11009_01_0215" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="今回の一件は、その第一歩ってところね。" speaker_show="True" stop="True" voice="kt11009_01_0216" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="性別の垣根を越えた愛、かぁ…&#xA;それで本当に、世界は平和になるのかなぁ…？" speaker_show="True" stop="True" voice="mm11001_01_0469" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="うーん、どうなんだろうね？" speaker_show="True" stop="True" voice="ig11006_01_0144" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="それはわからないけど…&#xA;ハッキリしていることが１つあるわ。" speaker_show="True" stop="True" voice="sf11004_01_0262" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="なんであれ、連中のやり方は間違ってる。&#xA;ツキカゲとして、見過ごすわけにはいかないわ。" speaker_show="True" stop="True" voice="sf11004_01_0263" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ええ、風魔の言う通りよ。" speaker_show="True" stop="True" voice="kt11009_01_0217" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="街で配布されたチョコを調べた結果、&#xA;それを製造したと思しき、新たな工場が浮上したわ。" speaker_show="True" stop="True" voice="kt11009_01_0218" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ミセス・ショコラティーエも、そこに潜伏している&#xA;と考えて間違いないでしょうね。" speaker_show="True" stop="True" voice="kt11009_01_0219" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="白虎ちゃんとテレジアちゃんを先に向かわせたから、&#xA;みんなも２人に合流してもらえるかしら？" speaker_show="True" stop="True" voice="kt11009_01_0220" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="わかりました、カトリーナさん！&#xA;行こう！　フーちゃん、ごえちゃん！" speaker_show="True" stop="True" voice="mm11001_01_0470" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="バレンタインを、早く正常な姿に戻さなきゃ！" speaker_show="True" stop="True" voice="mm11001_01_0471" />
+  </command>
+</adv>

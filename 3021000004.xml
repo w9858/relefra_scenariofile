@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="08_parkni_02" />
+    <sound cue_name="Briefing" type="Bgm" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="繁華街" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はぁ……何だか疲れました。&#xA;それにしても、葉栖美さんがいるなんて。" speaker_show="True" stop="True" voice="ig11006_03_0061" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="凪の部隊も内偵に入っていたようですね。&#xA;できれば情報交換をしたいところですが……。" speaker_show="True" stop="True" voice="ah11005_03_0076" />
+    <sound type="Se" cue_name="owl" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="師匠、モノミが来ています。閉店後に出てくる&#xA;葉栖美さんに、合流要請の伝言を託しましょう。" speaker_show="True" stop="True" voice="ig11006_03_0062" />
+    <sound type="Se" cue_name="Monomi" />
+    <wait time="1.0" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <bg file="02_wasabini_001" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-300" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" />
+    <msg speaker="轟 葉栖美" text="いやー、お疲れ！　２人の顔を見た時は&#xA;流石にビックリしちゃったよー。" speaker_show="True" stop="True" voice="th12004_03_0043" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" />
+    <msg speaker="青葉 初芽" text="フフッ、それはお互い様です。&#xA;葉栖美ちゃんも、あの店に潜入捜査で？" speaker_show="True" stop="True" voice="ah11005_03_0077" />
+    <char_spine_animation force_end="False" loop="False" obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" />
+    <msg speaker="轟 葉栖美" text="そう。前から目をつけてたドラッグのバイヤーが&#xA;頻繁にあの店へ出入りしててさ。この写真の奴。" speaker_show="True" stop="True" voice="th12004_03_0044" />
+    <sound type="Se" cue_name="Paper" />
+    <wait time="1.0" />
+    <char_spine_animation force_end="False" loop="True" obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="カトリーナ" text="………生憎と見ない顔だわ。&#xA;捌いているのは、どういう類のドラッグ？" speaker_show="True" stop="True" voice="kt11009_03_0079" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="轟 葉栖美" text="新型の合成麻薬で、もちろん違法。&#xA;いわゆるアッパー系ってやつ。強烈なタイプのね。" speaker_show="True" stop="True" voice="th12004_03_0045" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="轟 葉栖美" text="摂取すると気が大きくなって、痛みとか悲しみなんかの&#xA;苦痛は一切感じなくなり、超アゲアゲになるみたい。" speaker_show="True" stop="True" voice="th12004_03_0046" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="200" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え、カジノでそんな気分になったら……。" speaker_show="True" stop="True" voice="ig11006_03_0063" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あ！　お金いっぱい使っちゃうよね!?" speaker_show="True" stop="True" voice="mm11001_03_0072" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="なるほど……。客に何らかの方法で薬物を投与し&#xA;意識を操作して法外な金を賭けさせる手口か……。" speaker_show="True" stop="True" voice="hy11002_03_0073" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="被害に遭った人の証言とも合ってるよ。&#xA;記憶が曖昧になるのは、薬が切れたせいだね。" speaker_show="True" stop="True" voice="ks11010_03_0053" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="違法カジノに麻薬のツーペアか～。&#xA;で、このヤマどーすんの？　ウチら手を引く？" speaker_show="True" stop="True" voice="ym11003_03_0086" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="300" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="0" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="轟 葉栖美" text="さっき、しぶきちと連絡とって相談したんだけど&#xA;できればツキカゲと合同捜査にしてほしいな。" speaker_show="True" stop="True" voice="th12004_03_0047" />
+    <char_spine_animation force_end="False" loop="True" obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="カトリーナ" text="そうね、すでにお互いを知っている凪の部隊となら&#xA;こちらもスムーズに動けるんじゃないかしら？" speaker_show="True" stop="True" voice="kt11009_03_0080" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。では、協力体制をとり、今回の違法カジノの&#xA;調査を進めていきましょう。" speaker_show="True" stop="True" voice="hy11002_03_0074" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="-200" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おい！　ところで、店はどうだった？&#xA;何か美味い物は食えたのか？" speaker_show="True" stop="True" voice="bk11008_03_0056" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="それより、オーナーはどんな奴だ？" speaker_show="True" stop="True" voice="tr11007_03_0028" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-300" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="石川 五恵" text="どんな……ぇえと、サングラスに黒いスーツで&#xA;どこかで見たことあるような……。" speaker_show="True" stop="True" voice="ig11006_03_0064" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="青葉 初芽" text="言ってる事は変わっているのに、&#xA;何だか印象の薄い方でしたね……。" speaker_show="True" stop="True" voice="ah11005_03_0078" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="轟 葉栖美" text="あいつね～。ボスのくせに、どこにでもいる感じで&#xA;特徴がなくて、モンタージュ作りにくいタイプ！" speaker_show="True" stop="True" voice="th12004_03_0048" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-200" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="高坂 信" text="な、なんか親近感が……。" speaker_show="True" stop="True" voice="ks11010_03_0054" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="相模 楓" text="陰が薄くても、違法カジノを仕切るくらいだから&#xA;それなりの実力者なんじゃ……何て名前ですか？" speaker_show="True" stop="True" voice="sf11004_03_0063" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="200" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" />
+    <lip_sync target1="青葉 初芽" target2="石川 五恵" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="初芽・五恵" text="あ。" speaker_show="True" stop="True" voice="3021000004_union_001" />
+    <delete obj_id="石川 五恵" />
+    <move obj_id="青葉 初芽" position_id="left" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="300" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="そういえば、あの方は御自分を『オーナー』としか&#xA;名乗られませんでしたね……。" speaker_show="True" stop="True" voice="ah11005_03_0080" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="八千代 命" text="え、もしかして相手はあえて名前を伏せて&#xA;正体を隠しているとか？" speaker_show="True" stop="True" voice="ym11003_03_0087" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" />
+    <msg speaker="源 モモ" text="それって、実は裏社会では名の通った&#xA;大物かもしれないってこと!?" speaker_show="True" stop="True" voice="mm11001_03_0073" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="300" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="轟 葉栖美" text="どうかなぁ。あんな奴、ブラックリストで&#xA;見た記憶ないんだけど……。" speaker_show="True" stop="True" voice="th12004_03_0049" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="青葉 初芽" text="とにかく、明日からは常に通信機をオンにして&#xA;本部に情報を流しつつ、探っていくとしましょう。" speaker_show="True" stop="True" voice="ah11005_03_0081" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <wait time="2" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

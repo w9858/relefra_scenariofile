@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9020203001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="35_shibukiandhasumiroom_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="イエーイ!!&#xA;今夜はパジャマパーティーだぜ、フーゥ!!" speaker_show="True" stop="True" voice="ry12002_02_0286" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="あまりはしゃぐでない。他の寮生から苦情が&#xA;来たりしたら、しぶきがお前さんをこってり絞るぞ。" speaker_show="True" stop="True" voice="ss12003_02_0292" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="わりぃわりぃ、ついテンション上がっちまって、&#xA;じっとしてらんねーんだよ。" speaker_show="True" stop="True" voice="ry12002_02_0287" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="飛粋とはすみん、早く買い出しから&#xA;帰ってこねーかなー！" speaker_show="True" stop="True" voice="ry12002_02_0288" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="ふむ……&#xA;ま、たしかに手持ち無沙汰ではあるの。" speaker_show="True" stop="True" voice="ss12003_02_0293" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="……そうじゃ！" speaker_show="True" stop="True" voice="ss12003_02_0294" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="お。なんだなんだ？" speaker_show="True" stop="True" voice="ry12002_02_0289" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="折角のパジャマパーティーじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0295" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="はっすー達が帰ってくるまでに、&#xA;２人で部屋を可愛く飾りつけるのはどうかの？" speaker_show="True" stop="True" voice="ss12003_02_0296" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="お、いーじゃんいーじゃん！" speaker_show="True" stop="True" voice="ry12002_02_0290" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="でも、アタシ様、飾りつけに&#xA;使えそうなもんなんて持ってねーぞ？" speaker_show="True" stop="True" voice="ry12002_02_0291" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="しぶきが良いものを持っておる。&#xA;ちょっと待っておれ。" speaker_show="True" stop="True" voice="ss12003_02_0297" />
+    <msg_window_show show="False" />
+    <delete obj_id="薩摩 しぶき" />
+    <sound type="Se" cue_name="Coins" />
+    <Comment comment="//【SE】ごそごそと引き出しを探る音。" />
+    <wait time="1.0" />
+    <msg speaker="薩摩 しぶき" text="この間、はっすーと遊んだ後、&#xA;確かここに……" speaker_show="True" stop="True" voice="ss12003_02_0298" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="……お、あったぞ！" speaker_show="True" stop="True" voice="ss12003_02_0299" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Monomi1" />
+    <Comment comment="//【SE】バサバサッと千代紙をテーブルに置く音" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="千代紙じゃ！" speaker_show="True" stop="True" voice="ss12003_02_0300" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="009_Facial_blush" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="千代紙ぃ～？&#xA;はーっ、相変わらず、ちっこいくせにババくせーな～。" speaker_show="True" stop="True" voice="ry12002_02_0292" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Spike" />
+    <Comment comment="//【SE】バシンッと尻叩きする音" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="うぎゃんっ!?&#xA;いきなり尻叩き食らわせるこたねーだろ!?" speaker_show="True" stop="True" voice="ry12002_02_0293" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="ふん。&#xA;しぶきをちっこいなどと言う奴にはおしおきじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0301" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="それに、千代紙をバカにするでないぞ。&#xA;見ておれ……！" speaker_show="True" stop="True" voice="ss12003_02_0302" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <Comment comment="//【SE】シュババババッと高速で折り紙する音" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="——!!&#xA;なんだその超絶技巧折り紙!!" speaker_show="True" stop="True" voice="ry12002_02_0294" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="あっという間に花が出来ちまった!!&#xA;スゲー!!!!" speaker_show="True" stop="True" voice="ry12002_02_0295" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="アタシ様にもやらせろー!!" speaker_show="True" stop="True" voice="ry12002_02_0296" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Paper" />
+    <Comment comment="//【SE】折り紙をぐしゃぐしゃにする音" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="ふっふっふ、思い知ったかの……&#xA;って、あー!! ちょっと待て!!" speaker_show="True" stop="True" voice="ss12003_02_0303" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="お前さん、なんでいつもそう雑なんじゃ!!" speaker_show="True" stop="True" voice="ss12003_02_0304" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ちまちましてんのは性に合わねーんだよ!!&#xA;おりゃあああああ!!" speaker_show="True" stop="True" voice="ry12002_02_0297" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Paper" />
+    <Comment comment="//【SE】折り紙をぐしゃぐしゃにする音" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="020_Facial_thinking" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="薩摩 しぶき" text="あーもう見てられん!!&#xA;しぶきが教えてやるから、一緒に折るのじゃ！" speaker_show="True" stop="True" voice="ss12003_02_0305" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="お、マジで？&#xA;おせーておせーて♪" speaker_show="True" stop="True" voice="ry12002_02_0298" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="仕方ない奴じゃの……&#xA;ほれ、最初はこことここの角を合わせてじゃな……" speaker_show="True" stop="True" voice="ss12003_02_0306" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ふむふむふむ……" speaker_show="True" stop="True" voice="ry12002_02_0299" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="乱獅子 ゆら" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="よっしゃ、飾りつけ完了～！" speaker_show="True" stop="True" voice="ry12002_02_0300" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="なんだか、ところどころ、かなりダイナミックな&#xA;感じもするが……まあ、いいじゃろ。" speaker_show="True" stop="True" voice="ss12003_02_0307" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="上出来上出来！&#xA;アタシ様と隊長らしい、ご機嫌なヤツができたぜ！" speaker_show="True" stop="True" voice="ry12002_02_0301" />
+  </command>
+</adv>

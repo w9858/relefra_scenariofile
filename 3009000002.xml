@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3009000002" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="10_terminalmo_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="駅前" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="そして、翌日の朝。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="019_Facial_damage" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ふわぁ～あ……&#xA;みんなぁ……おはよ～。" speaker_show="True" stop="True" voice="ym11003_02_0156" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="師匠ってば、はしたないですよ。&#xA;夜遅くまでゲームしてるからです！" speaker_show="True" stop="True" voice="sf11004_02_0212" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="う～、立ったまま寝ちゃいそう。" speaker_show="True" stop="True" voice="ym11003_02_0157" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="もう、メイちゃんってば……。睡眠不足でも&#xA;ぐっとこらえるのが乙女のたしなみだよ。" speaker_show="True" stop="True" voice="ks11010_02_0082" />
+    <create_effect effect_id="Sleep_mei" effect_type="MampSleep" life_time="0" target_obj="八千代 命" x="0" y="0" attach_head_bone="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="020_Facial_thinking" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="はーい……Ｚｚｚ……。" speaker_show="True" stop="True" voice="ym11003_02_0158" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Exclamation_huu" effect_type="MampExclamation" life_time="0" target_obj="相模 楓" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="相模 楓" text="返事しながら寝てる！" speaker_show="True" stop="True" voice="sf11004_02_0213" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="Exclamation_huu" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="今日は、このままの服で&#xA;ツキカゲの活動しちゃってもいいんですか？" speaker_show="True" stop="True" voice="mm11001_02_0180" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="秘密裏にというわけではありませんから&#xA;制服のままで大丈夫ですよ。" speaker_show="True" stop="True" voice="ah11005_02_0219" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="ゴミ拾いが終わったら、そのまま&#xA;学校にも行かなくちゃだしね。" speaker_show="True" stop="True" voice="ig11006_02_0069" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="さて、始めましょう。小さなことでも、&#xA;誰かがやらないと街は荒んでいくわ。" speaker_show="True" stop="True" voice="hy11002_02_0176" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="街の美観が悪化すると犯罪発生率が&#xA;上がるというデータもある。" speaker_show="True" stop="True" voice="hy11002_02_0177" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="心は一つ、空崎のため――&#xA;ツキカゲ、出動よ！" speaker_show="True" stop="True" voice="hy11002_02_0178" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <bg show="True" resource_type="Background" file="04_shopstreetmo_04" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="商店街" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="むむ……やっぱり&#xA;けっこう散らかってるなぁ。" speaker_show="True" stop="True" voice="mm11001_02_0181" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="じゃ、ゴミ袋に入れてくかー。&#xA;ほいほいっと。" speaker_show="True" stop="True" voice="ym11003_02_0159" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="メイが投げるから、フーは&#xA;袋構えて受け取ってね。とりゃっ！" speaker_show="True" stop="True" voice="ym11003_02_0160" />
+    <Comment comment="小さく軽いゴミが投擲された「ピューッ」みたな音。" />
+    <sound type="Se" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <Comment comment="相模楓がゴミ袋を広げている「ガサガサ」のような音。" />
+    <sound type="Se" />
+    <msg speaker="相模 楓" text="ちょ、遊ばないでくださいよ師匠、&#xA;もうっ。" speaker_show="True" stop="True" voice="sf11004_02_0214" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="メイちゃん、フーちゃん、&#xA;こっちにもゴミがあるよー。" speaker_show="True" stop="True" voice="ks11010_02_0083" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="一之瀬 梅子" text="あら、モモちゃん、みんな。&#xA;おはよう。ずいぶん早いねぇ。" speaker_show="True" stop="True" voice="mb_02_0002" />
+    <msg speaker="諸星 明" text="おはようさん、モモちゃん。" speaker_show="True" stop="True" voice="ma99004_02_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <create_effect effect_id="Smile_momo" effect_type="MampSmile" life_time="1.5" target_obj="源 モモ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="源 モモ" text="あ、お２人とも、&#xA;おはようございますっ！" speaker_show="True" stop="True" voice="mm11001_02_0182" />
+    <msg speaker="一之瀬 梅子" text="友達と一緒に、街の掃除かい？&#xA;今時の若者は感心だねぇ。" speaker_show="True" stop="True" voice="mb_02_0003" />
+    <msg speaker="諸星 明" text="終わったら、うちのコロッケ食っていきな。&#xA;サービスするからさ！" speaker_show="True" stop="True" voice="ma99004_02_0003" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile_momo" effect_type="MampSmile" life_time="1.5" target_obj="源 モモ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="源 モモ" text="本当ですか？&#xA;ありがとうございますっ！" speaker_show="True" stop="True" voice="mm11001_02_0183" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="うぅん……&#xA;お店の方から、いい匂いがするよぉ……。" speaker_show="True" stop="True" voice="mm11001_02_0184" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="美味しいコロッケのためにも、&#xA;頑張らなくちゃ！" speaker_show="True" stop="True" voice="mm11001_02_0185" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="新垣 歩" text="おはよう、モモちゃん。&#xA;大きなゴミ袋まで持って本格的ね。" speaker_show="True" stop="True" voice="na99003_02_0001" />
+    <msg speaker="新垣 歩" text="ごめんねー、花の女子高生に&#xA;こんなことやらせちゃって。" speaker_show="True" stop="True" voice="na99003_02_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="いえ、私が好きでやってることですから！" speaker_show="True" stop="True" voice="mm11001_02_0186" />
+    <msg speaker="新垣 歩" text="本当にありがとう。私たちの方でも、&#xA;ポイ捨て対策を考えなくちゃ。" speaker_show="True" stop="True" voice="na99003_02_0003" />
+    <msg speaker="新垣 歩" text="私たちも空崎を今よりももっと&#xA;いい街にしたいからね！" speaker_show="True" stop="True" voice="na99003_02_0004" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="歩さん……&#xA;私たちも頑張りますっ！" speaker_show="True" stop="True" voice="mm11001_02_0187" />
+    <msg_window_show show="False" />
+    <delete obj_id="源 モモ" />
+    <msg window_type="SystemMsg" text="その後もツキカゲのメンバーは&#xA;ゴミ拾いを続け……" stop="True" />
+    <msg window_type="SystemMsg" text="登校する時間には、&#xA;通りは以前より綺麗になっていた。" stop="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

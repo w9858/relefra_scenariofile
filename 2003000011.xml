@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000011" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM08_Quest3" />
+    <sound type="Bgm" cue_name="Quest3" />
+    <bg show="True" file="23_rivermo_01" color="#787878ff" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="河川敷" in_time="0.5" show_time="1.5" out_time="0.5" wait="True" />
+    <Comment comment="信:私服（夏）" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="イ、イヴァンカさん……！&#xA;ここで爆弾が爆発したりしたら……" speaker_show="True" stop="True" voice="ks11010_01_0158" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="イヴァンカ" data_id="311009006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="ええ……橋が落ちて、死傷者が出る可能性がある。&#xA;急いで解除の方法を調べないと……" speaker_show="True" stop="True" voice="kt11009_01_0168" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】カチャカチャと爆弾を調べる音" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（爆弾内部に携帯電話が仕込まれてる……この携帯が&#xA;特定のメールを受信した瞬間、爆発する仕組みね）" speaker_show="True" stop="True" voice="kt11009_01_0169" lip_sync="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（おそらく、爆破予定時間にこの携帯電話宛てに&#xA;メールが送られるよう指定してある）" speaker_show="True" stop="True" voice="kt11009_01_0170" lip_sync="False" />
+    <msg speaker="イヴァンカ" text="（携帯電話を取り外したり解体すれば、&#xA;その瞬間に爆発する危険性が高い。となれば……）" speaker_show="True" stop="True" voice="kt11009_01_0171" lip_sync="False" />
+    <msg_window_show show="False" />
+    <move obj_id="イヴァンカ" position_id="left" x="0" x_move_type="MoveTo" time="1.0" wait="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <Comment comment="【SE】ドカッと蹴る音" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1" />
+    <shake target="MsgWindow" obj_id="爆弾魔" x="10" y="10" time="0.3" />
+    <msg speaker="爆弾魔" text="ぐはっ……。" speaker_show="True" stop="True" voice="99031_01_0017" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="あなたのスマホを渡しなさい。" speaker_show="True" stop="True" voice="kt11009_01_0172" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="あなたのアカウントでメールサーバーにログインして&#xA;メールの送信を止めれば、爆破を阻止できるのよね？" speaker_show="True" stop="True" voice="kt11009_01_0173" />
+    <msg speaker="爆弾魔" text="……ふん、こんなもの、欲しけりゃやるよ。" speaker_show="True" stop="True" voice="99031_01_0018" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】スマホをカトリーナに放る音" />
+    <sound type="Se" cue_name="Monomi1" />
+    <wait time="1.0" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（くっ……爆発まで、あと３分……&#xA;こいつを拷問してパスワードを聞き出す時間はない……）" speaker_show="True" stop="True" voice="kt11009_01_0174" lip_sync="False" />
+    <msg_window_show show="False" />
+    <Comment comment="信:私服（夏）" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="400" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="True" loop="True" to_idle="False" />
+    <move obj_id="高坂 信" position_id="left" x="200" x_move_type="MoveTo" time="0" wait="False" />
+    <move obj_id="イヴァンカ" position_id="left" x="-200" x_move_type="MoveTo" time="0" wait="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……シン。&#xA;あなたは逃げなさい。" speaker_show="True" stop="True" voice="kt11009_01_0175" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="え……！&#xA;イヴァンカさんはどうするつもりですか!?" speaker_show="True" stop="True" voice="ks11010_01_0159" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="私はパスワードを探して、爆発を阻止する。&#xA;でも、あなたまで危険に付き合う必要はない。" speaker_show="True" stop="True" voice="kt11009_01_0176" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ありますよ！　２人で探した方が早いはずです！&#xA;空崎の人たちを守るためにも、放っておけません！" speaker_show="True" stop="True" voice="ks11010_01_0160" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="他人のために動くのは弱者の生き方だと言ったはず。&#xA;自分の安全を優先し、この場を去るのが正しい選択よ。" speaker_show="True" stop="True" voice="kt11009_01_0177" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="他人のために行動するには勇気がいります！&#xA;他人を頼ることも！" speaker_show="True" stop="True" voice="ks11010_01_0161" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="自分を他人に委ねるのは、とても不安なことですから！&#xA;それができないのは……ただの臆病者です！" speaker_show="True" stop="True" voice="ks11010_01_0162" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……私が臆病、と？" speaker_show="True" stop="True" voice="kt11009_01_0178" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="……それに信は、イヴァンカさんを放っておけません。" speaker_show="True" stop="True" voice="ks11010_01_0163" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……！" speaker_show="True" stop="True" voice="kt11009_01_0179" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（……私は、未熟なシンのことを見下して、いつも&#xA;高圧的な態度で接していた。嫌われて当然だった）" speaker_show="True" stop="True" voice="kt11009_01_0180" lip_sync="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（それなのに……そんな私のことを、命のかかった&#xA;土壇場で放っておけないだなんて……）" speaker_show="True" stop="True" voice="kt11009_01_0181" lip_sync="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="…………。" speaker_show="True" stop="True" voice="kt11009_01_0182" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……わかったわ。だったらあなたはこの男の荷物を&#xA;調べて、パスワードになりそうなものを見つけて。" speaker_show="True" stop="True" voice="kt11009_01_0183" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="私はその間に、思いつく限りのパスワードを試すわ。" speaker_show="True" stop="True" voice="kt11009_01_0184" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="了解ですっ！" speaker_show="True" stop="True" voice="ks11010_01_0164" />
+    <msg_window_show show="False" />
+    <move obj_id="高坂 信" position_id="left" x="1500" x_move_type="MoveTo" time="2" wait="True" />
+    <delete obj_id="高坂 信" />
+    <move obj_id="イヴァンカ" position_id="left" x="0" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <Comment comment="【SE】パスワード入力音" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="3.0" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="誕生日、生年月日の組み換え、名前と誕生日の&#xA;組み合わせ……どれも違う……" speaker_show="True" stop="True" voice="kt11009_01_0185" />
+    <msg_window_show show="False" />
+    <create obj_id="高坂 信" data_id="311010003" position_id="left" x="800" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="True" loop="True" to_idle="False" />
+    <move obj_id="イヴァンカ" position_id="left" x="-200" x_move_type="MoveTo" time="1.0" />
+    <move obj_id="高坂 信" position_id="left" x="200" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="イヴァンカさん、この手帳！&#xA;犯行関係のメモが書かれてます！" speaker_show="True" stop="True" voice="ks11010_01_0165" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="本当だわ……！　過去の爆弾の設置地点、被害者の数、&#xA;爆薬精製の化学反応式、材料の入手ルート……" speaker_show="True" stop="True" voice="kt11009_01_0186" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（もう時間が無い……&#xA;この中にヒントがあることに賭けるしかない……！）" speaker_show="True" stop="True" voice="kt11009_01_0187" lip_sync="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（考えろ……&#xA;この爆弾魔にとって、最も重要なワードは何……？）" speaker_show="True" stop="True" voice="kt11009_01_0188" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="イヴァンカさん……！&#xA;残り10秒です……!!" speaker_show="True" stop="True" voice="ks11010_01_0166" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="………………これしかない。" speaker_show="True" stop="True" voice="kt11009_01_0189" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <Comment comment="【SE】パスワード入力音" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1.0" />
+    <msg window_type="SystemMsg" text="カトリーナが打ち込んだのは――&#xA;犯人が独自精製した爆薬の化学式。" stop="True" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="True" loop="True" to_idle="False" />
+    <Comment comment="【SE】爆弾解除音" />
+    <sound type="Se" cue_name="Camera" />
+    <wait time="1.0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……やった……！&#xA;解除できたー!!!!" speaker_show="True" stop="True" voice="ks11010_01_0167" />
+  </command>
+</adv>

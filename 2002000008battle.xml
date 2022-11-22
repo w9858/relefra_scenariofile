@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000008" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="ダンジョン　潜入パート" />
+    <Comment comment="バトル中ADVパート" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" x="300" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="-300" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="ふぁー。ようやく雷雲酔いも戻ってきた。&#xA;地に足がつくって良いなぁホント。……ん？" speaker_show="True" stop="True" voice="th12004_01_0066" />
+    <msg_window_show show="False" />
+    <move obj_id="薩摩 しぶき" x="-225" x_move_type="MoveTo" position_id="left" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="轟 葉栖美" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" position_id="left" />
+    <move obj_id="宗近 飛粋" x="-450" x_move_type="MoveTo" position_id="left" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="450" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ファッーーークス。お客様じゃねーか。&#xA;アタシ様はこの取引の立会人だ。超ヨロシクちゃん。" speaker_show="True" stop="True" voice="ry12002_01_0035" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="しっかしこんな北の果てまでよーくるなアンタら。&#xA;国の人間？　たいして給料もらってないだろうに。" speaker_show="True" stop="True" voice="ry12002_01_0036" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="まーアタシ様ってば退屈してたから丁度いいや。&#xA;遊ぼうよ。敗北したら蟹の餌な！　ホイ決まりぃ！" speaker_show="True" stop="True" voice="ry12002_01_0037" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="く、口をはさむ暇が無いね。&#xA;遊ぶって言うのは……わー問答無用に来たぁ！" speaker_show="True" stop="True" voice="mh12001_01_0101" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <Comment comment="戦闘終了" />
+  </command>
+</adv>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_007" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="35_shibukiandhasumiroom_01" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="轟葉栖美" data_id="312004002" type="Character" />
+    <char_spine_animation obj_id="轟葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" />
+    <msg speaker="轟葉栖美" stop="True" window_type="CharMsg" lip_sync_volume="0.01" text="お！？　ちゃんと覚えてくれてたんだ！&#xA;今日は8月10日……そう！　アタシの誕生日！" voice="hasumi_001" />
+    <char_spine_animation obj_id="轟葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="轟葉栖美" face_anim_type="002_Facial_smile" loop="True" />
+    <msg speaker="轟葉栖美" stop="True" window_type="CharMsg" text="今日はたくさんの動物さんたちまで&#xA;早速お祝いに駆けつけてくれてさ。" voice="hasumi_002" />
+    <char_spine_animation obj_id="轟葉栖美" loop="True" body_anim_type="07_ChestBothHands" face_anim_type="003_Facial_laugh" />
+    <msg speaker="轟葉栖美" stop="True" window_type="CharMsg" voice="hasumi_003" text="アタシってほんと幸せだなーって思うよ、マジで。" />
+    <char_spine_animation obj_id="轟葉栖美" face_anim_type="002_Facial_smile" loop="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="轟葉栖美" stop="True" window_type="CharMsg" text="ほんと、ありがとね。" voice="hasumi_004" />
+    <char_spine_animation obj_id="轟葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" mixing="True" />
+    <msg speaker="轟葉栖美" stop="True" window_type="CharMsg" text="これからもみんなのサポート役として、&#xA;しっかり貢献していくからね。よろしくー♪" voice="hasumi_005" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+  </command>
+</adv>

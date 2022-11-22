@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000018battle" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="ＺＥＴノブナガと確認、標的！" speaker_show="True" stop="True" voice="ar16004_02_0050" />
+    <move obj_id="アルム" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="やっぱりまた会ったわねアルム。&#xA;……って今回は助っ人付き？" speaker_show="True" stop="True" voice="sr13001_02_0334" />
+    <msg speaker="アルム" text="新型ジャバウオックだ。消去を開始する。" speaker_show="True" stop="True" voice="ar16004_02_0051" />
+    <sound_stop cue_name="Quest2" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

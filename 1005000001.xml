@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1005000001" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="26_hatsumehousemo_02" resource_type="Background" />
+    <Comment comment="青葉家タワーマンション エントランス" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <sound_volume type="Bgm" time="1.0" cue_name="Adv1" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="初芽の部屋" wait="True" in_time="0.5" show_time="0.5" out_time="0.5" />
+    <Comment comment="Adv6" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" x="450" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" x="-1000" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" x="-1000" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" x="-1000" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" loop="True" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" loop="True" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="True" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" loop="True" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="True" to_idle="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="1.0" />
+    <move obj_id="テレジア" x="0" x_move_type="MoveTo" time="1.0" y="0" y_move_type="MoveValue" wait="False" position_id="left" />
+    <move obj_id="青葉 初芽" x="-225" x_move_type="MoveTo" time="1.0" y="0" wait="False" y_move_type="MoveValue" position_id="left" />
+    <move obj_id="白虎" x="-450" x_move_type="MoveTo" time="1.0" wait="True" y="0" y_move_type="MoveValue" position_id="left" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="おはよう、テレちゃん。" speaker_show="True" stop="True" voice="ig11006_01_0053" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="五恵。待っていてくれたのか。" speaker_show="True" stop="True" voice="tr11007_01_0033" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="優しいですねぇごえちゃん。&#xA;それじゃ登校しましょうか。" speaker_show="True" stop="True" voice="ah11005_01_0045" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="白虎" text="高校は楽しそうだな～。&#xA;私はカトリーナの店行こ！" speaker_show="True" stop="True" voice="bk11008_01_0028" />
+    <msg_window_show show="False" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="白虎" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" x="200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="おい、白虎。&#xA;カトリーナの言う事はしっかり聞くんだぞ。" speaker_show="True" stop="True" voice="tr11007_01_0034" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="白虎" text="分かってるよそんなの。" speaker_show="True" stop="True" voice="bk11008_01_0029" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="動物たちと遊ぶのはいいが、手加減しろ。&#xA;お前は力が強いんだ。" speaker_show="True" stop="True" voice="tr11007_01_0035" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="白虎" text="それもわーっとる！　お前は母親か！？" speaker_show="True" stop="True" voice="bk11008_01_0030" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="白虎" text="テレ公こそ高校でイジメられんなよ。&#xA;なんかあったら私を頼ってもいいぞ。" speaker_show="True" stop="True" voice="bk11008_01_0031" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <msg window_type="SystemMsg" text="怪我が治ったテレジアは、空崎高校に&#xA;復学という形をとる事になっていた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg file="23_rivermo_01" show="True" />
+    <transition type="In" color_change="False" wait="True" />
+    <telop text="河川敷　朝" wait="True" in_time="0.5" show_time="0.5" out_time="0.5" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" x="300" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" x="0" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" x="-300" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="02_Idle" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="テレちゃんと白虎ちゃん、すっかり&#xA;仲良しだね。" speaker_show="True" stop="True" voice="ig11006_01_0054" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" />
+    <msg speaker="青葉 初芽" text="白虎ちゃん、寝る時、&#xA;テレちゃんにくっついて寝てるんですよ。" speaker_show="True" stop="True" voice="ah11005_01_0046" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" />
+    <msg speaker="石川 五恵" text="えっ、白虎ちゃんが？&#xA;いいなぁ。あ。ごほん！" speaker_show="True" stop="True" voice="ig11006_01_0055" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="02_Idle" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="テレジア" text="受け入れてもらった立場だ。&#xA;私も白虎も、粗相はしたくない。" speaker_show="True" stop="True" voice="tr11007_01_0036" />
+    <char_spine_animation obj_id="青葉 初芽" loop="True" body_anim_type="04_HipLeftHand" face_anim_type="002_Facial_smile" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="そんな気を遣わなくていいんですよ&#xA;テレちゃん、つんつん。" speaker_show="True" stop="True" voice="ah11005_01_0047" />
+    <move obj_id="青葉 初芽" x="-80" x_move_type="MoveValue" time="0.3" wait="True" />
+    <sound cue_name="PushTheBody" />
+    <move obj_id="青葉 初芽" x="30" x_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="青葉 初芽" x="-30" x_move_type="MoveValue" time="0.3" wait="True" />
+    <sound cue_name="PushTheBody" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" loop="True" force_end="False" to_idle="False" />
+    <create_effect effect_id="Sweat_テレジア" effect_type="MampSweat" life_time="1.0" target_obj="テレジア" />
+    <msg speaker="テレジア" text="ふわっ！？　は、初芽！" speaker_show="True" stop="True" voice="tr11007_01_0037" />
+    <move obj_id="青葉 初芽" x="0" time="0.2" x_move_type="MoveTo" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="高校生活を楽しんで下さいね。" speaker_show="True" stop="True" voice="ah11005_01_0048" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="そういう任務だと思えば、たやすいが。" speaker_show="True" stop="True" voice="tr11007_01_0038" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="違うよテレちゃん。心から楽しんでいいんだよ。" speaker_show="True" stop="True" voice="ig11006_01_0056" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="そこがよく分からない、&#xA;抜かりなくは、やれると思うが……。" speaker_show="True" stop="True" voice="tr11007_01_0039" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="そこが固いんですよ、つんつん。" speaker_show="True" stop="True" voice="ah11005_01_0049" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" loop="True" body_anim_type="04_HipLeftHand" force_end="False" to_idle="False" />
+    <move obj_id="青葉 初芽" x="-80" x_move_type="MoveValue" time="0.3" wait="True" />
+    <sound cue_name="PushTheBody" />
+    <move obj_id="青葉 初芽" x="30" x_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="青葉 初芽" x="-30" x_move_type="MoveValue" time="0.3" wait="True" />
+    <sound cue_name="PushTheBody" />
+    <create_effect effect_id="Sweat_テレジア" effect_type="MampSweat" life_time="1.0" target_obj="テレジア" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="ふわっ！？　だ、だから初芽！" speaker_show="True" stop="True" voice="tr11007_01_0040" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <move obj_id="青葉 初芽" x="0" time="0.5" x_move_type="MoveTo" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="09_PutHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="くすぐったがりなんですテレちゃん。&#xA;よく部屋の中で白虎ちゃんとじゃれてます。" speaker_show="True" stop="True" voice="ah11005_01_0050" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="えっ、白虎ちゃんと？&#xA;いいなぁ。う。ごほん！　そうじゃなくて……。" speaker_show="True" stop="True" voice="ig11006_01_0057" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <msg window_type="SystemMsg" text="五恵は、テレジアの手をきゅっと握った。" stop="True" />
+    <msg_window_show show="False" />
+    <move obj_id="石川 五恵" x="-50" time="0.5" x_move_type="MoveTo" />
+    <move obj_id="青葉 初芽" x="300" time="0.5" x_move_type="MoveTo" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="いわゆる普通の高校生活についてなら、&#xA;私が先輩だから任せて。" speaker_show="True" stop="True" voice="ig11006_01_0058" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="07_ChestBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="……ああ。勉強させてもらう。" speaker_show="True" stop="True" voice="tr11007_01_0041" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_eye obj_id="青葉 初芽" type="Eye03_tear" loop="True" />
+    <msg speaker="青葉 初芽" text="ごえちゃん。テレちゃんをリードして。&#xA;頼もしくなりましたね。目頭が……。" speaker_show="True" stop="True" voice="ah11005_01_0051" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" loop="True" force_end="False" to_idle="False" />
+    <move obj_id="石川 五恵" x="0" time="0.5" x_move_type="MoveTo" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <char_spine_eye obj_id="青葉 初芽" type="Eye01_default" loop="True" />
+    <msg speaker="青葉 初芽" text="というか、フム！　ふむふむ！！&#xA;今思いつきましたけど。" speaker_show="True" stop="True" voice="ah11005_01_0052" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="テレちゃんはツキカゲの中でポジションが&#xA;定まっているわけではありません。" speaker_show="True" stop="True" voice="ah11005_01_0053" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="誰かの弟子というわけではないな。" speaker_show="True" stop="True" voice="tr11007_01_0042" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="もう師匠クラスなんじゃないの？" speaker_show="True" stop="True" voice="ig11006_01_0059" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="お前や初芽に負けていただろう。&#xA;まだ師匠には遠い。" speaker_show="True" stop="True" voice="tr11007_01_0043" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="私の弟子は既にごえちゃんがいます。&#xA;師匠一人に弟子は一人、これは鉄則。" speaker_show="True" stop="True" voice="ah11005_01_0054" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="そこでテレちゃんはごえちゃんの&#xA;弟子ポジションでどうでしょうか？" speaker_show="True" stop="True" voice="ah11005_01_0055" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="ええっ、わ、私が師匠なんてそんな。" speaker_show="True" stop="True" voice="ig11006_01_0060" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="同じ年齢のメイちゃんが既に&#xA;師匠をやっているんです大丈夫ですよ。" speaker_show="True" stop="True" voice="ah11005_01_0056" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="私も異論は無いぞ。五恵は強い。" speaker_show="True" stop="True" voice="tr11007_01_0044" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="あぅ、し、心技体で見れば私なんて&#xA;まだまだで。" speaker_show="True" stop="True" voice="ig11006_01_0061" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="あ。でもテレちゃんに問題があるわけじゃないよ。&#xA;私がこんな性格だから…その…。" speaker_show="True" stop="True" voice="ig11006_01_0062" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="まずは落ち着いた方がいい。" speaker_show="True" stop="True" voice="tr11007_01_0045" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="ふふ、いきなりすぎましたかね。" speaker_show="True" stop="True" voice="ah11005_01_0057" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="でも私はこれ、良い案だと思います。&#xA;ゆっくりでいいので考えておいて下さいね。" speaker_show="True" stop="True" voice="ah11005_01_0058" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="……私が、師匠。" speaker_show="True" stop="True" voice="ig11006_01_0063" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_volume type="Bgm" volume="0" cue_name="Adv1" time="1.0" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000006" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="MainTheme" />
+    <Comment comment="空崎スカイタワーの敷地内の背景は無い？" />
+    <bg show="True" file="37_office_01" />
+    <telop text="空崎スカイタワー" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="019_Facial_damage" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="………な、なんだと。か、体が、動かない。&#xA;ワタシが負けたのか。" speaker_show="True" stop="True" voice="ks16001_01_0061" />
+    <delete obj_id="クリッシー" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="荒々しく激しい動きだったが、&#xA;その分、隙も大きかったぞ。" speaker_show="True" stop="True" voice="tr11007_01_0097" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="102_Facial_unique" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="クリッシー" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="クリッシー" text="馬鹿な、ワタシはレジェンドとなる人間だ。&#xA;こんな所で、終わる……はずが、ないっ！！" speaker_show="True" stop="True" voice="ks16001_01_0062" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="クリッシー" position_id="left" x_move_type="MoveTo" time="0.5" wait="True" y="-1000" />
+    <msg window_type="SystemMsg" text="最後の力を振り絞って、クリッシーは&#xA;モモに向かって突進してきた。" stop="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="クリッシー" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ただ皆を苦しめて、ひたすら自分だけよければ&#xA;いいなんて、そんな人は……。" speaker_show="True" stop="True" voice="mm11001_01_0129" />
+    <create_effect effect_id="effect_momo" effect_type="EffectShockWave" life_time="3" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="成敗だーーっ！！！！　馬鹿野郎ーーっ！！！" speaker_show="True" stop="True" voice="mm11001_01_0130" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <move obj_id="クリッシー" position_id="left" x="100" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveTo" time="0.2" wait="True" />
+    <move obj_id="源 モモ" position_id="left" x="-100" x_move_type="MoveTo" time="0.2" wait="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="102_Facial_unique" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <sound type="Se" cue_name="Clash" />
+    <shake target="Character" obj_id="クリッシー" x="10" y="10" vibrate="100" time="0.5" wait="True" />
+    <shake target="MsgWindow" x="10" y="10" time="0.5" obj_id="クリッシー" />
+    <msg speaker="クリッシー" text="がはっ！！" speaker_show="True" stop="True" voice="ks16001_01_0063" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="LeftToRight" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="effect_momo" />
+    <delete obj_id="クリッシー" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <fade_in time="0.5" type="RightToLeft" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="おーノリが闘魂だね！　かっこいいよ！" speaker_show="True" stop="True" voice="mh12001_01_0032" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ナイスキック百地、弟子や。何か言ってあげて。" speaker_show="True" stop="True" voice="ym11003_01_0087" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="アタシ達を、舐めすぎたのよ。&#xA;あんたの伝説はここで打ち切りよ。" speaker_show="True" stop="True" voice="sf11004_01_0137" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="クリッシー・ガオ！　悪行の報いを受けてもらうぞ。&#xA;確保じゃ！！" speaker_show="True" stop="True" voice="ss12003_01_0058" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="（……道半ばで、このワタシが、レジェンドが。&#xA;ありえない…ありえない……ありえ……ない）" speaker_show="True" stop="True" voice="ks16001_01_0064" lip_sync="False" />
+    <move obj_id="クリッシー" y="-1000" />
+    <sound cue_name="Clash" />
+    <wait time="0.5" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="最後まで己の敗北を認めることができず、&#xA;クリッシーの意識は落ちていった。" stop="True" />
+  </command>
+</adv>

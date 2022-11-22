@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1003000005" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" volume="100" cue_name="Adv3" />
+    <fade_out time="0.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="ツキカゲから迎撃をうけたクリッシーが乗る車は、&#xA;そのまま逃げるように海中へ飛び込んでしまった。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="07_containerni_02" />
+    <sound_volume type="Bgm" time="1.0" wait="False" cue_name="Adv3" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" x="-300" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="わっ！？　海に落ちちゃいましたよ！？&#xA;助けないと。" speaker_show="True" stop="True" voice="mm11001_01_0065" lip_sync="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="それは相手を舐めすぎね。あの車、潜水モードに&#xA;切り替わって海中を移動していると思うわ。" speaker_show="True" stop="True" voice="hy11002_01_0044" lip_sync="True" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="相模 楓" text="随分ハイテクですね。売ったら高そう……。" speaker_show="True" stop="True" voice="sf11004_01_0092" lip_sync="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="それもそのはず、運転席にいた女性を&#xA;カメラでとらえていますが、見て下さい。" speaker_show="True" stop="True" voice="ah11005_01_0027" lip_sync="True" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="18_ArmsCrossed" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="この人はクリッシー・ガオ。&#xA;リザード社の若き幹部ですよ。" speaker_show="True" stop="True" voice="ah11005_01_0028" lip_sync="True" />
+    <delete obj_id="青葉 初芽" />
+    <create obj_id="八千代 命" data_id="311003001" type="Character" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="八千代 命" text="敵の幹部が空崎に乗り込んできたってわけだ。&#xA;ま、洗礼を浴びせてやったけどね。" speaker_show="True" stop="True" voice="ym11003_01_0064" lip_sync="True" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="うまくいきましたね師匠。自動車の複数同時、&#xA;遠隔操作で自動運転。流石です。" speaker_show="True" stop="True" voice="ig11006_01_0029" lip_sync="True" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="手元が忙しいですけどね、&#xA;……！？　気をつけて下さい海から何か来ます！" speaker_show="True" stop="True" voice="ah11005_01_0029" lip_sync="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="RoboAppearance" />
+    <wait time="1.0" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="リザードの武装人形……！&#xA;海にあらかじめ潜ませていたのね。" speaker_show="True" stop="True" voice="hy11002_01_0045" lip_sync="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="源 モモ" text="しかも続々でてきた！？&#xA;戦闘開始ですね師匠！" speaker_show="True" stop="True" voice="mm11001_01_0066" lip_sync="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" face_anim_type="013_Facial_angry" />
+    <msg speaker="半蔵門 雪" text="もうはじまってる。いくわよモモ！" speaker_show="True" stop="True" voice="hy11002_01_0046" lip_sync="True" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" wait="True" time="0.5" />
+    <wait time="0.5" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" file="14_car_03" resource_type="Background" />
+    <transition type="In" color_change="True" wait="True" time="0.5" />
+    <telop text="⾞内" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="リザード社員" text="潜水モード、問題なく機能しています。" speaker_show="True" stop="True" voice="rs16002_01_0008" lip_sync="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="クリッシー" text="もっと汚い海かと思いましたが&#xA;そうでもないですね。" speaker_show="True" stop="True" voice="ks16001_01_0027" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="クリッシー" text="ワタシの殺気を見て、まずは自動車を突っ込ませて&#xA;削ろうとしたツキカゲ…。" speaker_show="True" stop="True" voice="ks16001_01_0028" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="クリッシー" text="ピクニック気分でフラッとやってきて全滅できるほど&#xA;容易い組織ではないようですね。少し舐めすぎました。" speaker_show="True" stop="True" voice="ks16001_01_0029" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="クリッシー" text="しっかりと対峙するためにも&#xA;まずはデータを頂きますよ。" speaker_show="True" stop="True" voice="ks16001_01_0030" lip_sync="True" />
+  </command>
+</adv>

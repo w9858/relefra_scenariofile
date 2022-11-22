@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020090401" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_001" />
+    <msg window_type="SystemMsg" text="スパイの才能を見出されたごらく部４人は、&#xA;ツキカゲメンバーによる修行を体験する事となった。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop in_time="1.0" show_time="2.0" out_time="1.0" wait="True" text="ツキカゲ基地" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="これが、ツキカゲの戦闘服……&#xA;可愛いです～！" speaker_show="True" stop="True" voice="yc95004_03_0038" />
+    <char_spine_animation obj_id="吉川 ちなつ" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Heart" effect_type="EffectHeart" life_time="5.0" target_obj="吉川 ちなつ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="吉川 ちなつ" text="あぁ、早く&#xA;結衣先輩にも見て欲しいなぁ。" speaker_show="True" stop="True" voice="yc95004_03_0039" />
+    <delete obj_id="Heart" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="結衣ちゃん、めっちゃ好かれてるよね。" speaker_show="True" stop="True" voice="ym11003_03_0060" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まあ、仲良しなのは&#xA;悪い事ではないですけど。" speaker_show="True" stop="True" voice="sf11004_03_0031" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="それでは修行を始めましょうか。&#xA;やるからには、完璧を目指すわよ。" speaker_show="True" stop="True" voice="sf11004_03_0032" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="はい、よろしくお願いします！" speaker_show="True" stop="True" voice="yc95004_03_0040" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="チーナは、フーと一緒で&#xA;援護タイプのスパイになれる素質を感じるんだよね。" speaker_show="True" stop="True" voice="ym11003_03_0061" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="なんかほら、見た目の雰囲気も近いしさ。" speaker_show="True" stop="True" voice="ym11003_03_0062" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="もうチーナ呼びなんですね……。&#xA;というか、アタシ達って似てますか？" speaker_show="True" stop="True" voice="sf11004_03_0033" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="八千代 命" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="八千代 命" text="似てる似てる！&#xA;どっちも背が低いからかなぁ。" speaker_show="True" stop="True" voice="ym11003_03_0063" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="更にチーナは、中学生ならではの可愛らしさや&#xA;初々しさがあるっていうか。" speaker_show="True" stop="True" voice="ym11003_03_0064" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="吉川 ちなつ" type="Cheek03_strong" loop="True" />
+    <msg speaker="吉川 ちなつ" text="そ、そうですかね？" speaker_show="True" stop="True" voice="yc95004_03_0041" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="むぐ……！　ア、アタシには&#xA;高校生ならではの色気がありますし！" speaker_show="True" stop="True" voice="sf11004_03_0034" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ほとんどチーナと同じじゃん？" speaker_show="True" stop="True" voice="ym11003_03_0065" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek03_strong" loop="True" />
+    <msg speaker="相模 楓" text="違いますー！　ほら、この辺りのラインとか&#xA;結構色っぽいでしょう!?" speaker_show="True" stop="True" voice="sf11004_03_0035" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="八千代 命" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="八千代 命" text="あはは、ごめんごめん。&#xA;そんなに怒らないでいいじゃん。" speaker_show="True" stop="True" voice="ym11003_03_0066" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" face_anim_type="008_Facial_serious" />
+    <msg speaker="相模 楓" text="お、怒ってませんっ。" speaker_show="True" stop="True" voice="sf11004_03_0036" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="吉川 ちなつ" type="Cheek01_default" loop="False" />
+    <msg speaker="吉川 ちなつ" text="(あ……楓さんのリアクションって、&#xA;もしかして……。)" speaker_show="True" stop="True" voice="yc95004_03_0042" lip_sync="False" />
+    <char_spine_animation obj_id="吉川 ちなつ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="(メイさんの事が好きだから、&#xA;ヤキモチ妬いちゃってるのかな。)" speaker_show="True" stop="True" voice="yc95004_03_0043" lip_sync="False" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="(えへへ、なんだか&#xA;ちょっと親近感が湧いて来ちゃうかも。)" speaker_show="True" stop="True" voice="yc95004_03_0044" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="チーナの修行は、手裏剣の的当てに&#xA;チャレンジしてもらおうと思ってるんだー。" speaker_show="True" stop="True" voice="ym11003_03_0067" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="１人で投げても張り合いないだろうから、&#xA;フーと勝負する形で！" speaker_show="True" stop="True" voice="ym11003_03_0068" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="5.0" target_obj="吉川 ちなつ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="吉川 ちなつ" text="し、勝負!?" speaker_show="True" stop="True" voice="yc95004_03_0045" />
+    <delete obj_id="Sweat" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ルールは、手裏剣を５回投げて&#xA;中心に当てた回数がより多い方が勝ち。" speaker_show="True" stop="True" voice="ym11003_03_0069" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="手裏剣投げはアタシの得意分野ですけど、&#xA;いいんですか？" speaker_show="True" stop="True" voice="sf11004_03_0037" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="もちろんハンデも用意してるよ。フーの方は&#xA;ミニミニサイズの的で、手裏剣も重いのを使う事。" speaker_show="True" stop="True" voice="ym11003_03_0070" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ま、完璧なアタシにとって&#xA;それくらいは当然ですかね。" speaker_show="True" stop="True" voice="sf11004_03_0038" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="(一般人相手の勝負だけど、&#xA;頑張らなくちゃ……！)" speaker_show="True" stop="True" voice="sf11004_03_0039" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

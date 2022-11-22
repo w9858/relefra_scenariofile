@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003010202" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <msg window_type="SystemMsg" text="雪の単独潜入ミッションから数日後ーー" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="雪ちゃん、相談って何ですか？&#xA;もしかして、スーツにまだ不具合が？" speaker_show="True" stop="True" voice="ah11005_01_0227" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="スーツ自体はとても良くなったと思うわ。&#xA;ただ１つ、新たな問題が浮上したの。" speaker_show="True" stop="True" voice="hy11002_01_0433" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="問題、ですか？" speaker_show="True" stop="True" voice="ah11005_01_0228" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="この間、モモが私に透明クリームを塗っている&#xA;ところ、見ていたでしょう？" speaker_show="True" stop="True" voice="hy11002_01_0434" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ええ、こっちが恥ずかしくなってしまうほど&#xA;照れていて、思わずキュンとしてしまいました！" speaker_show="True" stop="True" voice="ah11005_01_0229" />
+    <Comment comment="苦笑" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="初芽の目には、そう映ってたのね。" speaker_show="True" stop="True" voice="hy11002_01_0435" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="けど不思議ですよね。" speaker_show="True" stop="True" voice="ah11005_01_0230" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="素肌に直接塗っていた時は平気だったのに、&#xA;スーツの上から塗るのは恥ずかしいだなんて。" speaker_show="True" stop="True" voice="ah11005_01_0231" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="私もそこがわからなくて、&#xA;モモに問いただしてみたの。そしたら……。" speaker_show="True" stop="True" voice="hy11002_01_0436" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <Comment comment="ツキカゲ基地" />
+    <bg show="True" file="03_tsukikage_001" resource_type="Background" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="軍議の社" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create obj_id="源 モモ" data_id="311001003" position_id="left" x="0" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="True" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源 モモ" text="す、すみません！　師匠は普段から、&#xA;スタイル抜群でとっても素敵です。でも……。" speaker_show="True" stop="True" voice="mm11001_01_0672" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="スーツを着ていると、裸の時より身体のラインが&#xA;強調されてよりセクシーに見えてしまって。" speaker_show="True" stop="True" voice="mm11001_01_0673" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はわわっ……変なこと言ってごめんなさい！&#xA;でも、セクシー過ぎて緊張してしまうんです！" speaker_show="True" stop="True" voice="mm11001_01_0674" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+    <Comment comment="Wasabi店内" />
+    <bg show="True" file="02_wasabimo_001" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <delete obj_id="源 モモ" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="あらあらモモちゃん、見た目によらず&#xA;なかなかマニアックな趣味を持ってるんですね。" speaker_show="True" stop="True" voice="ah11005_01_0232" />
+    <Comment comment="苦笑" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="私には理解しがたい感性だから、どう答えて良い&#xA;か、わからなくて困ってしまったわ。" speaker_show="True" stop="True" voice="hy11002_01_0437" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="そうですね、任務中に支障が出ないように&#xA;という目的で、様々なテストを行ってきましたが……。" speaker_show="True" stop="True" voice="ah11005_01_0233" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="まさか準備段階に支障が出てしまうとは、&#xA;想定外でした。" speaker_show="True" stop="True" voice="ah11005_01_0234" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="もう少し、スーツの密着度を下げることは&#xA;出来ないかしら？" speaker_show="True" stop="True" voice="hy11002_01_0438" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="技術的には可能ですが、密着度を下げると&#xA;クリームの持続時間も短くなってしまうんですよね。" speaker_show="True" stop="True" voice="ah11005_01_0235" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="なんとか、モモちゃんがドキドキを我慢できるような&#xA;改良が出来れば良いのですが……。" speaker_show="True" stop="True" voice="ah11005_01_0236" />
+    <msg_window_show show="False" />
+    <create_effect effect_id="Light_yuki" effect_type="MampLight" life_time="1.0" target_obj="半蔵門 雪" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="はっ！　そうよ、その手があったわ。" speaker_show="True" stop="True" voice="hy11002_01_0439" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="雪ちゃん？" speaker_show="True" stop="True" voice="ah11005_01_0237" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ありがとう、初芽。&#xA;ようやく解決策が見えたわ。" speaker_show="True" stop="True" voice="hy11002_01_0440" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

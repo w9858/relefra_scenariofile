@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3022010303" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="62_AutumnMountainev_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="山中" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="モモ達がバンジージャンプを飛び終わり、&#xA;最後に命の順番が回ってきた。" stop="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003017" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="むー、師匠もフーも飛ばないって言うし。&#xA;仕方ない、メイ１人でバンジーするか。" speaker_show="True" stop="True" voice="ym11003_03_0171" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あ～、メイも誰かと一緒に&#xA;きゃーきゃー言いながら飛びたかったなー。" speaker_show="True" stop="True" voice="ym11003_03_0172" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そ、そんな風に言いますか。" speaker_show="True" stop="True" voice="sf11004_03_0185" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="仕方ないですね……&#xA;アタシが一緒に飛んであげますよ。" speaker_show="True" stop="True" voice="sf11004_03_0186" />
+    <move obj_id="相模 楓" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create_effect effect_id="mei02" effect_type="MampSmile" target_obj="八千代 命" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="本当？　やったぁ！&#xA;だからフー大好き!!" speaker_show="True" stop="True" voice="ym11003_03_0173" />
+    <delete obj_id="mei02" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek03_strong" loop="True" />
+    <msg speaker="相模 楓" text="す、好っ……！？" speaker_show="True" stop="True" voice="sf11004_03_0187" />
+    <char_spine_cheek obj_id="相模 楓" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="よし、じゃ早速飛ぼう。&#xA;準備はいいよね？" speaker_show="True" stop="True" voice="ym11003_03_0174" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="待ってください！　も、もう少し&#xA;タイミングを見計らってからです！" speaker_show="True" stop="True" voice="sf11004_03_0188" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="020_Facial_thinking" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="深呼吸をして、気持ちを平静に……&#xA;すー、はー……。" speaker_show="True" stop="True" voice="sf11004_03_0189" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="もういい？" speaker_show="True" stop="True" voice="ym11003_03_0175" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ふわっ……!?&#xA;あ、あと30秒、時間をくださいっ！" speaker_show="True" stop="True" voice="sf11004_03_0190" />
+    <char_spine_animation />
+    <msg speaker="相模 楓" text="(最後の一歩が、踏み出せない……&#xA;どうしよう……！)" speaker_show="True" stop="True" voice="sf11004_03_0191" lip_sync="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="大丈夫だよ、フー。&#xA;メイが付いてる。" speaker_show="True" stop="True" voice="ym11003_03_0176" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="怖くても、もし何かあったとしても、&#xA;いつもみたいに傍にいるからさ。" speaker_show="True" stop="True" voice="ym11003_03_0177" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠……。" speaker_show="True" stop="True" voice="sf11004_03_0192" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そうだ、一緒にカウントダウンしよっか！&#xA;そうすればきっと気分も軽くなるよ。" speaker_show="True" stop="True" voice="ym11003_03_0178" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="じゃ行くよー。５、４、３！" speaker_show="True" stop="True" voice="ym11003_03_0179" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="020_Facial_thinking" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="２、１……！" speaker_show="True" stop="True" voice="sf11004_03_0193" />
+    <lip_sync target1="八千代 命" target2="相模 楓" />
+    <char_spine_animation />
+    <msg speaker="命・楓" text="レッツ、バンジー!!" speaker_show="True" stop="True" voice="3022010303_union_001" />
+    <sound cue_name="Clash" />
+    <wait time="0.5" />
+    <char_spine_animation />
+    <sound type="Se" cue_name="draft" />
+    <wait time="0.5" />
+    <move obj_id="八千代 命" x="0" x_move_type="MoveTo" y="-1000" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="相模 楓" x="0" x_move_type="MoveTo" y="-1000" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="きゃあああぁぁぁぁ～～～…………！" speaker_show="True" stop="True" voice="sf11004_03_0195" />
+    <bg show="True" resource_type="Background" file="62_AutumnMountainVolley_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あはははっ！　すごーい！&#xA;気持ちいい～！" speaker_show="True" stop="True" voice="ym11003_03_0181" />
+    <char_spine_animation />
+    <msg speaker="八千代 命" text="フーも、ほら！　手を広げてみなよ！&#xA;解放感半端ないからー！" speaker_show="True" stop="True" voice="ym11003_03_0182" />
+    <char_spine_animation />
+    <msg speaker="相模 楓" text="こう、ですか……？&#xA;あ、あぁぁ……きゃあああぁ～～！" speaker_show="True" stop="True" voice="sf11004_03_0196" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="draft" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="八千代 命" />
+    <bg show="True" resource_type="Background" file="62_AutumnMountainev_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="相模 楓" />
+    <msg window_type="SystemMsg" text="ジャンプを終えて、命と楓は&#xA;橋の上へと戻って来る。" stop="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003017" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あー、すっきりした！&#xA;迫力あったね、フー！" speaker_show="True" stop="True" voice="ym11003_03_0183" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="思いっ切り叫んで、&#xA;楽しかったでしょ？" speaker_show="True" stop="True" voice="ym11003_03_0184" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そ……それは、まぁ……。" speaker_show="True" stop="True" voice="sf11004_03_0197" />
+    <char_spine_animation />
+    <msg speaker="相模 楓" text="飛んでみると、不安よりもテンションの高さの方が&#xA;勝ってたかも知れません……師匠もいてくれましたし。" speaker_show="True" stop="True" voice="sf11004_03_0198" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ふふー、良かった。&#xA;ひょっとして、もう１回やりたかったりする？" speaker_show="True" stop="True" voice="ym11003_03_0185" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="こ、これ以上寄り道してる時間は&#xA;ありませんよ!?" speaker_show="True" stop="True" voice="sf11004_03_0199" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="早くコースに戻りましょう！&#xA;スケジュールの遅れを取り戻さないと！" speaker_show="True" stop="True" voice="sf11004_03_0200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="はいはい。&#xA;全く、フーは相変わらずだねぇ。" speaker_show="True" stop="True" voice="ym11003_03_0186" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

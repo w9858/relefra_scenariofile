@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000016" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <Comment comment="コンテナターミナル　夜" />
+    <bg show="True" file="07_containerni_02" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="おー、あの３人強いな。１番手強いのは&#xA;後にとっておくとして、誰から食うか……。" speaker_show="True" stop="True" voice="bk11008_01_0057" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="お、あそこにも１人いるじゃん！&#xA;決まりぃ！" speaker_show="True" stop="True" voice="bk11008_01_0058" />
+    <msg_window_show show="False" />
+    <sound type="Se" />
+    <Comment comment="【SE】跳躍する音" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <bg show="True" file="07_containerni_02" />
+    <Comment comment="コンテナターミナル　出口" />
+    <delete obj_id="白虎" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="……誰か、来る！" speaker_show="True" stop="True" voice="mm11001_01_0322" />
+    <sound type="Se" />
+    <Comment comment="【SE】スパイスを取り出す音" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="心も体も滾らせる！" speaker_show="True" stop="True" voice="mm11001_01_0323" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <delete obj_id="源 モモ" />
+    <wait time="1.5" />
+    <bg show="True" file="No_063" resource_type="AnimSS" />
+    <wait time="1.5" />
+    <fade_out time="0.1" type="Default" wait="False" />
+    <fade_in time="0.1" type="Default" wait="False" />
+    <wait time="1.5" />
+    <bg show="True" file="No_064" resource_type="AnimSS" />
+    <sound type="Se" cue_name="Spice" />
+    <wait time="1.5" />
+    <Comment comment="瞳の色が変わる" />
+    <Comment comment="【SE】ドンッと着地する音" />
+    <wait time="1.0" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" loop="False" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="ニーハオ！&#xA;分かるか？　「うっす」って意味！" speaker_show="True" stop="True" voice="bk11008_01_0059" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprice" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="子供……!?" speaker_show="True" stop="True" voice="mm11001_01_0324" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="子供じゃない！　お前達を捕まえるべく雇われた&#xA;負け知らずの最強傭兵・白虎様だ！　お前の名は!?" speaker_show="True" stop="True" voice="bk11008_01_0060" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="モ……っと……ピ、ピーチ！" speaker_show="True" stop="True" voice="mm11001_01_0325" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="そうか！&#xA;私の手柄になりな、ピーチ!!" speaker_show="True" stop="True" voice="bk11008_01_0061" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="オウァー!!" speaker_show="True" stop="True" voice="bk11008_01_0062" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ダッと駆けだす音" />
+    <move obj_id="白虎" position_id="left" x="-50" x_move_type="MoveTo" time="0.3" wait="True" y="0" y_move_type="MoveValue" />
+    <Comment comment="【SE】ドッと２人の身体がぶつかる音" />
+    <sound type="Se" cue_name="Clash" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ぐっ……!?" speaker_show="True" stop="True" voice="mm11001_01_0326" />
+    <msg_window_show show="False" />
+    <move obj_id="源 モモ" position_id="left" x="-1000" x_move_type="MoveTo" time="0.3" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="なんだよ、ちょろいな。&#xA;とっととトドメ刺してやる！" speaker_show="True" stop="True" voice="bk11008_01_0063" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="白虎" />
+    <delete obj_id="源 モモ" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（まずい……！&#xA;私の力じゃ、まだこの子には歯が立たない……！）" speaker_show="True" stop="True" voice="mm11001_01_0327" lip_sync="False" />
+    <msg_window_show show="False" />
+    <load_cue_sheet cue_sheet="Quest/Quest_Common" />
+    <sound type="Se" cue_name="Throwing_Attack" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Throwing_Attack" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprice" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="――！&#xA;手裏剣!?" speaker_show="True" stop="True" voice="bk11008_01_0064" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Move_Landing" />
+    <Comment comment="【SE】ザッとかわす音" />
+    <move obj_id="白虎" position_id="left" x="400" x_move_type="MoveTo" time="0.3" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ったく！&#xA;危なっかしいわね。" speaker_show="True" stop="True" voice="sf11004_01_0158" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="フーちゃん……！" speaker_show="True" stop="True" voice="mm11001_01_0328" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="なんだよ、順番守れよな。&#xA;お前は次。" speaker_show="True" stop="True" voice="bk11008_01_0065" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="知らないわよ、そんなの！&#xA;完全無欠のアタシがやっつけてやる！" speaker_show="True" stop="True" voice="sf11004_01_0159" />
+    <sound type="Se" cue_name="Throwing_Attack" />
+    <Comment comment="【SE】ヒュッと手裏剣を投げる音" />
+    <wait time="0.5" />
+    <Comment comment="【SE】キンッと手裏剣を弾く音白虎" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="お。" speaker_show="True" stop="True" voice="bk11008_01_0066" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprice" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprice" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="――!?　手裏剣が弾かれた!?" speaker_show="True" stop="True" voice="sf11004_01_0160" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="ちぇい!!" speaker_show="True" stop="True" voice="bk11008_01_0067" />
+    <msg_window_show show="False" />
+    <move obj_id="白虎" position_id="left" x="150" x_move_type="MoveTo" time="0.3" wait="True" y="0" y_move_type="MoveValue" />
+    <Comment comment="【SE】ドッと蹴りを入れる音" />
+    <sound type="Se" cue_name="Clash" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprice" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ぐっ……！&#xA;こいつ……なかなか強いじゃない……！" speaker_show="True" stop="True" voice="sf11004_01_0161" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="白虎" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <bg show="True" file="No_065" resource_type="AnimSS" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <msg speaker="源 モモ" text="フーちゃん！　一緒にやろう!!" speaker_show="True" stop="True" voice="mm11001_01_0329" />
+    <msg speaker="相模 楓" text="ま、まぁ……そっちの方が効率的ね。" speaker_show="True" stop="True" voice="sf11004_01_0162" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="何ごちゃごちゃ言ってんだぁ！&#xA;次はこっちからいくぞ!!" speaker_show="True" stop="True" voice="bk11008_01_0068" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="M82A1" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="M82A1" />
+    <Comment comment="【SE】狙撃銃による銃撃音" />
+    <move obj_id="白虎" position_id="left" x="450" x_move_type="MoveTo" time="0.3" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="銃撃……!?　誰だ!!" speaker_show="True" stop="True" voice="bk11008_01_0069" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" loop="False" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="False" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <Comment comment="//通信機越し" />
+    <msg speaker="石川 五恵" text="私もフォローするよ、モモち。" speaker_show="True" stop="True" voice="ig11006_01_0109" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ごえちゃん……！" speaker_show="True" stop="True" voice="mm11001_01_0330" />
+    <move obj_id="相模 楓" position_id="left" x="-150" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="400" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="ちっ、次から次へと……！&#xA;めんどくせー、まとめてかかってこい!!" speaker_show="True" stop="True" voice="bk11008_01_0070" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="私たちはチーム……&#xA;自分の役割を……果たすっ!!" speaker_show="True" stop="True" voice="mm11001_01_0331" />
+  </command>
+</adv>

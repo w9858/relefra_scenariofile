@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3010000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="01_school1mo_004" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="空崎高校　屋上" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ん～……捜査を進展させるには、&#xA;どこから当たっていけばいいんだろうなぁ。" speaker_show="True" stop="True" voice="ym11003_02_0231" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="カトーさんと初さんの２人がかりでも、&#xA;決定的な証拠までは出て来なかったのに……。" speaker_show="True" stop="True" voice="ym11003_02_0232" />
+    <move obj_id="八千代 命" position_id="left" x="-200" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="right" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="師匠がそんなに悩んでるのって&#xA;珍しいですね。" speaker_show="True" stop="True" voice="sf11004_02_0245" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" force_end="False" loop="True" mixing="True" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="八千代 命" text="フー。&#xA;モモちに、ごえちゃんも。" speaker_show="True" stop="True" voice="ym11003_02_0233" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="例のチャペルの件ですよね？" speaker_show="True" stop="True" voice="sf11004_02_0246" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うん。名案みたいなのが&#xA;シュピーンって浮かんで来ないかなって。" speaker_show="True" stop="True" voice="ym11003_02_0234" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="メイちゃん、&#xA;なんだか難しい顔してたね。" speaker_show="True" stop="True" voice="mm11001_02_0215" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="事情は私たちも聞いたよ。こういう、&#xA;一度捜査した後の行動って難しいから。" speaker_show="True" stop="True" voice="ig11006_02_0077" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="そうなんだよー。メイたちが動きすぎても&#xA;向こうに警戒されちゃうしさぁ。" speaker_show="True" stop="True" voice="ym11003_02_0235" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="少しでもいい、尻尾を出してくれたら&#xA;そこから行けるんだけど……。" speaker_show="True" stop="True" voice="ym11003_02_0236" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="そんな怪しい人、私が現場にいたら&#xA;ぺろって舐めてたのに！" speaker_show="True" stop="True" voice="mm11001_02_0216" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="モモちの能力は便利だよねえ。&#xA;でもさ、相手が犯罪者じゃなかった場合……。" speaker_show="True" stop="True" voice="ym11003_02_0237" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まずいわね。女子高生が男を舐める事案が、&#xA;空崎で発生する。" speaker_show="True" stop="True" voice="sf11004_02_0247" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="事案扱い!?" speaker_show="True" stop="True" voice="mm11001_02_0217" />
+    <delete obj_id="Exclamation_momo" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="通報されてからの&#xA;逮捕、拘留コンボまであるかも。" speaker_show="True" stop="True" voice="sf11004_02_0248" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="あはは、さすがにそこまでは……。" speaker_show="True" stop="True" voice="ig11006_02_0078" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="モモちのそれは便利だけど、&#xA;使える状況は意外と限られるからなぁ。" speaker_show="True" stop="True" voice="ym11003_02_0238" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ごめんね、&#xA;いい案が出せなくて……。" speaker_show="True" stop="True" voice="mm11001_02_0218" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="相手と直接連絡が取れたら、&#xA;囮作戦とかも出来るのにね。" speaker_show="True" stop="True" voice="mm11001_02_0219" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="連絡……囮……&#xA;それだっ！" speaker_show="True" stop="True" voice="ym11003_02_0239" />
+    <delete obj_id="Exclamation_mei" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ありがとうモモち。&#xA;いい作戦、思いついたかも！" speaker_show="True" stop="True" voice="ym11003_02_0240" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="フー。あの日の撮影が終わった後、&#xA;メイたち３人でスカウトされたよね？" speaker_show="True" stop="True" voice="ym11003_02_0241" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <msg speaker="八千代 命" text="こっちから直接、水無月ジュンと&#xA;接触しちゃえばいいんだよ！" speaker_show="True" stop="True" voice="ym11003_02_0242" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" face_anim_type="001_Facial_blink" />
+    <msg speaker="相模 楓" text="事実上の囮ですね。&#xA;確かにその手なら、接触は容易だと思います。" speaker_show="True" stop="True" voice="sf11004_02_0249" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ただ、もう１度あの人と会うのが&#xA;ちょっとアレですけど。" speaker_show="True" stop="True" voice="sf11004_02_0250" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="今度は、意外と気が合うかもよ？" speaker_show="True" stop="True" voice="ym11003_02_0243" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="お断りですっ！" speaker_show="True" stop="True" voice="sf11004_02_0251" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="とにかく、糸口は見えた。&#xA;さっそく行動開始だ！" speaker_show="True" stop="True" voice="ym11003_02_0244" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

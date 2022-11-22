@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010710001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="店番はいいが、退屈だなあ。ゲームでもやって&#xA;カトリーナが帰ってくるのを待つか……。" speaker_show="True" stop="True" voice="bk11008_02_0383" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="悪いが、まだ準備中だぞー。" speaker_show="True" stop="True" voice="bk11008_02_0384" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あれ、カトさんいないんだ？&#xA;白虎ちゃんがひとりでお留守番？" speaker_show="True" stop="True" voice="ks11010_02_0476" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ああ、信か……。&#xA;カトリーナが戻るまでは準備中だ。" speaker_show="True" stop="True" voice="bk11008_02_0385" />
+    <char_spine_animation obj_id="白虎" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="白虎" text="カトリーナに用なら&#xA;そのうち帰ってくると思うが……。" speaker_show="True" stop="True" voice="bk11008_02_0386" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="じゃ、ちょっと待たせてもらおうかな。" speaker_show="True" stop="True" voice="ks11010_02_0477" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="False" />
+    <msg speaker="白虎" lip_sync="False" text="（信ならカトリーナも文句はないだろ。&#xA;好きにさせておくか。）" speaker_show="True" stop="True" voice="bk11008_02_0387" />
+    <char_spine_animation obj_id="白虎" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="白虎" lip_sync="False" text="（よく、神だとかシン様だとか言ってるしな。）" speaker_show="True" stop="True" voice="bk11008_02_0388" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="白虎ちゃん、さっきから何やってるの？" speaker_show="True" stop="True" voice="ks11010_02_0478" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="これか？　これはゲームだ。&#xA;電話でゲームができるなんて、すごいよな！" speaker_show="True" stop="True" voice="bk11008_02_0389" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ああ、携帯電話のことだね。&#xA;どんなのやってるか、見てもいい？" speaker_show="True" stop="True" voice="ks11010_02_0479" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ああ、構わないぞ。&#xA;華麗なプレイを見せてやる！" speaker_show="True" stop="True" voice="bk11008_02_0390" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="白虎" text="……と、言いたいところだが、&#xA;今ちょっと詰んでるんだよなー。" speaker_show="True" stop="True" voice="bk11008_02_0391" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="どれどれ……ああ、ここは別の場所にある&#xA;アイテムがないとクリアできないよ。" speaker_show="True" stop="True" voice="ks11010_02_0480" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="白虎" text="何!?　そうだったのか？&#xA;全然気づかなかった……！" speaker_show="True" stop="True" voice="bk11008_02_0392" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="さすがは、カトリーナが&#xA;神と崇めるだけのことはあるな……。" speaker_show="True" stop="True" voice="bk11008_02_0393" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ははっ、大げさだよ。" speaker_show="True" stop="True" voice="ks11010_02_0481" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="この前、メイちゃんがそのゲームをやってたから、&#xA;たまたま知ってたんだ。" speaker_show="True" stop="True" voice="ks11010_02_0482" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なんだ、そうだったのか……？" speaker_show="True" stop="True" voice="bk11008_02_0394" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" lip_sync="False" text="（だが、カトリーナの様子からすると、&#xA;さぞかしすごい人なんじゃ……？）" speaker_show="True" stop="True" voice="bk11008_02_0395" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="白虎ちゃん、そんなにゲームが好きなら、&#xA;信が持ってる携帯ゲーム機、貸してあげようか？" speaker_show="True" stop="True" voice="ks11010_02_0483" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なんだと!?　まさに神!!" speaker_show="True" stop="True" voice="bk11008_02_0396" />
+  </command>
+</adv>

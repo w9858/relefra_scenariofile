@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000016" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg file="44_raimuhouseni_01" />
+    <telop text="敷島ビル最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……というわけで、帰還したわ。&#xA;ミッションは成功したけれども。" speaker_show="True" stop="True" voice="sr13001_02_0309" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルムに襲われた上、お持ち帰りは出来なかった。&#xA;はーっ、ままならないわねぇ、揉み揉み。" speaker_show="True" stop="True" voice="sr13001_02_0310" />
+    <move obj_id="敷島 来夢" x="10" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="24_bodyUnique" force_end="False" loop="True" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="敷島 真留瀬" type="Cheek03_strong" loop="False" />
+    <msg speaker="敷島 真留瀬" text="それと、んっ、私の胸を揉むのと&#xA;何の関係があるのですかっ……。" speaker_show="True" stop="True" voice="sm13002_02_0169" />
+    <char_spine_cheek obj_id="敷島 真留瀬" loop="False" />
+    <move obj_id="敷島 来夢" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="姉はままならぬと妹の胸を揉むものなのよ。&#xA;まさか自爆機能まで隠し持ってたとはね。" speaker_show="True" stop="True" voice="sr13001_02_0311" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="自爆されて粉々になってしまっては、&#xA;修復しようがありませんものね。" speaker_show="True" stop="True" voice="sm13002_02_0170" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="アルムは危険な存在です。人形を慈しむ&#xA;お姉様の気持ちも分かりますが、ご自愛を。" speaker_show="True" stop="True" voice="sm13002_02_0171" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ご自愛の塊だから安心してマル。&#xA;というか私は無敵だから。" speaker_show="True" stop="True" voice="sr13001_02_0312" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="23_bodyUnique" force_end="False" loop="True" />
+    <bg show="True" resource_type="Background" file="42_skyni_01" effect="Immediately" effect_time="0.3" wait="False" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <sound type="Bgm" cue_name="Quest1" volume="100" />
+    <msg window_type="SystemMsg" text="一週間後。再びＺＥＴは出撃していた。&#xA;来夢は空を飛んで目的に向かう。" stop="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こちらノブナガ。&#xA;岐阜、付知峡上空に到達したわ。" speaker_show="True" stop="True" voice="sr13001_02_0313" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <msg speaker="敷島 真留瀬" text="こちらミツヒデ。では作戦通りに&#xA;いきましょう。" speaker_show="True" stop="True" voice="sm13002_02_0172" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <msg speaker="敷島 真留瀬" text="山中に隠されている拠点に、&#xA;改造された人形が眠っています。" speaker_show="True" stop="True" voice="sm13002_02_0173" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <msg speaker="敷島 真留瀬" text="犯罪組織が来たる日にテロを&#xA;起こすための武力として……。" speaker_show="True" stop="True" voice="sm13002_02_0174" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そんな連中はどんな刑に処してやろうか。&#xA;まぁちょっと機嫌は良い方だけど。" speaker_show="True" stop="True" voice="sr13001_02_0314" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="最近、芋づる式に人形犯罪を潰していけてるし。&#xA;ミツヒデがやってる諜報活動のおかげね。" speaker_show="True" stop="True" voice="sr13001_02_0315" />
+    <char_spine_animation obj_id="敷島 真留瀬" />
+    <msg speaker="敷島 真留瀬" text="ＺＥＴの一員として当然ですわ。&#xA;ではノブナガ、例のごとくアルムには警戒を。" speaker_show="True" stop="True" voice="sm13002_02_0175" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" />
+    <msg speaker="敷島 来夢" text="（今日はアルム来るかな？　さすがに来ないような。&#xA;……なんて思う事がフラグなのよねぇ。）" speaker_show="True" stop="True" voice="sr13001_02_0316" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

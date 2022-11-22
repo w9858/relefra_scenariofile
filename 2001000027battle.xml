@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000027battle" />
+  </info>
+  <command>
+    <Start />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <char_spine_eye obj_id="源 モモ" type="Eye03_tear" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="モモ、怪我は大丈夫？" speaker_show="True" stop="True" voice="hy11002_01_0215" />
+    <msg speaker="源 モモ" text="す、凄すぎです…&#xA;じ、自慢……すぎるし…しょ……" speaker_show="True" stop="True" voice="mm11001_01_0419" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveValue" y="-1000" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="モモっ!!" speaker_show="True" stop="True" voice="hy11002_01_0216" />
+  </command>
+</adv>

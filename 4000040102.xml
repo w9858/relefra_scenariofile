@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000040102" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="一部のキャラクターイラストと背景は仮の物を使用" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <bg show="True" resource_type="Background" file="44_raimuhouseev_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="敷島ビル最上階" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="24_bodyUnique" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ムニャ…ムニャ……私の社長としての朝は&#xA;柔らかな弾力から始まる……。" speaker_show="True" stop="True" voice="sr13001_02_0619" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <msg speaker="敷島 真留瀬" text="ふぁっ……お姉様、朝のハレンチはそのくらいで。&#xA;そろそろ朝礼のお時間ですわ。" speaker_show="True" stop="True" voice="sm13002_02_0255" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="おや、シャワーもコーヒーも済ませたというのに&#xA;すっかり寝惚けていたようね。いけない。" speaker_show="True" stop="True" voice="sr13001_02_0620" />
+    <msg speaker="来夢ガールズＡ" text="社長ぉ、もとい来夢様ぁ、もとい来夢社長様ぁ。&#xA;来夢ガールズ全員揃っておりますぅ♪" speaker_show="True" stop="True" voice="ra13003_02_0020" />
+    <msg speaker="来夢ガールズＡ・Ｂ・Ｍ・Ｗ・Ｚ" text="おはようございまーす！" speaker_show="True" stop="True" voice="4000040102_union_001" />
+    <create_effect effect_id="raimu01" effect_type="MampSmile" life_time="1" target_obj="敷島 来夢" attach_head_bone="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="う～ん、今日も艶やか健康美。&#xA;全員、張りがあって素晴らしいこと♪" speaker_show="True" stop="True" voice="sr13001_02_0621" />
+    <delete obj_id="raimu01" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="みんなの働きぶりは、しっかり見ているから&#xA;頑張って業務に勤しむべし。解散！" speaker_show="True" stop="True" voice="sr13001_02_0622" />
+    <msg speaker="来夢ガールズＡ・Ｂ・Ｍ・Ｗ・Ｚ" text="はーい♪" speaker_show="True" stop="True" voice="4000040102_union_002" />
+    <move obj_id="敷島 来夢" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <move obj_id="敷島 真留瀬" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="この後、午前の予定は、警視庁とのテレビ会議。&#xA;ＡＩ開発課との昼食会議となっております。" speaker_show="True" stop="True" voice="sm13002_02_0256" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="解ったわ。その前に、デザイン課に行くから&#xA;マルもついて来てちょうだい。" speaker_show="True" stop="True" voice="sr13001_02_0623" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="敷島 真留瀬" />
+    <delete obj_id="敷島 来夢" />
+    <bg file="27_Labo_01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="デザイナーＡ" text="肩のフォルムなのですが、内部の基盤の形状から&#xA;この出っ張りがどうしても必要でして……。" speaker_show="True" stop="True" voice="99116_02_0001" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ならばいっそ、それを逆手にとって……ほら&#xA;こんな形にすれば、一層美しいと思わない？" speaker_show="True" stop="True" voice="sr13001_02_0624" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <msg speaker="デザイナーＡ" text="ハッ！　なるほど、無駄を排除するばかりではなく&#xA;更に付け足すことで美感が増す……流石です社長！" speaker_show="True" stop="True" voice="99116_02_0002" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ん。後はよろしく。きりの良い所まで出来たら&#xA;また見るから、メールしておくように。" speaker_show="True" stop="True" voice="sr13001_02_0625" />
+    <msg speaker="デザイナーＢ" text="社長、すみません！　例の…" speaker_show="True" stop="True" voice="99117_02_0001" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あ、頭部の縮小化問題ね、今日中に方針が決まるから&#xA;今はアームの装甲に専念してて良いわ。" speaker_show="True" stop="True" voice="sr13001_02_0626" />
+    <msg speaker="デザイナーＢ" text="はいっ！" speaker_show="True" stop="True" voice="99117_02_0002" />
+    <move obj_id="敷島 来夢" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <move obj_id="敷島 真留瀬" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さて、そろそろ時間ね。&#xA;ネットは繋がってる？" speaker_show="True" stop="True" voice="sr13001_02_0627" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="はい、セッティングは社長室に。" speaker_show="True" stop="True" voice="sm13002_02_0257" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <bg file="44_raimuhouseev_01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <msg speaker="警視庁人形対策課・課長" text="おはようございます、敷島社長。&#xA;朝早くからすみませんな。" speaker_show="True" stop="True" voice="99119_02_0001" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="どうも。今日の議題は、サイバー犯罪と&#xA;対人形対策についてでしたね。" speaker_show="True" stop="True" voice="sr13001_02_0628" />
+    <msg speaker="警視庁人形対策課・警部補" text="先にいただいております資料を拝見すると&#xA;人形の装甲によって、弱点が変わると…。" speaker_show="True" stop="True" voice="99118_02_0001" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ええ。ですから、対抗策も相手の用いる&#xA;人形の種別によって個別に…" speaker_show="True" stop="True" voice="sr13001_02_0629" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="（………凄い。お姉様の頭の中には、全ての&#xA;知識と情報が精密に整理されている）" speaker_show="True" stop="True" voice="sm13002_02_0258" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="（相手によって素早く必要な情報を取り出し&#xA;駆使していく能力……見とれてしまいますわ）" speaker_show="True" stop="True" voice="sm13002_02_0259" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="以上が、本日こちらの提示できる事柄です。&#xA;何か御質問は？" speaker_show="True" stop="True" voice="sr13001_02_0630" />
+    <msg speaker="警視庁人形対策課・課長" text="いえ、充分です。急がせて申し訳なかった。&#xA;社長もお忙しい所、大変でしたでしょう。" speaker_show="True" stop="True" voice="99119_02_0002" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="大丈夫ですよ。この程度は忙しいうちに&#xA;入りません。それでは、また。" speaker_show="True" stop="True" voice="sr13001_02_0631" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さあ、次は昼食会議だったわね。&#xA;場所は食堂で良かったかしら？" speaker_show="True" stop="True" voice="sr13001_02_0632" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="あ、はい！" speaker_show="True" stop="True" voice="sm13002_02_0260" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

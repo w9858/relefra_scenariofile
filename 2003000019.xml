@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000019" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" file="23_forestev_01" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="ぐっ……" speaker_show="True" stop="True" voice="nj98003_01_0053" />
+    <msg speaker="クー" text="ガォ……" speaker_show="True" stop="True" voice="ku98008_01_0004" />
+    <msg_window_show show="False" />
+    <move obj_id="念珠" position_id="left" x="0" x_move_type="MoveValue" y="-1000" y_move_type="MoveValue" time="1" wait="False" />
+    <Comment comment="【SE】バタンと倒れる音" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1.0" />
+    <delete obj_id="念珠" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="は～疲れた～。&#xA;帰ったらいつものマッサージしてねー、雪。" speaker_show="True" stop="True" voice="fn11011_01_0100" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="はい、師匠。" speaker_show="True" stop="True" voice="hy11002_01_0313" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="半蔵門 雪" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="同時刻。少し離れた丘の上に、&#xA;山伏とツキカゲの戦闘を見ている人影があった。" stop="True" />
+    <Comment comment="青竜" />
+    <create type="Character" obj_id="青竜" data_id="398004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青竜" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青竜" text="これでツキカゲ４人の顔は覚えた。……面白い奴らだ。&#xA;１人１人も強いが、協力すればさらに何倍も強くなる。" speaker_show="True" stop="True" voice="sr98004_01_0003" />
+    <char_spine_animation obj_id="青竜" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="青竜" text="……さぁ、追跡を始めようか。" speaker_show="True" stop="True" voice="sr98004_01_0004" />
+  </command>
+</adv>

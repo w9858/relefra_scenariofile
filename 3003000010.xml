@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003000010" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM16_Quest4" />
+    <sound type="Bgm" cue_name="Quest4" />
+    <bg show="True" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="コンテナターミナル" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002016" x="-400" />
+    <char_alpha obj_id="半蔵門 雪" enable="True" quality="Default" />
+    <char_alpha_value obj_id="半蔵門 雪" value="0.7" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="クンクンクンクン……。あれ？&#xA;やっぱり師匠が近くにいる！" speaker_show="True" stop="True" voice="mm11001_01_0638" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="だから幻でしょう？" speaker_show="True" stop="True" voice="sf11004_01_0500" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="違うの、この前は残り香レベルだったけど、&#xA;今度はすぐ近くにいる！" speaker_show="True" stop="True" voice="mm11001_01_0639" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="半蔵さんなんて、どこにもいないわよ？" speaker_show="True" stop="True" voice="sf11004_01_0501" />
+    <move obj_id="半蔵門 雪" x="-100" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモ、あなたたちは何をしているの？" speaker_show="True" stop="True" voice="hy11002_01_0404" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="はぅっ、耳元に漂う甘い吐息と澄んだお声……。&#xA;幻なんかじゃない！　師匠、そこにいるんですね？" speaker_show="True" stop="True" voice="mm11001_01_0640" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="半蔵さん、もしかしてクリームで透明に&#xA;なってるんですか？　何か事件でも？" speaker_show="True" stop="True" voice="sf11004_01_0502" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="02_Idle" loop="True" />
+    <msg speaker="半蔵門 雪" text="先に質問したのは私よ。答えてちょうだい。&#xA;あなたたちは何をしているの？" speaker_show="True" stop="True" voice="hy11002_01_0405" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="スーパーヒーローを待ってるんです！" speaker_show="True" stop="True" voice="mm11001_01_0641" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="スーパーヒーロー？" speaker_show="True" stop="True" voice="hy11002_01_0406" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="はい、最近空崎が平和過ぎておかしいなと思って&#xA;みんなでパトロールをしてたんです。" speaker_show="True" stop="True" voice="mm11001_01_0642" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そしたら、コンテナターミナルで&#xA;人形の残骸を見つけちゃって。" speaker_show="True" stop="True" voice="mm11001_01_0643" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" loop="True" />
+    <msg speaker="半蔵門 雪" text="人形の残骸……それはもしかして……。" speaker_show="True" stop="True" voice="hy11002_01_0407" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="私たち以外に、あんな風に人形を倒せる人なんて&#xA;そうそういない。ということはですよ！" speaker_show="True" stop="True" voice="mm11001_01_0644" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="正義のスーパーヒーローに違いない！　ってことで、&#xA;みんなでおびき出すことにしたんです。" speaker_show="True" stop="True" voice="mm11001_01_0645" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="半蔵門 雪" text="なるほど、理解は出来たわ。&#xA;けどそれは……。" speaker_show="True" stop="True" voice="hy11002_01_0408" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あ、もしかして師匠もスーパーヒーローが見たくて、&#xA;透明になって隠れてたんですか？" speaker_show="True" stop="True" voice="mm11001_01_0646" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003009" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="命、ヴィラン風衣装の予定" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="くぅ～、さすがユッキー。&#xA;その手は思いつかなかったぜ！" speaker_show="True" stop="True" voice="ym11003_01_0461" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="それなら誘ってくれれば良かったのに……。&#xA;それで、見たんですか？　スーパーヒーロー。" speaker_show="True" stop="True" voice="sf11004_01_0503" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create obj_id="半蔵門 雪" data_id="311002016" />
+    <char_alpha obj_id="半蔵門 雪" enable="True" quality="Default" />
+    <char_alpha_value obj_id="半蔵門 雪" value="0.7" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="どんな人でしたか？　むきむきのマッチョ？&#xA;それとも師匠のように強くて美しい人？" speaker_show="True" stop="True" voice="mm11001_01_0647" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="期待させてしまって申し訳ないけど……、&#xA;恐らくそれは私よ。" speaker_show="True" stop="True" voice="hy11002_01_0409" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ええええ！" speaker_show="True" stop="True" voice="mm11001_01_0648" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そんな、憧れのスーパーヒーロー様の正体が&#xA;憧れの師匠だなんて……。" speaker_show="True" stop="True" voice="mm11001_01_0649" />
+    <msg_window_show show="False" />
+    <wait time="0.5" />
+    <sound cue_name="Clash" type="Se" volume="100" />
+    <Comment comment="【SE】ゴツンとぶつかる音" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="いたっ！　何もないのに頭打ったぁ～。&#xA;って、もしや今のは……。" speaker_show="True" stop="True" voice="mm11001_01_0650" />
+    <msg speaker="半蔵門 雪" text="それも私よ。" speaker_show="True" stop="True" voice="hy11002_01_0410" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ごめんなさい、師匠！&#xA;私ったらパニクっちゃって……。" speaker_show="True" stop="True" voice="mm11001_01_0651" />
+    <msg_window_show show="False" />
+    <char_alpha_value obj_id="半蔵門 雪" value="0.8" time="1.0" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="あなたからは見えないのだから、仕方ないわ。" speaker_show="True" stop="True" voice="hy11002_01_0411" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="え、えええ！？　師匠、&#xA;透明クリームの効き目が切れてきてます！" speaker_show="True" stop="True" voice="mm11001_01_0652" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="あら、本当ね。&#xA;今回は予想以上に持続時間が短かったわね。" speaker_show="True" stop="True" voice="hy11002_01_0412" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="何でそんなに冷静なんですか！　あわあわあわ……。&#xA;どうしよう。何か着る物……わーん、ないよ～！" speaker_show="True" stop="True" voice="mm11001_01_0653" />
+    <char_alpha_value obj_id="半蔵門 雪" value="0.9" time="1" wait="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="きゃー！　だんだんくっきり見えてきた～！&#xA;だめー！　裸が見えちゃうーーーー！" speaker_show="True" stop="True" voice="mm11001_01_0654" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="02_Idle" force_end="False" loop="True" face_anim_type="011_Facial_surprise" />
+    <msg speaker="源 モモ" text="ほへ？" speaker_show="True" stop="True" voice="mm11001_01_0655" />
+    <msg_window_show show="False" />
+    <char_alpha_value obj_id="半蔵門 雪" value="1" time="1.0" wait="True" />
+    <char_alpha obj_id="半蔵門 雪" enable="False" quality="Default" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="完全にクリームの効果が切れたようね。" speaker_show="True" stop="True" voice="hy11002_01_0413" />
+    <msg speaker="源 モモ" text="は、裸じゃない……。" speaker_show="True" stop="True" voice="mm11001_01_0656" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" to_idle="True" force_end="False" loop="True" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="源 モモ" text="良かった～。&#xA;けど、師匠、そのセクシーなお衣装は一体……？" speaker_show="True" stop="True" voice="mm11001_01_0657" />
+  </command>
+</adv>

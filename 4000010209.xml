@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010209" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="True" />
+    <load_cue_sheet />
+    <bg show="True" resource_type="Background" file="16_soapland_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <sound_volume type="Bgm" cue_name="Quest1" time="1.0" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="こちら半蔵。待機部屋に潜入し、&#xA;従業員に紛れて待機中。" speaker_show="True" stop="True" voice="hy11002_02_0582" />
+    <msg speaker="青葉 初芽" text="女の子たちに、何か不審な様子は&#xA;ありませんか？" speaker_show="True" stop="True" voice="ah11005_02_0688" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="挙動が少々不審な者が数名。&#xA;引き続き所持品や支給品の確認を進める。" speaker_show="True" stop="True" voice="hy11002_02_0583" />
+    <msg speaker="青葉初芽" text="了解です。&#xA;こちらは救出ルートの確保を急ぎます。" speaker_show="True" stop="True" voice="ah11005_02_0689" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="半蔵門 雪" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="こちら半蔵。従業員に支給された飲み物の中に&#xA;違法薬物の混入を確認。" speaker_show="True" stop="True" voice="hy11002_02_0584" />
+    <msg speaker="青葉初芽" text="完全にクロのようですね。" speaker_show="True" stop="True" voice="ah11005_02_0690" />
+    <msg speaker="青葉初芽" text="こちらも準備完了です。&#xA;それでは、ミッションスタートです！" speaker_show="True" stop="True" voice="ah11005_02_0691" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="半蔵門 雪" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="こちら半蔵。従業員の男共は全員、&#xA;催眠弾で眠らせたわ。" speaker_show="True" stop="True" voice="hy11002_02_0585" />
+    <msg speaker="青葉 初芽" text="局、了解。こちらは引き続き、&#xA;女の子たちの救出を進めます。" speaker_show="True" stop="True" voice="ah11005_02_0692" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="半蔵門 雪" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002008" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="局、これで女の子たちは全員？" speaker_show="True" stop="True" voice="hy11002_02_0586" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="11_Point" loop="True" />
+    <msg speaker="青葉 初芽" text="はい。病院の手配も済みましたので、&#xA;この子たちはそこで治療に専念して貰いましょう。" speaker_show="True" stop="True" voice="ah11005_02_0693" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="了解。ミッション完了。" speaker_show="True" stop="True" voice="hy11002_02_0587" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="流石初芽ね。&#xA;素晴らしい手際だったわ。" speaker_show="True" stop="True" voice="hy11002_02_0588" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="いえいえ、それにまた雪ちゃんの綺麗な姿が&#xA;見られると思ったらつい張り切っちゃいました。" speaker_show="True" stop="True" voice="ah11005_02_0694" />
+    <msg speaker="源 モモ" text="何度みてもうっとりしますよね！" speaker_show="True" stop="True" voice="mm11001_02_0714" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="01_Stay" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモ!?　どうして……あなたはこの作戦には&#xA;参加していないはずでしょう。" speaker_show="True" stop="True" voice="hy11002_02_0589" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ、出動前にモモちゃんに話したら、&#xA;ぜひ同行したいと熱烈にリクエストがありまして。" speaker_show="True" stop="True" voice="ah11005_02_0695" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="たく……&#xA;やる気があるのは素晴らしいことだけど……。" speaker_show="True" stop="True" voice="hy11002_02_0590" />
+    <msg speaker="源 モモ" text="ありがとうございます！　師匠のドレス姿も&#xA;素晴らしかったです！" speaker_show="True" stop="True" voice="mm11001_02_0715" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="さ、帰って修行するわよモモ。" speaker_show="True" stop="True" voice="hy11002_02_0591" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_stop cue_name="quest1" />
+  </command>
+</adv>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1004000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" cue_name="Adv3" />
+    <Comment comment="工場 コンピュータールーム" />
+    <bg show="True" file="22_plant_03" color="#ffffffff" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="何度でも言ってやるのじゃ。しぶき達は&#xA;ツキカゲと馴れ合う気はないのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0017" />
+    <char_spine_animation obj_id="白虎" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="ほほー。随分喧嘩腰じゃないかキサマ。&#xA;この私が。四聖獣・白虎様が暴言を見過ごさないぞ。" speaker_show="True" stop="True" voice="bk11008_01_0025" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="しぶきは知っとるぞ。お前は故郷の桃源から&#xA;破門されとるじゃろ。既に四聖獣ではないのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0018" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="うぐ！　こいつ人の身体的特徴を……！&#xA;サイッテーだぜ。" speaker_show="True" stop="True" voice="bk11008_01_0026" />
+    <move obj_id="白虎" position_id="left" x="-400" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="落ち着け。そして身体的特徴ではない。" speaker_show="True" stop="True" voice="tr11007_01_0030" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="折角ですから、お友達になりましょうよ。" speaker_show="True" stop="True" voice="ah11005_01_0042" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠の言うとおりです。と、年も近くて、&#xA;スパイをしていて、境遇同じじゃないですか。" speaker_show="True" stop="True" voice="ig11006_01_0049" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="同じ？　しぶき達とお前達はひとつ&#xA;決定的に違うところがあるのじゃぞ。" speaker_show="True" stop="True" voice="ss12003_01_0019" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="凪の部隊は国に仕えている身。ツキカゲは&#xA;私設情報機関…でしょ、しぶきち。" speaker_show="True" stop="True" voice="th12004_01_0008" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="うむ。正義を為すならきちんと国に属してやれい。&#xA;力を持つ私設部隊が正義を語り行動する…危ういぞ。" speaker_show="True" stop="True" voice="ss12003_01_0020" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="ツキカゲが国の管理下に入るなら&#xA;それはもう喜んでしぶきは友になるのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0021" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="そりゃーどうだろうね？　国のしがらみが&#xA;ないってのが私設の良いところだし" speaker_show="True" stop="True" voice="ym11003_01_0076" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="ふん。そう言うと思ったわい。ゆえに。&#xA;友になる気はないと言っておるんじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0022" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="でも腕は認めた以上、手は組むというのね。&#xA;つまり、それだけ事態が切迫していると。" speaker_show="True" stop="True" voice="hy11002_01_0060" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="02_Idle" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="……。" speaker_show="True" stop="True" voice="ss12003_01_0023" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="半蔵門 雪" />
+    <Comment comment="背景指示なし" />
+    <bg show="True" file="04_shopstreetmo_01" color="#ff6464ff" />
+    <screen_effect mode="Flashback" show="True" />
+    <msg window_type="SystemMsg" text="時は少しだけ遡る。ツキカゲがクリッシーを空崎で&#xA;迎撃中、ある地方都市では爆発事件が起きていた。" stop="True" />
+    <msg window_type="SystemMsg" text="人々の悲鳴と燃えさかる炎。それら破滅を&#xA;見下ろし笑っている人間がいた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="乱獅子 しおん" data_id="315003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="綺麗な炎だねぇ。滅びはいつ見ても愉しいな。" speaker_show="True" stop="True" voice="rs15003_01_0030" />
+    <move obj_id="乱獅子 しおん" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="刑部 冴魅" data_id="317001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="刑部 冴魅" text="お前達大八洲は、とことん破壊を好むな。まぁ今日の&#xA;テロショーは倶楽部の客も中継で見て楽しんでいるが。" speaker_show="True" stop="True" voice="os17001_01_0011" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="こういう悪い事をいっぱいやりたいんだよ。&#xA;でも正義の味方気取りが邪魔してくるからさ。" speaker_show="True" stop="True" voice="rs15003_01_0031" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="でも皆で力をあわせれば、派手な動きが出来る。&#xA;連合の意味があるねぇ。" speaker_show="True" stop="True" voice="rs15003_01_0032" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="刑部 冴魅" text="さぁ我らは引き上げのタイミングだ。&#xA;この地の私設情報機関は予め潰しておいたが……。" speaker_show="True" stop="True" voice="os17001_01_0012" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="国家に仕える犬がくるねぇ。わんわんって。&#xA;じゃあ退散しよ。" speaker_show="True" stop="True" voice="rs15003_01_0033" />
+    <delete obj_id="乱獅子 しおん" />
+    <delete obj_id="刑部 冴魅" />
+    <msg speaker="女１" text="ごほ、ごほっ、うぅぅ、だ、誰か……助けて……。" speaker_show="True" stop="True" voice="99007_01_0001" />
+    <msg window_type="SystemMsg" text="駆けつけてきた少女……凪の部隊・薩摩しぶきが&#xA;苦しんでいる女性を抱き上げる。" stop="True" />
+    <char_spine_animation obj_id="女1" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="もう大丈夫じゃ。すぐに手当てするゆえ安心せい。" speaker_show="True" stop="True" voice="ss12003_01_0024" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="轟 葉栖美" text="こちら孔雀。被害者の救助、完了。" speaker_show="True" stop="True" voice="th12004_01_0009" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="こちら軍荼利、了解。" speaker_show="True" stop="True" voice="ss12003_01_0025" />
+    <delete obj_id="monitor_hasumi" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="この惨状……大八洲の鬼畜と、仲間どもの仕業か。" speaker_show="True" stop="True" voice="ss12003_01_0026" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="許されぬ。見つけ出して一人残らず&#xA;根絶やしにしてくれるわ。" speaker_show="True" stop="True" voice="ss12003_01_0027" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <screen_effect mode="Flashback" show="False" />
+    <delete obj_id="薩摩 しぶき" />
+    <bg show="True" file="22_plant_03" color="#ffffffff" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="……そうじゃ。好き嫌いを言っている場合では無い。&#xA;源モモ。" speaker_show="True" stop="True" voice="ss12003_01_0028" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="は、はい。なんでしょう。" speaker_show="True" stop="True" voice="mm11001_01_0099" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="お前の自宅で待ち伏せたのは試しが目的。&#xA;じゃが、あの時。しぶきが悪を演じた時の台詞は。" speaker_show="True" stop="True" voice="ss12003_01_0029" speaker_front="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="実際に悪が吐いた忌々しい言葉を&#xA;そのまま口にしたにすぎぬ。" speaker_show="True" stop="True" voice="ss12003_01_0030" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="！！" speaker_show="True" stop="True" voice="mm11001_01_0100" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="悪の連合は止めないと、被害が増してしまう。&#xA;ゆえに、我らは手を組まねばならぬ。" speaker_show="True" stop="True" voice="ss12003_01_0031" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

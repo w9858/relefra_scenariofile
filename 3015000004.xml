@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3015000004" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="True" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="白虎、テレジアの夏服は仮です。要確認" />
+    <bg show="True" resource_type="Background" file="02_wasabisp_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="…………。" speaker_show="True" stop="True" voice="tr11007_02_0152" />
+    <move obj_id="テレジア" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="なんだ、テレ公嬉しくないのか？" speaker_show="True" stop="True" voice="bk11008_02_0086" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="テレジア" text="いや、嬉しい……嬉しいんだ。&#xA;みんなが私の誕生日を祝ってくれる……。" speaker_show="True" stop="True" voice="tr11007_02_0153" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="ただ、こんな時どんな風に&#xA;喜んだらいいかわからないんだ。" speaker_show="True" stop="True" voice="tr11007_02_0154" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="そんなことで悩んでたのか、&#xA;いいことを教えてやる！" speaker_show="True" stop="True" voice="bk11008_02_0087" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="わかんないなら、&#xA;私の真似して喜んでおけばいいんだよ！" speaker_show="True" stop="True" voice="bk11008_02_0088" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="みんな、ありがとな！&#xA;じゃんじゃん私たちの誕生日を祝ってくれ！" speaker_show="True" stop="True" voice="bk11008_02_0089" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="！　たしかに白虎の言うとおりだな。" speaker_show="True" stop="True" voice="tr11007_02_0155" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="ありがとう、みんな。&#xA;今日から、今日が私の誕生日だ。" speaker_show="True" stop="True" voice="tr11007_02_0156" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="それじゃあ、&#xA;ケーキのロウソクに火をつけましょうか。" speaker_show="True" stop="True" voice="hy11002_02_0402" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="あ、テレちゃんのほうは私がつけますねー。" speaker_show="True" stop="True" voice="mm11001_02_0530" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ごえちゃんが２人の誕生日を一緒に祝いたいって&#xA;相談してくれた時、すごく嬉しかったんです。" speaker_show="True" stop="True" voice="ah11005_02_0398" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="とっても素敵な結果になったと思います。" speaker_show="True" stop="True" voice="ah11005_02_0399" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="私もすごく嬉しいです。&#xA;テレちゃんも白虎ちゃんも喜んでくれて。" speaker_show="True" stop="True" voice="ig11006_02_0275" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="さあ、２人とも一思いに吹き消しちゃって。" speaker_show="True" stop="True" voice="ym11003_02_0597" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="つけたばっかなのになー。" speaker_show="True" stop="True" voice="bk11008_02_0090" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="うん。まあ、そういうもんだからね。" speaker_show="True" stop="True" voice="sf11004_02_0524" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="よーし！　テレ公、同時に消そう！" speaker_show="True" stop="True" voice="bk11008_02_0091" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="構わない。準備はいいな？&#xA;――せーのっ！" speaker_show="True" stop="True" voice="tr11007_02_0157" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <lip_sync target1="白虎" target2="テレジア" />
+    <msg speaker="テレジア・白虎" text="ふぅーーーー！" speaker_show="True" stop="True" voice="3015000004_union_001" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="全部消えたな。" speaker_show="True" stop="True" voice="tr11007_02_0159" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="ぐぬぬ……&#xA;どうして私のろうそくは消えないんだ!!" speaker_show="True" stop="True" voice="bk11008_02_0093" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="ふぅーっ！&#xA;ふぅーっ！" speaker_show="True" stop="True" voice="bk11008_02_0094" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="テレジア" text="いや、それじゃ消えるわけないだろ。" speaker_show="True" stop="True" voice="tr11007_02_0160" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="何だとっ!?" speaker_show="True" stop="True" voice="bk11008_02_0095" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="息を吹きかけているが、ロウソクに向かってない。&#xA;目を閉じているから。" speaker_show="True" stop="True" voice="tr11007_02_0161" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="思い切り吹こうとすると……目を閉じちゃうんだっ。" speaker_show="True" stop="True" voice="bk11008_02_0096" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="さっきの礼だ。見本を見せてやる。&#xA;私の真似をすればいい。" speaker_show="True" stop="True" voice="tr11007_02_0162" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="いや、いい！&#xA;絶対に自力で消してやるー！" speaker_show="True" stop="True" voice="bk11008_02_0097" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="なら、早くしてくれ。&#xA;私はすぐにケーキを食べたいんだ。" speaker_show="True" stop="True" voice="tr11007_02_0163" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="ふぅーっ！　ふぅーっ！&#xA;ふぅーーーー!!" speaker_show="True" stop="True" voice="bk11008_02_0098" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

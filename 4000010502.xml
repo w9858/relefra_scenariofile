@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010502" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="1" show_time="1" out_time="1" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ふぁ～あ。" speaker_show="True" stop="True" voice="kt11009_01_0352" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="師匠、なんだか眠そうですねぇ。&#xA;遅くまで仕込みでもしてたのですか？" speaker_show="True" stop="True" voice="ah11005_01_0567" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="カトリーナ" text="そうじゃないのよ。最近、いつも通り寝てる&#xA;つもりなんだけど、眠りが浅くて。運動不足かしら。" speaker_show="True" stop="True" voice="kt11009_01_0353" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="それじゃあ今夜、一緒に走りませんか？　最近&#xA;モモちと楓ちゃんと夜のジョギングを始めたんです。" speaker_show="True" stop="True" voice="ig11006_01_0527" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" />
+    <Comment comment="テレジア:私服（夏）" />
+    <create type="Character" anchor="Bottom" obj_id="テレジア" data_id="311008003" position_id="left" x="200" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="面白そうねぇ。&#xA;テレジアちゃんも一緒に行かない？" speaker_show="True" stop="True" voice="kt11009_01_0354" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="テレジア" text="ああ……。" speaker_show="True" stop="True" voice="tr11007_01_0220" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="じゃあ、夜８時にWasabi前に集合しましょう！&#xA;モモちたちもきっと喜びます！" speaker_show="True" stop="True" voice="ig11006_01_0528" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="カトリーナ" text="あっ、ごえちゃんゴメン！&#xA;今日は予定が入ってるんだった。" speaker_show="True" stop="True" voice="kt11009_01_0355" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="せっかく体動かせると思ったのに、&#xA;今夜もまた眠れないかも……。" speaker_show="True" stop="True" voice="kt11009_01_0356" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="でしたら私にお任せください！&#xA;師匠が朝までぐっすり眠れる装置を作ってみます！" speaker_show="True" stop="True" voice="ah11005_01_0568" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ぐっすり眠れる装置って……？" speaker_show="True" stop="True" voice="kt11009_01_0357" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="眠りの深さを自動計測して、目覚めそうになったら&#xA;強制的に瞼を閉じさせるアイマスクです！" speaker_show="True" stop="True" voice="ah11005_01_0569" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="更にそれでも目が開く場合は、スマホガンで睡眠薬を&#xA;自動発砲！　これで朝までぐっすりです！" speaker_show="True" stop="True" voice="ah11005_01_0570" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="カトリーナ" text="は、初芽ちゃん。今回は遠慮しとくわ。&#xA;ゆっくりお風呂にでも入ればきっと大丈夫……。" speaker_show="True" stop="True" voice="kt11009_01_0358" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="13_Question" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="そうですか？　もう頭の中で設計図は完成して&#xA;しまったんですけどねぇ。" speaker_show="True" stop="True" voice="ah11005_01_0571" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="他に誰か、眠りが浅くて困っている人は&#xA;いないでしょうか？　ごえちゃん、どうですか？" speaker_show="True" stop="True" voice="ah11005_01_0572" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="わ、私は平気です。　毎日モモちたちと&#xA;走り込んでるのでぐっすりです。" speaker_show="True" stop="True" voice="ig11006_01_0529" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="じゃあテレちゃん、どうですか？" speaker_show="True" stop="True" voice="ah11005_01_0573" />
+    <delete obj_id="石川 五恵" />
+    <Comment comment="テレジア:私服（夏）" />
+    <create type="Character" anchor="Bottom" obj_id="テレジア" data_id="311008003" position_id="left" x="200" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="テレジア" text="あぁ……。" speaker_show="True" stop="True" voice="tr11007_01_0221" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="テレジアちゃん？　そういえば今日はいつにも増して&#xA;口数が少ないわね。どうしたの？" speaker_show="True" stop="True" voice="kt11009_01_0359" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="もしかして寝不足が原因でしょうか？&#xA;だとしたら一刻を争う事態ですね。" speaker_show="True" stop="True" voice="ah11005_01_0574" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="テレちゃんのために、渾身の快眠マシンを&#xA;製作しますね！" speaker_show="True" stop="True" voice="ah11005_01_0575" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="テレジア" text="そうか……。" speaker_show="True" stop="True" voice="tr11007_01_0222" />
+    <move obj_id="テレジア" position_id="left" x="0" x_move_type="MoveTo" />
+    <move obj_id="青葉 初芽" position_id="left" x="-300" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006006" position_id="left" x="300" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="テレちゃん？" speaker_show="True" stop="True" voice="ig11006_01_0530" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="……。" speaker_show="True" stop="True" voice="tr11007_01_0223" />
+    <msg_window_show show="False" />
+    <move obj_id="テレジア" position_id="left" y="-400" y_move_type="MoveValue" time="0.4" wait="True" />
+    <move obj_id="テレジア" position_id="left" y="-500" y_move_type="MoveValue" time="0.2" wait="True" />
+    <Comment comment="SEバタッと倒れる音" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1.0" />
+    <delete obj_id="テレジア" />
+    <create_effect effect_id="goe_Sweat" effect_type="MampSweat" life_time="1" target_obj="石川 五恵" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="テ、テレちゃん!?&#xA;師匠、どうしましょう呼吸が苦しそうです。" speaker_show="True" stop="True" voice="ig11006_01_0531" />
+    <delete obj_id="goe_Sweat" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="顔も少し赤いですね。&#xA;わっ、すごい熱じゃないですか！" speaker_show="True" stop="True" voice="ah11005_01_0576" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="テレちゃん、まずは横になってください。&#xA;大丈夫、私がついていますからね。" speaker_show="True" stop="True" voice="ah11005_01_0577" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

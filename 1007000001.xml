@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1007000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="敷島…世界に誇る日本の大手ロボットメーカー。&#xA;敷島グループの中核企業でもある。" stop="True" />
+    <msg window_type="SystemMsg" text="その大企業敷島が本社を置くのが愛知県敷島市。&#xA;ここに初芽、カトリーナ、ヨモギが訪ねていた。" stop="True" />
+    <msg_window_show show="False" />
+    <Comment comment="背景仮" />
+    <bg show="True" resource_type="Background" file="44_shikisima_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="敷島ビル" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <Comment />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="さすが世界の敷島だ。&#xA;そこらへんの国よりゼニ持ってんな。" speaker_show="True" stop="True" voice="ty12005_02_0001" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="敷島の社長が味方につけば頼もしいわ。&#xA;悪の連合との戦いが有利になる。" speaker_show="True" stop="True" voice="kt11009_02_0001" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="来夢さんなら、きっと力を貸してくれるはずです。" speaker_show="True" stop="True" voice="ah11005_02_0001" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <Comment comment="来夢のプライベートルーム" />
+    <bg show="True" resource_type="Background" file="44_raimuhouseev_01" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="青葉 初芽" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="敷島社長、敷島来夢に会った三人は&#xA;来夢のプライベート・ルームに通された。" stop="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ここでなら秘密のお話もＨなお話も&#xA;沢山できるわよ。いるのはＺＥＴのメンバーだけ。" speaker_show="True" stop="True" voice="sr13001_02_0001" />
+    <move obj_id="敷島 来夢" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あら。Ｈなお話だって、初芽ちゃん。" speaker_show="True" stop="True" voice="kt11009_02_0002" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="来夢さんは、豪快な人ですから……。" speaker_show="True" stop="True" voice="ah11005_02_0002" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="敷島 来夢" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ヨユーの切り返しね。それもまたよし。" speaker_show="True" stop="True" voice="sr13001_02_0002" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="共闘の申し出は、もちろんＯＫなので&#xA;手の内を大胆に見せ合っていきましょ。" speaker_show="True" stop="True" voice="sr13001_02_0003" />
+    <delete obj_id="敷島 来夢" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="粗茶にございまする。" speaker_show="True" stop="True" voice="am13002_02_0001" />
+    <move obj_id="アミィ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="凄い精巧さ。人にペイントしているわけじゃ&#xA;……なさそうね。" speaker_show="True" stop="True" voice="kt11009_02_0003" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="はい。アミィは正真正銘、人形。&#xA;つまりロボットにて候。コードネームはヒデヨシ。" speaker_show="True" stop="True" voice="am13002_02_0002" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="敷島自慢の一体ってわけね。&#xA;……もうここまで来ると人か。" speaker_show="True" stop="True" voice="kt11009_02_0004" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="人扱いでも、からくり扱いでも&#xA;何でも構いませぬ。" speaker_show="True" stop="True" voice="am13002_02_0003" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="我思うゆえに我あり。アミィはアミィですゆえ。" speaker_show="True" stop="True" voice="am13002_02_0004" />
+    <delete obj_id="アミィ" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="それではお友達になりましょうアミィちゃん。" speaker_show="True" stop="True" voice="ah11005_02_0003" />
+    <move obj_id="青葉 初芽" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="はい。アミィはマスター……敷島来夢の表の顔も&#xA;裏の顔も全力でサポートしておりまする。" speaker_show="True" stop="True" voice="am13002_02_0005" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="マスターともども、宜しくお願い致す。" speaker_show="True" stop="True" voice="am13002_02_0006" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="アミィ" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="言葉遣いが妙に怪しいのはご愛敬だと思ってね。" speaker_show="True" stop="True" voice="sr13001_02_0004" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ちなみに私のコードネームはノブナガ。&#xA;んで、マルも挨拶して。" speaker_show="True" stop="True" voice="sr13001_02_0005" />
+    <delete obj_id="敷島 来夢" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="敷島来夢の妹で、敷島真留瀬ですわ。&#xA;コードネームはミツヒデ。" speaker_show="True" stop="True" voice="sm13002_02_0001" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="戦闘要員ではなくサポート係ですわね。&#xA;宜しくお願いしますわ。" speaker_show="True" stop="True" voice="sm13002_02_0002" />
+    <delete obj_id="敷島 真留瀬" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="以上三名が秘密情報機関ＺＥＴよ。" speaker_show="True" stop="True" voice="sr13001_02_0006" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="豊富な財力と世界に誇る技術力で悪を討つってね。&#xA;リザードが犯罪組織の連合にいるんでしょう？" speaker_show="True" stop="True" voice="sr13001_02_0007" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あいつら人形を違法改造して破壊兵器に&#xA;しているのよ。許せない。倒さないとね。" speaker_show="True" stop="True" voice="sr13001_02_0008" />
+    <move obj_id="敷島 来夢" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="津守 ヨモギ" text="快諾ありがとよ。ここまで来た甲斐があるぜ。" speaker_show="True" stop="True" voice="ty12005_02_0002" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="こっちの事情も話していくわ。ツキカゲと&#xA;凪の部隊について。さっき触れた敵の連合について。" speaker_show="True" stop="True" voice="kt11009_02_0005" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

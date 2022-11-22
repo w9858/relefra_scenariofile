@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020000006" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" cue_name="Adv3" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_005" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="煙が晴れた時、ごらく部４人の姿は&#xA;そこにはなかった。" stop="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="逃げちゃった……んだよね。&#xA;でも、どうして？" speaker_show="True" stop="True" voice="mm11001_03_0034" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="あの子達の１人が、さっき&#xA;『チャンス』って言ってたような気がするけどさ。" speaker_show="True" stop="True" voice="ym11003_03_0041" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="それって、まんまとツキカゲの基地に潜入して、&#xA;機密をゲット出来たからだったりしないよね？" speaker_show="True" stop="True" voice="ym11003_03_0042" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Exclamation" effect_type="MampExclamation" life_time="2.0" target_obj="源 モモ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="源 モモ" text="え、えぇー!?&#xA;つまり、どこかのエージェントだったって事？" speaker_show="True" stop="True" voice="mm11001_03_0035" />
+    <delete obj_id="Exclamation" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そんな風には見えなかったけど……。" speaker_show="True" stop="True" voice="ig11006_03_0025" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="否定も出来ないところね。" speaker_show="True" stop="True" voice="hy11002_03_0028" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="でも、もし相手が、空崎を狙う組織の者なら……&#xA;アタシ達、顔を見られてますよね。" speaker_show="True" stop="True" voice="sf11004_03_0028" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="こうしていても仕方ないわ。&#xA;捕まえに行きましょう。" speaker_show="True" stop="True" voice="hy11002_03_0029" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" force_end="False" loop="True" mixing="True" face_anim_type="008_Facial_serious" />
+    <msg speaker="八千代 命" text="うん。手遅れになる前に行動しないと。" speaker_show="True" stop="True" voice="ym11003_03_0043" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" face_anim_type="003_Facial_laugh" />
+    <msg speaker="白虎" text="掃除なんてしてる場合じゃないな！" speaker_show="True" stop="True" voice="bk11008_03_0025" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="青葉 初芽" text="白虎ちゃん、こっちはいいですから&#xA;お掃除に戻ってください。" speaker_show="True" stop="True" voice="ah11005_03_0035" />
+    <char_spine_animation obj_id="白虎" force_end="False" loop="True" mixing="True" face_anim_type="101_Facial_unique" />
+    <msg speaker="白虎" text="ぶー。納得いかんぞ！" speaker_show="True" stop="True" voice="bk11008_03_0026" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="白虎" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="青葉 初芽" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001002" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="-130" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004002" position_id="left" x="130" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" face_anim_type="008_Facial_serious" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" face_anim_type="008_Facial_serious" />
+    <msg speaker="歳納 京子" text="はぁ……はぁっ……&#xA;何とか逃げられたかな……？" speaker_show="True" stop="True" voice="tk95002_03_0035" />
+    <char_spine_animation obj_id="赤座 あかり" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" face_anim_type="019_Facial_damage" />
+    <msg speaker="赤座 あかり" text="本当に煙がプシューって出て、&#xA;びっくりしたよぉ。" speaker_show="True" stop="True" voice="aa95001_03_0019" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="あまりゆっくりもしてられないぞ。&#xA;きっと追って来る。" speaker_show="True" stop="True" voice="fy95003_03_0033" />
+    <char_spine_animation obj_id="吉川 ちなつ" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" face_anim_type="008_Facial_serious" />
+    <msg speaker="吉川 ちなつ" text="私達の足で、逃げ切れるでしょうか……？" speaker_show="True" stop="True" voice="yc95004_03_0017" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="あのさ、ここからは４人が別々に&#xA;行動するっていうのはどうかな。" speaker_show="True" stop="True" voice="fy95003_03_0034" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="１人でも逃げる事が出来たら、&#xA;警察が助けてくれるかも知れないし。" speaker_show="True" stop="True" voice="fy95003_03_0035" />
+    <char_spine_animation obj_id="赤座 あかり" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" face_anim_type="005_Facial_sad" />
+    <msg speaker="赤座 あかり" text="いいと思うけど……&#xA;バラバラになっちゃうなんて、あかり怖いよぉ。" speaker_show="True" stop="True" voice="aa95001_03_0020" />
+    <char_spine_animation obj_id="吉川 ちなつ" force_end="False" loop="True" mixing="True" face_anim_type="005_Facial_sad" />
+    <char_spine_animation obj_id="吉川 ちなつ" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="私も、結衣先輩と離れたくありませんっ。" speaker_show="True" stop="True" voice="yc95004_03_0018" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" face_anim_type="018_Facial_smug" />
+    <msg speaker="歳納 京子" text="うーん、やっぱりここは皆で一緒に脱出しよう！&#xA;協力すれば何とかなる！　かも知れない！" speaker_show="True" stop="True" voice="tk95002_03_0036" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="歯切れが悪いなぁ。" speaker_show="True" stop="True" voice="fy95003_03_0036" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" face_anim_type="001_Facial_blink" />
+    <msg speaker="歳納 京子" text="大丈夫大丈夫、とにかくダッシュだ！" speaker_show="True" stop="True" voice="tk95002_03_0037" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="船見 結衣" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="赤座 あかり" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="歳納 京子" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="Adv3" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3001000009" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound cue_name="Adv2" />
+    <bg show="True" file="27_Laboev_02" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ここが、あのガチムチがデータを送った研究所…&#xA;結局、３カ所に絞った候補の内の１つだったみたいね。" speaker_show="True" stop="True" voice="sf11004_01_0287" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="はっはっはっ！　感謝しろよ、お前たち！" speaker_show="True" stop="True" voice="bk11008_01_0088" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="この白虎様があえて罠にかかってやることで、&#xA;アイツはデータを消す時間がなかったんだからなー！" speaker_show="True" stop="True" voice="bk11008_01_0089" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="そもそもお前が罠にかかっていなければ、&#xA;データそのものを送れてなかった可能性は？" speaker_show="True" stop="True" voice="tr11007_01_0113" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="うっ…それは…。" speaker_show="True" stop="True" voice="bk11008_01_0090" lip_sync_volume="0.01" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="大丈夫だよ、白虎ちゃん。&#xA;失敗は、今から挽回すればいいんだから。" speaker_show="True" stop="True" voice="ig11006_01_0158" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ラヴァーズ・アゲインの総帥がいる以上、&#xA;ここに戦力が集中してる可能性は高いもんね。" speaker_show="True" stop="True" voice="mm11001_01_0483" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="それじゃあ行くわよ、みんな！" speaker_show="True" stop="True" voice="sf11004_01_0288" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ラヴァーズチョコの完成を阻止し、ウーメン総帥を&#xA;拘束する！　それが今回の最終任務よ！" speaker_show="True" stop="True" voice="sf11004_01_0289" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="相模 楓" />
+    <sound_volume cue_name="Adv2" volume="0" sound_stop="True" />
+    <bg show="True" file="27_Labo_01" resource_type="Background" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound cue_name="Adv3" />
+    <create type="Character" obj_id="ウーメン総帥" data_id="398006001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="ムフ、ムフフフフフフ♪&#xA;もうすぐラヴァーズチョコが完成ねぇ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0001" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="010_Facial_shy" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="ワタシの愛が、世界を平和に導くのよぉ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0002" />
+    <delete obj_id="ウーメン総帥" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="そこまでよ！　ウーメン総帥！" speaker_show="True" stop="True" voice="sf11004_01_0290" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="ウーメン総帥" data_id="398006001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="あらぁ～ん？　ひょっとしてアナタたち、&#xA;ツキカゲなのぉ～ん？" speaker_show="True" stop="True" voice="us98006_01_0003" />
+    <delete obj_id="ウーメン総帥" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="はっはっはっ、その通ーり！&#xA;ぶっ飛ばしてやるから、覚悟しろ！" speaker_show="True" stop="True" voice="bk11008_01_0091" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="ウーメン総帥" data_id="398006001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="そう…アナタたちがここに来たってことは、&#xA;マイ・ラヴァーのショコラちゃんは、もう…。" speaker_show="True" stop="True" voice="us98006_01_0004" />
+    <move obj_id="ウーメン総帥" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="えーと…あの、すみません。" speaker_show="True" stop="True" voice="mm11001_01_0484" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="ちょっとアンタ、なによぉ～んっ！&#xA;人がせっかく感傷に浸ろうとしてたのにぃ～んっ！" speaker_show="True" stop="True" voice="us98006_01_0005" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ご、ごめんなさい。&#xA;でも、どうしても気になっちゃって。" speaker_show="True" stop="True" voice="mm11001_01_0485" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あなたは、ショコラさんの双子か何かですか？&#xA;見た目がそっくりなんですけど…？" speaker_show="True" stop="True" voice="mm11001_01_0486" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="ウーメン総帥" text="何言ってるのよぉ～ん？　ワタシとショコラちゃんに、&#xA;血の繋がりなんてあるわけないじゃなぁ～い？" speaker_show="True" stop="True" voice="us98006_01_0006" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ええっ!?　そんなに似てるのにっ!?" speaker_show="True" stop="True" voice="mm11001_01_0487" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="ムフフ♪　愛する者同士は、衣食住を共にしていれば&#xA;姿形や性格が似てくるものよぉ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0007" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="だから全人類も、等しく愛し合うべきなのよぉ～ん♪&#xA;１つになれば、争いは消えるんだからぁ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0008" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="そうして世界平和は、現実のものとなるのよぉ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0009" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="ウーメン総帥" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="はぁ…くだらない…。" speaker_show="True" stop="True" voice="sf11004_01_0291" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="ウーメン総帥" data_id="398006001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="ムフン？　何か言ったかしら、そこのアナタ？" speaker_show="True" stop="True" voice="us98006_01_0010" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="ううん、なんでもない。どうせアンタに言ったって、&#xA;絶対わかりっこなさそうだもの。" speaker_show="True" stop="True" voice="sf11004_01_0292" />
+    <delete obj_id="相模 楓" />
+    <move obj_id="ウーメン総帥" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="あらあら、生意気さんねぇ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0011" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="でも、安心していいわよぉ～ん♪　そういうアナタで&#xA;いられるのも、今日で最後なんだからぁ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0012" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="アナタたちを、もうすぐ完成するラヴァーズチョコの&#xA;最初の被験体にしてあげるわぁ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0013" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="というわけで、ウーメンロボ軍団出動よぉ～ん♪" speaker_show="True" stop="True" voice="us98006_01_0014" />
+    <delete obj_id="ウーメン総帥" />
+    <msg speaker="ウーメンロボ軍団" text="侵入者ヲ排除セヨ、侵入者ヲ排除セヨ。" speaker_show="True" stop="True" voice="99040_01_0001" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="うおー!?　すげー数が出て来たぞー!?" speaker_show="True" stop="True" voice="bk11008_01_0092" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="これは、思ってた以上かも…！" speaker_show="True" stop="True" voice="mm11001_01_0488" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="どうする？　１度退くか？" speaker_show="True" stop="True" voice="tr11007_01_0114" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="ううん、それはできないよ。ウーメン総帥をここで&#xA;逃がしたら、きっと大変なことになる。" speaker_show="True" stop="True" voice="ig11006_01_0159" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="だったら、ここでアイツを倒すのみよ！&#xA;ツキカゲの力、見せてあげるわ！" speaker_show="True" stop="True" voice="sf11004_01_0293" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="ウーメン総帥" data_id="398006001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="ムフフ、ムフフフフフフ♪&#xA;ほんと嫌ねぇ～ん、現実が理解できない連中って♪" speaker_show="True" stop="True" voice="us98006_01_0015" />
+    <char_spine_animation obj_id="ウーメン総帥" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ウーメン総帥" text="薬物だろうと何だろうと、愛し合いさえすれば良いって&#xA;こと、その身にた～っぷり教えて、あ・げ・る♪" speaker_show="True" stop="True" voice="us98006_01_0016" />
+  </command>
+</adv>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg show="True" resource_type="Background" file="42_skyni_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="空" wait="True" />
+    <create obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg window_type="SystemMsg" text="アメリカ合衆国　ネバタ州&#xA;リザード　巨大ファクトリー上空。" stop="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こちらノブナガ。目的地上空に来たわ。&#xA;ファクトリー潰しの任務を開始する。" speaker_show="True" stop="True" voice="sr13001_02_0235" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="意外と警戒網がもろいですわね。&#xA;すんなり上空までいけるなんて。" speaker_show="True" stop="True" voice="sm13002_02_0146" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="リザードはアメリカじゃ帝王だからね。&#xA;まさか刃向かう奴がいるとは思ってないと。" speaker_show="True" stop="True" voice="sr13001_02_0236" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ただ、さすがに中は警備と罠が満載のはずですわ。" speaker_show="True" stop="True" voice="sm13002_02_0147" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="もちろん気をつけるわ。これだけの&#xA;規模を見せつけられるとね。" speaker_show="True" stop="True" voice="sr13001_02_0237" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="このファクトリーで多くの人形が&#xA;破壊兵器として製造されている……か。" speaker_show="True" stop="True" voice="sr13001_02_0238" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="リザードは紛争の火種を作ってまでして&#xA;そこに人形を売ると言います。" speaker_show="True" stop="True" voice="sm13002_02_0148" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="許されないわね。表であれだけ&#xA;稼いでるんだから満足しなさいよ。" speaker_show="True" stop="True" voice="sr13001_02_0239" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="人の欲に際限はないと言いますわ。" speaker_show="True" stop="True" voice="sm13002_02_0149" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そんじゃノブナガ、いきましょうか！&#xA;目的はファクトリーの奥の奥！" speaker_show="True" stop="True" voice="sr13001_02_0240" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info />
+  <command>
+    <Start />
+    <bg file="0" />
+    <create type="Character" obj_id="2" data_id="10100103" x="100" />
+    <create type="Character" obj_id="1" data_id="10100103" />
+    <telop text="透明になるよ" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <char_alpha obj_id="1" enable="True" quality="Default" />
+    <char_alpha_value obj_id="1" value="0.7" time="3" wait="True" />
+    <char_spine_animation obj_id="1" body_anim_type="11_Point" loop="True" to_idle="True" />
+    <telop text="もっと透明になるよ" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="3" wait="True" />
+    <telop text="もとに戻るよ" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <char_alpha_value obj_id="1" value="1" time="1" wait="True" />
+    <char_alpha obj_id="1" enable="False" quality="Default" />
+    <char_spine_animation obj_id="1" loop="True" to_idle="True" face_anim_type="003_Facial_laugh" />
+    <msg speaker="モモ" text="もとに戻したら[char_alpha]コマンドのenableをFalseにしてね！！&#xA;＊このコマンドを入れることでメモリ解放できます" stop="True" />
+    <stop />
+  </command>
+</adv>

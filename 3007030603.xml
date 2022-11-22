@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030603" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM15_Adv5" />
+    <sound type="Bgm" cue_name="Adv5" />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="ショッピングパーク屋上・夜" />
+    <bg show="True" file="38_shoppingmall_01" color="#282828ff" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ショッピングモール屋上" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" x="-250" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" x="250" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" x="-1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" force_end="False" loop="True" to_idle="False" />
+    <wait time="0.1" />
+    <move obj_id="結城 友奈" x="-150" x_move_type="MoveTo" time="0.5" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="色々と、ありがとうございました。&#xA;とっても楽しかったです！" speaker_show="True" stop="True" voice="yy96001_01_0082" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ううん、こちらこそ。ハグハグ♪" speaker_show="True" stop="True" voice="mm11001_01_0815" />
+    <move obj_id="東郷 美森" x="150" x_move_type="MoveTo" time="0.5" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="今のは友奈ちゃんの本心なので&#xA;舐める必要はないですからね……。" speaker_show="True" stop="True" voice="tm96002_01_0096" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="10_FaceBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="解ってるよぉ。友奈ちゃんがどんな子か&#xA;今はもう、ちゃんと……解って……グスッ。" speaker_show="True" stop="True" voice="mm11001_01_0816" />
+    <move obj_id="半蔵門 雪" x="-450" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="モモ、泣かない。&#xA;感情を表に出すのは御法度よ。" speaker_show="True" stop="True" voice="hy11002_01_0565" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ウゥ……すみません、師匠。&#xA;私……みんなのこと、忘れないからね……！" speaker_show="True" stop="True" voice="mm11001_01_0817" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="半蔵門 雪" />
+    <msg_window_show show="False" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="-450" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" x="-225" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" x="0" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" x="450" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="うん。キミ達が忘れても、メイ達の&#xA;記憶にはずっと残るから……元気でね！" speaker_show="True" stop="True" voice="ym11003_01_0571" />
+    <char_spine_animation obj_id="乃木 園子" body_anim_type="07_ChestBothHands" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="…………………………。" speaker_show="True" stop="True" voice="ns96006_01_0086" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="そんな顔しない。また、来ても良いわよ。&#xA;あ、あんた達が……来たいなら。" speaker_show="True" stop="True" voice="sf11004_01_0601" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="石川 五恵" text="どうやって帰るのか想像もできないけど……&#xA;くれぐれも、気をつけて……。" speaker_show="True" stop="True" voice="ig11006_01_0494" />
+    <char_spine_animation obj_id="乃木 園子" body_anim_type="09_PutHands" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="みんな、優しくしてくれて……&#xA;心のポカポカをくれて……嬉しかった……。" speaker_show="True" stop="True" voice="ns96006_01_0087" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" x="0" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" x="1000" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" x="1000" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" x="1000" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" x="1000" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" x="1000" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="最後に私達から、大切な言葉を贈ります。&#xA;一同整列！　勇者部五箇条！" speaker_show="True" stop="True" voice="if96003_01_0077" />
+    <move obj_id="犬吠埼 風" x="-500" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="東郷 美森" x="-300" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" position_id="left" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="三好 夏凜" x="-100" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="犬吠埼 樹" x="100" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="乃木 園子" x="300" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="結城 友奈" x="500" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="東郷 美森" text="ひとつ！　挨拶はきちんと。" speaker_show="True" stop="True" voice="tm96002_01_0097" />
+    <char_spine_animation obj_id="三好 夏凜" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="三好 夏凜" text="ひとつ！　なるべく諦めない！" speaker_show="True" stop="True" voice="mk96005_01_0074" />
+    <char_spine_animation obj_id="犬吠埼 樹" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="犬吠埼 樹" text="ひとつ！　よく寝て、よく食べる。" speaker_show="True" stop="True" voice="ii96004_01_0074" />
+    <char_spine_animation obj_id="乃木 園子" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="乃木 園子" text="ひとつ！　悩んだら相談。" speaker_show="True" stop="True" voice="ns96006_01_0088" />
+    <char_spine_animation obj_id="結城 友奈" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="結城 友奈" text="ひとつ！　なせば大抵なんとかなる♪" speaker_show="True" stop="True" voice="yy96001_01_0083" />
+    <char_spine_animation obj_id="乃木 園子" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="乃木 園子" text="ありがとう。大切なオトモダチ……。&#xA;離れても……忘れても……大好きだから！" speaker_show="True" stop="True" voice="ns96006_01_0089" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="乃木 園子" text="ホントにホントに……サンキューベリーベリー&#xA;ありがとうでしたあ～！" speaker_show="True" stop="True" voice="ns96006_01_0090" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="勇者部一同" text="皆さん……さようなら……！" speaker_show="True" stop="True" voice="3007030603_01" />
+    <msg_window_show show="False" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="東郷 美森" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" x="-500" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="-300" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" x="-100" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="100" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" x="300" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" x="500" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="ツキカゲ一同" text="………!!" speaker_show="True" stop="True" voice="3007030603_union_002" />
+    <msg_window_show show="False" />
+    <flash count="1" time="1" wait="True" />
+    <sound type="Se" />
+    <Comment comment="画面ホワイトアウト" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="1.0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="………………あれ？&#xA;私達、どうしてここにいるんだっけ？" speaker_show="True" stop="True" voice="mm11001_01_0819" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="偵察ドローンに異常があったから&#xA;原因を確かめに来たんでしょ！" speaker_show="True" stop="True" voice="sf11004_01_0603" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え？　でも、ドローンならあそこに……。" speaker_show="True" stop="True" voice="ig11006_01_0496" />
+    <Comment comment="ドローン飛行の音" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="見た限り、特に問題はなさそうですね。&#xA;きっと電波障害でも起きたのでしょう。" speaker_show="True" stop="True" voice="ah11005_01_0510" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="……………………？" speaker_show="True" stop="True" voice="mm11001_01_0820" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="空を見上げてどうしたの。&#xA;何か気になることでも？" speaker_show="True" stop="True" voice="hy11002_01_0567" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あ、いえ！　ちょっとド忘れしたんですけど……&#xA;なせば大抵なんとかなるって、何でしたっけ？" speaker_show="True" stop="True" voice="mm11001_01_0821" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="えー？　何ソレ。それを言うなら&#xA;なせば成る、為さねば成らぬ何事も。でしょ？" speaker_show="True" stop="True" voice="ym11003_01_0573" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <char_spine_eye obj_id="源 モモ" type="Eye03_tear" loop="True" />
+    <msg speaker="源 モモ" text="あ、そっか……あれ？　どうして私……涙が……。&#xA;師匠、すみません！　師匠……？" speaker_show="True" stop="True" voice="mm11001_01_0822" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="フフ……なせば大抵なんとかなる、か。&#xA;モモらしい言い回しだわ。" speaker_show="True" stop="True" voice="hy11002_01_0568" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="私も思いました。&#xA;柔らかい感じで、素敵ですね。" speaker_show="True" stop="True" voice="ah11005_01_0511" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ねえ、そろそろ帰らない？&#xA;明日も早いし御飯もまだなんだよー？" speaker_show="True" stop="True" voice="ym11003_01_0574" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="相模 楓" text="そうですね。よく寝てよく食べないと。" speaker_show="True" stop="True" voice="sf11004_01_0604" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ、帰りましょう。&#xA;行くわよ、モモ。" speaker_show="True" stop="True" voice="hy11002_01_0569" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="源 モモ" text="はい！" speaker_show="True" stop="True" voice="mm11001_01_0823" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="1.0" />
+  </command>
+</adv>

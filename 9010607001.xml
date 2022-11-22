@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010607001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="スーパーマーケット" />
+    <bg show="True" file="38_supermarket_01" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" lip_sync="False" text="（えーっと、まずは野菜売り場に行って……。&#xA;あれ？　あそこにいるのはもしかして……。）" speaker_show="True" stop="True" voice="ig11006_02_0597" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="んー、これとあれ、どう違うんだ？&#xA;こっちのほうがうまそうに見えるが……。" speaker_show="True" stop="True" voice="bk11008_02_0324" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="いや、カトリーナだったら、&#xA;なんとなくあっちって言いそうだよな。" speaker_show="True" stop="True" voice="bk11008_02_0325" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="待て待て。そう思わせての、&#xA;こっちってパターンもありそうだな。んー。" speaker_show="True" stop="True" voice="bk11008_02_0326" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" lip_sync="False" text="（やっぱり白虎ちゃんだ。&#xA;なんか表情がくるくる変わって可愛いな。）" speaker_show="True" stop="True" voice="ig11006_02_0598" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ん？　なんだ五恵。そっちも買い物か？" speaker_show="True" stop="True" voice="bk11008_02_0327" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="うん。白虎ちゃんも？" speaker_show="True" stop="True" voice="ig11006_02_0599" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ああ、カトリーナに頼まれて買い出しだ。&#xA;だが、いいジャガイモがわからなくてな。" speaker_show="True" stop="True" voice="bk11008_02_0328" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ジャガイモ？&#xA;それなら傷がなくて重いものがいいよ。" speaker_show="True" stop="True" voice="ig11006_02_0600" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なんだお前、ジャガイモ博士か？" speaker_show="True" stop="True" voice="bk11008_02_0329" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="前に調べたことがあるの。&#xA;買い物することが多いからね。" speaker_show="True" stop="True" voice="ig11006_02_0601" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ふーん。じゃあニンジンは？" speaker_show="True" stop="True" voice="bk11008_02_0330" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="色がきれいなのはもちろんだけど、&#xA;この葉っぱがついてる中心が小さいほうがいいらしいよ。" speaker_show="True" stop="True" voice="ig11006_02_0602" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="白虎" text="なるほどな。それを選べばいいのか。&#xA;五恵が一緒にいると、いい野菜が買えそうだ。" speaker_show="True" stop="True" voice="bk11008_02_0331" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="五恵は何を買うんだ。&#xA;料理でもするのか？" speaker_show="True" stop="True" voice="bk11008_02_0332" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="うん。何を作ろうか悩んでいるんだけど、&#xA;白虎ちゃんは何かお気に入りの料理とかある？" speaker_show="True" stop="True" voice="ig11006_02_0603" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="お気に入り？　そうだなあ……。&#xA;カトリーナのカレーと、初芽のケーキと……。" speaker_show="True" stop="True" voice="bk11008_02_0333" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ちょ、ちょっと待って。&#xA;今、メモするから。" speaker_show="True" stop="True" voice="ig11006_02_0604" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そんなのメモってどうするんだ？" speaker_show="True" stop="True" voice="bk11008_02_0334" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="それはまあ……参考にしようと思って。&#xA;もし私が何か作ったら、白虎ちゃん食べてくれる？" speaker_show="True" stop="True" voice="ig11006_02_0605" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なんで私が……。" speaker_show="True" stop="True" voice="bk11008_02_0335" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="白虎ちゃんのために心を込めて作るから。" speaker_show="True" stop="True" voice="ig11006_02_0606" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="……わかったよ。&#xA;そこまで言うなら味見くらいしてやってもいい。" speaker_show="True" stop="True" voice="bk11008_02_0336" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ホント？　それじゃ、腕によりをかけて&#xA;おいしいもの作らなくちゃ。" speaker_show="True" stop="True" voice="ig11006_02_0607" />
+    <char_spine_animation obj_id="白虎" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="白虎" text="ああ。白虎様が口にするんだから&#xA;うまいもん作ってくれよ。" speaker_show="True" stop="True" voice="bk11008_02_0337" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="うん、頑張るよ！" speaker_show="True" stop="True" voice="ig11006_02_0608" />
+  </command>
+</adv>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3008020401" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="各キャラの衣装は現在、仮のものを入れております。" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="背景：動物園、現在は仮の背景を入れています。" />
+    <bg show="True" resource_type="Background" file="59_zooev_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="動物園" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="楓と葉栖美は新米飼育係を装い、動物園への&#xA;潜入調査のミッションをこなしていた。" stop="True" />
+    <msg window_type="SystemMsg" text="そんなある日のこと……" stop="True" />
+    <msg speaker="園長" text="今日から２人には子象の世話を任せたいんだけど、&#xA;引き受けて貰えるかしら？" speaker_show="True" stop="True" voice="99026_02_0029" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そんな花形の動物、アタシたちみたいな新米が&#xA;担当していいんですか？" speaker_show="True" stop="True" voice="th12004_02_0168" />
+    <msg speaker="園長" text="実は、うちのベテラン飼育員も手を焼いていてね、&#xA;もしかしてあなたたちならって相談を受けたのよ。" speaker_show="True" stop="True" voice="99026_02_0030" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ベテランが手を焼くって……すっごい暴れん坊で&#xA;言うこと聞かないとかですか？" speaker_show="True" stop="True" voice="th12004_02_0169" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まぁ確かに、アタシたち体力や腕っぷしにも&#xA;自信はありますけど。" speaker_show="True" stop="True" voice="sf11004_02_0181" />
+    <msg speaker="園長" text="違うのよ、その逆。" speaker_show="True" stop="True" voice="99026_02_0031" />
+    <msg speaker="園長" text="最近ずっと子象の元気がなくてね。&#xA;飼育員の誰にも慣れてくれなくて困ってるの。" speaker_show="True" stop="True" voice="99026_02_0032" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="何か、きっかけとか、原因とかは&#xA;あったりするんですか？" speaker_show="True" stop="True" voice="th12004_02_0170" />
+    <msg speaker="園長" text="育児放棄よ。母親象が母乳をあげようとも&#xA;してくれなくて……。" speaker_show="True" stop="True" voice="99026_02_0033" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ひどい……、自分の子供なのに勝手すぎるじゃ&#xA;ないですか。" speaker_show="True" stop="True" voice="sf11004_02_0182" />
+    <msg speaker="園長" text="それが、そうとも言い切れない事情があるのよね。&#xA;母親象は、親の居ない状態でこの動物園に来たのよ。" speaker_show="True" stop="True" voice="99026_02_0034" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="親に育てられた経験がないから、子供をどう育てて&#xA;いいか、わからないってことですね。" speaker_show="True" stop="True" voice="th12004_02_0171" />
+    <msg speaker="園長" text="そうなの。だから人間が母親代わりになって&#xA;目一杯の愛情を注いであげなきゃいけなくてね。" speaker_show="True" stop="True" voice="99026_02_0035" />
+    <msg speaker="園長" text="あなたたちはまだ新人だけど、随分動物から好かれ&#xA;やすいようだから、一度慣れるか試させて欲しいの。" speaker_show="True" stop="True" voice="99026_02_0036" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そういう事なら任せてください！&#xA;仲良しになってみせます。" speaker_show="True" stop="True" voice="th12004_02_0172" />
+    <msg speaker="園長" text="そう言ってくれると助かるわ。&#xA;じゃあ早速子象に会いに行ってましょう。" speaker_show="True" stop="True" voice="99026_02_0037" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="相模 楓" />
+    <bg file="59_zooev_002" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <msg speaker="園長" text="ここが象舎よ。&#xA;お世話をお願いしたい子は……" speaker_show="True" stop="True" voice="99026_02_0038" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="部屋の隅で縮こまってるあの子ですよね。&#xA;確かに他の象と比べて、明らかに元気ないですね。" speaker_show="True" stop="True" voice="sf11004_02_0183" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ちゃんとご飯、食べてないのかなぁ。&#xA;心配ですね。" speaker_show="True" stop="True" voice="th12004_02_0173" />
+    <msg speaker="園長" text="飼育員に懐かないもんだから、食事も余り&#xA;食べてくれなくてね……。" speaker_show="True" stop="True" voice="99026_02_0039" />
+    <msg speaker="園長" text="そのあたりも、&#xA;何とか克服できるといいんだけど……。" speaker_show="True" stop="True" voice="99026_02_0040" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="わかりました！　アタシたちが、何とかします。&#xA;任せてください。" speaker_show="True" stop="True" voice="th12004_02_0174" />
+    <msg speaker="園長" text="頼もしいねえ。それじゃあよろしくね。" speaker_show="True" stop="True" voice="99026_02_0041" />
+    <msg_window_show show="False" />
+    <sound cue_name="Walk" />
+    <wait time="2" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ちょっと葉栖美さん！&#xA;いいんですか？　任せてなんて言っちゃって。" speaker_show="True" stop="True" voice="sf11004_02_0184" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="まー何とかなるっしょ。とりあえず、一緒に過ごす&#xA;時間を増やすのが何より先決だよね。" speaker_show="True" stop="True" voice="th12004_02_0175" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="通常通りのお世話から始めよう！" speaker_show="True" stop="True" voice="th12004_02_0176" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info />
+  <command>
+    <Start />
+    <bg file="0" />
+    <create type="Character" obj_id="2" data_id="10100103" x="100" />
+    <create type="Character" obj_id="1" data_id="10100103" />
+    <msg speaker="モモ" text="透明になるよ&#xA;&lt;color=#f00&gt;高負荷注意!&lt;/color&gt;" stop="True" />
+    <char_alpha obj_id="1" enable="True" quality="Default" />
+    <char_alpha_value obj_id="1" value="0.7" time="3" wait="True" />
+    <char_spine_animation obj_id="1" body_anim_type="11_Point" loop="True" to_idle="True" />
+    <create_effect effect_id="sla" effect_type="EffectSlash" life_time="1" />
+    <create_effect effect_id="fi" effect_type="EffectShockWave" life_time="1" />
+    <create_effect effect_id="fia" effect_type="EffectKirakira" target_obj="1" />
+    <msg speaker="モモ" text="もっと透明になるよ" stop="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="3" wait="True" />
+    <msg speaker="モモ" text="もとに戻るよ" stop="True" />
+    <char_alpha_value obj_id="1" value="1" time="1" wait="True" />
+    <char_alpha obj_id="1" enable="False" quality="Default" />
+    <char_spine_animation obj_id="1" loop="True" to_idle="True" face_anim_type="003_Facial_laugh" />
+    <msg speaker="モモ" text="もとに戻したら[char_alpha]コマンドのenableをFalseにしてね！！&#xA;＊このコマンドを入れることでメモリ解放できます" stop="True" />
+    <stop />
+  </command>
+</adv>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020090402" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_005" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="ちなつの修業として、楓との&#xA;手裏剣投げ勝負が行われる事になった。" stop="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="さてさて、準備は出来たかな？&#xA;それじゃスタート！" speaker_show="True" stop="True" voice="ym11003_03_0071" />
+    <move obj_id="相模 楓" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="-150" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まずはアタシからですね。&#xA;この手裏剣、結構重い……" speaker_show="True" stop="True" voice="sf11004_03_0040" />
+    <sound type="Se" cue_name="Throwing" />
+    <Comment comment="手裏剣が下げられた音ヒュッ" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ありゃー、大きく外しちゃったねぇ。" speaker_show="True" stop="True" voice="ym11003_03_0072" />
+    <move obj_id="相模 楓" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek03_strong" loop="True" />
+    <msg speaker="相模 楓" text="ま、まあ、&#xA;最初はウォーミングアップみたいなものですし。" speaker_show="True" stop="True" voice="sf11004_03_0041" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="難しそう……&#xA;私に出来るかなぁ。" speaker_show="True" stop="True" voice="yc95004_03_0046" />
+    <move obj_id="八千代 命" position_id="left" x="-150" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="出来る出来る！　コツはね、&#xA;腰をしっかり使って投げるの。こんな風に。" speaker_show="True" stop="True" voice="ym11003_03_0073" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="はいっ……!!" speaker_show="True" stop="True" voice="yc95004_03_0047" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="(そ、そんなに手取り足取り教えなくても……!!)" speaker_show="True" stop="True" voice="sf11004_03_0042" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="False" />
+    <msg speaker="相模 楓" text="(むぅぅ～……こうなったら絶対、&#xA;師匠にアタシの凄さを思い知らせてやるんだからっ。)" speaker_show="True" stop="True" voice="sf11004_03_0043" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="吉川 ちなつ" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004002" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="それじゃ１投目、行きます。" speaker_show="True" stop="True" voice="yc95004_03_0048" />
+    <sound type="Se" cue_name="Throwing" />
+    <Comment comment="手裏剣が下げられた音ヒュッ" />
+    <wait time="1.0" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="吉川 ちなつ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="吉川 ちなつ" text="わっ、当たっちゃいました。&#xA;やったー！" speaker_show="True" stop="True" voice="yc95004_03_0049" />
+    <move obj_id="相模 楓" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="凄い凄い。やっぱりチーナ、&#xA;スパイの才能あるんだよ。" speaker_show="True" stop="True" voice="ym11003_03_0074" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="むむむむ……。" speaker_show="True" stop="True" voice="sf11004_03_0044" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="吉川 ちなつ" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004002" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <msg window_type="SystemMsg" text="楓は２投目以降もコントロールが定まらず、&#xA;真ん中を射抜く事が出来ずにいた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="(どうにか的には当たってるけど、&#xA;早く感覚を戻さないとマズいかも……。)" speaker_show="True" stop="True" voice="sf11004_03_0045" lip_sync="False" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="019_Facial_damage" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="次は私の４投目ですね。&#xA;少し手が疲れてきちゃった。" speaker_show="True" stop="True" voice="yc95004_03_0050" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="しっかり、集中して……。" speaker_show="True" stop="True" voice="yc95004_03_0051" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="-220" y="0" anchor="Bottom" />
+    <move obj_id="船見 結衣" position_id="left" x="-150" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="失礼します。&#xA;ちなつちゃん、頑張ってる？" speaker_show="True" stop="True" voice="fy95003_03_0097" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Exclamation" effect_type="MampExclamation" life_time="2.0" target_obj="吉川 ちなつ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="吉川 ちなつ" text="わー、結衣先輩ー！" speaker_show="True" stop="True" voice="yc95004_03_0052" />
+    <delete obj_id="Exclamation" />
+    <sound type="Se" cue_name="Throwing" />
+    <wait time="1.0" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1.0" />
+    <delete obj_id="船見 結衣" />
+    <delete obj_id="吉川 ちなつ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="え、え!?&#xA;ど真ん中に命中？" speaker_show="True" stop="True" voice="sf11004_03_0046" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="今、すっごく&#xA;『ついで』みたいに投げたのに？" speaker_show="True" stop="True" voice="ym11003_03_0075" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004001" position_id="left" x="450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="結衣先輩、私の様子を&#xA;見に来てくれたんですか？" speaker_show="True" stop="True" voice="yc95004_03_0053" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" body_anim_type="13_Question" />
+    <msg speaker="船見 結衣" text="うん、まあ。" speaker_show="True" stop="True" voice="fy95003_03_0098" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="ありがとうございますー！　あ、そういえば&#xA;この衣装可愛くないですか？" speaker_show="True" stop="True" voice="yc95004_03_0054" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Heart" effect_type="EffectHeart" life_time="5.0" target_obj="吉川 ちなつ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="吉川 ちなつ" text="結衣先輩ともお揃いですね！&#xA;うふふふ～。" speaker_show="True" stop="True" voice="yc95004_03_0055" />
+    <delete obj_id="Heart" />
+    <create type="Character" obj_id="相模 楓" data_id="311004002" position_id="left" x="-330" y="0" anchor="Bottom" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="(まさか、この子が&#xA;アタシより先に中心に当てるなんて……。)" speaker_show="True" stop="True" voice="sf11004_03_0047" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="(このままじゃ本当に負けちゃう……&#xA;どうしたらいいの？)" speaker_show="True" stop="True" voice="sf11004_03_0048" lip_sync="False" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="Quest1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

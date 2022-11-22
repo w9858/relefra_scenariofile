@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="44_shikisima_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="敷島ビル研究室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="敷島来夢が子供の頃、犯罪者達の間で&#xA;とあるビジネスが流行していた。" stop="True" />
+    <msg window_type="SystemMsg" text="それは金持ちの子供達を攫い身代金を&#xA;要求するといったもの。" stop="True" />
+    <msg speaker="来夢ガールズＺ" text="えっ、それじゃあ来夢様も小さい頃に&#xA;一度犯罪者に攫われたんですか。" speaker_show="True" stop="True" voice="rz13007_02_0002" />
+    <msg speaker="来夢ガールズＡ" text="そうよぉ。人形を改造して悪用していた&#xA;輩達でねぇ。" speaker_show="True" stop="True" voice="ra13003_02_0004" />
+    <msg speaker="来夢ガールズＢ" text="その改造された人形がひどい暴れ方をしてね。&#xA;来夢様を攫う時、怪我人も大勢出てしまったの。" speaker_show="True" stop="True" voice="rb13004_02_0002" />
+    <msg speaker="来夢ガールズＡ" text="でも来夢様は凄い人だからぁ。見張ってた&#xA;人形のプログラム書き換えて自力で脱出したのぉ。" speaker_show="True" stop="True" voice="ra13003_02_0005" />
+    <msg speaker="来夢ガールズＢ" text="だから来夢様は犯罪者……それも&#xA;人形を利用している連中が大嫌いなのよ。" speaker_show="True" stop="True" voice="rb13004_02_0003" />
+    <msg speaker="来夢ガールズＺ" text="私、知りませんでした。そんな事が……。&#xA;ありがとうございますアンヤさんベルタさん。" speaker_show="True" stop="True" voice="rz13007_02_0003" />
+    <msg speaker="来夢ガールズＢ" text="仕方無いわよジータ。貴方は入ったばかり&#xA;なんだから。" speaker_show="True" stop="True" voice="rb13004_02_0004" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="皆で私の噂話？　可愛いなぁ。&#xA;聞いてくれれば直接言うのに。" speaker_show="True" stop="True" voice="sr13001_02_0185" />
+    <msg speaker="来夢ガールズＺ" text="ら、来夢様！　おはようございます。来夢様に&#xA;お時間をとらせるのも、いけない事だと思い……。" speaker_show="True" stop="True" voice="rz13007_02_0004" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="いいわよいいわよジータ。可愛い子ね。" speaker_show="True" stop="True" voice="sr13001_02_0186" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="その夜、遅く。兵庫県上空。" stop="True" />
+    <delete obj_id="敷島 来夢" />
+    <bg show="True" resource_type="Background" file="42_skyni_01" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ってな事があったワケよ。&#xA;新人は初々しくて良いわよね？" speaker_show="True" stop="True" voice="sr13001_02_0187" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="はいはい、空を飛びながらの世間話は&#xA;ほどほどに。そろそろ目的地周辺ですわよ。" speaker_show="True" stop="True" voice="sm13002_02_0106" />
+    <char_spine_animation face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="今回のミッションは盗難された人形を解体して&#xA;部品を海外に密輸している拠点を潰しますわ。" speaker_show="True" stop="True" voice="sm13002_02_0107" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ほいよ。今日は機嫌がいいからちょっとは&#xA;手加減してあげるわ。いくわよ！" speaker_show="True" stop="True" voice="sr13001_02_0188" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

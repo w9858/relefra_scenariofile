@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="40_Apartmentni_01" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="オーナールーム" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006019" position_id="left" x="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="-300" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="300" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="オーナー" text="新人が揃って備品室に入り込んで&#xA;何をコソコソしていたんだ、ああ？" speaker_show="True" stop="True" voice="99014_03_0032" />
+    <msg speaker="ガードマン" text="抵抗しても無駄だぜ。か弱い女の力じゃ&#xA;３人がかりでもこの俺からは逃げられやしねえ。" speaker_show="True" stop="True" voice="99023_03_0002" />
+    <msg speaker="作業着の男" text="テメーら、まさかサツの犬か……？&#xA;薬の匂いを嗅ぎつけて来やがったんだな!?" speaker_show="True" stop="True" voice="99018_03_0008" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="え……ヤクって何ですか？&#xA;仰ってる事が少しも理解できません。" speaker_show="True" stop="True" voice="ah11005_03_0099" />
+    <msg speaker="オーナー" text="うん？　あれ？　違うのか……。&#xA;だったら何で、あの部屋に？" speaker_show="True" stop="True" voice="99014_03_0033" />
+    <msg speaker="ガードマン" text="ボス、コロッと騙されないでくれよ。&#xA;ハスラーは、こいつを手にしてやがったんだ！" speaker_show="True" stop="True" voice="99023_03_0003" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1.0" />
+    <msg speaker="オーナー" text="ゲ…ッ！　こ、これはアレだ……薬だな！&#xA;お、俺の健康のためのビタミンのそれだな！" speaker_show="True" stop="True" voice="99014_03_0034" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="そうなんだ？　じゃあ、今すぐ10錠くらい&#xA;飲んで見せてもらえますぅ？" speaker_show="True" stop="True" voice="th12004_03_0056" />
+    <msg speaker="オーナー" text="えっ、10錠!?　そんなに飲んだら……&#xA;ど、どうなってしまうんだ？" speaker_show="True" stop="True" voice="99014_03_0035" />
+    <msg speaker="作業着の男" text="こっち見んな！　こ、こいつらやっぱり&#xA;サツだ！　俺は捕まるのはゴメンだぜ！" speaker_show="True" stop="True" voice="99018_03_0009" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="でも捕まえちゃうけどね！" speaker_show="True" stop="True" voice="th12004_03_0057" />
+    <move obj_id="轟 葉栖美" position_id="left" x="300" x_move_type="MoveTo" y="-1000" y_move_type="MoveValue" time="0.3" wait="False" />
+    <sound type="Se" cue_name="kick_swing" />
+    <wait time="0.5" />
+    <delete obj_id="轟 葉栖美" />
+    <msg speaker="ガードマン" text="えっ！　消えた!?" speaker_show="True" stop="True" voice="99023_03_0004" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="-500" y="1000" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="013_Facial_angry" body_anim_type="02_Idle" force_end="False" loop="False" />
+    <move obj_id="轟 葉栖美" x="400" x_move_type="MoveTo" y="-1000" y_move_type="MoveValue" time="0.3" />
+    <sound type="Se" cue_name="BlowDamageCritical" />
+    <wait time="0.5" />
+    <move obj_id="轟 葉栖美" position_id="left" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="1.0" wait="True" />
+    <msg speaker="作業着の男" text="ぐあっ!!　い、いてててて！" speaker_show="True" stop="True" voice="99018_03_0010" />
+    <sound type="Se" cue_name="simetuke" />
+    <wait time="2.5" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="青葉 初芽" text="もう、あなたの罪は全て把握済みです。&#xA;観念して下さいませんか？　山田高司さん。" speaker_show="True" stop="True" voice="ah11005_03_0100" />
+    <msg speaker="オーナー" text="なっ、どうして俺の名前を!?&#xA;大枚叩いて、改名するつもりだったのに！" speaker_show="True" stop="True" voice="99014_03_0036" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" />
+    <msg speaker="石川 五恵" text="手荒な真似はしたくありません。ですから&#xA;どうか大人しく…………え？　改名……??" speaker_show="True" stop="True" voice="ig11006_03_0084" />
+    <msg speaker="オーナー" text="俺はガキの頃から地味で陰が薄く、誰の記憶にも&#xA;残らない自分がイヤでたまらなかった。だから…！" speaker_show="True" stop="True" voice="99014_03_0037" />
+    <msg speaker="オーナー" text="カリスマ的な巨悪の帝王になって、１度会ったら&#xA;決して忘れられない男になるんだ。そのためにも！" speaker_show="True" stop="True" voice="99014_03_0038" />
+    <msg speaker="オーナー" text="山田高司は、そう！　生まれ変わるんだ！&#xA;マウント・田・ハイ司としてなあ!!" speaker_show="True" stop="True" voice="99014_03_0039" />
+    <sound cue_name="shock2" type="Se" />
+    <lip_sync target1="石川 五恵" target2="青葉 初芽" target3="轟 葉栖美" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" />
+    <msg speaker="初芽・五恵・葉栖美" text="な……っ!?" speaker_show="True" stop="True" voice="3021000008_union_001" />
+    <msg speaker="作業着の男" text="ひ、ひでえ……どういうネーミングセンスだよ。&#xA;ハイジって男の、いや悪党の名前じゃねえだろ！" speaker_show="True" stop="True" voice="99018_03_0011" />
+    <msg speaker="ガードマン" text="い、イヤだぁぁ、マウント・ダ・ハイジなんて奴の&#xA;仲間だなんて思われたくねえ！　俺は抜ける！" speaker_show="True" stop="True" voice="99023_03_0005" />
+    <sound cue_name="Run" type="Se" />
+    <wait time="2" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" />
+    <msg speaker="石川 五恵" text="逃がさない！" speaker_show="True" stop="True" voice="ig11006_03_0086" />
+    <move obj_id="石川 五恵" position_id="left" x="150" x_move_type="MoveTo" y_move_type="MoveValue" />
+    <sound type="Se" cue_name="BlowDamageImpact" volume="100" />
+    <wait time="1" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.5" wait="True" />
+    <msg speaker="ガードマン" text="ぐあっ!?　ば、バカな…体重150キロの俺が&#xA;お、女の体当たりで吹っ飛ぶだ…と……ゴフッ。" speaker_show="True" stop="True" voice="99023_03_0006" />
+    <sound type="Se" cue_name="Down" />
+    <wait time="1" />
+    <msg speaker="オーナー" text="そ、そんな……唯一俺を認識してくれた先代組長の&#xA;金狼会をデカく復活させる……俺の野望がぁぁ。" speaker_show="True" stop="True" voice="99014_03_0040" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="轟 葉栖美" text="はいはい。オーラもセンスもお金じゃ買えないの。&#xA;巨悪の夢もお終い。ハスラーが逮捕しちゃうからね！" speaker_show="True" stop="True" voice="th12004_03_0059" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" />
+    <msg speaker="青葉 初芽" text="私は、素敵なお名前だと思いますよ。山田高司さん。&#xA;きっと、組長さんもそう思われていたでしょうね。" speaker_show="True" stop="True" voice="ah11005_03_0102" />
+    <msg speaker="オーナー" text="え……？　あ、ありが…とう……ございま…す。&#xA;組長……うぅ…ヒック、面目ねぇ……組長ぉぉ。" speaker_show="True" stop="True" voice="99014_03_0041" />
+    <sound type="Se" cue_name="SmokeBall" />
+    <wait time="0.8" />
+    <sound cue_name="Bom" type="Se" />
+    <wait time="1" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="薩摩 しぶき" text="よくやったぞ、皆の者。表では凪の部隊とツキカゲが&#xA;カジノに踏み込んで関係者と客を捕縛したところじゃ！" speaker_show="True" stop="True" voice="ss12003_03_0026" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" />
+    <msg speaker="轟 葉栖美" text="ワオ。アフターケアは万全……だね♪&#xA;ふっ、これで全部終わったみたい。" speaker_show="True" stop="True" voice="th12004_03_0060" />
+    <msg speaker="カトリーナ" text="３人とも、お疲れ様。カレーが出来てるから&#xA;早くみんなと一緒に帰っていらっしゃいね。" speaker_show="True" stop="True" voice="kt11009_03_0081" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <wait time="2" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

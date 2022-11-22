@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3013020302" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Adv1" type="Bgm" />
+    <bg show="True" resource_type="Background" file="31_shoppingmallev_04" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ショッピングモール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="なんと！&#xA;こんなに色々な種類の水着があるのか！" speaker_show="True" stop="True" voice="ss12003_02_0192" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ここのショッピングモールの水着フェアは&#xA;この辺りで一番種類があるんだよ。" speaker_show="True" stop="True" voice="th12004_02_0223" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="しかし、こんなに沢山あっては何が良いのか&#xA;さっぱりわからん。" speaker_show="True" stop="True" voice="ss12003_02_0193" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="やはりしぶきは、学校指定の水着で&#xA;問題ないと思うのじゃが……" speaker_show="True" stop="True" voice="ss12003_02_0194" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="016_Facial_smileBitter" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そんな事言わないの～。アタシがしぶきちに&#xA;最高に似合うのを探してみせるから。" speaker_show="True" stop="True" voice="th12004_02_0224" />
+    <move obj_id="轟 葉栖美" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="あっ、これ可愛いかも！　……いや待って、&#xA;ちょっと色が地味かなぁ。" speaker_show="True" stop="True" voice="th12004_02_0225" />
+    <move obj_id="轟 葉栖美" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="こっちのは、色や模様は可愛いけど&#xA;デザインがちょっと子供っぽいよね。" speaker_show="True" stop="True" voice="th12004_02_0226" />
+    <move obj_id="轟 葉栖美" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="あっ！　じゃあこれとか！&#xA;ぷぷぷ、ちょっとセクシーすぎか。" speaker_show="True" stop="True" voice="th12004_02_0227" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="……" speaker_show="True" stop="True" voice="ss12003_02_0195" />
+    <move obj_id="轟 葉栖美" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="あー、これも、すっごく可愛いんだけど、&#xA;うーん、ちょっと違うんだよなー。" speaker_show="True" stop="True" voice="th12004_02_0228" />
+    <char_spine_animation body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="どれもさほど変わらないように思えるのは&#xA;しぶきだけじゃろうか……。" speaker_show="True" stop="True" voice="ss12003_02_0196" />
+    <move obj_id="轟 葉栖美" position_id="left" x="100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="これだぁ！" speaker_show="True" stop="True" voice="th12004_02_0229" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="何じゃ！　突然大声をあげて！" speaker_show="True" stop="True" voice="ss12003_02_0197" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="見つけたよ！　しぶきちにぴったりの水着！&#xA;ほら、早速試着してみよー！" speaker_show="True" stop="True" voice="th12004_02_0230" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="これ、はっすー。強引に背中を押さなくても&#xA;しぶきは歩けるわい。" speaker_show="True" stop="True" voice="ss12003_02_0198" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="だってこれを着たしぶきち、早く見たいんだもん！&#xA;ほら、早く早く～。" speaker_show="True" stop="True" voice="th12004_02_0231" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="じゃあ着替え終わったら教えてね！&#xA;いってらっしゃい！" speaker_show="True" stop="True" voice="th12004_02_0232" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="-1500" x_move_type="MoveValue" y="0" y_move_type="MoveValue" time="1" wait="True" />
+    <move obj_id="轟 葉栖美" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <delete obj_id="薩摩 しぶき" />
+    <msg speaker="薩摩 しぶき" text="本当にこれで良いんじゃろうか……&#xA;はっすー、着替えが終わったぞ。" speaker_show="True" stop="True" voice="ss12003_02_0199" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="じゃあカーテン開けるね！&#xA;オープン！" speaker_show="True" stop="True" voice="th12004_02_0233" />
+    <Comment comment="しぶき水着" />
+    <create obj_id="薩摩 しぶき" data_id="312003007" position_id="left" x="-1500" y="0" anchor="Bottom" type="Character" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1" wait="False" />
+    <move obj_id="轟 葉栖美" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="この水着はしぶきにはちと、&#xA;可愛すぎるのではないか？" speaker_show="True" stop="True" voice="ss12003_02_0200" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そんなこと、全っ然ないよ！&#xA;すごく似合ってる！　超カワイイ！" speaker_show="True" stop="True" voice="th12004_02_0234" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="轟 葉栖美" text="流石しぶきち！&#xA;そして、それを選んだアタシも流石！" speaker_show="True" stop="True" voice="th12004_02_0235" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" />
+    <msg speaker="轟 葉栖美" text="いやぁ、見れば見るほど可愛いねぇ、&#xA;しぶきち。海辺の妖精みたいな可愛さだよ。" speaker_show="True" stop="True" voice="th12004_02_0236" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" />
+    <char_spine_cheek obj_id="薩摩 しぶき" type="Cheek02_medium" loop="True" />
+    <msg speaker="薩摩 しぶき" text="こ、これはっすー。変に褒めすぎるでないぞ。" speaker_show="True" stop="True" voice="ss12003_02_0201" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="轟 葉栖美" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" />
+    <msg speaker="轟 葉栖美" text="だって本当に可愛いんだもん！" speaker_show="True" stop="True" voice="th12004_02_0237" />
+    <char_spine_cheek obj_id="薩摩 しぶき" type="Cheek01_default" loop="True" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" face_anim_type="009_Facial_blush" obj_id="薩摩 しぶき" body_anim_type="04_HipLeftHand" />
+    <msg speaker="薩摩 しぶき" text="そこまで言うなら、これにするかの。" speaker_show="True" stop="True" voice="ss12003_02_0202" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="轟 葉栖美" text="やったー！　これで&#xA;臨海学校がますます楽しみになってきたよ。" speaker_show="True" stop="True" voice="th12004_02_0238" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" />
+    <msg speaker="薩摩 しぶき" text="（はっすーの奴、自分のことのように喜んでおる。&#xA;しかし、しぶきも少し楽しみになってきたな。）" speaker_show="True" stop="True" voice="ss12003_02_0203" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="薩摩 しぶき" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="薩摩 しぶき" text="（はっすーが言っていた「女の子にとって水着は特別」&#xA;の意味が少しだけじゃが、わかった気がする。）" speaker_show="True" stop="True" voice="ss12003_02_0204" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1" wait="True" />
+  </command>
+</adv>

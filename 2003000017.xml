@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000017" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Boss1 激戦" />
+    <load_cue_sheet cue_sheet="BGM/BGM17_Boss2" />
+    <sound type="Bgm" cue_name="Boss2" />
+    <bg show="True" file="23_forestev_01" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="山中" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="念珠" data_id="398003001" position_id="left" x="300" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="うーん、これはどういうことかな。&#xA;念珠ちゃんはモウリョウだったってわけ？" speaker_show="True" stop="True" voice="fn11011_01_0074" />
+    <char_spine_animation obj_id="念珠" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="いいや、違う。&#xA;私は山伏だ。" speaker_show="True" stop="True" voice="nj98003_01_0024" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="……なるほど。山伏の裏切り者で、今はモウリョウの&#xA;手先に寝返って、私たちを倒そうとしてるってわけか。" speaker_show="True" stop="True" voice="fn11011_01_0075" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="手先というのは誤りだな。&#xA;あくまで同盟関係だ。" speaker_show="True" stop="True" voice="nj98003_01_0025" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="18_ArmsCrossed" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="同じだよ。あなたはモウリョウに&#xA;使われてるだけさ、念珠ちゃん。" speaker_show="True" stop="True" voice="fn11011_01_0076" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="そう思いたければ思えばいい。" speaker_show="True" stop="True" voice="nj98003_01_0026" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="どちらにしろ、ツキカゲをここに誘き出し、&#xA;１人倒すごとに私はモウリョウから破格の報酬を得る。" speaker_show="True" stop="True" voice="nj98003_01_0027" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="やれやれ……モウリョウは、山伏の持ってる連絡網を&#xA;利用したんだね。" speaker_show="True" stop="True" voice="fn11011_01_0077" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="昔からモウリョウとは小競り合いが絶えなかったらしい&#xA;けど……本気でツキカゲを潰しにかかってきたかー。" speaker_show="True" stop="True" voice="fn11011_01_0078" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="人形を倒したのは信頼を得るための演技。千代女が&#xA;毒矢を受けたのも、そうなるよう誘導したのかな？" speaker_show="True" stop="True" voice="fn11011_01_0079" />
+    <char_spine_animation obj_id="念珠" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="念珠" text="ああ。千代女は負傷、山道を行く動きから察するに&#xA;甚内は戦力として劣っている……" speaker_show="True" stop="True" voice="nj98003_01_0028" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="不意打ちで長門まで潰すつもりだったが、仕方ない。&#xA;さぁ、こいつらを山に還してやれ、クーちゃん！" speaker_show="True" stop="True" voice="nj98003_01_0029" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="念珠" />
+    <msg speaker="クー" text="ガオオオオオオオ!!!!" speaker_show="True" stop="True" voice="ku98008_01_0001" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="0" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="千代女は矢の傷が完治してないから、戦闘から退く！&#xA;甚内は千代女を護衛して！　いい!?" speaker_show="True" stop="True" voice="fn11011_01_0080" />
+    <delete obj_id="藤林 長穂" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010001" position_id="left" x="125" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="-125" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="千代女、退こう。" speaker_show="True" stop="True" voice="ks11010_01_0203" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="うぅ、自分も戦いたいけど……了解。" speaker_show="True" stop="True" voice="ym11003_01_0258" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="200" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="こいつらは私と半蔵で倒す。&#xA;全力で行くよ、半蔵！" speaker_show="True" stop="True" voice="fn11011_01_0081" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="わかりました。" speaker_show="True" stop="True" voice="hy11002_01_0302" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="――熱く、鋭く！" speaker_show="True" stop="True" voice="fn11011_01_0082" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="――キめる。" speaker_show="True" stop="True" voice="hy11002_01_0303" />
+    <msg_window_show show="False" />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="半蔵門 雪" type="Eye02_spyce" loop="True" />
+    <sound type="Se" cue_name="Spice" />
+    <wait time="1.5" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="藤林 長穂" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="念珠" data_id="398003001" position_id="left" x="300" />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="はぁぁぁぁぁぁ!!!!" speaker_show="True" stop="True" voice="fn11011_01_0083" />
+    <char_spine_animation obj_id="念珠" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="念珠" text="ふん、こんな刀なんぞ数珠で受け止めて……" speaker_show="True" stop="True" voice="nj98003_01_0030" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】斬撃音" />
+    <sound type="Se" cue_name="Slash" />
+    <flash color="#ffffffff" count="1" time="0.3" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="な!?  鋼鉄をも切り裂く山伏の数珠を、&#xA;逆に切っただと!?  それがツキカゲのスパイスの力か!?" speaker_show="True" stop="True" voice="nj98003_01_0031" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="不意打ちが失敗した時点で、詰んでるんだよ。&#xA;さっさと観念しちゃったら？　念珠ちゃん。" speaker_show="True" stop="True" voice="fn11011_01_0084" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="念珠" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="念珠" text="ハッ……不意打ちは、労力を減らすためにやった&#xA;だけのこと。山中の山伏は何者にも負けない！" speaker_show="True" stop="True" voice="nj98003_01_0032" />
+    <Comment comment="【SE】ドッと跳躍する音" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="フッ……!!" speaker_show="True" stop="True" voice="nj98003_01_0033" />
+    <Comment comment="【SE】吹き矢が放たれる音" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="……！&#xA;吹き矢……！" speaker_show="True" stop="True" voice="fn11011_01_0085" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="お次はこいつだ!!!!" speaker_show="True" stop="True" voice="nj98003_01_0034" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ビュンビュンと檜笠が回転しながら飛んでくる音" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="1" />
+    <move obj_id="藤林 長穂" position_id="left" x="-200" time="1" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="うぉ……っと！ あぶな～。&#xA;あの檜笠、刃が仕込まれてたのかー。" speaker_show="True" stop="True" voice="fn11011_01_0086" />
+    <move obj_id="藤林 長穂" position_id="left" x="200" time="1" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="空中を飛びまわられちゃ刀も届かないし……&#xA;ちょっとまずいねー……" speaker_show="True" stop="True" voice="fn11011_01_0087" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="念珠" />
+    <delete obj_id="藤林 長穂" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <msg speaker="クー" text="ガオオオオオオオ!!" speaker_show="True" stop="True" voice="ku98008_01_0002" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ドドッと地面を殴る音" />
+    <sound type="Se" />
+    <wait time="1" />
+    <delete obj_id="effect_ShockWave" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="0" />
+    <char_spine_eye obj_id="半蔵門 雪" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="くっ……&#xA;この威力……" speaker_show="True" stop="True" voice="hy11002_01_0304" />
+    <char_spine_eye obj_id="半蔵門 雪（M）" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（一撃でも攻撃を食らえば致命傷になる……&#xA;しかもこの熊、人間との戦い方を仕込まれている……！）" speaker_show="True" stop="True" voice="hy11002_01_0305" lip_sync="False" />
+    <msg speaker="クー" text="ガアアッ!!" speaker_show="True" stop="True" voice="ku98008_01_0003" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ガキィンッと刀を弾き飛ばす音" />
+    <sound type="Se" cue_name="Slash" />
+    <flash color="#ffffffff" count="1" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（……!!&#xA;刀を弾き飛ばされた……!!）" speaker_show="True" stop="True" voice="hy11002_01_0306" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition type="Out" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <transition type="In" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂【合】" data_id="311011001" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪【合】" data_id="311002015" position_id="left" x="200" />
+    <char_spine_eye obj_id="藤林 長穂【合】" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="半蔵門 雪【合】" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="藤林 長穂【合】" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪【合】" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="長穂・雪" text="…………。" speaker_show="True" stop="True" voice="2003000017_union_001" />
+    <delete obj_id="藤林 長穂【合】" />
+    <delete obj_id="半蔵門 雪【合】" />
+    <create type="Character" anchor="Bottom" obj_id="念珠" data_id="398003001" position_id="left" x="0" />
+    <char_spine_animation obj_id="念珠" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="アハハ、ざまあないな！&#xA;観念するのはお前らの方だ！　覚悟しろ、ツキカゲ！" speaker_show="True" stop="True" voice="nj98003_01_0035" />
+  </command>
+</adv>

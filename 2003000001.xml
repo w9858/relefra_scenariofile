@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="01_school1mo_004" />
+    <fade_in time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="モモとツキカゲが出会う３年前" stop="True" />
+    <msg window_type="SystemMsg" text="初夏の昼下がり。空崎中学３年の半蔵門雪は、&#xA;敷地内に併設されている空崎高校の屋上にいた。" stop="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="師匠！&#xA;起きてください！" speaker_show="True" stop="True" voice="hy11002_01_0228" />
+    <msg speaker="藤林 長穂" text="おぉー、雪。&#xA;起こして～。" speaker_show="True" stop="True" voice="fn11011_01_0001" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……わかりました。" speaker_show="True" stop="True" voice="hy11002_01_0229" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" y="-1000" anchor="Bottom" />
+    <move obj_id="藤林 長穂" position_id="left" x="0" x_move_type="MoveValue" y="1000" y_move_type="MoveValue" time="0.5" wait="True" />
+    <msg speaker="藤林 長穂" text="よっ……と。" speaker_show="True" stop="True" voice="fn11011_01_0002" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="ふぅ……。&#xA;……午前中ずっとここで寝ていたんですか、師匠。" speaker_show="True" stop="True" voice="hy11002_01_0230" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="んーん、教室にいたよ。" speaker_show="True" stop="True" voice="fn11011_01_0003" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="教室で寝てたんですね……。" speaker_show="True" stop="True" voice="hy11002_01_0231" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="昨晩の任務は大変だったからさー。&#xA;今は、護った街の平和を謳歌してるってわけ。" speaker_show="True" stop="True" voice="fn11011_01_0004" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……確かに、大変でしたけども。" speaker_show="True" stop="True" voice="hy11002_01_0232" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="まぁでも、ダラけた姿を見せるのも作戦のうちだよ。&#xA;こんな姿見て、私をツキカゲだと思う人いないでしょ。" speaker_show="True" stop="True" voice="fn11011_01_0005" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="世を忍ぶ仮の姿ってヤツ。" speaker_show="True" stop="True" voice="fn11011_01_0006" />
+    <msg window_type="SystemMsg" text="空崎高校の１年生・藤林長穂。&#xA;その正体はツキカゲの一員、コードネーム長門である。" stop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……それは、そうですね。" speaker_show="True" stop="True" voice="hy11002_01_0233" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="ところで、昨日約束したマフィンちゃんは？" speaker_show="True" stop="True" voice="fn11011_01_0007" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……。" speaker_show="True" stop="True" voice="hy11002_01_0234" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="半蔵門 雪" />
+    <bg show="False" file="01_school1mo_004" />
+    <bg show="True" file="19_wharfni_01" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="雪～。&#xA;任務で疲れたから明日はマフィンちゃん食べたいよう。" speaker_show="True" stop="True" voice="fn11011_01_0008" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……わかりました。作ってきます。" speaker_show="True" stop="True" voice="hy11002_01_0235" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="半蔵門 雪" />
+    <bg show="False" file="19_wharfni_01" />
+    <bg show="True" file="01_school1mo_004" />
+    <screen_effect mode="Flashback" show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（断っても良かったけれど……&#xA;師匠の望みには全力で応えると決めているし……）" speaker_show="True" stop="True" voice="hy11002_01_0236" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（……師匠は私が面倒を見ないと、ダメになってしまう。&#xA;だから……）" speaker_show="True" stop="True" voice="hy11002_01_0237" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="こちらに。" speaker_show="True" stop="True" voice="hy11002_01_0238" />
+    <create_effect effect_id="effect_kirakira" effect_type="EffectKirakira" target_obj="藤林 長穂" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="おー、美味しそう！&#xA;じゃあ食べさせて、雪。" speaker_show="True" stop="True" voice="fn11011_01_0009" />
+    <delete obj_id="effect_kirakira" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……自分で食べることすらしないと？" speaker_show="True" stop="True" voice="hy11002_01_0239" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="ほら、昨日、犯罪者たちとの激闘で腕を痛めて。" speaker_show="True" stop="True" voice="fn11011_01_0010" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="師匠はノーダメージで秒殺していたでしょう。" speaker_show="True" stop="True" voice="hy11002_01_0240" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="早くしないとエネルギー切れで動けなくなるよ、雪ー。&#xA;あーん。" speaker_show="True" stop="True" voice="fn11011_01_0011" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" face_anim_type="002_Facial_smile" />
+    <msg speaker="半蔵門 雪" text="はぁ……。&#xA;そんなに口を開けて、せっかくの美人が台無しですよ。" speaker_show="True" stop="True" voice="hy11002_01_0241" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="あーん。" speaker_show="True" stop="True" voice="fn11011_01_0012" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……仕方ないですね。&#xA;はい、どうぞ。" speaker_show="True" stop="True" voice="hy11002_01_0242" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……こんなに手のかかる師匠は、師匠だけです。" speaker_show="True" stop="True" voice="hy11002_01_0243" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="これもまた世を忍ぶ仮の姿……。" speaker_show="True" stop="True" voice="fn11011_01_0013" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="本性でしょう。" speaker_show="True" stop="True" voice="hy11002_01_0244" />
+  </command>
+</adv>

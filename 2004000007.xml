@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000007" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="44_shikisima_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="敷島ビル研究室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="敷島来夢は、妹の真留瀬や来夢ガールズ達と&#xA;本日アップされた動画を見ていた。" stop="True" />
+    <msg window_type="SystemMsg" text="動画の内容はアメリカにある世界最大規模の&#xA;人形会社であるリザードの新作発表会だ。" stop="True" />
+    <bg show="True" resource_type="Background" file="45_lizard_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <screen_effect mode="Flashback" show="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="-450" />
+    <scale_obj obj_id="クリッシー" value="191" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="この新型人形、Ｒ２３モデルは皆様の暮らしを&#xA;よりリッチにしていくために設計されマシタ。" speaker_show="True" stop="True" voice="ks16001_02_0001" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="外装も一新し、フューチャーを感じるデザインで。&#xA;端末からのリモート機能をより効果的に…！" speaker_show="True" stop="True" voice="ks16001_02_0002" />
+    <msg speaker="来夢ガールズＡ" text="このクリッシーって人、美人でセクシーで&#xA;好みかもぉ。あ、来夢様には敵いませんけどぉ。" speaker_show="True" stop="True" voice="ra13003_02_0006" />
+    <delete obj_id="クリッシー" />
+    <screen_effect mode="Flashback" show="False" />
+    <bg show="True" resource_type="Background" file="44_shikisima_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="私はナンバーワンだからね。&#xA;でも褒め言葉はいくらでもどうぞ。" speaker_show="True" stop="True" voice="sr13001_02_0222" />
+    <msg speaker="来夢ガールズＢ" text="でも経営者……ブラッド・リザードだっけ。&#xA;私この人苦手。ズルい事考えてそうな目をしてる。" speaker_show="True" stop="True" voice="rb13004_02_0005" />
+    <delete obj_id="敷島 来夢" />
+    <screen_effect mode="Flashback" show="True" />
+    <bg show="True" resource_type="Background" file="45_lizard_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="-450" />
+    <scale_obj obj_id="クリッシー" value="191" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="そしてこちらの新型、ドラゴンは家屋やビルの&#xA;解体などにも使えるほどのハイパワーを搭載し……。" speaker_show="True" stop="True" voice="ks16001_02_0003" />
+    <delete obj_id="クリッシー" />
+    <screen_effect mode="Flashback" show="False" />
+    <bg show="True" resource_type="Background" file="44_shikisima_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="リザードの新型人形、なかなかの出来ですわね、&#xA;お姉様。" speaker_show="True" stop="True" voice="sm13002_02_0136" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そうね。生活のサポートから重労働の補佐まで。&#xA;いろんなタイプの人形を仕上げてきている。" speaker_show="True" stop="True" voice="sr13001_02_0223" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さすがは世界トップクラスの人形会社だわ。&#xA;……でも。" speaker_show="True" stop="True" voice="sr13001_02_0224" />
+    <msg speaker="来夢ガールズＭ" text="カツノハ　シキシマ！&#xA;ドミニカ　ノ　カン　ソウイッテル！" speaker_show="True" stop="True" voice="rb13005_02_0002" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そういう事。分かってるわねミラグロス。&#xA;さぁこちらも人形の研究を続けましょう。" speaker_show="True" stop="True" voice="sr13001_02_0225" />
+    <msg speaker="来夢ガールズＭ" text="ハーイ♪" speaker_show="True" stop="True" voice="rb13005_02_0003" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <bg file="44_raimuhouseni_01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="その夜、ＺＥＴはミーティングを行っていた。" stop="True" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="これが、違法の軍事人形を製造している&#xA;ファクトリーの写真ですわお姉様。場所はネバタ州。" speaker_show="True" stop="True" voice="sm13002_02_0137" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="でかっ。さすがアメリカさんは規模が違うわね。&#xA;こりゃ人形を大量に生産できちゃうわ。" speaker_show="True" stop="True" voice="sr13001_02_0226" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="表向きは当然ながら、通常の人形工場として&#xA;登録されています。リザード社の手によって。" speaker_show="True" stop="True" voice="sm13002_02_0138" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="またリザードか。昼も夜も、&#xA;その名前を聞くことになるとはねー。" speaker_show="True" stop="True" voice="sr13001_02_0227" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="あれだけの企業でありながら裏では&#xA;違法の軍事人形まで製造しているなんて。" speaker_show="True" stop="True" voice="sm13002_02_0139" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あそこは経済で世界を支配しようとしているのよ。&#xA;まーなんとも貪欲だわ。" speaker_show="True" stop="True" voice="sr13001_02_0228" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="違法の軍事人形を告発する形をとっても&#xA;握りつぶされた。ここは物理的に潰すしかないわね。" speaker_show="True" stop="True" voice="sr13001_02_0229" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="これだけ大規模なファクトリーです。潰したら&#xA;リザードはＺＥＴ狩りに全力を出してくるかと。" speaker_show="True" stop="True" voice="sm13002_02_0140" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="敷島 来夢" text="いいわよ。昼のビジネス勝負でも夜の力勝負でも、&#xA;敷島がリザードを倒してやろうじゃないの。" speaker_show="True" stop="True" voice="sr13001_02_0230" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……なんか夜って単語が頭につくとちょっとエッチな&#xA;ワードに聞こえるわね。夜の、敷島姉妹。" speaker_show="True" stop="True" voice="sr13001_02_0231" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ん、ごほん。ハレンチですわよお姉様。" speaker_show="True" stop="True" voice="sm13002_02_0141" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="マルはお堅いわねぇ。&#xA;何につけてもハレンチとか。" speaker_show="True" stop="True" voice="sr13001_02_0232" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様が自由すぎるのです。来夢ガールズに&#xA;対しても、まー、揉むわさするわ……。" speaker_show="True" stop="True" voice="sm13002_02_0142" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あっちが喜んでるんだからＷｉｎ－Ｗｉｎなのよ。&#xA;もしかして妬いてるのマル？" speaker_show="True" stop="True" voice="sr13001_02_0233" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="その感情は既に通り過ぎて、呆れのゾーンに&#xA;入ってきましたわ。" speaker_show="True" stop="True" voice="sm13002_02_0143" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="……話が逸れましたが、やるのですねお姉様。" speaker_show="True" stop="True" voice="sm13002_02_0144" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="敷島 来夢" text="やる。このファクトリーはＺＥＴが潰す。&#xA;来週ちょうどアメリカでミーティング入ってたし。" speaker_show="True" stop="True" voice="sr13001_02_0234" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ＺＥＴの活動範囲はまさに世界中ですわね。&#xA;武者震いがしますわ――。" speaker_show="True" stop="True" voice="sm13002_02_0145" />
+    <msg_window_show />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

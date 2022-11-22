@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000002" />
+  </info>
+  <command>
+    <Start />
+    <fade_out />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <msg window_type="SystemMsg" text="飛粋がツキカゲに来た初日。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="26_hatsumehousemo_01" effect="Immediately" wait="False" effect_time="0.3" color="#ffffffff" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="うわ～、すごい！　こんな立派なマンションに&#xA;入るのは初めてです！　ドキドキが止まりません！" speaker_show="True" stop="True" voice="mh12001_02_0047" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="荷物はコンシェルジュがお部屋に届けて&#xA;くれますから。さ、中に入りましょう。" speaker_show="True" stop="True" voice="ah11005_02_0194" />
+    <move obj_id="青葉 初芽" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="2.0" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="コ……コンシェルジュ……。" speaker_show="True" stop="True" voice="mh12001_02_0048" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="宗近 飛粋" />
+    <bg show="True" resource_type="Background" file="26_hatsumehousemo_02" effect="Immediately" effect_time="0.3" wait="False" color="#ffffffff" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <telop text="初芽の家" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ひ、広い……。これが初芽さんのお家。&#xA;お部屋も家具も素敵すぎて、素敵の大洪水です！" speaker_show="True" stop="True" voice="mh12001_02_0049" />
+    <msg speaker="白虎" text="おう、ようやく来たか。" speaker_show="True" stop="True" voice="bk11008_02_0022" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="宗近 飛粋" text="はい！&#xA;今日から宜しくお願いします！" speaker_show="True" stop="True" voice="mh12001_02_0050" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="広い家だが、まあ自分の家だと思って、&#xA;ゆっくりしてくれ。" speaker_show="True" stop="True" voice="bk11008_02_0023" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="ここは初芽の家だがな。私も白虎も、宗近と同じく&#xA;ここに居候をしている。よろしく。" speaker_show="True" stop="True" voice="tr11007_02_0098" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="宗近 飛粋" text="うん、よろしくね！" speaker_show="True" stop="True" voice="mh12001_02_0051" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ご挨拶も無事済みましたね。ツキカゲの活動は&#xA;明日からなので、今日はゆっくり寛いでくださいね。" speaker_show="True" stop="True" voice="ah11005_02_0195" />
+    <msg_window_show show="False" />
+    <delete obj_id="青葉 初芽" />
+    <transition time="0.5" wait="True" />
+    <bg file="24_freespace_01" />
+    <transition type="In" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="飛粋ちゃん、お風呂はどうでしたか？&#xA;ゆっくりできましたか？" speaker_show="True" stop="True" voice="ah11005_02_0196" />
+    <move obj_id="青葉 初芽" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="はい！　プールみたいな大きなお風呂に、美味しい&#xA;夜ご飯。思いっきり楽しませてもらいました。" speaker_show="True" stop="True" voice="mh12001_02_0052" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="良かったです。では今日はそろそろ寝ましょうか。&#xA;飛粋ちゃんはあちらのお部屋を使ってくださいね。" speaker_show="True" stop="True" voice="ah11005_02_0197" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="こ、こんな広い部屋を私１人で!?" speaker_show="True" stop="True" voice="mh12001_02_0053" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="False" mixing="True" />
+    <msg speaker="青葉 初芽" text="おやすみなさい。" speaker_show="True" stop="True" voice="ah11005_02_0198" />
+    <msg_window_show show="False" />
+    <bg file="24_freespace_01" color="#323232ff" effect_time="1.5" />
+    <move obj_id="青葉 初芽" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="宗近 飛粋" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="行っちゃった。こんな広い１人部屋初めてだから&#xA;緊張しちゃう！　けど早く寝なくちゃね。" speaker_show="True" stop="True" voice="mh12001_02_0054" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+    <fade_in time="0.5" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="020_Facial_thinking" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="……。" speaker_show="True" stop="True" voice="mh12001_02_0055" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="……。&#xA;うー、ダメだ！　全然眠れない！" speaker_show="True" stop="True" voice="mh12001_02_0056" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="久々の１人部屋っていうのも逆に落ち着かないし&#xA;それより何より、部屋が広すぎて！" speaker_show="True" stop="True" voice="mh12001_02_0057" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="どうしよう。完全に目が覚めちゃった……。" speaker_show="True" stop="True" voice="mh12001_02_0058" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="False" mixing="True" />
+    <msg speaker="宗近 飛粋" text="みんな、もう寝ちゃったかな。&#xA;こっそり様子を見に行っちゃおう。" speaker_show="True" stop="True" voice="mh12001_02_0059" />
+    <msg_window_show show="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <transition type="Out" color_change="True" time="0.5" wait="True" />
+    <bg file="26_hatsumehousemo_02" color="#323232ff" />
+    <transition type="In" color_change="True" time="0.5" wait="True" />
+    <move obj_id="宗近 飛粋" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="隣は確か、テレちゃんの部屋だよね。&#xA;そーっと扉を開けて……。" speaker_show="True" stop="True" voice="mh12001_02_0060" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create_effect effect_id="ManpSleep_byakko" effect_type="MampSleep" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="01_Stay" force_end="True" loop="True" mixing="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="えーっ!?&#xA;白虎ちゃんとテレちゃんが同じ布団に入って寝てる。" speaker_show="True" stop="True" voice="mh12001_02_0061" />
+    <delete obj_id="ManpSleep_byakko" />
+    <char_spine_animation obj_id="白虎" force_end="True" loop="True" mixing="True" face_anim_type="020_Facial_thinking" />
+    <msg speaker="白虎" text="ZZZ……ん？　何か視線が……。" speaker_show="True" stop="True" voice="bk11008_02_0024" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="019_Facial_damage" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ひゃっ！　ごめんなさい！&#xA;覗き見するつもりじゃなかったんだけど……。" speaker_show="True" stop="True" voice="mh12001_02_0062" />
+    <char_spine_animation obj_id="白虎" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="もしかしてお前、眠れないのか？" speaker_show="True" stop="True" voice="bk11008_02_0025" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="う、うん。&#xA;何だか部屋が広すぎて緊張しちゃって。" speaker_show="True" stop="True" voice="mh12001_02_0063" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="じゃあ、飛粋も一緒に寝よう。&#xA;私と一緒だとよく眠れるみたいだぞ！" speaker_show="True" stop="True" voice="bk11008_02_0026" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="いいの？　やったー！&#xA;それじゃあお邪魔します。" speaker_show="True" stop="True" voice="mh12001_02_0064" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="さすがに１つの布団に３人は窮屈だな。&#xA;ちゃんと寝られるか……ZZZZZ。" speaker_show="True" stop="True" voice="bk11008_02_0027" />
+    <create_effect effect_id="ManpSleep_byakko" effect_type="MampSleep" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ふふ、白虎ちゃんてば、話しながら寝ちゃっ……&#xA;ZZZZZ……。" speaker_show="True" stop="True" voice="mh12001_02_0065" />
+    <create_effect effect_id="ManpSleep_hisui" effect_type="MampSleep" target_obj="宗近 飛粋" x="0" y="0" attach_head_bone="True" />
+    <msg_window_show show="False" />
+    <transition time="0.5" wait="True" color_change="True" />
+    <delete obj_id="ManpSleep_byakko" />
+    <delete obj_id="ManpSleep_hisui" />
+    <delete obj_id="白虎" />
+    <delete obj_id="宗近 飛粋" />
+    <bg file="24_freespace_01" />
+    <transition type="In" time="0.5" wait="True" color_change="True" />
+    <msg window_type="SystemMsg" text="翌朝" stop="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="飛粋ちゃんがお部屋に居ない……。&#xA;飛粋ちゃん、どこですか？　飛粋ちゃん？" speaker_show="True" stop="True" voice="ah11005_02_0199" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="あら？　今、テレちゃんのお部屋から、&#xA;飛粋ちゃんの声がしたような……。" speaker_show="True" stop="True" voice="ah11005_02_0200" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <msg_window_show show="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <sound cue_name="DoorOpen" />
+    <transition wait="True" />
+    <bg file="26_hatsumehousemo_02" />
+    <transition type="In" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create_effect effect_id="ManpSleep_hisui" effect_type="MampSleep" target_obj="宗近 飛粋" x="0" y="0" attach_head_bone="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ZZZZZ……。タワーマンション、素敵です……。&#xA;スヤスヤスヤ……。" speaker_show="True" stop="True" voice="mh12001_02_0066" />
+    <move obj_id="青葉 初芽" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="あら！　そういうことでしたか。うふふ。&#xA;３人で寄り添って、幸せそうに眠ってますね" speaker_show="True" stop="True" voice="ah11005_02_0201" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="３人とも、気持ち良さそうな顔をしてるし、&#xA;もう少し寝かせてあげましょう。" speaker_show="True" stop="True" voice="ah11005_02_0202" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

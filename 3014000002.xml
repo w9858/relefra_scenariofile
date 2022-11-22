@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014000002" />
+  </info>
+  <command>
+    <Start />
+    <bg show="True" resource_type="Background" file="04_shopstreetmo_03" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="商店街" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ごえちゃん、今日は研究のお手伝い&#xA;ありがとうございました。" speaker_show="True" stop="True" voice="ah11005_02_0320" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="宿題や訓練で忙しいのに、私のワガママに&#xA;付き合わせてしまってごめんなさい。" speaker_show="True" stop="True" voice="ah11005_02_0321" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そんな事ないですよ！&#xA;師匠のお役に立てるのが一番嬉しいですから。" speaker_show="True" stop="True" voice="ig11006_02_0158" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ふふ、ごえちゃんは本当に良い弟子ですね。&#xA;私も師匠として、しっかり弟子孝行に励みますね。" speaker_show="True" stop="True" voice="ah11005_02_0322" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ということで早速ですが、ごえちゃんは&#xA;お誕生日祝い、どこに遊びに行きたいですか？" speaker_show="True" stop="True" voice="ah11005_02_0323" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="誕生日祝いですか、そうですね……。みんなと一緒なら&#xA;どこでも楽しいですから、どこでも大丈夫です。" speaker_show="True" stop="True" voice="ig11006_02_0159" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="そんな……折角の誕生日なのですから、&#xA;もっとワガママを言ってほしいです！" speaker_show="True" stop="True" voice="ah11005_02_0324" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（師匠の気持ちは嬉しいけど、&#xA;そんな事を言われても……。）" speaker_show="True" stop="True" voice="ig11006_02_0160" lip_sync="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ごえちゃんのためなら、どこだって&#xA;連れて行ってあげますよ。" speaker_show="True" stop="True" voice="ah11005_02_0325" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="例えば、飛行機を貸し切って、みんなで&#xA;南極にペンギンを見にいくとか。" speaker_show="True" stop="True" voice="ah11005_02_0326" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="インドで本場のカレーを食べる&#xA;というのも楽しいかもしれませんね。" speaker_show="True" stop="True" voice="ah11005_02_0327" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="嬉しいですけど、流石にそこまでの遠出はちょっと。&#xA;緊急の任務が入るかもしれませんし……。" speaker_show="True" stop="True" voice="ig11006_02_0161" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="そうですね、ごえちゃんの言う通りです……。" speaker_show="True" stop="True" voice="ah11005_02_0328" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（いけない、私ってば師匠をシュンとさせちゃってる。&#xA;どうしよう、どこか行きたい場所、どこか……。）" speaker_show="True" stop="True" voice="ig11006_02_0162" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（うーん……。）" speaker_show="True" stop="True" voice="ig11006_02_0163" lip_sync="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="そうだ、いい事を思いつきましたよ！&#xA;ごえちゃん、みんなでプールに行きましょう！" speaker_show="True" stop="True" voice="ah11005_02_0329" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="プール、ですか？" speaker_show="True" stop="True" voice="ig11006_02_0164" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="父のお友達が社長をやってる会社が&#xA;大きなプールを経営してるんですけどね。" speaker_show="True" stop="True" voice="ah11005_02_0330" />
+    <msg speaker="青葉 初芽" text="色々なアトラクションがたくさんあって、&#xA;１日中楽しめる所らしいんです。" speaker_show="True" stop="True" voice="ah11005_02_0331" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="みんなでそこに遊びにいって、思いっきり&#xA;水遊びを楽しみましょう！" speaker_show="True" stop="True" voice="ah11005_02_0332" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="わぁ、いいですね！　プールならみんなで遊べるし、&#xA;夏休みの思い出にもなって嬉しいです！" speaker_show="True" stop="True" voice="ig11006_02_0165" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010408001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="08_parkev_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ふんふーん♪&#xA;スーパーのタイムセール、間に合って良かった～。" speaker_show="True" stop="True" voice="sf11004_02_0771" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="これで今月の食費も予算内に収まるわ。&#xA;さすがアタシ……って、何これ!?" speaker_show="True" stop="True" voice="sf11004_02_0772" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <Comment comment="【SE】布を拾う音" />
+    <sound type="Se" cue_name="Hug" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="うちの制服が、脱ぎ捨てられてる……!?&#xA;……これって、もしかして……" speaker_show="True" stop="True" voice="sf11004_02_0773" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="テレジア" data_id="311008006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="はっ、はっ、はっ、はっ……" speaker_show="True" stop="True" voice="tr11007_02_0285" />
+    <msg_window_show show="False" />
+    <delete obj_id="テレジア" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="やっぱり……！" speaker_show="True" stop="True" voice="sf11004_02_0774" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" lip_sync="False" text="（こんなところでサラシ姿でトレーニングしてたら、&#xA;通報されちゃう……！）" speaker_show="True" stop="True" voice="sf11004_02_0775" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="テレジア" data_id="311008006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="True" loop="True" />
+    <wait time="0.1" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="True" loop="True" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ちょっとテレジア!!&#xA;犯罪スレスレになってるわよ!!" speaker_show="True" stop="True" voice="sf11004_02_0776" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="ハッ……&#xA;鍛錬に夢中になっていて、つい……。" speaker_show="True" stop="True" voice="tr11007_02_0286" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="テレジア" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="True" loop="True" />
+    <msg speaker="テレジア" text="すまない、楓。&#xA;着替えてきた。" speaker_show="True" stop="True" voice="tr11007_02_0287" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="まあ、私以外の通行人がいなかったから&#xA;良かったわ……。" speaker_show="True" stop="True" voice="sf11004_02_0777" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="これから初芽さんの家に帰るんでしょ？&#xA;途中まで一緒に行く？" speaker_show="True" stop="True" voice="sf11004_02_0778" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="ああ。そうだな。" speaker_show="True" stop="True" voice="tr11007_02_0288" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="テレジア" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="……。" speaker_show="True" stop="True" voice="tr11007_02_0289" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……。" speaker_show="True" stop="True" voice="sf11004_02_0779" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" lip_sync="False" text="（そういえば、テレジアと二人きりになるのは&#xA;珍しいかも……。……何話そう……）" speaker_show="True" stop="True" voice="sf11004_02_0780" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <create_effect effect_id="Light_fuu" effect_type="MampLight" life_time="1.0" target_obj="相模 楓" x="0" y="0" />
+    <msg speaker="相模 楓" lip_sync="False" text="（……あ、そういえば）" speaker_show="True" stop="True" voice="sf11004_02_0781" />
+    <Comment comment="【SE】マドレーヌが入った包みを取り出す音" />
+    <sound />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="テレジア、これあげるわ。" speaker_show="True" stop="True" voice="sf11004_02_0782" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="——！&#xA;これは……" speaker_show="True" stop="True" voice="tr11007_02_0290" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="今日の調理実習で作ったマドレーヌ。&#xA;たくさん作ったから、おすそ分け。" speaker_show="True" stop="True" voice="sf11004_02_0783" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_eye obj_id="テレジア" type="Eye03_tear" loop="True" />
+    <create_effect effect_id="KiraKira_テレジア" effect_type="EffectKirakira" life_time="1.0" target_obj="テレジア" x="0" y="0" />
+    <msg speaker="テレジア" text="いいのか……!?&#xA;ありがとう……！" speaker_show="True" stop="True" voice="tr11007_02_0291" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" lip_sync="False" text="（ほっ……&#xA;喜んでもらえてよかった）" speaker_show="True" stop="True" voice="sf11004_02_0784" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <char_spine_eye obj_id="テレジア" type="Eye01_default" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" lip_sync="False" text="（それにしても、テレジアのこの笑顔……&#xA;なんだかこっちまで嬉しくなるわ……）" speaker_show="True" stop="True" voice="sf11004_02_0785" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="一緒に食べよっか。" speaker_show="True" stop="True" voice="sf11004_02_0786" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="ああ！" speaker_show="True" stop="True" voice="tr11007_02_0292" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="もぐもぐ。" speaker_show="True" stop="True" voice="sf11004_02_0787" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="もぐもぐ。&#xA;——！ おいしい……！" speaker_show="True" stop="True" voice="tr11007_02_0293" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そう？ ま、パーフェクトなアタシが&#xA;作ったんだから当然だけど！" speaker_show="True" stop="True" voice="sf11004_02_0788" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="ああ、楓はお菓子作りの天才だ！" speaker_show="True" stop="True" voice="tr11007_02_0294" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="……そうストレートに言われると、&#xA;なんか恥ずかしいわね……。" speaker_show="True" stop="True" voice="sf11004_02_0789" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="True" />
+    <msg speaker="相模 楓" lip_sync="False" text="（……テレジアとの距離が、ちょっと縮まった……かな？）" speaker_show="True" stop="True" voice="sf11004_02_0790" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

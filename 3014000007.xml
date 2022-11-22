@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014000007" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="背景：プール" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003014" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="それにしても、フーとモモち、&#xA;すっごいスピードで降りてきたよねぇ。" speaker_show="True" stop="True" voice="ym11003_02_0526" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="スライダーの中でボートがクルクル回転するの&#xA;なんて初めてみたよ。" speaker_show="True" stop="True" voice="ig11006_02_0183" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="スピンを加えることで進行速度を加速させる。&#xA;野球のストレートと同じ要領ね。" speaker_show="True" stop="True" voice="hy11002_02_0379" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="そんな高度な技を使うなんて、&#xA;２人とも凄いです！" speaker_show="True" stop="True" voice="ah11005_02_0350" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="凄いのはフーちゃんですよ！　私はただ、&#xA;フーちゃんに言われるままに動いてただけで。" speaker_show="True" stop="True" voice="mm11001_02_0444" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="そうだったのか～。&#xA;さすが我が弟子！　メイも鼻高々だよ～。" speaker_show="True" stop="True" voice="ym11003_02_0527" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そ、そうですね！　アタシは最初から、ああなる事を&#xA;想定して、モモちに指示出しをしたのであって……" speaker_show="True" stop="True" voice="sf11004_02_0447" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="決して、偶然起こった&#xA;アクシデントとかではなくって……。" speaker_show="True" stop="True" voice="sf11004_02_0448" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そっか。遠くから悲鳴が聞こえたからアクシデントで&#xA;ああなっちゃったのかなって心配してたんだ。" speaker_show="True" stop="True" voice="ig11006_02_0184" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そ、そんな訳ないでしょ！　完璧なアタシが&#xA;アクシデントだなんて、ありえないわ！" speaker_show="True" stop="True" voice="sf11004_02_0449" />
+    <move obj_id="石川 五恵" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="そうだよね、さすがはフーちゃん。" speaker_show="True" stop="True" voice="mm11001_02_0445" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="けど次は、あんまりハラハラしない系の&#xA;アトラクションがいいかなぁ。" speaker_show="True" stop="True" voice="mm11001_02_0446" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="でしたら、噴水の迷路はどうでしょうか？" speaker_show="True" stop="True" voice="ah11005_02_0351" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="噴水の迷路？" speaker_show="True" stop="True" voice="hy11002_02_0380" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="さっき子供用の浅いプールのところにあった、&#xA;地面から水が出て壁みたいになってた所ですね！" speaker_show="True" stop="True" voice="ig11006_02_0185" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="すごーい！　噴水が迷路の壁になってるんだ。&#xA;早速みんなで一緒に入ってみよう。" speaker_show="True" stop="True" voice="mm11001_02_0447" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="石川 五恵" text="うん、行こう！" speaker_show="True" stop="True" voice="ig11006_02_0186" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="待って！ せっかくなら、誰が一番早く&#xA;ゴールできるか勝負してみるのはどうかしら？" speaker_show="True" stop="True" voice="hy11002_02_0381" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="いいですね。普通にゴールを目指すより&#xA;何倍も燃えそうですし。" speaker_show="True" stop="True" voice="sf11004_02_0450" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="よし！　それじゃあ皆の衆、&#xA;優勝目指して頑張るぞい！" speaker_show="True" stop="True" voice="ym11003_02_0528" />
+    <delete obj_id="八千代 命" />
+    <Comment comment="合わせセリフ？" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006013" position_id="left" x="450" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005013" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <lip_sync target1="石川 五恵" target2="源 モモ" target3="相模 楓" target4="青葉 初芽" />
+    <msg speaker="モモ・楓・初芽・五恵" text="おー！" speaker_show="True" stop="True" voice="3014000007_union_001" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

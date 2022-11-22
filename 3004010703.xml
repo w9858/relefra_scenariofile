@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3004010703" />
+  </info>
+  <command>
+    <Start />
+    <fade_out />
+    <bg show="True" file="29_hanamipark_01" />
+    <Comment comment="Adv2 女子会話・コメディ" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="お花見会場" />
+    <msg window_type="SystemMsg" text="迷子センターに保護された白虎を雪と命が&#xA;迎えに行き、皆の待つ花見スポットに戻ってきた。" stop="True" />
+    <msg window_type="SystemMsg" text="これで全員揃ってお花見が始められると思いきや……。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="お花見会場" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="みんな、待たせたわね。&#xA;戻ったわ。" speaker_show="True" stop="True" voice="hy11002_01_0477" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="師匠、メイちゃん、白虎ちゃんのお迎え、&#xA;お疲れ様です！　……あれ？　白虎ちゃんは？" speaker_show="True" stop="True" voice="mm11001_01_0696" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="あっちの木の下でいじけてるわ。" speaker_show="True" stop="True" voice="hy11002_01_0478" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="行かない、って木にしがみついて動かないから、&#xA;とりあえずここから見守ることにしたって訳よ。" speaker_show="True" stop="True" voice="ym11003_01_0484" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="そうなんだ……、&#xA;白虎ちゃん大丈夫かな。" speaker_show="True" stop="True" voice="mm11001_01_0697" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="まぁ、お弁当の匂いでも嗅げば&#xA;すぐに飛んでくるでしょ？" speaker_show="True" stop="True" voice="sf11004_01_0515" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="それではごえちゃん、お弁当を見せてください！&#xA;いい匂いで白虎ちゃんを呼び戻しましょう。" speaker_show="True" stop="True" voice="ah11005_01_0302" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="はい！&#xA;それじゃあ、お弁当箱、オープン！" speaker_show="True" stop="True" voice="ig11006_01_0318" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="テレジア" data_id="311008005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="おぉ！　これは美味しそうだ。" speaker_show="True" stop="True" voice="tr11007_01_0150" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="私とごえちゃん、雪ちゃんで作った&#xA;特製お花見弁当。自信作よ！" speaker_show="True" stop="True" voice="kt11009_01_0302" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="おーい、白虎ちゃーん、&#xA;早く来ないとなくなっちゃうよ～。" speaker_show="True" stop="True" voice="mm11001_01_0698" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="あれ？　動かないわね。&#xA;絶対に飛んでくると思ったのに。" speaker_show="True" stop="True" voice="sf11004_01_0516" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="私、ちょっと心配だから、&#xA;白虎ちゃんの所に行ってみる。" speaker_show="True" stop="True" voice="mm11001_01_0699" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="源 モモ" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="……。" speaker_show="True" stop="True" voice="bk11008_01_0158" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="白虎ちゃん、どうしちゃったの？&#xA;お弁当、早く行かなきゃなくなっちゃうよ。" speaker_show="True" stop="True" voice="mm11001_01_0700" />
+    <char_spine_animation obj_id="白虎" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="いらない……。" speaker_show="True" stop="True" voice="bk11008_01_0159" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="どうしたの？&#xA;私でよかったら、話してみない？" speaker_show="True" stop="True" voice="mm11001_01_0701" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="何で私が怒られなきゃならないんだ。" speaker_show="True" stop="True" voice="bk11008_01_0160" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="怒られた？&#xA;もしかして師匠達に？" speaker_show="True" stop="True" voice="mm11001_01_0702" />
+    <char_spine_animation obj_id="白虎" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="そうだ。迷惑かけるなって。迷子になったのは&#xA;私じゃなくてテレ公の方なのに。" speaker_show="True" stop="True" voice="bk11008_01_0161" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="そうだったんだ。白虎ちゃん、&#xA;１人で心細い思いをしてたんだね。" speaker_show="True" stop="True" voice="mm11001_01_0703" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="けどもう誰も怒ってないよ。&#xA;だから、みんなの所に行こう！　ね！" speaker_show="True" stop="True" voice="mm11001_01_0704" />
+    <char_spine_animation obj_id="白虎" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="桜なんてここから見るからいい。&#xA;お前はさっさと戻れ。" speaker_show="True" stop="True" voice="bk11008_01_0162" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="強情だなぁ。こうなったら、最終兵器だよ！&#xA;おーい、ごえちゃーん！" speaker_show="True" stop="True" voice="mm11001_01_0705" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="白虎" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="白虎ちゃん、戻ろう。&#xA;よいしょっ……。" speaker_show="True" stop="True" voice="ig11006_01_0319" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1" wait="True" />
+    <create_effect effect_id="bk_Sweat" effect_type="MampSweat" life_time="1" target_obj="白虎" />
+    <char_spine_animation obj_id="白虎" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="こっ、こら！&#xA;強引に持ち上げるなぁぁぁ！" speaker_show="True" stop="True" voice="bk11008_01_0163" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Walk" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="bk_Sweat" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="白虎" />
+    <delete obj_id="石川 五恵" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="はい、到着～！&#xA;白虎ちゃん、ほら、上を見てみて！" speaker_show="True" stop="True" voice="mm11001_01_0706" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ふん。&#xA;桜なんて、どこでも一緒……。" speaker_show="True" stop="True" voice="bk11008_01_0164" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_eye obj_id="白虎" type="Eye03_tear" loop="True" />
+    <msg speaker="白虎" text="わっ！　な……、何だこれは……。&#xA;空が花びらでいっぱいだ！" speaker_show="True" stop="True" voice="bk11008_01_0165" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="私とフーちゃんとメイちゃんで、&#xA;朝から場所取りしたんだ。" speaker_show="True" stop="True" voice="mm11001_01_0707" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="この公園で一番のお花見スポットなのよ。&#xA;感謝しなさい。" speaker_show="True" stop="True" voice="sf11004_01_0517" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ほらほらー、桜の下で食べるお弁当は美味しいよ！&#xA;早くしないとメイが全部食べちゃうぞ～！" speaker_show="True" stop="True" voice="ym11003_01_0485" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ぐぅっ……、何ていい匂い！&#xA;仕方ないな、そこまで言うなら食べてやる！" speaker_show="True" stop="True" voice="bk11008_01_0166" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ガツガツ……うまいな！　唐揚げも、卵焼きも！&#xA;もぐもぐ……もぐもぐ……。" speaker_show="True" stop="True" voice="bk11008_01_0167" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="迷子センターであれだけお菓子を食べたのに&#xA;よく入るわね。" speaker_show="True" stop="True" voice="hy11002_01_0479" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="桜の下で食べるのは別腹なんだよ！&#xA;やっぱり花見は最高だな！" speaker_show="True" stop="True" voice="bk11008_01_0168" />
+  </command>
+</adv>

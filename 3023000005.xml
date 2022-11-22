@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3023000005" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Briefing" type="Bgm" />
+    <bg file="65_Skatingrink_002" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop in_time="0.5" show_time="0.5" out_time="0.5" wait="True" text="スケートリンク" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" x="300" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002021" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006018" position_id="left" x="-300" />
+    <msg speaker="八千代 命" text="舞台監督が不在じゃ開演できないから&#xA;この人にはメイがピッタリ張り付いとくねー。" speaker_show="True" stop="True" voice="ym11003_03_0231" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="妙な動きをした時は、対応を頼むわね。&#xA;初芽、マドベージェフスカヤの情報は？" speaker_show="True" stop="True" voice="hy11002_03_0121" />
+    <msg speaker="青葉 初芽" text="言わずと知れた、現在オリンピック２連覇中の&#xA;フィギュアスケート金メダリストです。" speaker_show="True" stop="True" voice="ah11005_03_0145" />
+    <msg speaker="青葉 初芽" text="祖国では国宝級の扱いを受けている選手で&#xA;調べた所、怪しい組織との繋がりは皆無。" speaker_show="True" stop="True" voice="ah11005_03_0146" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="狙われるような人でも、誰かを暗殺するような人でも&#xA;ないという事ですか？" speaker_show="True" stop="True" voice="ig11006_03_0169" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="暗殺される方か、する方なのか……真逆ですね。&#xA;どう対処するべきなんでしょうか？" speaker_show="True" stop="True" voice="mm11001_03_0173" />
+    <msg speaker="白虎" text="私は、日本ではっちゃけたかった説を推す！&#xA;外国人なら１度は観光したいニッポン！" speaker_show="True" stop="True" voice="bk11008_03_0080" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="理由はさておき、彼女の周囲は警戒するべき。&#xA;狙われるにしろ狙うにしろ、阻止しないと。" speaker_show="True" stop="True" voice="hy11002_03_0122" />
+    <msg speaker="カトリーナ" text="ふぅ……それにしても、日本で暗殺というのは&#xA;賢いわね。危機管理がまるでなってないから。" speaker_show="True" stop="True" voice="kt11009_03_0093" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うぅ……スパイ天国って、ホントなんだ。&#xA;でも、暗殺なんて絶対にさせませんよ！" speaker_show="True" stop="True" voice="mm11001_03_0174" />
+    <msg speaker="高坂 信" text="ヴァルゴが『乙女の祈り』だとすると、事前に&#xA;曲変更を知っていた人が暗殺の計画者かな……。" speaker_show="True" stop="True" voice="ks11010_03_0077" />
+    <msg speaker="相模 楓" text="それがマドベージェフスカヤの意志ならば&#xA;そうですね。彼女、もしくは彼女の周囲が怪しい。" speaker_show="True" stop="True" voice="sf11004_03_0254" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="う～ん……。せっかくオデット姫をやるのに&#xA;白鳥の湖の曲で踊りたくないのかな……。" speaker_show="True" stop="True" voice="mm11001_03_0175" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモ、何か腑に落ちない事でも？" speaker_show="True" stop="True" voice="hy11002_03_0123" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="バレエを習ってる友達に聞いた事があるんです。&#xA;白鳥の湖はバレリーナの憧れだって。なのに……" speaker_show="True" stop="True" voice="mm11001_03_0176" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="せっかくその曲で踊れるのに、わざわざ変更する&#xA;意味が解らないというのね？" speaker_show="True" stop="True" voice="hy11002_03_0124" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あっ、でもマドベージェフスカヤさんはバレリーナじゃ&#xA;なくてスケーターだし、そういうの関係ないのかも…。" speaker_show="True" stop="True" voice="mm11001_03_0177" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="白鳥の湖は素人でも耳慣れた曲で有名な演目。&#xA;それをどうして変えようと考えたのか……か。" speaker_show="True" stop="True" voice="hy11002_03_0125" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="でも幸い、私達はそのパートに賑やかしで&#xA;出演する妖精役の衣装を着ていますし……。" speaker_show="True" stop="True" voice="ig11006_03_0170" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="リンクの中で周囲を警戒して事に当たりましょう。&#xA;他に何かある？" speaker_show="True" stop="True" voice="hy11002_03_0126" />
+    <msg speaker="テレジア" text="楽屋。ジークフリートに異常あり。" speaker_show="True" stop="True" voice="tr11007_03_0045" />
+    <msg speaker="白虎" text="おい、この衣装……袖口に細工がしてあるぞ。&#xA;チュルリラに針が仕込んである！" speaker_show="True" stop="True" voice="bk11008_03_0081" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="針!?&#xA;えぇと…………チュルリラってなに？" speaker_show="True" stop="True" voice="mm11001_03_0178" />
+    <msg speaker="相模 楓" text="フリルをチュルリラって言うのよしなさい！&#xA;ていうか、何で衣装がここに脱ぎ捨てられてるのよ。" speaker_show="True" stop="True" voice="sf11004_03_0255" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ジークフリートは白鳥の湖の王子で、元々……&#xA;オデット姫をリフトするはずだった役です。" speaker_show="True" stop="True" voice="ig11006_03_0171" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="キャスト表を見ると、その役は元メダリスト&#xA;フィギュアの帝王・フルチェンコフ……とある。" speaker_show="True" stop="True" voice="hy11002_03_0127" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="仕込み針が衣装にってことは、その人が&#xA;暗殺者なんですね!?　すぐ捕まえましょう！" speaker_show="True" stop="True" voice="mm11001_03_0179" />
+    <msg speaker="テレジア" text="それが………見当たらない。" speaker_show="True" stop="True" voice="tr11007_03_0046" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="逃げた……？" speaker_show="True" stop="True" voice="ig11006_03_0172" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="いえ、こちらが情報を掴んで動いている事は&#xA;バレていない。必ず次の手を打って来るはず……。" speaker_show="True" stop="True" voice="hy11002_03_0128" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" body_anim_type="06_ChestLeftHand" />
+    <sound type="Se" cue_name="buzzer" />
+    <wait time="1.0" />
+    <msg speaker="石川 五恵" text="開場しました！　お客さんが入って来ます。&#xA;私達は裏に行かないと。" speaker_show="True" stop="True" voice="ig11006_03_0173" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" loop="True" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="半蔵門 雪" text="暗殺対象は恐らくマドベージェフスカヤ。&#xA;暗殺者はフルチェンコフと見て間違いない。" speaker_show="True" stop="True" voice="hy11002_03_0129" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" force_end="False" loop="True" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="源 モモ" text="師匠、マドベージェフスカヤさんに&#xA;気をつけるよう、言うべきですよね！" speaker_show="True" stop="True" voice="mm11001_03_0180" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" force_end="False" loop="True" body_anim_type="02_Idle" />
+    <msg speaker="半蔵門 雪" text="…………モモ、外国語が話せるの？" speaker_show="True" stop="True" voice="hy11002_03_0130" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" force_end="False" loop="True" body_anim_type="08_MouthBothHands" />
+    <msg speaker="源 モモ" text="あ。" speaker_show="True" stop="True" voice="mm11001_03_0181" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

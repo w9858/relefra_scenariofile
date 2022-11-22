@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3006010501" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="30_birthdayparty_01" resource_type="Background" />
+    <msg window_type="SystemMsg" text="ツキカゲメンバーから誕生日を祝ってもらった初芽は&#xA;家族が主催するパーティ会場へと向かっていた。" stop="True" />
+    <msg window_type="SystemMsg" text="すると背後から、プレゼントを渡しそびれた、と&#xA;手作りクッキーを持った五恵がやってきた。" stop="True" />
+    <msg window_type="SystemMsg" text="プレゼント受け取った初芽は、ふと、家族主催の&#xA;パーティに五恵を連れて行くことを思いつき……" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="パーティ会場" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="-200" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="True" loop="True" />
+    <msg speaker="石川 五恵" text="わー、ゴージャスなパーティ！　師匠、私こんな&#xA;格好で来てしまって、良かったんでしょうか……。" speaker_show="True" stop="True" voice="ig11006_01_0363" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ、ごえちゃんはどんな格好をしていても&#xA;可愛いですよ。" speaker_show="True" stop="True" voice="ah11005_01_0375" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="けど、せっかくですから、ドレスアップした&#xA;ごえちゃんも見てみたいですね。" speaker_show="True" stop="True" voice="ah11005_01_0376" />
+    <create_effect effect_id="Sweat1" effect_type="MampSweat" life_time="1" target_obj="石川 五恵" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="すみません、私、こんな素敵な場所にふさわしい&#xA;服なんて持ってないです！" speaker_show="True" stop="True" voice="ig11006_01_0364" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="安心してください、ごえちゃんにぴったりの&#xA;ドレスを私が見立ててあげますから。" speaker_show="True" stop="True" voice="ah11005_01_0377" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="さあ、一緒に控え室に来てください。" speaker_show="True" stop="True" voice="ah11005_01_0378" />
+    <move obj_id="青葉 初芽" x="-50" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_trouble" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="石川 五恵" type="Cheek02_medium" loop="True" />
+    <msg speaker="石川 五恵" text="あ、師匠！　手を……。" speaker_show="True" stop="True" voice="ig11006_01_0365" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="青葉 初芽" x="1500" x_move_type="MoveTo" time="2" />
+    <move obj_id="石川 五恵" x="1500" time="2" wait="True" x_move_type="MoveTo" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="1.0" />
+    <bg show="True" file="311006010" resource_type="Still" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="控え室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="石川 五恵" text="わー、きれいなドレスがいっぱい！&#xA;これ全部、師匠のなんですか？" speaker_show="True" stop="True" voice="ig11006_01_0366" />
+    <msg speaker="青葉 初芽" text="はい、ほんの一部分ではありますが。" speaker_show="True" stop="True" voice="ah11005_01_0379" />
+    <msg speaker="青葉 初芽" text="こんなこともあろうかと、ごえちゃんに似合い&#xA;そうなドレスを、前々から探しておいたんです。" speaker_show="True" stop="True" voice="ah11005_01_0380" />
+    <msg speaker="青葉 初芽" text="サイズは調節できますから、&#xA;気に入ったものがあれば言ってくださいね。" speaker_show="True" stop="True" voice="ah11005_01_0381" />
+    <msg speaker="石川 五恵" text="いいんですか？　ありがとうございます。&#xA;わー、これ可愛い！　こっちも……。" speaker_show="True" stop="True" voice="ig11006_01_0367" />
+    <msg speaker="石川 五恵" text="師匠、どうしましょう。&#xA;どれも素敵すぎて私には選べません……。" speaker_show="True" stop="True" voice="ig11006_01_0368" />
+    <msg speaker="青葉 初芽" text="でしたら私に選ばせてもらえますか？" speaker_show="True" stop="True" voice="ah11005_01_0382" />
+    <msg speaker="石川 五恵" text="はい、お願いします！" speaker_show="True" stop="True" voice="ig11006_01_0369" />
+    <msg speaker="青葉 初芽" text="ごえちゃんの抜群のスタイルを活かすなら、&#xA;大胆なスリットの入ったこちらはどうでしょう？" speaker_show="True" stop="True" voice="ah11005_01_0383" />
+    <msg speaker="石川 五恵" text="こ、こんなセクシーなドレス、&#xA;私にはとても着こなせません！" speaker_show="True" stop="True" voice="ig11006_01_0370" />
+    <msg speaker="青葉 初芽" text="そうですか……、女スパイのようで&#xA;お似合いだと思うんですけどね……。" speaker_show="True" stop="True" voice="ah11005_01_0384" />
+    <msg speaker="青葉 初芽" text="でしたら、こちらはどうでしょう？&#xA;ごえちゃんの乙女なセンスにぴったりです！" speaker_show="True" stop="True" voice="ah11005_01_0385" />
+    <msg speaker="石川 五恵" text="わぁ！　フリルとレースがいっぱいで可愛い！&#xA;けど、あまりにも乙女すぎませんか？" speaker_show="True" stop="True" voice="ig11006_01_0371" />
+    <msg speaker="青葉 初芽" text="よく似合ってますよ。あっ、でもこちらの&#xA;シックなドレスも素敵ですね。" speaker_show="True" stop="True" voice="ah11005_01_0386" />
+    <msg speaker="青葉 初芽" text="はぁ～、着せたいドレスが多すぎて困って&#xA;しまいます……、はっ、ごめんなさい！" speaker_show="True" stop="True" voice="ah11005_01_0387" />
+    <msg speaker="青葉 初芽" text="私ったらごえちゃんが余りにも可愛すぎて、&#xA;着せ替え人形のように扱ってしまって。" speaker_show="True" stop="True" voice="ah11005_01_0388" />
+    <msg speaker="石川 五恵" text="いいんですよ、師匠。&#xA;素敵なドレス、たくさん着せてもらえて嬉しいです。" speaker_show="True" stop="True" voice="ig11006_01_0372" />
+    <msg speaker="青葉 初芽" text="ごえちゃん……。" speaker_show="True" stop="True" voice="ah11005_01_0389" />
+    <msg speaker="石川 五恵" text="あの、お返しに……もし良かったら、師匠のドレス、&#xA;私が選んでも良いでしょうか？" speaker_show="True" stop="True" voice="ig11006_01_0373" />
+    <msg speaker="青葉 初芽" text="本当ですか！　ごえちゃんが選んでくれたドレスで&#xA;お誕生日パーティだなんて、夢のようです！" speaker_show="True" stop="True" voice="ah11005_01_0390" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

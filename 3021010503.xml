@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021010503" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="02_wasabini_001" />
+    <sound type="Bgm" cue_name="Adv1" volume="100" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-300" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="0" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="雪・初芽・テレジア" text="…………………………。" speaker_show="True" stop="True" voice="3021010503_union_001" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="300" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="うっわ……完璧なポーカーフェイス。&#xA;全然、誰がババ持ってるか読めない。" speaker_show="True" stop="True" voice="sf11004_03_0070" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ババ持ってんのは誰だ！" speaker_show="True" stop="True" voice="bk11008_03_0065" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ド直球で聞いてる!?" speaker_show="True" stop="True" voice="mm11001_03_0084" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="-300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ハーイ！　メイが持ってるよー♪" speaker_show="True" stop="True" voice="ym11003_03_0095" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ド直球で答えた!?" speaker_show="True" stop="True" voice="mm11001_03_0085" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="白虎" text="よーし、だったら私が引くシンは&#xA;安パイで～…………にょわあああババ!?" speaker_show="True" stop="True" voice="bk11008_03_0066" />
+    <delete obj_id="白虎" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="0" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="300" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="な、なんかゴメンね……。" speaker_show="True" stop="True" voice="ks11010_03_0059" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ポーカーフェイスだけがババ抜きの&#xA;技じゃないんだよ～♪" speaker_show="True" stop="True" voice="ym11003_03_0096" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ポーカーフェイスはポーカーの&#xA;技だったはずなんですけどねぇ……。" speaker_show="True" stop="True" voice="ah11005_03_0115" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="てなことで、メイが師匠から引かれ&#xA;ユッキーのを引いて……上っがり～♪" speaker_show="True" stop="True" voice="ym11003_03_0097" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="300" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ええっ、もう!?　早くない？" speaker_show="True" stop="True" voice="mm11001_03_0086" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="最初のカードがいっぱい揃ってた&#xA;からね～ムシャムシャ……おいひ～い♪" speaker_show="True" stop="True" voice="ym11003_03_0098" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="うわ……あれで100＄くらい？　それとも１万＄は&#xA;いってる……？　師匠、もっと味わって下さい！" speaker_show="True" stop="True" voice="sf11004_03_0071" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="落ち着きなさい。&#xA;さて………私も抜けたわ。" speaker_show="True" stop="True" voice="hy11002_03_0082" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="あら、私もです。３位ですね♪" speaker_show="True" stop="True" voice="ah11005_03_0116" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="300" />
+    <lip_sync target1="相模 楓" target2="源 モモ" target3="白虎" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="モモ・楓・白虎" text="えええーーーっ!?" speaker_show="True" stop="True" voice="3021010503_union_002" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="白虎" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="こうしてババ抜きはババ抜きとして&#xA;普通に進行した。その結果……。" stop="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="300" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はぁ、やっとアタシもチップ獲得できた。&#xA;ムシャムシャ……あぁ、裕福な味がする。" speaker_show="True" stop="True" voice="sf11004_03_0073" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ぐぬぬぬぬ、この白虎様が&#xA;最後まで残るだとぉおおお～～！" speaker_show="True" stop="True" voice="bk11008_03_0068" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="モモち、白虎との直接対決だよ～！&#xA;相手にババを上手く掴ませろ～♪" speaker_show="True" stop="True" voice="ym11003_03_0099" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-300" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006019" position_id="left" x="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ちょっ、私が持ってるって言わないでよ！" speaker_show="True" stop="True" voice="mm11001_03_0088" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="けど、白虎ちゃんが持ってないのは本人が&#xA;解ってるから、伏せても意味ないよ？" speaker_show="True" stop="True" voice="ig11006_03_0090" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ハッ!?　そ、そうだった！" speaker_show="True" stop="True" voice="mm11001_03_0089" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="右だあーーーー！　おお！　勝ったーーー！&#xA;クッキー♪　アグアグアグアグんん～♪" speaker_show="True" stop="True" voice="bk11008_03_0069" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモ……あなたは、動揺すると目が泳ぐわ。&#xA;修行不足よ。その癖は早く直しなさい。" speaker_show="True" stop="True" voice="hy11002_03_0083" />
+    <char_spine_eye obj_id="源 モモ" type="Eye03_tear" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <create_effect effect_id="blue" effect_type="MampWorry" target_obj="源 モモ" />
+    <msg speaker="源 モモ" text="はぃ～……すみません師匠ぉ……。&#xA;ふぇ～、クッキー残ってないし。みじめ～。" speaker_show="True" stop="True" voice="mm11001_03_0090" />
+    <delete obj_id="blue" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ハ～、もうお腹がいっぱいです。モモちゃん&#xA;良かったら私の分、食べてくれませんか？" speaker_show="True" stop="True" voice="ah11005_03_0117" />
+    <char_spine_eye obj_id="源 モモ" type="Eye01_default" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="えっ、ありがとうございます！&#xA;あ……でも、師匠……良いんでしょうか。" speaker_show="True" stop="True" voice="mm11001_03_0091" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="何が……？&#xA;私は何も見ていないわ。" speaker_show="True" stop="True" voice="hy11002_03_0084" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="は、はい！　いっただっきまーす！&#xA;モグモグ……わぁあチップって美味しいですね～♪" speaker_show="True" stop="True" voice="mm11001_03_0092" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <wait time="2" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

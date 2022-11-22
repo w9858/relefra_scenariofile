@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000018" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg file="44_raimuhouseni_01" />
+    <telop text="敷島ビル 最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="今夜は三重県か。&#xA;十分飛んでいける距離ね。" speaker_show="True" stop="True" voice="sr13001_02_0330" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ミッションの内容は人形の不法投棄をする輩を&#xA;捕まえる事ですわ。" speaker_show="True" stop="True" voice="sm13002_02_0176" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="厳しい罰則があるのに人形の不法投棄は後を&#xA;絶たないのよね。許されないわ。" speaker_show="True" stop="True" voice="sr13001_02_0331" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お土産は赤福餅をお願いしますわ。" speaker_show="True" stop="True" voice="sm13002_02_0177" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="お、マルもそんな冗談言えるように&#xA;なったのね。良きかな良きかな。" speaker_show="True" stop="True" voice="sr13001_02_0332" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <bg file="42_skyni_01" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルムか。また会えそうな気がする。&#xA;今夜はキッチリ対応策を用意してきたわよ！" speaker_show="True" stop="True" voice="sr13001_02_0333" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3010000005" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_001" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="３人がウェディングドレスのモデルをした&#xA;数日後。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="信さん、急に招集をかけるなんて、&#xA;何かあったんですか？" speaker_show="True" stop="True" voice="sf11004_02_0241" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="先輩から招集がかかるのは珍しいですね。" speaker_show="True" stop="True" voice="hy11002_02_0190" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="高坂 信" text="そうかも。実はね、カトさんに水無月ジュンの調査を&#xA;お願いしてたんだ。" speaker_show="True" stop="True" voice="ks11010_02_0113" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="この間、チャペルに行った時に&#xA;なんだか嫌な感じがしてね。" speaker_show="True" stop="True" voice="ks11010_02_0114" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="シン様にお願いされるなんて光栄です！&#xA;結果を報告すると――" speaker_show="True" stop="True" voice="kt11009_02_0086" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="水無月ジュンの周辺で、&#xA;今月に入って３人の失踪者が出ています。" speaker_show="True" stop="True" voice="kt11009_02_0087" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="水無月ジュン……っていうと、この前の&#xA;ウェディングドレス企画の撮影監督さんだよね。" speaker_show="True" stop="True" voice="ym11003_02_0228" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="確かにあの人、言動がフワフワしてるというか&#xA;ちょっと変な感じでしたけど……。" speaker_show="True" stop="True" voice="sf11004_02_0242" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="失踪者ということは、&#xA;事件の疑いがあるんですか？" speaker_show="True" stop="True" voice="sf11004_02_0243" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="失踪した３人は、全て水無月ジュンの仕事を&#xA;受けたモデルだったわ。" speaker_show="True" stop="True" voice="kt11009_02_0088" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="なら確定だね。水無月が誘拐犯ってことで、&#xA;警察に通報かな。一件落着！" speaker_show="True" stop="True" voice="ym11003_02_0229" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="そうできればよかったのですが……。" speaker_show="True" stop="True" voice="ah11005_02_0230" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="撮影自体は他にも多くのモデルと行われていて、&#xA;その全員が失踪しているわけじゃないんです。" speaker_show="True" stop="True" voice="ah11005_02_0231" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="共通項の範疇ではあるけど、それだけでは弱い……&#xA;だから警察も本格的に動けないというわけね。" speaker_show="True" stop="True" voice="hy11002_02_0191" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="もっと決定的な証拠を掴まないと&#xA;いけないんですね。" speaker_show="True" stop="True" voice="sf11004_02_0244" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="にしてもさ、よく師匠は気づいたね。&#xA;水無月が犯罪に関わってるかもしれないって。" speaker_show="True" stop="True" voice="ym11003_02_0230" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="高坂 信" text="まあ、そこまで具体的な根拠があったわけじゃ&#xA;ないんだけど。" speaker_show="True" stop="True" voice="ks11010_02_0115" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="ただ、ツキカゲでやってた囮任務や潜入捜査の経験から&#xA;過去の犯罪者たちと同じような不気味さを感じたんだ。" speaker_show="True" stop="True" voice="ks11010_02_0116" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="信さんの経験は、何より信頼の置ける&#xA;データベースですね。" speaker_show="True" stop="True" voice="ah11005_02_0232" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="失踪者が出ていることは事実ですし、&#xA;引き続き注視していきたく思います。" speaker_show="True" stop="True" voice="kt11009_02_0089" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="ツキカゲ一同、力を合わせましょう。" speaker_show="True" stop="True" voice="hy11002_02_0192" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="ありがとう、みんな。" speaker_show="True" stop="True" voice="ks11010_02_0117" />
+    <delete obj_id="Smile_sin" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

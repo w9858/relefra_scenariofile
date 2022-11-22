@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3012010501" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターイラストは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <wait time="1" />
+    <sound cue_name="EnvSeaside" volume="30" />
+    <bg show="True" resource_type="Background" file="21_islandev_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <fade_in time="1" type="Default" wait="True" />
+    <msg_window_show show="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="穏やかなサンセットビーチ……。" speaker_show="True" stop="True" voice="ah11005_02_0283" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="青葉 初芽" text="こんな美しい環境で、好きな事が&#xA;思う存分できるなんて……幸せですね。" speaker_show="True" stop="True" voice="ah11005_02_0284" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="青葉 初芽" text="～♪" speaker_show="True" stop="True" voice="ah11005_02_0285" />
+    <msg speaker="半蔵門 雪" text="そこに誰かいるの？" speaker_show="True" stop="True" voice="hy11002_02_0330" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="あ、ハーイ。私です、雪ちゃん。" speaker_show="True" stop="True" voice="ah11005_02_0286" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="300" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="半蔵門 雪" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="こんな所に１人で。&#xA;いったい何を……え、これは……。" speaker_show="True" stop="True" voice="hy11002_02_0331" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="青葉 初芽" text="雪ちゃんのバイクですよ。" speaker_show="True" stop="True" voice="ah11005_02_0287" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="ここに持って来ていたの？&#xA;どうして……。" speaker_show="True" stop="True" voice="hy11002_02_0332" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="雪ちゃんが乗りたいかと思いまして。&#xA;無人島で、誰の目も気にせず。" speaker_show="True" stop="True" voice="ah11005_02_0288" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="だからって……。大変だったんじゃ……。&#xA;どうやって運んだの？" speaker_show="True" stop="True" voice="hy11002_02_0333" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" loop="True" />
+    <msg speaker="青葉 初芽" text="企業秘密です♪&#xA;どうですか？　乗りたくありません？" speaker_show="True" stop="True" voice="ah11005_02_0289" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="それは……まぁ。&#xA;じゃあ、せっかくだから。" speaker_show="True" stop="True" voice="hy11002_02_0334" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="良い音……。" speaker_show="True" stop="True" voice="hy11002_02_0335" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="青葉 初芽" text="メンテナンスはバッチリしておきましたので&#xA;道路でも水上でも絶好調だと思います。" speaker_show="True" stop="True" voice="ah11005_02_0290" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="流石ね。うん……ブレーキも私のグリップに&#xA;ちゃんと馴染んでいるわ。" speaker_show="True" stop="True" voice="hy11002_02_0336" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="そうでしょう。雪ちゃんの身体のことは&#xA;私が１番よく知っていると自負していますから。" speaker_show="True" stop="True" voice="ah11005_02_0291" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="ふふ……っ。" speaker_show="True" stop="True" voice="hy11002_02_0337" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="青葉 初芽" text="あぁ、やはり雪ちゃんとバイクは絵になります。&#xA;まさに、人馬一体という感じですね。" speaker_show="True" stop="True" voice="ah11005_02_0292" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="ありがとう。&#xA;じゃあ、早速走ってくるわね。" speaker_show="True" stop="True" voice="hy11002_02_0338" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="あ！　待ってください、あの……！&#xA;実は、お願いが……。" speaker_show="True" stop="True" voice="ah11005_02_0293" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="初芽から私に？　珍しいわね。なに？" speaker_show="True" stop="True" voice="hy11002_02_0339" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="青葉 初芽" text="私を乗せてもらえませんか？&#xA;雪ちゃんの……後ろに。" speaker_show="True" stop="True" voice="ah11005_02_0294" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="え？" speaker_show="True" stop="True" voice="hy11002_02_0340" />
+    <msg_window_show show="False" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1" sound_stop="True" wait="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="EnvSeaside" />
+  </command>
+</adv>

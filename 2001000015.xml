@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000015" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <Comment comment="ツキカゲ基地　夜" />
+    <bg show="True" file="03_tsukikage_001" resource_type="Background" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="今夜、港へ踏み込み、武装人形の密輸を抑える。&#xA;戦闘が予想されるから、準備は忘れずに。" speaker_show="True" stop="True" voice="hy11002_01_0151" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="私と初芽とメイが、中央で敵を制圧する。" speaker_show="True" stop="True" voice="hy11002_01_0152" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="楓は遊撃、モモは逃げ道を固めて。&#xA;五恵はサポートとして指示を。" speaker_show="True" stop="True" voice="hy11002_01_0153" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <lip_sync target1="青葉 初芽" target2="石川 五恵" target3="源 モモ" target4="相模 楓" target5="八千代 命" />
+    <msg speaker="初芽・五恵・モモ・楓・命" text="了解!!" speaker_show="True" stop="True" voice="2001000015_union_001" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume cue_name="Base" volume="0" time="0.5" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="相模 楓" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <Comment comment="コンテナターミナル" />
+    <bg show="True" resource_type="AnimSS" file="No_058" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <Comment comment="【SE】クレーンの音" />
+    <sound type="Se" />
+    <msg speaker="男１" text="おい、それはこっちに運べ！" speaker_show="True" stop="True" voice="99012_01_0001" />
+    <msg speaker="男２" text="急げよ。見つかって騒ぎになったら面倒だ。" speaker_show="True" stop="True" voice="99013_01_0001" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" file="07_containerni_02" />
+    <wait time="1.5" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" loop="True" to_idle="True" body_anim_type="05_HipBothHands" force_end="False" />
+    <msg speaker="半蔵門 雪" text="作業員10人……情報通りね。" speaker_show="True" stop="True" voice="hy11002_01_0154" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="八千代 命" />
+    <wait time="0.5" />
+    <sound volume="100" cue_name="Spice" />
+    <bg show="True" resource_type="AnimSS" file="No_059" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" resource_type="AnimSS" file="No_060" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <msg speaker="半蔵門 雪" text="キめるぞ。" speaker_show="True" stop="True" voice="hy11002_01_0155" />
+    <msg speaker="青葉 初芽" text="スパイスを効かせて。" speaker_show="True" stop="True" voice="ah11005_01_0097" />
+    <msg speaker="八千代 命" text="刺激的な体験といきましょー！" speaker_show="True" stop="True" voice="ym11003_01_0135" />
+    <Comment comment="場面写が入る予定です" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="石川 五恵" text="ミッションスタート！" speaker_show="True" stop="True" voice="ig11006_01_0107" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv4" time="0.5" wait="True" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="半蔵門 雪" type="Eye02_spyce" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="制圧する!!" speaker_show="True" stop="True" voice="hy11002_01_0156" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-1000" x_move_type="MoveTo" time="1.0" wait="True" y="0" y_move_type="MoveValue" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <Comment comment="コンテナターミナル　出口" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="（ここを固めるのが私の役目……&#xA;自分が出来る事を精一杯する……そしてチームで勝つ！）" speaker_show="True" stop="True" voice="mm11001_01_0320" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="（例え戦う出番がなくても、&#xA;やれる事をきっちりやらなくちゃ……！）" speaker_show="True" stop="True" voice="mm11001_01_0321" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="コンテナターミナル" />
+    <bg show="True" file="07_containerni_02" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <msg speaker="男３" text="ぐぅ……。" speaker_show="True" stop="True" voice="99014_01_0001" />
+    <sound type="Se" />
+    <Comment comment="【SE】バタンと倒れる音" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="八千代 命" text="ふぅ～。これで全員倒したかな？" speaker_show="True" stop="True" voice="ym11003_01_0136" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="案外あっさりいきそうですね。" speaker_show="True" stop="True" voice="ah11005_01_0098" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ええ……むしろ、簡単にいきすぎているような……。" speaker_show="True" stop="True" voice="hy11002_01_0157" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <msg speaker="石川 五恵" text="人形の反応が複数現れました！&#xA;何者かが潜んでいたようです！" speaker_show="True" stop="True" voice="ig11006_01_0108" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="初芽・雪・命" text="――！" speaker_show="True" stop="True" voice="2001000015_union_002" lip_sync="False" />
+    <sound type="Se" cue_name="RoboAppearance" />
+    <wait time="1.0" />
+    <msg speaker="八千代 命" text="ヒューッ、待ち伏せか！" speaker_show="True" stop="True" voice="ym11003_01_0138" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" resource_type="Background" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007002" x="-400" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="本当に来てくれて、シェイシェイ！&#xA;お前らツキカゲだな！" speaker_show="True" stop="True" voice="bk11008_01_0054" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="――！&#xA;あの子、可愛いですが……" speaker_show="True" stop="True" voice="ah11005_01_0100" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="手練れ……！" speaker_show="True" stop="True" voice="hy11002_01_0159" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="私は桃源村の白虎、負け知らずの戦士！" speaker_show="True" stop="True" voice="bk11008_01_0055" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="桃源村って確か……" speaker_show="True" stop="True" voice="ah11005_01_0101" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="村まるごと戦士という有名な傭兵部隊よ。&#xA;前に、私達が一人倒した事があったわね。" speaker_show="True" stop="True" voice="hy11002_01_0160" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="そうさ、だからお前らむかついてんだ！&#xA;人形ども、やっちまえー！" speaker_show="True" stop="True" voice="bk11008_01_0056" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="白虎" />
+    <bg show="True" resource_type="AnimSS" file="No_061" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <Comment comment="【SE】ロボがアームパンチを繰り出す音" />
+    <sound />
+    <Comment comment="【SE】ロボのアームが地面を砕く音" />
+    <sound />
+    <wait time="0.05" />
+    <msg speaker="八千代 命" text="あっぶな～！&#xA;もうちょっとで当たるとこだった！" speaker_show="True" stop="True" voice="ym11003_01_0139" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" resource_type="Background" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="False" to_idle="True" />
+    <msg speaker="青葉 初芽" text="この人形……動きが今までとは違いますね。&#xA;構造を知りたいです。" speaker_show="True" stop="True" voice="ah11005_01_0102" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" />
+    <msg speaker="半蔵門 雪" text="私達ならば倒せる相手だ、行くぞ！" speaker_show="True" stop="True" voice="hy11002_01_0161" />
+  </command>
+</adv>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010207001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <sound type="Se" cue_name="Run" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="急げ、急げー。" speaker_show="True" stop="True" voice="bk11008_02_0207" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ん？　あれは白虎？" speaker_show="True" stop="True" voice="hy11002_02_0723" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="……あれ、雪？&#xA;どうしたんだこんなところで。買い物か？" speaker_show="True" stop="True" voice="bk11008_02_0208" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そんなふうに人の多い場所で走るのは危ない。&#xA;ぶつかったりするかもしれないでしょ？" speaker_show="True" stop="True" voice="hy11002_02_0724" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そんなヘマしないって。&#xA;だいたい周りのほうが避けていくしな。" speaker_show="True" stop="True" voice="bk11008_02_0209" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="きっと、私のタダ者ではないオーラに&#xA;恐れを抱いているのだろう。" speaker_show="True" stop="True" voice="bk11008_02_0210" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="それは子供だと思われているだけよ。" speaker_show="True" stop="True" voice="hy11002_02_0725" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ん？　何か言ったか？" speaker_show="True" stop="True" voice="bk11008_02_0211" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="いえ。もしぶつかってケガでもしたらどうするの？&#xA;初芽もカトリーナさんも心配するわ。" speaker_show="True" stop="True" voice="hy11002_02_0726" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="白虎" text="う……初芽やカトリーナが心配……？" speaker_show="True" stop="True" voice="bk11008_02_0212" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。それにぶつかった相手の人にだって&#xA;ケガをしたら心配する人がいるんだから。" speaker_show="True" stop="True" voice="hy11002_02_0727" />
+    <char_spine_animation obj_id="白虎" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="わ、わかったよ。&#xA;人の多いところでは走らないようにする。" speaker_show="True" stop="True" voice="bk11008_02_0213" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうしてくれると私も安心よ。&#xA;ところで、どうして急いでいたの？" speaker_show="True" stop="True" voice="hy11002_02_0728" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="白虎" text="カトリーナが大変そうだったから&#xA;手伝いで買い物をしていたんだ。" speaker_show="True" stop="True" voice="bk11008_02_0214" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="肉屋とか薬局とか……いくつかの店を回らないと&#xA;いけないから走っていたんだが……。" speaker_show="True" stop="True" voice="bk11008_02_0215" />
+    <char_spine_animation obj_id="白虎" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="白虎" text="行く場所が多いから時間がかかりそうなんだよな。&#xA;やっぱり少しくらいは走らないと……。" speaker_show="True" stop="True" voice="bk11008_02_0216" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そういうことなら私も手伝うわ。&#xA;そうすれば走らなくて済むでしょう？" speaker_show="True" stop="True" voice="hy11002_02_0729" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="白虎" text="確かに誰かと手分けしたほうが&#xA;時間短縮になる。さすが雪だ！" speaker_show="True" stop="True" voice="bk11008_02_0217" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="二手に分かれて、それぞれ遂行したら再びここに集まる。&#xA;それでどう？" speaker_show="True" stop="True" voice="hy11002_02_0730" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="わかった。それでいい。でも、そんな言い方をすると&#xA;ツキカゲの任務みたいだな。" speaker_show="True" stop="True" voice="bk11008_02_0218" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="課せられた使命を果たすという意味では同じよ。" speaker_show="True" stop="True" voice="hy11002_02_0731" />
+    <char_spine_animation obj_id="白虎" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="白虎" text="なるほど。" speaker_show="True" stop="True" voice="bk11008_02_0219" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="あと、誰かのために、という想いもね。&#xA;それじゃ、またあとで。" speaker_show="True" stop="True" voice="hy11002_02_0732" />
+  </command>
+</adv>

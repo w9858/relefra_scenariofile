@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3015000001" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="True" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="白虎、カトー、テレジアの現時点での夏私服はこれで良いでしょうか。" />
+    <Comment comment="白虎、カトー、テレジアの水着立ち絵がないので、仮の立ち絵です。" />
+    <Comment comment="背景：海水浴場　仮で入れています。" />
+    <bg show="True" resource_type="Background" file="61_Seasideev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="海水浴場" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="海だー!!" speaker_show="True" stop="True" voice="bk11008_02_0056" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="白虎ちゃん、夏の太陽にも負けず元気いっぱいね。" speaker_show="True" stop="True" voice="kt11009_02_0111" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="よーし、思いっきり泳ぐぞー！&#xA;テレ公、どっちが遠くまで泳げるか競争だ！" speaker_show="True" stop="True" voice="bk11008_02_0057" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="ダメだ、私たちは遊びにきたわけじゃない。" speaker_show="True" stop="True" voice="tr11007_02_0117" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="何っ!?　海だぞ！　砂浜だぞ！　遊ぶだろ！" speaker_show="True" stop="True" voice="bk11008_02_0058" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="白虎ちゃんの遊びたい気持ちはわかるわ。&#xA;でも、ここに来たのは大事なお仕事よ。" speaker_show="True" stop="True" voice="kt11009_02_0112" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="海の家……だったか？" speaker_show="True" stop="True" voice="tr11007_02_0118" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="ええ。商店街のみんなを代表してＷａｓａｂｉが&#xA;夏の２週間限定で海の家の営業を行うことになったの。" speaker_show="True" stop="True" voice="kt11009_02_0113" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="じゃあ、あっちの店のほうはどうするんだ？&#xA;休みか？" speaker_show="True" stop="True" voice="bk11008_02_0059" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="Ｗａｓａｂｉは営業時間を変更して、海の家を&#xA;閉めたあと、夕方くらいからの営業だけね。" speaker_show="True" stop="True" voice="kt11009_02_0114" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="どっちもやるとか働き者か!?&#xA;日本人か!?" speaker_show="True" stop="True" voice="bk11008_02_0060" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="19_Amazed" force_end="False" loop="False" mixing="True" />
+    <msg speaker="テレジア" text="カトリーナはアメリカ人だろう。" speaker_show="True" stop="True" voice="tr11007_02_0119" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="違ーう！　そうじゃないっ！" speaker_show="True" stop="True" voice="bk11008_02_0061" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="２人ともすっかり仲良しさんになっちゃって。&#xA;ボケとツッコミ、なかなかのコンビネーションね。" speaker_show="True" stop="True" voice="kt11009_02_0115" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="私たちがやる海の家は、商店街の代表。&#xA;やるからには手を抜くことはできないわ。" speaker_show="True" stop="True" voice="kt11009_02_0116" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="でも、Ｗａｓａｂｉのカレーを食べたいって&#xA;お客さんもいるから、終日閉店にはしたくないの。" speaker_show="True" stop="True" voice="kt11009_02_0117" />
+    <char_spine_animation obj_id="白虎" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="カレーは海の家じゃ出さないのか？" speaker_show="True" stop="True" voice="bk11008_02_0062" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="あ、もちろん海の家でもカレーは出すわ。&#xA;海の家向けのやつをね。" speaker_show="True" stop="True" voice="kt11009_02_0118" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="そういうわけで、２人にはＷａｓａｂｉ海の家支店の&#xA;お手伝いをお願いしたいの。" speaker_show="True" stop="True" voice="kt11009_02_0119" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="海の家だろうが山の家だろうが、&#xA;まかせとけ！" speaker_show="True" stop="True" voice="bk11008_02_0063" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="初芽や五恵たちには声をかけなくてよかったのか？" speaker_show="True" stop="True" voice="tr11007_02_0120" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="他のみんなには、こなしてもらわないといけない&#xA;任務があるから。" speaker_show="True" stop="True" voice="kt11009_02_0120" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="カトリーナ、テレ公心配するな！　この白虎様が&#xA;いれば百人力だ、この３人で問題なーい！" speaker_show="True" stop="True" voice="bk11008_02_0064" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="頼もしいわね。それじゃあ、&#xA;営業の準備をして水着に着替えちゃいましょう。" speaker_show="True" stop="True" voice="kt11009_02_0121" />
+    <msg_window_show show="False" />
+    <transition wait="True" />
+    <delete obj_id="白虎" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="テレジア" />
+    <transition type="In" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009010" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="水着姿のほうがやはり動きやすいな。&#xA;空気を直に感じられる。" speaker_show="True" stop="True" voice="tr11007_02_0121" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="スポーティなデザインの中にも可愛さが光る。&#xA;テレジアちゃんにピッタリね。" speaker_show="True" stop="True" voice="kt11009_02_0122" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="どうだ、この私の水着姿は！&#xA;最強にカッコいいだろ！" speaker_show="True" stop="True" voice="bk11008_02_0065" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="ええ、よく似合っているわ。&#xA;きっとビーチの視線を釘付けよ？" speaker_show="True" stop="True" voice="kt11009_02_0123" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="はっはっは！　そうだろうそうだろう！" speaker_show="True" stop="True" voice="bk11008_02_0066" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="（ビーチの視線を釘付けにするのは&#xA;むしろカトリーナなんじゃ……？）" speaker_show="True" stop="True" voice="tr11007_02_0122" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="さぁ、Ｗａｓａｂｉ海の家支店オープンよ！&#xA;２人ともがんばりましょ！" speaker_show="True" stop="True" voice="kt11009_02_0124" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

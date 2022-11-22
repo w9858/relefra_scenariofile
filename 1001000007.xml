@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1001000007" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" cue_name="Adv3" />
+    <fade_out time="0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="ツキカゲは、不審者の出入りが急激に&#xA;多くなったとされる空崎の工場を調査しにきていた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="22_plant_04" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="工場外　夜" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="変装して中を色々と調べてきましたけど。間違いなく&#xA;悪人どものアジトですね。メインは大八洲かと。" speaker_show="True" stop="True" voice="sf11004_01_0022" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="大八洲師団って空崎に縄張りはなかったよね。&#xA;モウリョウがいなくなって進出してきたのか。" speaker_show="True" stop="True" voice="ym11003_01_0021" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="すぐさま次の敵組織が現れるなんて…。&#xA;事件の数が減らないわけですね、師匠。" speaker_show="True" stop="True" voice="mm11001_01_0029" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="空崎は人口百万を超える大都市。&#xA;悪にとっては垂涎の餌場なのよ。忌々しい。" speaker_show="True" stop="True" voice="hy11002_01_0019" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="ただ気になる事があって。どうも中は&#xA;大八洲の兵隊たちだけじゃないみたいで。" speaker_show="True" stop="True" voice="sf11004_01_0023" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="げげげ。カトーさんの悪い予感がズバリ的中。&#xA;悪の連合軍結成ってわけ？" speaker_show="True" stop="True" voice="ym11003_01_0022" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="大八洲はほぼ日本人だけで構成されてるんですよね。&#xA;やたら国際色豊かでしたし連合で間違いないかと。" speaker_show="True" stop="True" voice="sf11004_01_0024" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="撮ってきてくれた映像を見ると映っている武装人形は&#xA;リザード社の改造型。リザードも噛んでいますね。" speaker_show="True" stop="True" voice="ah11005_01_0016" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="こりゃあ厄介極まりない。どうするユッキー。" speaker_show="True" stop="True" voice="ym11003_01_0023" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="出来る事をひとつひとつやるしかないわ。&#xA;アジトが手薄なうちに、ここは潰しておく。" speaker_show="True" stop="True" voice="hy11002_01_0020" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そーいうと思った。刺激的な選択だねぇ。" speaker_show="True" stop="True" voice="ym11003_01_0024" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="結構な数の兵隊がいましたけど&#xA;きっちり固められるともっとひどい事になるかと。" speaker_show="True" stop="True" voice="sf11004_01_0025" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="そうなる前にいきましょう。&#xA;お友達になるには大変そうですが、頑張りますよ。" speaker_show="True" stop="True" voice="ah11005_01_0017" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="ツキカゲ、ミッションスタート。" speaker_show="True" stop="True" voice="hy11002_01_0021" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000013" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="44_shikisima_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="敷島ビル研究室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="敷島の研究室で、アルムの解析がはじまった。" stop="True" />
+    <msg speaker="来夢ガールズＷ" text="おぉぉ、なんて、なんて人形なんじゃこれは。&#xA;高性能にも程があろう。" speaker_show="True" stop="True" voice="rw13006_02_0002" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="首尾はどう、私の子猫ちゃんたち？" speaker_show="True" stop="True" voice="sr13001_02_0275" />
+    <msg speaker="来夢ガールズＡ" text="全部を解析する事は出来ませんけどぉ。&#xA;結構な範囲が分かりましたよぉ。" speaker_show="True" stop="True" voice="ra13003_02_0007" />
+    <msg speaker="来夢ガールズＷ" text="単独で一時間は飛行可能。鋼鉄のボディ。&#xA;しかもナノマシンによる修復機能まで備えとる。" speaker_show="True" stop="True" voice="rw13006_02_0003" />
+    <msg speaker="来夢ガールズＷ" text="派手に壊せば破壊できるじゃろうが、多少の&#xA;損害じゃすぐ修復してくるじゃろうな。" speaker_show="True" stop="True" voice="rw13006_02_0004" />
+    <msg speaker="来夢ガールズＢ" text="武装ですが、まさに全身火薬庫といった感じです。&#xA;見て下さい。詰め込むだけ詰め込んであります。" speaker_show="True" stop="True" voice="rb13004_02_0006" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ロケットパンチからアームのガトリングに&#xA;胸部ミサイル、頭部のバルカン……キリがないわね。" speaker_show="True" stop="True" voice="sr13001_02_0276" />
+    <move obj_id="敷島 来夢" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <move obj_id="敷島 真留瀬" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="人形法に１００個ぐらい引っかかる機体ですわ。&#xA;違法ならぬ超違法人形といったところでしょうか。" speaker_show="True" stop="True" voice="sm13002_02_0161" />
+    <msg speaker="来夢ガールズＺ" text="デストロイモードはリミッターを振り切って&#xA;自身の速度をあげる技と推測されます。" speaker_show="True" stop="True" voice="rz13007_02_0005" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="でかした！　それが分かったのはでかいわよ。&#xA;ほおずりほおずり。" speaker_show="True" stop="True" voice="sr13001_02_0277" />
+    <msg speaker="来夢ガールズＺ" text="あっ、ありがとうございます、来夢様。" speaker_show="True" stop="True" voice="rz13007_02_0006" />
+    <msg speaker="来夢ガールズＷ" text="修復機能についても何とか対応可能そうじゃ。&#xA;ナノマシンの活動を抑制する液体を注入すればええ。" speaker_show="True" stop="True" voice="rw13006_02_0005" />
+    <msg speaker="来夢ガールズＭ" text="ドーミテモ　コレ　リザード　セイ！&#xA;ドミニカ　ノ　カン　ガ　ソウ　ツゲル！" speaker_show="True" stop="True" voice="rb13005_02_0004" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そうよねー。やっぱりリザードよね。&#xA;全く裏でロクな事してないんだから。" speaker_show="True" stop="True" voice="sr13001_02_0278" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="この件は秘密でよろしくねー。&#xA;皆の安全のためにもね。" speaker_show="True" stop="True" voice="sr13001_02_0279" />
+    <msg speaker="来夢ガールズＡ・B・Z・M・W" text="はーい♪" speaker_show="True" stop="True" voice="union" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="(これで実際皆の口が固いのだから&#xA;げに恐ろしきはお姉様のカリスマ。)" speaker_show="True" stop="True" voice="sm13002_02_0162" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルムの解析はだいたい済んだわ。&#xA;厄介な相手だけど、私なら倒せる。" speaker_show="True" stop="True" voice="sr13001_02_0280" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="流石はお姉様ですわね。&#xA;でも今はこれからの来客に集中してください。" speaker_show="True" stop="True" voice="sm13002_02_0163" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="敷島 来夢" text="そーだったわね。アルムの素晴らしさに、&#xA;つい興奮しちゃって。切り替え切り替え。" speaker_show="True" stop="True" voice="sr13001_02_0281" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="敷島 来夢" text="(アルム、貴方は悪事に加担する必要ないのよ。&#xA;私が止めてあげるわ。)" speaker_show="True" stop="True" voice="sr13001_02_0282" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様、気持ちを切り替えてませんわね？" speaker_show="True" stop="True" voice="sm13002_02_0164" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さすが妹君、よくお見通しで……。&#xA;そうね、ちゃんとしないとね。" speaker_show="True" stop="True" voice="sr13001_02_0283" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="――スウッ。" speaker_show="True" stop="True" voice="sr13001_02_0284" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="よし切り替え完了！" speaker_show="True" stop="True" voice="sr13001_02_0285" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="本当に切り替わってますわね&#xA;ここらへんは流石です。" speaker_show="True" stop="True" voice="sm13002_02_0165" />
+    <create obj_id="青葉 初芽" data_id="311005005" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="敷島 来夢" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="敷島 真留瀬" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="青葉 初芽" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="お久しぶりです、来夢さん、真留瀬さん。" speaker_show="True" stop="True" voice="ah11005_02_0186" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="初芽ちゃん、いちだんと大人っぽくなったわね。" speaker_show="True" stop="True" voice="sr13001_02_0286" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="本日は青葉グループと敷島グループ、&#xA;両方がより発展するために……。" speaker_show="True" stop="True" voice="sm13002_02_0166" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="それより先に、聞きたいことがあるんじゃない&#xA;初芽ちゃん。" speaker_show="True" stop="True" voice="sr13001_02_0287" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="はいっ！　人形工学の権威である来夢さんに&#xA;いくつか質問がありまして、ですね。" speaker_show="True" stop="True" voice="ah11005_02_0187" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="相変わらず研究熱心ね初芽ちゃん。青葉の娘&#xA;じゃなければ来夢ガールズに欲しかったわ。" speaker_show="True" stop="True" voice="sr13001_02_0288" />
+    <msg window_type="SystemMsg" text="令嬢同士、親交のある二人ではあったが&#xA;この時はまだ、お互いの正体について知らない。" stop="True" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

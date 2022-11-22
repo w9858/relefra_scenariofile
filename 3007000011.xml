@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007000011" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Quest2 スパイ感" />
+    <load_cue_sheet cue_sheet="BGM/BGM16_Quest4" />
+    <sound type="Bgm" cue_name="Quest4" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="32_templeni_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="神社" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <Comment comment="【ＳＥ】賑わい" />
+    <sound />
+    <Comment comment="拡声器VOICE" />
+    <msg speaker="神主" text="皆様、本日はお越し頂きありがとう存じます。&#xA;月が見えるまで、今暫く御歓談ください。" speaker_show="True" stop="True" voice="99055_01_0001" />
+    <msg_window_show show="False" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="二手に分かれて建物内へ。テレジアと白虎は&#xA;入口の見張りを。ミッションスタート！" speaker_show="True" stop="True" voice="hy11002_01_0530" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <bg show="True" file="32_templeev_02" />
+    <delete obj_id="半蔵門 雪" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <telop text="本殿" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="乃木 園子" data_id="396006002" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="園子が、まず本殿からって言うから来たけど&#xA;どうしてここが怪しいと思うの？" speaker_show="True" stop="True" voice="ym11003_01_0529" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="もし私がダークネスカルトなら&#xA;御神体を狙うと思うからです～。" speaker_show="True" stop="True" voice="ns96006_01_0028" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="てことは、ここのどこかに爆弾が!?&#xA;は、早く探さないと！" speaker_show="True" stop="True" voice="mk96005_01_0024" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="落ち着きなさい。まずは、手分けして&#xA;引き戸の中を確かめていきましょう。" speaker_show="True" stop="True" voice="hy11002_01_0531" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="引き戸というと、例えばこういう？" speaker_show="True" stop="True" voice="mm11001_01_0763" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <wait time="0.2" />
+    <msg speaker="神主" text="んーーーんんーーーーー！" speaker_show="True" stop="True" voice="99055_01_0002" />
+    <msg_window_show show="False" />
+    <wait time="0.2" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" />
+    <wait time="0.1" />
+    <move obj_id="源 モモ" x="-125" x_move_type="MoveTo" time="0.1" />
+    <move obj_id="相模 楓" x="125" x_move_type="MoveTo" time="0.1" />
+    <shake target="MsgWindow" x="20" y="20" vibrate="20" time="0.5" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <lip_sync target1="源 モモ" target2="相模 楓" />
+    <msg speaker="モモ・楓" text="わあーーーーっ!?" speaker_show="True" stop="True" voice="3007000011_01" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ユッキー！　男の人が簀巻きにされてる！&#xA;大丈夫!?　いま猿ぐつわを外しますね！" speaker_show="True" stop="True" voice="ym11003_01_0530" />
+    <msg_window_show show="False" />
+    <wait time="0.5" />
+    <msg speaker="神主" text="ッハ！　や、奴らを止めてください！&#xA;外にいる神主は偽物です！　私が本物だ！" speaker_show="True" stop="True" voice="99055_01_0003" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="-1000" />
+    <msg speaker="半蔵門 雪" text="奴らとは？" speaker_show="True" stop="True" voice="hy11002_01_0532" />
+    <msg speaker="神主" text="『裏式五龍党』と名乗る呪禁師の集団で&#xA;神社を爆破して霊脈を乱すつもりなのです！" speaker_show="True" stop="True" voice="99055_01_0004" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="霊脈を乱すってどういうこと？&#xA;乱れたらどうなるっていうの？" speaker_show="True" stop="True" voice="ym11003_01_0531" />
+    <msg speaker="神主" text="空崎市は関東の霊脈の要。そこを崩されたら&#xA;日本全土に大きな自然災害が巻き起こります！" speaker_show="True" stop="True" voice="99055_01_0005" />
+    <move obj_id="八千代 命" x="300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="半蔵門 雪" x="0" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="相模 楓" x="-300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="う、嘘でしょ!?　そんな事が本当に!?" speaker_show="True" stop="True" voice="sf11004_01_0561" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="霊脈云々は別としても、爆破自体は阻止しないと&#xA;集まった人達が危ない。初芽達と合流よ！" speaker_show="True" stop="True" voice="hy11002_01_0533" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <bg show="True" file="32_templeni_01" color="#000000ff" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <telop text="庫裏" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="師匠、どうして潜入場所がここなんですか？" speaker_show="True" stop="True" voice="ig11006_01_0454" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="軽食を出すとＨＰに書かれていましたから&#xA;厨房のある庫裏を選んだんです。" speaker_show="True" stop="True" voice="ah11005_01_0465" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="東郷 美森" data_id="396002002" position_id="left" x="300" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="はぁ～、何だかイイ匂いがしてる～。" speaker_show="True" stop="True" voice="if96003_01_0036" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="お、お姉ちゃん……食欲は抑えてよぉ。&#xA;でも、ホントだ……お出汁の香り。" speaker_show="True" stop="True" voice="ii96004_01_0024" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="どうやら、あそこが厨房のようです。&#xA;覗いてみましょう……。" speaker_show="True" stop="True" voice="tm96002_01_0030" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="犬吠埼 風" />
+    <Comment comment="厨房は背景有りか不明" />
+    <bg show="True" file="32_templeev_02" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <msg speaker="巫女Ａ" text="よいっしょ…よいしょっ……ハァ～。&#xA;これだけ大量のうどんを打つのは大変だわ～。" speaker_show="True" stop="True" voice="99057_01_0001" />
+    <msg speaker="巫女Ｂ" text="ぼやかないの。さ、そろそろ仕上げよ。&#xA;最後に、この幻覚剤を混ぜ込んで……" speaker_show="True" stop="True" voice="99058_01_0001" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="-1000" />
+    <move obj_id="犬吠埼 風" x="0" x_move_type="MoveTo" time="0.3" />
+    <Comment comment="【ＳＥ】蹴破る（バッカーン！）" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="ふぉおおおおおーーーーーい！&#xA;神聖なうどんに何してくれてんのよーーーーー！" speaker_show="True" stop="True" voice="if96003_01_0037" />
+    <shake target="MsgWindow" x="10" y="10" vibrate="20" time="0.5" />
+    <msg speaker="巫女Ａ・Ｂ" text="ええええーーーーーっ!?" speaker_show="True" stop="True" voice="3007000011_02" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001002" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="200" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="あわわわわ！&#xA;風先輩のうどん愛が炸裂しちゃった！" speaker_show="True" stop="True" voice="yy96001_01_0028" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="こうなってしまっては仕方ありません。&#xA;五右衛門、巫女さん達を拘束して下さい。" speaker_show="True" stop="True" voice="ah11005_01_0466" />
+    <msg_window_show show="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006001" position_id="left" x="0" y="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <Comment comment="【ＳＥ】締め上げる（ぎゅぅぅ）" />
+    <sound type="Se" />
+    <msg speaker="石川 五恵" text="あなた達は何者ですか！　目的は？&#xA;白状しないと、腕が大変な事になります！" speaker_show="True" stop="True" voice="ig11006_01_0455" />
+    <Comment comment="【ＳＥ】締め上げる" />
+    <sound type="Se" />
+    <msg speaker="巫女Ａ" text="ああああっ！　わ、我らは裏式五龍党……うどんに&#xA;幻覚剤を混ぜて……人々を……儀式の生け贄に。" speaker_show="True" stop="True" voice="99057_01_0003" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="生け贄!?　どうしてそんな酷い事！" speaker_show="True" stop="True" voice="yy96001_01_0029" />
+    <msg_window_show show="False" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" anchor="Bottom" obj_id="テレジア" data_id="311008001" position_id="left" x="1000" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007001" position_id="left" x="1000" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001001" position_id="left" x="-1000" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="-1000" />
+    <Comment comment="【ＳＥ】警報" />
+    <sound type="Se" />
+    <wait time="0.5" />
+    <Comment comment="【ＳＥ】駆け込んで来る" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="0.5" />
+    <move obj_id="白虎" x="-200" x_move_type="MoveTo" time="0.5" />
+    <move obj_id="テレジア" x="200" x_move_type="MoveTo" time="0.5" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="みんな！　潜入がバレた！" speaker_show="True" stop="True" voice="tr11007_01_0198" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="機械人形が大量にこっちへ来るゾ！" speaker_show="True" stop="True" voice="bk11008_01_0189" />
+    <msg_window_show show="False" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <Comment comment="【ＳＥ】駆け込んで来る" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="0.5" />
+    <move obj_id="源 モモ" x="200" x_move_type="MoveTo" time="0.5" />
+    <move obj_id="八千代 命" x="-200" x_move_type="MoveTo" time="0.5" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="みんな、無事ですか！&#xA;敵は、外にいる偽神主と判明しました！" speaker_show="True" stop="True" voice="mm11001_01_0765" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="何とか警備をかわして、奴らを止めよう！" speaker_show="True" stop="True" voice="ym11003_01_0532" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="非人間戦ならアタシ達に任せてください！&#xA;ツキカゲの皆さんは、早く悪者のボスを！" speaker_show="True" stop="True" voice="if96003_01_0038" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="待って。勇者達……&#xA;さあ、スパイスをキメて滾りなさい！" speaker_show="True" stop="True" voice="hy11002_01_0534" />
+    <msg_window_show show="False" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="半蔵門 雪" />
+    <Comment comment="【ＳＥ】スパイス" />
+    <sound type="Se" cue_name="Spice" />
+    <wait time="0.5" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001002" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="125" />
+    <char_spine_eye obj_id="結城 友奈" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="三好 夏凜" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="ああっ、ひと噛みしたら、身体が……&#xA;身体が熱く……漲ってきたぁああああーーー！" speaker_show="True" stop="True" voice="yy96001_01_0030" />
+    <char_spine_animation obj_id="三好 夏凜" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="いつにも増して、負ける気が全くしない！" speaker_show="True" stop="True" voice="mk96005_01_0025" />
+    <msg_window_show show="False" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="0" />
+    <char_spine_eye obj_id="犬吠埼 風" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="勇者部、出撃ぃーーーーっ!!" speaker_show="True" stop="True" voice="if96003_01_0039" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" anchor="Bottom" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="東郷 美森" data_id="396002002" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="乃木 園子" data_id="396006002" position_id="left" x="300" />
+    <char_spine_eye obj_id="三好 夏凜" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="東郷 美森" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="乃木 園子" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="美森・夏凜・園子" text="おーーーーーっ!!" speaker_show="True" stop="True" voice="3007000011_03" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+  </command>
+</adv>

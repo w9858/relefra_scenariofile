@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000020" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg file="45_lizard_01" />
+    <telop text="リザード社" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="――以上が、ＺＥＴを消去するのが惜しい理由です。&#xA;優秀であり、人形に対しての熱意を持っています。" speaker_show="True" stop="True" voice="ar16004_02_0065" />
+    <msg speaker="アルム" text="どうか命令を消去から変更して下さい、マスター。&#xA;仲間に取りこむか手を組んだ方が有益です。" speaker_show="True" stop="True" voice="ar16004_02_0066" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="驚いたねぇ。クリがいたら見せてあげたかったよ。&#xA;人形がマスターの命令に背いて代替案を出すなんて。" speaker_show="True" stop="True" voice="zi16003_02_0069" />
+    <msg speaker="アルム" text="すみませんマスター。しかし私はこのプランが&#xA;一番マスターにとって最上であると……。" speaker_show="True" stop="True" voice="ar16004_02_0067" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="感情も豊かだ。アタシが思っていた以上に&#xA;素晴らしい出来映えになったんだねアルム。" speaker_show="True" stop="True" voice="zi16003_02_0070" />
+    <char_spine_animation obj_id="アルム" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="マスター…。" speaker_show="True" stop="True" voice="ar16004_02_0068" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="でも、アタシの言う事を聞かない人形なんていうのは&#xA;この世で一番いらないんだよ。" speaker_show="True" stop="True" voice="zi16003_02_0071" />
+    <sound cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="アルム" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="！？" speaker_show="True" stop="True" voice="ar16004_02_0069" />
+    <sound cue_name="KnockDown" />
+    <move obj_id="アルム" position_id="left" y="-1000" time="0.5" wait="True" />
+    <delete obj_id="アルム" />
+    <move obj_id="ゾーイ" position_id="left" x_move_type="MoveTo" y="0" time="0.5" wait="True" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="停止ボタンを押した。どうやら&#xA;お前には大胆な改造が必要のようだね？" speaker_show="True" stop="True" voice="zi16003_02_0072" />
+    <char_spine_animation />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="アルム" />
+    <delete obj_id="ゾーイ" />
+    <bg file="44_raimuhouseni_01" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <telop text="敷島ビル 最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様、無敵甲冑のメンテ完了しましたわ。&#xA;ただ、新型の追跡装置が作動しなくなりました。" speaker_show="True" stop="True" voice="sm13002_02_0180" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="最後に確認できた場所は&#xA;リザード社が所持するビルの中ですわ。" speaker_show="True" stop="True" voice="sm13002_02_0181" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そこに行くわマル！　サポートよろしく！&#xA;出陣！！" speaker_show="True" stop="True" voice="sr13001_02_0353" />
+    <delete obj_id="敷島 来夢" />
+    <sound cue_name="HoldGun" type="Se" />
+    <wait time="0.2" />
+    <sound cue_name="HoldGun" type="Se" />
+    <wait time="0.3" />
+    <sound cue_name="HoldGun" type="Se" />
+    <wait time="0.4" />
+    <sound cue_name="RecallsOut" type="Se" />
+    <wait time="0.4" />
+    <msg_window_show show="False" />
+    <delete obj_id="敷島 来夢" />
+    <move obj_id="敷島 真留瀬" position_id="left" x="0" x_move_type="MoveTo" wait="True" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お気をつけて、お姉様。" speaker_show="True" stop="True" voice="sm13002_02_0182" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 真留瀬" />
+    <delete obj_id="敷島 来夢" />
+    <bg show="True" resource_type="Background" file="42_skyni_01" wait="False" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="23_bodyUnique" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こちらノブナガ。目的地上空に到達したわ。&#xA;敵拠点を潰して、アルムをお持ち帰りする。" speaker_show="True" stop="True" voice="sr13001_02_0354" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

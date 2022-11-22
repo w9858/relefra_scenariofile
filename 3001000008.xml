@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3001000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM16_Quest4" />
+    <sound type="Bgm" cue_name="Quest4" />
+    <bg show="True" file="22_plant_03" color="#ffffffff" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="工場　コンピュータルーム" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="いやぁぁぁ～～ん…ぐぼはぁっ！" speaker_show="True" stop="True" voice="ms98005_01_0038" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="KnockDown" />
+    <Comment comment="SEショコラちゃんが倒れる音&#xD;" />
+    <move obj_id="ショコラちゃん" position_id="left" y="-1000" y_move_type="MoveValue" time="1" wait="True" x="0" x_move_type="MoveValue" />
+    <delete obj_id="ショコラちゃん" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ふぅ…なんだか前にも見た光景ね。" speaker_show="True" stop="True" voice="sf11004_01_0278" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="うん。それにこっちの数が半分だった影響も、&#xA;ほとんど感じなかったかも。" speaker_show="True" stop="True" voice="ig11006_01_0153" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="また１人だけっていうのも気になるね。小さな組織&#xA;だって聞いてたけど、やっぱり不自然だよ。" speaker_show="True" stop="True" voice="mm11001_01_0480" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そうね…てことはショコラは単なる目くらましで、&#xA;この工場も本命じゃない可能性が高いわね…。" speaker_show="True" stop="True" voice="sf11004_01_0279" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" y="0" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="ウ…ウフ、フ…&#xA;ええ…その、通りよぉ、ん…。" speaker_show="True" stop="True" voice="ms98005_01_0039" />
+    <delete obj_id="ショコラちゃん" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="また起き上がってきた…&#xA;ほんと、タフさだけは一級品だよねぇ。" speaker_show="True" stop="True" voice="ig11006_01_0154" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="で？　アンタたちは、いったい何を企んでるの？&#xA;洗いざらい話した方が身のためよ？" speaker_show="True" stop="True" voice="sf11004_01_0280" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="ウ…ウフ、フ…。" speaker_show="True" stop="True" voice="ms98005_01_0040" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="街にばら撒いた、チョコは…サンプルデータを&#xA;採るための…試作品に過ぎない…。" speaker_show="True" stop="True" voice="ms98005_01_0041" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="そして…採取したデータは、ついさっき…&#xA;ある場所へ、送らせてもらったわぁ…。" speaker_show="True" stop="True" voice="ms98005_01_0042" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="今頃は…あたしの愛しの、ダーリンが…&#xA;ラヴァーズチョコを、完成させているはずよぉ…。" speaker_show="True" stop="True" voice="ms98005_01_0043" />
+    <delete obj_id="ショコラちゃん" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ラヴァーズチョコ…？" speaker_show="True" stop="True" voice="mm11001_01_0481" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="そのチョコをひとたび口にすれば…その人は一瞬で、&#xA;ラヴァーズ・アゲインの思想に染まる…。" speaker_show="True" stop="True" voice="ms98005_01_0044" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="そして、その唇からはチョコと同じ成分が分泌され、&#xA;人から人へと感染していくの…。" speaker_show="True" stop="True" voice="ms98005_01_0045" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="ウフフ、わかるかしら…？　彼らがディープキスを&#xA;繰り返すたび、あたしたちの同志は増えていくのよ…！" speaker_show="True" stop="True" voice="ms98005_01_0046" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="性別に関係なく、ラヴァーズ・アゲインの同志が！&#xA;私のダーリン、ウーメン総帥の奴隷がね！" speaker_show="True" stop="True" voice="ms98005_01_0047" />
+    <move obj_id="ショコラちゃん" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ふぅん、ウーメン総帥ね。&#xA;それがアンタたちのボスってわけ？" speaker_show="True" stop="True" voice="sf11004_01_0281" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="ウフフフフ、そうよぉ～ん♪&#xA;ウーメン総帥の愛が、世界を平和に導くのよぉ～ん♪" speaker_show="True" stop="True" voice="ms98005_01_0048" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あっそ。じゃ、ごえっちお願い。" speaker_show="True" stop="True" voice="sf11004_01_0282" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="オッケー。" speaker_show="True" stop="True" voice="ig11006_01_0155" />
+    <sound type="Se" />
+    <Comment comment="SE拳をぽきぽき鳴らす音&#xD;" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="え？　あ、ちょっと待って……こんなボロボロなのに、&#xA;あなたのパンチなんて食らったら……！" speaker_show="True" stop="True" voice="ms98005_01_0049" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="大丈夫だよ、結構ピンピンしてるみたいだし。" speaker_show="True" stop="True" voice="ig11006_01_0156" />
+    <msg_window_show show="False" />
+    <delete obj_id="石川 五恵" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="ショコラちゃん" text="待って待って、待ってってばぁぁぁ！" speaker_show="True" stop="True" voice="ms98005_01_0050" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="おいコラ、ガキ！　待てって言ってんだろうが！" speaker_show="True" stop="True" voice="ms98005_01_0051" />
+    <delete obj_id="ショコラちゃん" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="問答無用。" speaker_show="True" stop="True" voice="ig11006_01_0157" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" y="0" x="0" anchor="Bottom" />
+    <sound type="Se" />
+    <Comment comment="SE強烈な打撃" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="ショコラちゃん" text="うごあああああああああああー！" speaker_show="True" stop="True" voice="ms98005_01_0052" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="KnockDown" />
+    <Comment comment="SEショコラちゃんが倒れる音&#xD;" />
+    <move obj_id="ショコラちゃん" position_id="left" y="-1000" y_move_type="MoveValue" time="1" wait="True" x="0" x_move_type="MoveValue" />
+    <delete obj_id="ショコラちゃん" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="たく、何がショコラちゃんよ。結局のところ本性は、&#xA;ただの野太い声のおっさんじゃない。" speaker_show="True" stop="True" voice="sf11004_01_0283" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="でもフーちゃん、これからどうするの？" speaker_show="True" stop="True" voice="mm11001_01_0482" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="大丈夫よ。そいつが言ってたサンプルデータは、&#xA;この場所から送られたに違いないもの。" speaker_show="True" stop="True" voice="sf11004_01_0284" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="手分けして、ここにあるコンピュータを調べましょ。&#xA;そうすれば研究所の場所も特定できるはずよ。" speaker_show="True" stop="True" voice="sf11004_01_0285" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ウーメンだかソーメンだか知らないけど、&#xA;そいつの思い通りにはさせないわ。" speaker_show="True" stop="True" voice="sf11004_01_0286" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

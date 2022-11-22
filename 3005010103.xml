@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005010103" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" resource_type="Background" file="34_sakasatower_02" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="逆さ塔 訓練室" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="だーかーらー！&#xA;脱ごうとしないでって言ってるでしょ！" speaker_show="True" stop="True" voice="mm11001_02_0148" />
+    <create_effect effect_id="keru" effect_type="EffectShockWave" life_time="1" />
+    <sound cue_name="Spike" />
+    <wait time="1.5" />
+    <msg speaker="ジョージ" text="ぐはぁ、顔面にめり込む拳の衝撃。&#xA;たまらないねぇ。95点。" speaker_show="True" stop="True" voice="jj14004_02_0026" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="19_Amazed" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="点がどんどん上がってく……&#xA;けど嬉しくなーい！" speaker_show="True" stop="True" voice="mm11001_02_0149" />
+    <msg speaker="ジョージ" text="さぁ、次は本気でぶつかり合おう！&#xA;そして俺に、100点満点を決めてくれぇ！" speaker_show="True" stop="True" voice="jj14004_02_0027" />
+    <delete obj_id="源 モモ" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="わっ、変態野郎がモモ公に急接近！" speaker_show="True" stop="True" voice="ry12002_02_0077" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="（ヤバい、必殺の一撃が来る！　……けど、絶対に隙は&#xA;あるはず……落ち着いて。ヤツの隙は……）" speaker_show="True" stop="True" voice="mm11001_02_0150" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ここだぁ！" speaker_show="True" stop="True" voice="mm11001_02_0151" />
+    <create_effect effect_id="kiru" effect_type="EffectSlash" life_time="2" />
+    <wait time="0.5" />
+    <sound cue_name="Slash" />
+    <wait time="2" />
+    <msg speaker="ジョージ" text="ごばぁ!!" speaker_show="True" stop="True" voice="jj14004_02_0028" />
+    <delete obj_id="源 モモ" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="よし！　命中じゃ！" speaker_show="True" stop="True" voice="ss12003_02_0135" />
+    <msg speaker="ジョージ" text="今の一撃……満点の……花丸だぁ……。&#xA;がくっ。" speaker_show="True" stop="True" voice="jj14004_02_0029" />
+    <sound_volume volume="0" />
+    <sound cue_name="KnockDown" />
+    <wait time="0.5" />
+    <delete obj_id="薩摩 しぶき" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="おい、動かなくなったぞ！&#xA;モモ公、コイツ死んじまったんじゃねーか？" speaker_show="True" stop="True" voice="ry12002_02_0078" />
+    <msg speaker="源 モモ" text="峰打ちしたから、&#xA;死んではないと思うけど……。" speaker_show="True" stop="True" voice="mm11001_02_0152" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="うん、ちゃんと息はしてるよ。&#xA;ハァハァって、気持ち悪い位に……。" speaker_show="True" stop="True" voice="th12004_02_0077" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="よし、そこまでじゃ！" speaker_show="True" stop="True" voice="ss12003_02_0136" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="モモちゃん、本当よく頑張ったねぇ。&#xA;お疲れちゃん。" speaker_show="True" stop="True" voice="th12004_02_0078" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="大技の隙を見逃さず、すかさず反撃。&#xA;モモ、なかなかやるではないか。" speaker_show="True" stop="True" voice="ss12003_02_0137" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ああ、あの変態クソ野郎を相手に、&#xA;よくやったと思うぜ。アタシ様も褒めてやるぜ。" speaker_show="True" stop="True" voice="ry12002_02_0079" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="010_Facial_shy" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="False" />
+    <msg speaker="源 モモ" text="いやぁ、そんなに褒められると照れちゃいますね。" speaker_show="True" stop="True" voice="mm11001_02_0153" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek01_default" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="モモちゃん、疲れたでしょう。" speaker_show="True" stop="True" voice="th12004_02_0079" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="はい、さすがにちょっと……。でも、平気です！" speaker_show="True" stop="True" voice="mm11001_02_0154" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="源 モモ" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="んじゃ、次はアタシ様とやろうぜ！&#xA;今の見てたら燃えてきちまった！" speaker_show="True" stop="True" voice="ry12002_02_0080" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="009_Facial_blush" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="ゆら、今日はずいぶんとメラメラしておるのぅ。" speaker_show="True" stop="True" voice="ss12003_02_0138" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="モモちゃん、キツかったら断ってもいいんだよ。&#xA;どうする？" speaker_show="True" stop="True" voice="th12004_02_0080" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="そこはもちろん、やります！&#xA;ゆらちゃん、勝負だぁ！" speaker_show="True" stop="True" voice="mm11001_02_0155" />
+    <delete obj_id="轟 葉栖美" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="そうこなくちゃな！" speaker_show="True" stop="True" voice="ry12002_02_0081" />
+  </command>
+</adv>

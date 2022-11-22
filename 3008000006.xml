@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3008000006" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="各キャラの衣装は現在、仮のものを入れております。" />
+    <load_cue_sheet cue_sheet="AdvVoice/3008000004" />
+    <sound type="Se" cue_name="Adv1" />
+    <Comment comment="背景：動物園、現在は仮の背景を入れています。" />
+    <bg show="True" resource_type="Background" file="59_zooev_002" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="動物園" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="楓と葉栖美が動物園に潜入して数日後のある日……" stop="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="houki" />
+    <wait time="2" />
+    <sound_stop cue_name="houki" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="飼育室の掃除は、ここで最後だし、&#xA;今日はゆっくりお昼食べれそうですね。" speaker_show="True" stop="True" voice="sf11004_02_0083" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="だね。いやー、最初のうちはやること多くて驚いた&#xA;けど、慣れちゃえば案外余裕出るもんだねー。" speaker_show="True" stop="True" voice="th12004_02_0111" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうですね。ま、アタシは最初から&#xA;結構余裕でしたけど。" speaker_show="True" stop="True" voice="sf11004_02_0084" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="はいはい。そーだったそーだった。" speaker_show="True" stop="True" voice="th12004_02_0112" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="喋りながらでも手を動かせるように&#xA;なったのは大きな進歩ですよね。" speaker_show="True" stop="True" voice="sf11004_02_0085" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="うんうん、やっぱ女の子は&#xA;お喋りしてナンボだもんね。" speaker_show="True" stop="True" voice="th12004_02_0113" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ま、仕事に差し支えない範囲の息抜きは、&#xA;大事ですからね。" speaker_show="True" stop="True" voice="sf11004_02_0086" />
+    <msg_window_show show="False" />
+    <Comment comment="ブラシで床をこする音など" />
+    <sound type="Se" cue_name="houki" />
+    <wait time="1.5" />
+    <sound_stop cue_name="houki" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="それにしても、&#xA;楓ちゃんの変装ってホント凄いよね。" speaker_show="True" stop="True" voice="th12004_02_0114" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ど、どうしたんですか急に……" speaker_show="True" stop="True" voice="sf11004_02_0087" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="いやさ、アタシも変装には結構自信あったんだけど、&#xA;初めて楓ちゃんの変装見た時、凄い衝撃受けたんだ。" speaker_show="True" stop="True" voice="th12004_02_0115" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="これはうかうかしてられないぞ！&#xA;ってね。" speaker_show="True" stop="True" voice="th12004_02_0116" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="あ、アタシは何でも完璧ですからね！&#xA;これくらいの変装なんて簡単です！" speaker_show="True" stop="True" voice="sf11004_02_0088" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" face_anim_type="005_Facial_sad" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="False" />
+    <msg speaker="相模 楓" text="……でも他組織の、しかも変装のエキスパートに&#xA;そんな事を言われるのは初めてなので……" speaker_show="True" stop="True" voice="sf11004_02_0089" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_shy" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="その……ありがとうございます……" speaker_show="True" stop="True" voice="sf11004_02_0090" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="(おー！&#xA;凪の3人からは中々見る事の出来ない反応だ。）" speaker_show="True" stop="True" voice="th12004_02_0117" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="その反応、ときめいちゃうねぇ！&#xA;あはは！" speaker_show="True" stop="True" voice="th12004_02_0118" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="もう、冗談ばっかり言っていないで、&#xA;仕事しましょう！　仕事！" speaker_show="True" stop="True" voice="sf11004_02_0091" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="手が止まってますよ！" speaker_show="True" stop="True" voice="sf11004_02_0092" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="はいはい、お仕事しないとねー！" speaker_show="True" stop="True" voice="th12004_02_0119" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

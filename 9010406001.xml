@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010406001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="12_maidcafe_03" resource_type="Background" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <Comment comment="【SE】ドアを開けて入ってくる音" />
+    <fade_in time="0.5" wait="True" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="2" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="楓ちゃん、おつかれさま。" speaker_show="True" stop="True" voice="ig11006_02_0547" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="いらっしゃいませ、ごえっち！" speaker_show="True" stop="True" voice="sf11004_02_0708" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あれ？&#xA;モモちは？" speaker_show="True" stop="True" voice="sf11004_02_0709" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="今日日直だから、先に始めててって。" speaker_show="True" stop="True" voice="ig11006_02_0548" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あらま、そうなんだ。&#xA;じゃあ、ひとまず二人で弟子会始めてますか。" speaker_show="True" stop="True" voice="sf11004_02_0710" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <sound type="Se" />
+    <Comment comment="//【SE】グラスを置く音" />
+    <wait time="0.5" />
+    <sound type="Se" />
+    <Comment comment="//【SE】グラスを置く音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はい、ごえっちにはいちごスムージーね。&#xA;私はライムスカッシュにしよっと。" speaker_show="True" stop="True" voice="sf11004_02_0711" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……ではでは、改めて、モウリョウとの対決、&#xA;お疲れさま！ ってことで……" speaker_show="True" stop="True" voice="sf11004_02_0712" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <lip_sync target1="石川 五恵" target2="相模 楓" />
+    <msg speaker="楓・五恵" text="かんぱーい！" speaker_show="True" stop="True" voice="9010406001_01" />
+    <sound type="Se" />
+    <Comment comment="//【SE】グラスを合わせる音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ごくごく……ぷはーっ。&#xA;ん～！ 勝利の味、最高だわ～！" speaker_show="True" stop="True" voice="sf11004_02_0714" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="ごくごく……うん、おいしい。&#xA;モモちが来たら、もう一回乾杯しよう。" speaker_show="True" stop="True" voice="ig11006_02_0550" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="もちろん。モモちも、あの対決では活躍したしね。&#xA;完璧なアタシほどじゃないけど！" speaker_show="True" stop="True" voice="sf11004_02_0715" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="そうだね。" speaker_show="True" stop="True" voice="ig11006_02_0551" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="……モウリョウとの闘いで、私たち、&#xA;ちょっとは成長できたかな。" speaker_show="True" stop="True" voice="ig11006_02_0552" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あったり前じゃない！ もう一人前よ！&#xA;……ま、アタシは元から完璧だったけどね。" speaker_show="True" stop="True" voice="sf11004_02_0716" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="「一人前」かあ……。いつかは、私にも弟子ができて、&#xA;師匠になるんだよね……。" speaker_show="True" stop="True" voice="ig11006_02_0553" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="まだまだ、師匠みたいになれる気はしないなあ……。" speaker_show="True" stop="True" voice="ig11006_02_0554" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="……そうね……。" speaker_show="True" stop="True" voice="sf11004_02_0717" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="正直言うと、私も、今回のモウリョウとの対決の中で、&#xA;師匠は何枚も上手だって実感したわ……。" speaker_show="True" stop="True" voice="sf11004_02_0718" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="敵を欺く演技、咄嗟の判断、精神のタフさ……&#xA;まだまだ師匠には遠く及ばない……。" speaker_show="True" stop="True" voice="sf11004_02_0719" />
+    <msg speaker="石川 五恵" text="…………。" speaker_show="True" stop="True" voice="ig11006_02_0555" />
+    <msg speaker="相模 楓" text="…………。" speaker_show="True" stop="True" voice="sf11004_02_0720" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="いや……これは良くないわ。" speaker_show="True" stop="True" voice="sf11004_02_0721" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え？&#xA;楓ちゃん、何か言った？" speaker_show="True" stop="True" voice="ig11006_02_0556" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ごえっち、弱気になっちゃダメ！&#xA;アタシたちに、落ち込んでる暇なんてない！" speaker_show="True" stop="True" voice="sf11004_02_0722" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="——！" speaker_show="True" stop="True" voice="ig11006_02_0557" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠たちは、これまでいっぱい努力してきた。&#xA;今だって、訓練や任務のなかで腕を磨き続けてる。" speaker_show="True" stop="True" voice="sf11004_02_0723" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠ですら現状に満足してないのに、&#xA;アタシたちが歩みを止めるわけにはいかないでしょ！" speaker_show="True" stop="True" voice="sf11004_02_0724" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="……そっか……そうだよね。&#xA;私たちにできることは、努力し続ける事だけ。" speaker_show="True" stop="True" voice="ig11006_02_0558" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="いつか師匠と肩を並べられるように、&#xA;お互い、頑張っていくわよ！" speaker_show="True" stop="True" voice="sf11004_02_0725" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="うん！" speaker_show="True" stop="True" voice="ig11006_02_0559" />
+  </command>
+</adv>

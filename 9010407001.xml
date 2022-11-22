@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010407001" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Adv2 女子会話・コメディ" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="12_maidcafe_03" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おーす、楓！&#xA;白虎様が遊びに来てやったぞー！ 喜べ！" speaker_show="True" stop="True" voice="bk11008_02_0269" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004007" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="え、白虎!?&#xA;なんでいきなりこんなとこ来てんのよ!?" speaker_show="True" stop="True" voice="sf11004_02_0744" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="「めいどきっさ」ってのを、一度見てみたかったんだ！&#xA;ここの場所は初芽に聞いた！" speaker_show="True" stop="True" voice="bk11008_02_0270" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はあ……仕方ないわね。&#xA;ほら、ここの席に座んなさいよ。" speaker_show="True" stop="True" voice="sf11004_02_0745" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おう！" speaker_show="True" stop="True" voice="bk11008_02_0271" />
+    <msg_window_show show="False" />
+    <move obj_id="白虎" position_id="left" x="125" x_move_type="MoveTo" time="0.3" wait="True" />
+    <Comment comment="【SE】椅子に座る音" />
+    <Comment comment="カウンター席に座る白虎" />
+    <sound type="Se" cue_name="SitDown" />
+    <wait time="1" />
+    <char_spine_animation obj_id="白虎" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="白虎" text="は～。これが「めいどきっさ」か～。" speaker_show="True" stop="True" voice="bk11008_02_0272" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="楓のその恰好、「めいどこす」ってやつか？&#xA;すっげー！ フリフリだな！" speaker_show="True" stop="True" voice="bk11008_02_0273" />
+    <move obj_id="相模 楓" position_id="left" x="-125" x_move_type="MoveTo" time="0.3" wait="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はいはい。&#xA;ほら、これがメニューよ。" speaker_show="True" stop="True" voice="sf11004_02_0746" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】メニューを置く音" />
+    <sound type="Se" cue_name="Paper" />
+    <wait time="1" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="サンキュー！&#xA;お～、いろいろあんだな～。" speaker_show="True" stop="True" voice="bk11008_02_0274" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そういや、楓。お前と最初に会った時は、&#xA;結構ボコボコにしちゃったらしいな。" speaker_show="True" stop="True" voice="bk11008_02_0275" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="全然覚えてないけど、悪かったな！" speaker_show="True" stop="True" voice="bk11008_02_0276" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="別にいいわよ、今更……&#xA;結局勝ったのはアタシたちだし。" speaker_show="True" stop="True" voice="sf11004_02_0747" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="いや、私はまだ負けてないぞ!!" speaker_show="True" stop="True" voice="bk11008_02_0277" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="白虎" text="だが、それより今は、これ作ってくれ！&#xA;「メイドさんのお絵かきオムライス」ってやつ！" speaker_show="True" stop="True" voice="bk11008_02_0278" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="017_Facial_shock" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はあ!?&#xA;なんでそうなんのよ!?" speaker_show="True" stop="True" voice="sf11004_02_0748" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="いや、まあいいけど……&#xA;何描いて欲しいの？" speaker_show="True" stop="True" voice="sf11004_02_0749" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そうだな……じゃあ、私の名前にちなんで&#xA;ホワイトタイガーを頼む！" speaker_show="True" stop="True" voice="bk11008_02_0279" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ホワイトって、ケチャップでどう描くのよ！&#xA;しかもそんな複雑なの！" speaker_show="True" stop="True" voice="sf11004_02_0750" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="え～、描けないのか？" speaker_show="True" stop="True" voice="bk11008_02_0280" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="——！　かっ……描けるわよ、それくらい！&#xA;アタシはメイドとしても完璧なんだから！" speaker_show="True" stop="True" voice="sf11004_02_0751" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="完璧なホワイトタイガー描いてみせるから、&#xA;ちょっと待ってなさいよ！" speaker_show="True" stop="True" voice="sf11004_02_0752" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おー！" speaker_show="True" stop="True" voice="bk11008_02_0281" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="白虎" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="019_Facial_damag" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ぜーっ、はーっ……よし、描けた！&#xA;さすが完璧なアタシ!!" speaker_show="True" stop="True" voice="sf11004_02_0753" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ほら、白虎！&#xA;どんなもんよ……って……" speaker_show="True" stop="True" voice="sf11004_02_0754" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" time="0" wait="False" />
+    <create_effect effect_id="bk_Sleep" effect_type="MampSleep" target_obj="白虎" />
+    <msg speaker="白虎" text="……すうすう……むにゃ……" speaker_show="True" stop="True" voice="bk11008_02_0282" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="014_Facial_angryStrong" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="何飽きて寝てんのよ！&#xA;子供か!!!!" speaker_show="True" stop="True" voice="sf11004_02_0755" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……あ、子供だったわ。" speaker_show="True" stop="True" voice="sf11004_02_0756" />
+    <msg speaker="白虎" text="……むにゃ……おむらいす……うま～……。" speaker_show="True" stop="True" voice="bk11008_02_0283" />
+  </command>
+</adv>

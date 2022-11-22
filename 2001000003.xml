@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000003" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" volume="0" />
+    <bg show="True" file="05_momohouseev_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="モモの家　夜" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（……歩さんから、連絡こないな……&#xA;何かあったのかな……）" speaker_show="True" stop="True" voice="mm11001_01_0161" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（……さっきの、歩さんの言葉……）" speaker_show="True" stop="True" voice="mm11001_01_0162" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_011" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <msg speaker="新垣 歩" text="では、本職は任務に戻ります！" speaker_show="True" stop="True" voice="na99003_01_0009" />
+    <msg_window_show show="False" />
+    <flash count="1" time="0.5" wait="False" />
+    <bg show="True" resource_type="AnimSS" file="No_012" />
+    <flash count="1" time="0.5" wait="True" />
+    <bg show="True" resource_type="AnimSS" file="No_013" />
+    <flash count="1" time="0.5" wait="True" />
+    <bg show="True" resource_type="AnimSS" file="No_014" />
+    <flash count="1" time="0.5" wait="True" />
+    <bg show="True" resource_type="AnimSS" file="No_015" />
+    <wait time="1.0" />
+    <msg speaker="源 モモ" text="（お父さんがいつも言ってたのと同じ……&#xA;……お父さんと、最後に会った時も……）" speaker_show="True" stop="True" voice="mm11001_01_0163" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <bg show="True" resource_type="Background" file="05_momohouseev_01" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="……嫌な予感がする……&#xA;やっぱり、様子見に行こう……！" speaker_show="True" stop="True" voice="mm11001_01_0164" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="RightToLeft" wait="False" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_016" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <msg speaker="新垣 歩" text="扇町の方見回ったら休憩だから。" speaker_show="True" stop="True" voice="na99003_01_0010" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <bg show="True" file="05_momohouseev_01" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="扇町……！" speaker_show="True" stop="True" voice="mm11001_01_0165" />
+    <msg_window_show show="False" />
+    <move obj_id="源 モモ" position_id="left" x="1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <move obj_id="源 モモ" position_id="left" x="-1000" x_move_type="MoveTo" time="0.0" wait="False" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <bg show="True" file="07_containerni_02" resource_type="Background" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" y_move_type="MoveValue" y="0" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="くんくん……歩さんの匂いは……こっちだ！" speaker_show="True" stop="True" voice="mm11001_01_0166" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_017" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <msg speaker="源 モモ" text="（――！！　あれは……歩さん!?&#xA;怪しい人たちに捕まってる……!?）" speaker_show="True" stop="True" voice="mm11001_01_0167" />
+    <msg speaker="ブランカ" text="サツに取引を嗅ぎつけられるなんてね。&#xA;仲間が来る前に片付けて逃げましょ。" speaker_show="True" stop="True" voice="br14002_01_0001" />
+    <sound type="Se" />
+    <Comment comment="【SE】シャキンとナイフを構える音" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <bg show="True" resource_type="Background" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="017_Facial_shock" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（――！！　ナイフ!?&#xA;た、助けなきゃ……！）" speaker_show="True" stop="True" voice="mm11001_01_0168" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（……か、身体がすくんで、動かない……！）" speaker_show="True" stop="True" voice="mm11001_01_0169" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="（……だめだ。&#xA;ここで固まってちゃ、だめだっ！）" speaker_show="True" stop="True" voice="mm11001_01_0170" lip_sync="False" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="源 モモ" position_id="left" x="1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_019" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Camera" />
+    <flash count="1" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <msg speaker="源 モモ" text="け、警察呼んでます！　顔も撮りました！&#xA;これ以上悪いことしないでください！" speaker_show="True" stop="True" voice="mm11001_01_0171" />
+    <msg speaker="新垣 歩" text="モモちゃん!?" speaker_show="True" stop="True" voice="na99003_01_0011" />
+    <msg speaker="ブランカ" text="まだいたかっ……！" speaker_show="True" stop="True" voice="br14002_01_0002" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <bg show="True" resource_type="Background" file="07_containerni_02" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="017_Facial_shock" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="うわあ！　警察呼んでますって!!" speaker_show="True" stop="True" voice="mm11001_01_0172" />
+    <sound type="Se" cue_name="Run" />
+    <msg speaker="ブランカ" text="待ちなさぁぁい！&#xA;すぐにつかまえてあげる!!" speaker_show="True" stop="True" voice="br14002_01_0003" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="019_Facial_damage" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="はぁ、はぁ……っ。&#xA;こ、来ないでくださいってばぁぁ！" speaker_show="True" stop="True" voice="mm11001_01_0173" />
+    <msg speaker="ブランカ" text="なーかなか逃げ足早いじゃない！&#xA;でも……。" speaker_show="True" stop="True" voice="br14002_01_0004" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <create_effect effect_id="Exclamation_momo" effect_type="MampExclamation" life_time="1.0" target_obj="源 モモ" x="0" y="0" />
+    <wait time="0.5" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_020" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <sound type="Se" cue_name="RoboAppearance" />
+    <msg speaker="ブランカ" text="つーかまえた！" speaker_show="True" stop="True" voice="br14002_01_0005" />
+    <msg speaker="源 モモ" text="うわぁっ！&#xA;だ、誰か助けてぇぇぇ!!" speaker_show="True" stop="True" voice="mm11001_01_0174" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv4" volume="0" time="0.5" wait="True" />
+    <create_effect effect_id="Slash" effect_type="EffectSlash" life_time="1.0" />
+    <sound type="Se" cue_name="Slash" />
+    <wait time="2.0" />
+    <bg show="True" resource_type="AnimSS" file="No_023" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <msg speaker="源 モモ" text="（え……お姫様抱っこ……!?&#xA;それに、この人は……！）" speaker_show="True" stop="True" voice="mm11001_01_0175" lip_sync="False" />
+    <bg show="True" resource_type="AnimSS" file="No_022" />
+    <msg speaker="源 モモ" text="半蔵門先輩!?" speaker_show="True" stop="True" voice="mm11001_01_0176" />
+    <bg show="True" resource_type="AnimSS" file="No_024" />
+    <msg speaker="石川 五恵" text="こんばんは。" speaker_show="True" stop="True" voice="ig11006_01_0089" />
+    <msg speaker="八千代 命" text="いいねぇ、夜の空崎は。" speaker_show="True" stop="True" voice="ym11003_01_0106" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" resource_type="Background" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ごえちゃん、メイちゃん!?&#xA;えええ!?　ど、どうして!?" speaker_show="True" stop="True" voice="mm11001_01_0177" />
+    <msg speaker="ブランカ" text="何!?　若い女がゾロゾロと！" speaker_show="True" stop="True" voice="br14002_01_0006" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="相模 楓" text="軍事人形の密輸現場……ですね。" speaker_show="True" stop="True" voice="sf11004_01_0138" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="人形は鎮圧、売人達は捕獲……キめるぞ。" speaker_show="True" stop="True" voice="hy11002_01_0081" />
+    <char_spine_eye obj_id="半蔵門 雪" type="Eye02_spyce" loop="False" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" loop="False" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ミッションスタート！" speaker_show="True" stop="True" voice="ym11003_01_0107" />
+    <msg_window_show show="False" />
+    <sound_volume type="Bgm" cue_name="Quest2" volume="0" time="1.0" wait="False" />
+  </command>
+</adv>

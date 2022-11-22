@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <Comment comment="Adv4 モウリョウ・敵組織" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="犯罪組織の連合は、秘境で倶楽部トリムヘイム主催の&#xA;狩りを楽しんでいた。その獲物は人間である。" stop="True" />
+    <msg_window_show show="False" />
+    <Comment comment="背景指定なし。人狩りしてるため、恐らく夜の人気のない場所" />
+    <bg file="23_forestev_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="狩場" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="男１" text="う、うわぁぁ、く、くそ、こんな所で&#xA;死んで、たまるっ！" speaker_show="True" stop="True" voice="99008_01_0001" lip_sync="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <flash color="#ffffffff" count="1" time="2.0" wait="False" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash color="#ffffffff" count="1" time="0.2" wait="True" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1" />
+    <create type="Character" anchor="Bottom" obj_id="乱獅子 しおん" data_id="315003001" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="刑部 冴魅" data_id="317001001" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="クリッシー" data_id="316001001" position_id="left" x="300" />
+    <create_effect effect_id="effect_smile" effect_type="MampSmile" life_time="5" target_obj="乱獅子 しおん" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="ははは。このスポーツは楽しいねぇ。&#xA;相手が抵抗してくるから狩り甲斐があるよ。" speaker_show="True" stop="True" voice="rs15003_01_0034" lip_sync="True" window_type="CharMsg" speaker_front="True" />
+    <msg speaker="刑部 冴魅" text="獲物に武器を持たせないコースもある。好きなものを&#xA;楽しむがいい。連合割り引きをしておいてやる。" speaker_show="True" stop="True" voice="os17001_01_0013" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="哀れな獲物達は、どういった素性の&#xA;ヒューマンなんデス？" speaker_show="True" stop="True" voice="ks16001_01_0035" lip_sync="True" speaker_front="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="大金と引き換えのゲームに応じた者。または借金で首が&#xA;回らなくなった者…まぁ様々だ。自業自得だよ。" speaker_show="True" stop="True" voice="os17001_01_0014" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="あなた真面目そうな顔して冷徹デスね。&#xA;そこがチャーミングでもありますが。" speaker_show="True" stop="True" voice="ks16001_01_0036" lip_sync="True" speaker_front="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="猟師の娘として生まれて、&#xA;小さい頃から狩りをして過ごしてきた。" speaker_show="True" stop="True" voice="os17001_01_0015" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="鳥だろうが猪だろうが人間だろうが平等に命は命。&#xA;私はそう考えている。" speaker_show="True" stop="True" voice="os17001_01_0016" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="フ。本題に入りましょうか。貴方達が地方で爆破を&#xA;楽しんでいたのと同時刻、ワタシは空崎にいました。" speaker_show="True" stop="True" voice="ks16001_01_0037" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="クリッシー" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="クリッシー" text="ツキカゲと軽く戦い、その強さを実感しましたよ。&#xA;水中から逃走とは我ながら情けない話デス。" speaker_show="True" stop="True" voice="ks16001_01_0038" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="次は奴等を確実に潰せるよう、まずは入念な&#xA;下調べ、と調査を行ってみればビックリ。" speaker_show="True" stop="True" voice="ks16001_01_0039" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="なんとツキカゲは凪の部隊と共同戦線を&#xA;張っている模様デス。" speaker_show="True" stop="True" voice="ks16001_01_0040" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="へぇ。あの頭の固い凪の連中が他と組むとはね。&#xA;公的な機関は私的な機関を嫌うと思ったけど。" speaker_show="True" stop="True" voice="rs15003_01_0035" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="クリッシー" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="アタシ達の連合に対して&#xA;正義の情報機関が連合を組んだ、か。ゾクゾクするね。" speaker_show="True" stop="True" voice="rs15003_01_0036" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="厄介な話だ。こういう時、我らも連携すべきだろう。" speaker_show="True" stop="True" voice="os17001_01_0017" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="その通り。ワタシは貴方達の兵隊も借り受けて&#xA;ツキカゲを滅ぼそうと思います。" speaker_show="True" stop="True" voice="ks16001_01_0041" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="本格的なドンパチだねぇ。いいよいいよ。&#xA;で、アタシ達はどう動けばいいのかな？" speaker_show="True" stop="True" voice="rs15003_01_0037" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="凪の部隊が空崎に来られないように手を&#xA;打っておいて欲しいデス。" speaker_show="True" stop="True" voice="ks16001_01_0042" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="それだけでいいのかい？" speaker_show="True" stop="True" voice="rs15003_01_0038" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="危ない所はリザードが引き受けますよ。" speaker_show="True" stop="True" voice="ks16001_01_0043" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="……うん。はじめに空崎に対して&#xA;手をあげたのはクリッシーだし。いいよ任せるよ。" speaker_show="True" stop="True" voice="rs15003_01_0039" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="（乱獅子しおん…。やけに物わかりがいいが、&#xA;私としては悪くない提案だ）" speaker_show="True" stop="True" voice="os17001_01_0018" speaker_front="True" window_type="CharMsg" lip_sync="False" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="倶楽部トリムヘイムとしても問題は無い。&#xA;必要な分だけ末端の兵隊を回そう。" speaker_show="True" stop="True" voice="os17001_01_0019" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="サンクス。では早速とりかかりましょう。&#xA;景気づけにここの獲物を全部狩ってからね。" speaker_show="True" stop="True" voice="ks16001_01_0044" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="……クリッシー・ガオ。私の身の上は軽く話したが&#xA;お前は何故リザードにいるんだ？" speaker_show="True" stop="True" voice="os17001_01_0020" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="簡単デス。欲しいものがあった。それは&#xA;己の才覚で手にいれられた。" speaker_show="True" stop="True" voice="ks16001_01_0045" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="ところが、欲しいものが手に入ると、すぐに&#xA;次、欲しいものが出てくる。渇望に天井はない。" speaker_show="True" stop="True" voice="ks16001_01_0046" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="全てを手に入れるには、レジェンドになるためには&#xA;圧倒的な力が必要デス。そのためのリザード。" speaker_show="True" stop="True" voice="ks16001_01_0047" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="刑部 冴魅" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="めっちゃくちゃ欲張りなんだねぇ。人間は&#xA;大人になるにつれ、身の程をわきまえるのに。" speaker_show="True" stop="True" voice="rs15003_01_0040" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="自分がどこまでの高みに上り詰めるか。&#xA;我ながら楽しみなんデス。" speaker_show="True" stop="True" voice="ks16001_01_0048" lip_sync="True" speaker_front="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

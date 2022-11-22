@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000009battle" />
+  </info>
+  <command>
+    <Start />
+    <bg show="True" file="01_school1mo_003" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-800" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" loop="False" to_idle="False" />
+    <move obj_id="源 モモ" x="-300" time="0.5" wait="True" position_id="left" x_move_type="MoveTo" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="05_HipBothHands" loop="True" to_idle="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="源 モモ" text="メイちゃん、捕まえにきたよ！" speaker_show="True" stop="True" voice="mm11001_01_0259" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ふっふーん、モモちやるぅ～" speaker_show="True" stop="True" voice="ym11003_01_0123" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" />
+    <msg speaker="八千代 命" text="どうせなら、刺激的にいこ！" speaker_show="True" stop="True" voice="ym11003_01_0124" />
+    <wait time="1.0" />
+  </command>
+</adv>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3008020402" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="各キャラの衣装は現在、仮のものを入れております。" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="背景：動物園、現在は仮の背景を入れています。" />
+    <bg show="True" resource_type="Background" file="59_zooev_002" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="動物園" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="象くん、こんにちは～。今日からお世話を&#xA;させてもらうよ。よろしくねん。" speaker_show="True" stop="True" voice="th12004_02_0177" />
+    <move obj_id="轟 葉栖美" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="あっ、逃げちゃった。&#xA;おーい、近くで挨拶させてよー。" speaker_show="True" stop="True" voice="sf11004_02_0185" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="むっ、近づくとその分だけ遠ざかっちゃう。" speaker_show="True" stop="True" voice="sf11004_02_0186" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="慣れるまでは、ある程度の距離感が必要そうだね。&#xA;とりあえず、ご飯を置いて様子みよっか。" speaker_show="True" stop="True" voice="th12004_02_0178" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ほら、リンゴにバナナにニンジン。&#xA;どれが好きかわかんないから豪華全部盛りだよ。" speaker_show="True" stop="True" voice="sf11004_02_0187" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="……" speaker_show="True" stop="True" voice="th12004_02_0179" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="……" speaker_show="True" stop="True" voice="sf11004_02_0188" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="全然食べてくれないね。" speaker_show="True" stop="True" voice="th12004_02_0180" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="これじゃ元気も出るわけないよね。&#xA;おーい、ちょっとでいいから食べてみなよー。" speaker_show="True" stop="True" voice="sf11004_02_0189" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="わっ、また距離を空けられちゃった。" speaker_show="True" stop="True" voice="sf11004_02_0190" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="うーん、今の状態のままで話しかけ続けても、&#xA;根本的な解決にはならなそうだね。" speaker_show="True" stop="True" voice="th12004_02_0181" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうかもしれませんけど、じゃあ他に&#xA;どうすれば。" speaker_show="True" stop="True" voice="sf11004_02_0191" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="せめて、アタシたちに怯えないくらいまで慣れて貰う、&#xA;っていうのが最初の目標かな。" speaker_show="True" stop="True" voice="th12004_02_0182" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="けど、このままの距離感じゃ、&#xA;仲良くなりようがないですよね……。" speaker_show="True" stop="True" voice="sf11004_02_0192" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="うーん、そうだ！　アタシちょっと試してみたい&#xA;こと、思いついちゃった。" speaker_show="True" stop="True" voice="th12004_02_0183" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="え、何ですか？" speaker_show="True" stop="True" voice="sf11004_02_0193" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="へへへ、ナイショ。とりあえず今日のうちに&#xA;準備して、明日からやってみることにするね。" speaker_show="True" stop="True" voice="th12004_02_0184" />
+    <msg_window_show show="False" />
+    <transition type="Out" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="相模 楓" />
+    <transition type="In" wait="True" />
+    <msg window_type="SystemMsg" text="翌日" stop="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="おはようございま……って葉栖美さん、何ですか？&#xA;その巨大な荷物は！" speaker_show="True" stop="True" voice="sf11004_02_0194" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="当面のお泊まりセットだよん。今日から子象くんと&#xA;同じ部屋で暮らすことにしたんだ。" speaker_show="True" stop="True" voice="th12004_02_0185" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ご飯を食べるのも寝るのも一緒にしてれば、少しずつ&#xA;心を開いてくれるんじゃないかと思ってさ。" speaker_show="True" stop="True" voice="th12004_02_0186" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="すごい、さすがのアタシもそこまでは&#xA;思いつきませんでした。" speaker_show="True" stop="True" voice="sf11004_02_0195" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="楓ちゃんはいつも通り通いで来てくれれば&#xA;いいからね。メイちゃんのお世話もあるでしょ？" speaker_show="True" stop="True" voice="th12004_02_0187" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="確かに、師匠もこの子とは別方面で、&#xA;手がかかりますからね。" speaker_show="True" stop="True" voice="sf11004_02_0196" />
+    <msg_window_show show="False" />
+    <transition type="Out" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="相模 楓" />
+    <transition type="In" wait="True" />
+    <msg window_type="SystemMsg" text="数日後" stop="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="おはよーございます。あれ？　凄ーい！&#xA;子象くんが葉栖美さんの手からご飯食べてる！" speaker_show="True" stop="True" voice="sf11004_02_0197" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="作戦大成功だよ。まだご飯の時以外は近寄らせて&#xA;くれないけど、ここまで来たら時間の問題かもね。" speaker_show="True" stop="True" voice="th12004_02_0188" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="本当に凄い！　けど葉栖美さんが一緒に暮らしても&#xA;まだ臆病ってことは、ここまでなんじゃないかなぁ。" speaker_show="True" stop="True" voice="sf11004_02_0198" />
+    <msg_window_show show="False" />
+    <transition type="Out" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="相模 楓" />
+    <transition type="In" wait="True" />
+    <msg window_type="SystemMsg" text="更に数日後" stop="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="おはよーございま……え、うそ……。&#xA;葉栖美さんが子象くんと添い寝してる！" speaker_show="True" stop="True" voice="sf11004_02_0199" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="昨日ね、アタシが寝てたらそっと隣に&#xA;来てくれたんだ。頑張った甲斐があったよー。" speaker_show="True" stop="True" voice="th12004_02_0189" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

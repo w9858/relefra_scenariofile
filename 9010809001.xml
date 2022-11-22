@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010809001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="研究所内 27_Labo_01" />
+    <bg show="True" file="03_tsukikage_005" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="（……ジャマダハルは問題なし。&#xA;戦闘服は……ここがほつれているな。）" speaker_show="True" stop="True" voice="tr11007_02_0409" lip_sync="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" lip_sync="False" text="（任務に支障が出ては困る。&#xA;今のうちに直しておくか……。）" speaker_show="True" stop="True" voice="tr11007_02_0410" />
+    <move obj_id="テレジア" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あら、戦闘服ほつれちゃったの？" speaker_show="True" stop="True" voice="kt11009_02_0453" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" lip_sync="False" text="カトリーナ？　い、いつの間に……。" speaker_show="True" stop="True" voice="tr11007_02_0411" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="あ、ああ。直したいんだが、糸と針はないか？" speaker_show="True" stop="True" voice="tr11007_02_0412" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="それなら、裁縫セットがあるわ。&#xA;ちょっと貸してもらえるかしら？" speaker_show="True" stop="True" voice="kt11009_02_0454" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="……なるほどね。&#xA;これなら、ここをこうして……。" speaker_show="True" stop="True" voice="kt11009_02_0455" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="うまいな……。&#xA;ずいぶん、慣れた手つきだ。" speaker_show="True" stop="True" voice="tr11007_02_0413" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ふふ、ありがとう。&#xA;さあ、できたわよ。どうかしら？" speaker_show="True" stop="True" voice="kt11009_02_0456" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="カトリーナ" />
+    <wait time="0.1" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="これは……完璧だ。しっかり直っている。" speaker_show="True" stop="True" voice="tr11007_02_0414" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="ん？　他の部分も直してくれたのか。" speaker_show="True" stop="True" voice="tr11007_02_0415" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ええ、簡単な補強をしておいたわ。" speaker_show="True" stop="True" voice="kt11009_02_0457" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="補強？　言われてみれば、&#xA;以前よりしっかりしている気が……。" speaker_show="True" stop="True" voice="tr11007_02_0416" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="テレジアちゃんはジャマダハルを使うでしょう？" speaker_show="True" stop="True" voice="kt11009_02_0458" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="腕を動かすことが多いから、こういうところも&#xA;補強しておいた方がいいんじゃないかと思って。" speaker_show="True" stop="True" voice="kt11009_02_0459" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="なるほど。そこまで気が回るとは、さすがだな。&#xA;礼を言う。" speaker_show="True" stop="True" voice="tr11007_02_0417" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="どういたしまして。&#xA;またほつれたら、いつでも言ってね。" speaker_show="True" stop="True" voice="kt11009_02_0460" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="それはありがたいが……&#xA;これくらいは自分で直せるようにしたい。" speaker_show="True" stop="True" voice="tr11007_02_0418" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="だから、私にもコツを教えてくれないか？" speaker_show="True" stop="True" voice="tr11007_02_0419" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="それは構わないけど&#xA;私も人に教えられるほど上手いわけじゃないわよ？" speaker_show="True" stop="True" voice="kt11009_02_0461" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="いや、目の前で見ていたからわかる。カトリーナは&#xA;手際も良かったし、縫い目もしっかりしている。" speaker_show="True" stop="True" voice="tr11007_02_0420" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="私はカトリーナから教わりたい。" speaker_show="True" stop="True" voice="tr11007_02_0421" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ふふ、テレジアちゃんったら。&#xA;そこまで言われたら断れないわね。" speaker_show="True" stop="True" voice="kt11009_02_0462" />
+  </command>
+</adv>

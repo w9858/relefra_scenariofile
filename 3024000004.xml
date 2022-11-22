@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3024000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="07_containerni_01" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="港" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="クリスマス当日。ツキカゲのメンバーは自らの&#xA;役割を全うすべく、会場付近で待機していた。" stop="True" />
+    <sound type="Se" cue_name="shine" />
+    <wait time="2.0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="-300" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="300" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="こ、こんな……バカな。" speaker_show="True" stop="True" voice="tr11007_03_0057" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="下見した時は確かに、単なる倉庫だったのに&#xA;それが数日で、煌びやかなお城に……。" speaker_show="True" stop="True" voice="ig11006_03_0199" />
+    <sound cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="青葉 初芽" text="落ち着いて下さい。外見はどうあれ同じ建物なら&#xA;出入り口の位置は変わらないはず。手筈通りに。" speaker_show="True" stop="True" voice="ah11005_03_0156" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はっ、我を忘れる所でした……すみません。&#xA;テレちゃん、行こう。身を隠さないと。" speaker_show="True" stop="True" voice="ig11006_03_0200" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="テレジア" />
+    <bg show="True" color="#000000ff" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <telop text="???" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="高坂 信" text="入口で招待状を渡したら、何か真っ暗なとこへ&#xA;通されちゃったけど……大丈夫かな。" speaker_show="True" stop="True" voice="ks11010_03_0099" />
+    <msg speaker="白虎" text="大丈夫だ。すきま風に乗って、&#xA;何だかイイ匂いがしてきてるからな。" speaker_show="True" stop="True" voice="bk11008_03_0103" />
+    <msg speaker="？？？" text="ホゥホゥホゥ♪　待っていたよ、可愛い２人の&#xA;良い子ちゃん。私のパーティへようこそ～！" speaker_show="True" stop="True" voice="nk99012_03_0002" />
+    <sound type="Se" cue_name="room_door_O" />
+    <wait time="0.5" />
+    <msg speaker="白虎・信" text="わあああ!?" speaker_show="True" stop="True" voice="3024000004_union_001" />
+    <sound type="Se" cue_name="GachaGet_4_Intro" />
+    <bg_fade from_color="#000000ff" to_color="#ffffffff" time="3.0" wait="True" />
+    <msg_window_show show="False" />
+    <wait time="0.5" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <bg_fade to_color="#00000000" wait="False" />
+    <bg file="64_party" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="パーティ会場" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" x="300" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ふぁああ……な、なにこの華やかさ！&#xA;絵本で見た、お城のパーティみたい。" speaker_show="True" stop="True" voice="ks11010_03_0101" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="!" effect_type="MampExclamation" life_time="3" target_obj="白虎" />
+    <msg speaker="白虎" text="おい、見ろ！　皿いっぱいの御馳走が&#xA;わんさか用意されてるぞ!?" speaker_show="True" stop="True" voice="bk11008_03_0105" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="だ、ダメだよ白虎ちゃん。もし、薬とか&#xA;毒物が入ってたらどうするの？" speaker_show="True" stop="True" voice="ks11010_03_0102" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="それは問題だな……クンクン。子供が食べたら危険だ。&#xA;だから私が先に毒味を……パク。美味い！　アグアグ♪" speaker_show="True" stop="True" voice="bk11008_03_0106" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="もぅ……。はぁ、それにしても子供がこんなに大勢。&#xA;フフッ、みんなちゃんと正装しちゃって可愛いなぁ。" speaker_show="True" stop="True" voice="ks11010_03_0103" />
+    <sound cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="カトリーナ" text="中でもシン様が１番の可愛らしさですとも。&#xA;はぁぁ。そのドレス、とっても良くお似合いです！" speaker_show="True" stop="True" voice="kt11009_03_0107" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="カトさん!?　どこから見てるの……？" speaker_show="True" stop="True" voice="ks11010_03_0104" />
+    <msg speaker="カトリーナ" text="先程、トナカイの着ぐるみを１人殴り倒して&#xA;私が中の人になりました♪" speaker_show="True" stop="True" voice="kt11009_03_0108" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あ……。こっちに手を振ってるトナカイがいる。&#xA;姿が見えてちょっと安心……。" speaker_show="True" stop="True" voice="ks11010_03_0105" />
+    <msg speaker="カトリーナ" text="それから白虎ちゃん？　真面目にお仕事しないと&#xA;３ヶ月間、おやつ抜きにしますからね。" speaker_show="True" stop="True" voice="kt11009_03_0109" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="白虎" text="うぐっふっ!?　ゲホッゲホッ！&#xA;は、働きます。ごめんなさい、ちゃんとします！" speaker_show="True" stop="True" voice="bk11008_03_0107" />
+    <delete obj_id="白虎" />
+    <delete obj_id="高坂 信" />
+    <msg speaker="蝶ネクタイの男の子" text="ご飯すっごく美味しいねえ♪&#xA;ボク、こんな柔らかいお肉初めて食べた！" speaker_show="True" stop="True" voice="99051_03_0001" />
+    <msg speaker="リボンの女の子" text="ねー、サンタさんはー？&#xA;サンタさんは来ないのー？" speaker_show="True" stop="True" voice="99090_03_0001" />
+    <msg speaker="妖精姿の男性" text="もうすぐ来るよ。サンタさんはみんなのために&#xA;いーっぱいプレゼントを用意してるからね♪" speaker_show="True" stop="True" voice="99052_03_0001" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" x="300" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="何なんだろう……係の人もみんな優しそうだし&#xA;本当にサンタさんのお城に来ちゃったみたい。" speaker_show="True" stop="True" voice="ks11010_03_0106" />
+    <char_spine_animation obj_id="白虎" face_anim_type="013_Facial_angry" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="お前、子供か？　本物のサンタクロースなんて&#xA;いるわけないだろ！　目を覚ませ！" speaker_show="True" stop="True" voice="bk11008_03_0108" />
+    <delete obj_id="白虎" />
+    <delete obj_id="高坂 信" />
+    <sound type="Se" cue_name="room_door_O" />
+    <wait time="0.5" />
+    <msg speaker="？？？" text="ホゥホゥホゥ♪　お待たせしたね～&#xA;さあ、良い子ちゃん達のお顔を見に来たよ～！" speaker_show="True" stop="True" voice="nk99012_03_0003" />
+    <msg speaker="子供たち" text="うわぁああ～～～！" speaker_show="True" stop="True" voice="3024000004_union_002" />
+    <create type="Character" obj_id="ニコラス" data_id="398010001" position_id="left" />
+    <create_effect effect_id="kirakira" effect_type="EffectKirakira" target_obj="ニコラス" />
+    <msg speaker="ニコラス" text="メリィーーーークリスマーーーース♪" speaker_show="True" stop="True" voice="nk99012_03_0004" />
+    <delete obj_id="ニコラス" />
+    <delete obj_id="kirakira" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" x="300" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ええっ!?　う、うそでしょ……。" speaker_show="True" stop="True" voice="ks11010_03_0107" />
+    <msg speaker="カトリーナ" text="ま、まさか……そんな……。" speaker_show="True" stop="True" voice="kt11009_03_0110" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="サ、サンタだ……&#xA;本物のサンタさんだーーーーーっ!!" speaker_show="True" stop="True" voice="bk11008_03_0109" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

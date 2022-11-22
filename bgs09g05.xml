@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info />
+  <command>
+    <Start />
+    <bg file="0" />
+    <create obj_id="0" data_id="10100103" />
+    <msg speaker="モモ" text="bgコマンドのeffectを指定するとできます" stop="True" />
+    <msg speaker="モモ" text="背景切り替えテスト&#xA;背景の境界が気になる?。。" />
+    <command_position id="start" />
+    <bg file="0" />
+    <stop />
+    <bg_gauss enable="True" value="5" />
+    <bg file="0" effect="LeftSlide" effect_time="0.9" wait="True" />
+    <bg_gauss enable="False" />
+    <goto_command id="start" />
+  </command>
+</adv>

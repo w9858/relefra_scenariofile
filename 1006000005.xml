@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000005" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <Comment comment="空崎スカイタワーの敷地内の背景は無い？" />
+    <bg show="True" file="37_office_01" />
+    <telop text="空崎スカイタワー" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <create_effect effect_id="effect_ShockWave" effect_type="EffectShockWave" life_time="3" target_obj="源 モモ" />
+    <msg speaker="源 モモ" text="はぁぁぁーーっ！！" speaker_show="True" stop="True" voice="mm11001_01_0127" />
+    <delete obj_id="effect_ShockWave" />
+    <msg_window_show show="False" />
+    <flash color="#ffffffff" count="1" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="く、まだまだ敵がいる。&#xA;でも負けるな負けるな、滾って押し切れっ！！" speaker_show="True" stop="True" voice="mm11001_01_0128" />
+    <delete obj_id="源 モモ" />
+    <msg window_type="SystemMsg" text="ツキカゲは空崎スカイタワーの&#xA;敷地内で、戦闘を繰り広げていた。" stop="True" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="200" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010001" position_id="left" x="-200" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="既にここまで戦闘配備がされていたとは&#xA;驚きですね……！" speaker_show="True" stop="True" voice="ah11005_01_0071" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="はぁ、はぁ、はぁ、はぁっ……。&#xA;め、メイちゃん、フーちゃん大丈夫？" speaker_show="True" stop="True" voice="ks11010_01_0072" />
+    <msg_window_show show="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="や、師匠の方がキツそうだって。&#xA;…まぁなかなか手応えある敵だよねぇ。" speaker_show="True" stop="True" voice="ym11003_01_0085" />
+    <msg speaker="リザード社員" text="ふふ、お前達がツキカゲか。このボブ様が&#xA;引っ捕らえて出世の切っ掛けにしてやるぜ。" speaker_show="True" stop="True" voice="rs16002_01_0013" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="げ、また増援！　くぅ、連合っていうだけ&#xA;あるわ本当。凄い物量…！" speaker_show="True" stop="True" voice="sf11004_01_0136" />
+    <shake target="MsgWindow" obj_id="リザード社員" x="5" time="0.5" />
+    <msg speaker="リザード社員" text="行くぞ！　超必殺アルティミットボブズ…はぐぅ！？" speaker_show="True" stop="True" voice="rs16002_01_0014" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="0.5" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="LeftToRight" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" />
+    <fade_in time="0.5" type="LeftToRight" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="みんな、待たせてごめんね！！" speaker_show="True" stop="True" voice="mh12001_01_0030" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006001" position_id="left" x="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="わぁっ！　って、飛粋ちゃん！！" speaker_show="True" stop="True" voice="ig11006_01_0082" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" anchor="Bottom" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="こっからアタシ様たちも華麗に参戦だ！" speaker_show="True" stop="True" voice="ry12002_01_0033" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="護衛任務の方は大丈夫なの！？" speaker_show="True" stop="True" voice="hy11002_01_0077" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" anchor="Bottom" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="こういう時のための、逆さ塔じゃ。&#xA;護衛は囚人どもに任せてある。" speaker_show="True" stop="True" voice="ss12003_01_0055" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="ヨモギさんが監視しているから、&#xA;心配無用じゃ。" speaker_show="True" stop="True" voice="ss12003_01_0057" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="お偉い所の説得に少し時間がかかったがのう。&#xA;きちんと筋は通してきたのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0056" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" anchor="Bottom" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="125" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_waiwai" effect_type="MampSmile" life_time="1.0" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="まさか間に合うとは！　なかなかやるじゃん。&#xA;ヒッスー。" speaker_show="True" stop="True" voice="ym11003_01_0086" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="隊長が上をズバッと説得してくれたお陰だよ！&#xA;改めて～凪の部隊・進発！！" speaker_show="True" stop="True" voice="mh12001_01_0031" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007001" position_id="left" x="0" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="へん、美味しいところで来たな。&#xA;だけど、これでガンガン進めるぞ！！" speaker_show="True" stop="True" voice="bk11008_01_0048" />
+  </command>
+</adv>

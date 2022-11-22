@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3015000003" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="True" />
+    <load_cue_sheet />
+    <sound type="Se" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="43_beachev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="海水浴場" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="カトリーナたち３人が&#xA;海の家の営業を終えたある日のこと――。" stop="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009010" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="はーい、２人とも今日もお疲れ様。" speaker_show="True" stop="True" voice="kt11009_02_0134" />
+    <move obj_id="カトリーナ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="今日はなんだか客がいっぱいだったなー。" speaker_show="True" stop="True" voice="bk11008_02_0076" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="２人のおかげで、滞りなく業務をこなせたわ。&#xA;そして頑張った人には特別なプレゼントがあります。" speaker_show="True" stop="True" voice="kt11009_02_0135" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="おおっ！　でも、なんだこれ？" speaker_show="True" stop="True" voice="bk11008_02_0077" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="とあるパーティの招待券♪&#xA;ちなみにパーティ開催はこのあとすぐよ。" speaker_show="True" stop="True" voice="kt11009_02_0136" />
+    <move obj_id="カトリーナ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="白虎" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="私たちがパーティ？&#xA;それに、まだ店の片づけが……。" speaker_show="True" stop="True" voice="tr11007_02_0137" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="いいからいいから。閉店作業は私に任せて。" speaker_show="True" stop="True" voice="kt11009_02_0137" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="その招待券を持ってパーティ会場の&#xA;Ｗａｓａｂｉに行ってみれば、わかるわ。" speaker_show="True" stop="True" voice="kt11009_02_0138" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="Ｗａｓａｂｉだな！　行くぞテレ公！" speaker_show="True" stop="True" voice="bk11008_02_0078" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="白虎" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="テレジア" position_id="left" x="100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="お、おい……そんなに引っ張るなって！" speaker_show="True" stop="True" voice="tr11007_02_0138" speaker_front="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="私も片づけが終わったら行くから、先に楽しんでてね～。" speaker_show="True" stop="True" voice="kt11009_02_0139" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <bg show="True" resource_type="Background" file="02_wasabini_002" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="来ましたね、テレちゃん白虎ちゃん。" speaker_show="True" stop="True" voice="ah11005_02_0392" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="招待券は持ってる？" speaker_show="True" stop="True" voice="ig11006_02_0267" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="ちゃんとあるぞ！" speaker_show="True" stop="True" voice="bk11008_02_0079" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="しかし、初芽。&#xA;何のパーティなんだ？" speaker_show="True" stop="True" voice="tr11007_02_0139" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="焦ってはいけません、&#xA;それは会場に入ってからのお楽しみです。" speaker_show="True" stop="True" voice="ah11005_02_0393" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="さあ、入って入って。" speaker_show="True" stop="True" voice="ig11006_02_0268" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <bg show="True" resource_type="Background" file="02_wasabisp_001" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="おお！　なんかすごいな！" speaker_show="True" stop="True" voice="bk11008_02_0080" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="ケーキに白虎様の顔が描かれたクッキーが乗ってるぞ！&#xA;テレ公のもあるな！" speaker_show="True" stop="True" voice="bk11008_02_0081" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="これは……。" speaker_show="True" stop="True" voice="tr11007_02_0140" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <sound cue_name="Cracker" />
+    <wait time="0.1" />
+    <sound cue_name="Cracker" />
+    <wait time="0.4" />
+    <sound cue_name="Cracker" />
+    <wait time="0.6" />
+    <lip_sync target1="源 モモ" target2="半蔵門 雪" target3="八千代 命" target4="相模 楓" />
+    <msg speaker="雪・モモ・命・楓" text="ハッピーバースデイ！" speaker_show="True" stop="True" voice="3015000003_union_001" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="お誕生日おめでとうございます。&#xA;テレちゃん、白虎ちゃん。" speaker_show="True" stop="True" voice="ah11005_02_0394" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="白虎ちゃんテレちゃん、おめでとう。" speaker_show="True" stop="True" voice="ig11006_02_0269" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="そういうことか！&#xA;今日だったな、忘れてたぞ！" speaker_show="True" stop="True" voice="bk11008_02_0082" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="自分の誕生日忘れてたんかーい！" speaker_show="True" stop="True" voice="ym11003_02_0593" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="違う！&#xA;今日が９月１日だってことを忘れてただけだ！" speaker_show="True" stop="True" voice="bk11008_02_0083" />
+    <delete obj_id="白虎" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="誕生日……。" speaker_show="True" stop="True" voice="tr11007_02_0141" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="（そう言えば、少し前に……。）" speaker_show="True" stop="True" voice="tr11007_02_0142" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="テレジア" />
+    <bg show="True" resource_type="Background" file="02_wasabimo_001" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="もうすぐ白虎ちゃんの誕生日だね。" speaker_show="True" stop="True" voice="ig11006_02_0270" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="そうだな！&#xA;盛大に祝ってくれていいぞ！" speaker_show="True" stop="True" voice="bk11008_02_0084" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="うん。できるだけ盛大になるよう&#xA;みんなに相談してみるね。" speaker_show="True" stop="True" voice="ig11006_02_0271" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="あ、テレちゃん。そう言えば、テレちゃんの誕生日って&#xA;いつなんだっけ？　できたら教えてほしいなって。" speaker_show="True" stop="True" voice="ig11006_02_0272" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="誕生日……か。" speaker_show="True" stop="True" voice="tr11007_02_0143" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="（……子供の頃から誕生日にはろくな思い出がない。）" speaker_show="True" stop="True" voice="tr11007_02_0144" lip_sync="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="（初芽との思い出以外は、正直思い出したくない。&#xA;それに……。）" speaker_show="True" stop="True" voice="tr11007_02_0145" lip_sync="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="（昔の私のことは、みんなに言いたくはない。&#xA;あの頃と、今の私は違う。だから……。）" speaker_show="True" stop="True" voice="tr11007_02_0146" lip_sync="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="テレジア" text="……すまない、忘れてしまった。" speaker_show="True" stop="True" voice="tr11007_02_0147" />
+    <move obj_id="テレジア" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="……テレちゃん。" speaker_show="True" stop="True" voice="ig11006_02_0273" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="石川 五恵" />
+    <bg show="True" resource_type="Background" file="02_wasabisp_001" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="誕生日は……忘れたと言ったはずだ。" speaker_show="True" stop="True" voice="tr11007_02_0148" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="石川 五恵" text="……うん。師匠も知らないみたいで&#xA;どうしようか悩んだんだけど。" speaker_show="True" stop="True" voice="ig11006_02_0274" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="お誕生日をお祝いできないなんて&#xA;悲しすぎます。だから――。" speaker_show="True" stop="True" voice="ah11005_02_0395" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="だったら私と同じ日を誕生日にすればいい！&#xA;この白虎様と同じ誕生日なんて名誉なことだぞ！" speaker_show="True" stop="True" voice="bk11008_02_0085" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="何を言って……。" speaker_show="True" stop="True" voice="tr11007_02_0149" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="そっか……今日が誕生日じゃなかったんだね。&#xA;でも、白虎ちゃんのアイデア、すごくいいと思う！" speaker_show="True" stop="True" voice="mm11001_02_0529" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="はい、私もそう思います。" speaker_show="True" stop="True" voice="ah11005_02_0396" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="…………。" speaker_show="True" stop="True" voice="tr11007_02_0150" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="同じ誕生日っていうのも&#xA;なかなかいいもんだよ？" speaker_show="True" stop="True" voice="ym11003_02_0594" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="フーとメイは同じ11月22日なんだけどさ、&#xA;こう運命的な感じあるよ。ねー、フー？" speaker_show="True" stop="True" voice="ym11003_02_0595" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まあ、一緒に祝えるからコスパもいいし、&#xA;やっぱり特別感みたいのはありますね。" speaker_show="True" stop="True" voice="sf11004_02_0522" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="フーさー、今コスパについて&#xA;触れなくてもいいじゃない？" speaker_show="True" stop="True" voice="ym11003_02_0596" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="True" />
+    <msg speaker="相模 楓" text="じ、事実を述べたまでです！　アタシだって&#xA;師匠と同じ誕生日ってすごく嬉しいですし！" speaker_show="True" stop="True" voice="sf11004_02_0523" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="テレちゃん。どうでしょうか？&#xA;今日をお誕生日にするというのは。" speaker_show="True" stop="True" voice="ah11005_02_0397" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="…………。" speaker_show="True" stop="True" voice="tr11007_02_0151" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

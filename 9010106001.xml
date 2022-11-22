@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010106001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="23_rivermo_01" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <Comment comment="五恵　ランニングウェア" />
+    <create type="Character" obj_id="源 モモ" data_id="311001007" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="今日は天気もいいし、ランニング日和だね。" speaker_show="True" stop="True" voice="ig11006_02_0472" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そうだね～。ふわぁ……。" speaker_show="True" stop="True" voice="mm11001_02_0845" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ふふ、そんなあくびをするってことは、&#xA;昨日も遅くまでトレーニングだったの？" speaker_show="True" stop="True" voice="ig11006_02_0473" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="そうなの。" speaker_show="True" stop="True" voice="mm11001_02_0846" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="すごい。頑張っているんだね。" speaker_show="True" stop="True" voice="ig11006_02_0474" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" force_end="False" />
+    <msg speaker="源 モモ" text="ううん。師匠は私よりもたくさん&#xA;トレーニングしてるし……私はまだまだだよ。" speaker_show="True" stop="True" voice="mm11001_02_0847" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="そっか……モモちは雪先輩に追いつこうと&#xA;必死なんだ……。" speaker_show="True" stop="True" voice="ig11006_02_0475" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="少し休む？　頑張るのはいいけど&#xA;無理して倒れたら大変だよ。" speaker_show="True" stop="True" voice="ig11006_02_0476" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ううん、これくらい大丈夫だよ。&#xA;さ、行こ行こ、ごえちゃん！" speaker_show="True" stop="True" voice="mm11001_02_0848" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <Comment comment="五恵　ランニングウェア" />
+    <create type="Character" obj_id="源 モモ" data_id="311001007" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="やっと……ゴール!!　あ～疲れた！" speaker_show="True" stop="True" voice="mm11001_02_0849" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="大丈夫？　疲れが残らないよう&#xA;マッサージしてあげようか。" speaker_show="True" stop="True" voice="ig11006_02_0477" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="わ～、ありがとう、ごえちゃん。&#xA;お願いしてもいいかな？" speaker_show="True" stop="True" voice="mm11001_02_0850" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="もちろん。&#xA;じゃ、ちょっと触るね。" speaker_show="True" stop="True" voice="ig11006_02_0478" />
+    <move obj_id="源 モモ" position_id="left" x="-125" x_move_type="MoveTo" time="0.3" wait="False" />
+    <move obj_id="石川 五恵" position_id="left" x="125" x_move_type="MoveTo" time="0.3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="う～、気持ちいい～。&#xA;ごえちゃんのマッサージ最高～。" speaker_show="True" stop="True" voice="mm11001_02_0851" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="良かった。&#xA;じゃ、この辺とかもほぐして……。" speaker_show="True" stop="True" voice="ig11006_02_0479" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="019_Facial_damage" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あだだだ！　ダメだよ、ごえちゃん。&#xA;そこは痛いから……！" speaker_show="True" stop="True" voice="mm11001_02_0852" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あ、ごめん。じゃ、こっちは？" speaker_show="True" stop="True" voice="ig11006_02_0480" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="わっ！　そこは、くすぐったいよ！" speaker_show="True" stop="True" voice="mm11001_02_0853" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ご、ごめんね。&#xA;えーっと……じゃあ、ここ？" speaker_show="True" stop="True" voice="ig11006_02_0481" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あははは……そこもくすぐったい～。" speaker_show="True" stop="True" voice="mm11001_02_0854" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え、ここも？　じゃ、この辺はやめて……&#xA;こっちのほうはどうかな？" speaker_show="True" stop="True" voice="ig11006_02_0482" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うー……。" speaker_show="True" stop="True" voice="mm11001_02_0855" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="……モモち、どう？" speaker_show="True" stop="True" voice="ig11006_02_0483" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そこはすごくいいかも～。&#xA;く～、なんか利いてるって感じがする～。" speaker_show="True" stop="True" voice="mm11001_02_0856" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="そっか。じゃ、今日はこの辺を重点的に……。" speaker_show="True" stop="True" voice="ig11006_02_0484" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="125" y="0" anchor="Bottom" />
+    <Comment comment="五恵　ランニングウェア" />
+    <create type="Character" obj_id="源 モモ" data_id="311001007" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="……うん、これくらいだね。&#xA;あんまりやると、かえって痛くなっちゃうから。" speaker_show="True" stop="True" voice="ig11006_02_0485" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="いつもありがとうね、ごえちゃん。&#xA;ごえちゃんのマッサージ、本当に最高。" speaker_show="True" stop="True" voice="mm11001_02_0857" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" lip_sync="False" text="（モモち、元気になったみたいで良かった……。）" speaker_show="True" stop="True" voice="ig11006_02_0486" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="私でよければいつでもマッサージするから&#xA;遠慮なく言ってね。" speaker_show="True" stop="True" voice="ig11006_02_0487" />
+  </command>
+</adv>

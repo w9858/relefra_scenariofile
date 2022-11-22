@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005020103" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="（あとは信さんだけ。&#xA;信さんの気配……信さんの気配は……。）" speaker_show="True" stop="True" voice="mh12001_02_0129" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="020_Facial_thinking" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="（……。)" speaker_show="True" stop="True" voice="mh12001_02_0130" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="（すごい、これが信さんの能力……&#xA;どこにいるのか全く分からない……。）" speaker_show="True" stop="True" voice="mh12001_02_0131" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="（奇襲の成功率は、この訓練の中だけでも随分と&#xA;向上した気がしてるけど……）" speaker_show="True" stop="True" voice="mh12001_02_0132" lip_sync="False" />
+    <msg speaker="宗近 飛粋" text="（相手が見つからなければ、そもそも奇襲をかける&#xA;ことすら出来ないんだね…。）" speaker_show="True" stop="True" voice="mh12001_02_0133" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="（信さん、どこに居るんだろ。&#xA;集中して、気配を探らなきゃ……。）" speaker_show="True" stop="True" voice="mh12001_02_0134" lip_sync="False" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="飛粋の奴、すっげー怖い顔してるぞ。&#xA;黙って何してるんだ？" speaker_show="True" stop="True" voice="bk11008_02_0031" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="感覚を研ぎ澄ませて、相手を探っているのだろう。&#xA;我々は静かに見守ろう。" speaker_show="True" stop="True" voice="tr11007_02_0103" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="うん。いつでもハンマーを振りかざせるよう待機&#xA;してるから、勝負は見つけた瞬間に決まりそうだし。" speaker_show="True" stop="True" voice="ig11006_02_0054" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="けど、そんなに簡単に見つけること出来るかなぁ。&#xA;相手はあの、信さんだよ？" speaker_show="True" stop="True" voice="sf11004_02_0040" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="メイ、賭けてもいいよん。&#xA;もし師匠が見つかっちゃったら……" speaker_show="True" stop="True" voice="ym11003_02_0115" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ちょっ、ちょっと師匠!?&#xA;何で捕まっちゃってるの！" speaker_show="True" stop="True" voice="ym11003_02_0116" />
+    <delete obj_id="八千代 命" />
+    <create obj_id="高坂 信" data_id="311010001" x="100" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="-100" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="17_Hush" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="え？　信さん？　どこに……" speaker_show="True" stop="True" voice="mh12001_02_0135" />
+    <sound_volume cue_name="Quest2" volume="0" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <sound cue_name="PushTheBody" />
+    <wait time="0.7" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ってえええええ!!!&#xA;信さんが、盾をハンマーにぶつけてる！" speaker_show="True" stop="True" voice="mh12001_02_0136" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="やった、のかな？" speaker_show="True" stop="True" voice="ks11010_02_0074" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound cue_name="Adv6" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="すごいです信さん！　まさか、守る側から&#xA;攻める側に攻撃を仕掛けてくるなんて！" speaker_show="True" stop="True" voice="mh12001_02_0137" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="そんなの、思い付きもしませんでした！&#xA;私の完敗です！　本当すご過ぎます！" speaker_show="True" stop="True" voice="mh12001_02_0138" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="いやぁ、そんなに褒められるほどでも……" speaker_show="True" stop="True" voice="ks11010_02_0075" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="師匠は照れてるけど……ユッキー、&#xA;勝敗はこれでいいの？" speaker_show="True" stop="True" voice="ym11003_02_0117" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="本人たちが納得しているし、&#xA;ルール上おかしいこともないわ。" speaker_show="True" stop="True" voice="hy11002_02_0164" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="ということは、信の優勝？" speaker_show="True" stop="True" voice="ks11010_02_0076" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="はぁ～、さすがはシン様です！&#xA;必ず絶対、間違いなく勝利すると、信じていました。" speaker_show="True" stop="True" voice="kt11009_02_0081" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="信さん、今度、その能力&#xA;じっくり見せてくださいね！" speaker_show="True" stop="True" voice="mh12001_02_0139" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

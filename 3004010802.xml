@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3004010802" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <Comment comment="背景＿Wasabi店内" />
+    <bg show="True" file="26_hatsumehousemo_02" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="初芽の家" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="300" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-300" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" to_idle="True" force_end="False" loop="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="さ、テレちゃん、まずはもち米を洗って&#xA;蒸し器にかけてくださいね。" speaker_show="True" stop="True" voice="ah11005_01_0321" lip_sync="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="もち米から作るのか……。&#xA;本格的だな。" speaker_show="True" stop="True" voice="tr11007_01_0160" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="それだけではありませんよ。&#xA;せっかくなので今回は餡子も手作りしてみましょう。" speaker_show="True" stop="True" voice="ah11005_01_0322" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="餡子は日本にきてからよく食べているが、&#xA;あれも、手作りできるのか？" speaker_show="True" stop="True" voice="tr11007_01_0161" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="ええ、小豆をお砂糖と一緒にゆっくりコトコト&#xA;煮込むんですよ。" speaker_show="True" stop="True" voice="ah11005_01_0323" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="この赤い豆が餡子に……。" speaker_show="True" stop="True" voice="tr11007_01_0162" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="火にかけましたから、テレちゃんは焦げないように&#xA;ゆっくりヘラでかき混ぜていてくださいね。" speaker_show="True" stop="True" voice="ah11005_01_0324" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="わかった。&#xA;はぁ……、良い香りだ……。" speaker_show="True" stop="True" voice="tr11007_01_0163" />
+    <Comment comment="グツグツと豆の煮える音&#xD;" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="テレちゃん、そうしている間に、&#xA;もち米が炊けましたよ～。" speaker_show="True" stop="True" voice="ah11005_01_0325" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="はふっ……。この柔らかな湯気と香り……。&#xA;むっ、何だこれは？　もち米がピンク色だ。" speaker_show="True" stop="True" voice="tr11007_01_0164" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="食紅を入れて炊いたんですよ。&#xA;綺麗でしょう？" speaker_show="True" stop="True" voice="ah11005_01_0326" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" to_idle="True" force_end="False" loop="True" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="あぁ、米粒の一つ一つが宝石のように美しい……。" speaker_show="True" stop="True" voice="tr11007_01_0165" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="06_ChestLeftHand" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="喜んでもらえて嬉しいです。小豆も煮えた&#xA;ようなので、早速、お餅を包んでみましょう。" speaker_show="True" stop="True" voice="ah11005_01_0327" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" to_idle="True" force_end="False" loop="True" face_anim_type="002_Facial_smile" />
+    <msg speaker="青葉 初芽" text="あ、その前にテレちゃん、粒あんとこしあんは&#xA;どちらがお好きですか？" speaker_show="True" stop="True" voice="ah11005_01_0328" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="ごくり……。粒あんとこしあん……。&#xA;それは、どうしても選ばなければならないのか……。" speaker_show="True" stop="True" voice="tr11007_01_0166" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="08_MouthBothHands" to_idle="True" force_end="False" loop="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="13_Question" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="粒あんには粒あんの魅力が……、&#xA;こしあんにはこしあんの魅力が……。" speaker_show="True" stop="True" voice="tr11007_01_0167" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="初芽、済まない。&#xA;私には、どちらか１つを選ぶことなど……。" speaker_show="True" stop="True" voice="tr11007_01_0168" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="09_PutHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ、そうですよね。けど、安心してください。&#xA;そんな時のための、手作りです。" speaker_show="True" stop="True" voice="ah11005_01_0329" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="半分は裏ごししてこしあんに、&#xA;残りは粒あんにして包みましょう。" speaker_show="True" stop="True" voice="ah11005_01_0330" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そ、そんな選択肢が！" speaker_show="True" stop="True" voice="tr11007_01_0169" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="そんなに感激してくれると、&#xA;手作りした甲斐があったというものです。" speaker_show="True" stop="True" voice="ah11005_01_0331" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" to_idle="True" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="初芽、これで完成か？" speaker_show="True" stop="True" voice="tr11007_01_0170" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="あら、上手に包めましたね。&#xA;それでは最後にこれを巻きましょう。" speaker_show="True" stop="True" voice="ah11005_01_0332" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="木の葉？　一体どうして……。" speaker_show="True" stop="True" voice="tr11007_01_0171" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="これは桜の木の葉っぱを塩漬けしたものなんです。" speaker_show="True" stop="True" voice="ah11005_01_0333" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="餡子の甘さと葉っぱの塩味のバランスを楽しむのが&#xA;桜餅の醍醐味なんですよ。" speaker_show="True" stop="True" voice="ah11005_01_0334" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="餡子と塩味のバランス……。ごくり。&#xA;美味しいに違いない……。" speaker_show="True" stop="True" voice="tr11007_01_0172" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="試しに一つ、味見してみますか？" speaker_show="True" stop="True" voice="ah11005_01_0335" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="じゃ………………。&#xA;……いや、やめておこう。" speaker_show="True" stop="True" voice="tr11007_01_0173" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="13_Question" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="え？　どうして？" speaker_show="True" stop="True" voice="ah11005_01_0336" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="せっかく一から作った桜餅だ。&#xA;一つ目は桜の木の下で食べてみたい。" speaker_show="True" stop="True" voice="tr11007_01_0174" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="テレちゃん！ 日本人の心がよくわかってますね！" speaker_show="True" stop="True" voice="ah11005_01_0337" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="では、完成品はみんなでお花見会場で&#xA;食べることにしましょうか！" speaker_show="True" stop="True" voice="ah11005_01_0338" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="ありがとう、花見がとても楽しみになってきた。" speaker_show="True" stop="True" voice="tr11007_01_0175" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

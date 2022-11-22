@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000004" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" volume="100" cue_name="Clear" />
+    <Comment comment="背景の指定なし" />
+    <bg show="True" file="16_soapland_01" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="わーーい！　秘密書類、素敵にゲットしました！" speaker_show="True" stop="True" voice="mh12001_01_0064" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="うむ。よくやり遂げたの。任務完了じゃな。" speaker_show="True" stop="True" voice="ss12003_01_0083" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="それで、これはどういった趣旨の訓練なんですか？" speaker_show="True" stop="True" voice="mh12001_01_0065" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="101_Facial_trouble" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="あれえ？　実はこれ演習だって気付いてたんだ。&#xA;なんだよー。マジでだませてると思ったのに。" speaker_show="True" stop="True" voice="th12004_01_0037" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="気付いたのさっきですけどね。いよいよ大詰めなのに&#xA;そこまで空気がピリつかなくて何か変だなって。" speaker_show="True" stop="True" voice="mh12001_01_0066" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="いいカンしてるのう。これはいわば新人歓迎の&#xA;儀式みたいなものじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0084" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="アタシもやったんだコレ。あまり気悪くしないでね。&#xA;新人の問題点を見つける目的もあったりするから。" speaker_show="True" stop="True" voice="th12004_01_0038" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="ぜんぜん！　むしろ私、嬉しいです。&#xA;だって悪い人はいなかったわけで。" speaker_show="True" stop="True" voice="mh12001_01_0067" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="純粋じゃなあ飛粋。スパイには珍しいぞ。&#xA;フィジカル面は文句もないわい。" speaker_show="True" stop="True" voice="ss12003_01_0085" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="それじゃ車に戻ってお着替えして、アタシ達の&#xA;アジトに向かおっか。組織について詳しく話すよ。" speaker_show="True" stop="True" voice="th12004_01_0039" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="このビルで派手に暴れちゃったんで&#xA;お片付けとか、しなくていいですか？" speaker_show="True" stop="True" voice="mh12001_01_0068" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="それをする人間はきちんと存在する。&#xA;大事な役割としてな。だから気にせず帰るぞい。" speaker_show="True" stop="True" voice="ss12003_01_0086" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="了解です。&#xA;ビルの皆さん、お疲れ様でした！" speaker_show="True" stop="True" voice="mh12001_01_0069" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="どうも、お騒がせしました！&#xA;ありがとうございました～！" speaker_show="True" stop="True" voice="mh12001_01_0070" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="あはは。いちいち挨拶してるし！&#xA;面白いね～飛粋ちゃんは！" speaker_show="True" stop="True" voice="th12004_01_0040" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

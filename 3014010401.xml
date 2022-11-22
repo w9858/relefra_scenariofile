@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014010401" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <Comment comment="背景：プールがないため仮" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <msg window_type="SystemMsg" text="五恵の誕生日祝いと夏休みの思い出作りのために、&#xA;みんなでプールに遊びにきたツキカゲメンバー達。" stop="True" />
+    <msg window_type="SystemMsg" text="ウォータースライダーや流れるプールを&#xA;思いっきり満喫し終えて……" stop="True" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="よぉ～し、次は何して遊ぼうか？&#xA;みんなでビーチバレーもやりたいけどぉ～。" speaker_show="True" stop="True" voice="ym11003_02_0555" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="もう１回ウォータースライダーも乗りたいよねぇ。&#xA;ごえちゃん、何がいい？" speaker_show="True" stop="True" voice="ym11003_02_0556" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そうだなぁ、どれも面白そうだけど……。" speaker_show="True" stop="True" voice="ig11006_02_0233" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <create obj_id="青葉 初芽" data_id="311005013" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="みなさん、今日は気温も高いので、&#xA;遊び疲れないようにしっかり休憩もしてくださいね。" speaker_show="True" stop="True" voice="ah11005_02_0390" />
+    <delete obj_id="青葉 初芽" />
+    <create obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="そうね。&#xA;みんな、水分補給はしっかりするのよ。" speaker_show="True" stop="True" voice="hy11002_02_0400" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create obj_id="青葉 初芽" data_id="311005013" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="-150" y="0" />
+    <create obj_id="相模 楓" data_id="311004015" position_id="left" x="150" y="0" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="400" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <lip_sync target1="石川 五恵" target2="青葉 初芽" target3="源 モモ" target4="相模 楓" />
+    <msg speaker="モモ・楓・五恵・初芽" text="はーい！" speaker_show="True" stop="True" voice="3014010401_union_001" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="源 モモ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" />
+    <move obj_id="相模 楓" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" />
+    <move obj_id="石川 五恵" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time=".3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="じゃあ私、売店で飲み物買ってくる！" speaker_show="True" stop="True" voice="mm11001_02_0500" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="モモち、私も一緒に行くよ。&#xA;フーちゃんも行かない？" speaker_show="True" stop="True" voice="ig11006_02_0235" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="19_Amazed" force_end="False" loop="False" mixing="True" />
+    <msg speaker="相模 楓" text="アタシは遠慮しとく。" speaker_show="True" stop="True" voice="sf11004_02_0496" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そっか、何か買ってこようか？" speaker_show="True" stop="True" voice="ig11006_02_0236" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="大丈夫。家から持ってきたから。ごくごく……。&#xA;ぷはー、運動後の冷たい水は美味しいわね。" speaker_show="True" stop="True" voice="sf11004_02_0497" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="フーちゃん、水筒持ってきたんだ！&#xA;すぐ飲めて便利だもんね。" speaker_show="True" stop="True" voice="mm11001_02_0501" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まあ便利ってのもあるけど、こういう所の&#xA;飲み物とか食べ物って高いからね。" speaker_show="True" stop="True" voice="sf11004_02_0498" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="石川 五恵" text="確かに、普通に街で買うよりちょっと高めだもんね。" speaker_show="True" stop="True" voice="ig11006_02_0237" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="けど、普段食べている物でも、こういう所で食べると&#xA;美味しく感じちゃうんだよね～。何でだろう。" speaker_show="True" stop="True" voice="mm11001_02_0502" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そこなのよ！　中身は全く一緒なんだから、&#xA;食べたければ家に帰ってから食べればいいでしょ？" speaker_show="True" stop="True" voice="sf11004_02_0499" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="言われてみると、確かにそうなんだよね。&#xA;けど、売店からいい匂いがするとつい……。" speaker_show="True" stop="True" voice="mm11001_02_0503" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="引き寄せられちゃってる人がいるね……。" speaker_show="True" stop="True" voice="ig11006_02_0238" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="あぁっ！&#xA;師匠がフラフラ売店にっ！" speaker_show="True" stop="True" voice="sf11004_02_0500" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

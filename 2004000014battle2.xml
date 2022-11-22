@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000014battle2" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" />
+    <create type="Character" obj_id="アルム" data_id="316004001" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="これがＺＥＴ、ノブナガの力よ。" speaker_show="True" stop="True" voice="sr13001_02_0296" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="アルム" text="くっ、戦闘続行不能。&#xA;……こちらのデータをさらに上回ってくるとは。" speaker_show="True" stop="True" voice="ar16004_02_0022" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="日々アップデートしているからね。&#xA;誰も私の進化に追いつけないわ！" speaker_show="True" stop="True" voice="sr13001_02_0297" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さぁ捕まえるわよアルム。" speaker_show="True" stop="True" voice="sr13001_02_0298" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="修復モード起動！" speaker_show="True" stop="True" voice="ar16004_02_0023" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="修復モードは対策してあるわ。さっきの戦いで&#xA;ナノマシンの活動を抑制する薬を注入済み。" speaker_show="True" stop="True" voice="sr13001_02_0299" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="……敵の妨害により修復不能。&#xA;次なる一手をうつ。" speaker_show="True" stop="True" voice="ar16004_02_0024" />
+    <move obj_id="アルム" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="って、逃げることが次の一手かーい！&#xA;見事じゃない！　逃げるのは恥だけど良い作戦よ！" speaker_show="True" stop="True" voice="sr13001_02_0300" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010107001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うぅ、お腹空いたなあ……。&#xA;でも、Wasabiに立ち寄る余裕はないし……。" speaker_show="True" stop="True" voice="mm11001_02_0869" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そうだ、コロッケ買ってこう！&#xA;あれなら、すぐに買って食べられるから。" speaker_show="True" stop="True" voice="mm11001_02_0870" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="コロッケ、コロッケ……るんるん。&#xA;……あれ？　あそこにいるのは……？" speaker_show="True" stop="True" voice="mm11001_02_0871" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="この匂い……私にはわかる……。&#xA;これは間違いなくうまいやつだ！" speaker_show="True" stop="True" voice="bk11008_02_0182" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="白虎ちゃん？&#xA;こんなところでどうしたの？" speaker_show="True" stop="True" voice="mm11001_02_0872" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なんだ、モモか。&#xA;買い物でもしにきたのか？" speaker_show="True" stop="True" voice="bk11008_02_0183" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="うん。白虎ちゃんも何か買いに来たの？" speaker_show="True" stop="True" voice="mm11001_02_0873" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="白虎" text="い、いや、私は……その……。&#xA;いい匂いがしたから……。" speaker_show="True" stop="True" voice="bk11008_02_0184" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="わかるわかる～！　このお肉屋さんの前を通ると&#xA;思わず食べたくなっちゃうよね。" speaker_show="True" stop="True" voice="mm11001_02_0874" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おぉ、モモにもわかるのか？&#xA;確かに食べたくなるよな。" speaker_show="True" stop="True" voice="bk11008_02_0185" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うんうん。せっかくだから白虎ちゃんの分の&#xA;コロッケも一緒に買おうか？" speaker_show="True" stop="True" voice="mm11001_02_0875" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="え、いいのか？&#xA;それならぜひ買ってくれ。" speaker_show="True" stop="True" voice="bk11008_02_0186" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（……あ、お金が足りない……!?&#xA;そっか、昼間、パンを買うのに使っちゃったから……）" speaker_show="True" stop="True" voice="mm11001_02_0876" lip_sync="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="どうしたんだ、モモ？" speaker_show="True" stop="True" voice="bk11008_02_0187" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（う……でも、さっきの白虎ちゃん&#xA;すごく嬉しそうな顔してたし……）" speaker_show="True" stop="True" voice="mm11001_02_0877" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="ううん、なんでもない！&#xA;すみません、コロッケひとつくださ～い！" speaker_show="True" stop="True" voice="mm11001_02_0878" />
+    <delete obj_id="白虎" />
+    <delete obj_id="源 モモ" />
+    <msg speaker="諸星 明" text="おっ、モモちゃん。はい、どうぞ！&#xA;アツアツだから気をつけてね。" speaker_show="True" stop="True" voice="ma99004_02_0009" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あ、ありがとうございます。&#xA;……はい、白虎ちゃん。" speaker_show="True" stop="True" voice="mm11001_02_0879" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="……私だけでいいのか？&#xA;モモだって食べたいから買いに来たんだろう？" speaker_show="True" stop="True" voice="bk11008_02_0188" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="い、いいの、私は。いつも食べてるから。&#xA;さ、アツアツのうちにどうぞ。" speaker_show="True" stop="True" voice="mm11001_02_0880" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="白虎" text="……。" speaker_show="True" stop="True" voice="bk11008_02_0189" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="白虎ちゃん？　食べないの？" speaker_show="True" stop="True" voice="mm11001_02_0881" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="……いや、その……アチチ、&#xA;ほらこれ、モモに半分やる。" speaker_show="True" stop="True" voice="bk11008_02_0190" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="え？　いいの？" speaker_show="True" stop="True" voice="mm11001_02_0882" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="カトリーナが、誰かと一緒に食べると、&#xA;おいしさが倍になるって言ってたぞ。" speaker_show="True" stop="True" voice="bk11008_02_0191" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="白虎ちゃん……。&#xA;ありがと！　じゃ、一緒に食べよう！" speaker_show="True" stop="True" voice="mm11001_02_0883" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ああ。……ハフハフ……ん～、うまい！&#xA;私が思っていた通り、ここのはうまいな！" speaker_show="True" stop="True" voice="bk11008_02_0192" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="でしょでしょ？&#xA;ん～、やっぱりおいしい！" speaker_show="True" stop="True" voice="mm11001_02_0884" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（……でも、なんだかいつもよりおいしいかも。&#xA;白虎ちゃんの言うようにふたりで食べてるからかな？）" speaker_show="True" stop="True" voice="mm11001_02_0885" lip_sync="False" />
+  </command>
+</adv>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000011battle" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="(……推進システム異常……戦闘続行不能。)" speaker_show="True" stop="True" voice="ar16004_02_0011" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ふふん、いくら高性能でも私に楯突くのが&#xA;そもそも間違いなのよ。さぁとっ捕まえてあげるわ。" speaker_show="True" stop="True" voice="sr13001_02_0259" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="修復システム起動……！！" speaker_show="True" stop="True" voice="ar16004_02_0012" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="なっ！？　そんなコトも出来るの！？" speaker_show="True" stop="True" voice="sr13001_02_0260" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="続いてデストロイモード・スタンバイ！！" speaker_show="True" stop="True" voice="ar16004_02_0013" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <msg speaker="敷島 来夢" text="なんか聞きたくない単語が出てきたわね。&#xA;デストロイって物騒すぎるでしょ。" speaker_show="True" stop="True" voice="sr13001_02_0261" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こうなったら、かくなる上は！&#xA;ノブナガの得意戦法の一！！" speaker_show="True" stop="True" voice="sr13001_02_0262" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="アルム" text="来るか！　修復率８０％戦闘可能！" speaker_show="True" stop="True" voice="ar16004_02_0014" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="データはとった。じゃあねーー！！" speaker_show="True" stop="True" voice="sr13001_02_0263" />
+    <move obj_id="敷島 来夢" x="-1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="アルム" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="……逃走を選んだか。躊躇わず退却できる性格。&#xA;それもデータにいれておかなくては。" speaker_show="True" stop="True" voice="ar16004_02_0015" />
+    <msg window_type="SystemMsg" text="アルムは修復が終わりきると、来夢を&#xA;追って空を飛んだ。" stop="True" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="アルム" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="……追跡装置が妨害電波で機能しない。&#xA;ミッション続行は不可能と判断。" speaker_show="True" stop="True" voice="ar16004_02_0016" />
+    <char_spine_animation obj_id="アルム" loop="True" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="アルム" text="退却する。&#xA;……あれがＺＥＴか。" speaker_show="True" stop="True" voice="ar16004_02_0017" />
+    <msg_window_show />
+    <fade_out />
+  </command>
+</adv>

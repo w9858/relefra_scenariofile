@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1004000004" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Boss1" />
+    <Comment comment="工場 コンピュータールーム（お任せで）" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" loop="True" to_idle="False" force_end="True" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="あいた～～。こりゃ実力本物だね。" speaker_show="True" stop="True" voice="th12004_01_0004" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" x="200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="石川 五恵" text="押してはいるけど。&#xA;この人達、まだ底知れない何かがある。" speaker_show="True" stop="True" voice="ig11006_01_0047" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="気を抜かず追撃をいれるぞ。" speaker_show="True" stop="True" voice="tr11007_01_0029" />
+    <msg_window_show show="False" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="はーいそこまでそこまで！！&#xA;両者クールダウンよ。" speaker_show="True" stop="True" voice="kt11009_01_0038" />
+    <move obj_id="カトリーナ" x="200" x_move_type="MoveTo" time="0.5" position_id="left" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="カトリーナさん！　大丈夫なんですか！？" speaker_show="True" stop="True" voice="sf11004_01_0116" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="これがツキカゲかい。&#xA;なるほどいいタマが揃ってるじゃねぇかよ。" speaker_show="True" stop="True" voice="ty12005_01_0001" />
+    <delete obj_id="津守 ヨモギ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="どなた！？" speaker_show="True" stop="True" voice="mm11001_01_0097" />
+  </command>
+</adv>

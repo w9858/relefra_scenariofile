@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000012" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg show="True" resource_type="Background" file="44_raimuhouseni_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="敷島ビル最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="敷島来夢はアルムとの戦いから退却し&#xA;自宅に帰ってきていた。" stop="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さぁやっこさんは追ってくるかどうか。&#xA;きたら敷島キャノン零式をぶちこむわ。" speaker_show="True" stop="True" voice="sr13001_02_0264" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="敷島ビルの魔改造っぷりは&#xA;敵も想像していないでしょうからね。" speaker_show="True" stop="True" voice="sm13002_02_0153" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="……ただ敵が来る気配はありませんわね。" speaker_show="True" stop="True" voice="sm13002_02_0154" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="念のためあと１時間は警戒態勢ね。&#xA;さわさわ。" speaker_show="True" stop="True" voice="sr13001_02_0265" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="はわっ、なぜ私の体をなで回すのです。" speaker_show="True" stop="True" voice="sm13002_02_0155" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="結構危ない勝負だったから。&#xA;マルの顔を見ると安心してつい。" speaker_show="True" stop="True" voice="sr13001_02_0266" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="もう……。お姉様ったら。&#xA;ハレンチ罪で逮捕しますよ。" speaker_show="True" stop="True" voice="sm13002_02_0156" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <bg show="True" resource_type="Background" file="44_shikisima_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……１時間。追ってこないか。&#xA;ふぅー。振り切った。" speaker_show="True" stop="True" voice="sr13001_02_0267" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="マル、データ収集しといたから。&#xA;無敵甲冑に記録されている映像見てみ。" speaker_show="True" stop="True" voice="sr13001_02_0268" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="こっ、これはっ、なんという美しい&#xA;人形なのでしょう。お、思わず涙が。" speaker_show="True" stop="True" voice="sm13002_02_0157" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="敷島 来夢" text="分かる。興奮するわよね。私もアルム&#xA;見た瞬間キュンキュン来ちゃった。" speaker_show="True" stop="True" voice="sr13001_02_0269" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="これだけの人形を作れるのは、やはりリザード。" speaker_show="True" stop="True" voice="sm13002_02_0158" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ええ。驚くほどに高性能だったわ。&#xA;世界最高峰ね。何でもアリ。" speaker_show="True" stop="True" voice="sr13001_02_0270" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="013_Facial_angry" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="これだけの技術を持ちながら&#xA;悪事に用いるなんて、も～腹立つ！！" speaker_show="True" stop="True" voice="sr13001_02_0271" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="とりまデータは入手できたわけだから、&#xA;こいつ解析して丸裸にしてやりたいのよ。" speaker_show="True" stop="True" voice="sr13001_02_0272" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="確かにステルス機能は低い機体ですわね。作り手が&#xA;高性能さを誇示したいかのように。解析可能ですわ。" speaker_show="True" stop="True" voice="sm13002_02_0159" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="デストロイモード起動とか言ってきたからね。&#xA;戦う時に備えて、そのモードの秘密も当然暴きたい。" speaker_show="True" stop="True" voice="sr13001_02_0273" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="私達のスパイ活動は秘密ですが……&#xA;解析には来夢ガールズ達の力も必要ですわ。" speaker_show="True" stop="True" voice="sm13002_02_0160" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="しゃーない、うまい事言って助けてもらうか。" speaker_show="True" stop="True" voice="sr13001_02_0274" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg file="45_lizard_01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="リザード社" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="ＺＥＴは自分の正体を隠すことに全力だねぇ。&#xA;アルムの中にあるデータを見ても映像バグってる。" speaker_show="True" stop="True" voice="zi16003_02_0055" />
+    <char_spine_animation obj_id="アルム" />
+    <msg speaker="アルム" text="私と戦えるほど高性能の装甲を纏っていました。" speaker_show="True" stop="True" voice="ar16004_02_0018" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="そんなものリザード以外で作れるのは&#xA;敷島の人間でしょうかねぇ。" speaker_show="True" stop="True" voice="ks16001_02_0017" />
+    <char_spine_animation obj_id="クリッシー" />
+    <msg speaker="クリッシー" text="行方不明になった榎本博士がどこかで利用されて&#xA;いるかもしれない、という選択肢もありますが。" speaker_show="True" stop="True" voice="ks16001_02_0018" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="高性能すぎると逆に相手が特定しやすい。&#xA;皮肉な話デス。" speaker_show="True" stop="True" voice="ks16001_02_0019" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="一番疑わしいのは敷島か。あそこには&#xA;何人か優秀なのがいるが、さて……。" speaker_show="True" stop="True" voice="zi16003_02_0056" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="005_Facial_sad" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="同じくこっちもリザードだとバレている&#xA;でしょうけどね。" speaker_show="True" stop="True" voice="ks16001_02_0020" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="バレたところでどうにも出来ないさ。&#xA;告発が来ても今まで通り握りつぶすまで。" speaker_show="True" stop="True" voice="zi16003_02_0057" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="アルム、次こそはＺＥＴを消去するんだよ。" speaker_show="True" stop="True" voice="zi16003_02_0058" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="アルム" text="はい、マスター。" speaker_show="True" stop="True" voice="ar16004_02_0019" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="吉報を期待していますよゾーイ。" speaker_show="True" stop="True" voice="ks16001_02_0021" />
+    <char_spine_animation obj_id="アルム" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="アルム" text="分かったよクリ。" speaker_show="True" stop="True" voice="ar16004_02_0020" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="！？　なんだかワタシの扱い低いデスね？" speaker_show="True" stop="True" voice="ks16001_02_0022" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="まぁアタシには絶対忠誠だから。&#xA;大目に見てやってくれ。ハハハ。" speaker_show="True" stop="True" voice="zi16003_02_0059" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3025010301" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="67_shrine" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="空崎大師" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="振袖を着て初詣にやってきた命、楓、信の３人は、&#xA;神社に着くなり美味しい屋台グルメを満喫し……。" stop="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004019" position_id="left" x="-300" />
+    <create type="Character" obj_id="八千代 命" data_id="311003018" position_id="left" x="0" />
+    <create type="Character" obj_id="高坂 信" data_id="311010014" position_id="left" x="300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="次は何を食べよっか？&#xA;粉物は制覇したから、次は～、串焼き？" speaker_show="True" stop="True" voice="ym11003_03_0354" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="まだ食べるんですか!?&#xA;アタシはもう、お腹いっぱいです。" speaker_show="True" stop="True" voice="sf11004_03_0365" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="信も、これ以上は入らないかな……。" speaker_show="True" stop="True" voice="ks11010_03_0238" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="えー、じゃあ甘い物は別腹っていうし、&#xA;りんご飴かチョコバナナならイケるっしょ？" speaker_show="True" stop="True" voice="ym11003_03_0355" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="りんご飴かぁ！&#xA;確かに、甘い物なら食べれそうな気がする。" speaker_show="True" stop="True" voice="ks11010_03_0239" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="smile" effect_type="MampSmile" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="そう来なくっちゃ！　師匠にはメイが&#xA;とびきり大きなりんご飴をご馳走しちゃうよ！" speaker_show="True" stop="True" voice="ym11003_03_0356" />
+    <delete obj_id="smile" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ありがとう。でもお腹いっぱいだから、&#xA;小さいのでいいかな……。" speaker_show="True" stop="True" voice="ks11010_03_0240" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="えー、遠慮しなくてもイイのに～。フーはどうする？&#xA;特大サイズでも、メイが買ってあげるよん！" speaker_show="True" stop="True" voice="ym11003_03_0357" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="アタシは後にします。お腹いっぱいの時に&#xA;たくさん食べるのは、もったいないですし。" speaker_show="True" stop="True" voice="sf11004_03_0366" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="デザートは、色々回ってちょっとお腹を&#xA;空かせてからの方が美味しいはずですから。" speaker_show="True" stop="True" voice="sf11004_03_0367" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="なるほど！　空腹は最高のスパイスだもんね！&#xA;じゃあさっそく、腹ごなしスタートだっ！" speaker_show="True" stop="True" voice="ym11003_03_0358" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="腹ごなしって、メイちゃん、何をするの？" speaker_show="True" stop="True" voice="ks11010_03_0241" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ここまで歩いてくる間に、色々あったっしょ？&#xA;食べ物じゃない屋台！" speaker_show="True" stop="True" voice="ym11003_03_0359" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そこで思いっきり遊んで、&#xA;腹をごなすのさー！" speaker_show="True" stop="True" voice="ym11003_03_0360" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="腹をごなすって、あんまり聞かない言葉だけど……。&#xA;食べ物じゃない屋台って、何かあったっけ？" speaker_show="True" stop="True" voice="ks11010_03_0242" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="くじ引きとか、スーパーボールすくいとか&#xA;型抜きとか！　色々あったよ！" speaker_show="True" stop="True" voice="ym11003_03_0361" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="またそんな無駄遣い……って言いたいとこですけど、&#xA;まぁ今日はお正月だし、行ってみましょうか。" speaker_show="True" stop="True" voice="sf11004_03_0368" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="やったね～！&#xA;何して遊ぼうかな～♪" speaker_show="True" stop="True" voice="ym11003_03_0362" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あっ、あっちに射的のお店があるよー！" speaker_show="True" stop="True" voice="ks11010_03_0243" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="射的かぁ、いいねぇ！&#xA;早速みんなでやってみよー！" speaker_show="True" stop="True" voice="ym11003_03_0363" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

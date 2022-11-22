@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000018" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="21_islandev_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="無人島" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="飛粋とゆらの無人島生活は３日目に突入。&#xA;２人は食べるものに困る事もなく生活していた。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="いやーあの怪しげなキノコ食べても全然平気だな。&#xA;飛粋は野生での過ごし方を知ってるぜ。" speaker_show="True" stop="True" voice="ry12002_01_0112" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="ゆらちゃんも野生動物みたいな動きするから&#xA;食材の調達に不自由しないよ。悠々自適だね。" speaker_show="True" stop="True" voice="mh12001_01_0188" />
+    <sound_stop cue_name="Adv1" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <wait time="2" />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" cue_name="Adv3" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="ゆらぁ。ゆらゆらゆらよ。見つけたぜオイィ。&#xA;誰となれ合ってるんだよお前はよぉ。" speaker_show="True" stop="True" voice="ra15002_01_0007" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 あやめ" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="……大八洲師団！" speaker_show="True" stop="True" voice="mh12001_01_0189" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" face_anim_type="005_Facial_sad" />
+    <msg speaker="乱獅子 ゆら" text="！　姉…様！　アタシ様を探しにきたのか。" speaker_show="True" stop="True" voice="ry12002_01_0113" />
+    <move obj_id="乱獅子 ゆら" x="-150" x_move_type="MoveTo" time="0.5" position_id="left" y="0" y_move_type="MoveValue" wait="False" />
+    <move obj_id="宗近 飛粋" x="-400" x_move_type="MoveTo" time="0.5" position_id="left" y="0" y_move_type="MoveValue" wait="True" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" x="400" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="当たり前だろぉ？　お前は可愛い妹なんだからよぉ&#xA;そいつ国の人間だよなぁ。ぶっ殺せ。んで帰るぞ。" speaker_show="True" stop="True" voice="ra15002_01_0008" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="True" />
+    <msg speaker="乱獅子 ゆら" text="そ、それはできねーよ。こいつには&#xA;いくつも借りがあるんだ。" speaker_show="True" stop="True" voice="ry12002_01_0114" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="あぁん？　折角探しに来てやったのに何だそりゃ。&#xA;殴られなきゃわかんねーのか！？　ゆらぁ！！" speaker_show="True" stop="True" voice="ra15002_01_0009" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="うぅっ……！" speaker_show="True" stop="True" voice="ry12002_01_0115" />
+    <move obj_id="乱獅子 ゆら" x="-400" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" wait="False" position_id="left" />
+    <move obj_id="宗近 飛粋" x="-150" x_move_type="MoveTo" time="0.5" position_id="left" y="0" y_move_type="MoveValue" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="やめなよ！　お姉ちゃんなら妹に&#xA;優しくしてあげなよ！" speaker_show="True" stop="True" voice="mh12001_01_0190" />
+    <char_spine_animation obj_id="乱獅子 あやめ" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="は？　言っておくが俺以上にゆらを&#xA;思っている人間はいねぇぞ。" speaker_show="True" stop="True" voice="ra15002_01_0010" />
+    <char_spine_animation obj_id="乱獅子 あやめ" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="もういい。ゆらは後でサンドバッグの刑だ。&#xA;こいつは俺が片付けといてやる。お前達囲め！" speaker_show="True" stop="True" voice="ra15002_01_0011" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="……！" speaker_show="True" stop="True" voice="mh12001_01_0191" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="や、やめろよ……。" speaker_show="True" stop="True" voice="ry12002_01_0116" />
+    <char_spine_animation obj_id="乱獅子 あやめ" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="聞こえねーよ。やれ！！" speaker_show="True" stop="True" voice="ra15002_01_0012" />
+    <shake target="Character" obj_id="宗近 飛粋" x="20" vibrate="20" time="0.5" y="0" wait="False" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="はぁぁーーっ！！！" speaker_show="True" stop="True" voice="mh12001_01_0192" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="True" />
+    <msg speaker="乱獅子 あやめ" text="おぉぅ、頑張るね。大八洲の精鋭相手に&#xA;戦いになってやがる。こいつ大物なんじゃねぇの。" speaker_show="True" stop="True" voice="ra15002_01_0013" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="乱獅子 あやめ" />
+    <delete obj_id="宗近 飛粋" />
+    <msg window_type="SystemMsg" text="飛粋は迫り来る大八洲師団の精兵たちを相手に&#xA;１人で必死の戦いを繰り広げ続けた。" stop="True" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" x="200" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" to_idle="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="はぁ、はぁ、はぁ、はぁ……。" speaker_show="True" stop="True" voice="mh12001_01_0193" />
+    <char_spine_animation obj_id="乱獅子 あやめ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="敵ながらご機嫌なやつだ。止めはこのあやめ様が&#xA;刺してやるよ。赤い花ひとつ咲かせてやろう。" speaker_show="True" stop="True" voice="ra15002_01_0014" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="……！" speaker_show="True" stop="True" voice="mh12001_01_0194" />
+    <msg_window_show show="False" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="乱獅子 あやめ" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <shake target="Character" obj_id="乱獅子 ゆら" x="20" vibrate="20" time="0.5" y="0" wait="False" />
+    <create_effect effect_id="yura_ShockWave" effect_type="EffectShockWave" life_time="2.0" target_obj="乱獅子 ゆら" />
+    <msg speaker="乱獅子 ゆら" text="…………やめろーーっ！！！！！" speaker_show="True" stop="True" voice="ry12002_01_0117" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 ゆら" />
+    <wait time="0.2" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="-1000" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="-150" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" x="200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <wait time="0.5" />
+    <move obj_id="宗近 飛粋" x="-400" x_move_type="MoveTo" time="0.2" y="0" y_move_type="MoveValue" wait="False" position_id="left" />
+    <move obj_id="乱獅子 ゆら" x="0" x_move_type="MoveTo" time="0.2" position_id="left" y="0" y_move_type="MoveValue" wait="True" />
+    <create_effect effect_id="ayame_Slash" effect_type="EffectSlash" life_time="2.0" target_obj="乱獅子 あやめ" x="0" />
+    <Comment comment="「ドスッ」と刃物を突き立てる斬撃音" />
+    <sound type="Se" cue_name="Clash" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="16_BendBackward" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <wait time="2" />
+    <move obj_id="乱獅子 ゆら" x="-150" x_move_type="MoveTo" time="0.5" y="0" position_id="left" y_move_type="MoveValue" wait="False" />
+    <sound cue_name="DamageCritical" />
+    <move obj_id="乱獅子 あやめ" x="400" x_move_type="MoveTo" time="0.5" wait="True" y_move_type="MoveValue" y="0" position_id="left" />
+    <create_effect effect_id="hisui_Exclamation" effect_type="MampExclamation" life_time="1.0" target_obj="宗近 飛粋" />
+    <create_effect effect_id="ayame_Exclamation" effect_type="MampExclamation" life_time="1.0" target_obj="乱獅子 あやめ" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="False" />
+    <wait time="0.5" />
+    <msg speaker="乱獅子 あやめ" text="！？　おい！？　ゆらっ！？　お前今、&#xA;俺を攻撃したのか！？　お前が俺を刺したのか！？" speaker_show="True" stop="True" voice="ra15002_01_0015" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="そうだよ、アタシ様がやめろって言ったろ！&#xA;これ以上やるってんなら今度は殺す！！" speaker_show="True" stop="True" voice="ry12002_01_0118" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="乱獅子 あやめ" text="い、痛いじゃねぇかよ……。&#xA;上等だテメっ…。この姉不孝者がぁ！！" speaker_show="True" stop="True" voice="ra15002_01_0016" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="乱獅子 あやめ" />
+    <delete obj_id="宗近 飛粋" />
+    <msg speaker="大八洲兵２" text="あやめ様！　出血がひどいです！　ここは&#xA;下がりましょう！！　手当しませんと！！" speaker_show="True" stop="True" voice="99027_01_0001" />
+    <msg speaker="大八洲兵３" text="皆であやめ様をお連れしろ！" speaker_show="True" stop="True" voice="99028_01_0001" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <shake target="Character" obj_id="乱獅子 あやめ" x="20" vibrate="20" time="0.5" y="0" wait="False" />
+    <msg speaker="乱獅子 あやめ" text="てめぇがゆらを惑わしたのか！？　俺の、俺だけの&#xA;ゆらを！　許されねぇ…絶対ブッ殺しに行く！" speaker_show="True" stop="True" voice="ra15002_01_0017" />
+    <move obj_id="乱獅子 あやめ" position_id="left" x="1500" time="1.5" wait="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 あやめ" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="200" position_id="left" y="0" anchor="Bottom" />
+    <shake target="Character" obj_id="乱獅子 ゆら" x="2" time="3" y="0" wait="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="……へへ、へへへ。アタシ様のやりたいように&#xA;やってやったぜ。ごめんな、動くの遅れて。" speaker_show="True" stop="True" voice="ry12002_01_0119" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" face_anim_type="005_Facial_sad" />
+    <msg speaker="宗近 飛粋" text="ううん、ありがとう……ゆらちゃん私のために。" speaker_show="True" stop="True" voice="mh12001_01_0195" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="気にするなよ。ファックスな姉だ。&#xA;いつかああしてやろうと思ってたんだ。" speaker_show="True" stop="True" voice="ry12002_01_0120" />
+    <msg_window_show show="False" />
+    <Comment comment="ヘリの音" />
+    <sound type="Se" cue_name="helicopter" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="03_BackBothHands" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="…ヘリの音がする。これ、ヨモギさん達だ。&#xA;ゆらちゃん、一緒にいこう。" speaker_show="True" stop="True" voice="mh12001_01_0196" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" face_anim_type="001_Facial_blink" />
+    <msg speaker="乱獅子 ゆら" text="……ああ、分かったよ飛粋。" speaker_show="True" stop="True" voice="ry12002_01_0121" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

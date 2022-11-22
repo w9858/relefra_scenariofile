@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000014" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg show="True" file="28_train_02" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="新幹線　車内" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003011" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="えっと、まずはおさらいだね。ツキカゲはずっと昔、&#xA;室町時代に始まった……これはもう話したよね。" speaker_show="True" stop="True" voice="ks11010_01_0178" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="はい。&#xA;室町時代、空崎の自警団として創設された……と。" speaker_show="True" stop="True" voice="hy11002_01_0279" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="さすが雪ちゃん、よく覚えてたね。" speaker_show="True" stop="True" voice="ks11010_01_0179" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="め、メイもそれくらい覚えてたよ。&#xA;空崎の大商人が作ったって。" speaker_show="True" stop="True" voice="ym11003_01_0238" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="うん、メイちゃんも偉い。&#xA;さすがだね。" speaker_show="True" stop="True" voice="ks11010_01_0180" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="へへ～、まあ、それほどでもあるけどね！" speaker_show="True" stop="True" voice="ym11003_01_0239" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="空崎は昔から大都市で交通の要だったから、&#xA;人がすっごくたくさん行き来してて。" speaker_show="True" stop="True" voice="ks11010_01_0181" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="人が多く集まれば犯罪も多くなる。そこで、ある&#xA;商人さんが自警団を作った……それがツキカゲの元祖。" speaker_show="True" stop="True" voice="ks11010_01_0182" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="だから、信たちはアメリカのＣＩＡやイギリスの&#xA;ＭＩ６と違って、国家とは無関係に活動できるの。" speaker_show="True" stop="True" voice="ks11010_01_0183" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="それでね、成り立ちはそれぞれ違うけど、&#xA;ツキカゲ以外にも私設諜報機関は日本中にあるんだ。" speaker_show="True" stop="True" voice="ks11010_01_0184" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="今回はそのうちの一つ、東北の「山伏」から&#xA;緊急救援依頼が来た……ってことだね。" speaker_show="True" stop="True" voice="ks11010_01_0185" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="カトさんから聞いた話によると、山伏は&#xA;山岳地帯の資源を巡ってモウリョウと争ってたみたい。" speaker_show="True" stop="True" voice="ks11010_01_0186" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="でも、奇襲を受けてミサイルを基地に&#xA;撃ち込まれたんだって。" speaker_show="True" stop="True" voice="ks11010_01_0187" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="山伏の諜報員の人たちは今、山中の洞窟に撤退して&#xA;助けを待ってる状態。" speaker_show="True" stop="True" voice="ks11010_01_0188" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="モウリョウの部隊は山狩りをして、山伏を徐々に&#xA;追い詰めてるらしい……一刻を争う事態だね。" speaker_show="True" stop="True" voice="ks11010_01_0189" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="そこで山伏は緊急連絡網を使って、ツキカゲに&#xA;救援を求めた……っていうのが今回の経緯。" speaker_show="True" stop="True" voice="ks11010_01_0190" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="しかし、なぜ我々だったのでしょう。" speaker_show="True" stop="True" voice="hy11002_01_0280" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="他にも私設諜報機関があるなら、&#xA;ツキカゲよりも東北に近い機関があったのでは？" speaker_show="True" stop="True" voice="hy11002_01_0281" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="緊急事態なら、不自然な気がします……&#xA;何かの罠かもしれません。" speaker_show="True" stop="True" voice="hy11002_01_0282" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="そうだねー。モウリョウが連絡網をジャックし、山伏の&#xA;ふりをして私たちに連絡を取ってきた可能性もある。" speaker_show="True" stop="True" voice="fn11011_01_0055" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="そうやって私たちを誘き出して、罠を張って&#xA;待ち構えているかもしれない。" speaker_show="True" stop="True" voice="fn11011_01_0056" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="それか、私たちを空崎から離れさせ、&#xA;その間に空崎へ攻撃を仕掛けてくるとか。" speaker_show="True" stop="True" voice="fn11011_01_0057" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（やはり師匠も、罠の可能性は考えていたのね……）" speaker_show="True" stop="True" voice="hy11002_01_0283" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（でも、すぐに山伏を助けに行くべきだと&#xA;判断したのは師匠だった……）" speaker_show="True" stop="True" voice="hy11002_01_0284" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（なぜ、真偽を確かめる間も惜しんで、&#xA;救援に向かうことにしたのかしら……）" speaker_show="True" stop="True" voice="hy11002_01_0285" lip_sync="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="たしかに罠かもしれない。……でもね、雪。&#xA;今回は助けに行くのが正しいよ。" speaker_show="True" stop="True" voice="fn11011_01_0058" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="私を信じてほしい。" speaker_show="True" stop="True" voice="fn11011_01_0059" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……わかりました。" speaker_show="True" stop="True" voice="hy11002_01_0286" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（師匠の真意はわからない。それでも、&#xA;師匠がそう言うなら、私は師匠を信じるだけだ）" speaker_show="True" stop="True" voice="hy11002_01_0287" lip_sync="False" />
+  </command>
+</adv>

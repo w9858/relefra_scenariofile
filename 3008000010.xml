@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3008000010" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="各キャラの衣装は現在、仮のものを入れております。" />
+    <Comment comment="次の話で園長と何事もなかったかのように会話するシーンがあるので" />
+    <Comment comment="楓たちの衣装は、飼育員服のままの方ががいいかもしれません。" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Quest1" />
+    <Comment comment="背景：動物園、現在は仮の背景を入れています。" />
+    <bg show="True" resource_type="Background" file="59_zooev_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="動物園" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <Comment comment="SE:警報音" />
+    <load_cue_sheet cue_sheet="AdvVoice/3008000009" />
+    <sound type="Se" cue_name="alarm" />
+    <wait time="1.0" />
+    <msg speaker="侵入者A" text="何をしている？　一刻も早く金目の動物たちから&#xA;持ち出せ！　本社からの緊急指示だぞ！" speaker_show="True" stop="True" voice="99027_02_0001" />
+    <msg speaker="侵入者B" text="わかってるよ！　けどセキュリティが作動して、&#xA;中に入れねぇんだよ！" speaker_show="True" stop="True" voice="99028_02_0001" />
+    <msg speaker="侵入者A" text="くそ！ どうなってるんだ!?&#xA;なぜセキュリティが我々に反応するんだ！" speaker_show="True" stop="True" voice="99027_02_0002" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="あなたたちね、&#xA;あの子たちを密輸密売していた連中は。" speaker_show="True" stop="True" voice="th12004_02_0138" />
+    <msg speaker="侵入者A" text="なんだ貴様たちは！" speaker_show="True" stop="True" voice="99027_02_0003" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ここから先へは、絶対に行かせない！" speaker_show="True" stop="True" voice="sf11004_02_0119" />
+    <msg speaker="侵入者B" text="邪魔をするなら容赦をしないぞ！" speaker_show="True" stop="True" voice="99028_02_0002" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="容赦しない？&#xA;は？　それはこっちのセリフよ！" speaker_show="True" stop="True" voice="sf11004_02_0120" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="アタシも珍しくアンタたちには怒ってるよ。&#xA;たーっぷりお仕置きしちゃうからね！" speaker_show="True" stop="True" voice="th12004_02_0139" />
+    <msg speaker="侵入者A" text="しゃらくせぇ！　女子供だろうと構わねえ、&#xA;やっちまえ！" speaker_show="True" stop="True" voice="99027_02_0004" />
+    <msg speaker="侵入者B" text="おう、覚悟しな！　お嬢ちゃんたち！&#xA;うぉりゃー！" speaker_show="True" stop="True" voice="99028_02_0003" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="あっ、楓ちゃん後ろ！" speaker_show="True" stop="True" voice="th12004_02_0140" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="葉栖美さん、ありがと。&#xA;けど、想定の範囲内です！　フフン！" speaker_show="True" stop="True" voice="sf11004_02_0121" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="地獄の果てまで落ちやがれ！&#xA;たぁーーーーっ！" speaker_show="True" stop="True" voice="sf11004_02_0122" />
+    <msg_window_show show="False" />
+    <Comment comment="SE:警報音" />
+    <sound type="Se" cue_name="Slash" />
+    <wait time="0.5" />
+    <msg speaker="侵入者B" text="へぶしっ。" speaker_show="True" stop="True" voice="99028_02_0004" />
+    <msg_window_show show="False" />
+    <Comment comment="SE:警報音" />
+    <sound type="Se" cue_name="Slash" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="Slash" />
+    <wait time="0.5" />
+    <msg speaker="侵入者B" text="何だこいつ……。メチャメチャ強ぇ。" speaker_show="True" stop="True" voice="99028_02_0005" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="アンタが弱すぎんのよ！&#xA;ほら、次はそっちの！　かかって来なさい！" speaker_show="True" stop="True" voice="sf11004_02_0123" />
+    <msg speaker="侵入者A" text="ヒィッ、ここはひとまず撤収……。" speaker_show="True" stop="True" voice="99027_02_0005" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="なんてさせる訳ないでしょ！&#xA;とりあえず、ロープでぐるぐるぐる～。" speaker_show="True" stop="True" voice="th12004_02_0141" />
+    <msg speaker="侵入者A" text="やめろ！&#xA;うぐっ……動けない。" speaker_show="True" stop="True" voice="99027_02_0006" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="たーっぷりお仕置きしちゃうからね。&#xA;なにか面白い方法ないかな～？" speaker_show="True" stop="True" voice="th12004_02_0142" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうだ！　勝手に売られた動物たちの苦しみを理解&#xA;させる為に、身ぐるみ剥がして狭い檻にブチ込んで…" speaker_show="True" stop="True" voice="sf11004_02_0124" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そのまま見知らぬ国に売り飛ばしちゃうってのは&#xA;どうですかね？" speaker_show="True" stop="True" voice="sf11004_02_0125" />
+    <msg speaker="侵入者A" text="ヒッ！" speaker_show="True" stop="True" voice="99027_02_0007" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ワオ、なかなかエキサイティング！&#xA;あ、アタシもいいこと思いついちゃったよん。" speaker_show="True" stop="True" voice="th12004_02_0143" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ホワイトタイガー君の夜ご飯の準備がまだ&#xA;なんだよね。あの子は、お肉が大好きだから～。" speaker_show="True" stop="True" voice="th12004_02_0144" />
+    <msg speaker="侵入者A" text="や、やめてくれ～！" speaker_show="True" stop="True" voice="99027_02_0008" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="フン、情けない声だしちゃって。" speaker_show="True" stop="True" voice="sf11004_02_0126" />
+    <msg speaker="侵入者A" text="何でもする。何でもするから&#xA;頼む、命だけは助けてくれ～！" speaker_show="True" stop="True" voice="99027_02_0009" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="お仕置き完了って感じだね。" speaker_show="True" stop="True" voice="th12004_02_0145" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="アタシはまだまだ懲らしめ足りないんですけどね。" speaker_show="True" stop="True" voice="sf11004_02_0127" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

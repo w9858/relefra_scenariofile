@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000012" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="34_sakasatower_02" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="よぉーし鍛錬じゃ飛粋！　しぶきが相手になる。&#xA;どーんとぶつかってくるのじゃ！" speaker_show="True" stop="True" voice="ss12003_01_0147" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="はい！　飛粋どーんといきまーす！！&#xA;てぇぇーーーい！！！！" speaker_show="True" stop="True" voice="mh12001_01_0131" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="ぬぉっ！？　今の体さばき、どこかで&#xA;見た事がある……あ！　乱獅子ゆらの技に近いぞ。" speaker_show="True" stop="True" voice="ss12003_01_0148" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="さすが隊長！　素敵に正解です！&#xA;いい動きだなと思ったんで、取り込みました！" speaker_show="True" stop="True" voice="mh12001_01_0132" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="トリコム？　今さらっと驚く事を言うたの？" speaker_show="True" stop="True" voice="ss12003_01_0149" />
+    <move obj_id="宗近 飛粋" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="これが宗近飛粋の特技だぜ、しぶき。一度見た技を&#xA;自分のものにしちまうんだ。" speaker_show="True" stop="True" voice="ty12005_01_0062" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="自分のものって言うのは大げさですよ。完全に&#xA;同じ技はできません。70～80％ぐらいです。" speaker_show="True" stop="True" voice="mh12001_01_0133" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="ああそうかい。でも実戦で通じるレベルまで&#xA;再現できるなんてのは大したもんだよ。" speaker_show="True" stop="True" voice="ty12005_01_0063" />
+    <msg_window_show show="False" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="津守 ヨモギ" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="轟 葉栖美" text="なるほど。飛粋ちゃんは相手へのリスペクトが&#xA;あるもんね、凄いっていつも驚いてくれる。" speaker_show="True" stop="True" voice="th12004_01_0093" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="そう。他者への敬意とあくなき好奇心が、&#xA;こういう技能を呼び覚ましたんだ。" speaker_show="True" stop="True" voice="ty12005_01_0064" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="フィジカルの強さだけではなかったのじゃな飛粋。&#xA;…ということは。" speaker_show="True" stop="True" voice="ss12003_01_0150" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="そうさ。任務をこなすたびに飛粋は強くなる。&#xA;相手がやり手なほど、それを取り込んでね。" speaker_show="True" stop="True" voice="ty12005_01_0065" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="凪の部隊は警察の切り札として強く在らねば&#xA;ならねぇかんな。人材はホント厳選してんだよ。" speaker_show="True" stop="True" voice="ty12005_01_0066" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="しぶき達は負ける気せんが、絶対数が足りん。&#xA;あと１人は都合して欲しいところじゃなぁ。" speaker_show="True" stop="True" voice="ss12003_01_0151" />
+    <move obj_id="津守 ヨモギ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="101_Facial_trouble" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="轟 葉栖美" text="だねぇ。あと１人入ればケッコー楽。" speaker_show="True" stop="True" voice="th12004_01_0094" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="焦らせんなよハニー。中途半端なのいれて&#xA;戦力ダウンだけはさせたくねぇんだよ。" speaker_show="True" stop="True" voice="ty12005_01_0067" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="ヨモギさんの人を見抜く目というのは&#xA;どうやって培われていったんですか？" speaker_show="True" stop="True" voice="mh12001_01_0134" />
+    <move obj_id="宗近 飛粋" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="俺の技能も取り入れる気かい？　そうさな&#xA;俺の生まれは神域と言われた山でよ、和歌山にある。" speaker_show="True" stop="True" voice="ty12005_01_0068" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="そこの里で信心深く生活してたら、いつからか&#xA;なんか分かるようになっちまったんだよ。" speaker_show="True" stop="True" voice="ty12005_01_0069" />
+    <move obj_id="津守 ヨモギ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="学ぼうにも参考にならないスピリチュアルな&#xA;理由ですよねー。漫画みたい。" speaker_show="True" stop="True" voice="th12004_01_0095" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="漫画ぁ？　動物と意思疎通できる葉栖美に&#xA;言われたくはないね。さ、ミーティングだよ。" speaker_show="True" stop="True" voice="ty12005_01_0070" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="轟 葉栖美" />
+    <msg window_type="SystemMsg" text="凪の部隊は、次の任務「宗教施設への潜入」に&#xA;ついて打ち合わせを重ねていた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="離島にある施設への潜入は、はっすーと&#xA;飛粋で行けい。信者になりすますのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0152" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="目的は教団が立てているというテロ計画の真偽と、&#xA;真であった場合の兵器無効化だね。" speaker_show="True" stop="True" voice="th12004_01_0096" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="はじめての潜入任務。ドキドキ……。" speaker_show="True" stop="True" voice="mh12001_01_0135" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="離島にある新興宗教による施設。テロの画策。&#xA;きな臭いったらありゃしないね。何かが起こるよ。" speaker_show="True" stop="True" voice="ty12005_01_0071" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

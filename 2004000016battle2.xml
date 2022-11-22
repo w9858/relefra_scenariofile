@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000016battle2" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="019_Facial_damage" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="はぁっ、はぁっ、はぁっ。疲れる戦いだわ。&#xA;でも、ここからが本番！　てやっ！" speaker_show="True" stop="True" voice="sr13001_02_0319" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="何を？" speaker_show="True" stop="True" voice="ar16004_02_0036" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="自爆装置のスイッチを取り除いたのよ。&#xA;この前の戦いで場所は把握したわ。" speaker_show="True" stop="True" voice="sr13001_02_0320" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="アルム" text="自爆装置のスイッチはひとつだけではない。" speaker_show="True" stop="True" voice="ar16004_02_0037" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" />
+    <msg speaker="敷島 来夢" text="何でそんな所だけ念入りなのよ全く。&#xA;じゃあお手上げだわ。ほら逃げなさい。" speaker_show="True" stop="True" voice="sr13001_02_0321" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="私が自爆してしまえば、脅威は減るだろう。&#xA;何故見逃すのか。" speaker_show="True" stop="True" voice="ar16004_02_0038" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="だからアルムを倒したいわけじゃないのよ。&#xA;正しい事にその力を使って欲しいの。" speaker_show="True" stop="True" voice="sr13001_02_0322" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="理解不能。" speaker_show="True" stop="True" voice="ar16004_02_0039" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="人形は人の為に働いて。人は人形に感謝して。&#xA;これからの未来へ、互いに発展していくの。" speaker_show="True" stop="True" voice="sr13001_02_0323" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="理解不能。" speaker_show="True" stop="True" voice="ar16004_02_0040" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="じゃあこれならどう。" speaker_show="True" stop="True" voice="sr13001_02_0324" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルム。貴方が欲しいわ。&#xA;貴方は美しい。" speaker_show="True" stop="True" voice="sr13001_02_0325" />
+    <char_spine_animation obj_id="アルム" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="アルム" text="――――！？　り、理解……不……能。" speaker_show="True" stop="True" voice="ar16004_02_0041" />
+    <move obj_id="アルム" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="敷島 来夢" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <sound type="Se" cue_name="RecallsIn" />
+    <wait time="1" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="また逃げられちゃった、か……。この私が二度も&#xA;レディの口説きを失敗するなんてね。" speaker_show="True" stop="True" voice="sr13001_02_0326" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="私は諦めが悪いのよ。&#xA;さらなる対応策をひっさげておくわ。" speaker_show="True" stop="True" voice="sr13001_02_0327" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルム……。" speaker_show="True" stop="True" voice="sr13001_02_0328" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アルム" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="アルム" data_id="316004001" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" face_anim_type="011_Facial_surprise" />
+    <msg speaker="アルム" text="……理解不能、理解不能……。" speaker_show="True" stop="True" voice="ar16004_02_0042" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+  </command>
+</adv>

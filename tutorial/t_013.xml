@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info />
+  <command>
+    <Start />
+    <bg file="0" />
+    <create type="Character" obj_id="1" data_id="10100103" x="-500" />
+    <create type="Character" obj_id="2" data_id="10100103" x="-350" />
+    <create type="Character" obj_id="3" data_id="10100103" x="-200" />
+    <create type="Character" obj_id="4" data_id="10100103" x="-50" />
+    <create type="Character" obj_id="5" data_id="10100103" x="100" />
+    <create type="Character" obj_id="6" data_id="10100103" x="250" />
+    <create type="Character" obj_id="7" data_id="10100103" x="400" />
+    <create type="Character" obj_id="8" data_id="10100103" x="550" />
+    <msg speaker="モモ" text="透明になるよ&#xA;&lt;color=#f00&gt;高負荷注意!&lt;/color&gt;" stop="True" />
+    <char_alpha obj_id="1" enable="True" quality="Default" />
+    <char_alpha obj_id="2" enable="True" quality="Default" />
+    <char_alpha obj_id="3" enable="True" quality="Default" />
+    <char_alpha obj_id="4" enable="True" quality="Default" />
+    <char_alpha obj_id="5" enable="True" quality="Default" />
+    <char_alpha obj_id="6" enable="True" quality="Default" />
+    <char_alpha obj_id="7" enable="True" quality="Default" />
+    <char_alpha obj_id="8" enable="True" quality="Default" />
+    <char_alpha_value obj_id="1" value="0.7" time="1" wait="True" />
+    <char_alpha_value obj_id="2" value="0.7" time="1" wait="True" />
+    <char_alpha_value obj_id="3" value="0.7" time="1" wait="True" />
+    <char_alpha_value obj_id="4" value="0.7" time="1" wait="True" />
+    <char_alpha_value obj_id="5" value="0.7" time="1" wait="True" />
+    <char_alpha_value obj_id="6" value="0.7" time="1" wait="True" />
+    <char_alpha_value obj_id="7" value="0.7" time="1" wait="True" />
+    <char_alpha_value obj_id="8" value="0.7" time="1" wait="True" />
+    <char_spine_animation obj_id="1" body_anim_type="11_Point" loop="True" to_idle="True" />
+    <msg speaker="モモ" text="もっと透明になるよ" stop="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <char_alpha_value obj_id="1" value="0.2" time="1" wait="True" />
+    <msg speaker="モモ" text="もとに戻るよ" stop="True" />
+    <char_alpha_value obj_id="1" value="1" time="1" wait="True" />
+    <char_alpha_value obj_id="2" value="1" time="1" wait="True" />
+    <char_alpha_value obj_id="3" value="1" time="1" wait="True" />
+    <char_alpha_value obj_id="4" value="1" time="1" wait="True" />
+    <char_alpha_value obj_id="5" value="1" time="1" wait="True" />
+    <char_alpha_value obj_id="6" value="1" time="1" wait="True" />
+    <char_alpha_value obj_id="7" value="1" time="1" wait="True" />
+    <char_alpha_value obj_id="8" value="1" time="1" wait="True" />
+    <char_alpha obj_id="1" enable="False" quality="Default" />
+    <char_alpha obj_id="2" enable="False" quality="Default" />
+    <char_alpha obj_id="3" enable="False" quality="Default" />
+    <char_alpha obj_id="4" enable="False" quality="Default" />
+    <char_alpha obj_id="5" enable="False" quality="Default" />
+    <char_alpha obj_id="6" enable="False" quality="Default" />
+    <char_alpha obj_id="7" enable="False" quality="Default" />
+    <char_alpha obj_id="8" enable="False" quality="Default" />
+    <char_spine_animation obj_id="1" loop="True" to_idle="True" face_anim_type="003_Facial_laugh" />
+    <msg speaker="モモ" text="もとに戻したら[char_alpha]コマンドのenableをFalseにしてね！！&#xA;＊このコマンドを入れることでメモリ解放できます" stop="True" />
+    <stop />
+  </command>
+</adv>

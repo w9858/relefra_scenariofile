@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3026000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="69_ snow_mountain" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="雪山" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="来夢ガールズＭ" text="ユキノウエ　デモ　モウ　アルケル！" speaker_show="True" stop="True" voice="rb13005_03_0007" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001006" position_id="left" x="200" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003003" position_id="left" x="-200" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="初心者の２人も雪上の歩行は&#xA;すでにマスターしちゃったか。" speaker_show="True" stop="True" voice="sr13001_03_0088" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="やはり飲み込みが早いですわね。" speaker_show="True" stop="True" voice="sm13002_03_0053" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="お次は滑る練習ね。コツさえ掴んじゃえば&#xA;このゲレンデを好きに滑れるようになるわ。" speaker_show="True" stop="True" voice="sr13001_03_0089" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="スキー板の先端を狭めてハの字にする技術は&#xA;減速や止まる時にも使うから大事よ。" speaker_show="True" stop="True" voice="sr13001_03_0090" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ストックで押し出して前進からのハの字でストップ。&#xA;慣れないうちはこの形のままゆっくり滑ってみて。" speaker_show="True" stop="True" voice="sr13001_03_0091" />
+    <sound type="Se" cue_name="skate1" />
+    <wait time="1.5" />
+    <msg speaker="来夢ガールズＭ" text="オォ！　スベル！" speaker_show="True" stop="True" voice="rb13005_03_0008" />
+    <create type="Character" obj_id="アミィ" data_id="313002005" position_id="left" x="300" />
+    <move obj_id="敷島 真留瀬" position_id="left" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="敷島 来夢" position_id="left" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="止まりまする！" speaker_show="True" stop="True" voice="am13002_03_0039" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そうそう。&#xA;ミラグロスもアミィもいい感じ。" speaker_show="True" stop="True" voice="sr13001_03_0092" />
+    <msg speaker="来夢ガールズＡ" text="来夢様～、&#xA;どうしたらいいか全然わかりませ～ん。" speaker_show="True" stop="True" voice="ra13003_03_0009" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ふふ、そういう約束だものね。教えてあげる。&#xA;それじゃ、足をこう内股気味に……。" speaker_show="True" stop="True" voice="sr13001_03_0093" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="1" />
+    <msg speaker="来夢ガールズＡ" text="やぁん……くすぐった～い。" speaker_show="True" stop="True" voice="ra13003_03_0010" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="24_bodyUnique" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ふふん、こうしてほしかったんでしょー？" speaker_show="True" stop="True" voice="sr13001_03_0094" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="……キッ。" speaker_show="True" stop="True" voice="sm13002_03_0054" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="ase" effect_type="MampSweat" target_obj="敷島 来夢" />
+    <msg speaker="敷島 来夢" text="……マル？&#xA;これはあくまで指導だからね？" speaker_show="True" stop="True" voice="sr13001_03_0095" />
+    <delete obj_id="ase" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="アンヤもですの？" speaker_show="True" stop="True" voice="sm13002_03_0055" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そこはほら、みんな平等に愛してるから。&#xA;マルもどう？" speaker_show="True" stop="True" voice="sr13001_03_0096" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ありがとうございます。ただ、みんなが&#xA;お姉様の指導を待ってますわよ？" speaker_show="True" stop="True" voice="sm13002_03_0056" />
+    <msg speaker="来夢ガールズＢ" text="ら、来夢様ー、滑り方を忘れました……！" speaker_show="True" stop="True" voice="rb13004_03_0007" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あ、今行くー。&#xA;指導してほしくなったらいつでも言って。" speaker_show="True" stop="True" voice="sr13001_03_0097" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <delete obj_id="敷島 真留瀬" />
+    <transition effect="Default" type="In" color_change="False" time="1" wait="True" />
+    <sound type="Se" cue_name="skate1" />
+    <wait time="1.5" />
+    <msg speaker="来夢ガールズＭ" text="スキー　タノシー！" speaker_show="True" stop="True" voice="rb13005_03_0009" />
+    <sound type="Se" cue_name="skate2" />
+    <wait time="1.5" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001006" position_id="left" x="200" />
+    <create type="Character" obj_id="アミィ" data_id="313002005" position_id="left" x="-200" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="なるほど。&#xA;直滑降はなかなかの速度に達しまする。" speaker_show="True" stop="True" voice="am13002_03_0040" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アミィはバランス制御が&#xA;完璧な分もう教えることはないわねー。" speaker_show="True" stop="True" voice="sr13001_03_0098" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="マスター。&#xA;次はスノーボードに挑戦したく思いまする。" speaker_show="True" stop="True" voice="am13002_03_0041" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="いいわよ。どんどんやっちゃいなさい。&#xA;ボード貸してあげる。" speaker_show="True" stop="True" voice="sr13001_03_0099" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <create type="Character" obj_id="アミィ" data_id="313002005" position_id="left" x="0" />
+    <transition effect="Default" type="In" color_change="False" time="1" wait="True" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="……重心のかけ方で進行方向を制御。&#xA;そして、ここで旋回しつつ――。" speaker_show="True" stop="True" voice="am13002_03_0042" />
+    <sound type="Se" cue_name="skate1" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="うむ……我ながら上々の出来にございまする。" speaker_show="True" stop="True" voice="am13002_03_0043" />
+    <msg speaker="来夢ガールズＺ" text="ブラボー、アミィ！" speaker_show="True" stop="True" voice="rz13007_03_0006" />
+    <delete obj_id="アミィ" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001006" position_id="left" x="200" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003003" position_id="left" x="-200" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ほとんど教えもしないのに、どうやって滑ればいいか&#xA;スキーの経験から学んで発展させてるわ。" speaker_show="True" stop="True" voice="sr13001_03_0100" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さすが私のアミィ！&#xA;でも、ちょっと癪ね。" speaker_show="True" stop="True" voice="sr13001_03_0101" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様？" speaker_show="True" stop="True" voice="sm13002_03_0057" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アミィー！&#xA;ちょっとスノボで勝負しない？" speaker_show="True" stop="True" voice="sr13001_03_0102" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3012010201" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターイラストは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <wait time="1" />
+    <sound cue_name="EnvSeaside" volume="15" />
+    <bg show="True" resource_type="Background" file="21_island_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <fade_in time="1" type="Default" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg_window_show show="True" />
+    <msg speaker="源 モモ" text="師匠。お言いつけ通り、浜辺にパラソルと&#xA;ビーチチェアを設置しました！" speaker_show="True" stop="True" voice="mm11001_02_0364" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="早かったわね。ありがとう、モモ。" speaker_show="True" stop="True" voice="hy11002_02_0286" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" loop="True" />
+    <msg speaker="源 モモ" text="はい！　えと、それで次は何を？" speaker_show="True" stop="True" voice="mm11001_02_0365" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="次は……こう。" speaker_show="True" stop="True" voice="hy11002_02_0287" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="ふむふむ。チェアに寝そべって本を読む。&#xA;ハッ、どうしよう……私、本を持って来てない！" speaker_show="True" stop="True" voice="mm11001_02_0366" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="別に本を読めと言っているわけじゃないわ。&#xA;あなたも、少し横になったら？" speaker_show="True" stop="True" voice="hy11002_02_0288" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" loop="True" />
+    <msg speaker="源 モモ" text="横に……。はあ、それじゃあ失礼します。" speaker_show="True" stop="True" voice="mm11001_02_0367" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="ふぅ……海風が心地良いわね。" speaker_show="True" stop="True" voice="hy11002_02_0289" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="風……ハッ！　現在の風向きは南東方向からの&#xA;微風で、雨の気配はしてないみたいです！" speaker_show="True" stop="True" voice="mm11001_02_0368" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="020_Facial_thinking" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモ……。風向きより、今は身体を。" speaker_show="True" stop="True" voice="hy11002_02_0290" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="源 モモ" text="身体……ハッ！　そうですよね。&#xA;ただ寝そべってるだけじゃ……１っ、２っ！" speaker_show="True" stop="True" voice="mm11001_02_0369" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="どうして急に腹筋を始めたの。" speaker_show="True" stop="True" voice="hy11002_02_0291" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="え？　間違って……ました？&#xA;腹筋じゃないとすると……腕立てか背筋!?　すぐに！" speaker_show="True" stop="True" voice="mm11001_02_0370" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうじゃなくて。今日は自由時間だと言ったでしょう？&#xA;何も考えずに、頭と身体を休める事も大切よ。" speaker_show="True" stop="True" voice="hy11002_02_0292" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="で、でも、強化のための合宿なんだし&#xA;自由時間なら自主練をした方が良いのかなって……。" speaker_show="True" stop="True" voice="mm11001_02_0371" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="半蔵門 雪" text="その心がけは立派よ。でも、自分の心身を理解し&#xA;休める時に休むという判断をするのも、訓練のうち。" speaker_show="True" stop="True" voice="hy11002_02_0293" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="020_Facial_thinking" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="休むという判断……。それも訓練……。" speaker_show="True" stop="True" voice="mm11001_02_0372" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="現に私も休んでいるのだし、モモもそこで&#xA;しっかり休息をとると良いわ。" speaker_show="True" stop="True" voice="hy11002_02_0294" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="分かりました、師匠。源モモ、今日は１日たっぷり&#xA;全力で休ませていただきます！" speaker_show="True" stop="True" voice="mm11001_02_0373" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="全力で休む……？　モモらしい言い方ね。フフ。" speaker_show="True" stop="True" voice="hy11002_02_0295" />
+    <msg_window_show show="False" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="2" sound_stop="True" wait="False" />
+    <sound_volume type="Se" cue_name="EnvSeaside" volume="0" time="1" sound_stop="True" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+    <sound_stop cue_name="EnvSeaside" />
+  </command>
+</adv>

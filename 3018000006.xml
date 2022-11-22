@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3018000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_005" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <char_spine_animation />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="さて、ごえちゃんはどんな衣装がいいでしょうか！" speaker_show="True" stop="True" voice="ah11005_02_0590" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="（私もできれば、雪先輩みたいな&#xA;かわいい系の方がいいな……。）" speaker_show="True" stop="True" voice="ig11006_02_0326" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ごえちゃんは何が似合うかなー。" speaker_show="True" stop="True" voice="mm11001_02_0605" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="モデルみたいにスタイルがいいから、&#xA;なんでも似合いそうだよね！" speaker_show="True" stop="True" voice="mm11001_02_0606" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="フフフ、実は私、いつかごえちゃんに&#xA;着てもらいたい服をたくさん集めていたんです！" speaker_show="True" stop="True" voice="ah11005_02_0591" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ネットでごえちゃんに似合いそうな衣装を&#xA;見つける度に、全部買っておきました！" speaker_show="True" stop="True" voice="ah11005_02_0592" />
+    <create_effect effect_id="shockhatume" effect_type="EffectShockWave" target_obj="青葉 初芽" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="018_Facial_smug" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="見てください、このクローゼットの中を！" speaker_show="True" stop="True" voice="ah11005_02_0593" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="0.5" />
+    <delete obj_id="shockhatume" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="おおー……パンクな衣装、メイド服、&#xA;ナース服、着ぐるみまで！" speaker_show="True" stop="True" voice="mm11001_02_0607" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あ、この着ぐるみかわいい……。" speaker_show="True" stop="True" voice="ig11006_02_0327" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" />
+    <msg speaker="青葉 初芽" text="この中から選んでもいいですし、&#xA;もちろん新しく作ってもいいですよ！" speaker_show="True" stop="True" voice="ah11005_02_0594" />
+    <delete obj_id="石川 五恵" />
+    <move obj_id="源 モモ" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="青葉 初芽" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="半蔵門 雪" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="初芽、１つ懸念点があるわ。" speaker_show="True" stop="True" voice="hy11002_02_0492" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="はい、なんでしょう？" speaker_show="True" stop="True" voice="ah11005_02_0595" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="犯人は出来がよい衣装の者を狙うけど、&#xA;狙われやすい衣装にも傾向があるかもしれない。" speaker_show="True" stop="True" voice="hy11002_02_0493" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="なるほど……一口に「出来がいい」と言っても、&#xA;様々な方向性がありますからね。" speaker_show="True" stop="True" voice="ah11005_02_0596" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そうですね、&#xA;リアル系、かわいい系、セクシー系……。" speaker_show="True" stop="True" voice="mm11001_02_0608" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="私の衣装をいわゆるかわいい系にするなら、&#xA;五恵の衣装は別の傾向の方がいいと思うわ。" speaker_show="True" stop="True" voice="hy11002_02_0494" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="わかりました！　じゃあ、ごえちゃんは&#xA;ちょっぴりセクシー系にしましょう！" speaker_show="True" stop="True" voice="ah11005_02_0597" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create_effect effect_id="worrygoe" effect_type="MampWorry" target_obj="石川 五恵" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はう……。" speaker_show="True" stop="True" voice="ig11006_02_0328" />
+    <delete obj_id="worrygoe" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="そうですねえ……&#xA;では、この衣装などはどうでしょう！" speaker_show="True" stop="True" voice="ah11005_02_0598" />
+    <msg window_type="SystemMsg" text="初芽はスマホで検索し、ある画像を表示させた。" stop="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="半蔵門 雪" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="おお、女悪魔ですね！" speaker_show="True" stop="True" voice="mm11001_02_0609" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうね、私の衣装と一緒に並んでいても違和感がない。&#xA;でも大人びた衣装だから、傾向が違う。" speaker_show="True" stop="True" voice="hy11002_02_0495" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="いいと思うわ。" speaker_show="True" stop="True" voice="hy11002_02_0496" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="では、これで決まりですね！" speaker_show="True" stop="True" voice="ah11005_02_0599" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="……。" speaker_show="True" stop="True" voice="ig11006_02_0329" />
+    <move obj_id="石川 五恵" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="大丈夫ですよ、ごえちゃん。ちゃんとごえちゃんが&#xA;好きな、かわいい要素もある衣装に作りあげますから。" speaker_show="True" stop="True" voice="ah11005_02_0600" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="――！&#xA;師匠……！" speaker_show="True" stop="True" voice="ig11006_02_0330" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ、私はごえちゃんの師匠ですから。&#xA;ごえちゃんの好きなもの、ちゃんとわかってます♪" speaker_show="True" stop="True" voice="ah11005_02_0601" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="師匠～！&#xA;やっぱり大好きです～！" speaker_show="True" stop="True" voice="ig11006_02_0331" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ。でも、そのうち私が集めた衣装も&#xA;着てみてほしいですね。" speaker_show="True" stop="True" voice="ah11005_02_0602" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="は、はい……&#xA;師匠と２人きりでなら……。" speaker_show="True" stop="True" voice="ig11006_02_0332" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（やっぱり仲いいなあ、&#xA;ごえちゃんと初芽さん。）" speaker_show="True" stop="True" voice="mm11001_02_0610" lip_sync="False" />
+    <move obj_id="源 モモ" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="半蔵門 雪" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="さて、衣装は決まったわね。&#xA;出来上がるまでどれくらいかかる、初芽？" speaker_show="True" stop="True" voice="hy11002_02_0497" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="８時間以内に最高の衣装を完成させます。" speaker_show="True" stop="True" voice="ah11005_02_0603" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="初芽さん、すごい……！" speaker_show="True" stop="True" voice="mm11001_02_0611" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

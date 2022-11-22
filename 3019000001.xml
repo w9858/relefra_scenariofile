@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3019000001" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="各キャラの衣装は現在、仮のものを入れております。" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="35_shibukiandhasumiroom_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="しぶきと葉栖美の部屋" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="ゆらの誕生日前日" stop="True" />
+    <create type="Character" obj_id="宗近 飛粋" position_id="left" anchor="Bottom" data_id="312001002" x="0" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="隊長、葉栖美さん、ゆらには内緒で&#xA;部屋に集合って、どうしたんですか？" speaker_show="True" stop="True" voice="mh12001_02_0195" />
+    <msg speaker="宗近 飛粋" text="明日の誕生日パーティのことなら、&#xA;もう完璧に計画済みですよね。" speaker_show="True" stop="True" voice="mh12001_02_0196" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" position_id="left" anchor="Bottom" data_id="312003002" x="200" />
+    <create data_id="312004002" obj_id="轟 葉栖美" x="-200" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="おぉ、来たか飛粋。それが、重要なことを&#xA;決め忘れていたことを思い出してのぅ。" speaker_show="True" stop="True" voice="ss12003_02_0236" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="てなわけで、今日の議題はこれだよん！&#xA;じゃじゃん♪　ゆらちゃんをどうやって呼び出すか？" speaker_show="True" stop="True" voice="th12004_02_0255" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="宗近 飛粋" position_id="left" anchor="Bottom" data_id="312001002" x="0" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="そっか、お祝いの中身に夢中で、&#xA;そこは考えてなかったですね。" speaker_show="True" stop="True" voice="mh12001_02_0197" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" position_id="left" anchor="Bottom" data_id="312003002" x="200" />
+    <create data_id="312004002" obj_id="轟 葉栖美" x="-200" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="中身はもちろん重要じゃが、何事も始めが肝心。&#xA;ゆらをどう呼び出せば盛り上がるかを考えるのじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0237" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="宗近 飛粋" position_id="left" anchor="Bottom" data_id="312001002" x="0" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="サプライズって言っても、誕生日の当日に普通に&#xA;呼びだされたらバレバレですもんね。うーん……" speaker_show="True" stop="True" voice="mh12001_02_0198" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create data_id="312005001" obj_id="津守 ヨモギ" x="200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="そうだなぁ、ここは腕の見せ所だぜ！&#xA;気合入れて臨まねえとな。" speaker_show="True" stop="True" voice="ty12005_02_0081" />
+    <delete obj_id="宗近 飛粋" />
+    <create data_id="312004002" obj_id="轟 葉栖美" x="-200" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" face_anim_type="011_Facial_surprise" />
+    <msg speaker="轟 葉栖美" text="ヨ、ヨモギさん！&#xA;いつの間に……。" speaker_show="True" stop="True" voice="th12004_02_0256" />
+    <msg speaker="津守 ヨモギ" text="俺が入ってきたのに気付かねえなんて、&#xA;お前達もまだまだだな。" speaker_show="True" stop="True" voice="ty12005_02_0082" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="薩摩 しぶき" position_id="left" anchor="Bottom" data_id="312003002" x="-200" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="むぐっ……、そこは素直に反省するとして、&#xA;わざわざ部屋にくるとは、一体何の用じゃ？" speaker_show="True" stop="True" voice="ss12003_02_0238" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="ちょっとゆらのことを探しててよ。&#xA;お前たち、どこ行ったか知らねえか？" speaker_show="True" stop="True" voice="ty12005_02_0083" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="宗近 飛粋" position_id="left" anchor="Bottom" data_id="312001002" x="-200" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ゆらに何かあったんですか？" speaker_show="True" stop="True" voice="mh12001_02_0199" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" position_id="left" anchor="Bottom" data_id="312003002" x="-200" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="隊長として、謝罪するぞ。何をやったか知らぬが&#xA;うちのゆらが、すまん。" speaker_show="True" stop="True" voice="ss12003_02_0239" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="そうじゃねえんだよ！　たく、ゆらの奴、本当に&#xA;何をしでかすかわかんねえと思われてんだな……。" speaker_show="True" stop="True" voice="ty12005_02_0084" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="いやな、今日ゆら宛にバースデーカードが&#xA;郵送されてきたから渡してやったんだけどよぉ。" speaker_show="True" stop="True" voice="ty12005_02_0085" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="送り主が書いてなかったから、気になっちまってな。" speaker_show="True" stop="True" voice="ty12005_02_0086" />
+    <msg speaker="津守 ヨモギ" text="ゆらのことだから、てっきり自慢しに来てると&#xA;思ったのに、来てねえのか。" speaker_show="True" stop="True" voice="ty12005_02_0087" />
+    <delete obj_id="薩摩 しぶき" />
+    <create data_id="312004002" obj_id="轟 葉栖美" x="-200" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そうですね、そんなの貰ったら真っ先に自慢しに&#xA;来そうだけど。飛粋ちゃん、何か知らない？" speaker_show="True" stop="True" voice="th12004_02_0257" />
+    <delete obj_id="津守 ヨモギ" />
+    <create type="Character" obj_id="宗近 飛粋" position_id="left" anchor="Bottom" data_id="312001002" x="200" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="特に思い当たる所はないですけど、ゆらに&#xA;お祝いってことなら、クラスの子じゃないですか？" speaker_show="True" stop="True" voice="mh12001_02_0200" />
+    <msg speaker="轟 葉栖美" text="うーん……。けど、学校の子なら学校内で&#xA;渡せるから、わざわざ郵送なんてしないよね。" speaker_show="True" stop="True" voice="th12004_02_0258" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" position_id="left" anchor="Bottom" data_id="312003002" x="200" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="うむ。それに、学校の仲間以外でゆらの誕生日を&#xA;知っておる人間など……。" speaker_show="True" stop="True" voice="ss12003_02_0240" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="宗近 飛粋" position_id="left" anchor="Bottom" data_id="312001002" x="300" />
+    <create type="Character" obj_id="薩摩 しぶき" position_id="left" anchor="Bottom" data_id="312003002" x="0" />
+    <create data_id="312004002" obj_id="轟 葉栖美" x="-300" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <lip_sync target1="宗近 飛粋" target2="薩摩 しぶき" target3="轟 葉栖美" />
+    <msg speaker="飛粋・葉栖美・しぶき" text="はっ！" speaker_show="True" stop="True" voice="3019000001_union_001" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="私、すっごく嫌な予感が……。" speaker_show="True" stop="True" voice="mh12001_02_0202" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="私も。" speaker_show="True" stop="True" voice="th12004_02_0260" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="しぶきもじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0242" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create data_id="312005001" obj_id="津守 ヨモギ" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="こうしちゃいられねえ！&#xA;急いでゆらを探すんだ！" speaker_show="True" stop="True" voice="ty12005_02_0088" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

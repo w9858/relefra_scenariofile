@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3025000007" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="67_shrine" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="空崎大師" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004019" position_id="left" x="-300" />
+    <create type="Character" obj_id="八千代 命" data_id="311003018" position_id="left" x="0" />
+    <create type="Character" obj_id="高坂 信" data_id="311010014" position_id="left" x="300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ぷはぁー、お腹もいっぱいになったし、&#xA;次は何しよっか？" speaker_show="True" stop="True" voice="ym11003_03_0331" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あ、あっちにおみくじがあるよ。&#xA;みんなでやってみない？" speaker_show="True" stop="True" voice="ks11010_03_0214" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="いいですね、今年最初の運試し。&#xA;まずはこの箱の中から棒を引くんですよね。" speaker_show="True" stop="True" voice="sf11004_03_0342" />
+    <sound type="Se" cue_name="omikuji" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あぁっ！　１番だ！&#xA;さすがはアタシ、新年から縁起もバッチリ。" speaker_show="True" stop="True" voice="sf11004_03_0343" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="019_Facial_damage" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="むぐぐっメイは４番……。&#xA;フーに負けるなんて……。" speaker_show="True" stop="True" voice="ym11003_03_0332" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="メイちゃん、元気だして。おみくじって、&#xA;棒の数字で運勢をみる訳じゃないし。" speaker_show="True" stop="True" voice="ks11010_03_0215" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はっ！　そうでした。&#xA;１番っていう数字に惹かれてつい……。" speaker_show="True" stop="True" voice="sf11004_03_0344" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そっか！　棒と同じ数字のついた引き出しから&#xA;おみくじの紙をもらうんだったねぇ。" speaker_show="True" stop="True" voice="ym11003_03_0333" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うん。みんな、紙は引いた？&#xA;せーので開けてみよう。" speaker_show="True" stop="True" voice="ks11010_03_0216" />
+    <lip_sync target1="相模 楓" target2="八千代 命" target3="高坂 信" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="命・楓・信" text="せーの！" speaker_show="True" stop="True" voice="3025000007_union_001" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="warai" effect_type="MampSmile" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="やったー！　メイ大吉ぃ！&#xA;こいつぁ春から縁起がいいぜ！" speaker_show="True" stop="True" voice="ym11003_03_0335" />
+    <delete obj_id="warai" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="フーはどうだった？　１番の棒を引いたからには&#xA;……って大凶じゃん！" speaker_show="True" stop="True" voice="ym11003_03_0336" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <create_effect effect_id="blue" effect_type="MampWorry" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="…………。" speaker_show="True" stop="True" voice="sf11004_03_0346" />
+    <delete obj_id="blue" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="11_Point" force_end="False" loop="True" />
+    <create_effect effect_id="ase" effect_type="MampSweat" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="ま、まぁここの神社は、&#xA;大吉より凶の出る確率の方が高いらしいし！" speaker_show="True" stop="True" voice="ym11003_03_0337" />
+    <delete obj_id="ase" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="大丈夫です。アタシ、こういうの信じてないんで。" speaker_show="True" stop="True" voice="sf11004_03_0347" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" />
+    <msg speaker="八千代 命" text="フーらしいなぁ。んで師匠は？" speaker_show="True" stop="True" voice="ym11003_03_0338" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="それが……。" speaker_show="True" stop="True" voice="ks11010_03_0218" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="げげっ！　紙が真っ白！&#xA;メイ、こんなおみくじ初めて見たよー！" speaker_show="True" stop="True" voice="ym11003_03_0339" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <create_effect effect_id="blue2" effect_type="MampWorry" target_obj="高坂 信" />
+    <msg speaker="高坂 信" text="信も初めてだよ。&#xA;未来が真っ白ってことかな……。" speaker_show="True" stop="True" voice="ks11010_03_0219" />
+    <delete obj_id="blue2" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そんなワケないじゃないですか！&#xA;元気だしてください。ただの印刷ミスですって！" speaker_show="True" stop="True" voice="sf11004_03_0348" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そっか。そうだよね。" speaker_show="True" stop="True" voice="ks11010_03_0220" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="せっかくお金払ったんですから、もう１回&#xA;引きなおさせてもらいましょう。" speaker_show="True" stop="True" voice="sf11004_03_0349" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うん。行ってくるね。" speaker_show="True" stop="True" voice="ks11010_03_0221" />
+    <move obj_id="高坂 信" position_id="left" x="900" x_move_type="MoveTo" y_move_type="MoveValue" time="2.0" wait="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="2.0" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <move obj_id="高坂 信" position_id="left" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="2.0" wait="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="引いてきたよー。" speaker_show="True" stop="True" voice="ks11010_03_0222" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あんなイレギュラーなことが起きたんだから、&#xA;次は何だかすっごいヤツがでそうだよね！" speaker_show="True" stop="True" voice="ym11003_03_0340" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="確かに、信さんの引きの強さなら、&#xA;何かとんでもないのがでそう……。" speaker_show="True" stop="True" voice="sf11004_03_0350" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そうかな。じゃあ開いてみるね。えい！" speaker_show="True" stop="True" voice="ks11010_03_0223" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="吉……。&#xA;新年そうそうパッとしないのがでちゃった……。" speaker_show="True" stop="True" voice="ks11010_03_0224" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="こんな時まで師匠は師匠らしいね。" speaker_show="True" stop="True" voice="ym11003_03_0341" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="013_Facial_angry" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="もー、メイちゃんそれどういう意味!?" speaker_show="True" stop="True" voice="ks11010_03_0225" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

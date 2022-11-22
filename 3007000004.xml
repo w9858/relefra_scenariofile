@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007000004" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in />
+    <telop text="Wasabi" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="200" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="誤解も解けたことだし、冷めないうちに&#xA;カレーをどうぞ。お話の続きはその後。" speaker_show="True" stop="True" voice="kt11009_01_0314" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="ありがとうございます！　それじゃあ、みんな。&#xA;変身を解いて、いただきましょう！" speaker_show="True" stop="True" voice="if96003_01_0011" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="-250" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="東郷 美森" data_id="396002002" position_id="left" x="250" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="樹・友奈・美森" text="はい！　いただきます♪" speaker_show="True" stop="True" voice="3007000004_01" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="犬吠埼 樹" />
+    <msg_window_show show="False" />
+    <Comment comment="【ＳＥ】シュイン！" />
+    <sound />
+    <Comment comment="樹・友奈・東郷　私服の立ち絵に変わる" />
+    <flash count="1" time="0.5" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-250" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001003" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="東郷 美森" data_id="396002003" position_id="left" x="250" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="True" loop="True" to_idle="False" />
+    <wait time="2" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001006" position_id="left" x="125" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-125" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ええーーっ!?　なに今の！&#xA;一瞬で着てる服が変わっちゃった！" speaker_show="True" stop="True" voice="mm11001_01_0732" />
+    <create_effect effect_id="hatume_kirakira" effect_type="EffectKirakira" target_obj="青葉 初芽" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="009_Facial_blush" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="いったい、どういうシステムなんですか!?&#xA;是非とも、未来の技術についてレクチャーを！" speaker_show="True" stop="True" voice="ah11005_01_0450" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="hatume_kirakira" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" anchor="Bottom" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-250" />
+    <create type="Character" anchor="Bottom" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="250" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="この勇者服は～モグモグ……美味し～♪&#xA;神樹様のモグモグ…企業秘密モグ～♪" speaker_show="True" stop="True" voice="ns96006_01_0009" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="食べるか喋るかどっちかにしなさいよ！&#xA;ほら、こういう時だけは風を見習って。" speaker_show="True" stop="True" voice="mk96005_01_0008" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="バリバリムシャムシャバキバキゴクン！" speaker_show="True" stop="True" voice="if96003_01_0012" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004006" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="125" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="す、すごい食べっぷり。食べてるというか&#xA;最早、飲んでるに等しいかも……。" speaker_show="True" stop="True" voice="sf11004_01_0541" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="はぁ。新たな敵の存在を確認した矢先に&#xA;こんな厄介な人達を拾ってしまうなんて……。" speaker_show="True" stop="True" voice="hy11002_01_0503" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001003" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="え、ツキカゲは正義の味方だから&#xA;その敵っていうと、魔王軍みたいなものですか？" speaker_show="True" stop="True" voice="yy96001_01_0012" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="そうだよ。だからさっきも、その人達が&#xA;いるかと思って、あのビルの屋上へ行ったんだ。" speaker_show="True" stop="True" voice="mm11001_01_0733" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="で、アタシ達と出会ったということは……フム。&#xA;だとすれば……あ、おかわりしても良いですか？" speaker_show="True" stop="True" voice="if96003_01_0013" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="もちろんよ。どんどん食べてね。&#xA;ン？　いま何か言いかけなかった？" speaker_show="True" stop="True" voice="kt11009_01_0315" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="美味しいわねぇ、これうどんと合うはず、もぐもぐ。" speaker_show="True" stop="True" voice="if96003_01_0014" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" />
+    <create_effect effect_id="sweat1" effect_type="MampSweat" life_time="2" target_obj="犬吠埼 樹" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="お、お姉ちゃん！　食べ過ぎだよぉ……。&#xA;あの……どなたか説明をお願いします……。" speaker_show="True" stop="True" voice="ii96004_01_0008" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="sweat1" />
+    <create type="Character" anchor="Bottom" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="乃木 園子" data_id="396006003" position_id="left" x="125" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="私達は普段、神樹様の下さる御役目に従い&#xA;世界を破滅に導く敵と戦っているのですが……" speaker_show="True" stop="True" voice="tm96002_01_0017" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="今回は、この世界でピンチになってる神様のために&#xA;神樹様が、オタスケ勇者を宅配したのかもです～。" speaker_show="True" stop="True" voice="ns96006_01_0010" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003006" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="125" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="いくらなんでも、超常現象すぎっしょ！！&#xA;だがそれがいい！！　刺激的な体験。" speaker_show="True" stop="True" voice="ym11003_01_0506" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="もう状況を受け入れるしかないけれど……。" speaker_show="True" stop="True" voice="hy11002_01_0504" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……モモ。さっき結城さんを舐めた時、&#xA;おかしな薬の味はしなかった……？" speaker_show="True" stop="True" voice="hy11002_01_0505" />
+    <create_effect effect_id="mei_Sweat" effect_type="MampSweat" life_time="1" target_obj="八千代 命" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="集団幻覚の可能性を考慮すな！&#xA;ごめんね、真面目なもんで。" speaker_show="True" stop="True" voice="ym11003_01_0507" />
+    <delete obj_id="mei_Sweat" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="東郷 美森" data_id="396002003" position_id="left" x="200" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="し、しませんでしたよ！　とっても素直で……&#xA;変な言い方ですけど、美味しかったです。" speaker_show="True" stop="True" voice="mm11001_01_0734" />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="友奈ちゃんは……友奈ちゃんは美味しい……。&#xA;オイシイ……。" speaker_show="True" stop="True" voice="tm96002_01_0018" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="この子、底知れない何かを感じるわね～。" speaker_show="True" stop="True" voice="sf11004_01_0542" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001003" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="125" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="ま、信じようが信じまいが、これが御役目だって&#xA;いうなら、私達は協力を惜しまないわよ。" speaker_show="True" stop="True" voice="mk96005_01_0009" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="うん！　難しいことは解らないけど&#xA;悪者は放っとけないもんね！" speaker_show="True" stop="True" voice="yy96001_01_0013" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="あ。私達がここに来たら目の前にロボがいたから、&#xA;敵の変種かと思って刺激しちゃったみたいなのよ。" speaker_show="True" stop="True" voice="mk96005_01_0010" />
+    <msg speaker="三好 夏凜" text="それではじめに軽い誤解があったんだと思うわ。" speaker_show="True" stop="True" voice="mk96005_01_0011" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そりゃ驚くよねぇ。まぁ気にしない。&#xA;こっちこそ任務とはいえ、攻撃してごめんよ。" speaker_show="True" stop="True" voice="ym11003_01_0508" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="125" />
+    <create type="Character" anchor="Bottom" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-125" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="と、いう訳ですので……コホン！&#xA;もう１杯、頂いても良いですか？　大盛りで。" speaker_show="True" stop="True" voice="if96003_01_0015" />
+    <create_effect effect_id="sweat2" effect_type="MampSweat" life_time="2" target_obj="犬吠埼 樹" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="ちょっと、お姉ちゃん！&#xA;もう、ご馳走様っ！" speaker_show="True" stop="True" voice="ii96004_01_0009" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="じょ、冗談よ、冗談。勇者部一同、ツキカゲの&#xA;助っ人として、全力を尽くさせていただきます！" speaker_show="True" stop="True" voice="if96003_01_0016" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" anchor="Bottom" obj_id="結城 友奈" data_id="396001003" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="乃木 園子" data_id="396006003" position_id="left" x="125" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="よーし、頑張るぞー！" speaker_show="True" stop="True" voice="yy96001_01_0014" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="えいえいおー♪" speaker_show="True" stop="True" voice="ns96006_01_0011" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001006" position_id="left" x="-125" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="125" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="わあ、ありがとう！　頼もしいですね、師匠！&#xA;あれ？　そんなに俯いて、どうかしましたか？" speaker_show="True" stop="True" voice="mm11001_01_0735" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="気にしないで。ただ、未だかつてない&#xA;猛烈な不安感に苛まれているだけだから………。" speaker_show="True" stop="True" voice="hy11002_01_0506" />
+  </command>
+</adv>

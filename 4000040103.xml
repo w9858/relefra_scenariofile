@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000040103" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="一部のキャラクターイラストと背景は仮の物を使用" />
+    <bg show="True" resource_type="Background" file="44_shikisima_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="敷島ビル研究室" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アミィ、速度を上げるからコンベアの&#xA;速度に合わせて走り続けて。" speaker_show="True" stop="True" voice="sr13001_02_0633" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="了解でありまする。" speaker_show="True" stop="True" voice="am13002_02_0126" />
+    <sound type="Se" cue_name="AlertLevelUp" />
+    <wait time="1" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="関節駆動問題なし。熱蓄電率通常レベル。&#xA;アミィ、どこかに不具合は感じない？" speaker_show="True" stop="True" voice="sr13001_02_0634" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="絶好調でありまする。" speaker_show="True" stop="True" voice="am13002_02_0127" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そう。それなら……ん？&#xA;待って、腕から小さな音が聞こえる。" speaker_show="True" stop="True" voice="sr13001_02_0635" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あぁ、内部のベアリングが僅かに摩耗して&#xA;いるみたいね。マル、交換の手配を。" speaker_show="True" stop="True" voice="sr13001_02_0636" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="かしこまりました。すぐに。" speaker_show="True" stop="True" voice="sm13002_02_0261" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="マスター、アミィの腕はまだ大丈夫でありまする。&#xA;ベアリングの限界までは、恐らくあと３ヶ月。" speaker_show="True" stop="True" voice="am13002_02_0128" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あくまで数値上はね。アミィは、イレギュラーな&#xA;動きも多いから、気をつけるに越したことはないわ。" speaker_show="True" stop="True" voice="sr13001_02_0637" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="何かあってからじゃ遅いし、問題の芽を事前に&#xA;摘むのも、メンテナンスの大事な作業よ。" speaker_show="True" stop="True" voice="sr13001_02_0638" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あなたは消耗品じゃなくて、私の大切な&#xA;アミィなのだから。さあ、他に不具合は？" speaker_show="True" stop="True" voice="sr13001_02_0639" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="何もござりませぬ。それよりも、アミィは&#xA;マスターの方が心配でありまする。" speaker_show="True" stop="True" voice="am13002_02_0129" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="私？" speaker_show="True" stop="True" voice="sr13001_02_0640" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="マスターの毎日の稼働時間は、通常の人間の限界値を&#xA;超えており、機能不全待ったなしにて候。" speaker_show="True" stop="True" voice="am13002_02_0130" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ははは、私はまだまだ大丈夫。人間にはちゃんと&#xA;リフレッシュ機能が搭載されているからね。" speaker_show="True" stop="True" voice="sr13001_02_0641" />
+    <char_spine_animation obj_id="アミィ" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="なんと。マスターにもでありまするか。" speaker_show="True" stop="True" voice="am13002_02_0131" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そうよ。だから、働き過ぎに見えても&#xA;寝て起きれば、ちゃんとリセットされるのよ。" speaker_show="True" stop="True" voice="sr13001_02_0641a" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="人間とは何とも計り知れぬ生き物。&#xA;興味深き存在にござりまする。" speaker_show="True" stop="True" voice="am13002_02_0133" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様は特に、そうですわね。&#xA;一度、じっくり研究してみたいものですわ。" speaker_show="True" stop="True" voice="sm13002_02_0262" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="今は仕事中。アミィのメンテに戻るわよ。&#xA;次、人工水晶体、左右の感度チェックに移る。" speaker_show="True" stop="True" voice="sr13001_02_0642" />
+    <sound type="Se" cue_name="AlertLevelUp" />
+    <wait time="1" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="（でも、お姉様……私もアミィと同様、あなたの&#xA;お身体が心配です。リフレッシュ機能とは一体？）" speaker_show="True" stop="True" voice="sm13002_02_0263" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あららら、右眼の一部に重大な欠陥が！" speaker_show="True" stop="True" voice="sr13001_02_0643" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="な、なんですとな!?&#xA;視野にもカメラにも異常はござりませぬが。" speaker_show="True" stop="True" voice="am13002_02_0134" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="デザイン担当者を……！　違うわね……&#xA;メイクさん……？　それか眼科医！" speaker_show="True" stop="True" voice="sr13001_02_0644" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="どのような問題なのですか？" speaker_show="True" stop="True" voice="sm13002_02_0264" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="３本くらい、逆さ睫毛があるのよ！" speaker_show="True" stop="True" voice="sr13001_02_0645" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="逆さ……睫毛。ですか？　でも、お姉様、&#xA;アミィの人工眼球には何ら問題はないかと。" speaker_show="True" stop="True" voice="sm13002_02_0265" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="見つめ合った時に気になるでしょう？&#xA;これは美を損ねる大問題だわ。" speaker_show="True" stop="True" voice="sr13001_02_0646" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="了解でありまする。逆さ睫毛３本&#xA;直ちに排除いたしまする。そいやっ。" speaker_show="True" stop="True" voice="am13002_02_0135" />
+    <sound type="Se" cue_name="ShootingDamage" />
+    <wait time="1" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="raimu01" effect_type="MampExclamation" life_time="1.0" target_obj="敷島 来夢" />
+    <msg speaker="敷島 来夢" text="あーーーーー！　あぁぁ……明日にでも&#xA;植毛し直さないと……。はぁ。" speaker_show="True" stop="True" voice="sr13001_02_0647" />
+    <msg_window_show show="False" />
+    <delete obj_id="raimu01" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

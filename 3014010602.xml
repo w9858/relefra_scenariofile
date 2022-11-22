@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014010602" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="AdvVoice/3014000006" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <Comment comment="背景：プールがないため仮" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <Comment comment="効果音：バシャバシャと水温" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="0.5" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="わわわ、すっごい揺れてる～！&#xA;何これ？　地震!?" speaker_show="True" stop="True" voice="ig11006_02_0251" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="落ち着け私、こういう時こそ冷静に&#xA;周囲を観察、観察……。" speaker_show="True" stop="True" voice="ig11006_02_0252" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="020_Facial_thinking" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（周りの人の浮き輪は揺れてない、&#xA;それに波が起きてるのは私の周りだけ……。）" speaker_show="True" stop="True" voice="ig11006_02_0253" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（ということは、何者かの襲撃ね。&#xA;ボートの下にいるのは一体誰なの？）" speaker_show="True" stop="True" voice="ig11006_02_0254" lip_sync="False" />
+    <msg speaker="石川 五恵" text="（いざと言う時には私がこのプールのみんなを&#xA;守らなきゃいけないんだ。）" speaker_show="True" stop="True" voice="ig11006_02_0255" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（驚いてるフリをしながら探らなきゃ！）" speaker_show="True" stop="True" voice="ig11006_02_0256" lip_sync="False" />
+    <Comment comment="効果音：バシャバシャと水温" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="10_FaceBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="きゃー！　きゃー！&#xA;何でこんなに揺れてるのぉ～？" speaker_show="True" stop="True" voice="ig11006_02_0257" />
+    <delete obj_id="石川 五恵" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="-200" y="0" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="（あはは、&#xA;ごえちゃん、驚いてるみたいだね。）" speaker_show="True" stop="True" voice="mm11001_02_0515" lip_sync="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="（よし、更に派手にやっちゃうぞー！&#xA;えーい！）" speaker_show="True" stop="True" voice="ym11003_02_0576" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="（ちょっ、ちょっとメイちゃん！　そんなに派手に&#xA;動いたらごえちゃんから見つかっちゃうよ！）" speaker_show="True" stop="True" voice="mm11001_02_0516" lip_sync="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="（たははっ、張り切りすぎちゃった。&#xA;さすがにバレたかなぁ……。）" speaker_show="True" stop="True" voice="ym11003_02_0577" lip_sync="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="効果音：バシャバシャと水温" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="きゃー！" speaker_show="True" stop="True" voice="ig11006_02_0258" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（はっ、見えた！&#xA;今、浮き輪の横にちらりと見えたあの人影！）" speaker_show="True" stop="True" voice="ig11006_02_0259" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（モモちとメイちゃんだったんだ。）" speaker_show="True" stop="True" voice="ig11006_02_0260" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="（私をびっくりさせようとしてイタズラしてたんだ。&#xA;ふふ、それならこっちだって、反撃しちゃうよ！）" speaker_show="True" stop="True" voice="ig11006_02_0261" lip_sync="False" />
+    <Comment comment="効果音：バシャバシャと水温" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="10_FaceBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="きゃーたすけてー！&#xA;何でこんなに揺れてるの～？　こわーい！" speaker_show="True" stop="True" voice="ig11006_02_0262" />
+    <delete obj_id="石川 五恵" />
+    <Comment comment="効果音：バシャバシャと水温" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="0.5" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="-200" y="0" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="（ん～、いい悲鳴だ！&#xA;さぁ、そろそろフィナーレ行っちゃおうか！）" speaker_show="True" stop="True" voice="ym11003_02_0578" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="（うん！　じゃあ、せーので思いっきり、&#xA;揺らしちゃおう！）" speaker_show="True" stop="True" voice="mm11001_02_0517" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="モモ・命" text="（せーの）" speaker_show="True" stop="True" voice="3014010602_union_001" lip_sync="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="効果音：バシャバシャと水温" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="0.5" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="きゃー！　きゃー！&#xA;たすけてー！" speaker_show="True" stop="True" voice="ig11006_02_0263" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveValue" y="-1000" y_move_type="MoveValue" time="0.3" wait="True" />
+    <Comment comment="効果音：水に落ちる音" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="0.5" />
+    <delete obj_id="石川 五恵" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="-200" y="0" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="（あれ？　浮き輪がいきなり軽くなった。）" speaker_show="True" stop="True" voice="ym11003_02_0580" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="もしかして、やりすぎてごえちゃん&#xA;落としちゃった!?" speaker_show="True" stop="True" voice="mm11001_02_0519" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

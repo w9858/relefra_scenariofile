@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000006" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="1" show_time="0.5" out_time="1" wait="True" />
+    <msg window_type="SystemMsg" text="ある日の放課後、ツキカゲのメンバーは&#xA;いつもどおりWasabiに集まっていた。" stop="True" speaker_front="False" lip_sync="False" speaker_show="False" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="-200" />
+    <create_effect effect_id="sleep" effect_type="MampSleep" target_obj="高坂 信" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="12_DropShoulders" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="しっかしよく寝てるな～。" speaker_show="True" stop="True" voice="fn11011_01_0041" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="高坂 信" text="すぅ……すやぁ～……むにゃ……" speaker_show="True" stop="True" voice="ks11010_01_0108" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="sleep" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005011" position_id="left" x="-200" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="シン様が優雅な眠りについたから、&#xA;今日はもう閉店にしたわ。" speaker_show="True" stop="True" voice="kt11009_01_0095" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="師匠は優しいですね。" speaker_show="True" stop="True" voice="ah11005_01_0130" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="それにしても、師匠に寄りかかって眠る信さん……&#xA;まるで１枚の絵画のようです。" speaker_show="True" stop="True" voice="ah11005_01_0131" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003011" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="020_Facial_thinking" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そうだねー。&#xA;……あれが睡眠薬で眠らされたもんじゃなければ。" speaker_show="True" stop="True" voice="ym11003_01_0216" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="不機嫌そうね、メイ。" speaker_show="True" stop="True" voice="hy11002_01_0266" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" loop="True" to_idle="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="八千代 命" text="べっつにー。" speaker_show="True" stop="True" voice="ym11003_01_0217" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005011" position_id="left" x="200" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="メイちゃんは寂しいんですよ。&#xA;信さんを取られちゃったから。" speaker_show="True" stop="True" voice="ah11005_01_0132" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" loop="True" to_idle="False" />
+    <create_effect effect_id="ase" effect_type="MampSweat" life_time="1" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="い、いやいや、そんなんじゃないしっ！" speaker_show="True" stop="True" voice="ym11003_01_0218" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="八千代 命" position_id="left" x="-200" x_move_type="MoveTo" time="0" wait="False" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="でも、カトーさんは&#xA;なんで師匠に睡眠薬を盛ったの？" speaker_show="True" stop="True" voice="ym11003_01_0219" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="Wasabiで出された物であろうと、油断せずに&#xA;毒味しなければならない。それがスパイの宿命よ。" speaker_show="True" stop="True" voice="kt11009_01_0096" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="でも、任務が続いて疲れていたシン様は、私が出した&#xA;フローズンホットチョコレートを口にしてしまった。" speaker_show="True" stop="True" voice="kt11009_01_0097" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="あ～、それ師匠の大好物だ。" speaker_show="True" stop="True" voice="ym11003_01_0220" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="私を信頼してくれるのは嬉しいけど、その優しさが仇に&#xA;ならないよう、警告の一服盛り……というところね。" speaker_show="True" stop="True" voice="kt11009_01_0098" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="200" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="12_DropShoulders" force_end="True" loop="True" to_idle="False" />
+    <create_effect effect_id="sleep" effect_type="MampSleep" target_obj="高坂 信" />
+    <move obj_id="八千代 命" position_id="left" x="100" x_move_type="MoveTo" time="0.5" wait="True" />
+    <msg speaker="八千代 命" text="ふーん……&#xA;……えいっ。" speaker_show="True" stop="True" voice="ym11003_01_0221" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <shake target="Character" obj_id="八千代 命" x="30" y="0" vibrate="15" time="0.4" wait="True" />
+    <move obj_id="八千代 命" position_id="left" x="-200" x_move_type="MoveTo" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="むにゃむにゃ……えへへ……すやぁ～……" speaker_show="True" stop="True" voice="ks11010_01_0109" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="……だめだ、ほっぺたつまんでも&#xA;全然起きない……" speaker_show="True" stop="True" voice="ym11003_01_0222" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="sleep" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="まったく、師匠は身内に無防備すぎるよねー。" speaker_show="True" stop="True" voice="ym11003_01_0223" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="そこがいいのよ。" speaker_show="True" stop="True" voice="kt11009_01_0099" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="-200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="カトリーナさんは、本当に&#xA;先輩のことを尊敬してますよね。" speaker_show="True" stop="True" voice="hy11002_01_0267" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ええ、シン様は私にとって神様だもの。" speaker_show="True" stop="True" voice="kt11009_01_0100" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003011" position_id="left" x="-200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="神様……確かに師匠はすごいと思うけど……" speaker_show="True" stop="True" voice="ym11003_01_0224" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="あの、ずっと気になってたんですけど、なんで&#xA;カトーさんにとって師匠はそんなに特別なんですか？" speaker_show="True" stop="True" voice="ym11003_01_0225" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="そういえば、メイちゃんと雪ちゃんには&#xA;まだ話したこと無かったわね。" speaker_show="True" stop="True" voice="kt11009_01_0101" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="……そうね、あれは２年半くらい前、&#xA;秋頃のことだったわ――" speaker_show="True" stop="True" voice="kt11009_01_0102" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

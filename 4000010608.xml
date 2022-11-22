@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010608" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_007" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="ツキカゲ基地・ラボ室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="1" />
+    <move obj_id="石川 五恵" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="失礼します……。" speaker_show="True" stop="True" voice="ig11006_02_0424" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ごえちゃん!?　どうしたのですか？&#xA;そんな思いつめた顔をして。" speaker_show="True" stop="True" voice="ah11005_02_0717" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="師匠、実は私、折り入って師匠に&#xA;お願いしたいことがあるんです。" speaker_show="True" stop="True" voice="ig11006_02_0425" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="折り入ってのお願い？" speaker_show="True" stop="True" voice="ah11005_02_0718" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="五恵ちゃんのお願いごとなら何でも&#xA;聞いてあげたいですが、どうしたんです？" speaker_show="True" stop="True" voice="ah11005_02_0719" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="私、医療についてしっかり勉強したいんです。&#xA;教えてもらえないでしょうか？" speaker_show="True" stop="True" voice="ig11006_02_0426" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="五恵ちゃん……必死な顔で&#xA;お願いに来たから何かと思ったら。" speaker_show="True" stop="True" voice="ah11005_02_0720" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="五恵ちゃんが医療を学びたいだなんて、&#xA;私も師匠としてとっても嬉しいです。" speaker_show="True" stop="True" voice="ah11005_02_0721" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="けど、毎日鍛錬やWasabiでのアルバイトで&#xA;忙しいのに、大変じゃないですか？" speaker_show="True" stop="True" voice="ah11005_02_0722" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="それは覚悟の上です。&#xA;けど、やっぱり私には難しいでしょうか……。" speaker_show="True" stop="True" voice="ig11006_02_0427" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="そんなことはありませんけど、&#xA;どうして突然？" speaker_show="True" stop="True" voice="ah11005_02_0723" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="突然思いついた訳じゃないんです。&#xA;前からずっと考えていて……。" speaker_show="True" stop="True" voice="ig11006_02_0428" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="テレちゃんの師匠になるって話が出た頃から、&#xA;ずっとずっと不安だったんです。" speaker_show="True" stop="True" voice="ig11006_02_0429" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="もし、テレちゃんがまたモウリョウみたいな&#xA;悪の組織に、毒を盛られたとしても……" speaker_show="True" stop="True" voice="ig11006_02_0430" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="私は師匠のように、テレちゃんを助けて&#xA;あげることが出来ないと思うんです。" speaker_show="True" stop="True" voice="ig11006_02_0431" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="簡単に習得できる技術だとは勿論思っていません。&#xA;だから、今までずっと言い出せなかったんです。" speaker_show="True" stop="True" voice="ig11006_02_0432" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="でもやっぱり私、&#xA;少しでも師匠に近づきたいんです！" speaker_show="True" stop="True" voice="ig11006_02_0433" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="お願いです、少しずつでもいいので&#xA;私に医療のこと、教えてもらえないでしょうか？" speaker_show="True" stop="True" voice="ig11006_02_0434" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ、もちろんいいですよ。弟子を守りたいという&#xA;ごえちゃんの気持ち、とっても嬉しいです。" speaker_show="True" stop="True" voice="ah11005_02_0724" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="それでは少し、待っていてください。" speaker_show="True" stop="True" voice="ah11005_02_0725" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え？　師匠、どこへ？" speaker_show="True" stop="True" voice="ig11006_02_0435" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="青葉 初芽" text="お待たせしました。ごえちゃん、&#xA;それではまず、これに着替えてください。" speaker_show="True" stop="True" voice="ah11005_02_0726" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="これって、ナース服……ですよね……？" speaker_show="True" stop="True" voice="ig11006_02_0436" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ、何でもまずは形から、ですよ。&#xA;五恵ちゃん。" speaker_show="True" stop="True" voice="ah11005_02_0727" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

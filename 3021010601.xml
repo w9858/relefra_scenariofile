@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021010601" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="02_wasabini_001" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="カジノでの事件が終わり、葉栖美は凪の部隊へ&#xA;初芽と五恵はツキカゲと合流し、帰還した。" stop="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-300" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="0" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="初芽、五恵、お疲れ様。&#xA;よく頑張ったわね。" speaker_show="True" stop="True" voice="hy11002_03_0085" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="凪の部隊との連携も上手くいきましたし&#xA;良い結果が出せて、何よりでした。" speaker_show="True" stop="True" voice="ah11005_03_0118" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="しぶきさんも「上出来じゃ♪」って&#xA;ホクホクして帰って行ったよ。" speaker_show="True" stop="True" voice="ks11010_03_0060" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006019" position_id="left" x="200" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ねえねえ、それでどうだったの？&#xA;ディーラーのお仕事、上手くできた？" speaker_show="True" stop="True" voice="mm11001_03_0093" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あ、うーん……どうかなぁ。" speaker_show="True" stop="True" voice="ig11006_03_0091" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="0" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="300" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="どれくらいふんだくったの？&#xA;富豪達の有り金。" speaker_show="True" stop="True" voice="sf11004_03_0074" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="言い方……。" speaker_show="True" stop="True" voice="tr11007_03_0034" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="上手いモンが食えたのかだけでも教えろ！&#xA;何を食ったんだ？　肉か？　饅頭か？" speaker_show="True" stop="True" voice="bk11008_03_0070" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-300" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006019" position_id="left" x="300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="いやいや、それよりさ、カジノでの貴重な&#xA;体験を聞かせてよ。仕事はどうだった？" speaker_show="True" stop="True" voice="ym11003_03_0100" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あれだけ練習したんだもの。&#xA;きっとプロみたいに出来たのよね？" speaker_show="True" stop="True" voice="kt11009_03_0086" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="ase" effect_type="MampSweat" target_obj="石川 五恵" />
+    <msg speaker="石川 五恵" text="え……いぇ、その……それは……。&#xA;色々と手違いがありまして……。" speaker_show="True" stop="True" voice="ig11006_03_0092" />
+    <delete obj_id="ase" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="八千代 命" />
+    <sound cue_name="Briefing" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="石川 五恵" />
+    <bg file="68_casino_02" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006019" position_id="left" x="-200" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="200" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <telop text="カジノ" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <sound type="Se" cue_name="EnvGaya" />
+    <wait time="2" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="わぁ…開店したばかりなのにお客さんが&#xA;いっぱい入って来た……。" speaker_show="True" stop="True" voice="ig11006_03_0093" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="彼らはみんな会員。暇を持て余した&#xA;超大金持ちさん達だよ。" speaker_show="True" stop="True" voice="th12004_03_0061" />
+    <msg speaker="恰幅の良い紳士" text="さあ、まずは両替をしなくてはな。&#xA;お嬢さん、これを頼む。" speaker_show="True" stop="True" voice="99024_03_0001" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="0.2" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="こ、これを全部ですか……!?&#xA;１…10…100……い、１千万円。" speaker_show="True" stop="True" voice="ig11006_03_0094" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="キャッシャーはあちらなのですが&#xA;特別に代行させていただきますね。" speaker_show="True" stop="True" voice="th12004_03_0062" />
+    <msg speaker="恰幅の良い紳士" text="おお、すまんな。これはチップだ。&#xA;取っておきたまえ。" speaker_show="True" stop="True" voice="99024_03_0002" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="0.2" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="ありがとうございます♪&#xA;では、すぐに行って参ります。" speaker_show="True" stop="True" voice="th12004_03_0063" />
+    <move obj_id="轟 葉栖美" position_id="left" x="900" x_move_type="MoveTo" y_move_type="MoveValue" time="2" wait="False" />
+    <sound type="Se" cue_name="Walk" volume="100" />
+    <wait time="2" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <msg speaker="石川 五恵" text="(葉栖美さん、慣れてる……。&#xA;これが１週間の差。私も頑張らないと。)" speaker_show="True" stop="True" voice="ig11006_03_0095" lip_sync="False" />
+    <msg speaker="ドレスの御婦人" text="今週は株で２億ほど損をしたから、&#xA;ここで取り戻さないといけないわねぇ。" speaker_show="True" stop="True" voice="99025_03_0001" />
+    <msg speaker="宝石の御婦人" text="なぁんだ、その程度？　私はまた&#xA;１兆くらいドブに捨てたのかと思ったわぁ。" speaker_show="True" stop="True" voice="99026_03_0001" />
+    <msg speaker="御婦人達" text="オホホホホホ！" speaker_show="True" stop="True" voice="3021010601_union_001" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="(つ、ついていけない……。師匠もお金持ちだけど&#xA;こんな話したことないし……どう絡めば良いの？)" speaker_show="True" stop="True" voice="ig11006_03_0096" lip_sync="False" />
+    <msg speaker="ウェイトレス" text="開店と同時にいらして下さり、ありがとうございます。&#xA;ウェルカムシャンパンのサービスでございます。" speaker_show="True" stop="True" voice="99021_03_0002" />
+    <sound type="Se" cue_name="pon" />
+    <wait time="1" />
+    <msg speaker="白髪まじりの老紳士" text="おう、グリュッグか。しかもグロ・ダンポネとは&#xA;オーナーの奴、張り切りおったな。頂こう。" speaker_show="True" stop="True" voice="99027_03_0001" />
+    <sound type="Se" cue_name="tansan" />
+    <wait time="3" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="019_Facial_damage" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="019_Facial_damage" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="(グリュッ…グ？　しまった……お酒の勉強も&#xA;しておくべきだったんだ……。)" speaker_show="True" stop="True" voice="ig11006_03_0097" lip_sync="False" />
+    <msg speaker="ディーラーの男" text="あのシャンパン、幾らか知ってるか？&#xA;１本60万だぜ……。" speaker_show="True" stop="True" voice="99017_03_0016" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="えっ!?　そ、そんなに高い物を&#xA;サービスで出しちゃって良いんですか？" speaker_show="True" stop="True" voice="ig11006_03_0098" />
+    <msg speaker="ディーラーの男" text="価値が解ってる人は、それで気分が上がる。&#xA;さあ、ここからがお前の出番だ。行け。" speaker_show="True" stop="True" voice="99017_03_0017" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="(わ、私が……この人達と勝負を……。&#xA;き、緊張する……！)" speaker_show="True" stop="True" voice="ig11006_03_0099" lip_sync="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Briefing" />
+  </command>
+</adv>

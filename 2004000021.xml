@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000021" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv3" />
+    <bg file="45_lizard_01" />
+    <telop text="リザード社" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="敷島来夢は全壊しない程度に&#xA;アルムにダメージを与えた。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="……なんという技術力だ。&#xA;より解析したくなったよ、その装甲。" speaker_show="True" stop="True" voice="zi16003_02_0078" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="いつまでそんな余裕が続くかしらね。" speaker_show="True" stop="True" voice="sr13001_02_0357" />
+    <msg window_type="SystemMsg" text="敷島来夢がゾーイを守護する強化ガラスを&#xA;素早く破壊しにかかる。" stop="True" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="だがアルムを粉々にしないあたり、&#xA;技術者としての欲目が出たね！　そこが敗因さ。" speaker_show="True" stop="True" voice="zi16003_02_0079" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="なに！？" speaker_show="True" stop="True" voice="sr13001_02_0358" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="さぁアルム、今の状態からでも撃てるだろ。&#xA;標的ＺＥＴ！　ギャラクシーフォール砲撃！" speaker_show="True" stop="True" voice="zi16003_02_0080" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……！" speaker_show="True" stop="True" voice="sr13001_02_0359" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="……………どうした？&#xA;とっておきの武装を持たせたろう。" speaker_show="True" stop="True" voice="zi16003_02_0081" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="ゾーイ" />
+    <create type="Character" obj_id="アルム" data_id="316005001" position_id="left" x="0" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="……ワ、ワタシ……ハ……カノジョ、ヲ、&#xA;ケシタク、ハ…ナイ…プランヘンコウヲ、マスター。" speaker_show="True" stop="True" voice="ar16004_02_0071" />
+    <delete obj_id="アルム" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルム……。そんな姿にされてるのに&#xA;貴方まだ……。" speaker_show="True" stop="True" voice="sr13001_02_0360" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="馬鹿！　マスターたるアタシがピンチなんだから&#xA;すぐに撃たなきゃいけないだろうが欠陥品め！" speaker_show="True" stop="True" voice="zi16003_02_0082" />
+    <msg speaker="ゾーイ" text="もういらん！　お前は消えろ！" speaker_show="True" stop="True" voice="zi16003_02_0083" />
+    <sound cue_name="PhoneOff" />
+    <wait time="1.0" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="ゾーイ" />
+    <create type="Character" obj_id="アルム" data_id="316005001" position_id="left" x="0" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="――ア。" speaker_show="True" stop="True" voice="ar16004_02_0072" />
+    <msg_window_show show="False" />
+    <flash color="#ffffffff" count="600" time="1.5" wait="False" />
+    <sound cue_name="ContinuousExplosion2" />
+    <delete obj_id="アルム" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="ゾーイ" />
+    <delete obj_id="Explosion" />
+    <wait time="2.0" />
+    <fade_out time="0.3" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="ゾーイがボタンを押すと、アルムの体は&#xA;爆発四散した。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <fade_in time="0.3" type="Default" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルムーーーっ……！！" speaker_show="True" stop="True" voice="sr13001_02_0361" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="（……今のうちに飛行ユニットを&#xA;装着して脱出する。）" speaker_show="True" stop="True" voice="zi16003_02_0084" lip_sync="False" />
+    <move obj_id="ゾーイ" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="敷島 来夢" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <msg window_type="SystemMsg" text="来夢の目の前には、粉々に砕け散った&#xA;アルムの残骸が散らばっていた。" stop="True" />
+    <msg window_type="SystemMsg" text="もうアルムが修復不可能であることは&#xA;来夢自身が一番良く分かっていた。" stop="True" />
+    <delete obj_id="ゾーイ" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……………ミツヒデ。&#xA;闇崩しを使う。砲撃許可を。" speaker_show="True" stop="True" voice="sr13001_02_0362" />
+    <msg speaker="敷島 真留瀬" text="……分かりましたわ。虎口解放。&#xA;標的、ビルより高速で離脱する飛行体。" speaker_show="True" stop="True" voice="sm13002_02_0183" />
+    <msg window_type="SystemMsg" text="闇崩しとは。敷島来夢の無敵甲冑に&#xA;隠されている切り札的存在である。" stop="True" />
+    <msg window_type="SystemMsg" text="無敵甲冑のエネルギーを一点に集中、&#xA;凝縮してビームとして吐き出す怒りの叫びであった。" stop="True" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" wait="True" />
+    <delete obj_id="ゾーイ" />
+    <delete obj_id="敷島 真留瀬" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アルム" />
+    <msg_window_show show="False" />
+    <bg file="42_skyni_01" />
+    <transition type="In" color_change="True" wait="True" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="危うい所だったね全く。&#xA;でもアタシは生きている。こっちの勝ちさ。" speaker_show="True" stop="True" voice="zi16003_02_0085" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="直接あって会話して……そこから得た&#xA;情報から推理するに、ＺＥＴの正体は敷島…" speaker_show="True" stop="True" voice="zi16003_02_0086" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="――え" speaker_show="True" stop="True" voice="zi16003_02_0087" />
+    <sound type="Se" cue_name="RecallsIn" />
+    <create_effect effect_id="hikari" effect_type="EffectSlash" />
+    <wait time="1.0" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="ゾーイ" />
+    <msg window_type="SystemMsg" text="ゾーイは自分に向けて放たれた閃光……闇崩しを&#xA;認識した時、意識は光の中に消えていった。" stop="True" />
+    <msg_window_show show="False" />
+    <bg file="45_lizard_01" />
+    <fade_in time="0.5" wait="True" />
+    <transition type="In" color_change="True" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="敷島 真留瀬" text="こちらミツヒデ。飛行物体の消滅を確認しました。" speaker_show="True" stop="True" voice="sm13002_02_0184" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そう。" speaker_show="True" stop="True" voice="sr13001_02_0363" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……私に不可能はない、か。&#xA;フフフ……自惚れたものね。全く……。" speaker_show="True" stop="True" voice="sr13001_02_0364" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ごめんアルム。それでも。出来る事はする。&#xA;貴方の残骸を持って帰るわ。" speaker_show="True" stop="True" voice="sr13001_02_0365" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

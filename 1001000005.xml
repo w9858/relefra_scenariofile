@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1001000005" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <Comment comment="初芽の部屋" />
+    <bg show="True" file="26_hatsumehousemo_02" />
+    <msg window_type="SystemMsg" text="青葉初芽の両親は富豪であり、身寄りの無い&#xA;テレジアと白虎は初芽のマンションに住んでいた。" stop="True" />
+    <msg window_type="SystemMsg" text="そして初芽の部屋には、元師匠であるカトリーナと&#xA;弟子である石川五恵も、よく遊びにきている。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="200" position_id="left" y="0" anchor="Bottom" />
+    <create_effect effect_id="smile_byakko" effect_type="MampSmile" life_time="15" target_obj="白虎" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="おお、五恵たちまた来たか。&#xA;ゆっくりしていくといいぞー！" speaker_show="True" stop="True" voice="bk11008_01_0006" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <delete obj_id="smile_byakko" />
+    <msg speaker="石川 五恵" text="ありがとう白虎ちゃん、&#xA;師匠、おじゃまします。" speaker_show="True" stop="True" voice="ig11006_01_0005" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ふふふ、ただいまでいいですよごえちゃん。" speaker_show="True" stop="True" voice="ah11005_01_0012" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="じゃお言葉に甘えて、ただいまー。&#xA;初芽ちゃんの部屋はいつ来ても落ち着くわ。" speaker_show="True" stop="True" voice="kt11009_01_0003" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" x="200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" x="-200" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="どうですかテレちゃん？　体の具合は。" speaker_show="True" stop="True" voice="ah11005_01_0013" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="怪我は、ほぼ治った。もう従来通りに動けそうだ。&#xA;少しテストしてみていいか。" speaker_show="True" stop="True" voice="tr11007_01_0001" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="テレジア" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="300" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="じゃあ私が相手するよテレジアちゃん。" speaker_show="True" stop="True" voice="ig11006_01_0006" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="加減はしてくれよ。お前は強い。&#xA;それが骨身にしみて分かった。" speaker_show="True" stop="True" voice="tr11007_01_0002" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="002_Facial_smile" />
+    <move obj_id="石川 五恵" position_id="left" x="400" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="テレジア" position_id="left" x="-150" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="白虎" data_id="311007001" x="-400" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="なんて言ってるけどお前もガチでやれば相当だろ。&#xA;かつては、この白虎様の蹴りを防いだんだからな。" speaker_show="True" stop="True" voice="bk11008_01_0007" />
+    <delete obj_id="テレジア" />
+    <sound type="Se" cue_name="Gosogoso" />
+    <wait time="0.1" />
+    <Comment comment="テレジア（サラシ）" />
+    <create type="Character" obj_id="テレジア" data_id="311008006" x="-150" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="では、いくぞ！！　五恵！！" speaker_show="True" stop="True" voice="tr11007_01_0003" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="08_MouthBothHands" face_anim_type="009_Facial_blush" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="そこでなんで服を脱ぐんだ？　お前は危ない人なのか？&#xA;そーいうのには気をつけろって言われているぞ！" speaker_show="True" stop="True" voice="bk11008_01_0008" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="こちらの方が神経を鋭敏に出来る。&#xA;戦いの風を肌で感じた方が迅く動ける。" speaker_show="True" stop="True" voice="tr11007_01_0004" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="私がジャッジしましょう。&#xA;よーい、スタート！" speaker_show="True" stop="True" voice="kt11009_01_0004" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <msg window_type="SystemMsg" text="肉弾戦闘だけで見ればツキカゲ最強である&#xA;五恵の攻撃をテレジアは冷静に捌いていた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="はいそこまで、家の中だからあまり&#xA;ヒートアップしないうちに終～了～。" speaker_show="True" stop="True" voice="kt11009_01_0005" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="200" position_id="left" y="0" anchor="Bottom" />
+    <Comment comment="テレジア（サラシ）" />
+    <create type="Character" obj_id="テレジア" data_id="311008006" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="凄いよテレジアちゃん。もうこれだけ&#xA;動けるなんて。" speaker_show="True" stop="True" voice="ig11006_01_0007" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="倒れて絶望の淵にいた私を、初芽が見つけて&#xA;適切に処置してくれたお陰だ。" speaker_show="True" stop="True" voice="tr11007_01_0005" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" face_anim_type="003_Facial_laugh" />
+    <msg speaker="青葉 初芽" text="大きな戦いの後、皆でこうして集まっていられるのは&#xA;弟子達の頑張りがあってこそですよ。" speaker_show="True" stop="True" voice="ah11005_01_0014" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="めでたしめでたし、ではあるけれど&#xA;懸念はなくならないわねぇ。" speaker_show="True" stop="True" voice="kt11009_01_0006" />
+    <delete obj_id="カトリーナ" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" body_anim_type="03_BackBothHands" />
+    <move obj_id="青葉 初芽" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="大きな決着はつけたのに、空崎で起きる事件の&#xA;数が減らない……だろう？" speaker_show="True" stop="True" voice="tr11007_01_0006" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="はい。犯罪者の皆さんとっても元気でして。" speaker_show="True" stop="True" voice="ah11005_01_0015" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="私が思うに台頭してきたんだ。世界最大規模の組織が&#xA;弱まった事で、勢力の拡大を狙う悪の組織が。" speaker_show="True" stop="True" voice="tr11007_01_0007" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="テレジア" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="白虎" data_id="311007001" x="-300" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="暗躍してるのあそこじゃね？　ほら、日本で一番でかい&#xA;規模っていわれてるワルいところ、大八洲師団だっけ？" speaker_show="True" stop="True" voice="bk11008_01_0009" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="そういう所は把握しているんだな。&#xA;傭兵だから当然か。後はリザード社とかな。" speaker_show="True" stop="True" voice="tr11007_01_0008" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" loop="False" to_idle="False" />
+    <msg speaker="カトリーナ" text="アメリカに本拠地がある悪の組織ね。&#xA;私の家系……トビー一族とも因縁が深いわ。" speaker_show="True" stop="True" voice="kt11009_01_0007" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="07_ChestBothHands" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="カトリーナ" text="後は、ヨーロッパに拠点がある倶楽部トリムヘイムの&#xA;存在も感じられるわ。" speaker_show="True" stop="True" voice="kt11009_01_0008" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="次の敵は、その中のどれか、という事ですか？" speaker_show="True" stop="True" voice="ig11006_01_0008" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="どれかひとつであればいいんだけど……。&#xA;最悪のシナリオさえ回避できれば。" speaker_show="True" stop="True" voice="kt11009_01_0009" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="白虎" data_id="311007001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="最悪？　この白虎様が敵にいる事こそ最悪だろ。&#xA;何をもって最悪なんだよ。" speaker_show="True" stop="True" voice="bk11008_01_0010" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="それらがもし手を結んでいれば&#xA;空崎は、ツキカゲは……かつてない危機を迎えるわ。" speaker_show="True" stop="True" voice="kt11009_01_0010" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="手を結ぶ…悪の巨大同盟――か……。" speaker_show="True" stop="True" voice="tr11007_01_0009" />
+  </command>
+</adv>

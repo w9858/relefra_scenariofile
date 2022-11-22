@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1001000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <Comment comment="軍議の社" />
+    <bg show="True" file="03_tsukikage_001" />
+    <msg window_type="SystemMsg" text="ツキカゲは見事に敵のアジトを潰し、&#xA;後始末を終えてアジトに帰還した。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <Comment comment="ミッション終了後の一息" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ふーっ。ミッション終了……。&#xA;連合といっても何とかなりましたね。" speaker_show="True" stop="True" voice="mm11001_01_0031" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="アタシがいたし当然といえば当然よ。&#xA;…未完成のアジトってのもあるだろうけど。" speaker_show="True" stop="True" voice="sf11004_01_0026" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="前哨戦といったところね。&#xA;今後も足並みを揃えて空崎にやってくるはず。" speaker_show="True" stop="True" voice="hy11002_01_0022" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <Comment comment="合流組のうれしい言葉にモモ感激" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="なぁに安心しろい！　私達もスパイスをもらったし&#xA;ここから本格参戦だ！" speaker_show="True" stop="True" voice="bk11008_01_0012" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="百人力だよ白虎ちゃん！" speaker_show="True" stop="True" voice="mm11001_01_0032" />
+    <delete obj_id="白虎" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="五恵や初芽に助けてもらった命と心。私は&#xA;ツキカゲのために使う。" speaker_show="True" stop="True" voice="tr11007_01_0011" />
+    <move obj_id="テレジア" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <Comment comment="テレジアと仲良く！！" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="ありがとうテレジアちゃん！" speaker_show="True" stop="True" voice="ig11006_01_0009" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="お前もテレちゃんでいいぞ。&#xA;……まぁ好きに呼んでくれ。" speaker_show="True" stop="True" voice="tr11007_01_0012" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="犯罪組織の連合を壊滅させる。&#xA;これがツキカゲの新たなミッションだねカトーさん。" speaker_show="True" stop="True" voice="ym11003_01_0026" />
+    <Comment comment="連合壊滅みんなで頑張ろう！！" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ええ。とっても危険で大変な任務よ。&#xA;……でもよく考えれば、それはいつものこと、か。" speaker_show="True" stop="True" voice="kt11009_01_0011" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" face_anim_type="003_Facial_laugh" />
+    <msg speaker="源 モモ" text="よーし滾っていくよ！" speaker_show="True" stop="True" voice="mm11001_01_0033" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（…モモを弟子から卒業させる頃合いだと思ったけど、&#xA;この大事件を、まず何とかしなければ、ね）" speaker_show="True" stop="True" voice="hy11002_01_0023" lip_sync="False" />
+  </command>
+</adv>

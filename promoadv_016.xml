@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_yuruyuri_05" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="10_terminalmo_01" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="歳納 京子" data_id="394002002" type="Character" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="歳納 京子" stop="True" window_type="CharMsg" lip_sync_volume="0.01" text="『空崎』への社会科見学、ついに！&#xA;当日を迎えましたー!!" voice="tk95002_p03_0011" />
+    <create obj_id="船見 結衣" data_id="394003002" type="Character" x="-300" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" loop="True" />
+    <msg speaker="船見 結衣" stop="True" window_type="CharMsg" text="元気だなぁ、京子は" voice="fy95003_p03_0011" />
+    <create obj_id="吉川 ちなつ" data_id="394004002" type="Character" x="300" />
+    <char_spine_animation obj_id="吉川 ちなつ" loop="True" body_anim_type="09_PutHands" face_anim_type="003_Facial_laugh" />
+    <msg speaker="吉川 ちなつ" stop="True" window_type="CharMsg" voice="yc95004_p03_0011" text="結衣先輩っ。私、この日を&#xA;とっても楽しみにしてました！" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" loop="False" body_anim_type="11_Point" />
+    <msg speaker="歳納 京子" stop="True" window_type="CharMsg" voice="tk95002_p03_0012" text="おおっと、ちなつちゃん。不純同性交遊はならんぞ。&#xA;見逃してほしくばラムレーズンを納めるのじゃ。" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" stop="True" window_type="CharMsg" text="どういう理屈なんだ、&#xA;それは。" voice="fy95003_p03_0012" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="吉川 ちなつ" stop="True" window_type="CharMsg" text="結衣先輩に対する私の想いは、&#xA;不純なんかじゃありません！" voice="yc95004_p03_0012" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" loop="False" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="016_Facial_smileBitter" loop="True" />
+    <msg speaker="船見 結衣" stop="True" window_type="CharMsg" text="いや、それも少し&#xA;ズレてる気がするけど……。" voice="fy95003_p03_0013" />
+    <create obj_id="赤座 あかり" data_id="394001002" type="Character" x="2000" />
+    <sound cue_name="Run" volume="100" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="150" x_move_type="MoveTo" />
+    <move obj_id="歳納 京子" position_id="left" x="-150" x_move_type="MoveTo" />
+    <move obj_id="船見 結衣" position_id="left" x="-400" x_move_type="MoveTo" />
+    <move obj_id="赤座 あかり" position_id="left" x="400" x_move_type="MoveTo" time="2" wait="True" />
+    <wait time="1" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="赤座 あかり" stop="True" window_type="CharMsg" text="皆～、おまたせ～っ！" voice="aa95001_p03_0011" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" />
+    <msg speaker="歳納 京子" stop="True" window_type="CharMsg" voice="tk95002_p03_0013" text="お、あかり来たか。&#xA;危なく忘れて行くところだった。" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="017_Facial_shock" body_anim_type="12_DropShoulders" loop="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="017_Facial_shock" body_anim_type="12_DropShoulders" loop="False" />
+    <msg speaker="赤座 あかり" stop="True" window_type="CharMsg" voice="aa95001_p03_0012" text="ひ、ひどーい！&#xA;昨日もみんなに連絡入れたのに～……。" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" loop="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="歳納 京子" stop="True" window_type="CharMsg" voice="tk95002_p03_0014" text="あははっ、冗談だよ。&#xA;よし、じゃ行こうか！　レッツ空崎！" />
+    <msg_window_show show="False" />
+    <fade_out time="1" wait="True" />
+  </command>
+</adv>

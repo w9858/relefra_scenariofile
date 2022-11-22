@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1001000007battle" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ありゃま遠くに見えるのは、もしかして敵の増援！？&#xA;さすが連合、いい物量してる。ちょいとヤバいかな。" speaker_show="True" stop="True" voice="ym11003_01_0025" />
+    <move obj_id="八千代 命" position_id="left" x="400" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="白虎" data_id="311007001" x="-400" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" x="-150" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="そーいう時のための私だろうが！　お待たせしたぞ&#xA;お前達、ガオッと参上！　…狩ってやる！！" speaker_show="True" stop="True" voice="bk11008_01_0011" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <Comment comment="ここのモモと初芽の表情は「驚く」の予定" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <create_effect effect_id="Exclamation_momo" effect_type="MampExclamation" life_time="1.0" target_obj="源 モモ" x="0" y="0" />
+    <msg speaker="源 モモ" text="白虎ちゃん！？　それにテレちゃんも！" speaker_show="True" stop="True" voice="mm11001_01_0030" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="怪我は全快している。敵の援軍は私たちに任せろ。&#xA;…ボルテージ・マックス！" speaker_show="True" stop="True" voice="tr11007_01_0010" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="ありがとうございます、テレちゃん&#xA;白虎ちゃん！　心強いですね。" speaker_show="True" stop="True" voice="ah11005_01_0018" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

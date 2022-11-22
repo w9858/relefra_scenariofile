@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1003000003" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv4" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="背景　クルーザー" />
+    <bg show="True" file="33_cruiserni_01" />
+    <msg window_type="SystemMsg" text="大八洲師団、乱獅子しおんのアジトに、&#xA;犯罪結社の面子が集結していた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="クルーザー" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <Comment comment="Adv4" />
+    <create type="Character" obj_id="乱獅子 しおん" data_id="315003001" x="-200" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="刑部 冴魅" data_id="317001001" x="200" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="嬉しい事にさ、アタシ達が連合組んだら&#xA;仲間に入れてって組織がどんどん増えてきたよ。" speaker_show="True" stop="True" voice="rs15003_01_0014" lip_sync="True" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="刑部 冴魅" text="巨大な波に相乗りしようと思うのは当然だろう。&#xA;その申し出をどうしていく気なんだ？　お前は。" speaker_show="True" stop="True" voice="os17001_01_0007" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="全部仲間に入れるよ。賑やかな方が楽しいからね。&#xA;で、いいよねクリッシー・ガオ。" speaker_show="True" stop="True" voice="rs15003_01_0015" lip_sync="True" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="乱獅子 しおん" x="0" x_move_type="MoveTo" time="0.5" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <move obj_id="刑部 冴魅" x="300" x_move_type="MoveTo" time="0.5" wait="True" y="0" position_id="left" y_move_type="MoveValue" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="ジパングの小さい組織が殆どですよね？　どうぞどうぞ&#xA;ご自由に。…いやぁデリシャスですねこのスシ！" speaker_show="True" stop="True" voice="ks16001_01_0009" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="20_PositiveDouble" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="いいねぇ悪意が膨れ上がっていくよ。" speaker_show="True" stop="True" voice="rs15003_01_0016" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="それよりどーなんですか？　ええと、あれ、&#xA;ムーンシャドー…ツキカゲの方は。" speaker_show="True" stop="True" voice="ks16001_01_0010" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="うん、アタシ達が連合組んでるのは&#xA;わかっているはずだ。そーいう動き見せたし。" speaker_show="True" stop="True" voice="rs15003_01_0017" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="でも逃げるどころか、立ち向かってきてるんだよ。&#xA;空崎にアジト建設しようとすると潰しにくるしさ。" speaker_show="True" stop="True" voice="rs15003_01_0018" lip_sync="True" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="刑部 冴魅" text="尻尾を巻いて逃げるどころか敵対行動を&#xA;とってきたというわけだな。" speaker_show="True" stop="True" voice="os17001_01_0008" lip_sync="True" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="刑部 冴魅" text="勇ましい連中だ。天堂久良羅を倒しただけはある。" speaker_show="True" stop="True" voice="os17001_01_0009" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="……クララはクールな中にもチャーミィな部分が&#xA;あって、アタシは好きだったんだ。" speaker_show="True" stop="True" voice="rs15003_01_0019" lip_sync="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="RecallsIn" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <delete obj_id="クリッシー" />
+    <delete obj_id="乱獅子 しおん" />
+    <delete obj_id="刑部 冴魅" />
+    <wait time="0.1" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="乱獅子 しおん" data_id="315003001" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="文鳥の女" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="じゃあ何かクララ。空崎花火大会の日には&#xA;大八洲師団は暴動起こして、敵を引きつけろと？" speaker_show="True" stop="True" voice="rs15003_01_0020" lip_sync="True" />
+    <char_spine_animation obj_id="文鳥の女" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="文鳥の女" text="その通りだしおん。国家も。他の情報機関も。&#xA;空崎に助けに入れないようにしたい。" speaker_show="True" stop="True" voice="bo14001_01_0001" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="他でもないクララがそう言うなら、いいけど。&#xA;条件があるよ。今晩は飲み明かそう。" speaker_show="True" stop="True" voice="rs15003_01_0021" lip_sync="True" />
+    <char_spine_animation obj_id="文鳥の女" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="文鳥の女" text="いいだろう、今晩ぐらいはな。" speaker_show="True" stop="True" voice="bo14001_01_0002" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="あとチッチ触らせて、絶対何もしないから。&#xA;何もしないから絶対。な？" speaker_show="True" stop="True" voice="rs15003_01_0022" lip_sync="True" />
+    <char_spine_animation obj_id="文鳥の女" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="文鳥の女" text="断る。絶対ダメだ。&#xA;なー、触られたくないよな、チッチ。" speaker_show="True" stop="True" voice="bo14001_01_0003" lip_sync="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="RecallsIn" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="文鳥の女" />
+    <delete obj_id="乱獅子 しおん" />
+    <wait time="0.1" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="刑部 冴魅" data_id="317001001" x="200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="乱獅子 しおん" data_id="315003001" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="ふふ、面白かったな話してて。&#xA;友達だったよ。少なくともアタシから見れば。" speaker_show="True" stop="True" voice="rs15003_01_0023" lip_sync="True" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="刑部 冴魅" text="私も天堂とは顔見知りだが。……結局何故、&#xA;文鳥だけに心を開くのかは分からなかったな。" speaker_show="True" stop="True" voice="os17001_01_0010" lip_sync="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="刑部 冴魅" />
+    <move obj_id="乱獅子 しおん" x="0" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="空崎に住んでいる頃、両親に虐待されて&#xA;心の支えが、飼っていた鳥だったらしい。" speaker_show="True" stop="True" voice="rs15003_01_0024" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="その子供の頃に飼っていた鳥が&#xA;チッチって名前だったと。" speaker_show="True" stop="True" voice="rs15003_01_0025" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="で、家出した後はモウリョウに拾われて訓練をうけ、&#xA;見事両親を殺して悪の旅路を歩んでいったと。" speaker_show="True" stop="True" voice="rs15003_01_0026" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="素敵なエピソードだよな。自分を虐げていた&#xA;両親にきっちりケジメをつけてる所がいい。" speaker_show="True" stop="True" voice="rs15003_01_0027" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="やっぱり気に入らない奴は身内だろうが&#xA;何だろうが、殺しとかないとな。" speaker_show="True" stop="True" voice="rs15003_01_0028" lip_sync="True" />
+    <msg_window_show show="False" />
+    <move obj_id="乱獅子 しおん" x="200" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" x="-200" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="仲良かったんですね。ならフレンドの仇討ちと&#xA;いきましょーよ。ツキカゲは敵対行動をとったんです。" speaker_show="True" stop="True" voice="ks16001_01_0011" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="プチッとデストロイしてしまいましょー。&#xA;何ならリザードが音頭をとっていいデスか？" speaker_show="True" stop="True" voice="ks16001_01_0012" lip_sync="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 しおん" text="……いいよ。好きにして。若きエースの&#xA;手並みを見せてもらおうかな。" speaker_show="True" stop="True" voice="rs15003_01_0029" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="サンキュ。それじゃ早速。ワタシはせっかち&#xA;でして、なんでも手早く済ませたいのデス。" speaker_show="True" stop="True" voice="ks16001_01_0013" lip_sync="True" />
+    <msg_window_show show="False" />
+    <sound_volume type="Bgm" volume="0" time="1.0" wait="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="リザード社の若きエース、クリッシー・ガオは&#xA;空崎に向けて動き始めた。" stop="True" />
+  </command>
+</adv>

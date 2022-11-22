@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000003" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_out time="0.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="ある日、リザード社が空崎スカイタワーを&#xA;購入したという情報がツキカゲにもたらされた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="今日のツキカゲ、凪の部隊、合同会議は、&#xA;リザード社の動きについてよ。" speaker_show="True" stop="True" voice="kt11009_01_0063" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="リザードってのは一般的にはロボット…&#xA;人形を生産するアメリカ一の大企業だぞ。" speaker_show="True" stop="True" voice="bk11008_01_0045" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="分かっとるわい。そんな基本的な事ではなく。&#xA;リザードが空崎スカイタワーを所有した問題じゃろ。" speaker_show="True" stop="True" voice="ss12003_01_0049" />
+    <delete obj_id="白虎" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="空崎スカイタワーは空崎で一番高い建造物。&#xA;タワーマンションよ。" speaker_show="True" stop="True" voice="hy11002_01_0070" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="初芽さんの住んでるマンションより高いなんて。&#xA;バブリーな…。" speaker_show="True" stop="True" voice="mm11001_01_0125" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="リザードはスカイタワーを、社員寮やオフィスにする&#xA;みたいだね、表向きには、だけどさ。" speaker_show="True" stop="True" voice="th12004_01_0018" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ヒュー。土地や物件を購入とか。&#xA;これ単純だけど効果的な侵略じゃない？" speaker_show="True" stop="True" voice="ym11003_01_0081" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="なんとかリザード社の裏の顔を世間に&#xA;訴えられないのかな。軍事人形の密売してますって。" speaker_show="True" stop="True" voice="mh12001_01_0025" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="カトリーナ" text="アメリカでは模索している手なんだけど、&#xA;なかなか難しいわね。" speaker_show="True" stop="True" voice="kt11009_01_0064" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ただ幹部のクリッシーさえ確保できれば、&#xA;何か糸口が見えるかもしれないわ。" speaker_show="True" stop="True" voice="kt11009_01_0065" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="津守 ヨモギ" text="そのクリッシーこそ、空崎スカイタワー支部で&#xA;指揮をとる人間ってことになってるぜ。" speaker_show="True" stop="True" voice="ty12005_01_0026" />
+    <delete obj_id="津守 ヨモギ" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="決まりだな。アジトを潰しつつ中にいる&#xA;クリッシーとかいうのを捕まえるんだ。" speaker_show="True" stop="True" voice="bk11008_01_0046" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="敵も、私たちの動きを読んでいるはず。" speaker_show="True" stop="True" voice="tr11007_01_0095" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="テレテレの言うとおり。タワーの中は敵さんと&#xA;罠の宝石箱だろうね。でも、いくけどね。" speaker_show="True" stop="True" voice="ry12002_01_0027" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="ええ、攻めるべきね。&#xA;慎重に動いていると手がつけられなくなる。" speaker_show="True" stop="True" voice="hy11002_01_0071" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="これだけの人数でかかれば、大丈夫だよ。" speaker_show="True" stop="True" voice="ks11010_01_0070" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="もちろん闇雲に特攻はしないわ。&#xA;下調べと準備をして、仕掛けるわよ。" speaker_show="True" stop="True" voice="hy11002_01_0072" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="よし腹は決まったな。しぶきも同意見じゃ。&#xA;空崎スカイタワーを我らで攻略する。" speaker_show="True" stop="True" voice="ss12003_01_0050" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <msg window_type="SystemMsg" text="方針を固めた後、凪の部隊は作戦準備のため&#xA;一度東京に戻った。その後――。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="34_sakasatower_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="125" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="わー。リザード社の動きを調べてみたら、&#xA;空崎スカイタワーに沢山荷物を搬送してるよ。" speaker_show="True" stop="True" voice="mh12001_01_0026" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="明日には引っ越しの荷物って名目で&#xA;たくさんの物資が堂々とタワーに入るわけ。" speaker_show="True" stop="True" voice="th12004_01_0019" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="隊長ー。こりゃマジで今夜のうちに叩いとかないと&#xA;明日以降には要塞になってるぜ。" speaker_show="True" stop="True" voice="ry12002_01_0028" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="……。" speaker_show="True" stop="True" voice="ss12003_01_0051" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="隊長？　どうしたんだ、賞味期限が切れた牛乳でも&#xA;うっかり飲んだのか？　あれは酸っぱいからな。" speaker_show="True" stop="True" voice="ry12002_01_0029" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="125" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="津守 ヨモギ" text="今さっき凪の部隊に護衛命令が出たんだよ。" speaker_show="True" stop="True" voice="ty12005_01_0027" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="え？　誰かを守りにいくってことですか？" speaker_show="True" stop="True" voice="mh12001_01_0027" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="津守 ヨモギ" text="ああ。大八洲師団から、数人の&#xA;お偉いさんへ殺害予告が出た。" speaker_show="True" stop="True" voice="ty12005_01_0028" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="ゆえに……凪の部隊は、ただちに予告された&#xA;要人をガードしに向かえ、との事じゃ。" speaker_show="True" stop="True" voice="ss12003_01_0052" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="え？　でも空崎スカイタワー侵入は&#xA;どうすんだよ。ツキカゲと合同任務だろ？" speaker_show="True" stop="True" voice="ry12002_01_0030" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" face_anim_type="005_Facial_sad" />
+    <msg speaker="乱獅子 ゆら" text="つうかアタシ様達を動けなくする作戦だろこれ。&#xA;無視して空崎行こうぜ。事件は現場で起きてんだ。" speaker_show="True" stop="True" voice="ry12002_01_0031" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="凪の部隊は国の情報機関として、指令に対して&#xA;無視や違反はできん。全ては国家安寧のため。" speaker_show="True" stop="True" voice="ss12003_01_0053" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="-300" x_move_type="MoveTo" time="0.3" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="それに、もしも本当の犯行予告の場合。&#xA;無視したら大変な事になるよ、ゆらちゃん。" speaker_show="True" stop="True" voice="mh12001_01_0028" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="ぐっ、まぁそうだけどよ。&#xA;どうすんだよコレ。" speaker_show="True" stop="True" voice="ry12002_01_0032" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="……ツキカゲに秘密回線で連絡を。&#xA;しぶきから詫びを入れる。" speaker_show="True" stop="True" voice="ss12003_01_0054" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="……隊長。" speaker_show="True" stop="True" voice="mh12001_01_0029" />
+  </command>
+</adv>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3024010903" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Adv1" type="Bgm" />
+    <bg show="True" resource_type="Background" file="02_wasabini_001" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-300" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="飾り付けも終わって、準備も整ったのに&#xA;シン様と初芽ちゃんは、どこへ行ったの？" speaker_show="True" stop="True" voice="kt11009_03_0128" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="コ、コンビニ……。" speaker_show="True" stop="True" voice="tr11007_03_0063" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="そうなんです！　隣町のコンビニにジュースを&#xA;買いに行ってもらったので、もう少しかかるかと。" speaker_show="True" stop="True" voice="ig11006_03_0206" />
+    <char_spine_animation obj_id="カトリーナ" force_end="False" loop="True" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="カトリーナ" text="飲み物なら、お店に売るほどあるのに？&#xA;仕方ないわね………誰かメールはした？" speaker_show="True" stop="True" voice="kt11009_03_0129" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。早く戻るように、先程。&#xA;そして、解ったとの返事も来ました。" speaker_show="True" stop="True" voice="hy11002_03_0224" />
+    <char_spine_animation obj_id="カトリーナ" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="そう……。" speaker_show="True" stop="True" voice="kt11009_03_0130" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-300" anchor="Bottom" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="やっぱり私、その辺を見て来ようかしら。&#xA;シン様をお出迎えできたら素敵だし♪" speaker_show="True" stop="True" voice="kt11009_03_0131" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あいやーーー！　師匠ってお出迎え大嫌いで！&#xA;親の仇のように出迎えを憎んでるんですわ！" speaker_show="True" stop="True" voice="ym11003_03_0263" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そんな奴いるかぁああ？" speaker_show="True" stop="True" voice="bk11008_03_0133" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ちょっ、バカバカ……！" speaker_show="True" stop="True" voice="sf11004_03_0275" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="どうもおかしいわね……。何を隠し……ハッ！&#xA;ま、まさか……シン様と初芽ちゃんが!?" speaker_show="True" stop="True" voice="kt11009_03_0132" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" anchor="Bottom" />
+    <lip_sync target1="源 モモ" target2="半蔵門 雪" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" face_anim_type="011_Facial_surprise" />
+    <msg speaker="雪・モモ" text="え…？" speaker_show="True" stop="True" voice="3024010903_union_001" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="私に内緒でデート………熱愛!?&#xA;し、知らなかった！　くぅぅ……っ。" speaker_show="True" stop="True" voice="kt11009_03_0133" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ぅぇあ……そ、なっ、いえ……違っ。" speaker_show="True" stop="True" voice="sf11004_03_0276" />
+    <char_spine_eye obj_id="カトリーナ" type="Eye03_tear" loop="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="020_Facial_thinking" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="くぅ……ぁ……ああ……あ…あああ。" speaker_show="True" stop="True" voice="kt11009_03_0134" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="カ、カトーさんの目からマリア像の如く血涙が！&#xA;………そ、そんな訳ないか。目の錯覚だった。" speaker_show="True" stop="True" voice="ig11006_03_0207" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="1.0" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="1000" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="1000" anchor="Bottom" />
+    <move obj_id="高坂 信" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="1.5" wait="False" />
+    <move obj_id="青葉 初芽" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="1.0" wait="True" />
+    <lip_sync target1="青葉 初芽" target2="高坂 信" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="信・初芽" text="ただいま帰りました～♪" speaker_show="True" stop="True" voice="3024010903_union_002" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="うぅ………くぅぅ……おおおおお&#xA;お帰りなさい……２人ともぉおおお。" speaker_show="True" stop="True" voice="kt11009_03_0135" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="師匠？　マグナムが落ちましたよ？" speaker_show="True" stop="True" voice="ah11005_03_0167" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="1000" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ひいゃあああ！　わ、私が預かります！" speaker_show="True" stop="True" voice="mm11001_03_0313" />
+    <sound type="Se" cue_name="Run150" />
+    <move obj_id="源 モモ" x="-150" x_move_type="MoveTo" y_move_type="MoveValue" time="0.5" wait="True" />
+    <move obj_id="源 モモ" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.5" wait="True" />
+    <wait time="1.0" />
+    <delete obj_id="源 モモ" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="カトさん……ごめんね。遅くなって。" speaker_show="True" stop="True" voice="ks11010_03_0143" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="良いんです……シン様と愛弟子の初芽ちゃんなら&#xA;こんなに嬉しいことがありましょうか……うぅ。" speaker_show="True" stop="True" voice="kt11009_03_0136" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="？　あの、これ。みんなからだよっ。&#xA;おめでとう、カトさん♪" speaker_show="True" stop="True" voice="ks11010_03_0144" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="えっ？" speaker_show="True" stop="True" voice="kt11009_03_0137" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" anchor="Bottom" />
+    <msg speaker="信・モモ・雪・初芽・五恵・命・楓・白虎・テレジア" text="ハッピーバースデー！" speaker_show="True" stop="True" voice="3024010903_union_003" />
+    <sound type="Se" cue_name="Cracker" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="Cracker" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="Cracker" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="お、驚いた………ありがとう、みんな！&#xA;自分でも忘れてたのに、こんなことって……。" speaker_show="True" stop="True" voice="kt11009_03_0138" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-300" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="は～、上手くいって良かったぁ！&#xA;一時はどうなることかと思ったよ。" speaker_show="True" stop="True" voice="mm11001_03_0315" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="師匠。プレゼントは、ブレスレットなんです。&#xA;気に入っていただけると良いんですが。" speaker_show="True" stop="True" voice="ah11005_03_0169" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="シン様と初芽ちゃんが選んでくれたの？&#xA;わぁ……とっても綺麗。一生大切にするわね！" speaker_show="True" stop="True" voice="kt11009_03_0139" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="カトリーナ" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ふふっ。信が着けてあげるね。&#xA;手を出して、カトさん♪" speaker_show="True" stop="True" voice="ks11010_03_0146" />
+    <move obj_id="カトリーナ" x="-100" x_move_type="MoveTo" y_move_type="MoveValue" time="0.8" wait="True" />
+    <move obj_id="高坂 信" x="100" x_move_type="MoveTo" y_move_type="MoveValue" time="0.8" wait="True" />
+    <create_effect effect_id="kato01" effect_type="EffectHeart" target_obj="カトリーナ" attach_head_bone="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あぁ……こんな幸せな誕生日もクリスマスも&#xA;生まれて初めて。シン様……私、幸せです♪" speaker_show="True" stop="True" voice="kt11009_03_0140" />
+    <msg_window_show show="False" />
+    <delete obj_id="kato01" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop />
+  </command>
+</adv>

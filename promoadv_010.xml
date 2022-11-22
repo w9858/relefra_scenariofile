@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_010" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="02_wasabisp_001" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="白虎" data_id="311007001" type="Character" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="白虎" stop="True" window_type="CharMsg" lip_sync_volume="0.01" voice="bb_bk_01" text="いやぁー、&#xA;今日が9月1日ってことをすっかり忘れてたぜー。" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" />
+    <msg speaker="白虎" stop="True" window_type="CharMsg" voice="bb_bk_02" text="しっかし誕生日をこんなに&#xA;盛大に祝ってくれるとは思わなかったぞ。" />
+    <char_spine_animation obj_id="白虎" loop="True" body_anim_type="07_ChestBothHands" face_anim_type="003_Facial_laugh" />
+    <msg speaker="白虎" stop="True" window_type="CharMsg" voice="bb_bk_03" text="この白虎様も大満足だ！&#xA;テレ公もうまそうにケーキ食べてたしな。" />
+    <char_spine_animation obj_id="白虎" loop="True" body_anim_type="11_Point" />
+    <msg speaker="白虎" stop="True" window_type="CharMsg" voice="bb_bk_04" text="大満足の誕生日だったぞ、ほんとうにありがとな！" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" mixing="True" />
+    <msg speaker="白虎" stop="True" window_type="CharMsg" voice="bb_bk_05" text="いろいろあってツキカゲに入ったけど、毎日楽しいなー！&#xA;ラッパにカマリにモノミもいいヤツだしな！" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" mixing="True" />
+    <msg speaker="白虎" stop="True" window_type="CharMsg" voice="bb_bk_06" text="これからも困ったことがあったら、&#xA;じゃんじゃんこの白虎様に頼ってくれていいぞ！" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+  </command>
+</adv>

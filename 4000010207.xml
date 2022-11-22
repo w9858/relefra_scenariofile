@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010207" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="商店街 昼" />
+    <bg show="True" file="04_shopstreetmo_01" wait="False" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="師匠とお出かけできて……&#xA;私、すごく嬉しかったです。" speaker_show="True" stop="True" voice="mm11001_01_0945" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="靴紐を買いに行っただけなのに大袈裟ね。" speaker_show="True" stop="True" voice="hy11002_01_0630" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="で、でも、滅多にないことですから！　買い物は&#xA;終わりましたけど、そろそろ帰りますか？" speaker_show="True" stop="True" voice="mm11001_01_0946" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="……いえ、&#xA;せっかくだからお茶でもしましょうか？" speaker_show="True" stop="True" voice="hy11002_01_0631" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="え？　……師匠とお茶！" speaker_show="True" stop="True" voice="mm11001_01_0947" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <Comment comment="喫茶店" />
+    <bg show="True" file="09_cafe_02" wait="False" resource_type="Background" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="私はストロベリーマキアートにするわ。" speaker_show="True" stop="True" voice="hy11002_01_0632" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="……。" speaker_show="True" stop="True" voice="mm11001_01_0948" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="どうしたの、モモ？　頼まないの？" speaker_show="True" stop="True" voice="hy11002_01_0633" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あ、いえ、師匠が、そんな可愛い飲み物を&#xA;頼むなんて思わなかったので……。" speaker_show="True" stop="True" voice="mm11001_01_0949" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="可愛い？" speaker_show="True" stop="True" voice="hy11002_01_0634" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="す、すみません！　なんでもないです！" speaker_show="True" stop="True" voice="mm11001_01_0950" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あ、師匠！　ここのお店はラテアートも&#xA;してくれるみたいですよ。" speaker_show="True" stop="True" voice="mm11001_01_0951" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="へえ。あなた、ラテアートが好きなの？" speaker_show="True" stop="True" voice="hy11002_01_0635" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="あ、は、はい！&#xA;もちろん、ラテアートも好きですけど……。" speaker_show="True" stop="True" voice="mm11001_01_0952" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="でも、一番嬉しいのは、師匠とこんなふうに&#xA;２人でお買い物やお茶ができたことで……。" speaker_show="True" stop="True" voice="mm11001_01_0953" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="そう……そういうものなの。" speaker_show="True" stop="True" voice="hy11002_01_0636" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はい！　すみません、飲み物を選びます。&#xA;えーっと、どれにしようかな……？" speaker_show="True" stop="True" voice="mm11001_01_0954" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" loop="True" to_idle="False" face_anim_type="002_Facial_smile" force_end="False" />
+    <msg speaker="半蔵門 雪" text="キャラメルマシュマロラテはどう？" speaker_show="True" stop="True" voice="hy11002_01_0637" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="わぁ～、マシュマロにキャラメルソースが&#xA;乗ってて……美味しそうですね。" speaker_show="True" stop="True" voice="mm11001_01_0955" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="私、師匠オススメのこれにします！&#xA;えへへ、楽しみだなあ。" speaker_show="True" stop="True" voice="mm11001_01_0956" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="モモ、今日、こんなにのんびりしたんだから、&#xA;明日はトレーニングメニューを増やすわよ。" speaker_show="True" stop="True" voice="hy11002_01_0638" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="は、はい！　わかりました！" speaker_show="True" stop="True" voice="mm11001_01_0957" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="……今の聞いてた？&#xA;トレーニングメニューを増やすのよ……？" speaker_show="True" stop="True" voice="hy11002_01_0639" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はい。今日、とても楽しかったので、&#xA;そのぶん明日はいつも以上に頑張れそうです。" speaker_show="True" stop="True" voice="mm11001_01_0958" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="……そう。そういうことなら&#xA;女子高生らしい時間を過ごすのも、悪くないわね。" speaker_show="True" stop="True" voice="hy11002_01_0640" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

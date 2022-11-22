@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010701" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="今日もカトリーナさんが作ったカレー、&#xA;美味しそう！　いただきまーす！" speaker_show="True" stop="True" voice="mm11001_01_0997" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="隙ありーーーー！！" speaker_show="True" stop="True" voice="bk11008_01_0249" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="白虎" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <msg speaker="白虎" text="このカレーはいただいたー！" speaker_show="True" stop="True" voice="bk11008_01_0250" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ああっ！&#xA;私のカレー、取らないでよー！" speaker_show="True" stop="True" voice="mm11001_01_0998" />
+    <char_spine_animation obj_id="白虎" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="わはは！　ぱくぱくぱく…" speaker_show="True" stop="True" voice="bk11008_01_0251" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <create_effect effect_id="kirakira" effect_type="EffectKirakira" life_time="1" target_obj="白虎" />
+    <msg speaker="白虎" text="うまーい！" speaker_show="True" stop="True" voice="bk11008_01_0252" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ああ～…私のキーマカレーがぁ～。" speaker_show="True" stop="True" voice="mm11001_01_0999" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="ふふん、お前の師匠の雪がここにいたら、&#xA;隙を見せたお前が悪いと言うはずだ！" speaker_show="True" stop="True" voice="bk11008_01_0253" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="む…確かに。" speaker_show="True" stop="True" voice="mm11001_01_1000" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="あ～あ、でも流石に白虎ちゃんじゃなかったら、&#xA;少しくらい隙を見せても取られないと思う…" speaker_show="True" stop="True" voice="mm11001_01_1001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="白虎ちゃん、やっぱり動きの素早さとか、&#xA;ものすごいし。" speaker_show="True" stop="True" voice="mm11001_01_1002" />
+    <char_spine_animation obj_id="白虎" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="当然だな！&#xA;私は元桃源最強の白虎様だぞ！" speaker_show="True" stop="True" voice="bk11008_01_0254" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" face_anim_type="002_Facial_smile" />
+    <msg speaker="源 モモ" text="ねえ、白虎ちゃんがいた桃源ってどんな場所だったの？&#xA;村人はみんな傭兵だって聞いたけど。" speaker_show="True" stop="True" voice="mm11001_01_1003" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="そうだ、みんな傭兵だ。そんで生まれた時から、&#xA;みんなずーっと戦う訓練ばっかりしてる。" speaker_show="True" stop="True" voice="bk11008_01_0255" />
+    <char_spine_animation obj_id="白虎" face_anim_type="102_Facial_unique" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="白虎" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="ひどい訓練ばっかりだった…&#xA;う…思い出したくない…" speaker_show="True" stop="True" voice="bk11008_01_0256" lip_sync_volume="0.01" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="（あの白虎ちゃんがあんな顔をするなんて…&#xA;いったいどんな訓練をやらされたんだろう？）" speaker_show="True" stop="True" voice="mm11001_01_1004" lip_sync="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="まあでも、訓練は厳しかったが、&#xA;私は同い歳の奴らの中でいつも一番だったんだ！" speaker_show="True" stop="True" voice="bk11008_01_0257" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="だから、この白虎っていう四聖獣の称号も&#xA;もらったんだしな。" speaker_show="True" stop="True" voice="bk11008_01_0258" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="桃源の中でも、特別に強い人の称号なんだよね？" speaker_show="True" stop="True" voice="mm11001_01_1005" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="そうだぞ。桃源の歴史の中でも、&#xA;私の年齢で四聖獣になれたヤツは他にいない！" speaker_show="True" stop="True" voice="bk11008_01_0259" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="まあ、四聖獣は他にも青竜とか玄武とか朱雀とか&#xA;いたけど、戦ったら絶対、私が勝ってたな。" speaker_show="True" stop="True" voice="bk11008_01_0260" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="そういえば村の奴らはどうしてるかなー…。" speaker_show="True" stop="True" voice="bk11008_01_0261" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="桃源に戻りたいって思うこともあるの？" speaker_show="True" stop="True" voice="mm11001_01_1006" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="…ふんっ、あいつら、私を追い出しやがったからな！&#xA;頼まれても、ぜーったい戻ってやるかー！" speaker_show="True" stop="True" voice="bk11008_01_0262" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="私がいなくなったことで、桃源はきっと戦力ダウンだ。&#xA;後悔しても遅いぞ。フクスイ盆踊りだ！" speaker_show="True" stop="True" voice="bk11008_01_0263" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="（覆水盆に返らず…かな）" speaker_show="True" stop="True" voice="mm11001_01_1007" lip_sync="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="それに、ツキカゲも面白い奴らが&#xA;たくさんいて楽しいし。カレーもうまい！" speaker_show="True" stop="True" voice="bk11008_01_0264" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="だから、桃源に戻れなくても、全然大丈夫なんだ。&#xA;第一だな――" speaker_show="True" stop="True" voice="bk11008_01_0265" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="白虎様が加わって、ツキカゲにも&#xA;最強の四聖獣が誕生したからな！" speaker_show="True" stop="True" voice="bk11008_01_0266" />
+    <msg_window_show show="False" />
+    <delete obj_id="源 モモ" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" />
+    <Comment comment="表示：モノミ、ラッパ、カマリ" />
+    <sound type="Se" />
+    <Comment comment="【SE】ジャキーン！" />
+    <wait time="1.0" />
+    <delete obj_id="monitor_monomi" />
+    <delete obj_id="monitor_rappa" />
+    <delete obj_id="monitor_kamari" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="おお、四聖獣のポーズ！" speaker_show="True" stop="True" voice="mm11001_01_1008" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" face_anim_type="003_Facial_laugh" />
+    <msg speaker="白虎" text="わーっはっはっはっは！" speaker_show="True" stop="True" voice="bk11008_01_0267" />
+  </command>
+</adv>

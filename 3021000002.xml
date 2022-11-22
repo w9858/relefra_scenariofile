@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021000002" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="03_tsukikage_007" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" x="-200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ラストコール。&#xA;………ノーモアベット。" speaker_show="True" stop="True" voice="ig11006_03_0048" />
+    <sound type="Se" cue_name="drop_piece" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ああ……惜しい。枠がふたつズレちゃった。&#xA;思った所に投げられるまであと少しだよ。" speaker_show="True" stop="True" voice="ks11010_03_0052" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はい！　もう１度お願いします。" speaker_show="True" stop="True" voice="ig11006_03_0049" />
+    <sound type="Se" cue_name="punch-swing1" />
+    <wait time="1" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" />
+    <char_spine_animation obj_id="源 モモ" force_end="False" loop="True" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" />
+    <msg speaker="源 モモ" text="ルーレット台を用意して練習なんて凄いなぁ。&#xA;でも球を投げて狙った目を出すなんて難しそう…。" speaker_show="True" stop="True" voice="mm11001_03_0071" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="それができないようでは違法カジノの&#xA;ディーラーなんて務まらないわ。" speaker_show="True" stop="True" voice="hy11002_03_0070" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ルーレットは恐らく、数字が規則正しく並んでいる&#xA;アメリカンタイプなので練習も楽な方ですよ。" speaker_show="True" stop="True" voice="ah11005_03_0062" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ルーレットにはマーチンゲール法という、全ての枠に&#xA;同額をベットし続ける攻略法があってね。" speaker_show="True" stop="True" voice="kt11009_03_0076" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="とにかく賭け続ければ儲けは少しずつ出るから&#xA;財力のある客に粘られると赤字になってしまうの。" speaker_show="True" stop="True" voice="kt11009_03_0077" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="でも、タイミングを計って０か00に入れれば&#xA;ディーラーの総取りで違法カジノにはうってつけ。" speaker_show="True" stop="True" voice="hy11002_03_0071" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そう上手くいくかな……。" speaker_show="True" stop="True" voice="tr11007_03_0027" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-300" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="300" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="うん……球を投げてからも賭けて良いルールの場合、&#xA;先にお客さんの癖を見抜く必要があって……難しい。" speaker_show="True" stop="True" voice="ig11006_03_0050" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="深刻に考えないで良いんですよ？　ルーレットで&#xA;大儲けしようなんて、普通は考えませんから。" speaker_show="True" stop="True" voice="ah11005_03_0063" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なんでだ？　映画なんかじゃみんなこの台に集まって&#xA;ギャーギャー大騒ぎしてるじゃないか。" speaker_show="True" stop="True" voice="bk11008_03_0055" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="全部の枠に同じ額を賭け続けて出る儲けなんて&#xA;差額を考えてみれば、僅かなもんだよ。" speaker_show="True" stop="True" voice="ym11003_03_0085" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="それでも負けない事が大事です！&#xA;僅かな額でも勝てば良いじゃないですか。" speaker_show="True" stop="True" voice="sf11004_03_0062" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="違法カジノで遊ぶような人は、それじゃあ&#xA;満足しないでしょうね。" speaker_show="True" stop="True" voice="kt11009_03_0078" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="事実、大負けした人達は全てカードゲームで&#xA;やられたみたいよ。" speaker_show="True" stop="True" voice="hy11002_03_0072" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="カードで……。" speaker_show="True" stop="True" voice="ah11005_03_0064" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <bg file="40_Apartmentni_01" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <telop text="オーナールーム" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="こうして練習を積んだ五恵と初芽は、偽の経歴を作り&#xA;情報網を駆使して、違法カジノとコンタクトをとった。" stop="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" />
+    <sound type="Se" cue_name="card-shuffle" />
+    <wait time="1" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ショーダウン。&#xA;こちらは、ストレートフラッシュです。" speaker_show="True" stop="True" voice="ah11005_03_0065" />
+    <sound type="Se" cue_name="tranp_pera" />
+    <wait time="1" />
+    <msg speaker="オーナー" text="よし。２人とも技術に申し分はないようだ。&#xA;しかし、この経歴書。何故マカオからうちの店に？" speaker_show="True" stop="True" voice="99014_03_0001" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="恥ずかしながら私達には高額の借金がありまして。&#xA;海外の店よりもこちらをと、勧めて頂きました。" speaker_show="True" stop="True" voice="ah11005_03_0066" />
+    <move obj_id="青葉 初芽" position_id="left" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <create type="Character" data_id="311006005" obj_id="石川 五恵" position_id="left" x="100" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="腕があれば、ギャラを弾んでもらえると聞いて&#xA;急いで日本へ戻って来たんです。" speaker_show="True" stop="True" voice="ig11006_03_0051" />
+    <msg speaker="オーナー" text="そうかそうか、マカオにまで俺の名が……フフッ！&#xA;良いだろう。借金があるなら骨惜しみはすまい。" speaker_show="True" stop="True" voice="99014_03_0002" />
+    <msg speaker="オーナー" text="２人とも合格だ。今から店内を見学し、明日から働いて&#xA;もらう。まあ、まずは契約を祝して乾杯といこうか。" speaker_show="True" stop="True" voice="99014_03_0003" />
+    <sound type="Se" cue_name="striking_a_small_stone" />
+    <wait time="1" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="1.5" />
+    <move obj_id="青葉 初芽" position_id="left" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="300" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="はい、オーナー。&#xA;ドリンクをお持ちしま……!?" speaker_show="True" stop="True" voice="th12004_03_0036" />
+    <lip_sync target1="石川 五恵" target2="青葉 初芽" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="初芽・五恵" text="……っ!?" speaker_show="True" stop="True" voice="3021000002_union_001" />
+    <msg speaker="オーナー" text="お前達は店に損が出ないよう、通常のディーラー&#xA;業務をしているだけで良い。よろしく頼むぞ。" speaker_show="True" stop="True" voice="99014_03_0004" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="は、はい……あの、お、お願いします。" speaker_show="True" stop="True" voice="ig11006_03_0053" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="緊張しているみたいね。でも、大丈夫よ。&#xA;とっても働きやすいお店だから。さ……乾杯。" speaker_show="True" stop="True" voice="th12004_03_0037" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="乾杯……。" speaker_show="True" stop="True" voice="ah11005_03_0068" />
+    <sound type="Se" cue_name="glass1" />
+    <wait time="1" />
+    <msg speaker="オーナー" text="ハッハッハ！　美人ディーラーが揃えば&#xA;客も喜んで金を使う。めでたいことだ！" speaker_show="True" stop="True" voice="99014_03_0005" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <wait time="2" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

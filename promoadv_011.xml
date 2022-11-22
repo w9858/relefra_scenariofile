@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_011" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="35_hisuiandyuraroom_01" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="乱獅子 ゆら" data_id="312002002" type="Character" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="乱獅子 ゆら" stop="True" window_type="CharMsg" lip_sync_volume="0.01" text="ん？　なんだ？？" voice="BD_yura_01" />
+    <sound cue_name="Cracker" />
+    <wait time="0.2" />
+    <sound cue_name="Cracker" />
+    <wait time="0.5" />
+    <sound cue_name="Cracker" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" />
+    <msg speaker="乱獅子 ゆら" stop="True" window_type="CharMsg" text="あぁ、そうか。&#xA;今日、10月6日は……アタシ様の誕生日か。" voice="BD_yura_02" />
+    <char_spine_animation obj_id="乱獅子 ゆら" loop="True" body_anim_type="06_ChestLeftHand" face_anim_type="002_Facial_smile" />
+    <msg speaker="乱獅子 ゆら" stop="True" window_type="CharMsg" text="こんな風に祝ってもらうってのもなかなかいい気分だ。&#xA;……ありがとな。" voice="BD_yura_03" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" loop="True" body_anim_type="04_HipLeftHand" mixing="False" />
+    <msg speaker="乱獅子 ゆら" stop="True" window_type="CharMsg" text="大八洲をぬけることになるなんて想像もしてなかったけど、" voice="BD_yura_04" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" stop="True" window_type="CharMsg" text="凪の部隊に入ってから、なんだかんだ楽しいことばっかりだ。&#xA;これも、飛粋のおかげだな。" voice="BD_yura_05" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" mixing="False" />
+    <msg speaker="乱獅子 ゆら" stop="True" window_type="CharMsg" text="これからもアタシ様はアタシ様として突っ走ってくと思うが、&#xA;よろしく頼むぜ。" voice="BD_yura_06" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+    <sound_stop cue_name="Adv6" />
+  </command>
+</adv>

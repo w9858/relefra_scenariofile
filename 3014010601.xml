@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014010601" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <Comment comment="背景：プールがないため仮" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <msg window_type="SystemMsg" text="五恵の誕生日祝いと夏休みの思い出作りのために、&#xA;みんなでプールに遊びにきたツキカゲメンバー達。" stop="True" />
+    <msg window_type="SystemMsg" text="誕生日祝いに、大きなラッコ型の浮き輪を貰った&#xA;五恵は、浮き輪の上でのんびり過ごしていた。" stop="True" />
+    <msg_window_show show="False" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="師匠もみんなもやっぱり凄いなぁ。" speaker_show="True" stop="True" voice="ig11006_02_0239" />
+    <msg speaker="石川 五恵" text="こんなに私好みの可愛いプレゼントを&#xA;見つけてきてくれるなんて……。" speaker_show="True" stop="True" voice="ig11006_02_0240" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="あれ？　そう言えばみんな、&#xA;どこ行っちゃったんだろう。" speaker_show="True" stop="True" voice="ig11006_02_0241" />
+    <msg speaker="石川 五恵" text="師匠と雪先輩は、少し休憩するって&#xA;言ってたけど、モモち達は……。" speaker_show="True" stop="True" voice="ig11006_02_0242" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="アイスでも食べにいったのかな。" speaker_show="True" stop="True" voice="ig11006_02_0243" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="私もちょっとお腹すいてきたけど、せっかく貰った&#xA;この子と、もう少しゆらゆらしてようかな。" speaker_show="True" stop="True" voice="ig11006_02_0244" />
+    <Comment comment="SE:チャプチャプと穏やかな水音" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="ふふ、こんな可愛いラッコちゃんのお腹に乗って&#xA;水の上をゆらゆらできるなんて……" speaker_show="True" stop="True" voice="ig11006_02_0245" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="はぁ～、幸せ。今日も世界が&#xA;平和なことに感謝しなくちゃね。" speaker_show="True" stop="True" voice="ig11006_02_0246" />
+    <delete obj_id="石川 五恵" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="-200" y="0" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="くふふ、ごえちゃん、すっかりラッコちゃんに&#xA;夢中でリラックスしちゃってるねぇ。" speaker_show="True" stop="True" voice="ym11003_02_0572" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="そんなごえちゃんにイタズラしちゃおうだなんて、&#xA;メイちゃんもなかなかのワルだねぇ。" speaker_show="True" stop="True" voice="mm11001_02_0513" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="プレゼント選んでる時に、このイタズラを&#xA;閃いたのはモモちじゃないか。" speaker_show="True" stop="True" voice="ym11003_02_0573" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="モモち、お主もなかなか悪よのぅ。" speaker_show="True" stop="True" voice="ym11003_02_0574" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ふっふっふっ。それじゃあ浮き輪の下に&#xA;潜り込んでミッション開始しちゃおっか。" speaker_show="True" stop="True" voice="mm11001_02_0514" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うん。バシャっとするよ！&#xA;ミッションスタート！" speaker_show="True" stop="True" voice="ym11003_02_0575" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="はぁ～、この優しい揺れ心地、&#xA;ハンモックみたいで気持ちいい。" speaker_show="True" stop="True" voice="ig11006_02_0247" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="なんだか眠くなってきちゃったな～。" speaker_show="True" stop="True" voice="ig11006_02_0248" />
+    <Comment comment="SE:バシャバシャと水の音" />
+    <sound type="Se" />
+    <shake target="Character" obj_id="石川 五恵" x="25" y="0" vibrate="100" time="0.5" wait="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="えっ、えっ!?　なにこれ？&#xA;浮き輪が動き出した！" speaker_show="True" stop="True" voice="ig11006_02_0249" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_unique" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="あわわ、だんだん揺れが強くなってきた。&#xA;な、なにこれ～？" speaker_show="True" stop="True" voice="ig11006_02_0250" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

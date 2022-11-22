@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000005battle" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <create type="Character" anchor="Bottom" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" />
+    <create_effect effect_id="kuri_Aura" effect_type="EffectAura" target_obj="クリッシー" attach_head_bone="False" />
+    <create_effect effect_id="kuri_Aura_F" effect_type="EffectAura_F" target_obj="クリッシー" attach_head_bone="False" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="…やりますね。よもや、このような小さい島国で&#xA;本気を出すことになるとは思いませんでした。" speaker_show="True" stop="True" voice="ks16001_01_0058" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="101_Facial_unique" loop="True" to_idle="False" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="クリッシー" text="改めまして皆さんこんばんわ。リザードの&#xA;クリッシー・ガオです。さぁ死になさい。" speaker_show="True" stop="True" voice="ks16001_01_0059" />
+    <delete obj_id="クリッシー" />
+    <create type="Character" anchor="Bottom" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="017_Facial_shock" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="うおっ！　こいつすげぇオーラだ。&#xA;気をつけろ。さっきまでとは全然違うぜ。" speaker_show="True" stop="True" voice="ry12002_01_0034" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="effect_yura" />
+    <create type="Character" anchor="Bottom" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" />
+    <create_effect effect_id="kuri_Aura" effect_type="EffectAura" target_obj="クリッシー" attach_head_bone="False" />
+    <create_effect effect_id="kuri_Aura_F" effect_type="EffectAura_F" target_obj="クリッシー" attach_head_bone="False" />
+    <create_effect effect_id="effect_kuri" effect_type="EffectShockWave" life_time="3" target_obj="クリッシー" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="全員、金粉で固めて居間に飾って愛でてやる。&#xA;ワタシのレジェンドの礎になりなさい！" speaker_show="True" stop="True" voice="ks16001_01_0060" />
+  </command>
+</adv>

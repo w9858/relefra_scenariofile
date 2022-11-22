@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000027" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="Wasabi　店内　夜" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="～♪" speaker_show="True" stop="True" voice="kt11009_01_0076" lip_sync="False" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="カトリーナさん、お疲れ様です。&#xA;スペシャルカレー、ごちそうさまでした！" speaker_show="True" stop="True" voice="mm11001_01_0407" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="お疲れ様、モモちゃん。" speaker_show="True" stop="True" voice="kt11009_01_0077" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg_window_show show="False" />
+    <move obj_id="源 モモ" position_id="left" x="1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" file="02_wasabini_002" resource_type="Background" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="今日は、任務で結構動けたし、ツキカゲの皆に&#xA;誕生日のお祝いもしてもらえたし、良い日だったな～。" speaker_show="True" stop="True" voice="mm11001_01_0408" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="……それにしても、なんだか生温かい空気……" speaker_show="True" stop="True" voice="mm11001_01_0409" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_096" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg speaker="ドルテ" text="……ミツケタ。" speaker_show="True" stop="True" voice="dt14003_01_0014" speaker_front="False" />
+    <msg speaker="源 モモ" text="……!?" speaker_show="True" stop="True" voice="mm11001_01_0410" />
+    <msg speaker="ドルテ" text="がぁっ！" speaker_show="True" stop="True" voice="dt14003_01_0015" speaker_front="False" />
+    <msg speaker="源 モモ" text="うぐっ……っ！" speaker_show="True" stop="True" voice="mm11001_01_0411" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <Comment comment="Wasabi　店内" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <shake target="Screen" x="10" y="10" time="0.5" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="くあっ……!!" speaker_show="True" stop="True" voice="mm11001_01_0412" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ごほっ、ごほっ!!" speaker_show="True" stop="True" voice="mm11001_01_0413" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="モモちゃん!?" speaker_show="True" stop="True" voice="kt11009_01_0078" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="カ、カトリーナさん、避難して下さい！" speaker_show="True" stop="True" voice="mm11001_01_0414" />
+    <msg_window_show show="False" />
+    <msg speaker="ドルテ" text="イラッシャイマシタ……" speaker_show="True" stop="True" voice="dt14003_01_0016" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="……！&#xA;傭兵ドルテ！" speaker_show="True" stop="True" voice="kt11009_01_0079" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="タフなやつなんです、隠れて!!" speaker_show="True" stop="True" voice="mm11001_01_0415" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="150" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="010_Facial_shy" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="カトリーナさん!?&#xA;そいつに近づいたら危な……" speaker_show="True" stop="True" voice="mm11001_01_0416" />
+    <msg_window_show show="False" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_097" />
+    <msg speaker="カトリーナ" text="はっ!!" speaker_show="True" stop="True" voice="kt11009_01_0080" />
+    <msg speaker="ドルテ" text="うぐっ!?" speaker_show="True" stop="True" voice="dt14003_01_0017" />
+    <msg speaker="源 モモ" text="な、投げ飛ばした!?&#xA;カトリーナさん、強い……！" speaker_show="True" stop="True" voice="mm11001_01_0417" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="元ツキカゲだから。" speaker_show="True" stop="True" voice="kt11009_01_0081" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="こいつは危険ね……始末するわ。" speaker_show="True" stop="True" voice="kt11009_01_0082" />
+    <delete obj_id="カトリーナ" />
+    <msg speaker="ドルテ" text="がぁっ！" speaker_show="True" stop="True" voice="dt14003_01_0018" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="あら、立ち上がれたの。&#xA;……本当にタフね。" speaker_show="True" stop="True" voice="kt11009_01_0083" />
+    <msg speaker="ドルテ" text="ツキカゲ……カジル……！" speaker_show="True" stop="True" voice="dt14003_01_0019" />
+    <msg speaker="ドルテ" text="……!!&#xA;カンジル、サッキ……ダレダ!?" speaker_show="True" stop="True" voice="dt14003_01_0020" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="２度もモモを狙ってくるとは……" speaker_show="True" stop="True" voice="hy11002_01_0213" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="師匠……！" speaker_show="True" stop="True" voice="mm11001_01_0418" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="今度は仕留める。&#xA;覚悟しなさい!!" speaker_show="True" stop="True" voice="hy11002_01_0214" />
+  </command>
+</adv>

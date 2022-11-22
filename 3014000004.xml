@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014000004" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="プール" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <msg window_type="SystemMsg" text="五恵の誕生日" stop="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="凄い……。&#xA;こんな大きなスライダー見たことない！" speaker_show="True" stop="True" voice="ig11006_02_0166" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="スライダーの大きさもだけど、&#xA;プールの種類も沢山ありすぎて……。" speaker_show="True" stop="True" voice="mm11001_02_0439" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="っていうかこの敷地の広さは一体何!?　見渡す限りの&#xA;プール天国！　これ本当にこの世なの？" speaker_show="True" stop="True" voice="ym11003_02_0506" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="たく師匠ってば大げさな……って言いたい所だけど、&#xA;さすがのアタシも驚きました。" speaker_show="True" stop="True" voice="sf11004_02_0440" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="初芽さん、貴重なチケット本当に&#xA;ありがとうございます。" speaker_show="True" stop="True" voice="sf11004_02_0441" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="初芽のお父さんと、そのお友達の&#xA;社長さんにも感謝しなくてはね。" speaker_show="True" stop="True" voice="hy11002_02_0374" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ふふ、そこは遠慮なくで大丈夫ですよ。" speaker_show="True" stop="True" voice="ah11005_02_0339" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="私の一番大事な人のお誕生日を是非このプールで&#xA;お祝いしたいと伝えたんです。そしたら……" speaker_show="True" stop="True" voice="ah11005_02_0340" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="そんな大事な日に来てくれてありがとう、と&#xA;むしろお礼を言われてしまいましたから。" speaker_show="True" stop="True" voice="ah11005_02_0341" />
+    <move obj_id="青葉 初芽" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そ、そんな！　師匠、それから師匠のお父さんと&#xA;そのお友達の方も、ありがとうございます！" speaker_show="True" stop="True" voice="ig11006_02_0167" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="最高の誕生日プレゼントになりました。" speaker_show="True" stop="True" voice="ig11006_02_0168" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ちょっとちょっと、感動のクライマックスには&#xA;早すぎるでしょ？　まだ水着に着替えてもないのに。" speaker_show="True" stop="True" voice="sf11004_02_0442" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="そーそー。そーいう感動の場面は、&#xA;夕暮れの帰り道とかでやるもんでしょ？" speaker_show="True" stop="True" voice="ym11003_02_0507" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そっか……。ごめんごめん、私ったらつい。" speaker_show="True" stop="True" voice="ig11006_02_0169" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ふふ、そんな素直な所もごえちゃんの&#xA;可愛いところですよね。" speaker_show="True" stop="True" voice="ah11005_02_0342" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="師匠……。" speaker_show="True" stop="True" voice="ig11006_02_0170" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="はいはい、感激モードは一旦中止！　ここはプール！&#xA;何はなくとも、水着に着替えるのが先じゃろ？" speaker_show="True" stop="True" voice="ym11003_02_0508" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="メイの言う通りね。&#xA;さ、更衣室に行きましょう。" speaker_show="True" stop="True" voice="hy11002_02_0375" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="はーい！" speaker_show="True" stop="True" voice="mm11001_02_0440" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

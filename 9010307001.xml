@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010307001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv2" volume="0" />
+    <sound_volume type="Bgm" cue_name="Adv2" time="1.0" wait="False" />
+    <bg show="True" file="02_wasabimo_001" />
+    <Comment comment="携帯ゲーム機で遊んでいるメイ。羨ましそうに見ている白虎。" />
+    <Comment comment="【SE】ゲーム操作音" />
+    <sound type="Se" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" force_end="True" loop="True" />
+    <msg speaker="八千代 命" text="よしっ、そこだっ、いけいけっ……！" speaker_show="True" stop="True" voice="ym11003_02_0841" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="じーっ……&#xA;このゲーム、おもしろそうだな……。" speaker_show="True" stop="True" voice="bk11008_02_0237" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なーなーメイ！&#xA;私にもちょっとやらせろよー！" speaker_show="True" stop="True" voice="bk11008_02_0238" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="だーめ。" speaker_show="True" stop="True" voice="ym11003_02_0842" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ちょっとくらいいいだろ、ケチ!!" speaker_show="True" stop="True" voice="bk11008_02_0239" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="102_Facial_unique" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="お⼦様にはまだ早い。" speaker_show="True" stop="True" voice="ym11003_02_0843" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="私はお子様じゃないぞ、白虎様だ！" speaker_show="True" stop="True" voice="bk11008_02_0240" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="……おっ、いけるぞ！&#xA;くらえ必殺技!!" speaker_show="True" stop="True" voice="ym11003_02_0844" />
+    <char_spine_animation obj_id="白虎" face_anim_type="014_Facial_angryStrong" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="白虎" type="Cheek02_medium" loop="True" />
+    <msg speaker="白虎" text="うがー！&#xA;無視するなー！" speaker_show="True" stop="True" voice="bk11008_02_0241" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <shake target="Character" obj_id="白虎" x="50" y="0" vibrate="10" time="0.5" wait="True" />
+    <msg speaker="白虎" text="よこせっ！&#xA;えいえいっ!!" speaker_show="True" stop="True" voice="bk11008_02_0242" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="017_Facial_shock" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <shake target="MsgWindow" x="20" y="20" vibrate="50" time="0.5" wait="False" />
+    <msg speaker="八千代 命" text="あーーーーー!!!!!!!" speaker_show="True" stop="True" voice="ym11003_02_0845" />
+    <char_spine_cheek obj_id="白虎" type="Cheek01_default" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <msg speaker="白虎" text="ふぇっ!?&#xA;な、なんだ!?" speaker_show="True" stop="True" voice="bk11008_02_0243" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="や～られちゃった〜。&#xA;コンティニュー、コンティニューっと。" speaker_show="True" stop="True" voice="ym11003_02_0846" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="白虎" type="Cheek03_strong" loop="True" />
+    <msg speaker="白虎" text="ぐぬぬっ……&#xA;私をおちょくってるな～!?" speaker_show="True" stop="True" voice="bk11008_02_0244" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="102_Facial_unique" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あら。わかった？" speaker_show="True" stop="True" voice="ym11003_02_0847" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="白虎" type="Cheek01_default" loop="True" />
+    <msg speaker="白虎" text="くっ……こうなったら……&#xA;こちょこちょこちょこちょ〜!!" speaker_show="True" stop="True" voice="bk11008_02_0245" />
+    <move obj_id="白虎" position_id="left" x="-0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek02_medium" loop="True" />
+    <msg speaker="八千代 命" text="わひゃっ!?&#xA;こらっ、やめろ〜！" speaker_show="True" stop="True" voice="ym11003_02_0848" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="お!?&#xA;メイ、意外とくすぐり弱いな!?" speaker_show="True" stop="True" voice="bk11008_02_0246" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="こちょこちょこちょこちょ〜!!" speaker_show="True" stop="True" voice="bk11008_02_0247" />
+    <shake target="Character" obj_id="八千代 命" x="20" y="0" vibrate="50" time="0.5" wait="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="021_Facial_exciting" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek03_strong" loop="False" />
+    <msg speaker="八千代 命" text="わひゃひゃひゃひゃっ!!&#xA;ちょっ、やめろってば!!" speaker_show="True" stop="True" voice="ym11003_02_0849" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="Smile_白虎" effect_type="MampSmile" life_time="1.0" target_obj="白虎" x="0" y="0" />
+    <msg speaker="白虎" text="ふはははははは!!&#xA;どうだ、参ったか——" speaker_show="True" stop="True" voice="bk11008_02_0248" />
+    <Comment comment="【SE】がしっと腕を掴む音" />
+    <char_spine_animation obj_id="白虎" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="020_Facial_thinking" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek01_default" loop="False" />
+    <msg speaker="白虎" text="はっ……。" speaker_show="True" stop="True" voice="bk11008_02_0249" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="……メイをくすぐるとは、いい度胸だ……。" speaker_show="True" stop="True" voice="ym11003_02_0850" />
+    <char_spine_animation obj_id="白虎" face_anim_type="017_Facial_shock" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="あ、あわわ……。" speaker_show="True" stop="True" voice="bk11008_02_0250" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="014_Facial_angryStrong" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="ShockWave_mei" effect_type="EffectShockWave" life_time="2.0" target_obj="八千代 命" x="0" y="0" />
+    <msg speaker="八千代 命" text="おらー!!&#xA;くらえ、コブラツイスト!!" speaker_show="True" stop="True" voice="ym11003_02_0851" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <shake target="MsgWindow" x="20" y="20" vibrate="50" time="0.5" wait="False" />
+    <char_spine_eye obj_id="白虎" type="Eye03_tear" loop="True" />
+    <msg speaker="白虎" text="うぎゃあ〜〜〜〜!!&#xA;こいつに⼿出しちゃダメなの忘れてた〜〜〜〜!!" speaker_show="True" stop="True" voice="bk11008_02_0251" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+    <sound_volume type="Bgm" cue_name="Adv2" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

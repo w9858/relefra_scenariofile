@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1002000005" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0.1" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="20_meiandfuhouse_02" />
+    <fade_in time="1.0" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ほらチッチ。遊ぶ時間よ出てきなさい。" speaker_show="True" stop="True" voice="sf11004_01_0045" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="師匠はいないわよ。信さんと話をしにいったから。&#xA;水入らずで。仕方ないことだけどさ。" speaker_show="True" stop="True" voice="sf11004_01_0046" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="こんにちはー。きちゃったフーちゃん。" speaker_show="True" stop="True" voice="mm11001_01_0044" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="はいこれお土産のケーキだよ、楓ちゃん、チッチには&#xA;おやつの鰹節だよ。たまにならいいよね。" speaker_show="True" stop="True" voice="ig11006_01_0018" />
+    <move obj_id="石川 五恵" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="……アンタら、気の使い方が露骨ねぇ。&#xA;もうちょっとうまくやったら？" speaker_show="True" stop="True" voice="sf11004_01_0047" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="私も師匠がテレジアちゃん説得している時&#xA;辛かったから気持ちは分かるよ…。" speaker_show="True" stop="True" voice="ig11006_01_0019" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠は間違った事をしているわけじゃないのに&#xA;寂しさを感じてしまう自分が情けなくて。" speaker_show="True" stop="True" voice="ig11006_01_0020" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="……あ、アタシは完璧だから違うわよ。" speaker_show="True" stop="True" voice="sf11004_01_0048" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ぺろっ。" speaker_show="True" stop="True" voice="mm11001_01_0045" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ひゃっ！　コラ！　舐めるな！" speaker_show="True" stop="True" voice="sf11004_01_0049" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="無理はダメだよ、フーちゃん。&#xA;弟子同士、悩みは言ってよ。" speaker_show="True" stop="True" voice="mm11001_01_0046" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="くぅぅ、まぁ、ちょっとだけ当たってるわ。&#xA;ごえっちが言っている事。" speaker_show="True" stop="True" voice="sf11004_01_0050" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="師匠が自らの師匠と水入らずで話をする。そりゃ、&#xA;戻ってきたばかりだし、そーしたい時もあるでしょ。" speaker_show="True" stop="True" voice="sf11004_01_0051" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="それに口出しするほどアタシは野暮じゃないけど。&#xA;……野暮じゃないけど……。" speaker_show="True" stop="True" voice="sf11004_01_0052" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="うんうん。今夜は三人で遊ぼうフーちゃん。" speaker_show="True" stop="True" voice="mm11001_01_0047" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="色々とボードゲーム持ってきたんだ。&#xA;師匠の部屋から借りてきたこれやろ。" speaker_show="True" stop="True" voice="ig11006_01_0021" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="いいね。スパイ同士のボードゲーム。&#xA;楽しそう！" speaker_show="True" stop="True" voice="mm11001_01_0048" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="受けて立つわよ。コーヒーいれてあげるわ。" speaker_show="True" stop="True" voice="sf11004_01_0053" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="WalkFlooringAway" />
+    <move obj_id="相模 楓" position_id="left" x="1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="2" wait="True" />
+    <delete obj_id="相模 楓" />
+    <msg speaker="相模 楓" text="……ありがと。" speaker_show="True" stop="True" voice="sf11004_01_0054" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="どういたしまして！" speaker_show="True" stop="True" voice="mm11001_01_0049" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="だぁっ！　小声で言ったのをひろうな！！" speaker_show="True" stop="True" voice="sf11004_01_0055" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <bg show="True" file="02_wasabimo_001" />
+    <transition type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <Comment comment="信、私服（夏）の予定" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="…でね、フーってば早く一人前として認めてもらい&#xA;たいからって、張り切っちゃってさぁ。" speaker_show="True" stop="True" voice="ym11003_01_0048" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="高坂 信" text="ふふふ。メイちゃん、フーちゃんの話ばっかりだね。" speaker_show="True" stop="True" voice="ks11010_01_0029" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ありゃそうだった？　まー、一緒に住んでる分、&#xA;そうなっちゃうかなぁ。" speaker_show="True" stop="True" voice="ym11003_01_0049" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="高坂 信" text="どんどん聞かせて。とっても楽しい。&#xA;なんだろ、孫の活躍を聞いている気分だよ。" speaker_show="True" stop="True" voice="ks11010_01_0030" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="師匠、それおばあちゃんじゃん。" speaker_show="True" stop="True" voice="ym11003_01_0049_a" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="高坂 信" text="楽しそうに話すメイちゃんを見るのもとっても幸せ。&#xA;早く戻って、こうして話したかったよ、メイちゃん。" speaker_show="True" stop="True" voice="ks11010_01_0031" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="師匠……。" speaker_show="True" stop="True" voice="ym11003_01_0050" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <bg show="True" file="02_wasabimo_001" color="#000000ff" />
+    <Comment comment="暗黒と指示があるため、黒背景？にする予定" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="Shinsama" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="聞いた今のシン様の発言。大いなる慈愛。&#xA;まさに神。聖書に記しておかなきゃね。" speaker_show="True" stop="True" voice="kt11009_01_0023" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="なんだかそこまで神、神言われると&#xA;本当に凄く思えてきたぞ。高坂信……ゴクリ。" speaker_show="True" stop="True" voice="bk11008_01_0018" />
+  </command>
+</adv>

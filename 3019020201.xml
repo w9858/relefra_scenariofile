@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3019020201" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="秋服がないため、夏服を使用しています。" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="35_hisuiandyuraroom_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="飛粋とゆらの部屋" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="凪の部隊の面々が盛大に催した、ゆらの誕生日&#xA;パーティーが終わった数日後……。" stop="True" />
+    <create obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="0" y="0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="いやぁ、こんなに大量のプレゼント、有難いけど&#xA;置いとく場所がねーんだよな。" speaker_show="True" stop="True" voice="ry12002_02_0211" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="久々に部屋の片付けでもして、&#xA;いらねえモン処分して置き場所作ってみるか。" speaker_show="True" stop="True" voice="ry12002_02_0212" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="まずはタンスの中からだな。" speaker_show="True" stop="True" voice="ry12002_02_0213" />
+    <Comment comment="効果音片付けの音（ガサゴソ）" />
+    <sound type="Se" cue_name="Gasagasa" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="この服は、あんまし着ないし飛粋にでもやるか。&#xA;……うわっ、このジャージ穴空いてんじゃん！" speaker_show="True" stop="True" voice="ry12002_02_0214" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="処分処分……っと。ん？　これ、大八洲師団の頃の&#xA;コスチュームじゃねえか！" speaker_show="True" stop="True" voice="ry12002_02_0215" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="こんな所にしまってたんだなぁ。" speaker_show="True" stop="True" voice="ry12002_02_0216" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="懐かしいな、アタシ様もちょっと前までこの服着て、&#xA;姉さん達と悪いこといっぱいしてたんだよな……。" speaker_show="True" stop="True" voice="ry12002_02_0217" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="けど今は、誕生日を祝ってくれる大切な仲間も&#xA;出来た。アタシ様にはもうあの頃のことは関係ねえ！" speaker_show="True" stop="True" voice="ry12002_02_0218" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="……けどそういえば、凪の部隊に入るまでは、&#xA;姉さん達が誕生日を祝ってくれたんだよな。" speaker_show="True" stop="True" voice="ry12002_02_0219" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="凪のみんなみたいに、ケーキとかご馳走みたいな&#xA;ちゃんとしたお祝いじゃなかったけど。" speaker_show="True" stop="True" voice="ry12002_02_0220" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="020_Facial_thinking" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="姉さん達がアタシ様のこと取り囲んで、「大きく&#xA;なったね」「めでたい」って喜んでくれて……" speaker_show="True" stop="True" voice="ry12002_02_0221" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="まぁ、今思うと、あの喜びは、アタシ様の成長が&#xA;嬉しいって感じじゃなかったのかもしれないけど。" speaker_show="True" stop="True" voice="ry12002_02_0222" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="あぁ、そうだな。「これでやっとゆらにも任務を&#xA;任せられる」とでも思ってたんだろ、どうせ。" speaker_show="True" stop="True" voice="ry12002_02_0223" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="けど、あの頃はそんなお祝いでも&#xA;ちっとは嬉しかったんだよなぁ……。" speaker_show="True" stop="True" voice="ry12002_02_0224" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="はぁ……。" speaker_show="True" stop="True" voice="ry12002_02_0225" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="016_Facial_smileBitter" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="へっ、昔の事じゃねぇか。" speaker_show="True" stop="True" voice="ry12002_02_0226" />
+    <msg speaker="乱獅子 ゆら" text="アタシ様ともあろうモンが、何昔のこと&#xA;思い出してしみじみなんてしちゃってんだよ。" speaker_show="True" stop="True" voice="ry12002_02_0227" />
+    <Comment comment="効果音：ドアが開く音" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="0.5" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ん？　ゆら、何１人で喋ってるの？" speaker_show="True" stop="True" voice="mh12001_02_0210" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ひっ、飛粋！&#xA;いつからそこにいた？" speaker_show="True" stop="True" voice="ry12002_02_0228" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="今、入ってきたとこだけど……。" speaker_show="True" stop="True" voice="mh12001_02_0211" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="そっか。じゃあ別に気にしないでくれ。&#xA;全っ然、大したことじゃねえから。" speaker_show="True" stop="True" voice="ry12002_02_0229" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

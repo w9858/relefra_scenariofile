@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3013000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Adv1" type="Bgm" />
+    <bg file="61_Seasideev_01" show="True" resource_type="Background" />
+    <fade_in type="Default" wait="False" time="0.5" />
+    <telop text="海岸" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="おっしゃー！　着いたぞ～、飛粋！" speaker_show="True" stop="True" voice="ry12002_02_0089" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="わーい！　海も空も真っ青だ！&#xA;素敵～！" speaker_show="True" stop="True" voice="mh12001_02_0149" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <create obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="これ、２人とも。しぶき達は遊びに来た訳じゃ&#xA;ないのじゃぞ。" speaker_show="True" stop="True" voice="ss12003_02_0162" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="けどまあ、今日は任務じゃないんだし、ちょっと位は&#xA;はしゃいでも大丈夫、ですよね？　ヨモギさん。" speaker_show="True" stop="True" voice="th12004_02_0198" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="当たりめーだ！　今日は毎年恒例の&#xA;黒百合女子の臨海学校。" speaker_show="True" stop="True" voice="ty12005_02_0062" />
+    <msg speaker="津守 ヨモギ" text="お前たちだって黒百合の生徒なんだから、&#xA;エンジョイしていいに決まってんだろ？" speaker_show="True" stop="True" voice="ty12005_02_0063" />
+    <delete obj_id="津守 ヨモギ" />
+    <create obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="ヨモギさんがそう言うならば、存分に息抜きを&#xA;するのも悪くはないのう。" speaker_show="True" stop="True" voice="ss12003_02_0163" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そうそう、折角なら思いっきり楽しまなきゃ。&#xA;あれ？　飛粋ちゃん、目がちょっと赤くない？" speaker_show="True" stop="True" voice="th12004_02_0199" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="学校行事でみんなとお泊まりなんて初めてだから、&#xA;興奮しすぎて眠れなかったんですよ～。" speaker_show="True" stop="True" voice="mh12001_02_0150" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="けど、このくらいの寝不足は、&#xA;テンション上がれば平気です！" speaker_show="True" stop="True" voice="mh12001_02_0151" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="轟 葉栖美" />
+    <create obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="飛粋もみんなも、何も知らずに&#xA;随分はしゃいでやがるな。くくく。" speaker_show="True" stop="True" voice="ry12002_02_0090" />
+    <delete obj_id="乱獅子 ゆら" />
+    <transition wait="True" />
+    <create obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <transition type="In" wait="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="さー、お喋りしてる間に、お宿に到着だよん！" speaker_show="True" stop="True" voice="th12004_02_0200" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="とにかく一旦荷物を置くのじゃ。&#xA;ほれ、みんな中へ……。" speaker_show="True" stop="True" voice="ss12003_02_0164" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="は～い！　ゆら、水着に着替えて&#xA;早速海に行ってみよう！" speaker_show="True" stop="True" voice="mh12001_02_0152" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="ちょっと待ちな！　遊びに行く前に&#xA;お前たち４人はこっちに集合だ。" speaker_show="True" stop="True" voice="ty12005_02_0064" />
+    <delete obj_id="津守 ヨモギ" />
+    <create obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="げげっ、何かすっげー嫌な予感が……。" speaker_show="True" stop="True" voice="ry12002_02_0091" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ヨモギさん、凪の４人だけ集合なんて&#xA;何かあったんですか？" speaker_show="True" stop="True" voice="mh12001_02_0153" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="ああ。突然で悪りいが、今からお前たちは&#xA;緊急の任務に当たってもらうぜ。" speaker_show="True" stop="True" voice="ty12005_02_0065" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="ここいらの海で、違法薬物の水揚げをやってる&#xA;集団がいるって情報が入ってよぉ。" speaker_show="True" stop="True" voice="ty12005_02_0066" />
+    <delete obj_id="津守 ヨモギ" />
+    <create obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="それは臨海学校どころではないな。&#xA;直ちに出動の準備をするのじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0165" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そういう事なら、しょーがないね。" speaker_show="True" stop="True" voice="th12004_02_0201" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="宗近 飛粋" text="はい！" speaker_show="True" stop="True" voice="mh12001_02_0154" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="まじかよ……。&#xA;何でこんなタイミングで……。" speaker_show="True" stop="True" voice="ry12002_02_0092" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ゆら？　どうしたの？&#xA;そんなにアワアワしちゃって。" speaker_show="True" stop="True" voice="mh12001_02_0155" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="な、何でもねえよ！　絶対に明日までに&#xA;とっ捕まえよう！　そうしよう！" speaker_show="True" stop="True" voice="ry12002_02_0093" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <create obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="うむ、やる気があるのは良きことじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0166" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="どんな手を使ってでも、ファックスな水揚げ野郎共を&#xA;とっ捕まえて、明日までには帰ってくるぞ！" speaker_show="True" stop="True" voice="ry12002_02_0094" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ゆらちゃん、大丈夫？&#xA;鼻息荒すぎてフンフン言ってるけど。" speaker_show="True" stop="True" voice="th12004_02_0202" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="べ、別にアタシ様は平常心だよ！&#xA;何も隠し事なんてしてねーし。普段通りだ。" speaker_show="True" stop="True" voice="ry12002_02_0095" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="……ふぅん。" speaker_show="True" stop="True" voice="ty12005_02_0067" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="よし、任務は大事だが、学校生活も勿論大事だ。&#xA;明日までに捕まえて帰って来いよ。" speaker_show="True" stop="True" voice="ty12005_02_0068" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

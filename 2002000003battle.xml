@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000003battle" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="背景の指定なし" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="やっべ。警備用の人形がギチギチに&#xA;社長室守ってるね。しかも手強そうなやつ。" speaker_show="True" stop="True" voice="th12004_01_0035" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="どんな場合でも凪の部隊は任務を遂行する。&#xA;無茶をするぞ。突破するのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0082" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="轟 葉栖美" text="……無茶はいつものことだけどね。&#xA;飛粋ちゃん。覚悟決めて行くよ。" speaker_show="True" stop="True" voice="th12004_01_0036" />
+  </command>
+</adv>

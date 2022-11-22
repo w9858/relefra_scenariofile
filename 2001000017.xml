@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000017" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <sound type="Bgm" cue_name="MainTheme" />
+    <Comment comment="コンテナターミナル　出口　夜" />
+    <bg show="True" file="No_066" color="#ffffffff" resource_type="AnimSS" />
+    <msg speaker="源 モモ" text="たぁああーーー!!!!!!" speaker_show="True" stop="True" voice="mm11001_01_0333" lip_sync="True" window_type="CharMsg" speaker_front="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <sound type="Se" cue_name="Slash" />
+    <Comment comment="【SE】刀が頭にクリティカルヒットする音" />
+    <flash count="2" time="0.5" wait="True" />
+    <wait time="1.0" />
+    <sound type="Se" cue_name="KnockDown" />
+    <Comment comment="【SE】バタンと倒れる音" />
+    <wait time="1.0" />
+    <bg file="07_containerni_02" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="安心して、峰打ちだから。" speaker_show="True" stop="True" voice="mm11001_01_0334" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" file="No_067" color="#ffffffff" resource_type="AnimSS" />
+    <msg speaker="相模 楓" text="いや、コレ死んだんじゃない？" speaker_show="True" stop="True" voice="sf11004_01_0163" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="源 モモ" text="えぇっ!?" speaker_show="True" stop="True" voice="mm11001_01_0335" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <bg show="True" file="No_068" color="#ffffffff" resource_type="AnimSS" />
+    <msg speaker="相模 楓" text="待って、脈診るから。&#xA;…………セーフ！" speaker_show="True" stop="True" voice="sf11004_01_0164" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="源 モモ" text="ほっ……。" speaker_show="True" stop="True" voice="mm11001_01_0336" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="MainTheme" volume="0" time="0.5" wait="True" />
+    <bg show="True" file="03_tsukikage_006" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ　菩薩の間" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="早く教えなさい、白虎。貴方の雇い主と、&#xA;私達が来ることを何故察知していたのか。" speaker_show="True" stop="True" voice="hy11002_01_0162" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="偉そうに、私はゼッタイ喋らないぞ！&#xA;べーだ!!" speaker_show="True" stop="True" voice="bk11008_01_0073" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……そう。" speaker_show="True" stop="True" voice="hy11002_01_0163" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="白虎" />
+    <bg show="True" file="No_069" color="#ffffffff" resource_type="AnimSS" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <flash count="1" time="0.5" wait="True" />
+    <msg speaker="白虎" text="うぎゃああああああ!!&#xA;なんで溶鉱炉にぃぃぃぃぃぃ!?" speaker_show="True" stop="True" voice="bk11008_01_0074" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <bg show="True" file="No_070" color="#ffffffff" resource_type="AnimSS" />
+    <msg speaker="半蔵門 雪" text="喋る気になったかしら？&#xA;まだならないようなら、この中に落とすわ。" speaker_show="True" stop="True" voice="hy11002_01_0164" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="白虎" text="うわぁぁぁんこいつ目が本気だぁぁぁぁぁ!!&#xA;喋るぅぅぅぅ!!" speaker_show="True" stop="True" voice="bk11008_01_0075" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="白虎" text="……うぅっ……わ、私の雇い主はぁ……うくっ!?" speaker_show="True" stop="True" voice="bk11008_01_0076" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="半蔵門 雪" text="ちょっと、どうしたの!?&#xA;目を覚ましなさい!!" speaker_show="True" stop="True" voice="hy11002_01_0165" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <bg show="True" file="03_tsukikage_006" color="#ffffffff" resource_type="Background" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="あ、あれ、ここは……？&#xA;……お前ら、誰？" speaker_show="True" stop="True" voice="bk11008_01_0077" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <move obj_id="源 モモ" position_id="left" x="100" x_move_type="MoveTo" wait="True" time="1.0" y="0" y_move_type="MoveValue" />
+    <msg speaker="源 モモ" text="ちょっとごめんね……ぺろっ。" speaker_show="True" stop="True" voice="mm11001_01_0337" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" time="1.0" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="……嘘、ついてないと思います……。" speaker_show="True" stop="True" voice="mm11001_01_0338" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="半蔵門 雪" text="……やられたか。" speaker_show="True" stop="True" voice="hy11002_01_0166" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Base" volume="0" time="0.5" wait="True" />
+    <delete obj_id="白虎" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg show="True" file="No_071" color="#ffffffff" resource_type="AnimSS" />
+    <telop text="九天サイエンス　サイエンス研究室" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <msg speaker="テレジア" text="恐怖心に反応して記憶を消すゼリー……ですか。" speaker_show="True" stop="True" voice="tr11007_01_0102" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="文鳥の女" text="ツキカゲに人形の密輸が防がれ、白虎が&#xA;捕らえられるのは、想定内だったからな。" speaker_show="True" stop="True" voice="bo14001_01_0014" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="文鳥の女" text="だが、同時刻に別の場所で行った薬の密輸は成功した。&#xA;……面白い兵隊も出来上がったしな。" speaker_show="True" stop="True" voice="bo14001_01_0015" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <bg show="True" file="No_072" color="#ffffffff" resource_type="AnimSS" />
+    <msg speaker="？？？" text="……ウツクシイ……ワタシィ……" speaker_show="True" stop="True" voice="dt14003_01_0001" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg speaker="文鳥の女" text="……傭兵ドルテ。&#xA;せいぜい役に立ってもらうとしよう。" speaker_show="True" stop="True" voice="bo14001_01_0016" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv4" volume="0" time="0.5" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <bg show="True" file="03_tsukikage_007" color="#ffffffff" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ　ラボ" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="白虎さんは、ここ最近の記憶が本当に無くなっている&#xA;ようです。でも、手がかりはしっかり見つけました。" speaker_show="True" stop="True" voice="ah11005_01_0103" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="彼女の足の裏に付着していた砂を分析したところ、&#xA;街に１つしかないビーチバレー用の砂と判明しました。" speaker_show="True" stop="True" voice="ah11005_01_0104" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="ビーチバレーの施設といえば……&#xA;ソラサキマリエンね。" speaker_show="True" stop="True" voice="hy11002_01_0167" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="ええ。マリエンビルは、製薬会社九天サイエンスの&#xA;所有物。社員しか使えない施設です。" speaker_show="True" stop="True" voice="ah11005_01_0105" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="……九天サイエンス……" speaker_show="True" stop="True" voice="mm11001_01_0339" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <move obj_id="源 モモ" position_id="left" x="-125" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="よく白虎を捕らえたわ、モモ。" speaker_show="True" stop="True" voice="hy11002_01_0168" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="08_MouthBothHands" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="……！" speaker_show="True" stop="True" voice="mm11001_01_0340" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="……モモちのこと、今まで馬鹿にしすぎたかもね。&#xA;今後は少し馬鹿にする程度でいくわ、ピーチちゃ～ん♪" speaker_show="True" stop="True" voice="sf11004_01_0165" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" face_anim_type="009_Facial_blush" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="気にしないで、モモち。&#xA;これも、楓ちゃんなりのコミュニケーションだから。" speaker_show="True" stop="True" voice="ig11006_01_0110" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="……２人とも、今回は本当にありがとう。" speaker_show="True" stop="True" voice="mm11001_01_0341" speaker_front="True" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="（お父さん……私、ちょっとだけど、町を護れたよ。&#xA;これからもツキカゲとして滾っていくね）" speaker_show="True" stop="True" voice="mm11001_01_0342" speaker_front="True" lip_sync="False" window_type="CharMsg" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

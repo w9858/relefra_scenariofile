@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3024000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="67_library" />
+    <sound cue_name="Briefing" type="Bgm" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="図書館" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-300" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そいつがしている指輪を見てみなさい。&#xA;どこかで見た覚えがあるでしょう？" speaker_show="True" stop="True" voice="hy11002_03_0209" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="え……？　う～ん………ああっ！　こ、これ&#xA;招待状についてた封蝋の紋章と同じ！" speaker_show="True" stop="True" voice="mm11001_03_0301" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そう。ニコラスは科学者だったのね……。&#xA;さあ、早く内容を読んでみましょう。" speaker_show="True" stop="True" voice="hy11002_03_0210" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <bg file="22_plant_02" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <telop text="コンピュータールーム" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="青葉 初芽" text="手こずりましたが、やっと最後のプロテクトが&#xA;解除できました。中身を確認していきます！" speaker_show="True" stop="True" voice="ah11005_03_0158" />
+    <sound type="Se" cue_name="MachineSound" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="0" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="え……なっ、何よこれ……膨大な画像と動画。&#xA;し、しかもその全てが……笑顔の子供!?" speaker_show="True" stop="True" voice="kt11009_03_0115" />
+    <msg speaker="青葉 初芽" text="ああっ!?　師匠、こ、これを！" speaker_show="True" stop="True" voice="ah11005_03_0159" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="な……な……！　こ、こ、これは……&#xA;し、し、シン様ぁああーーーーーっ!?" speaker_show="True" stop="True" voice="kt11009_03_0116" />
+    <sound cue_name="THUNDER_Clap_Rumble_03_stereo" type="Se" />
+    <wait time="1.0" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <bg file="64_party" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <telop text="パーティ会場" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="ニコラス" data_id="398010001" position_id="left" x="-400" />
+    <msg speaker="ニコラス" text="次は……おお、白虎ちゃんだね？&#xA;さあ、おいで。メリークリスマス♪" speaker_show="True" stop="True" voice="nk99012_03_0010" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="300" />
+    <create_effect effect_id="smile" effect_type="MampSmile" target_obj="白虎" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おー！　メリクリメリクリ！&#xA;サンタさん、プレゼントくれ♪" speaker_show="True" stop="True" voice="bk11008_03_0114" />
+    <delete obj_id="smile" />
+    <msg speaker="ニコラス" text="ホゥホゥホゥ♪　まずは膝に乗って&#xA;お話を聞かせておくれ。さ、ここへ。" speaker_show="True" stop="True" voice="nk99012_03_0011" />
+    <move obj_id="白虎" position_id="left" x="-300" x_move_type="MoveTo" time="1.0" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1.0" />
+    <sound type="Se" cue_name="Pofu" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="白虎" text="話ってどんな話だ？　うおっ、すごいな！&#xA;このヒゲ、本物じゃないか！" speaker_show="True" stop="True" voice="bk11008_03_0115" />
+    <sound type="Se" cue_name="SlashDamageHeavy" />
+    <wait time="0.5" />
+    <msg speaker="ニコラス" text="い、いたた……良い子な上に元気も良い。&#xA;白虎ちゃんはダブル良い子で素晴らしい。" speaker_show="True" stop="True" voice="nk99012_03_0012" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ヒゲが本物ってことは、この腹も自腹か？&#xA;少し痩せないと早死にするぞ？　えい！" speaker_show="True" stop="True" voice="bk11008_03_0116" />
+    <sound cue_name="BlowDamagePunch" />
+    <wait time="0.5" />
+    <msg speaker="ニコラス" text="おふう…っ！　プ、プレゼントをあげよう。&#xA;つ、次の良い子……さあ、こっちへ。" speaker_show="True" stop="True" voice="nk99012_03_0013" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="白虎" text="イェーイ、やったー♪" speaker_show="True" stop="True" voice="bk11008_03_0117" />
+    <move obj_id="白虎" position_id="left" x="1000" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1.0" />
+    <delete obj_id="白虎" />
+    <create obj_id="高坂 信" data_id="311010012" position_id="left" x="300" type="Character" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="白虎ちゃんは袋に入れられなかった……。&#xA;どういうことなんだろう……？" speaker_show="True" stop="True" voice="ks11010_03_0114" lip_sync="False" />
+    <msg speaker="ニコラス" text="おお、高坂信ちゃん。メリークリスマス♪&#xA;さあ、膝に乗ってお話を聞かせておくれ。" speaker_show="True" stop="True" voice="nk99012_03_0014" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あ、はい……失礼します。" speaker_show="True" stop="True" voice="ks11010_03_0115" />
+    <move obj_id="高坂 信" position_id="left" x="-300" x_move_type="MoveTo" time="1.5" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あの……ニコラスさん。お腹、大丈夫ですか？&#xA;今のパンチ、すごく痛かったんじゃ……。" speaker_show="True" stop="True" voice="ks11010_03_0116" />
+    <msg speaker="ニコラス" text="ありがとう。私は大丈夫だよ。&#xA;信ちゃんは優しくて可愛いねぇ。よしよし。" speaker_show="True" stop="True" voice="nk99012_03_0015" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="アハ…ハ、抱っこなんて久しぶりで……&#xA;少し恥ずかしい……。" speaker_show="True" stop="True" voice="ks11010_03_0117" />
+    <msg speaker="ニコラス" text="そうなのかい？　こんなに可愛いのに&#xA;どうして誰も抱っこしてくれないのかな？" speaker_show="True" stop="True" voice="nk99012_03_0016" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="それは、だって……もう子供じゃないから。" speaker_show="True" stop="True" voice="ks11010_03_0118" />
+    <msg speaker="ニコラス" text="ホゥホゥホゥ♪　大人ぶりたいお年頃だね？&#xA;信ちゃんは、今年いくつになったんだい？" speaker_show="True" stop="True" voice="nk99012_03_0017" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="ase" effect_type="MampSweat" target_obj="高坂 信" />
+    <msg speaker="高坂 信" text="えっと、それはその～………" speaker_show="True" stop="True" voice="ks11010_03_0119" />
+    <delete obj_id="ase" />
+    <msg speaker="ニコラス" text="ん～？　恥ずかしいかな？　ホゥホゥホゥ。&#xA;じゃあ、私のお耳にナイショで言ってごらん♪" speaker_show="True" stop="True" voice="nk99012_03_0018" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="わ、わかりました……………コショコショ。" speaker_show="True" stop="True" voice="ks11010_03_0120" />
+    <msg speaker="ニコラス" text="んん～～？　………え？" speaker_show="True" stop="True" voice="nk99012_03_0019" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="テヘッ♪" speaker_show="True" stop="True" voice="ks11010_03_0121" />
+    <delete obj_id="高坂 信" />
+    <char_spine_animation obj_id="ニコラス" face_anim_type="102_Facial_unique" force_end="False" loop="True" />
+    <msg speaker="ニコラス" text="てめえーーーー！&#xA;大人じゃねえかぁあああーーーーーっ!!!!" speaker_show="True" stop="True" voice="nk99012_03_0020" />
+    <sound type="Se" cue_name="Explosion1" />
+    <wait time="1.0" />
+    <delete obj_id="ニコラス" />
+    <create type="Character" obj_id="白虎" data_id="311007009" position_id="left" x="-120" />
+    <create type="Character" obj_id="高坂 信" data_id="311010012" position_id="left" x="200" />
+    <lip_sync target1="白虎" target2="高坂 信" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="白虎・信" text="ええええーーーっ!?" speaker_show="True" stop="True" voice="3024000006_union_001" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop />
+  </command>
+</adv>

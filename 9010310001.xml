@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010310001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" volume="0" />
+    <sound_volume type="Bgm" cue_name="Adv6" volume="100" time="1.0" wait="False" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <Comment comment="【SE】ギターの演奏音" />
+    <sound type="Se" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="True" loop="True" />
+    <msg speaker="八千代 命" text="はいっ！&#xA;今のが新曲でした～！" speaker_show="True" stop="True" voice="ym11003_02_0903" />
+    <Comment comment="【SE】一人分の拍手の音" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="やっぱりメイちゃんの弾き語りは最高だね～。&#xA;ずっと聴いてたいくらいだよ。" speaker_show="True" stop="True" voice="ks11010_02_0372" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ふっふっふっ～。&#xA;レパートリーもかなり増えたよ。" speaker_show="True" stop="True" voice="ym11003_02_0904" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="師匠が向こうに行ってる間、&#xA;ずっと駅前で弾き語りしてたからね！" speaker_show="True" stop="True" voice="ym11003_02_0905" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="うんうん、モモちゃんたちから聞いたよ～。" speaker_show="True" stop="True" voice="ks11010_02_0373" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="へ？ そなの？" speaker_show="True" stop="True" voice="ym11003_02_0906" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うん。&#xA;このあいだ、弟子の３人とお話したんだ。" speaker_show="True" stop="True" voice="ks11010_02_0374" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="メイちゃん、ギターの腕もさらに上がったし、&#xA;情報収集にもとっても役に立ってるって。" speaker_show="True" stop="True" voice="ks11010_02_0375" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="すごいね！&#xA;メイちゃんは、ほんとに信の自慢の弟子だよ！" speaker_show="True" stop="True" voice="ks11010_02_0376" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek02_medium" loop="True" />
+    <msg speaker="八千代 命" text="えっへん！&#xA;まあね～。" speaker_show="True" stop="True" voice="ym11003_02_0907" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="それに、弟子の３人もとっても良い子たちだよねぇ。" speaker_show="True" stop="True" voice="ks11010_02_0377" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek01_default" loop="True" />
+    <msg speaker="高坂 信" text="実は、みんなに会う前は「どんな子なのかな」って&#xA;ちょっとだけ不安だったんだ。" speaker_show="True" stop="True" voice="ks11010_02_0378" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="でも、会ってみたら、３人ともすごく優しい子で、&#xA;信、大好きになっちゃった。" speaker_show="True" stop="True" voice="ks11010_02_0379" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="……ふ～ん。" speaker_show="True" stop="True" voice="ym11003_02_0908" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" lip_sync="False" text="（む～……&#xA;なんか、ちょっぴりおもしろくないな～……）" speaker_show="True" stop="True" voice="ym11003_02_0909" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="八千代 命" lip_sync="False" text="（いやいや、弟子相手にやきもちなんて&#xA;カッコ悪い……）" speaker_show="True" stop="True" voice="ym11003_02_0910" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="八千代 命" lip_sync="False" text="（……でも……む～……）" speaker_show="True" stop="True" voice="ym11003_02_0911" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="015_Facial_poker" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="…………。" speaker_show="True" stop="True" voice="ks11010_02_0380" lip_sync="False" />
+    <move obj_id="高坂 信" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="メイちゃん、なでなで。" speaker_show="True" stop="True" voice="ks11010_02_0381" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek02_medium" loop="True" />
+    <msg speaker="八千代 命" text="なっ、何？&#xA;なんでいきなり頭撫でるの、ししょー？" speaker_show="True" stop="True" voice="ym11003_02_0912" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <move obj_id="高坂 信" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <msg speaker="高坂 信" text="んーん。&#xA;なんでもないよ。" speaker_show="True" stop="True" voice="ks11010_02_0382" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ただ、メイちゃんは良い子だなーって思って。" speaker_show="True" stop="True" voice="ks11010_02_0383" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="…………。" speaker_show="True" stop="True" voice="ym11003_02_0913" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek01_default" loop="True" />
+    <msg speaker="八千代 命" lip_sync="False" text="（……ほんと、師匠には敵わないなー……）" speaker_show="True" stop="True" voice="ym11003_02_0914" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <create_effect effect_id="Smile_mei" effect_type="MampSmile" life_time="1.0" target_obj="八千代 命" x="0" y="0" />
+    <msg speaker="八千代 命" text="よーし、今日は師匠のための特別ライブだよ！&#xA;なんでもリクエストして！" speaker_show="True" stop="True" voice="ym11003_02_0915" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <create_effect effect_id="Smile_sin" effect_type="MampSmile" life_time="1.0" target_obj="高坂 信" x="0" y="0" />
+    <msg speaker="高坂 信" text="うん！&#xA;いっぱい聴かせてね、メイちゃん！" speaker_show="True" stop="True" voice="ks11010_02_0384" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <sound_volume type="Bgm" cue_name="Adv6" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000040104" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="一部のキャラクターイラストと背景は仮の物を使用" />
+    <bg show="True" resource_type="Background" file="44_raimuhouseni_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="敷島ビル最上階" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="敷島 来夢" text="ふぅ……。社長の夜は１杯のブランデーで&#xA;締めくくられる。ゴク……くぅ～効く！" speaker_show="True" stop="True" voice="sr13001_02_0648" />
+    <char_spine_animation obj_id="敷島 真留瀬" force_end="False" loop="True" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="敷島 真留瀬" text="お姉様、そろそろお休みになられないと&#xA;お身体に障りますわ……。" speaker_show="True" stop="True" voice="sm13002_02_0266" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" />
+    <msg speaker="敷島 来夢" text="そうね……。お身体に触らないと&#xA;お休みにはなられないわよね。" speaker_show="True" stop="True" voice="sr13001_02_0649" />
+    <char_spine_animation obj_id="敷島 真留瀬" force_end="False" loop="True" face_anim_type="001_Facial_blink" body_anim_type="13_Question" />
+    <msg speaker="敷島 真留瀬" text="はい……え？" speaker_show="True" stop="True" voice="sm13002_02_0267" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="018_Facial_smug" body_anim_type="11_Point" />
+    <msg speaker="敷島 来夢" text="カモーン、ライムガールズー！" speaker_show="True" stop="True" voice="sr13001_02_0650" />
+    <sound type="Se" cue_name="DoorOpenStrong" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1" />
+    <msg speaker="来夢ガールズＡ・Ｂ・Ｍ・Ｗ・Ｚ" text="来夢様ぁーーーー♪" speaker_show="True" stop="True" voice="4000040104_union_001" />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv2" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="018_Facial_smug" body_anim_type="24_bodyUnique" />
+    <msg speaker="敷島 来夢" text="来たわねーーー子猫ちゃん達！&#xA;私に癒しを～～♪" speaker_show="True" stop="True" voice="sr13001_02_0651" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <msg speaker="来夢ガールズＡ" text="いやぁ～ん！&#xA;来夢様ぁん、もっとぉ～♪" speaker_show="True" stop="True" voice="ra13003_02_0024" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <msg speaker="来夢ガールズＭ" text="オオフッ！&#xA;モムッ、モメバッ、モムトキッ♪" speaker_show="True" stop="True" voice="rb13005_02_0013" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <msg speaker="来夢ガールズＷ" text="ふおぉぉ！&#xA;やぶさかではないエエ感じじゃ～♪" speaker_show="True" stop="True" voice="rw13006_02_0016" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <msg speaker="来夢ガールズＺ" text="あ…っ！&#xA;そんな…っ、らめ…っ♪" speaker_show="True" stop="True" voice="rz13007_02_0020" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="敷島 来夢" text="はぁ～、これぞまさにリフレッシュ♪&#xA;生きる活力、最高級の癒し！" speaker_show="True" stop="True" voice="sr13001_02_0652" />
+    <char_spine_animation obj_id="敷島 真留瀬" force_end="False" loop="True" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="敷島 真留瀬" text="お姉様、部下にハレンチはおやめください。&#xA;昨今、セクハラ問題がうるさいのですから。" speaker_show="True" stop="True" voice="sm13002_02_0268" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="敷島 来夢" text="今は終業後でしょ。業務時間外のハレンチは&#xA;自由ハレンチでセクハラ対象外なのよ。" speaker_show="True" stop="True" voice="sr13001_02_0653" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="敷島 真留瀬" text="いえ、そんな爽やかに『自由恋愛』みたいに&#xA;言い放たれましても……。" speaker_show="True" stop="True" voice="sm13002_02_0269" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="021_Facial_exciting" body_anim_type="24_bodyUnique" />
+    <msg speaker="敷島 来夢" text="マルよ。愛しの麗しの妹君よ。そちも我の&#xA;癒しとなって身悶えておくれ～♪" speaker_show="True" stop="True" voice="sr13001_02_0654" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" />
+    <move obj_id="敷島 来夢" x="-150" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <char_spine_cheek obj_id="敷島 真留瀬" type="Cheek03_strong" loop="True" />
+    <char_spine_animation obj_id="敷島 真留瀬" force_end="False" loop="True" face_anim_type="019_Facial_damage" body_anim_type="07_ChestBothHands" />
+    <msg speaker="敷島 真留瀬" text="や、ちょっ、私はそんなつもりでは…&#xA;お姉さ…っ、はふぅん！" speaker_show="True" stop="True" voice="sm13002_02_0270" />
+    <char_spine_animation obj_id="アミィ" force_end="False" loop="True" body_anim_type="13_Question" />
+    <msg speaker="アミィ" text="……………マスターのリフレッシュとは&#xA;他者の身体に触ることだったでありまするか。" speaker_show="True" stop="True" voice="am13002_02_0136" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" />
+    <create_effect effect_id="raimu01" effect_type="MampSmile" life_time="2.0" target_obj="敷島 来夢" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="敷島 来夢" text="そうそう。良いよ～、胸やお尻の絶妙な弾力は&#xA;ストレスを全部消し去ってくれるからね～。" speaker_show="True" stop="True" voice="sr13001_02_0655" />
+    <delete obj_id="raimu01" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 真留瀬" force_end="False" loop="True" face_anim_type="019_Facial_damage" />
+    <msg speaker="敷島 真留瀬" text="あぁぁ、そ、そんなこと仰って、ふゃん！&#xA;は、激しく揉みす…はわわぁぁ♪" speaker_show="True" stop="True" voice="sm13002_02_0271" />
+    <msg speaker="アミィ" text="なるほど。そのために、これほど多くの柔かボディを&#xA;周囲に配置しておられると。" speaker_show="True" stop="True" voice="am13002_02_0137" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="しかし、生身の人間達ではマスターのストレスを&#xA;受けるのにも限度があるとみえまする。" speaker_show="True" stop="True" voice="am13002_02_0138" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" />
+    <msg speaker="来夢ガールズＡ・Ｂ・Ｍ・Ｗ・Ｚ" text="ふにゃぁ～～～ん……♪" speaker_show="True" stop="True" voice="4000040104_union_002" />
+    <char_spine_animation obj_id="敷島 真留瀬" force_end="False" loop="True" body_anim_type="06_ChestLeftHand" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="敷島 真留瀬" text="はふぅ……。こ、これがお姉様のリフレッシュなら&#xA;し、仕方ありません……わね。あぁ…ぁ、ガクッ。" speaker_show="True" stop="True" voice="sm13002_02_0272" />
+    <char_spine_cheek obj_id="敷島 真留瀬" loop="True" />
+    <delete obj_id="敷島 真留瀬" />
+    <move obj_id="敷島 来夢" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="アミィ" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="アミィ" force_end="False" loop="True" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="アミィ" text="…………マスター。かくなる上はアミィのボディも&#xA;存分に、お触りくださりませ。" speaker_show="True" stop="True" voice="am13002_02_0139" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="011_Facial_surprise" />
+    <msg speaker="敷島 来夢" text="え。" speaker_show="True" stop="True" voice="sr13001_02_0656" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="装甲の硬い部分もござりまするが、胸部及び臀部は&#xA;とてつもなく柔か仕様となっております故。" speaker_show="True" stop="True" voice="am13002_02_0140" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" />
+    <msg speaker="敷島 来夢" text="そうよ。そういう風に私が作ったんだもの。&#xA;敷島の技術の粋を尽くし、巨額の予算を投じて。" speaker_show="True" stop="True" voice="sr13001_02_0657" />
+    <char_spine_animation obj_id="アミィ" force_end="False" loop="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="アミィ" text="マスターのためなら、このアミィ。ボディ全てを&#xA;捧げても惜しくはないのでありまする。ささ。" speaker_show="True" stop="True" voice="am13002_02_0141" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" force_end="False" loop="True" face_anim_type="003_Facial_laugh" body_anim_type="24_bodyUnique" />
+    <msg speaker="敷島 来夢" text="……………ふっ、ありがとうアミィ。私はこんな&#xA;素晴らしい女の子達に囲まれて幸せ者だわ♪" speaker_show="True" stop="True" voice="sr13001_02_0658" />
+    <msg_window_show />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound_stop cue_name="Adv2" />
+  </command>
+</adv>

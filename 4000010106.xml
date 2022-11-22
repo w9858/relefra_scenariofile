@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010106" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="01_school1mo_005" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="じゃ、私、結愛、凪ちゃんチームと&#xA;メイちゃん、ごえちゃんチームってことで。" speaker_show="True" stop="True" voice="mm11001_01_0889" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="オッケー、それでやってみよっか！&#xA;で、最初のサーブはどっち？" speaker_show="True" stop="True" voice="ym11003_01_0598" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="それはやっぱり……。" speaker_show="True" stop="True" voice="mm11001_01_0890" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="やっぱり？" speaker_show="True" stop="True" voice="ym11003_01_0599" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="はい、じゃんけんぽん！" speaker_show="True" stop="True" voice="mm11001_01_0891" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <create_effect effect_id="mei_Sweat" effect_type="MampSweat" life_time="1.0" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="わわっ、不意打ち～。&#xA;もう、モモちヒキョーだぞ！" speaker_show="True" stop="True" voice="ym11003_01_0600" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="えへへ、勝ちは勝ちだよ。&#xA;じゃ、こっちからね……そーれ！" speaker_show="True" stop="True" voice="mm11001_01_0892" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="もう……正義は絶対勝つんだからね！&#xA;えーいっ！" speaker_show="True" stop="True" voice="ym11003_01_0601" />
+    <Comment comment="SE_バレーーボールをトス" />
+    <sound type="Se" cue_name="Spike" volume="51" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="畠山 結愛" data_id="399001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="北斗 凪" data_id="399002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="畠山 結愛" text="あ……凪ちゃん！&#xA;そっちにボールが行ったよ！" speaker_show="True" stop="True" voice="ha99001_01_0017" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="北斗 凪" text="わわっ……！　ど、どうしよう！" speaker_show="True" stop="True" voice="hn99002_01_0019" />
+    <move obj_id="畠山 結愛" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="北斗 凪" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="はいはーい！　凪ちゃん、私に任せて！&#xA;……はい！" speaker_show="True" stop="True" voice="mm11001_01_0893" />
+    <shake target="Character" obj_id="源 モモ" x="20" vibrate="10" time="0.5" />
+    <sound type="Se" cue_name="Spike" volume="50" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="001_Facial_blink" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="北斗 凪" text="す、すごい……！&#xA;あんなボールを拾うなんて……。" speaker_show="True" stop="True" voice="hn99002_01_0020" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="畠山 結愛" text="モモちって、こんなにバレー上手かったっけ。&#xA;ちょっと意外だったな……。" speaker_show="True" stop="True" voice="ha99001_01_0018" />
+    <delete obj_id="畠山 結愛" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="北斗 凪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="く……だったら……。&#xA;これでどうだ！　モモち！" speaker_show="True" stop="True" voice="ym11003_01_0602" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <sound type="Se" cue_name="Spike" volume="51" />
+    <msg speaker="源 モモ" text="なんの！　それなら私も……。&#xA;メイちゃんにアターック！" speaker_show="True" stop="True" voice="mm11001_01_0894" />
+    <shake target="Character" obj_id="八千代 命" x="20" vibrate="10" time="0.5" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <sound type="Se" cue_name="Spike" />
+    <msg speaker="八千代 命" text="まだまだ～！&#xA;でも、モモち、なかなかやるね！" speaker_show="True" stop="True" voice="ym11003_01_0603" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="畠山 結愛" data_id="399001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="北斗 凪" data_id="399002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="な、なんだか……。&#xA;ふたりで打ち合ってるみたいだね。" speaker_show="True" stop="True" voice="ig11006_01_0510" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="畠山 結愛" text="本当にねえ。&#xA;このぶんじゃ、私たちいらないんじゃない？" speaker_show="True" stop="True" voice="ha99001_01_0019" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="北斗 凪" text="それならそれで、私はいいけど……。" speaker_show="True" stop="True" voice="hn99002_01_0021" />
+    <delete obj_id="畠山 結愛" />
+    <delete obj_id="北斗 凪" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="だったらメイもモモちに……と見せかけて、&#xA;凪ちゃんにフロムソラサキウィズラブアターック！&#xA;//スパイ映画007より" speaker_show="True" stop="True" voice="ym11003_01_0604" />
+    <shake target="Character" obj_id="八千代 命" x="20" vibrate="10" time="0.5" />
+    <sound type="Se" cue_name="Spike" volume="51" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="な、長っ……！　って何そのネーミング……！" speaker_show="True" stop="True" voice="mm11001_01_0895" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="北斗 凪" data_id="399002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="北斗 凪" text="なんて言ってる場合じゃ……!!" speaker_show="True" stop="True" voice="hn99002_01_0022" />
+    <delete obj_id="北斗 凪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="よし、もらった！" speaker_show="True" stop="True" voice="ym11003_01_0605" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <move obj_id="源 モモ" x="-100" x_move_type="MoveTo" time="0.3" />
+    <msg speaker="源 モモ" text="そうはさせない！" speaker_show="True" stop="True" voice="mm11001_01_0896" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

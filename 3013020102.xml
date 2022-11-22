@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3013020102" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Adv1" type="Bgm" />
+    <bg file="21_island_01" show="True" resource_type="Background" />
+    <fade_in />
+    <telop text="海岸" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create obj_id="乱獅子 ゆら" data_id="312002007" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="宗近 飛粋" data_id="312001008" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="イソギンチャクって食えるのか？&#xA;初めて聞いたぞ。" speaker_show="True" stop="True" voice="ry12002_02_0127" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="種類によるんだけどね。食べれるのは&#xA;食べれるんだよ！" speaker_show="True" stop="True" voice="mh12001_02_0177" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="へ、へぇ～、あんまり食べたくはねぇな……。" speaker_show="True" stop="True" voice="ry12002_02_0128" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="宗近 飛粋" text="そう？　貝みたいな味と食感で美味しいんだよ。" speaker_show="True" stop="True" voice="mh12001_02_0178" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="へ、へぇ。そうなのか……。" speaker_show="True" stop="True" voice="ry12002_02_0129" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="015_Facial_poker" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="けど、あのヌメヌメしたヤツを食べるんだろ？&#xA;勇気いるよな。" speaker_show="True" stop="True" voice="ry12002_02_0130" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ヌメリは塩をかけてもみ洗いをすれば&#xA;気にならなくなるから大丈夫！" speaker_show="True" stop="True" voice="mh12001_02_0179" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="そ、そうなんだ……。&#xA;あと、あの磯臭いのもちょっとな。" speaker_show="True" stop="True" voice="ry12002_02_0131" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="それは熱湯に入れてさっと茹でこぼして&#xA;水洗いすればなくなるし！" speaker_show="True" stop="True" voice="mh12001_02_0180" />
+    <msg speaker="宗近 飛粋" text="下ごしらえさえちゃんとやれば、唐揚げとか&#xA;煮物とか色んな料理に使えるんだよ！" speaker_show="True" stop="True" voice="mh12001_02_0181" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="へ、へぇ……。" speaker_show="True" stop="True" voice="ry12002_02_0132" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="あ、でも似たような形で毒を持ってる種類も&#xA;あるから、注意が必要なんだよね～。" speaker_show="True" stop="True" voice="mh12001_02_0182" />
+    <msg speaker="宗近 飛粋" text="まぁ、その辺はちゃんと勉強して種類を&#xA;覚えておけば問題ないんだけど。" speaker_show="True" stop="True" voice="mh12001_02_0183" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="そんなに頑張ってまで、食べたいモンじゃ&#xA;ないけどな……。" speaker_show="True" stop="True" voice="ry12002_02_0133" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="うーん、たしかにここの海は、他に美味しくて&#xA;安全な海の幸がいっぱいだからね。" speaker_show="True" stop="True" voice="mh12001_02_0184" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="そうなのか？" speaker_show="True" stop="True" voice="ry12002_02_0134" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="さっき見た小魚は、串に刺して丸焼きに&#xA;するだけでも美味しいし。" speaker_show="True" stop="True" voice="mh12001_02_0185" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="あと、あっちの岩場にいたヤドカリとかは、&#xA;素揚げにするとサクサクで美味しいんだよね～。" speaker_show="True" stop="True" voice="mh12001_02_0186" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="それから、その辺に生えてるワカメ、とれたては&#xA;食感も香りも最高だからオススメだよー！" speaker_show="True" stop="True" voice="mh12001_02_0187" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="飛粋と一緒なら、どこででも&#xA;生きていけそうだよ、ホント。" speaker_show="True" stop="True" voice="ry12002_02_0135" />
+  </command>
+</adv>

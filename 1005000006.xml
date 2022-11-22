@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1005000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM19_Adv7" />
+    <sound type="Bgm" cue_name="Adv7" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="34_sakasatower_01" resource_type="Background" />
+    <msg window_type="SystemMsg" text="ツキカゲは東京、虎ノ門に来ていた。&#xA;ここには凪の部隊の本拠地がある。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" x="-200" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="200" y="0" anchor="Bottom" position_id="left" />
+    <create_effect effect_id="kirakira_momo" effect_type="EffectKirakira" life_time="1.0" target_obj="源 モモ" x="0" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ふわーっ。あのタワーの地下が&#xA;こんな感じになってるなんて！" speaker_show="True" stop="True" voice="mm11001_01_0119" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="凪の部隊名物・逆さ塔だよ。" speaker_show="True" stop="True" voice="mh12001_01_0023" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="宗近 飛粋" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" x="200" anchor="Bottom" position_id="left" y="0" />
+    <Comment comment="信　アイドル私服" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="高坂 信" text="はぁぁ…お国は凄いのを作るなぁ。" speaker_show="True" stop="True" voice="ks11010_01_0068" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="手を組んでるお前らには&#xA;一部のエリア以外、見学させてやるのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0043" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" x="125" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="-125" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="半蔵門 雪" text="ありがたい話ね。&#xA;よく見ておきなさいモモ。" speaker_show="True" stop="True" voice="hy11002_01_0065" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はいっ。……独房がいっぱいあるんですね。" speaker_show="True" stop="True" voice="mm11001_01_0120" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" x="200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="轟 葉栖美" text="そうそう。ここは監獄の役割もしててねー。&#xA;凪と取引した囚人達がいるんだよ。" speaker_show="True" stop="True" voice="th12004_01_0015" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="頑張ってアタシ様たちの力になれば、&#xA;少しは減刑も考えますってね。" speaker_show="True" stop="True" voice="ry12002_01_0026" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" x="-300" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" x="0" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" x="300" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="相模 楓" text="それ危険じゃないんですか？" speaker_show="True" stop="True" voice="sf11004_01_0126" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="もちろん枷は埋め込んである。&#xA;暴れたら速攻でエンドだよ。" speaker_show="True" stop="True" voice="ty12005_01_0023" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="………なるほど。" speaker_show="True" stop="True" voice="tr11007_01_0078" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="こいつとか、お前達が捕まえたんだろ？" speaker_show="True" stop="True" voice="ty12005_01_0024" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="津守 ヨモギ" />
+    <msg speaker="鈴木 ジョージ" text="はぁはぁ独房に放置とかよぉ。&#xA;たまんねぇ苦痛じゃねぇか。" speaker_show="True" stop="True" voice="jj14004_01_0001" />
+    <msg speaker="鈴木 ジョージ" text="あげく、コマとなって国のために働けだ？&#xA;言ってくれる。満点に近いぜ。" speaker_show="True" stop="True" voice="jj14004_01_0002" />
+    <msg speaker="鈴木 ジョージ" text="そんな上から目線で命令されたらよ、&#xA;あぁ、おかしくなっちまうぜ……。" speaker_show="True" stop="True" voice="jj14004_01_0003" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" x="300" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" x="-50" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" x="-300" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="相模 楓" text="こ、この変態は！　間違いない！&#xA;アタシ達が捕まえたアイツです。" speaker_show="True" stop="True" voice="sf11004_01_0127" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="あははは。こっちの記憶は消してるけど&#xA;元気そうだねぇ。うんうん。" speaker_show="True" stop="True" voice="ym11003_01_0080" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="責任持って運用するから、そこは安心しな。&#xA;逃がしたりはしねぇよ。" speaker_show="True" stop="True" voice="ty12005_01_0025" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" x="200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="リストを全部見せるわけにはいかないけど&#xA;こーいうのがいっぱいいるよ。あだ名は変態博物館。" speaker_show="True" stop="True" voice="th12004_01_0016" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="強制的でなく、納得のもとで動いているなら&#xA;いつか、心が通う日が来るかもしれませんね。" speaker_show="True" stop="True" voice="ah11005_01_0068" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" x="0" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="悪の連合が、そろそろ何か動きを&#xA;見せてくるじゃろう。" speaker_show="True" stop="True" voice="ss12003_01_0044" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="しぶき達も連携して、コトにあたろう。" speaker_show="True" stop="True" voice="ss12003_01_0045" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ここを見せてくれたのは、協力の意思表示と&#xA;いうことね。" speaker_show="True" stop="True" voice="kt11009_01_0047" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="しぶきとてお前達と揉める気はないのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0046" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="とはいえ。私的な情報機関については&#xA;どーしても割り切れぬ部分がある。" speaker_show="True" stop="True" voice="ss12003_01_0047" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" x="-200" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="十分に意思疎通ははかったわ。大切なのは、これ以上&#xA;仲良くなることじゃなく、犯罪を食い止めること。" speaker_show="True" stop="True" voice="hy11002_01_0066" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="互いに、闇の動きには注意しましょう。しぶき。" speaker_show="True" stop="True" voice="hy11002_01_0067" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="うむ。雪。" speaker_show="True" stop="True" voice="ss12003_01_0048" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="125" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" x="-125" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="合同任務になったらよろしくね飛粋ちゃん。" speaker_show="True" stop="True" voice="mm11001_01_0121" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="うん、モモちゃん。" speaker_show="True" stop="True" voice="mh12001_01_0024" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" x="0" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="（もー年下組は仲良しだけどねぇ。&#xA;　それでいい、それでいい）" speaker_show="True" stop="True" voice="th12004_01_0017" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

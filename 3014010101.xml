@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014010101" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="背景：プール" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <load_cue_sheet cue_sheet="AdvVoice/3014000006" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <msg window_type="SystemMsg" text="五恵の誕生日祝いと夏休みの思い出作りのために、&#xA;みんなでプールに遊びにきたツキカゲメンバー達。" stop="True" />
+    <msg window_type="SystemMsg" text="プールの人気アトラクションであるウォーター&#xA;スライダーに２人１組で挑戦することになり……。" stop="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="わー、下から見てた時もすごい高さだと思ったけど&#xA;いざ登って見ると……。" speaker_show="True" stop="True" voice="mm11001_02_0477" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="何びびってんのよ？　モモち。ここまで来たら、&#xA;楽しまなきゃ損でしょ？" speaker_show="True" stop="True" voice="sf11004_02_0470" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003014" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="そーそー！　まずはメイとごえちゃんの華麗な&#xA;スライディングを披露しちゃうから！" speaker_show="True" stop="True" voice="ym11003_02_0549" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="しっかりイメトレに励んでおきたまえよ～！" speaker_show="True" stop="True" voice="ym11003_02_0550" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="私もちょっと緊張してるけど、モモち、&#xA;先に行ってくるね。" speaker_show="True" stop="True" voice="ig11006_02_0227" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="う、うん。行ってらっしゃい。" speaker_show="True" stop="True" voice="mm11001_02_0478" />
+    <msg_window_show show="False" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="SE:ウォータースライダーを下っていく音" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="1.0" />
+    <msg speaker="八千代 命" text="ヒャッハー！&#xA;このスピード！　刺激的ぃ～！" speaker_show="True" stop="True" voice="ym11003_02_0551" />
+    <msg speaker="石川 五恵" text="きゃーーーーー！" speaker_show="True" stop="True" voice="ig11006_02_0228" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="なんか思ったより速い気が……" speaker_show="True" stop="True" voice="mm11001_02_0479" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="バランス感覚が大事だからね。&#xA;しっかりとアタシに合わせなさいよ、モモち。" speaker_show="True" stop="True" voice="sf11004_02_0471" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="う、うん……やってみる。" speaker_show="True" stop="True" voice="mm11001_02_0480" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="情けない声出すんじゃないわよ！" speaker_show="True" stop="True" voice="sf11004_02_0472" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ほら、半蔵さんと初芽さんも出発したから&#xA;次はアタシ達よ。" speaker_show="True" stop="True" voice="sf11004_02_0473" />
+    <msg_window_show show="False" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <Comment comment="SE:ウォータースライダーを下っていく音" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="1.0" />
+    <msg speaker="青葉 初芽" text="きゃー！　雪ちゃん、&#xA;振り落とされてしまいそうですー！" speaker_show="True" stop="True" voice="ah11005_02_0388" />
+    <msg speaker="半蔵門 雪" text="初芽、しっかり私に掴まって！" speaker_show="True" stop="True" voice="hy11002_02_0397" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="うぅっ……、師匠たちも凄いスピードで。&#xA;フーちゃん、絶対ぜーったい離さないでね。" speaker_show="True" stop="True" voice="mm11001_02_0481" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="もう！　そんなに強く腕掴まれたら&#xA;ゴムボートに乗れないじゃないの！" speaker_show="True" stop="True" voice="sf11004_02_0474" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="大丈夫よ、小学生のちびっこたちでも&#xA;平気な顔して降りてきてたでしょ？" speaker_show="True" stop="True" voice="sf11004_02_0475" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="普段から訓練しているアタシたちが&#xA;失敗する訳ないじゃないの！" speaker_show="True" stop="True" voice="sf11004_02_0476" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="そっか、そうだよね。&#xA;よーし、ようやく勇気が湧いてきた！" speaker_show="True" stop="True" voice="mm11001_02_0482" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="それじゃあフーちゃん、行こう！" speaker_show="True" stop="True" voice="mm11001_02_0483" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

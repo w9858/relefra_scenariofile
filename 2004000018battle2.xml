@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000018battle2" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="はぁ、はぁ、ふぅ、手こずらせてくれるわね。&#xA;さぁ今回も説得タイムよ。" speaker_show="True" stop="True" voice="sr13001_02_0335" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="ジャバウオックに話し合いは通じない。&#xA;退却するという事も知らない。" speaker_show="True" stop="True" voice="ar16004_02_0052" />
+    <msg speaker="アルム" text="お前を仕留めるまで&#xA;ジャバウオックは止まらないぞ。" speaker_show="True" stop="True" voice="ar16004_02_0053" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="敷島 来夢" text="……くっ。やむを得ないわね。" speaker_show="True" stop="True" voice="sr13001_02_0336" />
+    <msg_window_show show="False" />
+    <fade_out wait="True" time="1" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

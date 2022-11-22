@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010108" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" wait="True" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_007" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="True" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="ツキカゲ基地" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" />
+    <msg speaker="相模 楓" text="うーん……" speaker_show="True" stop="True" voice="sf11004_02_0559" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="楓ちゃんどうしたの？&#xA;雑誌読みながら難しい顔して。" speaker_show="True" stop="True" voice="mm11001_02_0691" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="石川 五恵" text="その記事、私もさっき読んだよ。" speaker_show="True" stop="True" voice="ig11006_02_0401" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="石川 五恵" text="最近また空崎市内で違法経営を行う&#xA;ソープランドが増えてきたんだって……。" speaker_show="True" stop="True" voice="ig11006_02_0402" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="源 モモ" text="そうなの!?　確か違法営業のお店ってモウリョウの&#xA;末端組織がやってるお店が大半だったんだよね。" speaker_show="True" stop="True" voice="mm11001_02_0692" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" />
+    <msg speaker="相模 楓" text="モウリョウが力を失ったんなら、上納金を納める&#xA;必要もないはずなのに、おかしいと思わない？" speaker_show="True" stop="True" voice="sf11004_02_0560" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" />
+    <msg speaker="半蔵門 雪" text="今日みんなを集めたのはその話をするためよ。" speaker_show="True" stop="True" voice="hy11002_02_0562" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="師匠！&#xA;やっぱり何か事件が起きているんですか？" speaker_show="True" stop="True" voice="mm11001_02_0693" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="青葉 初芽" text="モウリョウが力を失ったことを受けて、末端組織が&#xA;大八洲師団の傘下に入ったとの情報があるんです。" speaker_show="True" stop="True" voice="ah11005_02_0675" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="八千代 命" text="違法ソープランドの売り上げが、大八洲師団に&#xA;上納金として納められてるらしいって話でさ。" speaker_show="True" stop="True" voice="ym11003_02_0687" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="半蔵門 雪" text="違法ソープランドに潜入して大八洲師団の情報を&#xA;引き出す、というのが今回のミッションよ。" speaker_show="True" stop="True" voice="hy11002_02_0563" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="相模 楓" text="違法ソープランドへの潜入かぁ……。" speaker_show="True" stop="True" voice="sf11004_02_0561" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" loop="True" />
+    <msg speaker="石川 五恵" text="ソープランドへの潜入、ってことは&#xA;やっぱり……。" speaker_show="True" stop="True" voice="ig11006_02_0403" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="源 モモ" text="わっ！　何でみんな一斉に私の方見るのー!?" speaker_show="True" stop="True" voice="mm11001_02_0694" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="相模 楓" text="またピーチちゃんが見れるってわけね。" speaker_show="True" stop="True" voice="sf11004_02_0562" />
+    <move obj_id="相模 楓" position_id="left" x="-200" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="源 モモ" text="うぅっ、改めて呼ばれると恥ずかしい……。&#xA;何であんな名前、名乗っちゃったんだろう。" speaker_show="True" stop="True" voice="mm11001_02_0695" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="八千代 命" text="なっつかし～！　あの時のモモち、ガチガチに&#xA;緊張しまくってたもんねぇ～。" speaker_show="True" stop="True" voice="ym11003_02_0688" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="青葉 初芽" text="ツキカゲに入って間もなくの任務で、風俗店に&#xA;潜入でしたから。緊張するのは仕方のないことですよ。" speaker_show="True" stop="True" voice="ah11005_02_0676" />
+    <move obj_id="八千代 命" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="青葉 初芽" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="源 モモ" text="うぅっ……。思い出したくない黒歴史……。" speaker_show="True" stop="True" voice="mm11001_02_0696" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="八千代 命" text="んじゃ今回は、メイとフーが潜入しちゃおっか？" speaker_show="True" stop="True" voice="ym11003_02_0689" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="源 モモ" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <move obj_id="半蔵門 雪" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" />
+    <msg speaker="半蔵門 雪" text="待ってちょうだい。&#xA;モモも成長している、今度はうまくやるわ。" speaker_show="True" stop="True" voice="hy11002_02_0564" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <msg speaker="源 モモ" text="師匠……。私、頑張ります！&#xA;今度は絶対にうまくやってみせますから！" speaker_show="True" stop="True" voice="mm11001_02_0697" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="11_Point" loop="True" />
+    <msg speaker="半蔵門 雪" text="頼もしいわね。&#xA;それでは早速、ツキカゲミッションスタート。" speaker_show="True" stop="True" voice="hy11002_02_0565" />
+    <fade_out time="0.5" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000011" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_out time="0.0" type="Default" wait="True" />
+    <Comment comment="【SE】熱気に包まれている人々の声" />
+    <sound />
+    <msg window_type="SystemMsg" text="６月某日。ツキカゲの６人は、&#xA;任務のため競輪場にやってきていた。" stop="True" />
+    <msg_window_show show="False" />
+    <Comment comment="競輪場　裏口" />
+    <bg show="True" file="15_cyclingstadiummo_02" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="この競輪場で、モウリョウと繋がりのある人物が&#xA;麻薬ビジネスの仲介をしているという情報をつかんだ。" speaker_show="True" stop="True" voice="hy11002_01_0135" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="今回の任務は、その人物を捕らえるのが目的よ。モモは&#xA;この裏口で待機。怪しい者がいたら確保すること。" speaker_show="True" stop="True" voice="hy11002_01_0136" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="分かりました、師匠！" speaker_show="True" stop="True" voice="mm11001_01_0270" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（ツキカゲになって初めての任務……&#xA;よ～し、大活躍してみせる！）" speaker_show="True" stop="True" voice="mm11001_01_0271" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（見ててね、お父さん……！&#xA;私もこの街を護るから！）" speaker_show="True" stop="True" voice="mm11001_01_0272" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" time="0.5" wait="True" effect="Default" />
+    <sound_volume type="Bgm" cue_name="Briefing" volume="0" time="0.5" wait="True" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="通信車　車内" />
+    <bg show="True" file="14_car_02" />
+    <transition type="In" color_change="False" time="0.5" wait="True" effect="Default" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="では、これより作戦を開始します。風魔、計画通り&#xA;偽造した当たり競輪券で目標をおびき寄せてください。" speaker_show="True" stop="True" voice="ah11005_01_0090" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="がんばれよ～。" speaker_show="True" stop="True" voice="ym11003_01_0130" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="八千代 命" />
+    <Comment comment="競輪場" />
+    <Comment comment="柄の悪い男に変装した楓" />
+    <Comment comment="通信機に" />
+    <bg show="True" resource_type="AnimSS" file="No_046" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <msg speaker="相模 楓" text="了解。&#xA;風魔、目標と接触します。" speaker_show="True" stop="True" voice="sf11004_01_0144" />
+    <msg speaker="相模 楓" text="もしもし？　大穴当てたんだって、マジで！&#xA;来てくれればおごっちゃるぜ！" speaker_show="True" stop="True" voice="99070_0101_0001" />
+    <bg show="True" resource_type="AnimSS" file="No_047" />
+    <msg speaker="女" text="ちょいとお兄さん。景気いいみたいだね。それを&#xA;元手に、もっと大儲けできる話があるんだけど……。" speaker_show="True" stop="True" voice="99009_01_0001" />
+    <bg show="True" resource_type="AnimSS" file="No_048" />
+    <Comment comment="【SE】ガシッと腕を掴む音" />
+    <sound />
+    <msg speaker="相模 楓" text="かかったわね。&#xA;……詳しく聞きましょうか。" speaker_show="True" stop="True" voice="sf11004_01_0146" />
+    <msg speaker="女" text="――！　チッ!?" speaker_show="True" stop="True" voice="99009_01_0002" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <msg speaker="相模 楓" text="あっ、待て……!!　……くっ、人ごみに……！&#xA;この変装、走りにくい……！" speaker_show="True" stop="True" voice="sf11004_01_0147" />
+    <msg speaker="相模 楓" text="こちら風魔、ターゲット正面口へ逃亡中！" speaker_show="True" stop="True" voice="sf11004_01_0148" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="石川 五恵" text="五右衛門、了解。" speaker_show="True" stop="True" voice="ig11006_01_0094" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" time="0.5" wait="True" effect="Default" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <Comment comment="競輪場　裏口" />
+    <bg show="True" file="15_cyclingstadiummo_02" />
+    <transition type="In" color_change="False" time="0.5" wait="True" effect="Default" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="正面口……あっちだ！&#xA;私も行かなくちゃ!!" speaker_show="True" stop="True" voice="mm11001_01_0273" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ダッと駆け出す音" />
+    <sound cue_name="RunAway" />
+    <move obj_id="源 モモ" position_id="left" x="1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1" wait="True" />
+    <transition type="Out" color_change="False" time="0.5" wait="True" effect="Default" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="競輪場　正面口" />
+    <bg show="True" file="15_cyclingstadiummo_02" />
+    <transition type="In" color_change="False" time="0.5" wait="True" effect="Default" />
+    <msg speaker="女" text="はぁ、はぁ……撒いたか……。" speaker_show="True" stop="True" voice="99009_01_0003" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" resource_type="AnimSS" file="No_049" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash count="1" time="0.5" wait="False" />
+    <sound type="Se" />
+    <Comment comment="【SE】スマホガン発砲音" />
+    <msg speaker="女" text="うっ……。" speaker_show="True" stop="True" voice="99009_01_0004" />
+    <msg_window_show show="False" />
+    <sound type="Se" />
+    <Comment comment="【SE】バタンと倒れる音" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <bg show="True" resource_type="AnimSS" file="No_050" />
+    <msg speaker="石川 五恵" text="こちら五右衛門。&#xA;目標に睡眠弾を撃ち込み、確保しました。" speaker_show="True" stop="True" voice="ig11006_01_0095" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" resource_type="Background" file="15_cyclingstadiummo_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <Comment comment="パタパタと駆けてくる足音" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <msg speaker="源 モモ" text="ごえちゃん、捕まえたんだ！&#xA;良かった……！" speaker_show="True" stop="True" voice="mm11001_01_0274" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprice" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <Comment comment="「おじさんに変装した楓」でなく「スピンズ私服（夏）」で出しております" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="相模 楓" text="こちら風魔。女の仲間と思われる不審者が&#xA;裏口へ向かいました。" speaker_show="True" stop="True" voice="sf11004_01_0149" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="青葉 初芽" text="百地、確保してください。" speaker_show="True" stop="True" voice="ah11005_01_0091" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="え!?　す、すみません！　今、離れてしまってます！&#xA;ど、どうしよう……!!" speaker_show="True" stop="True" voice="mm11001_01_0275" />
+    <delete obj_id="monitor_fu" />
+    <delete obj_id="monitor_hatsume" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="False" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="半蔵門 雪" text="こちら半蔵。不審者は私が捕らえた。" speaker_show="True" stop="True" voice="hy11002_01_0137" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprice" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="――！　師匠……！" speaker_show="True" stop="True" voice="mm11001_01_0276" />
+    <msg_window_show show="False" />
+    <delete obj_id="monitor_yuki" />
+    <transition type="Out" color_change="False" time="0.5" wait="True" effect="Default" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <sound_volume type="Bgm" cue_name="Quest1" volume="0" time="0.5" wait="True" />
+    <Comment comment="通信車 車内" />
+    <bg show="True" file="14_car_02" />
+    <transition type="In" color_change="False" time="0.5" wait="True" effect="Default" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="何故勝手に持ち場を離れたの、モモ。貴方が独断で&#xA;動いたせいで、標的の仲間を取り逃がす所だったのよ。" speaker_show="True" stop="True" voice="hy11002_01_0138" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="……すみません。&#xA;私、初めての任務だから、その……。" speaker_show="True" stop="True" voice="mm11001_01_0277" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="言い訳は聞いていない。&#xA;……正直、貴方にはがっかりしたわ。" speaker_show="True" stop="True" voice="hy11002_01_0139" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="――！&#xA;……すみません、でした……。" speaker_show="True" stop="True" voice="mm11001_01_0278" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（初任務……大失敗しちゃった……）" speaker_show="True" stop="True" voice="mm11001_01_0279" lip_sync="False" />
+  </command>
+</adv>

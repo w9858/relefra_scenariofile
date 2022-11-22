@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000008" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <sound type="Bgm" volume="100" cue_name="Quest1" />
+    <Comment comment="背景　暗雲" />
+    <bg show="True" file="01_school1mo_001" color="#000000ff" />
+    <msg window_type="SystemMsg" text="凪の部隊は任務で北へと飛んだ。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="稚内上空" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <Comment comment="雷鳴の鳴り響く音" />
+    <sound type="Se" />
+    <flash count="3" time="0.3" wait="False" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" x="0" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="-250" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" x="250" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <wait time="0.1" />
+    <shake target="Character" obj_id="轟 葉栖美" x="20" vibrate="20" time="0.5" wait="False" y="0" />
+    <msg speaker="轟 葉栖美" text="ちょっちょっ……。下、雷雲がかかってるんだけど？&#xA;ゴロゴロいってる！　マジで飛び降りていくの？" speaker_show="True" stop="True" voice="th12004_01_0063" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="ドキドキが最高潮です。では後輩として&#xA;一番手、素敵にいかせて頂きます！　たーっ！！" speaker_show="True" stop="True" voice="mh12001_01_0100" />
+    <msg_window_show show="False" />
+    <move obj_id="宗近 飛粋" x="-200" x_move_type="MoveValue" y_move_type="MoveValue" time="0.3" wait="False" position_id="left" y="0" />
+    <wait time="0.3" />
+    <move obj_id="宗近 飛粋" y="-1000" y_move_type="MoveValue" time="0.3" wait="True" position_id="left" x="0" x_move_type="MoveValue" />
+    <wait time="1.0" />
+    <move obj_id="轟 葉栖美" x="-125" x_move_type="MoveTo" time="0.5" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <move obj_id="薩摩 しぶき" x="125" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" position_id="left" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="おわ迷わず飛んだ！　うっわ！　マジでかー。&#xA;いったかー。ちょっと待って３分で覚悟するから…。" speaker_show="True" stop="True" voice="th12004_01_0064" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="腹をくくるのじゃはっすー。しぶきが手を&#xA;握っててやる。征くぞ、せーーのっっ！！！" speaker_show="True" stop="True" voice="ss12003_01_0113" />
+    <shake target="Character" obj_id="轟 葉栖美" x="30" vibrate="30" time="0.5" wait="False" y="0" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="10_FaceBothHands" force_end="False" loop="True" face_anim_type="019_Facial_damage" />
+    <msg speaker="轟 葉栖美" text="わーーーーーーーーーーっっっっ！！！" speaker_show="True" stop="True" voice="th12004_01_0065" />
+    <msg_window_show show="False" />
+    <move obj_id="轟 葉栖美" y="-2000" y_move_type="MoveTo" time="0.5" wait="False" position_id="left" x="0" x_move_type="MoveValue" />
+    <move obj_id="薩摩 しぶき" y="-2000" y_move_type="MoveTo" time="0.5" wait="False" position_id="left" x="0" x_move_type="MoveValue" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="薩摩 しぶき" />
+    <bg show="True" file="07_containerni_02" />
+    <wait time="0.5" />
+  </command>
+</adv>

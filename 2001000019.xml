@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000019" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="ツキカゲ基地 ・軍議の社" />
+    <bg show="True" file="03_tsukikage_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地 ・ 軍議の社&#xD;" in_time="0.5" show_time="1.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="最近、街にドラッグが出回っているようです。" speaker_show="True" stop="True" voice="ah11005_01_0106" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="またか……。" speaker_show="True" stop="True" voice="hy11002_01_0169" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ただ、まだ任務は下っていません。" speaker_show="True" stop="True" voice="ah11005_01_0107" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="警察が調査に動いていますので、&#xA;様子見といった段階です。" speaker_show="True" stop="True" voice="ah11005_01_0108" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ひとまずメイたちは九天の調査に専念ってこと？" speaker_show="True" stop="True" voice="ym11003_01_0156" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" loop="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="そうね……" speaker_show="True" stop="True" voice="hy11002_01_0170" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" />
+    <msg speaker="相模 楓" text="だったら、街のドラッグの調査は&#xA;私が１人でやります！" speaker_show="True" stop="True" voice="sf11004_01_0178" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="へっ……!?" speaker_show="True" stop="True" voice="ym11003_01_0157" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="いやいや！&#xA;フーだけじゃ無理無理だって！" speaker_show="True" stop="True" voice="ym11003_01_0158" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <bg show="True" resource_type="AnimSS" file="No_077" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="相模 楓" text="師匠は、アタシじゃ力不足だって言うんですか？" speaker_show="True" stop="True" voice="sf11004_01_0179" />
+    <msg speaker="八千代 命" text="そういうわけじゃなくて……" speaker_show="True" stop="True" voice="ym11003_01_0159" />
+    <msg speaker="相模 楓" text="アタシなら、完璧にミッションをこなしてみせます。&#xA;ツキカゲの一員なんですから！" speaker_show="True" stop="True" voice="sf11004_01_0180" />
+    <msg speaker="八千代 命" text="……。" speaker_show="True" stop="True" voice="ym11003_01_0160" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <bg show="True" file="03_tsukikage_001" resource_type="Background" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="フーちゃん……。" speaker_show="True" stop="True" voice="mm11001_01_0348" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="いえ、メイの言う通りよ。&#xA;弟子だけで単独行動を許すわけにはいかない。" speaker_show="True" stop="True" voice="hy11002_01_0171" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="え……！" speaker_show="True" stop="True" voice="sf11004_01_0181" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……はい……。" speaker_show="True" stop="True" voice="sf11004_01_0182" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="相模 楓" />
+    <Comment comment="04_shopstreetev_01 街　夕" />
+    <bg show="True" file="04_shopstreetev_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="街 ⼣" in_time="0.5" show_time="1.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-250" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="250" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="功を焦っているわね、楓は……。" speaker_show="True" stop="True" voice="hy11002_01_0172" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="わっかんないなぁ。" speaker_show="True" stop="True" voice="ym11003_01_0161" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="元々、努力家で責任感は強い子だけど……&#xA;なんであんな躍起になるんだろ。" speaker_show="True" stop="True" voice="ym11003_01_0162" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そういえば、彼女は金銭面で&#xA;ツキカゲの援助を受けていたわね。" speaker_show="True" stop="True" voice="hy11002_01_0173" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="だから余計に「ツキカゲに報いないと」って&#xA;思ってるのかな……。" speaker_show="True" stop="True" voice="ym11003_01_0163" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="それだけじゃないと思いますよ。" speaker_show="True" stop="True" voice="ah11005_01_0109" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="え？" speaker_show="True" stop="True" voice="ym11003_01_0164" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="お金のためだけじゃないと思うんです……&#xA;彼女が頑張るのは、きっと……" speaker_show="True" stop="True" voice="ah11005_01_0110" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="ううん、それはメイちゃんが考えてくださいね。&#xA;師匠なんですから。" speaker_show="True" stop="True" voice="ah11005_01_0111" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="教えてくれないの!?" speaker_show="True" stop="True" voice="ym11003_01_0166" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="……でも、とにかくフーに無茶はしてほしくないよ。" speaker_show="True" stop="True" voice="ym11003_01_0167" />
+  </command>
+</adv>

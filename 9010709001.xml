@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010709001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="カレー、カレー♪&#xA;今日のお昼はカトリーナのカレー♪" speaker_show="True" stop="True" voice="bk11008_02_0410" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="白虎ちゃん、そこのお皿を出してくれる？" speaker_show="True" stop="True" voice="kt11009_02_0431" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="任せろ！　スプーンとコップも用意したぞ。" speaker_show="True" stop="True" voice="bk11008_02_0411" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ふふ、ありがとう。&#xA;さあ、白虎ちゃんの分ができたわよ。" speaker_show="True" stop="True" voice="kt11009_02_0432" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おお～、この食欲をそそる香り……！&#xA;カトリーナ、早く食べるぞ！" speaker_show="True" stop="True" voice="bk11008_02_0412" />
+    <Comment comment="指示は無いが、電話のSEが必要？" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="はいはい……あら？　電話が鳴ってる？&#xA;……この番号は業者さんみたいね。" speaker_show="True" stop="True" voice="kt11009_02_0433" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そんなものは放っておけ。&#xA;出来立てのカレーを食べるのが最優先だ。" speaker_show="True" stop="True" voice="bk11008_02_0413" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="そういうわけにはいかないわ。&#xA;仕入れのことかもしれないからね。" speaker_show="True" stop="True" voice="kt11009_02_0434" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="電話はすぐ済ませるから、白虎ちゃんは&#xA;温かいうちに食べててくれる？" speaker_show="True" stop="True" voice="kt11009_02_0435" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="1000" x_move_type="MoveTo" time="1.5" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="む……そういうことなら、仕方ないな。&#xA;じゃあ、１人で食べるとするか！" speaker_show="True" stop="True" voice="bk11008_02_0414" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="いただきま……。" speaker_show="True" stop="True" voice="bk11008_02_0415" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="……はい、もしもし？&#xA;ああ、いつもお世話になってます。" speaker_show="True" stop="True" voice="kt11009_02_0436" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" lip_sync="False" text="（店をやっているといろいろ大変なんだろうな。&#xA;でも、カトリーナはいつも穏やかだ。）" speaker_show="True" stop="True" voice="bk11008_02_0416" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" force_end="False" loop="True" />
+    <msg speaker="白虎" lip_sync="False" text="（私にも優しくしてくれるし、このカレーも&#xA;先に食べろと言ってくれた……。）" speaker_show="True" stop="True" voice="bk11008_02_0417" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" lip_sync="False" text="（カレーはうまそうだが、少しくらいなら待てるぞ。&#xA;なんといっても、白虎様だからな！）" speaker_show="True" stop="True" voice="bk11008_02_0418" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" lip_sync="False" text="（……それにしても、本当にうまそうだな。&#xA;出来立てで、いい匂いがして……うぐぐっ！）" speaker_show="True" stop="True" voice="bk11008_02_0419" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" time="1.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ごめんなさいね、白虎ちゃん。&#xA;長電話になっちゃって……。" speaker_show="True" stop="True" voice="kt11009_02_0437" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あら、もしかして待っててくれたの？" speaker_show="True" stop="True" voice="kt11009_02_0438" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="い、いや、なんだかモノミたちが騒いでいたから&#xA;それを落ち着かせてて……。" speaker_show="True" stop="True" voice="bk11008_02_0420" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="それより、電話が終わったなら&#xA;一緒にカレーを食べよう！" speaker_show="True" stop="True" voice="bk11008_02_0421" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ええ、そうね。&#xA;私のぶんのカレーもよそわなくちゃ。" speaker_show="True" stop="True" voice="kt11009_02_0439" />
+    <char_spine_animation obj_id="白虎" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="じゃあ、白虎様がコップに水を入れてやるぞ。" speaker_show="True" stop="True" voice="bk11008_02_0422" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="……ありがとうね、白虎ちゃん。" speaker_show="True" stop="True" voice="kt11009_02_0440" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ふふん、これくらい当然だ！&#xA;さあ、食べるぞ。いただきまーす！" speaker_show="True" stop="True" voice="bk11008_02_0423" />
+  </command>
+</adv>

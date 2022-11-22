@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010303" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="04_shopstreetev_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="街" in_time="1" show_time="1" out_time="1" wait="True" />
+    <Comment comment="【SE】ドスドスと歩いている足音" />
+    <sound type="Se" cue_name="Walk" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ったく、フーってば。&#xA;カリカリしちゃってさ～！" speaker_show="True" stop="True" voice="ym11003_01_0661" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="あっ、メイちゃん！" speaker_show="True" stop="True" voice="mm11001_01_0959" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="あ、モモち。こんな所で何してんの？" speaker_show="True" stop="True" voice="ym11003_01_0662" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="私はちょっと師匠のお遣いで。&#xA;メイちゃんは？" speaker_show="True" stop="True" voice="mm11001_01_0960" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ちょうど良かったよ、モモち！&#xA;ちょっと聞いてくれる？" speaker_show="True" stop="True" voice="ym11003_01_0663" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="どうしたの？　そんなぷりぷりして。" speaker_show="True" stop="True" voice="mm11001_01_0961" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="聞いてよ、心の友モモちー！&#xA;フーのやつがさー……。" speaker_show="True" stop="True" voice="ym11003_01_0664" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="聞いてあげたいんだけど、&#xA;師匠のお遣い中だからなぁ……。" speaker_show="True" stop="True" voice="mm11001_01_0962" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="009_Facial_blush" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ユッキーには私から言っておくから～～！" speaker_show="True" stop="True" voice="ym11003_01_0665" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="フーちゃん？　何かあったの？" speaker_show="True" stop="True" voice="mm11001_01_0963" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="メイが家に帰ったら、フーのやつ、いきなり&#xA;怒り出しちゃってさ、本当意味わかんないよ！" speaker_show="True" stop="True" voice="ym11003_01_0666" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="せっかくいい気分だったのに、フーのせいで台無し。&#xA;それで大喧嘩して、飛び出して来ちゃったってわけ。" speaker_show="True" stop="True" voice="ym11003_01_0667" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="あー、モヤモヤする！　モモち、憂さ晴らしに&#xA;カラオケでも行こっか？" speaker_show="True" stop="True" voice="ym11003_01_0668" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="いや、私は師匠のお遣いの途中だから。" speaker_show="True" stop="True" voice="mm11001_01_0964" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="さすがユッキー、しつけが凄いぜ。" speaker_show="True" stop="True" voice="ym11003_01_0669" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ねぇ、メイちゃん、もしかして今日、&#xA;すぐにお家に帰らなかったの？" speaker_show="True" stop="True" voice="mm11001_01_0965" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="うん。駅前に人いっぱい出てたから、&#xA;こりゃ歌い甲斐があると思って弾き語りを……。" speaker_show="True" stop="True" voice="ym11003_01_0670" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="メイちゃん、そのせいだよ！　だって今日、&#xA;メイちゃんとフーちゃんの大事な……？" speaker_show="True" stop="True" voice="mm11001_01_0966" />
+    <create_effect effect_id="exclsmtion" effect_type="MampExclamation" target_obj="八千代 命" x="50" y="-50" life_time="2.0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ん……ん、あっ、あぁああああ！　記念日だった！&#xA;うわー、どうしようモモち、やっちゃった！" speaker_show="True" stop="True" voice="ym11003_01_0671" />
+    <delete obj_id="exclsmtion" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="寄り道はいつもの事だから怒りすぎかなと&#xA;思ったんだけど、記念日だった……どうしよう。" speaker_show="True" stop="True" voice="ym11003_01_0672" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="どうしようって……、とりあえず今すぐ&#xA;フーちゃんの所に帰った方がいいんじゃないかな。" speaker_show="True" stop="True" voice="mm11001_01_0967" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="うん、そうだよね！&#xA;やばっ、もうこんな時間。じゃあ私、帰るね！" speaker_show="True" stop="True" voice="ym11003_01_0673" />
+    <Comment comment="【SE】勢いよく走る足音が遠ざかる" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="八千代 命" position_id="left" x="1000" x_move_type="MoveTo" wait="True" time="1.0" />
+    <delete obj_id="八千代 命" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="うん、気をつけて！　……あっ！&#xA;メイちゃん、師匠への連絡、お願いね！" speaker_show="True" stop="True" voice="mm11001_01_0968" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="うぅっ……聞いてない。" speaker_show="True" stop="True" voice="mm11001_01_0969" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <sound cue_name="IncomingMessage" />
+    <wait time="1" />
+    <create_effect effect_id="momo_Sweat" effect_type="MampSweat" life_time="1" target_obj="源 モモ" />
+    <msg speaker="源 モモ" text="ひぃぃっ、師匠から電話がぁぁあ!!" speaker_show="True" stop="True" voice="mm11001_01_0970" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

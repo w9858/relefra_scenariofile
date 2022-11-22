@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3006000002" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="雪先輩、お料理のメニューはざっとこんな感じです。&#xA;手分けして頑張りましょう。" speaker_show="True" stop="True" voice="ig11006_01_0335" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="から揚げにハンバーグに肉じゃがに、&#xA;ちらし寿司にエビフライ……。" speaker_show="True" stop="True" voice="hy11002_01_0482" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="わーい！　全部大好物だよ～。&#xA;師匠とごえちゃんの手作りなんて楽しみ～。" speaker_show="True" stop="True" voice="mm11001_01_0711" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="五恵、本当にこれ全部作るつもり？" speaker_show="True" stop="True" voice="hy11002_01_0483" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="結局、師匠の食べたいものを&#xA;聞き出せなかったので。" speaker_show="True" stop="True" voice="ig11006_01_0336" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="11_Point" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="それなら、師匠が今までに美味しいって言った物、&#xA;出来る限り作ってあげようと思って。" speaker_show="True" stop="True" voice="ig11006_01_0337" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="09_PutHands" loop="False" to_idle="False" face_anim_type="002_Facial_smile" />
+    <msg speaker="石川 五恵" text="人手だったら大丈夫ですよ。白虎ちゃんも&#xA;カトーさんも手伝ってくれますし。" speaker_show="True" stop="True" voice="ig11006_01_0338" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="メイも、味見ならいくらでも手伝うから&#xA;いつでも言ってちょーだいな！" speaker_show="True" stop="True" voice="ym11003_01_0488" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="師匠、お喋りしながらでもいいですけど、&#xA;手は止めないでください！" speaker_show="True" stop="True" voice="sf11004_01_0524" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="だって腕がだるくなってきたんだよ～。生クリーム&#xA;って本当にこんなに混ぜなきゃできないの？" speaker_show="True" stop="True" voice="ym11003_01_0489" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="せっかくだから重要な役割は任せてって言ったの&#xA;師匠ですよね？" speaker_show="True" stop="True" voice="sf11004_01_0525" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="こんなに面倒だとは思わなかったんだよ～。" speaker_show="True" stop="True" voice="ym11003_01_0490" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="は～、初さんがいてくれたら&#xA;ケーキ製造機を作って一発なんだけどなぁ。" speaker_show="True" stop="True" voice="ym11003_01_0491" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="師匠のためにも、メイちゃんフーちゃん、&#xA;美味しいケーキ作り、よろしくね。" speaker_show="True" stop="True" voice="ig11006_01_0339" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="そうだぞ！　やるって言ったからには私のように、&#xA;もぐもぐ……自分の役割を……もぐもぐ。" speaker_show="True" stop="True" voice="bk11008_01_0170" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" face_anim_type="011_Facial_surprise" />
+    <msg speaker="石川 五恵" text="白虎ちゃん！&#xA;味見係は頼んだ時だけでいいんだよ。" speaker_show="True" stop="True" voice="ig11006_01_0340" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="そう遠慮するな。もぐもぐ……。&#xA;ん！　これ美味いぞ！　もぐもぐ……。" speaker_show="True" stop="True" voice="bk11008_01_0171" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_unique" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="白虎ちゃーん。" speaker_show="True" stop="True" voice="ig11006_01_0341" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="白虎、やめないと、丸焼きにするわよ。" speaker_show="True" stop="True" voice="hy11002_01_0484" />
+    <msg_window_show show="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="まっ、真顔で恐ろしい冗談を言うな！" speaker_show="True" stop="True" voice="bk11008_01_0172" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="冗談？　私はいつだって本気よ。" speaker_show="True" stop="True" voice="hy11002_01_0485" />
+    <delete obj_id="bk_Sweat" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="白虎ちゃん、よかったらこっちの飾りつけ、&#xA;手伝ってくれない？" speaker_show="True" stop="True" voice="mm11001_01_0712" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="カマリとラッパとモノミにも手伝って&#xA;もらってるんだけど、手が足りないんだよ～。" speaker_show="True" stop="True" voice="mm11001_01_0713" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="源 モモ" loop="True" to_idle="False" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" face_anim_type="002_Facial_smile" />
+    <msg speaker="白虎" text="どうしても白虎様の手伝いが必要ということなら&#xA;仕方ないな。" speaker_show="True" stop="True" voice="bk11008_01_0173" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="125" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="あ～、師匠！　いちごはそこじゃありません！" speaker_show="True" stop="True" voice="sf11004_01_0526" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="えー、せっかくケーキのいちごで、ごえっちの&#xA;顔を表現しようと思ってたのにー。" speaker_show="True" stop="True" voice="ym11003_01_0492" />
+    <char_spine_animation obj_id="相模 楓" loop="True" to_idle="False" face_anim_type="015_Facial_poker" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="ダメです。等間隔に並べていかないと、&#xA;切り分けた時に不平等になりますから。" speaker_show="True" stop="True" voice="sf11004_01_0527" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そこは弟子が師匠に譲ればいい問題ジャロ？" speaker_show="True" stop="True" voice="ym11003_01_0493" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="わー、すごい！　モノミのおかげで&#xA;天井まで賑やかに飾れたよ～。" speaker_show="True" stop="True" voice="mm11001_01_0714" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="みんな、師匠のためにありがとう。&#xA;素敵なパーティになりそうだね。" speaker_show="True" stop="True" voice="ig11006_01_0342" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

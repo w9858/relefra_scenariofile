@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000011004" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="Wasabi店内" />
+    <bg show="True" file="02_wasabimo_001" color="#ffffffff" resource_type="Background" />
+    <fade_in time="0.8" type="Default" wait="True" />
+    <telop text="W a s a b i 店内" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="009_Facial_blush" force_end="False" loop="True" to_idle="False" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="カ、カトリーナさん……。" speaker_show="True" stop="True" voice="mm11001_01_1042" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ああ、モモちゃんまで……。あのね、これは違うのよ。&#xA;うっかりっていうか出来心っていうか……。" speaker_show="True" stop="True" voice="kt11009_01_0446" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="カトリーナさん、可愛いです～!!" speaker_show="True" stop="True" voice="mm11001_01_1043" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="……え？" speaker_show="True" stop="True" voice="kt11009_01_0447" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="わー、すごく似合ってますね～！&#xA;でもこの装束、どうして……。" speaker_show="True" stop="True" voice="mm11001_01_1044" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="あ、そっか、ごえちゃんのだ！&#xA;ごえちゃん、すごく似合ってるよね？" speaker_show="True" stop="True" voice="mm11001_01_1045" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="カトリーナ" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="え？　あ、うん、そうだね。" speaker_show="True" stop="True" voice="ig11006_01_0706" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="あの、モモちゃん……。" speaker_show="True" stop="True" voice="kt11009_01_0448" />
+    <msg_window_show show="False" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="何してんの、モモち？&#xA;こんなところに突っ立って。" speaker_show="True" stop="True" voice="ym11003_01_0890" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="あ、メイちゃん！&#xA;見て見て、カトリーナさんが……！" speaker_show="True" stop="True" voice="mm11001_01_1046" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="え、カトーさんがどうかし……。&#xA;わぁぁ、カトーさん！　どうしたの、その格好？" speaker_show="True" stop="True" voice="ym11003_01_0891" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="12_DropShoulders" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ああ……メイちゃんまで……。&#xA;あの、これはその、なんて言えばいいか……。" speaker_show="True" stop="True" voice="kt11009_01_0449" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="カトーさんの装束姿なんて久しぶりに見たなあ……。&#xA;ま、まさか、昔を思ってツキカゲコスプレ!?" speaker_show="True" stop="True" voice="ym11003_01_0892" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="ち、違っ……！&#xA;あ、あの、今すぐ着替えてくるから！" speaker_show="True" stop="True" voice="kt11009_01_0450" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="え、もう着替えちゃうんですか？&#xA;そんなに似合ってるのに。" speaker_show="True" stop="True" voice="mm11001_01_1047" />
+    <create_effect effect_id="sweat" effect_type="MampSweat" target_obj="カトリーナ" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="あの……褒めてくれるのはありがたいけど、&#xA;これ、ごえちゃんのだから返さないと。" speaker_show="True" stop="True" voice="kt11009_01_0451" />
+    <delete obj_id="sweat" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="でも、もったいないですね。&#xA;こんな機会あんまりないと思うのに……。" speaker_show="True" stop="True" voice="mm11001_01_1048" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="まあ、似合ってはいるよね。&#xA;昔取った……なんとかってやつ？" speaker_show="True" stop="True" voice="ym11003_01_0893" />
+    <Comment comment="モモのセリフカット（収録時修正より）" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="それを言うなら昔取った杵柄&#xA;……じゃないかな？" speaker_show="True" stop="True" voice="ig11006_01_0707" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="12_DropShoulders" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="あ、あれ、間違っちゃった？&#xA;でも、カトリーナさん、本当に似合ってますよ！" speaker_show="True" stop="True" voice="mm11001_01_1050" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="あ、あの……。&#xA;とにかくもう着替えてくるから……許して……。" speaker_show="True" stop="True" voice="kt11009_01_0452" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="うぅ……仕方ない……。&#xA;それなら記念に写真だけ。いきますよー。" speaker_show="True" stop="True" voice="mm11001_01_1051" />
+    <flash color="#ffffffff" count="2" time="0.2" wait="True" />
+    <Comment comment="カシャ。カメラのシャッター音" />
+    <sound type="Se" cue_name="Camera" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ひ……や、やめて、モモちゃん！&#xA;本当にすぐ着替えてくるから！" speaker_show="True" stop="True" voice="kt11009_01_0453" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="-1000" x_move_type="MoveTo" wait="True" time="1.0" y="0" y_move_type="MoveValue" />
+    <delete obj_id="カトリーナ" />
+    <Comment comment="SE走っていく音" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="石川 五恵" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ああ、行っちゃった……。&#xA;でも、なんであんなに急いでたんだろう？" speaker_show="True" stop="True" voice="mm11001_01_1052" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="モモちがからかうからだよ。&#xA;カトーさん、真っ赤だったじゃん。" speaker_show="True" stop="True" voice="ym11003_01_0894" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="え、からかってなんかないよ……！&#xA;この写真、今度基地に飾らせてもらおうっと。" speaker_show="True" stop="True" voice="mm11001_01_1053" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" to_idle="True" loop="False" force_end="False" />
+    <msg speaker="石川 五恵" text="いや、それ……カトーさん嫌がると思うよ、&#xA;モモち。" speaker_show="True" stop="True" voice="ig11006_01_0708" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="そうかなー？　でもさ、いつかカトリーナさんも&#xA;一緒に、みんなであの格好で写真撮りたいな。" speaker_show="True" stop="True" voice="mm11001_01_1054" />
+    <msg_window_show show="False" />
+    <fade_out time="0.8" type="Default" wait="True" />
+  </command>
+</adv>

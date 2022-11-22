@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003010501" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="03_tsukikage_005" resource_type="Background" />
+    <msg window_type="SystemMsg" text="初芽が発明した透明クリーム。その最大の欠点は、&#xA;素肌に塗らなければ効果が持続しないことだった。" stop="True" />
+    <msg window_type="SystemMsg" text="裸に透明クリームを塗って行う潜入ミッションは&#xA;ツキカゲメンバーにとって、リスクが高過ぎる。" stop="True" />
+    <msg window_type="SystemMsg" text="そこで初芽は、裸にならずとも透明効果が持続する&#xA;ボンテージスーツを密かに発明していたのだった。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地 武器庫" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005007" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="ふぅ、ついに……、ついに完成してしまいました！" speaker_show="True" stop="True" voice="ah11005_01_0238" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="素肌と同じように透明クリームの効果が持続する&#xA;ボンテージスーツのプロトタイプ、第１号！" speaker_show="True" stop="True" voice="ah11005_01_0239" />
+    <msg speaker="青葉 初芽" text="透明クリームの発明に成功した時も&#xA;とてもとても興奮しましたが……。" speaker_show="True" stop="True" voice="ah11005_01_0240" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="今の私はその時と同じくらいに……。いえ、それ&#xA;以上かもしれないくらいに興奮しています！" speaker_show="True" stop="True" voice="ah11005_01_0241" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="だって、これはツキカゲメンバーみんなの要望を&#xA;密かに汲み取って作った渾身のアイテム！" speaker_show="True" stop="True" voice="ah11005_01_0242" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_eye obj_id="青葉 初芽" type="Eye03_tear" loop="True" />
+    <msg speaker="青葉 初芽" text="あの日、何かに導かれるように、&#xA;廊下で足を止めた私を……。" speaker_show="True" stop="True" voice="ah11005_01_0243" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="みんなの透明クリームへの本音を、密かに聞き出す&#xA;ことに成功した私を、抱きしめてあげたいです！" speaker_show="True" stop="True" voice="ah11005_01_0244" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <delete obj_id="青葉 初芽" />
+    <bg show="True" file="03_tsukikage_001" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="数日前のことーー" stop="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="こんなに凄い発明をしてくれた師匠には、言い出し&#xA;づらいけど、まだまだ問題点は多いんだよね。" speaker_show="True" stop="True" voice="ig11006_01_0314" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-300" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="300" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="そうそう。直接肌に塗らないと効果時間が&#xA;短くなるから、毎回裸にならないといけない所とか。" speaker_show="True" stop="True" voice="sf11004_01_0510" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="裸だと武器の持ち込みが制限されてしまうのも、&#xA;戦闘には不便だし。" speaker_show="True" stop="True" voice="hy11002_01_0449" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="いやいや、それより何より裸で敵陣に侵入って、&#xA;どーなのよ！　乙女としてはリスキー過ぎるっしょ？" speaker_show="True" stop="True" voice="ym11003_01_0477" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="言われてみると、そうだよね。&#xA;どうしよう、ちょっと心配になってきちゃった。" speaker_show="True" stop="True" voice="mm11001_01_0688" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <bg file="03_tsukikage_005" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005007" position_id="left" x="0" anchor="Bottom" />
+    <fade_in time="1.0" type="Default" wait="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="まだ試作品ではありますが、このスーツが完成&#xA;すれば、みんなの悩みが全て解決できちゃいます！" speaker_show="True" stop="True" voice="ah11005_01_0245" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="………………。" speaker_show="True" stop="True" voice="ah11005_01_0246" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="はっ、私としたことが、あまりの感激と興奮で、&#xA;つい１人で喋りすぎてしまいましたね。" speaker_show="True" stop="True" voice="ah11005_01_0247" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="とりあえず、早速試着をしてみましょう。" speaker_show="True" stop="True" voice="ah11005_01_0248" />
+    <msg_window_show show="False" />
+    <transition type="Out" time="0.5" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <sound cue_name="Hug" />
+    <msg speaker="青葉 初芽" text="んん～。あら？　おかしいですね？&#xA;むぐぐっ……う～ん、う～ん。" speaker_show="True" stop="True" voice="ah11005_01_0249" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005008" position_id="left" x="0" anchor="Bottom" />
+    <msg_window_show show="False" />
+    <transition type="In" time="0.5" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ふぅっ、ようやく着れましたが……。&#xA;はぁ……はぁ……、これは……ちょっと……。" speaker_show="True" stop="True" voice="ah11005_01_0250" />
+    <msg_window_show show="False" />
+    <transition type="Out" time="0.5" wait="True" />
+    <sound cue_name="Hug" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005007" />
+    <transition type="In" time="0.5" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="青葉 初芽" text="はぁ、はぁ……。着るのも大変でしたけど、&#xA;脱ぐのもこんなに大変だとは。" speaker_show="True" stop="True" voice="ah11005_01_0251" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="いろいろ問題が見つかってしまいましたが、&#xA;今回の試着で気づいた最大の問題点は圧迫感！" speaker_show="True" stop="True" voice="ah11005_01_0252" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="肌にフィットするようタイトな設計には&#xA;していましたが、胸周りが特にキツすぎますね。" speaker_show="True" stop="True" voice="ah11005_01_0253" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="これではテストを開始する前に、胸が苦しくて&#xA;呼吸困難で倒れてしまいます。" speaker_show="True" stop="True" voice="ah11005_01_0254" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="せっかく完成した試作品ではありますが、&#xA;また１から作り直しをすべきでしょうかね……。" speaker_show="True" stop="True" voice="ah11005_01_0255" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="うーん……。どうしましょうか。" speaker_show="True" stop="True" voice="ah11005_01_0256" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

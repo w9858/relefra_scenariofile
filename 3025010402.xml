@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3025010402" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="26_hatsumehousemo_02" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="青葉家タワーマンション 初芽の部屋" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-450" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="はい、楓ちゃんもこれで完成ですよ♪" speaker_show="True" stop="True" voice="ah11005_03_0188" />
+    <create type="Character" obj_id="相模 楓" data_id="311004022" position_id="left" x="-150" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="すっごーい！　これがアタシ……。" speaker_show="True" stop="True" voice="sf11004_03_0392" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="400" />
+    <create type="Character" obj_id="八千代 命" data_id="311003018" position_id="left" x="150" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="フーちゃん、とっても良く似合ってるよ。" speaker_show="True" stop="True" voice="ks11010_03_0263" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="うんうん、すっごく可愛いよ！" speaker_show="True" stop="True" voice="ym11003_03_0395" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="師匠……。" speaker_show="True" stop="True" voice="sf11004_03_0393" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="余りにもゴージャス過ぎて&#xA;フーがフーじゃないみたいだよ！" speaker_show="True" stop="True" voice="ym11003_03_0396" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="True" />
+    <msg speaker="相模 楓" text="ちょっと師匠！&#xA;さりげなく失礼なこと言わないでください！" speaker_show="True" stop="True" voice="sf11004_03_0394" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="いつものお喋りも、&#xA;振袖姿だと華やかに見えるね。" speaker_show="True" stop="True" voice="ks11010_03_0264" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="それでは信さんの着付けも始めましょうか。" speaker_show="True" stop="True" voice="ah11005_03_0189" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うん、よろしくね！" speaker_show="True" stop="True" voice="ks11010_03_0265" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="青葉 初芽" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="じーっ……。" speaker_show="True" stop="True" voice="ym11003_03_0397" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="ちょっと師匠!?&#xA;さっきから何でアタシのこと見てるんですか！" speaker_show="True" stop="True" voice="sf11004_03_0395" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ごめんごめん。何だろう。とっても可愛いけど、&#xA;何かが足りないんだよね……。" speaker_show="True" stop="True" voice="ym11003_03_0398" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="何かって？　何です？" speaker_show="True" stop="True" voice="sf11004_03_0396" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="それを探すために、見つめてるのさ。&#xA;じー……。" speaker_show="True" stop="True" voice="ym11003_03_0399" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そんなに上から下までじっくり見つめられたら&#xA;恥ずかしいじゃないですか！" speaker_show="True" stop="True" voice="sf11004_03_0397" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <create_effect effect_id="pika" effect_type="MampLight" life_time="3" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="あぁ！　わかった！&#xA;フー、髪型変えてみようよ！" speaker_show="True" stop="True" voice="ym11003_03_0400" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="メイがやってあげるから！&#xA;ほらほら、じっとしてて。" speaker_show="True" stop="True" voice="ym11003_03_0401" />
+    <move obj_id="八千代 命" position_id="left" x="50" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ちょっ、ちょっと師匠！" speaker_show="True" stop="True" voice="sf11004_03_0398" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="う～ん、相変わらずフーの髪はいい匂い～。&#xA;柔らかくてサラサラで、ずーっと触ってたいよ。" speaker_show="True" stop="True" voice="ym11003_03_0402" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そ、そんな……匂いは師匠も一緒ですよ！&#xA;シャンプー同じなんですから。" speaker_show="True" stop="True" voice="sf11004_03_0399" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そうかなぁ。でもフーの髪の毛は特別なんだよ。&#xA;それでフー、どんな髪型がいい？" speaker_show="True" stop="True" voice="ym11003_03_0403" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="お、おススメで！" speaker_show="True" stop="True" voice="sf11004_03_0400" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

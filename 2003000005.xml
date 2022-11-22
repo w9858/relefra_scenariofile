@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000005" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" file="16_soapland_02" />
+    <fade_in time="0.5" wait="True" />
+    <Comment comment="【SE】窓ガラスが割れる音" />
+    <sound type="Se" />
+    <flash color="#ffffffff" count="1" time="0.5" />
+    <wait time="1" />
+    <Comment comment="２階の窓から、スパイス覚醒中の長穂、雪、メイが突入する" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="300" />
+    <create_effect effect_id="effect_ShockWave" effect_type="EffectShockWave" life_time="3" target_obj="藤林 長穂" />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="半蔵門 雪" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="お縄の時間だあ、悪党ども！" speaker_show="True" stop="True" voice="fn11011_01_0029" />
+    <delete obj_id="effect_ShockWave" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="藤林 長穂" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="0" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="長門～！&#xA;遅いよ～っ！" speaker_show="True" stop="True" voice="ks11010_01_0106" />
+    <msg_window_show show="False" />
+    <move obj_id="高坂 信" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-400" />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <move obj_id="藤林 長穂" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <Comment comment="【SE】トンッと着地する音" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="ごめんごめん、甚内！&#xA;すぐ助ける！" speaker_show="True" stop="True" voice="fn11011_01_0030" />
+    <delete obj_id="高坂 信" />
+    <msg speaker="宮尻" text="ひっ、ひぃぃぃ！" speaker_show="True" stop="True" voice="mj98001_01_0010" />
+    <char_spine_eye obj_id="藤林 長穂（M）" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="藤林 長穂（M）" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="（こいつは後で対応すればいい……&#xA;敵の最大戦力は……）" speaker_show="True" stop="True" voice="fn11011_01_0031" lip_sync="False" />
+    <Comment comment="【SE】コッと立ちはだかる靴音" />
+    <sound />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="君か～。ナイフが武器ってことは、&#xA;軍隊格闘術使いってところかな。" speaker_show="True" stop="True" voice="fn11011_01_0032" />
+    <Comment comment="【SE】ビュッとナイフを投げる音" />
+    <sound type="Se" />
+    <msg speaker="黒服の女" text="……フッ。" speaker_show="True" stop="True" voice="ko98002_01_0002" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】キンッとナイフを刀で弾く音" />
+    <sound type="Se" cue_name="Slash" />
+    <flash color="#ffffffff" count="1" time="0.2" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="ナイフを投げつけ、相手が気を取られている隙に顔面に&#xA;掌打を加えて、爪で目を潰す…うん、悪くない作戦だ。" speaker_show="True" stop="True" voice="fn11011_01_0033" />
+    <msg speaker="黒服の女" text="――!?　ナイフを、刀で弾いた……!?" speaker_show="True" stop="True" voice="ko98002_01_0003" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="まあ、想定の範囲内だけどね～。&#xA;……成敗っ!!" speaker_show="True" stop="True" voice="fn11011_01_0034" />
+    <move obj_id="藤林 長穂" position_id="left" x="0" x_move_type="MoveTo" time="0.2" wait="True" />
+    <Comment comment="【SE】ゴッと女の首筋を刀の柄で打つ音" />
+    <sound type="Se" cue_name="Clash" />
+    <msg speaker="黒服の女" text="うっ……。" speaker_show="True" stop="True" voice="ko98002_01_0004" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ドッと女が床に倒れる音" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="ふぅ。さて、お次は……。" speaker_show="True" stop="True" voice="fn11011_01_0035" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="ぼ、僕はただ、か弱い少女たちを保護していただけだ！&#xA;この社会で、汚れないように、傷つかないように……！" speaker_show="True" stop="True" voice="mj98001_01_0011" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="よけーなお世話だ。" speaker_show="True" stop="True" voice="fn11011_01_0036" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="汚れないように？　傷つかないように？&#xA;そいつがどう生きるかは、そいつ自身が決めること。" speaker_show="True" stop="True" voice="fn11011_01_0037" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="それとね……傷も汚れも知らずに大人になる方が、&#xA;よっぽど危険だよ。お前に干渉する権利はない！" speaker_show="True" stop="True" voice="fn11011_01_0038" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】床に膝をつく音" />
+    <sound type="Se" cue_name="Clash" />
+    <msg speaker="宮尻" text="う、うぅ……。" speaker_show="True" stop="True" voice="mj98001_01_0012" />
+    <delete obj_id="藤林 長穂" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="400" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003001" position_id="left" x="150" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="-400" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="屋敷内のボディガード、全員倒しました。&#xA;制圧完了です。" speaker_show="True" stop="True" voice="hy11002_01_0259" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <move obj_id="八千代 命" position_id="left" x="-350" time="1" />
+    <Comment comment="【SE】ぎゅっと抱きつく音" />
+    <sound type="Se" cue_name="Hug" />
+    <msg speaker="八千代 命" text="あはは、良かったー、師匠！" speaker_show="True" stop="True" voice="ym11003_01_0215" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="あはは、まぁ最後はちょっと危なかったけど……&#xA;良かったよ。" speaker_show="True" stop="True" voice="ks11010_01_0107" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="カトリーナ" data_id="311009001" position_id="left" x="0" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="300" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-300" />
+    <msg speaker="カトリーナ" text="外の警備の連中、全員倒したわよ。" speaker_show="True" stop="True" voice="kt11009_01_0094" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="犯人のパソコンも回収済みです。" speaker_show="True" stop="True" voice="ah11005_01_0129" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="それじゃ、後はこいつらの記憶を消せば任務完了だね。&#xA;これにて一件落着～。" speaker_show="True" stop="True" voice="fn11011_01_0039" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="藤林 長穂" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <wait time="1" />
+    <bg show="True" file="06_yukihousemo_02" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="その夜――&#xA;帰宅した雪は、一人物思いにふけっていた。" stop="True" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="0" y="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（あの黒服の女が持っていた指輪……&#xA;あれは巨大犯罪組織「モウリョウ」の一員である証）" speaker_show="True" stop="True" voice="hy11002_01_0260" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（モウリョウは、宮尻の資産をすべて吸い上げた後、&#xA;誘拐した少女たちも奪って売るつもりだったらしい……）" speaker_show="True" stop="True" voice="hy11002_01_0261" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（いずれ、奴らと直接対決する時が来るかもしれない。&#xA;……これからは、もっと鍛錬を積まなくては……）" speaker_show="True" stop="True" voice="hy11002_01_0262" lip_sync="False" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】窓の外でバタンと人が倒れる音" />
+    <sound type="Se" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="――！　外に人の気配……！&#xA;侵入者……!?" speaker_show="True" stop="True" voice="hy11002_01_0263" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <Comment comment="雪の家　玄関" />
+    <bg show="True" file="06_yukihousemo_01" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <Comment comment="倒れている長穂と、服を着て出てきている雪" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="200" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="雪～。今日はもう完全に電池切れだよー。&#xA;もはや家に帰るのもめんどい。ここに泊まってく。" speaker_show="True" stop="True" voice="fn11011_01_0040" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（……この、他人の玄関先で倒れている人が、数時間前に&#xA;あの凛々しさと強さをみせた人と同一人物だなんて……）" speaker_show="True" stop="True" voice="hy11002_01_0264" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="肩を貸しますから、布団まで頑張って歩いてください。&#xA;本当に……世話の焼ける師匠ですね。" speaker_show="True" stop="True" voice="hy11002_01_0265" />
+  </command>
+</adv>

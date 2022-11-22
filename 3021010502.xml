@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021010502" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="02_wasabini_001" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="200" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" />
+    <char_spine_animation force_end="False" loop="True" obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="半蔵門 雪" text="それで…………結局ババ抜きなのね。" speaker_show="True" stop="True" voice="hy11002_03_0079" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="05_HipBothHands" />
+    <msg speaker="八千代 命" text="そうみたいだねー。七並べや神経衰弱も&#xA;知らない子がいたとは……ビックリだぁ。" speaker_show="True" stop="True" voice="ym11003_03_0090" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" position_id="left" x="0" data_id="311007008" obj_id="白虎" />
+    <create type="Character" position_id="left" x="300" obj_id="カトリーナ" data_id="311009003" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="神経衰弱は知ってるゾ！&#xA;知ってるけど、やりたくないだけだ！" speaker_show="True" stop="True" voice="bk11008_03_0060" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" />
+    <msg speaker="相模 楓" text="負けるからでしょ。" speaker_show="True" stop="True" voice="sf11004_03_0066" />
+    <create_effect effect_id="ase" effect_type="MampSweat" target_obj="白虎" />
+    <char_spine_animation force_end="False" loop="False" obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="011_Facial_surprise" />
+    <msg speaker="白虎" text="うううううるさいうるさい！" speaker_show="True" stop="True" voice="bk11008_03_0061" />
+    <delete obj_id="ase" />
+    <char_spine_animation force_end="False" loop="True" obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" />
+    <msg speaker="カトリーナ" text="あらまあ、楽しそうね。&#xA;食後のオヤツを作って来たわよ♪" speaker_show="True" stop="True" voice="kt11009_03_0082" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="オホーー！　イイ匂いだぁ～！&#xA;何だ？　焼き菓子か？" speaker_show="True" stop="True" voice="bk11008_03_0062" />
+    <delete obj_id="白虎" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="-300" />
+    <create type="Character" position_id="left" x="0" data_id="311006019" obj_id="石川 五恵" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" />
+    <msg speaker="石川 五恵" text="これは……カジノチップの形をした&#xA;クッキーですか!?" speaker_show="True" stop="True" voice="ig11006_03_0088" />
+    <char_spine_animation force_end="False" loop="False" obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="カトリーナ" face_anim_type="002_Facial_smile" />
+    <msg speaker="カトリーナ" text="そうなの。私はお店に行かなかったから&#xA;気分だけでもと思って、つい……ね。" speaker_show="True" stop="True" voice="kt11009_03_0083" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="青葉 初芽" text="流石は師匠♪　つい……で、こんなに沢山。&#xA;現金にしたら１千万＄はありそうです♪" speaker_show="True" stop="True" voice="ah11005_03_0111" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" position_id="left" x="0" data_id="311001005" obj_id="源 モモ" />
+    <create type="Character" position_id="left" x="300" obj_id="テレジア" data_id="311008003" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" />
+    <msg speaker="源 モモ" text="１千万＄というと……０をふたつくっつけて&#xA;ざっくり計算で、ぇえと……じゅっ10億万円!?" speaker_show="True" stop="True" voice="mm11001_03_0082" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="相模 楓" text="10億万円て何よ。10億円で良いでしょうが。&#xA;まぁ……多少頭がクラクラする額ね。多少。" speaker_show="True" stop="True" voice="sf11004_03_0067" />
+    <char_spine_animation force_end="False" loop="True" obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="テレジア" text="クッキーなのに……。" speaker_show="True" stop="True" voice="tr11007_03_0031" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-300" />
+    <create type="Character" position_id="left" x="0" data_id="311003005" obj_id="八千代 命" />
+    <create type="Character" position_id="left" x="300" obj_id="高坂 信" data_id="311010003" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" />
+    <msg speaker="八千代 命" text="面白いじゃん。ニシシ、じゃあさ&#xA;このチップを賭けてババ抜きで勝負しない？" speaker_show="True" stop="True" voice="ym11003_03_0091" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" />
+    <create_effect effect_id="ase2" effect_type="MampSweat" target_obj="高坂 信" />
+    <msg speaker="高坂 信" text="メ、メイちゃん、賭け事はよくないよ？" speaker_show="True" stop="True" voice="ks11010_03_0057" />
+    <delete obj_id="ase2" />
+    <char_spine_animation force_end="False" loop="True" obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="カトリーナ" text="第一、ババ抜きでどうチップを賭けるの？" speaker_show="True" stop="True" voice="kt11009_03_0084" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" />
+    <msg speaker="八千代 命" text="先に抜けた人から、このクッキーチップを&#xA;好きなだけ食べられるんだよ～ん♪" speaker_show="True" stop="True" voice="ym11003_03_0092" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" position_id="left" x="-300" obj_id="源 モモ" data_id="311001005" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" />
+    <msg speaker="源 モモ" text="ええっ！　それだと、どんどんクッキーが&#xA;無くなっていっちゃうよ!?" speaker_show="True" stop="True" voice="mm11001_03_0083" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" />
+    <msg speaker="高坂 信" text="最後の人は食べられないかも……。" speaker_show="True" stop="True" voice="ks11010_03_0058" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" position_id="left" x="0" data_id="311007008" obj_id="白虎" />
+    <create type="Character" position_id="left" x="300" obj_id="石川 五恵" data_id="311006019" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="よぉおーーーし！　やってやろうじゃないか！&#xA;一抜けして、ぜーんぶ白虎様が食ってやる！" speaker_show="True" stop="True" voice="bk11008_03_0063" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" />
+    <msg speaker="石川 五恵" text="食べ物が絡むと、白虎ちゃんは&#xA;すっごくやる気になるね。" speaker_show="True" stop="True" voice="ig11006_03_0089" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" />
+    <msg speaker="相模 楓" text="フッ、たとえババ抜きといえど&#xA;勝利と10億円はアタシの物よ、白虎。" speaker_show="True" stop="True" voice="sf11004_03_0068" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="テレジア" text="クッキーなのに……。" speaker_show="True" stop="True" voice="tr11007_03_0032" />
+    <lip_sync target1="白虎" target2="相模 楓" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="101_Facial_unique" />
+    <msg speaker="楓・白虎" text="ガルルルルル！" speaker_show="True" stop="True" voice="3021010502_union_001" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="-300" />
+    <create type="Character" position_id="left" x="0" data_id="311003005" obj_id="八千代 命" />
+    <create type="Character" position_id="left" x="300" obj_id="半蔵門 雪" data_id="311002005" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" />
+    <msg speaker="八千代 命" text="おお～イイね。燃えろ燃えろ！&#xA;勝負はこうでなくっちゃね～♪" speaker_show="True" stop="True" voice="ym11003_03_0093" />
+    <char_spine_animation force_end="False" loop="True" obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="半蔵門 雪" text="メイ。まったくもう……。" speaker_show="True" stop="True" voice="hy11002_03_0080" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="八千代 命" text="だってババ抜きだよ？&#xA;刺激がないと盛り上がらないじゃーん。" speaker_show="True" stop="True" voice="ym11003_03_0094" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="青葉 初芽" text="はぁ……でも、ババ抜きではディーラーの&#xA;出る幕はどこにもありませんね。" speaker_show="True" stop="True" voice="ah11005_03_0112" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="450" />
+    <move obj_id="青葉 初芽" position_id="left" x="-450" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <move obj_id="八千代 命" position_id="left" x="-150" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="150" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" />
+    <msg speaker="カトリーナ" text="あら、初芽ちゃんは、私のクッキーを&#xA;獲得してくれる気がないの？" speaker_show="True" stop="True" voice="kt11009_03_0085" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" />
+    <msg speaker="青葉 初芽" text="ハッ！　そうですよね。私、絶対勝って&#xA;師匠のクッキーを味わってみせます♪" speaker_show="True" stop="True" voice="ah11005_03_0113" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

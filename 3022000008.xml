@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3022000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="62_AutumnMountainev_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="山頂" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <sound cue_name="Walk" volume="100" />
+    <wait time="0.5" />
+    <msg window_type="SystemMsg" text="山中を歩く命と楓は、&#xA;やがて開けた場所に出た。" stop="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="400" anchor="Bottom" />
+    <move obj_id="相模 楓" position_id="left" x="300" x_move_type="MoveTo" y_move_type="MoveValue" wait="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="やった……！&#xA;山頂に着きましたよ、師匠！" speaker_show="True" stop="True" voice="sf11004_03_0156" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あ、フーちゃんと&#xA;メイちゃんも来ました！" speaker_show="True" stop="True" voice="mm11001_03_0122" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="無事に合流出来て良かったわ。&#xA;山頂を目指してくれるとは思っていたけれど。" speaker_show="True" stop="True" voice="hy11002_03_0093" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="山で遭難した時は、&#xA;まず頂上を目指すべきですからね。" speaker_show="True" stop="True" voice="ah11005_03_0129" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003017" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ははっ、良かったぁ～。&#xA;ほら、メイに付いて来て正解だったでしょ？" speaker_show="True" stop="True" voice="ym11003_03_0142" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="そ、そうですね。&#xA;皆と合流出来て嬉しいです。" speaker_show="True" stop="True" voice="sf11004_03_0157" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="さてさて、全員集まってるし、ご飯にしようよ！&#xA;もうお腹ペコペコ丸だよ～！" speaker_show="True" stop="True" voice="ym11003_03_0143" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="分かりました。師匠、&#xA;今日のお弁当は自信作ですからね！" speaker_show="True" stop="True" voice="sf11004_03_0158" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="それでは、オープン！" speaker_show="True" stop="True" voice="sf11004_03_0159" />
+    <sound cue_name="Pofu" />
+    <wait />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="mei01" effect_type="MampExclamation" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="お、おぉ……凄い、凄いよフー！&#xA;一面に唐揚げが敷き詰めてある!!" speaker_show="True" stop="True" voice="ym11003_03_0144" />
+    <delete obj_id="mei01" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010011" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ふふっ、メイちゃん唐揚げ好きだもんね。&#xA;これ、フーちゃんと信とで作ったんだよ。" speaker_show="True" stop="True" voice="ks11010_03_0072" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="すっごく美味しそう！&#xA;よ～し、食べるぞー!!" speaker_show="True" stop="True" voice="ym11003_03_0145" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="300" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="私とごえちゃんも&#xA;お手伝いしたんですよ、師匠っ。" speaker_show="True" stop="True" voice="mm11001_03_0123" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="モモの手料理、&#xA;存分に味わわなくてはね。" speaker_show="True" stop="True" voice="hy11002_03_0094" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="はい、ぜひ！&#xA;えへへ～。" speaker_show="True" stop="True" voice="mm11001_03_0124" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="頑張ってくれたんですね、ごえちゃん。&#xA;ありがとうございます。" speaker_show="True" stop="True" voice="ah11005_03_0130" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="まだありますので、&#xA;たくさん食べてくださいね。" speaker_show="True" stop="True" voice="ig11006_03_0139" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003017" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="それと……&#xA;師匠には、これ。" speaker_show="True" stop="True" voice="sf11004_03_0160" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="サンドイッチ型のケーキです。&#xA;お誕生日、おめでとうございます。" speaker_show="True" stop="True" voice="sf11004_03_0161" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ケーキまで用意してくれたんだ！&#xA;ありがとう、フー！　もう抱き締めちゃう!!" speaker_show="True" stop="True" voice="ym11003_03_0146" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" time="2" wait="True" />
+    <sound cue_name="Hug" />
+    <wait time="0.5" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek03_strong" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ふわっ……師匠、&#xA;ほっぺ当たってます……！" speaker_show="True" stop="True" voice="sf11004_03_0162" />
+    <move obj_id="八千代 命" position_id="left" x="-300" time="1" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="今日の為にフーが頑張ってくれたのが&#xA;すごく伝わって来て……。" speaker_show="True" stop="True" voice="ym11003_03_0147" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="その気持ちが、&#xA;メイは何より嬉しいよ！" speaker_show="True" stop="True" voice="ym11003_03_0148" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="よ、喜んでもらえて良かったです……。" speaker_show="True" stop="True" voice="sf11004_03_0163" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="実はねー、くふふっ、&#xA;メイからもプレゼントがあるんだ。" speaker_show="True" stop="True" voice="ym11003_03_0149" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="え？" speaker_show="True" stop="True" voice="sf11004_03_0164" />
+    <sound cue_name="Gasagasa" />
+    <wait time="1" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="じゃじゃーん!!&#xA;フーのために、クッキー焼いちゃいましたー！" speaker_show="True" stop="True" voice="ym11003_03_0150" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="せっかくの誕生日だし、手作りで何かプレゼント&#xA;したいなって思ってたけど、なかなか決まらなくてさ。" speaker_show="True" stop="True" voice="ym11003_03_0151" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ようやく昨日、ユッキーと初さんに指導を受けて&#xA;お菓子を作ったってわけなのだよ！" speaker_show="True" stop="True" voice="ym11003_03_0152" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠が、アタシに&#xA;お菓子を手作りしてくれるなんて……。" speaker_show="True" stop="True" voice="sf11004_03_0165" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="八千代 命" type="Cheek02_medium" loop="True" />
+    <msg speaker="八千代 命" text="不格好なクッキーだけど、気持ちは一杯詰まってるよ。&#xA;誕生日おめでとう！" speaker_show="True" stop="True" voice="ym11003_03_0153" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠……すごく、すっごく嬉しいです……&#xA;ありがとうございます！" speaker_show="True" stop="True" voice="sf11004_03_0166" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="300" />
+    <char_spine_cheek obj_id="八千代 命" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="おめでとう、２人とも。" speaker_show="True" stop="True" voice="hy11002_03_0095" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そんなに喜んでくれるのなら、&#xA;メイに教えた甲斐もあったわね。" speaker_show="True" stop="True" voice="hy11002_03_0096" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="メイちゃん、材料をこぼしたり&#xA;爆発させたりしながらも、頑張ってたんですよ。" speaker_show="True" stop="True" voice="ah11005_03_0131" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そっか……だから昨日、&#xA;ほっぺにお菓子付けてたんですね。" speaker_show="True" stop="True" voice="sf11004_03_0167" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="300" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-300" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="メイ、楓、おめでとうだな！&#xA;私もクッキーの味見を手伝ってやろう！" speaker_show="True" stop="True" voice="bk11008_03_0075" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="流石に自重しろ。" speaker_show="True" stop="True" voice="tr11007_03_0040" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y_move_type="MoveValue" wait="False" />
+    <create type="Character" obj_id="高坂 信" data_id="311010011" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="おめでとう。２人の喜ぶ顔が見られて、&#xA;信も嬉しい。" speaker_show="True" stop="True" voice="ks11010_03_0073" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003017" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="嬉しさも２倍の、最高の誕生日だね。&#xA;フー。" speaker_show="True" stop="True" voice="ym11003_03_0154" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はいっ……！&#xA;師匠、皆さん、本当にありがとうございます！" speaker_show="True" stop="True" voice="sf11004_03_0168" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

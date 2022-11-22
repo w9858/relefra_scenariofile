@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010507001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="03_tsukikage_007" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="これにこれを混ぜて……うん、かなり良さそうですね。&#xA;あとは、ここにこれを入れて……。" speaker_show="True" stop="True" voice="ah11005_02_0899" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="白虎" text="あー、ヒマだぞー……。" speaker_show="True" stop="True" voice="bk11008_02_0297" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="で、あとは、様子を見ながらしばらく待てば……。" speaker_show="True" stop="True" voice="ah11005_02_0900" />
+    <move obj_id="青葉 初芽" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="お、初芽、終わったのか？" speaker_show="True" stop="True" voice="bk11008_02_0298" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふぅ、さっきからどうしたんですか？&#xA;ずいぶん退屈そうですね。" speaker_show="True" stop="True" voice="ah11005_02_0901" />
+    <char_spine_animation obj_id="白虎" face_anim_type="020_Facial_thinking" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="白虎" text="だって、ゲームもクリアしたし、&#xA;買ってた漫画も読んじゃったからな。" speaker_show="True" stop="True" voice="bk11008_02_0299" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="つまり、特にすることがないんですね。" speaker_show="True" stop="True" voice="ah11005_02_0902" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そーいうことだ。&#xA;何か手伝えることとかないのか？" speaker_show="True" stop="True" voice="bk11008_02_0300" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="うーん、今はないですね。&#xA;ちょうど今、一段落してしまったので……。" speaker_show="True" stop="True" voice="ah11005_02_0903" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そうか……はあ……。" speaker_show="True" stop="True" voice="bk11008_02_0301" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="すみません。私に何かできることがあるなら&#xA;協力するんですけど……。" speaker_show="True" stop="True" voice="ah11005_02_0904" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="協力って……なんでもか？" speaker_show="True" stop="True" voice="bk11008_02_0302" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="はい。でも、私にできること、ですよ？" speaker_show="True" stop="True" voice="ah11005_02_0905" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="白虎" text="それはわかってる。&#xA;だったらどこへでも一瞬で行ける機械を作ってくれ！" speaker_show="True" stop="True" voice="bk11008_02_0303" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="一瞬でなんて、さすがにそんなものは作れませんよ。&#xA;どこか行きたいところでもあるんですか？" speaker_show="True" stop="True" voice="ah11005_02_0906" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="特にどこっていうのはないが&#xA;どうせならいろんなところに行ってみたい。" speaker_show="True" stop="True" voice="bk11008_02_0304" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="世界中を飛び回るなら&#xA;一瞬で行けたほうがラクだろう？" speaker_show="True" stop="True" voice="bk11008_02_0305" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="確かにそうかもしれませんけど……。&#xA;普通の旅行じゃダメなんですか？" speaker_show="True" stop="True" voice="ah11005_02_0907" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="旅行は行ったらすぐ帰ってくることになるからな。&#xA;私はずっとあちこち旅をして回りたいんだ。" speaker_show="True" stop="True" voice="bk11008_02_0306" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="白虎ちゃんがここからいなくなったら悲しいですよ。&#xA;きっとツキカゲのみんなも寂しがります。" speaker_show="True" stop="True" voice="ah11005_02_0908" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="だから仮に作れたとしても、&#xA;私はあまり気が進まないですね。" speaker_show="True" stop="True" voice="ah11005_02_0909" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="そ、そうか。まあ、白虎様は頼りになるから、&#xA;心細くなる気持ちはよーくわかる。" speaker_show="True" stop="True" voice="bk11008_02_0307" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="だったら代わりに&#xA;とびっきり面白いゲームを発明してくれ。" speaker_show="True" stop="True" voice="bk11008_02_0308" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="え？　それはまた、&#xA;ずいぶん難しいお願いですね……。" speaker_show="True" stop="True" voice="ah11005_02_0910" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="初芽なら簡単だろう？　な、作ってくれよ。" speaker_show="True" stop="True" voice="bk11008_02_0309" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="白虎ちゃんのお願いですもんね。&#xA;わかりました、頑張って作ってみましょうか！" speaker_show="True" stop="True" voice="ah11005_02_0911" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おう、面白いゲームにしてくれ。&#xA;こう、ガーっといくやつな！" speaker_show="True" stop="True" voice="bk11008_02_0310" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="任せてください。&#xA;まずは動きを取り込むところから準備しますね。" speaker_show="True" stop="True" voice="ah11005_02_0912" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="初芽が作ってくれるなら、&#xA;完成するまで、いつまでも待ってるぞ。" speaker_show="True" stop="True" voice="bk11008_02_0311" />
+  </command>
+</adv>

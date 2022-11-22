@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010903" />
+  </info>
+  <command>
+    <Start />
+    <sound cue_name="Adv1" />
+    <Comment comment="商店街 夕方" />
+    <bg show="True" file="04_shopstreetmo_02" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="商店街" wait="True" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="美味しいコロッケだねー。モモちゃん。" speaker_show="True" stop="True" voice="ks11010_01_0227" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="この味で育ちました！　商店街については&#xA;マスターしてるんで、何でも説明しますよ。" speaker_show="True" stop="True" voice="mm11001_01_1016" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="うん、モモちゃん、今日はありがとね。" speaker_show="True" stop="True" voice="ks11010_01_0228" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="フーちゃんとは結構お話したけど、&#xA;もっといろんな人と話したいなって。" speaker_show="True" stop="True" voice="ks11010_01_0229" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="嬉しいです、信先輩と二人で遊べるなんて。" speaker_show="True" stop="True" voice="mm11001_01_1017" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="源 モモ" />
+    <msg speaker="諸星 明" text="モモちゃん、その子はクラスメートかい？&#xA;いいね、俺のコロッケで友情をどんどん深めてよ。" speaker_show="True" stop="True" voice="ma99004_01_0011" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="年上の頼れる先輩ですよ。明さん。" speaker_show="True" stop="True" voice="mm11001_01_1018" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="…頼れるって言われると嬉しいな。&#xA;よーーし、どんどん頼ってね。" speaker_show="True" stop="True" voice="ks11010_01_0230" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="源 モモ" />
+    <create_effect effect_id="shock1" effect_type="EffectShockWave" life_time="2" y="-500" x="0" />
+    <msg speaker="犬" text="バウワウッ！！　バウワウッ！！" speaker_show="True" stop="True" voice="99068_01_0001" />
+    <delete obj_id="shock1" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ひゃあぁぁぁっ！？" speaker_show="True" stop="True" voice="ks11010_01_0231" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="だ、大丈夫ですか信先輩。" speaker_show="True" stop="True" voice="mm11001_01_1019" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ん……ごほんっ。……決まらないなぁ。" speaker_show="True" stop="True" voice="ks11010_01_0232" />
+    <msg_window_show show="False" />
+    <transition effect="Default" wait="True" />
+    <bg show="True" file="08_parkev_02" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="源 モモ" />
+    <transition effect="Default" type="In" wait="True" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="モモちゃん、よくここに来るんだね。" speaker_show="True" stop="True" voice="ks11010_01_0233" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="この場所は思い出が沢山ですよ。&#xA;私と師匠。そして、師匠と長穂さんも。" speaker_show="True" stop="True" voice="mm11001_01_1020" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ながもんの事は、雪ちゃんから色々聞いてるんだよね。" speaker_show="True" stop="True" voice="ks11010_01_0234" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="はい、……一度お話したかったです。" speaker_show="True" stop="True" voice="mm11001_01_1021" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……信はね、この目立たない特技が役に立つなら&#xA;嬉しいってツキカゲをはじめたけど。" speaker_show="True" stop="True" voice="ks11010_01_0235" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="モモちゃんは、どうしてツキカゲを&#xA;はじめたの？" speaker_show="True" stop="True" voice="ks11010_01_0236" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="私は、この街が好きだから。守りたいと思って。" speaker_show="True" stop="True" voice="mm11001_01_1022" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="くじけそうな時もありましたけど、&#xA;皆のおかげで、ここにいます。" speaker_show="True" stop="True" voice="mm11001_01_1023" />
+    <create_effect effect_id="sweat1" effect_type="MampSweat" life_time="1.0" target_obj="源 モモ" x="0" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="師匠には、お世話になりっぱなしですが。" speaker_show="True" stop="True" voice="mm11001_01_1024" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="過去の思い出" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="雪には、お世話になりっぱなしだけどね～。" speaker_show="True" stop="True" voice="fn11011_01_0101" />
+    <wait time="1.0" />
+    <delete obj_id="藤林 長穂" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……！！" speaker_show="True" stop="True" voice="ks11010_01_0237" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="どうかしましたか？" speaker_show="True" stop="True" voice="mm11001_01_1025" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="高坂 信" text="ううん、なんでもないよモモちゃん。" speaker_show="True" stop="True" voice="ks11010_01_0238" />
+    <delete obj_id="源 モモ" />
+    <move obj_id="高坂 信" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="高坂 信" text="（信は皆の先輩として若い芽を守っていく。&#xA;見ててね、ながもん）" speaker_show="True" stop="True" voice="ks11010_01_0239" lip_sync="False" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="1" wait="True" />
+  </command>
+</adv>

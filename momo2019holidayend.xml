@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv2" volume="50" />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <fade_out time="0.01" />
+    <bg show="True" file="07_containerni_02" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" />
+    <msg speaker="源 モモ" text="今夜の見回り終了―。" speaker_show="True" stop="True" voice="03_01" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="源 モモ" text="お正月に美味しいもの食べすぎちゃったのかな。&#xA;気のせいか体が重い……ような。" speaker_show="True" stop="True" voice="03_02" lip_sync_volume="0.05" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="うーん、ちょっと遅い時間だけど&#xA;トレーニングしておこうかな。" speaker_show="True" stop="True" voice="03_03" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="いつまでもお正月気分じゃいられないもんね、&#xA;明日から学校も始まるし、" speaker_show="True" stop="True" voice="03_04" />
+    <msg speaker="源 モモ" text="この街を守るのが、ツキカゲの、私の、使命なんだから。" speaker_show="True" stop="True" voice="03_05" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="よーし、明日からも滾っていくぞぉ！" speaker_show="True" stop="True" voice="03_06" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" face_anim_type="020_Facial_thinking" />
+    <msg speaker="源 モモ" text="あれ？　明日から学校？&#xA;何か忘れてるような……？" speaker_show="True" stop="True" voice="03_07" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" loop="True" />
+    <msg speaker="源 モモ" text="……っ！　あーっ！　宿題、何もやってなーい！" speaker_show="True" stop="True" voice="03_08" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="02_Idle" loop="True" />
+    <fade_out time="7" type="Default" />
+    <msg speaker="源 モモ" text="ま、まずい…メイちゃーん、ごえちゃーん！&#xA;たすけてー！" speaker_show="True" stop="True" voice="03_09" />
+    <msg speaker="源 モモ" text="リリース ザ スパイス シークレット フレグランス、&#xA;事前登録受付中ー！" speaker_show="True" stop="True" voice="03_10" />
+  </command>
+</adv>

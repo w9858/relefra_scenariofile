@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000021" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="34_sakasatower_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="大八洲兵" text="どんどん進め！　ここを守る政府の人間と&#xA;裏切り者である乱獅子ゆらを討つのだ！" speaker_show="True" stop="True" voice="99027_01_0003" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" face_anim_type="008_Facial_serious" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="ちっ、一部の敵はもうここまで攻めて&#xA;来たのかい。鉢合わせとは気まずいぜ。" speaker_show="True" stop="True" voice="ty12005_01_0083" />
+    <msg speaker="大八洲兵" text="我ら大八洲を阻むものは老若男女&#xA;容赦せん、理想のためにあの老人も消せ！" speaker_show="True" stop="True" voice="99028_01_0002" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="02_Idle" loop="True" to_idle="False" face_anim_type="101_Facial_unique" force_end="False" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="RecallsIn" />
+    <flash color="#ffffffff" count="7" time="1" wait="True" />
+    <delete obj_id="津守 ヨモギ" />
+    <msg window_type="SystemMsg" text="目にも止まらぬヨモギの拳は、&#xA;的確に侵入者達の動きを止めていった。" stop="True" />
+    <msg_window_show show="False" />
+    <msg speaker="大八洲兵" text="！？　な、なんだと。" speaker_show="True" stop="True" voice="99027_01_0004" />
+    <sound cue_name="KnockDown" />
+    <wait time="0.3" />
+    <sound cue_name="KnockDown" />
+    <wait time="0.5" />
+    <sound cue_name="KnockDown" />
+    <wait time="1" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="102_Facial_unique" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="こちとら、とっくに現役は退いてんだ。&#xA;あまり無茶させんじゃないよ。ひよこどもが。" speaker_show="True" stop="True" voice="ty12005_01_0084" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="津守 ヨモギ" />
+    <Comment comment="背景　逆さ塔" />
+    <bg show="True" file="34_sakasatower_02" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="津守 ヨモギ" text="ってなわけで、この騒ぎ聞いてただろ。&#xA;囚人さんよ。頑張って働くタイミングだぜ。" speaker_show="True" stop="True" voice="ty12005_01_0085" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="念珠" text="相当のピンチじゃないか。報酬には色を&#xA;つけておいて欲しいもんだ。" speaker_show="True" stop="True" voice="nj98003_01_0002" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="変な気を起こしたら、埋め込んだチップが&#xA;爆裂して死ぬ。そこだけは気つけるんだな。" speaker_show="True" stop="True" voice="ty12005_01_0086" />
+    <char_spine_animation obj_id="念珠" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="念珠" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="念珠" text="そもそも大八洲に協力する気は毛頭無いさ。&#xA;破壊だけが好きで金なんか燃やす連中だからね。" speaker_show="True" stop="True" voice="nj98003_01_0003" />
+    <char_spine_animation obj_id="念珠" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="桃源の青竜に、ルーマニアのドラゴミル姉妹！&#xA;お前達も出るんだよ。" speaker_show="True" stop="True" voice="ty12005_01_0087" />
+    <msg_window_show show="False" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="念珠" />
+    <transition type="Out" color_change="True" time="0.3" wait="True" />
+    <bg show="True" file="34_sakasatower_01" />
+    <transition type="In" color_change="True" time="0.3" wait="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="はぁ、はぁ、はぁ。ほ、ほら次こい次！！&#xA;狙いのアタシ様はここにいるぜ！" speaker_show="True" stop="True" voice="ry12002_01_0142" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="Quest1" />
+    <sound cue_name="Walk" />
+    <wait time="2.5" />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound cue_name="Adv3" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" />
+    <create_effect effect_id="yura_exe" effect_type="MampExclamation" life_time="1" target_obj="乱獅子 ゆら" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="その黒スーツ全然似合ってないぜ、ゆらよ。&#xA;ボロボロになってまで何をらしくねー事してるんだ。" speaker_show="True" stop="True" voice="ra15002_01_0021" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="来たか…！　ムチャクチャしやがって。&#xA;そこまで頭イかれてたのかよ。" speaker_show="True" stop="True" voice="ry12002_01_0143" />
+    <char_spine_animation obj_id="乱獅子 あやめ" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="011_Facial_surprise" />
+    <msg speaker="乱獅子 あやめ" text="お前は絶っっっっ対国家のために働くなんて&#xA;性格はしてねぇ。何かチップでも埋められたか？" speaker_show="True" stop="True" voice="ra15002_01_0022" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="チップはねぇよ。そして言うとおり、別に&#xA;アタシ様は国家のために働いてねぇさ。" speaker_show="True" stop="True" voice="ry12002_01_0144" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="乱獅子ゆらは、飛粋のために！　働いてるんだ！&#xA;あいつがアタシ様と働きたいっていうから、やる！" speaker_show="True" stop="True" voice="ry12002_01_0145" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="……何だそりゃ。ゆらぁ。お前は俺のものだろ！？" speaker_show="True" stop="True" voice="ra15002_01_0023" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="アタシ様はアタシ様のものだね。&#xA;お前とはもうバイバイだ。姉様……いや乱獅子あやめ。" speaker_show="True" stop="True" voice="ry12002_01_0146" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="１人でいきがりやがって。じわじわと痛めつけて&#xA;恐怖で思い出させてやる。誰のものかってのをな！" speaker_show="True" stop="True" voice="ra15002_01_0024" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="乱獅子 あやめ" />
+    <sound_stop cue_name="Adv3" />
+    <sound cue_name="Quest1" volume="100" />
+    <transition type="Out" color_change="True" time="0.3" />
+    <transition type="In" color_change="True" time="0.3" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="ちっ。賊め。後先考えず突っ込んできとる。&#xA;皆、頑張りどころじゃぞ！" speaker_show="True" stop="True" voice="ss12003_01_0174" />
+    <msg_window_show show="False" />
+    <delete obj_id="薩摩 しぶき" />
+    <transition type="Out" color_change="True" time="0.3" />
+    <bg show="True" file="34_sakasatower_02" />
+    <transition type="In" color_change="True" time="0.3" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <Comment comment="キーボード打ちまくる音" />
+    <sound />
+    <msg speaker="轟 葉栖美" text="ここを、こうか？　ああ違うか。防衛用の人形さえ&#xA;起動すりゃ一気に楽になるんだ。必ず取り戻す！" speaker_show="True" stop="True" voice="th12004_01_0117" />
+    <msg_window_show show="False" />
+    <delete obj_id="轟 葉栖美" />
+    <transition type="Out" color_change="True" time="0.3" />
+    <bg show="True" file="34_sakasatower_01" />
+    <transition type="In" color_change="True" time="0.3" wait="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" face_anim_type="005_Facial_sad" />
+    <msg speaker="乱獅子 ゆら" text="は、はぁっ……はぁっ……はぁっ。&#xA;あ、あやめてめぇ、すり潰してかまぼこにしてやる。" speaker_show="True" stop="True" voice="ry12002_01_0147" />
+    <char_spine_animation obj_id="乱獅子 あやめ" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="回復が早い特技ってのは、ある意味辛いなぁ。&#xA;壊れりゃいっそ楽だろうに。痛みの繰り返しだ。" speaker_show="True" stop="True" voice="ra15002_01_0025" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="だがそれも限界だろ。最後のチャンスだゆらぁ。&#xA;戻ってこい。お前のために俺は無茶して来たんだ。" speaker_show="True" stop="True" voice="ra15002_01_0026" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="じょ、冗談じゃねぇ。飛粋と一緒に働くって……&#xA;アタシ様が、決めたんだ。飛粋と……。" speaker_show="True" stop="True" voice="ry12002_01_0148" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="ああそ。じゃあ死ね！　馬鹿野郎が！！" speaker_show="True" stop="True" voice="ra15002_01_0027" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="あやめ必殺の斬撃が、ゆらの首めがけて放たれた。&#xA;最期を覚悟した、ゆらが思わず口に出した言葉は…。" stop="True" />
+    <msg speaker="乱獅子 ゆら" text="……飛粋。" speaker_show="True" stop="True" voice="ry12002_01_0149" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="True" />
+    <sound type="Se" cue_name="Slash" />
+    <create_effect effect_id="slash_ayame" effect_type="EffectSlash" life_time="1.0" x="0" y="0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="-400" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="乱獅子 あやめ" position_id="left" x="400" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <wait time="1.5" />
+    <msg speaker="宗近 飛粋" text="ここにいるよ、ゆらちゃん！！" speaker_show="True" stop="True" voice="mh12001_01_0207" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="……飛粋！！" speaker_show="True" stop="True" voice="ry12002_01_0150" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="何！？　てめぇこの野郎。ゆらをたぶらかした&#xA;女じゃねぇか。許されねぇぞ！" speaker_show="True" stop="True" voice="ra15002_01_0028" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="……許さないのはこっちだよ。&#xA;ゆらちゃんをこんなにボロボロにして……。" speaker_show="True" stop="True" voice="mh12001_01_0208" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="！？　今、俺は震えたのか……コイツ！？" speaker_show="True" stop="True" voice="ra15002_01_0029" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="凪の部隊として、国家の安寧を乱す&#xA;暴徒を鎮圧する！" speaker_show="True" stop="True" voice="mh12001_01_0209" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="……へへ。遅かったな。まぁ飛粋の活躍できる&#xA;場所も、少し空けといてやったぜ。" speaker_show="True" stop="True" voice="ry12002_01_0151" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="うん！　一緒にやろう、ゆらちゃん！" speaker_show="True" stop="True" voice="mh12001_01_0210" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9020102001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="35_hisuiandyuraroom_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="ゆら、ゆら！&#xA;これ一緒にやらない？" speaker_show="True" stop="True" voice="mh12001_02_0231" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="なんだこれ、ゲームソフト？&#xA;テレビでやるやつか？" speaker_show="True" stop="True" voice="ry12002_02_0247" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="宗近 飛粋" text="うん！ クラスの小川さんが&#xA;「面白かったから、よければどうぞ」ってくれたんだ。" speaker_show="True" stop="True" voice="mh12001_02_0232" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="２人でもできるみたいだから、&#xA;一緒にやろうよ！" speaker_show="True" stop="True" voice="mh12001_02_0233" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="いいぜ。&#xA;おもしろそーだし、付き合ってやんよ！" speaker_show="True" stop="True" voice="ry12002_02_0248" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="よーし、じゃあ早速……" speaker_show="True" stop="True" voice="mh12001_02_0234" />
+    <sound type="Se" cue_name="CutinAnimal" />
+    <Comment comment="//【SE】ゲーム起動音（スマブラ的なゲームを想定してます）" />
+    <Comment comment="//ピコピコとカーソルを動かす音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="２人対戦モードにして、と……&#xA;準備完了！ 始めるよ、ゆら！" speaker_show="True" stop="True" voice="mh12001_02_0235" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="おう！&#xA;ぶちのめしてやるから覚悟しな、飛粋！" speaker_show="True" stop="True" voice="ry12002_02_0249" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ファーックス!? またやられたじゃねーか！&#xA;コントローラーの効きが悪くはねーか!?" speaker_show="True" stop="True" voice="ry12002_02_0250" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="やったー！ ３連勝!!" speaker_show="True" stop="True" voice="mh12001_02_0236" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="おし、リベンジだ！&#xA;まだ勝負は１回表だぜ!!" speaker_show="True" stop="True" voice="ry12002_02_0251" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="次はどのステージでやるよ？" speaker_show="True" stop="True" voice="ry12002_02_0252" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="うーん、そうだなあ。&#xA;もう一通り遊んじゃったけど……" speaker_show="True" stop="True" voice="mh12001_02_0237" />
+    <sound type="Se" cue_name="CutinAnimal" />
+    <Comment comment="//ピコピコとカーソルを動かす音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="……あ、「協力モード」っていうのがある！" speaker_show="True" stop="True" voice="mh12001_02_0238" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="ゆら、対戦終わりにして&#xA;こっちやってみない？" speaker_show="True" stop="True" voice="mh12001_02_0239" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="あぁん!?&#xA;飛粋、勝ち逃げかよ!?" speaker_show="True" stop="True" voice="ry12002_02_0253" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="対戦は、また今度やろうよ！" speaker_show="True" stop="True" voice="mh12001_02_0240" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ちっ、しゃーねーなー……&#xA;次は絶対ボッコボコにしてやっからな！" speaker_show="True" stop="True" voice="ry12002_02_0254" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="宗近 飛粋" text="うん、楽しみにしてる！&#xA;じゃあ、協力モードに切り替えて、と……" speaker_show="True" stop="True" voice="mh12001_02_0241" />
+    <sound type="Se" cue_name="CutinAnimal" />
+    <Comment comment="//ピコピコとカーソルを動かす音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="この敵を二人でやっつけるみたい。&#xA;ゆら、準備ＯＫ？" speaker_show="True" stop="True" voice="mh12001_02_0242" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="おう、いつでもこいや！" speaker_show="True" stop="True" voice="ry12002_02_0255" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="ゆら、そっちお願い！" speaker_show="True" stop="True" voice="mh12001_02_0243" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="おうよ、任せな!!" speaker_show="True" stop="True" voice="ry12002_02_0256" />
+    <sound type="Se" cue_name="Slash" />
+    <Comment comment="//【SE】敵を攻撃する音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="飛粋！&#xA;敵さん、今度はそっち行ったぞ！" speaker_show="True" stop="True" voice="ry12002_02_0257" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="宗近 飛粋" text="了解！" speaker_show="True" stop="True" voice="mh12001_02_0244" />
+    <sound type="Se" cue_name="Slash" />
+    <Comment comment="//【SE】敵を攻撃する音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="……しかし、最初は敵対してた２人が&#xA;力を合わせて戦う、か……" speaker_show="True" stop="True" voice="ry12002_02_0258" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="なんか飛粋とアタシ様みたいだな！" speaker_show="True" stop="True" voice="ry12002_02_0259" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="宗近 飛粋" text="うんうん、確かに！" speaker_show="True" stop="True" voice="mh12001_02_0245" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="あんときゃ色々あったなー。&#xA;覚えてっか？ 最初は稚内の人形製造工場で……" speaker_show="True" stop="True" voice="ry12002_02_0260" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="……で、そんな苦境を乗り越えた末に、&#xA;飛粋とアタシ様は唯一無二のダチになったってわけだ！" speaker_show="True" stop="True" voice="ry12002_02_0261" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="何度思い返してもいい話だなー。&#xA;泣いちゃいそうだぜ。な、飛粋？" speaker_show="True" stop="True" voice="ry12002_02_0262" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="宗近 飛粋" text="……うん……だねー……むにゃ……" speaker_show="True" stop="True" voice="mh12001_02_0246" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="乱獅子 ゆら" text="だよなだよなー！&#xA;いやーほんと良い響きだなー「ダチ」！" speaker_show="True" stop="True" voice="ry12002_02_0263" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="mampsleep_hisui" effect_type="MampSleep" life_time="90" target_obj="宗近 飛粋" />
+    <msg speaker="宗近 飛粋" text="……う……ん……ＺＺＺ……" speaker_show="True" stop="True" voice="mh12001_02_0247" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="あ、ダチといや、こないだ隊長が&#xA;言ってたんだけどさー" speaker_show="True" stop="True" voice="ry12002_02_0264" />
+    <msg speaker="宗近 飛粋" text="……ＺＺＺ……" speaker_show="True" stop="True" voice="mh12001_02_0248" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg speaker="宗近 飛粋" text="寝落ちた飛粋をよそに、ゆらのマシンガントークは&#xD;&#xA;夜明けまで続いたという……。" speaker_show="True" stop="True" window_type="SystemMsg" />
+  </command>
+</adv>

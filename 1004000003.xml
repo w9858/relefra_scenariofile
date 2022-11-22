@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1004000003" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="モモ達は逃げた怪人を追い、工業地帯まで&#xA;来ていた。そこに師匠組も合流する――。" stop="True" />
+    <msg_window_show show="False" />
+    <Comment comment="工場 入口付近" />
+    <bg show="True" file="22_plant_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ここは国が管理している工場ですね。&#xA;警備用の人形が配備されています。" speaker_show="True" stop="True" voice="ah11005_01_0040" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="怪しげな連中は、この中に入っていったのね。&#xA;……モモの部屋にまで来るなんて。" speaker_show="True" stop="True" voice="hy11002_01_0055" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="（昨日襲ってきたのなら私はモモの部屋の&#xA;天井裏にずっといたのに、間が悪い）" speaker_show="True" stop="True" voice="hy11002_01_0056" lip_sync="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="名前や住所がバレてるってのはただ事じゃないけど&#xA;話聞く限りなんか裏がありそうなんだよね。" speaker_show="True" stop="True" voice="ym11003_01_0073" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="師匠、心当たりないんですか？" speaker_show="True" stop="True" voice="sf11004_01_0113" />
+    <move obj_id="相模 楓" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="そうよメイ。心当たりはないの？" speaker_show="True" stop="True" voice="hy11002_01_0057" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="何かあったらメイを疑うのはやめてよ。&#xA;ココロが痛いから。しくしく、師匠ぉぉぉ。" speaker_show="True" stop="True" voice="ym11003_01_0074" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" force_end="False" />
+    <delete obj_id="半蔵門 雪" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <Comment comment="信の服装は私服（夏）に変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="高坂 信" text="よしよしメイちゃん。" speaker_show="True" stop="True" voice="ks11010_01_0064" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="101_Facial_trouble" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="あまり甘やかさないで下さいね。&#xA;すぐ調子に乗るから。" speaker_show="True" stop="True" voice="sf11004_01_0114" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="工場に潜入して怪人達を捕らえ真相を究明する。&#xA;ツキカゲ、ミッションスタート！" speaker_show="True" stop="True" voice="hy11002_01_0058" />
+  </command>
+</adv>

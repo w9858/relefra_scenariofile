@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3023000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg file="65_Skatingrink_002" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="スケートリンク" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" x="300" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002021" position_id="left" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006018" position_id="left" x="-300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うわぁ……４羽の白鳥じゃなくて&#xA;大勢の白鳥がラインダンスしてる。斬新……。" speaker_show="True" stop="True" voice="mm11001_03_0182" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="バレエをアレンジして派手に見せてるんだね。&#xA;その周りを妖精が飛び回る演出……凄いなぁ。" speaker_show="True" stop="True" voice="ig11006_03_0174" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="私達も行くわよ。できるだけオデット姫の近くで&#xA;全方向に注意を払いましょう。" speaker_show="True" stop="True" voice="hy11002_03_0131" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="ICE_SKATING_Stop_03_mono" />
+    <wait time="0.2" />
+    <move obj_id="源 モモ" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <move obj_id="半蔵門 雪" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <move obj_id="石川 五恵" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <transition effect="Default" type="Out" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" x="-1000" />
+    <transition effect="Default" type="In" time="1.0" wait="True" />
+    <sound type="Se" cue_name="ICE_SKATING_Stop_04_mono" />
+    <wait time="1.0" />
+    <move obj_id="源 モモ" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="はわ～、マドベージェフスカヤ選手、&#xA;近くで見るとテレビよりずっと美人さんだぁ。" speaker_show="True" stop="True" voice="mm11001_03_0183" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006018" x="-300" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="モモち、見て！　ジークフリードが&#xA;フルチェンコフじゃない……！" speaker_show="True" stop="True" voice="ig11006_03_0175" />
+    <msg speaker="マドベージェフスカヤ" text="…………!?" speaker_show="True" stop="True" voice="99033_03_0001" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002021" position_id="left" x="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="マドベージェフスカヤが異変に気付いた……。&#xA;でも、流石ね。すぐ持ち直したわ。" speaker_show="True" stop="True" voice="hy11002_03_0132" />
+    <sound type="Se" cue_name="clapping_short" />
+    <wait time="3.0" />
+    <msg speaker="オルサ君" text="……………♪" speaker_show="True" stop="True" voice="99030_03_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あ、オルサ君が……っていうか、色んな国の&#xA;キャラクターがオデット姫を取り囲んで……。" speaker_show="True" stop="True" voice="mm11001_03_0184" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="楽しいパーティみたいな演出だね。&#xA;くるみ割り人形の曲も混ざってるみたい。" speaker_show="True" stop="True" voice="ig11006_03_0176" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そういえば、チャイコフスキーのリスペクトって&#xA;舞台監督が言っていたわね……。" speaker_show="True" stop="True" voice="hy11002_03_0133" />
+    <msg speaker="テレジア" text="ロッドバルトが……フルチェンコフだ。" speaker_show="True" stop="True" voice="tr11007_03_0047" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="えっ!?" speaker_show="True" stop="True" voice="mm11001_03_0185" />
+    <msg speaker="フルチェンコフ" text="…………………！" speaker_show="True" stop="True" voice="99034_03_0001" />
+    <msg speaker="マドベージェフスカヤ" text="!?" speaker_show="True" stop="True" voice="99033_03_0002" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="曲が………乙女の祈りに変わった！" speaker_show="True" stop="True" voice="ig11006_03_0177" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモ、フルチェンコフに接近して。五恵、私達は&#xA;他にいるかもしれない刺客を警戒。" speaker_show="True" stop="True" voice="hy11002_03_0134" />
+    <lip_sync target1="源 モモ" target2="石川 五恵" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="False" body_anim_type="14_Positive" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="モモ・五恵" text="はい！" speaker_show="True" stop="True" voice="3023000006_union_001" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="ICE_SKATING_Stop_03_mono" />
+    <wait time="0.3" />
+    <move obj_id="源 モモ" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <move obj_id="半蔵門 雪" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <move obj_id="石川 五恵" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <transition effect="Default" type="Out" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002021" position_id="left" x="-1000" />
+    <transition effect="Default" type="In" time="1.0" wait="True" />
+    <sound type="Se" cue_name="ICE_SKATING_Stop_04_mono" />
+    <wait time="1.0" />
+    <move obj_id="半蔵門 雪" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="もうすぐリフトの場面がきてしまう……！" speaker_show="True" stop="True" voice="hy11002_03_0135" />
+    <msg speaker="マドベージェフスカヤ" text="ーーーーー！" speaker_show="True" stop="True" voice="99033_03_0003" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006018" position_id="left" x="-300" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="マドベージェフスカヤさんが、意図的に&#xA;照明から外れる位置に!?　何か変です！" speaker_show="True" stop="True" voice="ig11006_03_0179" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" x="300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="019_Facial_damage" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="フルチェンコフが彼女を追い始めました！&#xA;くっ！　は、速すぎて追いつけない！" speaker_show="True" stop="True" voice="mm11001_03_0187" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="ICE_SKATING_Stop_03_mono" />
+    <wait time="0.5" />
+    <move obj_id="源 モモ" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <transition effect="Default" type="Out" time="1.0" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="石川 五恵" />
+    <transition effect="Default" type="In" time="1.0" wait="True" />
+    <msg speaker="フルチェンコフ" text="ナズバールシャ グルスデョーム&#xA;ポリザーイ フ クーゾフ！" speaker_show="True" stop="True" voice="99034_03_0002" />
+    <sound type="Se" cue_name="ICE_SKATING_Stop_03_mono" />
+    <wait time="0.5" />
+    <move obj_id="源 モモ" x="130" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="何か言ってるけど、言葉が解りません！" speaker_show="True" stop="True" voice="mm11001_03_0188" />
+    <create obj_id="石川 五恵" data_id="311006018" position_id="left" x="-200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="マズい！　ナイフを出した！&#xA;あっ、着ぐるみが２人の間に割って入…っ!?" speaker_show="True" stop="True" voice="ig11006_03_0180" />
+    <sound type="Se" cue_name="quest_SlashDamageLight" />
+    <wait time="0.5" />
+    <msg speaker="オルサ君" text="………………………っ！" speaker_show="True" stop="True" voice="tr11007_03_0048" />
+    <msg speaker="フルチェンコフ" text="ヌィエット………！" speaker_show="True" stop="True" voice="99034_03_0003" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="オルサ君にナイフが刺さった!?&#xA;オ、オ、オルサくーーーーーーん！" speaker_show="True" stop="True" voice="mm11001_03_0189" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

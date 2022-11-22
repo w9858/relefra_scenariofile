@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000024" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg file="44_raimuhouseev_01" />
+    <telop text="敷島ビル 最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="マル。アミィの性能テストを兼ねた&#xA;ＺＥＴの演習を無人島でやろうと思うの。" speaker_show="True" stop="True" voice="sr13001_02_0380" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="大変良いと思いますわ。いつに致しますの？" speaker_show="True" stop="True" voice="sm13002_02_0189" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="次の日曜日。" speaker_show="True" stop="True" voice="sr13001_02_0381" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ちょっと急ではありませんか？&#xA;私、予定が入ってると前に言いましたわ。" speaker_show="True" stop="True" voice="sm13002_02_0190" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="マルがいなくても、演習だけなら私とアミィで&#xA;何とかなるわ。" speaker_show="True" stop="True" voice="sr13001_02_0382" />
+    <move obj_id="敷島 来夢" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="敷島 真留瀬" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="アミィ" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="何とかしてみせまする。" speaker_show="True" stop="True" voice="am13002_02_0058" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="分かりました。全くもう、いつも突然なんですから。" speaker_show="True" stop="True" voice="sm13002_02_0191" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <delete obj_id="アミィ" />
+    <bg file="23_forestev_02" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <telop text="無人島" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="そして演習当日。" stop="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アミィの性能テストをはじめるわ。&#xA;ここは無人島。気兼ねなくやっていいから。" speaker_show="True" stop="True" voice="sr13001_02_0383" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="了解でございまするマスター。&#xA;自然の破壊だけには注意して、いざ。" speaker_show="True" stop="True" voice="am13002_02_0059" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="アームガトリングガン&#xA;「波切」射撃開始。" speaker_show="True" stop="True" voice="am13002_02_0060" />
+    <sound type="Se" cue_name="Missile" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="威力高いアミィのメイン武器ね。" speaker_show="True" stop="True" voice="sr13001_02_0384" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="続いて頭部バルカン&#xA;「赤鳥」射撃開始。" speaker_show="True" stop="True" voice="am13002_02_0061" />
+    <sound type="Se" cue_name="DoolsMachinegun" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="普通の相手はこれで十分。" speaker_show="True" stop="True" voice="sr13001_02_0385" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="胸部ホーミングミサイル&#xA;「八咫烏」発射。" speaker_show="True" stop="True" voice="am13002_02_0062" />
+    <sound type="Se" cue_name="RocketDash" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ミサイルの威力はガチなものから&#xA;威嚇用まで。" speaker_show="True" stop="True" voice="sr13001_02_0386" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="脚部小型ミサイル&#xA;「破軍」発射。" speaker_show="True" stop="True" voice="am13002_02_0063" />
+    <sound type="Se" cue_name="Bom" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="これはホーミングできないから&#xA;とりあえず面の攻撃力を。" speaker_show="True" stop="True" voice="sr13001_02_0387" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="よーしよし。各武装それぞれ問題ないわね。&#xA;さらにアミィは力持ちだから接近戦も安心。" speaker_show="True" stop="True" voice="sr13001_02_0388" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <bg file="42_skyev_01_t01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="上空" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="続いて飛行よ！　ほらアミィ。&#xA;私を捕まえてみなさい。" speaker_show="True" stop="True" voice="sr13001_02_0389" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="はいマスター！　推進システム問題なく作動中。&#xA;一時間は飛行可能にて候。" speaker_show="True" stop="True" voice="am13002_02_0064" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="武装テスト開始。アーム射出、参りまする。&#xA;さらに電磁ネット発射。" speaker_show="True" stop="True" voice="am13002_02_0065" />
+    <sound cue_name="RollingThrow" type="Se" />
+    <wait time="0.5" />
+    <move obj_id="敷島 来夢" x="-300" x_move_type="MoveTo" time="0.5" />
+    <sound cue_name="Throwing" type="Se" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="おおっと！　ふふふ、我ながら&#xA;素敵な武装をとりつけたわ。" speaker_show="True" stop="True" voice="sr13001_02_0390" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="続いて海中に行くわよアミィ！&#xA;ついてきなさい。" speaker_show="True" stop="True" voice="sr13001_02_0391" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="アミィ" text="了解でございまするマスター。&#xA;水軍モードに切り替え。" speaker_show="True" stop="True" voice="am13002_02_0066" />
+    <sound cue_name="Dobon" type="Se" />
+    <wait time="1.0" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <msg window_type="SystemMsg" text="ひとしきり演習を終えた後、&#xA;来夢とアミィは休息していた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg file="23_forestev_02" />
+    <fade_in time="1.0" type="Default" wait="False" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="！？　マスター敵襲です。&#xA;武装人形の大軍！　リザード軍です。" speaker_show="True" stop="True" voice="am13002_02_0067" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……こうはなって欲しくなかったけど。&#xA;まぁいい切り抜けるわよアミィ。" speaker_show="True" stop="True" voice="sr13001_02_0392" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="お供致しまする。" speaker_show="True" stop="True" voice="am13002_02_0068" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

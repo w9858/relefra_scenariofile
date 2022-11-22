@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000004" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <Comment comment="喫茶店　夜" />
+    <bg show="True" file="09_cafe_02" />
+    <msg window_type="SystemMsg" text="翌日の夜&#xA;信は悩める中学生を装い、連続誘拐犯と接触していた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010007" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="宮尻" text="君は、学校や社会に馴染めないことに悩んでるんだね。&#xA;でもそれは、君が純粋だからだ。君は何も悪くない。" speaker_show="True" stop="True" voice="mj98001_01_0001" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="（宮尻さん……この人が連続誘拐犯かぁ。&#xA;全然そんな感じには見えないけど……）" speaker_show="True" stop="True" voice="ks11010_01_0092" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="この汚れた社会は、純粋な者を食い物にしているんだ！&#xA;そんな社会に馴染めない君は、むしろ美しい……。" speaker_show="True" stop="True" voice="mj98001_01_0002" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="ああ、もし僕が君の家族だったら、&#xA;きっと君を幸せにしてあげられるのに！" speaker_show="True" stop="True" voice="mj98001_01_0003" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="は、はあ……。" speaker_show="True" stop="True" voice="ks11010_01_0093" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <sound type="Se" cue_name="Walk" volume="100" />
+    <wait time="0.5" />
+    <msg speaker="店員" text="失礼します。&#xA;ご注文のアイスコーヒーとライムジュースです。" speaker_show="True" stop="True" voice="99030_01_0001" speaker_front="False" />
+    <msg_window_show show="False" />
+    <Comment comment="テーブルにグラスを置く音。" />
+    <sound />
+    <sound type="Se" cue_name="Walk" volume="100" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="いただきます……ん。" speaker_show="True" stop="True" voice="ks11010_01_0094" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="（……これ、睡眠薬だ。……何度か飲むふりしよう……。&#xA;それで、頃合いを見て……）" speaker_show="True" stop="True" voice="ks11010_01_0095" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <create_effect effect_id="shin_sleep" effect_type="MampSleep" target_obj="高坂 信" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <wait time="1.0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="高坂 信" text="……くぅ。" speaker_show="True" stop="True" voice="ks11010_01_0096" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <sound type="Se" cue_name="StandUp" volume="100" />
+    <wait time="1.0" />
+    <msg speaker="宮尻" text="……よし。始めるぞ。" speaker_show="True" stop="True" voice="mj98001_01_0004" />
+    <Comment comment="【SE】カーテンとシャッターが閉まる音" />
+    <sound />
+    <delete obj_id="shin_sleep" />
+    <msg speaker="高坂 信" text="（カーテンとシャッターが閉められて、店員さんや&#xA;お客さんたちが信のテーブルに集まってきた……）" speaker_show="True" stop="True" voice="ks11010_01_0097" lip_sync="False" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】手足をロープで縛る音" />
+    <sound />
+    <Comment comment="【SE】布で目隠しする音" />
+    <sound type="Se" cue_name="Hug" />
+    <wait time="1.0" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <bg show="True" file="07_containerni_02" color="#000000ff" />
+    <delete obj_id="宮尻" />
+    <move obj_id="高坂 信" position_id="left" x="0" x_move_type="MoveTo" time="0.0" wait="True" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <wait time="1.0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="（あっという間に手足を縛って目隠しされちゃった……。&#xA;この人たち、こういう仕事をやり慣れてる……）" speaker_show="True" stop="True" voice="ks11010_01_0098" lip_sync="False" />
+    <Comment comment="【SE】エンジン音" />
+    <sound type="Se" cue_name="MachineSound1" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="（……どこに連れて行かれるんだろう……）" speaker_show="True" stop="True" voice="ks11010_01_0099" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="高坂 信" />
+    <Comment comment="箱根山中　屋敷" />
+    <bg show="True" file="16_soapland_02" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <wait time="1.0" />
+    <Comment comment="【SE】目隠しを取る音" />
+    <sound type="Se" cue_name="Hug" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010007" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="目は覚めたかな？" speaker_show="True" stop="True" voice="mj98001_01_0005" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="安心してくれ、君を傷つけるつもりはない。&#xA;ここは僕の別荘だよ。そしてこれからは君の家になるんだ。" speaker_show="True" stop="True" voice="mj98001_01_0006" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="（カプセルホテルみたいな部屋がたくさん並んでる……。&#xA;ドアに書かれてるの、失踪した女の子たちの名前だ！）" speaker_show="True" stop="True" voice="ks11010_01_0100" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="君たち無垢な少女は、汚い大人たちに傷つけられる前に&#xA;きれいなまま保護されなければならない！" speaker_show="True" stop="True" voice="mj98001_01_0007" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="僕には、資産家だった親が残した莫大な金がある。&#xA;その財産で、いずれは君たちと無人島で暮らすつもりだ！" speaker_show="True" stop="True" voice="mj98001_01_0008" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……えっと……&#xA;それで無人島に連れて行って、どうするんです？" speaker_show="True" stop="True" voice="ks11010_01_0101" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="宮尻" text="全員、僕の妻にする。" speaker_show="True" stop="True" voice="mj98001_01_0009" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="（……これは、この人と問答しても意味ないな……）" speaker_show="True" stop="True" voice="ks11010_01_0102" lip_sync="False" />
+    <char_spine_animation obj_id="宮尻" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="（……屋敷内には、黒服の男の人が13人……。&#xA;体に仕込んである暗器でなんとか……）" speaker_show="True" stop="True" voice="ks11010_01_0103" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="黒服の女" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <move obj_id="黒服の女" position_id="left" x="-400" x_move_type="MoveTo" time="0.5" wait="False" />
+    <Comment comment="【SE】シャキンとナイフを当てる音" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="（首筋にナイフ……！　速い……！&#xA;それに、この指輪は……）" speaker_show="True" stop="True" voice="ks11010_01_0104" speaker_front="True" lip_sync="False" />
+    <msg speaker="黒服の女" text="こいつ、一見無害に見えるが……&#xA;……念のため、調べさせてもらう。" speaker_show="True" stop="True" voice="ko98002_01_0001" speaker_front="False" />
+    <msg speaker="高坂 信" text="（ど、どうしよう……！&#xA;おねがい、みんな早く……!!）" speaker_show="True" stop="True" voice="ks11010_01_0105" speaker_front="True" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <Comment comment="箱根山中　屋敷　屋根の上" />
+    <bg show="True" file="23_forestev_01" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="宮尻" />
+    <delete obj_id="黒服の女" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <Comment comment="ツキカゲ装束の５人がいる" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="私が屋敷内の連中を制圧する。&#xA;雪はフォローをお願い。" speaker_show="True" stop="True" voice="fn11011_01_0027" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="はい、師匠。" speaker_show="True" stop="True" voice="hy11002_01_0258" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-250" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create obj_id="八千代 命" data_id="311003001" position_id="left" x="250" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="私と初芽ちゃんは外の連中を処理しておくわ。&#xA;長穂ちゃんたちは屋敷の中に集中して。" speaker_show="True" stop="True" voice="kt11009_01_0093" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="外からの援軍は入らないようにしておきます。" speaker_show="True" stop="True" voice="ah11005_01_0128" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="メイは、ユッキーと一緒に長穂の姉御を&#xA;フォローするよ。師匠が心配だし。" speaker_show="True" stop="True" voice="ym11003_01_0214" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="今回はスピード解決で行くよー。熱く、鋭くね。&#xA;それじゃ……リリース・ザ・スパイス！" speaker_show="True" stop="True" voice="fn11011_01_0028" />
+  </command>
+</adv>

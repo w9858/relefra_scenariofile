@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030402" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="命と楓のアパート（外観）・昼" />
+    <bg show="True" file="20_meiandfuhouse_01" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="メイと楓のアパート" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create_effect effect_id="effectkirakira_sonoko" effect_type="EffectKirakira" life_time="2.0" target_obj="乃木 園子" x="0" y="0" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="おお～！&#xA;これが魅惑のラブキャッスル！" speaker_show="True" stop="True" voice="ns96006_01_0049" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="やー、キャッスルだなんて照れるなあ～。" speaker_show="True" stop="True" voice="ym11003_01_0543" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="照れるとこ、そこなんだ……。" speaker_show="True" stop="True" voice="ii96004_01_0034" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="階段、気をつけて上がってよ。サビつきまくって&#xA;いつステップが外れるか分かんないんだから。" speaker_show="True" stop="True" voice="sf11004_01_0578" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="相模 楓" />
+    <sound type="Se" />
+    <Comment comment="【ＳＥ】軋む階段を上がる" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="お、おおおお～！　このデンジャーな階段を毎日&#xA;上がることで、お２人の間に愛の吊り橋効果が！" speaker_show="True" stop="True" voice="ns96006_01_0050" />
+    <move obj_id="乃木 園子" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="何よそれ！　ご近所に聞かれたら恥ずかしいから&#xA;さっさと中に入っちゃって！" speaker_show="True" stop="True" voice="sf11004_01_0579" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="まあ、入ったところで、壁が薄いから&#xA;丸聞こえなんだけどね。" speaker_show="True" stop="True" voice="ym11003_01_0544" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="お、お邪魔しま～す。" speaker_show="True" stop="True" voice="ii96004_01_0035" />
+    <msg_window_show show="False" />
+    <sound type="Se" />
+    <Comment comment="【ＳＥ】木のドア軋む（キィ～）" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="犬吠埼 樹" />
+    <Comment comment="命と楓の部屋" />
+    <bg show="True" file="20_meiandfuhouse_02" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="ふわぁ～お♪　ここがラブキッチンで&#xA;こっちがラブリビングですね～？" speaker_show="True" stop="True" voice="ns96006_01_0051" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="全部にラブってつけるのやめなさいよ！" speaker_show="True" stop="True" voice="sf11004_01_0580" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="了解です～。&#xA;では、愛の寝室はどちらですか～？" speaker_show="True" stop="True" voice="ns96006_01_0052" />
+    <move obj_id="相模 楓" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="乃木 園子" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="101_Facial_trouble" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="に、日本語の方が生々しい……。" speaker_show="True" stop="True" voice="ii96004_01_0036" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="どちらも何も、１部屋しかないよん。&#xA;寝る時は、ここに布団敷いてんだー。" speaker_show="True" stop="True" voice="ym11003_01_0545" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="え…っ。" speaker_show="True" stop="True" voice="ns96006_01_0053" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="あ、流石の園子も引いちゃった？&#xA;だよね～、お金持ちなら普通はベッドだろうし。" speaker_show="True" stop="True" voice="ym11003_01_0546" />
+    <create_effect effect_id="effectheart_sonoko" effect_type="EffectHeart" life_time="2.0" target_obj="乃木 園子" x="0" y="0" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="こ、このスペースに２人だなんて密着必至！&#xA;あまりの素晴らしさに、園子コ・ウ・フ・ン♪" speaker_show="True" stop="True" voice="ns96006_01_0054" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="乃木 園子" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="み、密着なんてしないわよ！" speaker_show="True" stop="True" voice="sf11004_01_0581" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="んー？　でもフーさあ、時々だけど&#xA;寝ぼけて、メイに抱きついてくるよね？" speaker_show="True" stop="True" voice="ym11003_01_0547" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="乃木 園子" type="Cheek02_medium" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <lip_sync target1="相模 楓" />
+    <msg speaker="園子・楓" text="えっ!?" speaker_show="True" stop="True" voice="3007030402_01" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="んで、何かムニャムニャ言ってるから&#xA;頭ポンポンしてやると、そのまま静かになんの。" speaker_show="True" stop="True" voice="ym11003_01_0548" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="010_Facial_shy" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="ぎゃーーーっ！　ウソウソウソーーー!?&#xA;何を言ってるんですか師匠ぉーーー!!" speaker_show="True" stop="True" voice="sf11004_01_0583" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="メモメモ～♪" speaker_show="True" stop="True" voice="ns96006_01_0056" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="アンタは何のメモを取ってんのよーーー!!" speaker_show="True" stop="True" voice="sf11004_01_0584" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="あ、あのっ、買って来た食材、冷蔵庫に入れないと。" speaker_show="True" stop="True" voice="ii96004_01_0037" />
+    <move obj_id="犬吠埼 樹" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="お、気が利くねえ、樹ちゃん。&#xA;もしや、料理とか得意な方？" speaker_show="True" stop="True" voice="ym11003_01_0549" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="あ……はい、わりと♪" speaker_show="True" stop="True" voice="ii96004_01_0038" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="えっ!?" speaker_show="True" stop="True" voice="ns96006_01_0057" />
+    <sound type="Se" />
+    <Comment comment="【ＳＥ】ノート床に落ちる（バサッ）" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ふーん。だったら樹、準備を手伝ってくれる？&#xA;まあ、今夜は鍋だから、簡単なんだけど。" speaker_show="True" stop="True" voice="sf11004_01_0585" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="ハイ！　いっつも、お姉ちゃんのお手伝いを&#xA;しているので、サポートは任せてください。" speaker_show="True" stop="True" voice="ii96004_01_0039" />
+    <move obj_id="相模 楓" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="犬吠埼 樹" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create_effect effect_id="effectsweat_sonoko" effect_type="MampSweat" life_time="2.0" target_obj="乃木 園子" x="0" y="0" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="あばばばばイッつんイッつんイッつん！&#xA;御飯作りの手伝いだったら私がするよ！" speaker_show="True" stop="True" voice="ns96006_01_0058" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="良いから、園子さんは楽しみにしていた&#xA;ラブキャッスルを堪能しててください♪" speaker_show="True" stop="True" voice="ii96004_01_0040" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="急に慌てちゃって、どったの？" speaker_show="True" stop="True" voice="ym11003_01_0550" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乃木 園子" text="今夜は……闇鍋に決定だ～。" speaker_show="True" stop="True" voice="ns96006_01_0059" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="へ？" speaker_show="True" stop="True" voice="ym11003_01_0551" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="乃木 園子" text="ダークネスなサバトの幕開けぜよ～……。" speaker_show="True" stop="True" voice="ns96006_01_0060" />
+  </command>
+</adv>

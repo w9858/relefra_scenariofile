@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030501" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <bg show="True" file="08_parkev_01" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="公園" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="ふぅ～、良い風ね。御役目で来たとはいえ&#xA;ちょっとした休暇気分だわ。" speaker_show="True" stop="True" voice="mk96005_01_0040" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="勇者部では、知らない土地に行くと必ず&#xA;戦闘がつきまとってましたからね。" speaker_show="True" stop="True" voice="ii96004_01_0047" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <Comment comment="テレジア、私服（夏）の予定" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="そんなに大変な日々を……。&#xA;まだみんな、中学生なのに偉いですね。" speaker_show="True" stop="True" voice="ah11005_01_0487" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="そうかー？　私は毎日戦闘でも平気だぞ？&#xA;その方が退屈しなくて済むしな！" speaker_show="True" stop="True" voice="bk11008_01_0191" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="ねえ、樹。なんか……白虎を見ていると&#xA;球子を思い出すんだけど……。" speaker_show="True" stop="True" voice="mk96005_01_0041" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="そうですね。&#xA;でも、声は千景さんに似てる気が……。" speaker_show="True" stop="True" voice="ii96004_01_0048" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="いや……えええ!?　それは似てないでしょ。&#xA;どう考えても、この言動は球子よ。" speaker_show="True" stop="True" voice="mk96005_01_0042" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="タマコ？　誰だそいつは。&#xA;そいつも強いのか？" speaker_show="True" stop="True" voice="bk11008_01_0192" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="うん。身体は小さいのに、すごくパワフルで&#xA;とっても強い勇者部の仲間だよ。" speaker_show="True" stop="True" voice="ii96004_01_0049" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="勇者部は、ずいぶん大所帯みたいですけど&#xA;そんなに強い人達ばかり集まっているんですか？" speaker_show="True" stop="True" voice="ah11005_01_0488" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="ええ、そうよ。神樹様に日本全土から&#xA;召喚された精鋭部隊が、私たち勇者部！" speaker_show="True" stop="True" voice="mk96005_01_0043" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="皆さん個性的で、それぞれに違う武器を持って&#xA;勇敢に戦う、愉快な仲間達です♪" speaker_show="True" stop="True" voice="ii96004_01_0050" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <Comment comment="テレジア、私服（夏）の予定" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="愉快……な？" speaker_show="True" stop="True" voice="tr11007_01_0201" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="ほぉ～ん？　それじゃあ、その勇者部で&#xA;１番強いのは誰だ？　やっぱ部長ってヤツか？" speaker_show="True" stop="True" voice="bk11008_01_0193" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="え、あ……それは……。" speaker_show="True" stop="True" voice="ii96004_01_0051" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="ふふん、勇者部で１番強いのは誰かですって？&#xA;愚問ね。そんなの完成型の私に決まってるわ！" speaker_show="True" stop="True" voice="mk96005_01_0044" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <Comment comment="テレジア、私服（夏）の予定" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="なにーっ！　それマジだったのか!?" speaker_show="True" stop="True" voice="bk11008_01_0194" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="楓も似たようなことを言うが……。&#xA;樹、夏凜の話は本当か？" speaker_show="True" stop="True" voice="tr11007_01_0202" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="えっ!?　わ、私はその……よく解りません。" speaker_show="True" stop="True" voice="ii96004_01_0052" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="まあ良い！　お前が勇者部最強だってんなら&#xA;私と勝負しろ、夏凜！" speaker_show="True" stop="True" voice="bk11008_01_0195" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="樹・初芽" text="えっ!?" speaker_show="True" stop="True" voice="3007030501_01" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="勝負？　あんたと私が？" speaker_show="True" stop="True" voice="mk96005_01_0045" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="白虎" text="お前を倒せば、勇者部の誰よりも私が強いって&#xA;ことになるんだろ？　したら、私が未来最強だ！" speaker_show="True" stop="True" voice="bk11008_01_0196" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="み、未来最強!?　じゃあ、もしも……&#xA;私が勝ったら、私が西暦最強に！" speaker_show="True" stop="True" voice="mk96005_01_0046" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <create_effect effect_id="Sweat_ituki" effect_type="MampSweat" life_time="1.0" target_obj="犬吠埼 樹" />
+    <msg speaker="犬吠埼 樹" text="え、いえ……若葉さん達がいますし、&#xA;そういう結論には直結しないんじゃ……。" speaker_show="True" stop="True" voice="ii96004_01_0054" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <create_effect effect_id="Smile_karin" effect_type="MampSmile" life_time="1.0" target_obj="三好 夏凜" />
+    <msg speaker="三好 夏凜" text="いいでしょう。受けて立つわ！&#xA;どっからでもかかって来なさい！" speaker_show="True" stop="True" voice="mk96005_01_0047" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <create_effect effect_id="ga-n" effect_type="MampWorry" life_time="2" target_obj="犬吠埼 樹" />
+    <msg speaker="犬吠埼 樹" text="あぁぁ……お願いですから、少しは私の&#xA;話も聞いて下さいよぉ……。" speaker_show="True" stop="True" voice="ii96004_01_0055" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="お互い、血の気の多いメンバーには&#xA;苦労しますね、樹ちゃん……はぁ～。" speaker_show="True" stop="True" voice="ah11005_01_0490" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

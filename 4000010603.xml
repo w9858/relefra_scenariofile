@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010603" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="02_wasabimo_002" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="１日目営業中" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="よっ、そこのあなた、寄ってかない？&#xA;可愛い子がいっぱい居ますぜ！" speaker_show="True" stop="True" voice="ym11003_01_0815" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="メイちゃん！　それじゃあ&#xA;お姉さんのいるお店の客引きだよ！" speaker_show="True" stop="True" voice="mm11001_01_0987" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="メイ嘘はついてないもーん。可愛い女子が勢ぞろい！&#xA;ついでにカレーもすっごく美味しい！" speaker_show="True" stop="True" voice="ym11003_01_0816" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="カレーは、ついでなんだ……。" speaker_show="True" stop="True" voice="mm11001_01_0988" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="となったら、入るっきゃないでしょ！&#xA;はいはい、そこの人、ご案内～！" speaker_show="True" stop="True" voice="ym11003_01_0817" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="Wasabi店内" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <Comment comment="【SE】ドアの開く音" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="いらっしゃいませー！&#xA;１名様、カウンターのお席にどうぞ～！" speaker_show="True" stop="True" voice="ig11006_01_0594" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="今日は混み合っていまして、少し狭いのですが、&#xA;ゆっくりしていってくださいね♪" speaker_show="True" stop="True" voice="ah11005_01_0656" />
+    <sound type="Se" />
+    <Comment comment="【SE】ガヤガヤとお客で賑わう店内" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠、凄いです！　いつの間にか満席です。" speaker_show="True" stop="True" voice="ig11006_01_0595" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="モモちゃんとメイちゃんが、&#xA;お外で頑張ってくれているお陰ですね。" speaker_show="True" stop="True" voice="ah11005_01_0657" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="あ、勿論ごえちゃんも。店長代理が立派に&#xA;切り盛りしているのが一番の勝因です！" speaker_show="True" stop="True" voice="ah11005_01_0658" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="そんなこと……。でも、閉店まで頑張ります！" speaker_show="True" stop="True" voice="ig11006_01_0596" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="1日目営業後" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="はー疲れたー。声出し過ぎて腹ぺこ丸だよ～。" speaker_show="True" stop="True" voice="ym11003_01_0818" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あはは、メイちゃん声がガサガサだ～！" speaker_show="True" stop="True" voice="mm11001_01_0989" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="モモちだって！　明け方の&#xA;スナックのママみたいだよ～。" speaker_show="True" stop="True" voice="ym11003_01_0819" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006007" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="２人とも、今日は本当にお疲れ様！&#xA;はい、まかないのカレーだよ。" speaker_show="True" stop="True" voice="ig11006_01_0597" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="待ってましたー！　労働後の１杯のカレー！&#xA;これを楽しみに働いたんじゃ！" speaker_show="True" stop="True" voice="ym11003_01_0820" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はぐはぐっ……。美味しい！&#xA;何杯でもお代わりできそう！　もぐもぐ……。" speaker_show="True" stop="True" voice="mm11001_01_0990" />
+    <msg_window_show show="False" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <wait time="0.5" />
+    <msg speaker="青葉 初芽" text="ごえちゃん！　大変です！&#xA;ちょっと厨房、見てください！" speaker_show="True" stop="True" voice="ah11005_01_0659" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠？　どうしたんですか？" speaker_show="True" stop="True" voice="ig11006_01_0598" />
+    <move obj_id="石川 五恵" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="予想外に繁盛してくれたお陰で、明日の分の&#xA;カレーがもうなくなってしまいました。" speaker_show="True" stop="True" voice="ah11005_01_0660" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="それじゃあ明日の営業は。" speaker_show="True" stop="True" voice="mm11001_01_0991" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="どうしよう……。&#xA;せっかくみんなに頑張ってもらったのに……。" speaker_show="True" stop="True" voice="ig11006_01_0599" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ごえちゃん、元気を出してください！&#xA;こうなったら……。" speaker_show="True" stop="True" voice="ah11005_01_0661" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠、何か良いことでも思いついたんですか？" speaker_show="True" stop="True" voice="ig11006_01_0600" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ふふ、それは明日のお楽しみです。&#xA;私に任せてください。では私はこれで。" speaker_show="True" stop="True" voice="ah11005_01_0662" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="行っちゃった。初さんのあの笑顔に、&#xA;ハラハラしちゃうの、メイだけじゃないよね……。" speaker_show="True" stop="True" voice="ym11003_01_0821" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

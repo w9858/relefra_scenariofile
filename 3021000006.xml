@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Briefing" type="Bgm" />
+    <bg file="68_casino_01" />
+    <fade_in time="1" type="Default" />
+    <telop text="カジノ店内" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <sound type="Se" cue_name="EnvGaya" />
+    <wait time="3" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ブラックジャック、ニューゲームです。&#xA;ショーカード。御確認ください。" speaker_show="True" stop="True" voice="ah11005_03_0082" />
+    <msg speaker="カジノ客（男）１" text="よし、カードには問題ない。ＯＫだ。&#xA;ディールしてくれ。" speaker_show="True" stop="True" voice="99154_03_0001" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="なお、手前共のルールでは、サレンダーの宣言が&#xA;適応されません。よろしいですね？ では……。" speaker_show="True" stop="True" voice="ah11005_03_0083" />
+    <sound type="Se" cue_name="tranp_kubaru" />
+    <wait time="4" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ディーラーのアップカードは８です。" speaker_show="True" stop="True" voice="ah11005_03_0084" />
+    <msg speaker="カジノ客（男）２" text="よし、俺はダブルダウン！" speaker_show="True" stop="True" voice="99155_03_0001" />
+    <msg speaker="カジノ客（女）１" text="私はこのまま……スタンド。" speaker_show="True" stop="True" voice="99156_03_0001" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ショーダウン。手前のホールカードはエース。&#xA;よって、18です。" speaker_show="True" stop="True" voice="ah11005_03_0085" />
+    <msg speaker="カジノ客（男）１" text="く…っ、俺は16！　負けた、惜しい！" speaker_show="True" stop="True" voice="99154_03_0002" />
+    <msg speaker="カジノ客（女）１" text="どこが。21には全然遠いじゃない。&#xA;私の勝ちよキングと９で19♪" speaker_show="True" stop="True" voice="99156_03_0002" />
+    <msg speaker="カジノ客（男）２" text="ハッハー、こっちはジャックとクィーン。&#xA;20で俺の勝ちだ！" speaker_show="True" stop="True" voice="99155_03_0002" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="お強いんですね。すっかり私の運を&#xA;持っていかれてしまいましたわ。ウフフ。" speaker_show="True" stop="True" voice="ah11005_03_0086" />
+    <msg speaker="カジノ客（男）２" text="へへ……よーし、もうひと勝負行くか！&#xA;今日は調子が良い。カラーアップだ！" speaker_show="True" stop="True" voice="99155_03_0003" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="お客様は現在100＄チップですので&#xA;カラーアップだと1000＄となります。" speaker_show="True" stop="True" voice="ah11005_03_0087" />
+    <msg speaker="カジノ客（男）２" text="む……いきなりそこまで上がるのか。&#xA;それは少し悩むな……。" speaker_show="True" stop="True" voice="99155_03_0004" />
+    <msg speaker="ウェイトレス" text="強運のお客様に、オーナーから&#xA;お飲み物の特別サービスでございます。" speaker_show="True" stop="True" voice="99021_03_0001" />
+    <msg speaker="オーナー" text="当店のロングアイランドアイスティーを&#xA;御賞味ください。さあ、どうぞ。" speaker_show="True" stop="True" voice="99014_03_0018" />
+    <msg speaker="カジノ客（男）２" text="んー、これは美味い！　グイグイいけるな。&#xA;よし、思い切って1000＄にしてしまえ！" speaker_show="True" stop="True" voice="99155_03_0005" />
+    <msg speaker="オーナー" text="ありがとうございます。&#xA;ブルーリーフ、ちょっと……。" speaker_show="True" stop="True" voice="99014_03_0019" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ディーラー交代いたします。" speaker_show="True" stop="True" voice="ah11005_03_0088" />
+    <msg_window_show show="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="900" x_move_type="MoveTo" y_move_type="MoveValue" time="3" wait="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="3" />
+    <transition effect="Default" type="Out" color_change="True" time="1" wait="True" />
+    <bg file="68_casino_02" effect_time="0.1" wait="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" wait="False" />
+    <transition effect="Default" type="In" color_change="True" time="1" wait="True" />
+    <msg speaker="オーナー" text="ゲームの手際も話術もなかなかだ。&#xA;だがな、ああいう場合は１万＄を勧めろ。" speaker_show="True" stop="True" voice="99014_03_0020" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="え、ですが、1000＄でもお悩みだったのに&#xA;１万へのアップは抵抗が大きいのでは？" speaker_show="True" stop="True" voice="ah11005_03_0089" />
+    <msg speaker="オーナー" text="そう思ったら、さっき俺の出したカクテルを&#xA;バーテンに持って来させろ。" speaker_show="True" stop="True" voice="99014_03_0021" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="あれは、相当に度数が高いカクテルですよね。&#xA;酔わせて、判断力を弱めるのですか？" speaker_show="True" stop="True" voice="ah11005_03_0090" />
+    <msg speaker="オーナー" text="勧めるだけだ。飲む飲まないは客の自由。&#xA;だが、お前は上手く飲むよう仕向けるんだ。" speaker_show="True" stop="True" voice="99014_03_0022" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="解りました……。御命令とあれば従います。&#xA;そして高額をベットした時に私が勝ちます。" speaker_show="True" stop="True" voice="ah11005_03_0091" />
+    <msg speaker="オーナー" text="よく解ってるようだな。感心だ。&#xA;新人だが、お前は見所がある。" speaker_show="True" stop="True" voice="99014_03_0023" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="いえいえ、オーナーこそ、御商売上手で。&#xA;さぞ有名なカジノで学ばれたのでしょうね。" speaker_show="True" stop="True" voice="ah11005_03_0092" />
+    <msg speaker="オーナー" text="俺か？　いや……俺は元々、ある組の下っ端でな。&#xA;組長について回ってただけで、自然に身についた。" speaker_show="True" stop="True" voice="99014_03_0024" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="まあ、そうだったんですか。では、その組は&#xA;よほど素晴らしい、大きな組織で？" speaker_show="True" stop="True" voice="ah11005_03_0093" />
+    <msg speaker="オーナー" text="知ってるか？　金狼会っていうんだ。&#xA;まあ、今はもうないんだがな……。" speaker_show="True" stop="True" voice="99014_03_0025" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="金狼会……。" speaker_show="True" stop="True" voice="ah11005_03_0094" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

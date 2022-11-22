@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3026000007" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="69_ snow_mountain" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="雪山" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003003" position_id="left" x="-300" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001006" position_id="left" x="0" />
+    <create type="Character" obj_id="アミィ" data_id="313002005" position_id="left" x="300" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="マスター、勝負とは？" speaker_show="True" stop="True" voice="am13002_03_0044" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ルールは簡単。ゴールに先についたほうが勝ち。&#xA;アミィの腕から見てコースは上級でいいんじゃない？" speaker_show="True" stop="True" voice="sr13001_03_0103" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="異存ありませぬ。" speaker_show="True" stop="True" voice="am13002_03_0045" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ねぇマル。スノーモービルで下っていってゴールの&#xA;目印になってくれない？　ゴールの判定もお願い。" speaker_show="True" stop="True" voice="sr13001_03_0104" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="わかりましたわ。" speaker_show="True" stop="True" voice="sm13002_03_0058" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アミィ。リフトに乗って移動しましょう。" speaker_show="True" stop="True" voice="sr13001_03_0105" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1" wait="True" />
+    <delete obj_id="敷島 真留瀬" />
+    <move obj_id="アミィ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" wait="False" />
+    <move obj_id="敷島 来夢" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" wait="False" />
+    <transition effect="Default" type="In" color_change="False" time="1" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="マルを探してる時は見てる余裕がなかったけど&#xA;高いところから見下ろすと、一面の銀世界ね。" speaker_show="True" stop="True" voice="sr13001_03_0106" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="美しき絶景でございまする。" speaker_show="True" stop="True" voice="am13002_03_0046" />
+    <msg speaker="敷島 真留瀬" text="お姉様、アミィ。&#xA;準備はよろしくて？" speaker_show="True" stop="True" voice="sm13002_03_0059" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="False" />
+    <msg speaker="敷島 来夢" text="いつでもオッケーよ。" speaker_show="True" stop="True" voice="sr13001_03_0107" />
+    <msg speaker="敷島 真留瀬" text="では……参りますわね。&#xA;よーい、スタートですわ！" speaker_show="True" stop="True" voice="sm13002_03_0060" />
+    <sound type="Se" cue_name="skate1" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="負けないわよ、アミィ。" speaker_show="True" stop="True" voice="sr13001_03_0108" />
+    <sound type="Se" cue_name="skate3" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="（はじめは重心を気持ち後ろにして……！）" speaker_show="True" stop="True" voice="sr13001_03_0109" lip_sync="False" />
+    <move obj_id="敷島 来夢" position_id="left" x="400" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <move obj_id="アミィ" position_id="left" x="-900" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <sound type="Se" cue_name="skate2" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation force_end="False" loop="True" />
+    <msg speaker="アミィ" text="……む!?" speaker_show="True" stop="True" voice="am13002_03_0048" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" />
+    <msg speaker="敷島 来夢" text="（私は勝負するとなったら、&#xA;相手が今日始めたばかりでも手は抜かないからね。）" speaker_show="True" stop="True" voice="sr13001_03_0110" lip_sync="False" />
+    <move obj_id="敷島 来夢" position_id="left" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <move obj_id="アミィ" position_id="left" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <sound type="Se" cue_name="skate2" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation force_end="False" loop="False" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" />
+    <msg speaker="アミィ" text="（これ以上、マスターとの距離を離されると&#xA;勝敗は決してしまいまする……。）" speaker_show="True" stop="True" voice="am13002_03_0049" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="アミィ" text="（しかし、ここは無理をせずに滑走するに限りまする。）" speaker_show="True" stop="True" voice="am13002_03_0050" lip_sync="False" />
+    <msg speaker="敷島 来夢" text="……あぁっ!?" speaker_show="True" stop="True" voice="sr13001_03_0111" />
+    <char_spine_animation force_end="False" loop="False" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" />
+    <msg speaker="アミィ" text="マスターはターン時の減速に失敗。&#xA;今こそが仕掛け時！" speaker_show="True" stop="True" voice="am13002_03_0051" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="敷島 来夢" text="（ミスった……ターンしきれなかった！）" speaker_show="True" stop="True" voice="sr13001_03_0112" lip_sync="False" />
+    <move obj_id="敷島 来夢" position_id="left" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <move obj_id="アミィ" position_id="left" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <sound type="Se" cue_name="skate3" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="勝負をかけるところは見逃さないわね、アミィ。" speaker_show="True" stop="True" voice="sr13001_03_0113" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="アミィ" text="このまま、勝たせてもらいまする！&#xA;今一時だけの下克上ご容赦を！" speaker_show="True" stop="True" voice="am13002_03_0052" />
+    <move obj_id="アミィ" position_id="left" x="400" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <sound type="Se" cue_name="skate3" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" />
+    <msg speaker="敷島 来夢" text="残念、勝者の座は私のものよ？" speaker_show="True" stop="True" voice="sr13001_03_0114" />
+    <move obj_id="アミィ" position_id="left" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <move obj_id="敷島 来夢" position_id="left" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <sound type="Se" cue_name="skate3" volume="100" />
+    <wait time="1.0" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1" wait="True" />
+    <move obj_id="敷島 来夢" position_id="left" x="-1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.1" wait="False" />
+    <move obj_id="アミィ" position_id="left" x="-1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.1" wait="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003003" position_id="left" x="300" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <transition effect="Default" type="In" color_change="False" time="1" wait="True" />
+    <move obj_id="アミィ" position_id="left" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <move obj_id="敷島 来夢" position_id="left" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="1" wait="False" />
+    <sound type="Se" cue_name="skate1" volume="100" />
+    <wait time="1.0" />
+    <char_spine_animation force_end="False" loop="False" obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" />
+    <msg speaker="敷島 真留瀬" text="ゴ、ゴール……ですわ！" speaker_show="True" stop="True" voice="sm13002_03_0061" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <sound type="Se" cue_name="skate2" volume="100" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001006" position_id="left" x="0" />
+    <create type="Character" obj_id="アミィ" data_id="313002005" position_id="left" x="-300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" />
+    <msg speaker="敷島 来夢" text="マル。どっちが先だった？" speaker_show="True" stop="True" voice="sr13001_03_0115" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="敷島 真留瀬" text="今回の……勝者は……。" speaker_show="True" stop="True" voice="sm13002_03_0062" />
+    <char_spine_animation force_end="False" loop="False" obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" />
+    <msg speaker="敷島 真留瀬" text="なしですわ。同着でした……少なくとも&#xA;私の目にはそう見えました。" speaker_show="True" stop="True" voice="sm13002_03_0063" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="敷島 来夢" text="ジャッジありがとね。&#xA;にしてもやるわね、アミィ。" speaker_show="True" stop="True" voice="sr13001_03_0116" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="アミィ" text="マスターの身体能力も目を見張るものがあるかと。&#xA;さすがアミィのマスターにございまする。" speaker_show="True" stop="True" voice="am13002_03_0053" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

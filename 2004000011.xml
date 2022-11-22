@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000011" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" resource_type="Background" file="07_containerni_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="倉庫" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ＺＥＴ参上！　さぁ悪党ども、この名前を&#xA;刻んでおきなさい。私刑執行！！" speaker_show="True" stop="True" voice="sr13001_02_0246" />
+    <msg speaker="悪党Ａ" text="ちくしょう、自分で私刑とか言ってる&#xA;とんでもない奴にやられてたまる……ぐわっ！！" speaker_show="True" stop="True" voice="99009_02_0001" />
+    <msg window_type="SystemMsg" text="敷島来夢は、軍事人形を密輸している&#xA;人間達の倉庫を制圧すべく出撃していた。" stop="True" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="一丁あがりと。悪いコトはいけないと学習しなさい。&#xA;しかし随分ともろい奴等ね。" speaker_show="True" stop="True" voice="sr13001_02_0247" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ミツヒデよりノブナガへ！&#xA;急速に接近している機体があります。" speaker_show="True" stop="True" voice="sm13002_02_0152" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……ん？" speaker_show="True" stop="True" voice="sr13001_02_0248" />
+    <msg window_type="SystemMsg" text="来夢が今まで通り、無敵甲冑を駆使してあっさりと&#xA;任務をかたづけた直後それは訪れた。" stop="True" />
+    <delete obj_id="敷島 真留瀬" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <move obj_id="敷島 来夢" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="アルム" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <sound type="Se" cue_name="RecallsIn" />
+    <wait time="1" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="我が名はアルムだ。" speaker_show="True" stop="True" voice="ar16004_02_0002" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="に、人形が、空を飛んできた……。&#xA;なんて美しいフォルム。ゴクリ……。" speaker_show="True" stop="True" voice="sr13001_02_0249" />
+    <char_spine_animation obj_id="アルム" loop="True" face_anim_type="008_Facial_serious" />
+    <msg speaker="アルム" text="ＺＥＴだな。" speaker_show="True" stop="True" voice="ar16004_02_0003" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ちょっと体触ってもいい？&#xA;うわ、うわ、うわ。なんて見事な。" speaker_show="True" stop="True" voice="sr13001_02_0250" />
+    <move obj_id="敷島 来夢" x="-30" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <shake target="Character" obj_id="敷島 来夢" x="20" vibrate="10" time="1" wait="True" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="23_bodyUnique" />
+    <msg speaker="アルム" text="……ＺＥＴと断定。" speaker_show="True" stop="True" voice="ar16004_02_0004" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="超高性能な人工知能を搭載している。&#xA;……その髪を指でつまむ動作は何なの？" speaker_show="True" stop="True" voice="sr13001_02_0251" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="False" body_anim_type="23_bodyUnique" force_end="False" />
+    <msg speaker="アルム" text="ただ気になっているから触っている。" speaker_show="True" stop="True" voice="ar16004_02_0005" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="08_MouthBothHands" loop="True" />
+    <msg speaker="敷島 来夢" text="つまりクセってこと？&#xA;ワオ。もはや自我を持っているのね。" speaker_show="True" stop="True" voice="sr13001_02_0252" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" body_anim_type="01_Stay" force_end="False" />
+    <msg speaker="アルム" text="ＺＥＴ。お前を消去する。&#xA;消去開始！" speaker_show="True" stop="True" voice="ar16004_02_0006" />
+    <move obj_id="敷島 来夢" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="！？　ちょ待……ちぃぃ、問答無用か。&#xA;私を倒す刺客ってわけね。" speaker_show="True" stop="True" voice="sr13001_02_0253" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="標的動作確認。弾道修正。再びアタック。" speaker_show="True" stop="True" voice="ar16004_02_0007" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="！　今度は避けられない！　大盾展開！" speaker_show="True" stop="True" voice="sr13001_02_0254" />
+    <sound type="Se" cue_name="quest_053_EffectLine" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="緊急時に盾を展開した、か。&#xA;そういった装備もあるのか。" speaker_show="True" stop="True" voice="ar16004_02_0008" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="学習完了。攻撃パターン修正。&#xA;再アタックに入る。" speaker_show="True" stop="True" voice="ar16004_02_0009" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こっちのパターンをあっという間に解析して&#xA;学習するか。性能も惚れ惚れするわね！" speaker_show="True" stop="True" voice="sr13001_02_0255" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="それだけに、それだけに……。" speaker_show="True" stop="True" voice="sr13001_02_0256" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="False" />
+    <msg speaker="アルム" text="？" speaker_show="True" stop="True" voice="ar16004_02_0010" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……ああ腹立たしい。&#xA;悪事に使われるなんて！！" speaker_show="True" stop="True" voice="sr13001_02_0257" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="013_Facial_angry" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="とっ捕まえてプログラム書き換えてやる！&#xA;アンタは人を消去なんてしなくていいのよ。" speaker_show="True" stop="True" voice="sr13001_02_0258" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014010102" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="背景：プール" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <Comment comment="SE:ウォータースライダーを下っていく音" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <sound type="Se" cue_name="bathtub" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="125" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="きゃー！　何これ!?&#xA;こんなに速いなんて聞いてなーい！" speaker_show="True" stop="True" voice="mm11001_02_0484" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="モモち！　落ち着いて前見てなさいよ！" speaker_show="True" stop="True" voice="sf11004_02_0477" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="10_FaceBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="だって、水しぶきと風圧で&#xA;目が開かないんだよー！" speaker_show="True" stop="True" voice="mm11001_02_0485" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="モモちを前に乗せたのは間違いだった&#xA;かもね……。" speaker_show="True" stop="True" voice="sf11004_02_0478" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="わーん！　なんかすっごいカーブがあるよ～！&#xA;どうしよー！" speaker_show="True" stop="True" voice="mm11001_02_0486" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="モモち、落ち着いて！　バイクと一緒よ！&#xA;重心をカーブの内側に移動して！" speaker_show="True" stop="True" voice="sf11004_02_0479" />
+    <msg speaker="相模 楓" text="そうすればスムーズに曲がることが&#xA;できるわ！" speaker_show="True" stop="True" voice="sf11004_02_0480" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ふふん、さすがアタシ。こんな場面でも&#xA;的確な指示出し……" speaker_show="True" stop="True" voice="sf11004_02_0481" />
+    <msg_window_show show="False" />
+    <Comment comment="SE:ウォータースライダーを下っていく音" />
+    <sound type="Se" cue_name="bathtub" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="-50" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" wait="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="わーん、外側に飛ばされちゃうー！" speaker_show="True" stop="True" voice="mm11001_02_0487" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ちょっとモモち！　アタシの話、聞いてた？&#xA;だから重心を！" speaker_show="True" stop="True" voice="sf11004_02_0482" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ええ？　何!?　水の音が大き過ぎて&#xA;聞こえないよー！" speaker_show="True" stop="True" voice="mm11001_02_0488" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="013_Facial_angry" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="だーかーらー！&#xA;カーブの内側にー、体をー傾けてー！" speaker_show="True" stop="True" voice="sf11004_02_0483" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="013_Facial_angry" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ん？　体を傾ける？&#xA;わかった、やってみる！" speaker_show="True" stop="True" voice="mm11001_02_0489" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="えーい！" speaker_show="True" stop="True" voice="mm11001_02_0490" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ちょっ、ちょっと！&#xA;何で外側に傾けてるの!?　逆よ！　逆！" speaker_show="True" stop="True" voice="sf11004_02_0484" />
+    <msg_window_show show="False" />
+    <Comment comment="SE:ウォータースライダーを下っていく音" />
+    <sound type="Se" cue_name="bathtub" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="50" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="え？　何～？&#xA;聞こえないよ～。" speaker_show="True" stop="True" voice="mm11001_02_0491" />
+    <msg_window_show show="False" />
+    <move obj_id="源 モモ" position_id="left" x="125" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="-125" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="えー！　何これ？&#xA;ボートがくるくる回り始めたよ～！" speaker_show="True" stop="True" voice="mm11001_02_0492" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="バランスが崩れたせいで、&#xA;おかしなことに！" speaker_show="True" stop="True" voice="sf11004_02_0485" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="フーちゃーん、これどうすればいいの～？" speaker_show="True" stop="True" voice="mm11001_02_0493" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="どうって、だから重心を内側に！" speaker_show="True" stop="True" voice="sf11004_02_0486" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="内側ってどっちー？&#xA;ボートが回ってるからわかんないよー！" speaker_show="True" stop="True" voice="mm11001_02_0494" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="アタシに聞かないでよー！&#xA;もー、どうなってるのよ、これ～!?" speaker_show="True" stop="True" voice="sf11004_02_0487" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

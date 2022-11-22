@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_001" effect="Immediately" wait="False" color="#ffffffff" effect_time="0.3" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ただいま戻りました！" speaker_show="True" stop="True" voice="mh12001_02_0083" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="石川 五恵" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="お帰りヒッスー！&#xA;いやー、グッドタイミングだね～。" speaker_show="True" stop="True" voice="ym11003_02_0099" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="ちょうど飛粋ちゃん用のツキカゲ装束が&#xA;出来上がったとこなんだ。" speaker_show="True" stop="True" voice="ig11006_02_0048" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="え！　そんなものまで用意してくれるの!?" speaker_show="True" stop="True" voice="mh12001_02_0084" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="ツキカゲの一員としてミッションをこなして&#xA;もらうのだから当然のことよ。" speaker_show="True" stop="True" voice="hy11002_02_0141" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ではこちらに着替えてきてください。&#xA;お披露目会を始めましょう。" speaker_show="True" stop="True" voice="ah11005_02_0204" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_volume volume="0" time="1" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <msg speaker="宗近 飛粋" text="これがツキカゲの装束か。&#xA;これをこうして。いよっと！" speaker_show="True" stop="True" voice="mh12001_02_0085" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="お待たせしました。&#xA;どうでしょう？" speaker_show="True" stop="True" voice="mh12001_02_0086" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まあまあ似合ってるじゃない。" speaker_show="True" stop="True" voice="sf11004_02_0026" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="着心地はどう？&#xA;凪の部隊の制服とは随分勝手が違うと思うけど。" speaker_show="True" stop="True" voice="kt11009_02_0079" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="スカートだと動きが制限されるんじゃないかって&#xA;心配でしたけど、思った以上に動きやすいです！" speaker_show="True" stop="True" voice="mh12001_02_0087" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="で、半蔵さん。実際飛粋はツキカゲとして&#xA;どこまで出来そうなんです？" speaker_show="True" stop="True" voice="sf11004_02_0027" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="そうね、口で言うより一度手合わせしてみるのが&#xA;早いんじゃないかしら？　いい勉強になるわよ。" speaker_show="True" stop="True" voice="hy11002_02_0142" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="じゃあメイが立候補しちゃおうかなー。" speaker_show="True" stop="True" voice="ym11003_02_0100" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="わぁ！　早速この装束を着て戦えるなんて嬉しい！&#xA;メイちゃん、よろしくね！" speaker_show="True" stop="True" voice="mh12001_02_0088" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="宗近 飛粋" />
+    <msg_window_show show="False" />
+    <sound_volume cue_name="Adv6" volume="0" time="0.5" />
+    <transition time="0.5" wait="True" />
+    <bg file="03_tsukikage_003" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" volume="100" />
+    <transition type="In" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="師匠、ツキカゲの代表として、&#xA;しっかり頑張ってくださいよ。" speaker_show="True" stop="True" voice="sf11004_02_0028" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="わかってるって！　んじゃ、遠慮なく&#xA;いっちゃうよ！　てぇぇい！" speaker_show="True" stop="True" voice="ym11003_02_0101" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" wait="True" />
+    <create_effect effect_id="Clash" effect_type="EffectShockWave" life_time="0.2" />
+    <sound cue_name="Clash" />
+    <move obj_id="八千代 命" position_id="left" x="-100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="じゃあこちらも遠慮なく！　行くよ！&#xA;やぁぁぁっっ！" speaker_show="True" stop="True" voice="mh12001_02_0089" />
+    <move obj_id="宗近 飛粋" position_id="left" x="100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" wait="True" />
+    <sound cue_name="Spike" />
+    <create_effect effect_id="Clash" effect_type="EffectShockWave" life_time="0.2" />
+    <wait time="1.0" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="おー、お互い一歩も引けを取ってないな。" speaker_show="True" stop="True" voice="bk11008_02_0028" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="組み合ったままびくともしない。&#xA;双方互角の戦いか。" speaker_show="True" stop="True" voice="tr11007_02_0099" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="100" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="むぐぐ……。ヒッスーなかなかやるね。" speaker_show="True" stop="True" voice="ym11003_02_0102" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="メイちゃんだって。&#xA;ふむむむむっ。" speaker_show="True" stop="True" voice="mh12001_02_0090" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="019_Facial_damage" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="（このままだと、いつまで経っても勝負がつかない。&#xA;　よし、こうなったらあの技を使ってみよう。）" speaker_show="True" stop="True" voice="mh12001_02_0091" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="（最良のタイミングで繰り出せば、うまく行くはず。&#xA;　感覚を研ぎ澄ませて……よし、今だ！）" speaker_show="True" stop="True" voice="mh12001_02_0092" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="せぇぇぇい！" speaker_show="True" stop="True" voice="mh12001_02_0093" />
+    <move obj_id="八千代 命" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.1" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="やばっ！" speaker_show="True" stop="True" voice="ym11003_02_0103" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <sound_stop cue_name="Quest2" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="そこまで。&#xA;二人とも、お疲れ様。" speaker_show="True" stop="True" voice="hy11002_02_0143" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ふぅ、紙一重で脱出できたけど、&#xA;はぁ～、冷や汗かいた～！" speaker_show="True" stop="True" voice="ym11003_02_0104" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ベストなタイミングで仕掛けたのに、&#xA;回避出来ちゃうなんて、さすがはツキカゲだね。" speaker_show="True" stop="True" voice="mh12001_02_0094" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="っていうかヒッスー、今使った技ってさ……。" speaker_show="True" stop="True" voice="ym11003_02_0105" />
+    <move obj_id="宗近 飛粋" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="私の技だよね。どうして……。" speaker_show="True" stop="True" voice="ig11006_02_0049" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="実は私、人の技とか動きを真似るのが得意なんだ。&#xA;100パーセントとまではいかないけどね。" speaker_show="True" stop="True" voice="mh12001_02_0095" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="味方のごえちゃんの技を使えば、メイちゃんも&#xA;予想外の展開に驚いて、イケると思ったんだけど。" speaker_show="True" stop="True" voice="mh12001_02_0096" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="へ～、ヒッスーってば凄いじゃん。" speaker_show="True" stop="True" voice="ym11003_02_0106" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="えへへ。それで雪さん、私、&#xA;ツキカゲでも戦力になれそうでしょうか？" speaker_show="True" stop="True" voice="mh12001_02_0097" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="ええ、これだけの実力があれば、あなたは&#xA;こちらでもうまくやれるわ。" speaker_show="True" stop="True" voice="hy11002_02_0144" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="（モモ、あなたもうまくやれているわよね……）" speaker_show="True" stop="True" voice="hy11002_02_0145" lip_sync="False" />
+  </command>
+</adv>

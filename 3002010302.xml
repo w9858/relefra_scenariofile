@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3002010302" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="20_meiandfuhouse_02" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="命と楓の家" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004003" position_id="left" x="1000" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="020_Facial_thinking" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ぐずんぐずん……、もうすぐお別れだなんて……、&#xA;早すぎるよ……ぐずん。" speaker_show="True" stop="True" voice="ym11003_01_0389" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="DoorOpenAndClose" />
+    <sound_volume type="Se" cue_name="DoorOpenAndClose" volume="50" />
+    <move obj_id="相模 楓" x="200" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <create_effect effect_id="fuu_Sweat" effect_type="MampSweat" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="ただいまー……、って師匠！&#xA;何１人でメソメソしてるんですか？" speaker_show="True" stop="True" voice="sf11004_01_0444" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="12_DropShoulders" loop="True" to_idle="False" face_anim_type="005_Facial_sad" />
+    <msg speaker="八千代 命" text="フー、君は気付いていたのかい？&#xA;別れの日が近づいていることに……。" speaker_show="True" stop="True" voice="ym11003_01_0390" />
+    <delete obj_id="fuu_Sweat" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="別れの日？" speaker_show="True" stop="True" voice="sf11004_01_0445" />
+    <char_spine_eye obj_id="八千代 命" type="Eye03_tear" loop="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そう、刻一刻と迫るお別れの時……。&#xA;そのことを想像したら、悲しくて、寂しくて……。" speaker_show="True" stop="True" voice="ym11003_01_0391" />
+    <char_spine_eye obj_id="相模 楓" type="Eye03_tear" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="師匠……、それってもしかして、&#xA;アタシと師匠の？" speaker_show="True" stop="True" voice="sf11004_01_0446" />
+    <char_spine_eye obj_id="八千代 命" type="Eye01_default" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="んん？　ちょっとフー！　何言っちゃってるの！&#xA;全然違うよー。ヘ・ア・オ・イ・ル！" speaker_show="True" stop="True" voice="ym11003_01_0392" />
+    <char_spine_eye obj_id="相模 楓" type="Eye01_default" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="はぁ？" speaker_show="True" stop="True" voice="sf11004_01_0447" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="フーだって、気付いていたんじゃろ？　カトーさんの&#xA;ヘアオイルが、もう少しでなくなっちゃうんだよ～。" speaker_show="True" stop="True" voice="ym11003_01_0393" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="もー、師匠ってば&#xA;紛らわしい悲しみ方、しないでくださいよ！" speaker_show="True" stop="True" voice="sf11004_01_0448" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ゴメンよ～。&#xA;けど、フーは悲しくないのかい？" speaker_show="True" stop="True" voice="ym11003_01_0394" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="こんなに愛情こめて、大切に育ててきたメイの&#xA;自慢の髪の毛がなくなってしまうなんて……。" speaker_show="True" stop="True" voice="ym11003_01_0395" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="いや、髪の毛はなくなりませんけど……。それに、&#xA;大事にお手入れしてきたのはアタシですけどね。" speaker_show="True" stop="True" voice="sf11004_01_0449" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="まぁ、ちょっと残念ではありますけど、&#xA;貰い物なんだし、しょうがないですよ。" speaker_show="True" stop="True" voice="sf11004_01_0450" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="確かにそうなんだけど、でもでもさ～。&#xA;う～。" speaker_show="True" stop="True" voice="ym11003_01_0396" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <msg window_type="SystemMsg" text="その翌日ーー" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="商店街" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003003" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="フーはしょうがないなんて言ってたけど、メイは&#xA;諦めきれないよ。はぁ～、何とかならないかな～。" speaker_show="True" stop="True" voice="ym11003_01_0397" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="むむっ！　あのお店のショーケースに並んでいる、&#xA;キラキラした綺麗な瓶は……！" speaker_show="True" stop="True" voice="ym11003_01_0398" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Run" volume="50" />
+    <sound_volume type="Se" cue_name="Run" volume="100" time="0.5" wait="False" />
+    <delete obj_id="八千代 命" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003003" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="やっぱりそうだ！&#xA;カトーさんから貰ったのと同じヘアオイル！" speaker_show="True" stop="True" voice="ym11003_01_0399" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_Smile" effect_type="MampSmile" life_time="1.0" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="商店街で手に入る物だったなんて、&#xA;驚き桃の木、モモチの木だよ～！" speaker_show="True" stop="True" voice="ym11003_01_0400" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="早速、お土産に買って帰って、フーを&#xA;驚かせてあげよ……。" speaker_show="True" stop="True" voice="ym11003_01_0401" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="って、げげげっ！　まじか……！" speaker_show="True" stop="True" voice="ym11003_01_0402" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="この値札、ちょっと書き間違えてないかい？" speaker_show="True" stop="True" voice="ym11003_01_0403" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" face_anim_type="005_Facial_sad" />
+    <msg speaker="八千代 命" text="高いとは聞いていたけど……、さすがにコレは&#xA;フーもキレるってレベルじゃ済まないよね。" speaker_show="True" stop="True" voice="ym11003_01_0404" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="うーん、欲しいけど……。喉から手が出てうっかり&#xA;持って帰ってしまいそうな程に欲しいけど……。" speaker_show="True" stop="True" voice="ym11003_01_0405" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="はぁ～、まさか維持するのに、こんなにお金が&#xA;かかるとは……。この髪の毛の手触り……。" speaker_show="True" stop="True" voice="ym11003_01_0406" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_KiraKira" effect_type="EffectShockWave" />
+    <Comment comment="シャララン、的なキラキラ音" />
+    <sound type="Se" />
+    <msg speaker="八千代 命" text="よし！　メイ、決めちゃったぞ！" speaker_show="True" stop="True" voice="ym11003_01_0407" />
+    <delete obj_id="mei_KiraKira" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+  </command>
+</adv>

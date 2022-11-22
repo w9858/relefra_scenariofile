@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010209001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" cue_name="Adv3" volume="0" />
+    <sound_volume type="Bgm" cue_name="Adv3" volume="100" time="1.0" wait="False" />
+    <bg show="True" file="02_wasabini_002" color="#505096ff" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（私ひとり、カトリーナさんからの呼び出し……。&#xA;しかも、こんな夜遅い時間に……。）" speaker_show="True" stop="True" voice="hy11002_02_0789" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（これは……極秘任務か、それとも重要な相談か……。&#xA;どちらにしても、ただごとじゃなさそうだわ。）" speaker_show="True" stop="True" voice="hy11002_02_0790" />
+    <msg_window_show show="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <move obj_id="半蔵門 雪" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <move obj_id="半蔵門 雪" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（……うん、ひとまずトラップとかはなさそうね。）" speaker_show="True" stop="True" voice="hy11002_02_0791" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <wait time="0.5" />
+    <bg show="True" file="02_wasabimo_001" color="#505096ff" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="こんばんは。" speaker_show="True" stop="True" voice="hy11002_02_0792" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="いらっしゃい、雪ちゃん。&#xA;こんな時間に呼び出しちゃってごめんなさいね。" speaker_show="True" stop="True" voice="kt11009_02_0301" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="い、いえ……。&#xA;あの、今日はどういった……。" speaker_show="True" stop="True" voice="hy11002_02_0793" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="……はい、これどうぞ。" speaker_show="True" stop="True" voice="kt11009_02_0302" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="え？　これは……カレー……？" speaker_show="True" stop="True" voice="hy11002_02_0794" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（匂いも普通だし、一見、普通のカレーに見えるけど、&#xA;さすがに気は抜けないわ。）" speaker_show="True" stop="True" voice="hy11002_02_0795" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="あの……これはどういうことですか？" speaker_show="True" stop="True" voice="hy11002_02_0796" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ただのカレーだけど……。&#xA;もしかしてお腹いっぱいだった？" speaker_show="True" stop="True" voice="kt11009_02_0303" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="いえ、そういうわけじゃ……。&#xA;何かお話があるんじゃないんですか？" speaker_show="True" stop="True" voice="hy11002_02_0797" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="話っていうか……新作のカレーの試食を&#xA;頼みたかっただけなんだけど……。" speaker_show="True" stop="True" voice="kt11009_02_0304" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="え!?　試食？" speaker_show="True" stop="True" voice="hy11002_02_0798" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="015_Facial_poker" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あら、私、話してなかったっけ？&#xA;ごめんなさい、うっかり話しそびれちゃったのかも。" speaker_show="True" stop="True" voice="kt11009_02_0305" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="さ、冷めないうちにどうぞ。&#xA;どう思ったか感想、聞かせてね。" speaker_show="True" stop="True" voice="kt11009_02_0306" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="101_Facial_unique" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（もしかしてこの中に何かが入っているとか……。&#xA;でも、食べないわけにはいかないし……。）" speaker_show="True" stop="True" voice="hy11002_02_0799" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ふふっ、さすが、雪ちゃんね。&#xA;じゃあ、毒見代わりに私も一口食べるから。……ほら。" speaker_show="True" stop="True" voice="kt11009_02_0307" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="すみません、つい……。&#xA;それでは、いただきます。" speaker_show="True" stop="True" voice="hy11002_02_0800" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="まだ油断はできない。まずは少量を舌先につけて……。" speaker_show="True" stop="True" voice="hy11002_02_0801" />
+    <sound_volume type="Bgm" cue_name="Adv3" volume="0" time="1.0" wait="False" />
+    <msg_window_show show="False" />
+    <create_effect effect_id="Exclamation_yuki" effect_type="MampExclamation" life_time="1.0" target_obj="半蔵門 雪" x="0" y="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="お、おいしい……！" speaker_show="True" stop="True" voice="hy11002_02_0802" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <sound type="Bgm" cue_name="Adv1" volume="0" />
+    <sound_volume type="Bgm" cue_name="Adv1" time="1.0" wait="False" />
+    <msg speaker="カトリーナ" text="やったわ！　絶対この味、雪ちゃんが喜ぶと思ったの。&#xA;だから、最初に雪ちゃんに食べてほしくて呼んだのよ。" speaker_show="True" stop="True" voice="kt11009_02_0308" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="え？　それが私だけ呼んだ理由ですか？" speaker_show="True" stop="True" voice="hy11002_02_0803" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="そうよ。だって、雪ちゃんのために&#xA;作ったものなんだから。" speaker_show="True" stop="True" voice="kt11009_02_0309" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="そうだったんですね。&#xA;てっきり、何か入っているのかと……。" speaker_show="True" stop="True" voice="hy11002_02_0804" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="もちろんたっぷり入れてあるわよ。" speaker_show="True" stop="True" voice="kt11009_02_0310" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="えっ……!?　な、何を入れたんですか……!?" speaker_show="True" stop="True" voice="hy11002_02_0805" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="雪ちゃんが好きそうなスパイスを、ね。&#xA;手に入れるの大変だったのよ～。" speaker_show="True" stop="True" voice="kt11009_02_0311" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうだったんですか。ありがとうございます。&#xA;でも、どうして急に私にだけ……？" speaker_show="True" stop="True" voice="hy11002_02_0806" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="ふふっ、私だって、ときには後輩を&#xA;労うこともあるのよ。" speaker_show="True" stop="True" voice="kt11009_02_0312" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（そっか……私の勘違いだったんだ。&#xA;でも、このカレー、本当においしい……。）" speaker_show="True" stop="True" voice="hy11002_02_0807" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（私のために作ってくれたからなのか、&#xA;今まで食べたカレーの中で一番おいしいかも。）" speaker_show="True" stop="True" voice="hy11002_02_0808" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

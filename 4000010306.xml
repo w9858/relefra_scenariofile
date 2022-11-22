@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010306" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="10_terminalmo_01" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="空崎駅" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="数日後。" stop="True" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="急いでスーパーに行かないと、&#xA;特売品を買えなくなっちゃう……！" speaker_show="True" stop="True" voice="sf11004_01_0669" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="（あれ？）" speaker_show="True" stop="True" voice="sf11004_01_0670" lip_sync="False" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="みんな、ありがとう。&#xA;じゃ、次は……アップテンポな曲で。" speaker_show="True" stop="True" voice="ym11003_01_0702" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="（……やっぱり師匠！）" speaker_show="True" stop="True" voice="sf11004_01_0671" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="（今日も気持ち良さそうに歌ってる……。&#xA;こういうときの師匠はかっこいいな……）" speaker_show="True" stop="True" voice="sf11004_01_0672" lip_sync="False" />
+    <delete obj_id="相模 楓" />
+    <msg window_type="SystemMsg" text="……１時間後。" stop="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="みんな、今日はどうもありがとう！" speaker_show="True" stop="True" voice="ym11003_01_0703" />
+    <Comment comment="【SE】拍手？" />
+    <sound type="Se" />
+    <wait time="1.0" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="（……ハッ、気づいたら最後まで見てしまった）" speaker_show="True" stop="True" voice="sf11004_01_0673" lip_sync="False" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003004" position_id="left" x="125" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="おー、愛しのフー。&#xA;キミもメイの歌声を聴きにきてくれたのかね？" speaker_show="True" stop="True" voice="ym11003_01_0704" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004004" position_id="left" x="-125" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="もう、何言ってるんですか！&#xA;アタシはただ……か、買い物に来ただけですよ！" speaker_show="True" stop="True" voice="sf11004_01_0674" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="だったらメイも行くよ。&#xA;今日はお肉買おう、お肉ー！" speaker_show="True" stop="True" voice="ym11003_01_0705" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="そんなお金、どこに……。" speaker_show="True" stop="True" voice="sf11004_01_0675" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="はい、今日のおひねり。" speaker_show="True" stop="True" voice="ym11003_01_0706" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="わぁ、今日は多かったんですね！&#xA;でも、こういうのは大事にとっておいたほうが……。" speaker_show="True" stop="True" voice="sf11004_01_0676" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="えー、今日せっかく頑張ったのになあ……&#xA;ご褒美もナシってこと？" speaker_show="True" stop="True" voice="ym11003_01_0707" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="フーだって、節約ばっかりじゃなくて、&#xA;たまにはお肉、食べたいでしょ？" speaker_show="True" stop="True" voice="ym11003_01_0708" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="う……わ、わかりました。&#xA;それじゃ、何かお肉を買って……。" speaker_show="True" stop="True" voice="sf11004_01_0677" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_kirakira" effect_type="EffectKirakira" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="やったー！　今日はステーキだ！" speaker_show="True" stop="True" voice="ym11003_01_0709" />
+    <delete obj_id="mei_kirakira" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="……は無理ですから、特売品のひき肉を狙いましょう。" speaker_show="True" stop="True" voice="sf11004_01_0678" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ひき肉ぅ？" speaker_show="True" stop="True" voice="ym11003_01_0710" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" loop="True" to_idle="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="相模 楓" text="あ、その顔、もしかして、ひき肉をバカにしてますね？" speaker_show="True" stop="True" voice="sf11004_01_0679" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="ひき肉は、炒め物に使うこともできるし、&#xA;ハンバーグや肉団子にもなる偉大な食材ですよ？" speaker_show="True" stop="True" voice="sf11004_01_0680" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="それにひき肉は……。" speaker_show="True" stop="True" voice="sf11004_01_0681" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <create_effect effect_id="mei_Sweat" effect_type="MampSweat" life_time="1" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="わ、わかった！　わかったってば！&#xA;別にひき肉をバカにしたわけじゃないって！" speaker_show="True" stop="True" voice="ym11003_01_0711" />
+    <delete obj_id="mei_Sweat" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そんなに言うならダッシュで買いに行くよ！&#xA;絶対にお肉をゲットしなくっちゃ！" speaker_show="True" stop="True" voice="ym11003_01_0712" />
+    <move obj_id="八千代 命" x="1500" time="1" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="ちょっ……ま、待ってください、師匠～!!" speaker_show="True" stop="True" voice="sf11004_01_0682" />
+  </command>
+</adv>

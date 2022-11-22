@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010601" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="08_parkev_01" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="東扇島公園" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <Comment comment="テレジア　私服（夏）" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="テレジア" text="五恵はどんなものが好きだ？" speaker_show="True" stop="True" voice="tr11007_01_0228" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_trouble" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="え？　どうしたの、急に…？" speaker_show="True" stop="True" voice="ig11006_01_0570" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="私はモウリョウを抜け、ツキカゲの仲間として&#xA;活動していくことになった。" speaker_show="True" stop="True" voice="tr11007_01_0229" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="今後は初芽だけでなく、ツキカゲ全員と友好関係を&#xA;築かないといけない。まずは五恵だ。" speaker_show="True" stop="True" voice="tr11007_01_0230" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="ありがとう。私もテレちゃんと仲良くしたいよ。" speaker_show="True" stop="True" voice="ig11006_01_0571" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="うん。お互いの思惑は一致している。" speaker_show="True" stop="True" voice="tr11007_01_0231" />
+    <msg speaker="テレジア" text="友好関係を築くためには、まずはお互いの好みを&#xA;把握することが重要だと聞く。" speaker_show="True" stop="True" voice="tr11007_01_0232" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="だから五恵、好きなものを教えてくれ。" speaker_show="True" stop="True" voice="tr11007_01_0233" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="えっと…急にそう言われても…。" speaker_show="True" stop="True" voice="ig11006_01_0572" />
+    <msg_window_show show="False" />
+    <delete obj_id="テレジア" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="それでは、私が教えてあげましょう！" speaker_show="True" stop="True" voice="ah11005_01_0640" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠!?　いつからそこに!?" speaker_show="True" stop="True" voice="ig11006_01_0573" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="フフフ、私の気配に気づけないなんて、&#xA;ごえちゃんもまだまだですね♪" speaker_show="True" stop="True" voice="ah11005_01_0641" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="私の大切な友達が２人して会っているんですから、&#xA;気になってしまって。" speaker_show="True" stop="True" voice="ah11005_01_0642" />
+    <msg speaker="青葉 初芽" text="さてさて、ごえちゃんの好きなものですが、&#xA;全般的にかわいいもの好きです！" speaker_show="True" stop="True" voice="ah11005_01_0643" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="石川 五恵" type="Cheek02_medium" loop="True" />
+    <msg speaker="石川 五恵" text="し、師匠！？　それは…。" speaker_show="True" stop="True" voice="ig11006_01_0574" />
+    <msg_window_show show="False" />
+    <move obj_id="石川 五恵" x="0" x_move_type="MoveTo" time="0.5" />
+    <move obj_id="青葉 初芽" x="300" x_move_type="MoveTo" time="0.5" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <Comment comment="テレジア　私服（夏）" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="なるほど、そうなのか。" speaker_show="True" stop="True" voice="tr11007_01_0234" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="モフモフしているもの、小さいもの、&#xA;仕草が愛くるしいもの、ゆるカワキャラとかも！" speaker_show="True" stop="True" voice="ah11005_01_0644" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ごえちゃんの部屋にはかわいいぬいぐるみが&#xA;たくさんありますし、いつも一緒に寝てるんですよ。" speaker_show="True" stop="True" voice="ah11005_01_0645" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="なるほど…" speaker_show="True" stop="True" voice="tr11007_01_0235" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="や、やめてください、師匠！&#xA;恥ずかしいです…。" speaker_show="True" stop="True" voice="ig11006_01_0575" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="どうしてですか？&#xA;恥ずかしがることじゃないと思いますよ。" speaker_show="True" stop="True" voice="ah11005_01_0646" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="でも…私は見た目が…。背が高すぎますし、&#xA;こんな私がかわいいもの好きって…" speaker_show="True" stop="True" voice="ig11006_01_0576" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="そんなことはありません！！" speaker_show="True" stop="True" voice="ah11005_01_0647" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ごえちゃん自身もかわいいですから、&#xA;かわいいもの好きで似合っています！" speaker_show="True" stop="True" voice="ah11005_01_0648" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ぬいぐるみとごえちゃんが一緒にいれば&#xA;かわいいもの×２で破壊力抜群です！" speaker_show="True" stop="True" voice="ah11005_01_0649" />
+    <msg speaker="石川 五恵" text="うぅっ…は、恥ずかしいです…&#xA;でも…ありがとうございます…。" speaker_show="True" stop="True" voice="ig11006_01_0577" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="なるほど…破壊力か。&#xA;よほど凄いのだろう。ぜひ見てみたい。" speaker_show="True" stop="True" voice="tr11007_01_0236" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="て、テレちゃんも真面目に&#xA;受け取らないで…。" speaker_show="True" stop="True" voice="ig11006_01_0578" />
+    <msg_window_show show="False" />
+    <sound cue_name="Cat" type="Se" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="おや、猫ですね。" speaker_show="True" stop="True" voice="ah11005_01_0650" />
+    <sound cue_name="Cat" type="Se" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="わわっ、私の足元に…" speaker_show="True" stop="True" voice="ig11006_01_0579" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="懐かれているな。" speaker_show="True" stop="True" voice="tr11007_01_0237" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ごえちゃんは動物にも、よく好かれるんですよ。&#xA;猫とか犬とか。" speaker_show="True" stop="True" voice="ah11005_01_0651" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="実際、うちの３匹のシノビも、&#xA;ごえちゃんにはすぐに懐きましたしねえ。" speaker_show="True" stop="True" voice="ah11005_01_0652" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="動物は好きだから、この体質は嬉しいです。" speaker_show="True" stop="True" voice="ig11006_01_0580" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="動物に好かれるのは、きっとごえちゃんの心の優しさを&#xA;感じ取っているからですね。" speaker_show="True" stop="True" voice="ah11005_01_0653" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ごえちゃんは、とってもいい子ですから。" speaker_show="True" stop="True" voice="ah11005_01_0654" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="150" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="し、師匠、頭を撫でないでください…&#xA;恥ずかしいです…。" speaker_show="True" stop="True" voice="ig11006_01_0581" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="照れてるごえちゃんもかわいいです♪" speaker_show="True" stop="True" voice="ah11005_01_0655" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="（動物は五恵に懐き、五恵は初芽に懐く…&#xA;なるほど…）" speaker_show="True" stop="True" voice="tr11007_01_0238" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

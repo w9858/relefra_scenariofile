@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3008000003" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="各キャラの衣装は現在、仮のものを入れております。" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="背景：Wasabi" />
+    <bg show="True" resource_type="Background" file="02_wasabimo_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="土曜日" stop="True" />
+    <msg_window_show show="False" />
+    <Comment comment="SE:扉の開く音" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="おっじゃましまーす！" speaker_show="True" stop="True" voice="mh12001_02_0140" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="くんくん、相変わらず美味そうなカレーの香り。&#xA;あ、アタシ様、今日はポークに卵トッピング！" speaker_show="True" stop="True" voice="ry12002_02_0082" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="じゃあアタシは、シーフードにしようかな。" speaker_show="True" stop="True" voice="th12004_02_0085" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="では、しぶきは全部盛りの大盛りを、&#xA;そうじゃな、ひとまず５人前いただこう。" speaker_show="True" stop="True" voice="ss12003_02_0144" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="相変わらず、みんな良く食べるわねぇ。" speaker_show="True" stop="True" voice="sf11004_02_0052" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="それで、今日はどんな相談ごとで&#xA;やってきたのかしら？" speaker_show="True" stop="True" voice="kt11009_02_0082" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="では早速本題に入るとしようかの。" speaker_show="True" stop="True" voice="ss12003_02_0145" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="最近新しく空丘動物園の経営母体となった&#xA;新興企業の名前は知っておるか？" speaker_show="True" stop="True" voice="ss12003_02_0146" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="確かピースビースト株式会社という会社ですよね。&#xA;潰れかけた動物園の再興を頑張ってると聞いてます。" speaker_show="True" stop="True" voice="ah11005_02_0212" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="実はその会社が、希少動物の密輸密売に関与している&#xA;疑いがあるとの情報を入手したのじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0147" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="そんな……動物さんたちを守る、&#xA;立派な会社だと思ってたのに。" speaker_show="True" stop="True" voice="ig11006_02_0063" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="その情報、信ぴょう性はどの程度の&#xA;ものなのかしら？" speaker_show="True" stop="True" voice="hy11002_02_0165" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="はっきり言ってほぼほぼクロだよ。アタシ様と&#xA;飛粋が内偵を進めた結果だから間違いねえ。" speaker_show="True" stop="True" voice="ry12002_02_0083" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="どうやら空丘動物園を希少動物の一時的な保管と、&#xA;飼育をする場所として利用しているらしいんです。" speaker_show="True" stop="True" voice="mh12001_02_0141" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="そんな事に動物園を利用するなんて酷い……。" speaker_show="True" stop="True" voice="ks11010_02_0077" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そこまでわかってるなら、どうしてすぐに&#xA;強行捜査に踏み切らないんですか？" speaker_show="True" stop="True" voice="sf11004_02_0053" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="勿論しぶきたちだってそうしたい。しかし動物園の&#xA;職員さんや動物たちの安全のことを考えるとな……。" speaker_show="True" stop="True" voice="ss12003_02_0148" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="もしかして、作戦から考えろって言いにきたのか？&#xA;なかなか図々しい頼みだが、聞いてやらんでも……" speaker_show="True" stop="True" voice="bk11008_02_0032" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="作戦はもう考えておるわ。この中の何人かを&#xA;動物園の職員としてしばらく潜入させるのじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0149" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="長期間の潜入はそれなりにリスクがあると思うけど、&#xA;必然性はあるの？" speaker_show="True" stop="True" voice="hy11002_02_0166" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="少し時間をかけてでも、動物たちと職員の安全と、&#xA;いざという時の避難ルートは確保しなくちゃだからね。" speaker_show="True" stop="True" voice="th12004_02_0086" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="潜入部隊の準備が完了し次第で、親会社への&#xA;強行捜査を行う想定なのじゃが……" speaker_show="True" stop="True" voice="ss12003_02_0150" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="020_Facial_thinking" body_anim_type="19_Amazed" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="しぶきたちだけだと、他の指令が入る可能性もあるから&#xA;長期間の潜入調査は厳しいんじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0151" />
+    <move obj_id="轟 葉栖美" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="なるほど、それでツキカゲに&#xA;合同ミッションを持ちかけたんだね。" speaker_show="True" stop="True" voice="ks11010_02_0078" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="動物園に職員として潜入して貰う役をツキカゲと&#xA;凪の部隊から１人ずつ出したいと考えておるのじゃが。" speaker_show="True" stop="True" voice="ss12003_02_0152" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そういうことなら、このアタシに任せてください！&#xA;自然に溶け込むのは大得意ですから。" speaker_show="True" stop="True" voice="sf11004_02_0054" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="清々しいほどの自信。これは期待できるな。凪の部隊&#xA;からははっすーを派遣する。２人とも頼んだぞ。" speaker_show="True" stop="True" voice="ss12003_02_0153" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="了解！&#xA;楓ちゃん、初めての共同作業、頑張ろうね！" speaker_show="True" stop="True" voice="th12004_02_0087" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="け、結婚式みたいな言い方しないでください！" speaker_show="True" stop="True" voice="sf11004_02_0055" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

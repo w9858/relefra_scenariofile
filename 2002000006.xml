@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000006" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="34_sakasatower_02" />
+    <sound type="Bgm" volume="100" cue_name="Adv1" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" x="-200" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="200" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="凪の部隊は常に稼働しているわけではない。&#xA;招集がかかるまでは高校生活を送る。" speaker_show="True" stop="True" voice="ss12003_01_0097" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="お前が望む友達も、存分に作るが良いのじゃ。&#xA;付き合いが悪いと思われるかもしれんがの。" speaker_show="True" stop="True" voice="ss12003_01_0098" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="宗近 飛粋" text="はい、ありがとうございます！" speaker_show="True" stop="True" voice="mh12001_01_0077" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="momo_Sweat" effect_type="MampSweat" life_time="1.0" target_obj="宗近 飛粋" x="0" y="0" />
+    <msg speaker="宗近 飛粋" text="……ってあぁぁっ！" speaker_show="True" stop="True" voice="mh12001_01_0078" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="なんじゃ笑ったり驚いたり忙しい奴じゃな。" speaker_show="True" stop="True" voice="ss12003_01_0099" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="今頃気付いたんですけど。映画で見たんです。&#xA;ほらスパイが大事な人を作ってしまうと……。" speaker_show="True" stop="True" voice="mh12001_01_0079" />
+    <move obj_id="薩摩 しぶき" x="0" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" wait="False" position_id="left" />
+    <move obj_id="宗近 飛粋" x="300" x_move_type="MoveTo" time="0.5" y="0" position_id="left" y_move_type="MoveValue" wait="False" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="敵の組織に脅される材料になるかもしれないって&#xA;アレね。スパイあるあるだ。" speaker_show="True" stop="True" voice="th12004_01_0049" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="はっきり言おう、それがないとは言い切れん。" speaker_show="True" stop="True" voice="ss12003_01_0100" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="うぅっ、やっぱり。&#xA;じゃあ友達作るのはやめた方がいいですかね……。" speaker_show="True" stop="True" voice="mh12001_01_0080" />
+    <move obj_id="宗近 飛粋" x="450" x_move_type="MoveTo" time="0.5" y="0" position_id="left" y_move_type="MoveValue" wait="False" />
+    <move obj_id="薩摩 しぶき" x="-225" x_move_type="MoveTo" time="0.5" y="0" wait="False" y_move_type="MoveValue" position_id="left" />
+    <move obj_id="轟 葉栖美" x="-450" x_move_type="MoveTo" time="0.5" y="0" wait="False" y_move_type="MoveValue" position_id="left" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" x="0" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="津守 ヨモギ" text="本人次第だな飛粋。気にしすぎるとお前を&#xA;育てた家とも縁を切る必要が出てくるぜ。" speaker_show="True" stop="True" voice="ty12005_01_0043" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="ゔ～" speaker_show="True" stop="True" voice="mh12001_01_0081" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="轟 葉栖美" text="クラスの連中と仲良くやってるぐらいでわざわざ&#xA;そこ狙う奴もいないと思うよ。恋人ならともかく。" speaker_show="True" stop="True" voice="th12004_01_0050" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="True" />
+    <msg speaker="薩摩 しぶき" text="うむ。それに友ならしぶき達がいるぞ飛粋。&#xA;同じ組織の仲間同士なら気兼ねもないじゃろ。" speaker_show="True" stop="True" voice="ss12003_01_0101" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="隊長……ありがとうございます。" speaker_show="True" stop="True" voice="mh12001_01_0082" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="津守 ヨモギ" text="さて今日はどうする？　囚人相手に&#xA;実戦訓練でもしていくか？" speaker_show="True" stop="True" voice="ty12005_01_0044" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="そ、そんなお願いをしてもいいんですか？" speaker_show="True" stop="True" voice="mh12001_01_0083" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="津守 ヨモギ" text="ああ。というか囚人だって別にムチうって&#xA;無理矢理使うってわけじゃ無いぜ。" speaker_show="True" stop="True" voice="ty12005_01_0045" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="リスクとリターンを承知の上で合意してくれた&#xA;囚人のみが、この逆さ塔に来るってワケ。" speaker_show="True" stop="True" voice="th12004_01_0051" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="逃亡防止のチップが埋め込んであるゆえ悪さもできん。&#xA;まぁ油断はせぬがなぁ。変態揃いゆえな。" speaker_show="True" stop="True" voice="ss12003_01_0102" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="津守 ヨモギ" />
+    <msg window_type="SystemMsg" text="宗近飛粋は逆さ塔で部隊についての説明を&#xA;うけた後、黒百合学園の寮へ移動していた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="35_dorm_01" />
+    <transition type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="黒百合寮" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" x="400" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" x="-150" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" x="-400" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="寮は基本２人で１部屋ですよね？&#xA;まだ私部屋に１人だから寂しいです…。" speaker_show="True" stop="True" voice="mh12001_01_0084" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="さらに凪の部隊が増えたら、その人が&#xA;飛粋ちゃんのルームメイトになるよ。" speaker_show="True" stop="True" voice="th12004_01_0052" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="一般人が同室では都合悪いからの。つまり、しぶきと&#xA;はっすーは同じ部屋というわけじゃな。" speaker_show="True" stop="True" voice="ss12003_01_0103" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="さらにメンバーが増える予定あるんですね。&#xA;やったー！　素敵です！！" speaker_show="True" stop="True" voice="mh12001_01_0085" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="轟 葉栖美" text="ヨモギさんが言っていたように凪の部隊は少数精鋭を&#xA;見込んでるからすぐ来るとは限らないけどね。" speaker_show="True" stop="True" voice="th12004_01_0053" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <create_effect effect_id="hisui_Light" effect_type="MampLight" life_time="1" target_obj="宗近 飛粋" x="-50" y="25" />
+    <msg speaker="宗近 飛粋" text="あ、じゃあ追加メンバーが来るまで私が先輩達の&#xA;部屋にお邪魔するというのはいかがでしょうか。" speaker_show="True" stop="True" voice="mh12001_01_0086" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="sibuki_sweat" effect_type="MampSweat" life_time="1.0" target_obj="薩摩 しぶき" x="0" y="0" />
+    <msg speaker="薩摩 しぶき" text="狭いわい！　何がいかがでしょうか、じゃ。&#xA;飛粋はどんだけ寂しんぼなんじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0104" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="んーいいんじゃない。賑やかで楽しいと思うけどな。" speaker_show="True" stop="True" voice="th12004_01_0054" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="そういう軽いノリで捨て犬とか拾ってるから&#xA;今のはっすーがあるんじゃなぁ。" speaker_show="True" stop="True" voice="ss12003_01_0105" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="ノリは軽くてもきっちり面倒みてたし。&#xA;飛粋ちゃんも責任もって面倒みるよん！" speaker_show="True" stop="True" voice="th12004_01_0055" />
+    <move obj_id="宗近 飛粋" x="200" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" position_id="left" wait="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="わーい！　葉栖美さん宜しくお願いします！" speaker_show="True" stop="True" voice="mh12001_01_0087" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="やれやれ、１人加わっただけで、騒がしくなったの。&#xA;梅昆布茶を飲んでひとやすみじゃ。ずずっ…。" speaker_show="True" stop="True" voice="ss12003_01_0106" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_volume type="Bgm" time="1.0" wait="False" />
+  </command>
+</adv>

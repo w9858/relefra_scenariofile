@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1005000005" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" volume="100" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="ツキカゲと凪の部隊は&#xA;一同に集まり、親睦を深めていた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006007" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="す、凄いです葉栖美さん、ラッパ達と&#xA;完全なコミュニケーションをとってる。" speaker_show="True" stop="True" voice="ig11006_01_0080" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="まーね五恵ちゃん。アタシの特技はいろんな動物と&#xA;意思疎通ができるって事だから。" speaker_show="True" stop="True" voice="th12004_01_0014" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="源 モモ" text="凪の皆は、それぞれ特技を持ってるんだね。" speaker_show="True" stop="True" voice="mm11001_01_0115" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="そうだ。アタシ様が回復力の強さ。首でも切るか&#xA;粉みじんにならない限り死なないね。" speaker_show="True" stop="True" voice="ry12002_01_0023" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="しぶきは、パワーじゃ。&#xA;正義の力は誰にも負けんぞ。もぐもぐ。" speaker_show="True" stop="True" voice="ss12003_01_0040" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="気持ちの良い食べっぷりですね。&#xA;カレー１０皿とは。" speaker_show="True" stop="True" voice="ah11005_01_0067" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="力を維持するにもエネルギーがいるのでな。&#xA;その分、働くのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0041" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <Comment comment="高坂信　アイドル私服" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="ツキカゲにも、こういう技能を&#xA;もったやつがいるだろ。" speaker_show="True" stop="True" voice="ty12005_01_0021" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="高坂 信" text="え、そうなんですか？" speaker_show="True" stop="True" voice="ks11010_01_0066" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="いやお前さんだよ。その存在感の薄さは&#xA;もはや人間ステルスだね。凪に入れる特技だ。" speaker_show="True" stop="True" voice="ty12005_01_0022" />
+    <move obj_id="高坂 信" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="津守 ヨモギ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="おぉー。信さん、流石は師匠の師匠。" speaker_show="True" stop="True" voice="sf11004_01_0125" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="高坂 信" text="あはは、ほ、誇れるんだけど、ちょっとフクザツ。" speaker_show="True" stop="True" voice="ks11010_01_0067" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="私は人の特技をマネできるんだ。&#xA;１００％の再現率じゃないけどね。" speaker_show="True" stop="True" voice="mh12001_01_0019" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ほほー。じゃあこれ再現出来る？&#xA;モモち、ゴー！" speaker_show="True" stop="True" voice="ym11003_01_0079" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <move obj_id="源 モモ" position_id="left" x="-100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <msg speaker="源 モモ" text="ちょっとごめんね、飛粋ちゃん。&#xA;ぺろっ。" speaker_show="True" stop="True" voice="mm11001_01_0116" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="わうっ。" speaker_show="True" stop="True" voice="mh12001_01_0020" />
+    <move obj_id="源 モモ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="健康そのもので、精神状態は…楽しくて楽しくて&#xA;仕方が無い感じ。こっちまで嬉しくなっちゃうな。" speaker_show="True" stop="True" voice="mm11001_01_0117" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="この子は舐めると相手の体調が分かるのよ。&#xA;精神状態もね。簡易的な嘘発見器にも使えるわ。" speaker_show="True" stop="True" voice="hy11002_01_0064" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="いやぁ。" speaker_show="True" stop="True" voice="mm11001_01_0118" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="乱獅子 ゆら" text="へぇー。なにげにすげぇな。拍手、アタシ様拍手。&#xA;よし、飛粋。再現だ。" speaker_show="True" stop="True" voice="ry12002_01_0024" />
+    <move obj_id="宗近 飛粋" position_id="left" x="100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="それじゃ行くよ、ゆらちゃん、ぺろっ。" speaker_show="True" stop="True" voice="mh12001_01_0021" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="んー。料理が美味しくて楽しい！　って感じ。" speaker_show="True" stop="True" voice="mh12001_01_0022" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="大正解！　やるじゃんさすが飛粋だな。" speaker_show="True" stop="True" voice="ry12002_01_0025" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="テレジア　アオザイ" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="101_Facial_trouble" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="テレジア" text="それは舐めなくても分かる気がするが……。" speaker_show="True" stop="True" voice="tr11007_01_0077" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="今度は、ツキカゲが東京に来るのじゃ。&#xA;凪の部隊というものを、もう少し紹介しておく。" speaker_show="True" stop="True" voice="ss12003_01_0042" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="おほっ、東京とかいーじゃんいーじゃん。&#xA;ようし。なる早でいこうーっ！" speaker_show="True" stop="True" voice="bk11008_01_0044" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" time="1.0" />
+  </command>
+</adv>

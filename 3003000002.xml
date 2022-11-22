@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003000002" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="03_tsukikage_007" resource_type="Background" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <move obj_id="半蔵門 雪" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="初芽、入るわよ。" speaker_show="True" stop="True" voice="hy11002_01_0359" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="雪ちゃん、よくぞいらしてくれました。&#xA;まずは、お紅茶とお茶菓子をどうぞ。" speaker_show="True" stop="True" voice="ah11005_01_0159" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="これ予約後３年待ちのケーキよね？&#xA;紅茶も最高級品。この手厚いもてなし……。" speaker_show="True" stop="True" voice="hy11002_01_0360" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="まさか、何かとんでもない実験に付き合わせる&#xA;つもりじゃないでしょうね？" speaker_show="True" stop="True" voice="hy11002_01_0361" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="ふふ、さすがは雪ちゃん、用心深いですね。&#xA;けど、安心してください。" speaker_show="True" stop="True" voice="ah11005_01_0160" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="これは嬉しくてつい、の気持ちの表れです。&#xA;雪ちゃんに実験台をお願いするのは久々ですから。" speaker_show="True" stop="True" voice="ah11005_01_0161" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="確かに初芽が五恵を弟子に取ってからは、&#xA;初芽の実験に付き合う機会も少なくなったものね。" speaker_show="True" stop="True" voice="hy11002_01_0362" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="それで、折り入って私にテストを&#xA;頼みたい発明品と言うのは？" speaker_show="True" stop="True" voice="hy11002_01_0363" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="ふふ、見てください。&#xA;ついに完成したんです！" speaker_show="True" stop="True" voice="ah11005_01_0162" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="裸にならなくても透明クリームの効果が持続する、&#xA;ボンテージスーツのプロトタイプ１号が！" speaker_show="True" stop="True" voice="ah11005_01_0163" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ボンテージスーツ？" speaker_show="True" stop="True" voice="hy11002_01_0364" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="はい。実はこの間、透明クリームを届けた帰りに、&#xA;皆さんのお話をこっそり聞かせてもらったんです。" speaker_show="True" stop="True" voice="ah11005_01_0164" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="020_Facial_thinking" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="たとえ透明になって姿が見えないとしても、&#xA;うら若き乙女が裸で敵と戦うのは危険過ぎる……。" speaker_show="True" stop="True" voice="ah11005_01_0165" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="すっかり見落としていた重大な問題点を克服すべく、&#xA;みんなに内緒で作ってみたのです！" speaker_show="True" stop="True" voice="ah11005_01_0166" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="本当なの？　だってあのクリームは服の上から&#xA;塗ると効果時間が大幅に短くなるのよね。" speaker_show="True" stop="True" voice="hy11002_01_0365" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="14_Positive" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="はい。なので素肌に限りなく近い素材を作って、&#xA;スーツに仕立ててみたんです。" speaker_show="True" stop="True" voice="ah11005_01_0167" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="このボンテージスーツプロトタイプ１号なら、&#xA;素肌に塗ったのと同等の透明効果が持続します！" speaker_show="True" stop="True" voice="ah11005_01_0168" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="凄いじゃないの、初芽。" speaker_show="True" stop="True" voice="hy11002_01_0366" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="今まで透明とはいえ、裸で敵と戦っていたので&#xA;防御力にも不安がありましたがそれも解決です！" speaker_show="True" stop="True" voice="ah11005_01_0169" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="それは助かるわ。裸だとなかなか強硬策にも&#xA;出づらくて苦労してきたからね。" speaker_show="True" stop="True" voice="hy11002_01_0367" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="このスーツさえあれば、今までの弱点を補いつつ、&#xA;乙女のリスクも回避できますよ。" speaker_show="True" stop="True" voice="ah11005_01_0170" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="実用化されれば、ツキカゲの戦闘力も&#xA;大きく向上しそうね。" speaker_show="True" stop="True" voice="hy11002_01_0368" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="はい、と言うわけで雪ちゃん、&#xA;さっそく試着をお願いします！" speaker_show="True" stop="True" voice="ah11005_01_0171" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002016" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <fade_in time="1.0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ずいぶん肌に密着しているけれど……、&#xA;これでいいかしら……？" speaker_show="True" stop="True" voice="hy11002_01_0369" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="009_Facial_blush" body_anim_type="10_FaceBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_cheek obj_id="青葉 初芽" type="Cheek02_medium" loop="True" />
+    <msg speaker="青葉 初芽" text="やだ、セクシー。" speaker_show="True" stop="True" voice="ah11005_01_0172" />
+  </command>
+</adv>

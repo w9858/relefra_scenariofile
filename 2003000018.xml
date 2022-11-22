@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000018" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM17_Boss2" />
+    <Comment comment="Boss1 激戦" />
+    <sound type="Bgm" cue_name="Boss2" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="23_forestev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="山中" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="念珠" data_id="398003001" position_id="left" x="300" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-300" />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="愚かだな、ツキカゲ！　こんなところまで&#xA;誘き出されて、罠だと思わなかったのか!?" speaker_show="True" stop="True" voice="nj98003_01_0036" />
+    <char_spine_animation obj_id="念珠" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="山伏も、ツキカゲも、お前たち私設諜報機関は、&#xA;神仏でも救い難い愚か者ばかりだ!!" speaker_show="True" stop="True" voice="nj98003_01_0037" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="……念珠ちゃんは……私設諜報機関ってものが&#xA;嫌いなのかな？" speaker_show="True" stop="True" voice="fn11011_01_0089" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="……！" speaker_show="True" stop="True" voice="nj98003_01_0038" />
+    <char_spine_animation obj_id="念珠" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="念珠" text="……嫌いではないさ。ただ、愚かだとは思う。" speaker_show="True" stop="True" voice="nj98003_01_0039" />
+    <char_spine_animation obj_id="念珠" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="……私は、昔から欲深かった。バブルで財を成した&#xA;両親から、金は何よりも大切だと教えられてきたんだ。" speaker_show="True" stop="True" voice="nj98003_01_0040" />
+    <char_spine_animation obj_id="念珠" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="だがある時、友人から、私は金銭欲の塊だと罵られ……&#xA;私は、この欲深さを捨てようとした。" speaker_show="True" stop="True" voice="nj98003_01_0041" />
+    <char_spine_animation obj_id="念珠" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="修験道系宗教法人が母体の山伏に入り、&#xA;信仰の世界に生きようとしたのも、それが理由だ。" speaker_show="True" stop="True" voice="nj98003_01_0042" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="だが……山伏こそが、信仰こそが、金銭欲の塊だった！" speaker_show="True" stop="True" voice="nj98003_01_0043" />
+    <char_spine_animation obj_id="念珠" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="山伏の母体には、お布施、会費、霊験があると称する&#xA;道具の販売……様々な名目による莫大な収入がある。" speaker_show="True" stop="True" voice="nj98003_01_0044" />
+    <char_spine_animation obj_id="念珠" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="一方で、修行と称して信者たちを無賃金で働かせ、&#xA;宗教法人として税金も免除されている……" speaker_show="True" stop="True" voice="nj98003_01_0045" />
+    <char_spine_animation obj_id="念珠" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <shake target="MsgWindow" x="10" y="10" vibrate="100" time="0.5" />
+    <msg speaker="念珠" text="お前たちも自分たちの組織に目を向けてみろ！&#xA;どれだけの金を溜め込んでいる!?" speaker_show="True" stop="True" voice="nj98003_01_0046" />
+    <char_spine_animation obj_id="念珠" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="正義を掲げながら、その実体は&#xA;欲望の権化に決まっている！" speaker_show="True" stop="True" voice="nj98003_01_0047" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="……んー、私はさ、お金のこととか考えるのも&#xA;大変だし、あんまり興味ないよ。" speaker_show="True" stop="True" voice="fn11011_01_0090" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="上が何をやっていようと、私が自分を&#xA;見失わなければ、道を間違えない。" speaker_show="True" stop="True" voice="fn11011_01_0091" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="何……？" speaker_show="True" stop="True" voice="nj98003_01_0048" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="私は大切な仲間を守る。空崎という街を守る。&#xA;そこに住む人々を守る。これが私の正義。" speaker_show="True" stop="True" voice="fn11011_01_0092" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="自分自身がそれを見失わなければ、&#xA;他のことは関係ない。" speaker_show="True" stop="True" voice="fn11011_01_0093" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="さっき念珠ちゃんは「罠だと思わなかったのか」って&#xA;言ってたよね？　その可能性は考えてたよ。" speaker_show="True" stop="True" voice="fn11011_01_0094" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="それなのに、ノコノコとついてきたのか!?" speaker_show="True" stop="True" voice="nj98003_01_0049" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="99％罠でも、１％本当の可能性があった！&#xA;だったら助けに行く！" speaker_show="True" stop="True" voice="fn11011_01_0095" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="同じ志の仲間が危機に陥っている可能性がほんの少し&#xA;でもあるなら、私たちは仲間を助けに行くんだ！" speaker_show="True" stop="True" voice="fn11011_01_0096" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="それが私の……ツキカゲの正義だから！" speaker_show="True" stop="True" voice="fn11011_01_0097" />
+    <msg_window_show show="False" />
+    <delete obj_id="念珠" />
+    <delete obj_id="藤林 長穂" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪（M）" data_id="311002015" position_id="left" x="0" />
+    <char_spine_eye obj_id="半蔵門 雪（M）" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪（M）" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（……私が指摘するまでもなく、師匠は最初から&#xA;罠の可能性を考えていた）" speaker_show="True" stop="True" voice="hy11002_01_0308" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪（M）" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（それでも師匠は、躊躇なく仲間を助けに行くと言った。&#xA;同じ志の仲間を助けることは、ツキカゲの正義だから）" speaker_show="True" stop="True" voice="hy11002_01_0309" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪（M）" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（仲間を守ること。人々を守ること。&#xA;その正義にだけは絶対に背かない。だから――）" speaker_show="True" stop="True" voice="hy11002_01_0310" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪（M）" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（どんなに危険でも、師匠はここにいる。&#xA;そんな人だからこそ、私は師匠を尊敬しているんだ）" speaker_show="True" stop="True" voice="hy11002_01_0311" lip_sync="False" />
+    <msg_window_show show="False" />
+    <delete obj_id="半蔵門 雪（M）" />
+    <create type="Character" anchor="Bottom" obj_id="念珠" data_id="398003001" position_id="left" x="300" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="-1000" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-300" />
+    <char_spine_eye obj_id="半蔵門 雪" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="それに……もし罠だったとしても、私たちなら&#xA;罠ごと叩き伏せてみせる！　行くよ、半蔵！" speaker_show="True" stop="True" voice="fn11011_01_0098" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <move obj_id="藤林 長穂" x="-150" x_move_type="MoveTo" time="0.5" />
+    <move obj_id="半蔵門 雪" x="-400" x_move_type="MoveTo" time="0.5" />
+    <msg speaker="半蔵門 雪" text="はい、師匠！" speaker_show="True" stop="True" voice="hy11002_01_0312" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+  </command>
+</adv>

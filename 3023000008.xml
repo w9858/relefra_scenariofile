@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3023000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg file="65_Skatingrink_002" show="True" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="スケートリンク" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create obj_id="半蔵門 雪" data_id="311002021" position_id="left" x="-300" />
+    <create obj_id="八千代 命" data_id="311003005" position_id="left" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="なるほど……あなたは、このステージを最後に&#xA;ポーランドへ亡命するつもりで……。" speaker_show="True" stop="True" voice="hy11002_03_0138" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="資料によると、パパとママが小さい頃離婚して&#xA;ポーランド人だったママは国に帰ったとあるね。" speaker_show="True" stop="True" voice="ym11003_03_0233" />
+    <msg speaker="マドベージェフスカヤ" text="ママ……病気。ポーランド、イル。私ソバニイタイ。&#xA;オリンピックヨリ……私ママ大切……。" speaker_show="True" stop="True" voice="99033_03_0008" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <create obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create obj_id="白虎" data_id="311007008" position_id="left" x="300" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="おーい、ちょっと締め上げたら&#xA;フルチェン野郎が吐いたぞー。" speaker_show="True" stop="True" voice="bk11008_03_0085" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="その呼び方やめなさい！　どうやら、彼女に抜けて&#xA;欲しくない勢力が、今回の事件を企てたみたいね。" speaker_show="True" stop="True" voice="sf11004_03_0259" />
+    <msg speaker="マドベージェフスカヤ" text="仲間メダル欲シィ。私ガ、ポーランド行ッテ&#xA;メダル獲ッテ欲シクナイ……コウナルハ解ッテタ。" speaker_show="True" stop="True" voice="99033_03_0009" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="白虎" />
+    <create obj_id="高坂 信" data_id="311010003" position_id="left" x="-300" />
+    <create obj_id="源 モモ" data_id="311001020" position_id="left" x="300" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そんなことのために人を殺す……。&#xA;命より面子が大事だなんて……。" speaker_show="True" stop="True" voice="mm11001_03_0193" />
+    <msg speaker="マドベージェフスカヤ" text="殺サレルカモシラナイ……ダッタラ&#xA;アノ曲デ……終ワル。シタカッタ。" speaker_show="True" stop="True" voice="99033_03_0010" />
+    <msg speaker="カトリーナ" text="ポーランドの作曲家バダジェフスカによる&#xA;『乙女の祈り』は、あなたの意地で決意だったのね。" speaker_show="True" stop="True" voice="kt11009_03_0095" />
+    <msg speaker="マドベージェフスカヤ" text="国ノ恩受ケタラ、国ノタメダケ……生キル。&#xA;自分ノ心、関係ナク……国ニ全部アゲル……掟。" speaker_show="True" stop="True" voice="99033_03_0011" />
+    <msg speaker="マドベージェフスカヤ" text="ナイフ出ス言ワレタ。『キノコト名乗ッタラ&#xA;籠ニ入レ』生キ方変エル、悪イコト……。" speaker_show="True" stop="True" voice="99033_03_0012" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そんなことない。あなたの優しい気持ちを&#xA;悪だなんて、誰にも責める事はできないよ。" speaker_show="True" stop="True" voice="ks11010_03_0080" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="高坂 信" />
+    <create obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create obj_id="石川 五恵" data_id="311006018" position_id="left" x="300" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="エゴを押しつけて殺そうとするなんて仲間の&#xA;することじゃない。あなたはもう自由よ。" speaker_show="True" stop="True" voice="sf11004_03_0260" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="それにしても、テレちゃんが&#xA;着ぐるみに入っていたのは意外だったね……。" speaker_show="True" stop="True" voice="ig11006_03_0183" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <create obj_id="テレジア" data_id="311008003" position_id="left" x="-300" />
+    <create obj_id="源 モモ" data_id="311001020" position_id="left" x="300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そうそう！　私１回、抱きついたのに&#xA;全然、気付かなかったよ！" speaker_show="True" stop="True" voice="mm11001_03_0194" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="ナイフを防げるほど、ブ厚い衣装だから。" speaker_show="True" stop="True" voice="tr11007_03_0050" />
+    <delete obj_id="テレジア" />
+    <create obj_id="半蔵門 雪" data_id="311002021" position_id="left" x="-300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="色んな国の人達がいて、どの言語で情報が&#xA;聞こえてくるか解らなかったでしょう？" speaker_show="True" stop="True" voice="hy11002_03_0139" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="だから、複数の言語を解するテレジアを&#xA;密偵にするのが最良だと踏んだのよ。" speaker_show="True" stop="True" voice="hy11002_03_0140" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="通信で熊がどうとかって聞いた時には&#xA;流石に私も、少し焦ってしまったけど。" speaker_show="True" stop="True" voice="hy11002_03_0141" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あれ？　でも……じゃあ『熊に乗る』は&#xA;結局なんだったんでしょう……。" speaker_show="True" stop="True" voice="mm11001_03_0195" />
+    <create obj_id="八千代 命" data_id="311003005" position_id="left" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ああ、あれね。単に滑舌が悪かっただけ。&#xA;『クマ』じゃなくて『アクマ』が正解。" speaker_show="True" stop="True" voice="ym11003_03_0234" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="え？　そ、そういえばロッドバルトは悪魔！&#xA;暗号でも何でもなく、聞き間違え!?" speaker_show="True" stop="True" voice="mm11001_03_0196" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="災いが転じて福となったわね。結果的に&#xA;フルチェンコフが悪魔役になって助かったわ。" speaker_show="True" stop="True" voice="hy11002_03_0142" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create obj_id="石川 五恵" data_id="311006018" position_id="left" x="-300" />
+    <create obj_id="白虎" data_id="311007008" position_id="left" x="300" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="そうですね。王子様を妖精が取り押さえるのは&#xA;ショーとはいえ、流石に不自然すぎますから。" speaker_show="True" stop="True" voice="ig11006_03_0184" />
+    <msg speaker="マドベージェフスカヤ" text="皆サン、アリガトゴザイマシタ。今日ノ事、&#xA;日本ノ事……忘レナイ。ダスヴィダーニャ……。" speaker_show="True" stop="True" voice="99033_03_0013" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="どうか、お元気で。&#xA;前途をお祈りしています。" speaker_show="True" stop="True" voice="ig11006_03_0185" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="さー、引き上げだ。腹が減ったなあ！&#xA;ラーメンでも食べて帰ろう♪" speaker_show="True" stop="True" voice="bk11008_03_0086" />
+    <delete obj_id="白虎" />
+    <delete obj_id="石川 五恵" />
+    <create obj_id="半蔵門 雪" data_id="311002021" position_id="left" x="-300" />
+    <create obj_id="源 モモ" data_id="311001020" position_id="left" x="300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あの……師匠。&#xA;今日は何の日だか御存知ですか？" speaker_show="True" stop="True" voice="mm11001_03_0197" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="020_Facial_thinking" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="020_Facial_thinking" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="え？　今日は……ごめんなさい解らないわ。&#xA;ここ数日、任務の事しか頭になかったから。" speaker_show="True" stop="True" voice="hy11002_03_0143" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="師匠らしいです。今日は、御自分のお誕生日ですよ？&#xA;おめでとうございます。" speaker_show="True" stop="True" voice="mm11001_03_0198" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="あぁ……そうね。すっかり忘れていたわ。" speaker_show="True" stop="True" voice="hy11002_03_0144" />
+    <char_spine_animation obj_id="源 モモ" />
+    <msg speaker="源 モモ" text="この後、少しだけ……私にお祝いさせて下さい。&#xA;この、スケートリンクで。" speaker_show="True" stop="True" voice="mm11001_03_0199" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="もう警察も来ているし、そんな時間はないけれど&#xA;………フッ、少しだけよ。" speaker_show="True" stop="True" voice="hy11002_03_0145" />
+    <fade_out time="0.5" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

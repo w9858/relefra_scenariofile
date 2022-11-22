@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" volume="100" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="02_wasabimo_001" effect="Immediately" wait="False" effect_time="0.3" color="#ffffffff" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="もぐもぐもぐ。ん～、素敵なスパイスの香り！&#xA;Wasabiのカレーはやっぱり最高です！" speaker_show="True" stop="True" voice="mh12001_02_0044" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ああ、はるばる空崎まで食いにきた甲斐が&#xA;あったってモンだぜ。もぐもぐ、はぐはぐ。" speaker_show="True" stop="True" voice="ry12002_02_0034" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="こら！　しぶき達はカレーを食べるために&#xA;空崎まで来た訳ではないぞ！" speaker_show="True" stop="True" voice="ss12003_02_0085" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="一番たくさん食べてるしぶきちが言うと、&#xA;全っ然、説得力ないけどねー。" speaker_show="True" stop="True" voice="th12004_02_0051" />
+    <delete obj_id="轟 葉栖美" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="それで、ツキカゲに折り入っての&#xA;相談と言うのは？" speaker_show="True" stop="True" voice="kt11009_02_0075" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="まぁそう急ぐでない。ぷは～、食ったのう。&#xA;カレーの代金は警視庁宛に請求してくれ。" speaker_show="True" stop="True" voice="ss12003_02_0086" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="では本題に入る。今回は互いの今後を見据えて&#xA;ある提案を持ってきたのじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0087" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="提案？　ですか。" speaker_show="True" stop="True" voice="ah11005_02_0192" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="今後も凪の部隊とツキカゲの共同ミッションの&#xA;機会は増えていくことじゃろう。" speaker_show="True" stop="True" voice="ss12003_02_0088" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="そこで、互いの組織の特徴や実力を&#xA;もっと知るべきだと思うんじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0089" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="確かにそれは必須事項ね。何か具体的な手段を&#xA;提案しに来たと言うことかしら？" speaker_show="True" stop="True" voice="hy11002_02_0129" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ああ、とっておきのプランを今からこのアタシ様が&#xA;発表しちゃうぜ！　んじゃ、ドラムロールスタート！" speaker_show="True" stop="True" voice="ry12002_02_0035" />
+    <delete obj_id="半蔵門 雪" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="だららららららら……じゃん！&#xA;その作戦とは！　テッテレー！" speaker_show="True" stop="True" voice="ry12002_02_0036" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="全部、自分で言っちゃうんだ……。" speaker_show="True" stop="True" voice="ig11006_02_0047" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="凪の部隊にも変な奴がいるのね。" speaker_show="True" stop="True" voice="sf11004_02_0024" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="両方の組織から代表を１人ずつ選んで、&#xA;交換留学をやってみるのじゃ！" speaker_show="True" stop="True" voice="ss12003_02_0090" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ってちょっと隊長！　何でアタシ様より先に&#xA;言っちゃうんだよ。折角こんだけ盛り上げたのに。" speaker_show="True" stop="True" voice="ry12002_02_0037" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="この名案を考えたのはしぶきじゃからな。&#xA;どうじゃ、ツキカゲ？　良い案と思わぬか？" speaker_show="True" stop="True" voice="ss12003_02_0091" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="空崎と東京で交換留学か！　面白そ～！&#xA;こっちからは誰が行こっか？" speaker_show="True" stop="True" voice="ym11003_02_0097" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="折角行くなら、吸収力とか今後のことも見越して、&#xA;少しでも若い弟子組の誰かが良い気がするけど。" speaker_show="True" stop="True" voice="kt11009_02_0076" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ツキカゲの代表ってことなら決まってるでしょ？&#xA;若くて優秀で吸収力も抜群のこの……。" speaker_show="True" stop="True" voice="sf11004_02_0025" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="白虎様に任せろ！　東京のウマい物、ぜーんぶ&#xA;吸収して、ついでに土産も買って帰ってきてやる！" speaker_show="True" stop="True" voice="bk11008_02_0021" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="吸収の意味を履き違えているようだな……。" speaker_show="True" stop="True" voice="tr11007_02_0097" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ツキカゲもキャラ者揃いで賑やかだねー。&#xA;んじゃこっちも２年のどっちかに行ってもらおっか。" speaker_show="True" stop="True" voice="th12004_02_0052" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="では飛粋、お前を任命する。" speaker_show="True" stop="True" voice="ss12003_02_0092" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <move obj_id="轟 葉栖美" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ええっ、私がツキカゲに！&#xA;いいんですか？" speaker_show="True" stop="True" voice="mh12001_02_0045" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="ツキカゲの持つ技能を一つでも多く身につけて&#xA;くれば、今後の我々の活動にも役に立つ。" speaker_show="True" stop="True" voice="ss12003_02_0093" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="わー、凪の部隊の代表だなんて、光栄過ぎて、&#xA;嬉しさと緊張でドキドキが止まりません！" speaker_show="True" stop="True" voice="mh12001_02_0046" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="こっちは飛粋ちゃんにお願いすることになったけど、&#xA;ツキカゲチームは誰が来る？" speaker_show="True" stop="True" voice="th12004_02_0053" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="こちらチームは……そうね……。&#xA;モモ、あなたが行きなさい。" speaker_show="True" stop="True" voice="hy11002_02_0130" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="えー！　私がツキカゲの代表!?&#xA;本当に本当にいいんですか！" speaker_show="True" stop="True" voice="mm11001_02_0046" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="大丈夫ですよ。モモちゃんの味覚と嗅覚は、&#xA;特殊技能を持つ凪の部隊でも役に立つはずです。" speaker_show="True" stop="True" voice="ah11005_02_0193" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="メンバーも決まったことだし、それじゃあ早速、&#xA;交換留学スタートと行きましょう。" speaker_show="True" stop="True" voice="kt11009_02_0077" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

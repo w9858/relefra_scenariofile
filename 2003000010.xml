@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000010" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <Comment comment="Adv3 怪しい・警戒" />
+    <sound type="Bgm" volume="100" cue_name="Adv3" />
+    <bg show="True" file="23_rivermo_01" color="#787878ff" />
+    <Comment comment="【SE】大雨が降っている音" />
+    <sound />
+    <Comment comment="１人の男が河川敷を歩いている。" />
+    <sound type="Se" cue_name="Walk" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="河川敷" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <msg speaker="？？？" text="（数週間に及ぶ調査で、夜明け前に&#xA;この場所の人通りが殆ど無いことは確認済みだ……）" speaker_show="True" stop="True" voice="99031_01_0001" lip_sync="False" />
+    <msg speaker="？？？" text="（まして川の氾濫さえ起こりそうな大雨の中で、&#xA;河川敷に近づく者はいないだろう……）" speaker_show="True" stop="True" voice="99031_01_0002" lip_sync="False" />
+    <msg speaker="？？？" text="（万が一通りかかった人間がいても、この大雨だ。&#xA;俺の顔や姿をはっきりと見ることはできない……）" speaker_show="True" stop="True" voice="99031_01_0003" lip_sync="False" />
+    <msg speaker="？？？" text="（幾重にも保険をかけて行動する、この慎重な性格の&#xA;おかげで、今まで様々な国で警察の手を逃れてきた……）" speaker_show="True" stop="True" voice="99031_01_0004" lip_sync="False" />
+    <msg speaker="？？？" text="（１人殺せば人殺しだが、数千人殺せば英雄だ。&#xA;俺は伝説を作った英雄として歴史に名を刻むだろう！）" speaker_show="True" stop="True" voice="99031_01_0005" lip_sync="False" />
+    <msg speaker="？？？" text="（そうだ……俺は英雄になる！&#xA;この最高傑作によって……！）" speaker_show="True" stop="True" voice="99031_01_0006" lip_sync="False" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】バッグから爆弾を取り出す音" />
+    <sound type="Se" cue_name="Hug" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="そう言って取り出したのは、時限装置付きの爆弾。&#xA;この男こそ、信たちの標的の爆弾魔である。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <wait time="1" />
+    <Comment comment="//声のみ" />
+    <msg speaker="高坂 信" text="あの……何してるんですか？" speaker_show="True" stop="True" voice="ks11010_01_0152" />
+    <delete obj_id="高坂 信" />
+    <msg speaker="爆弾魔" text="――!?" speaker_show="True" stop="True" voice="99031_01_0007" />
+    <Comment comment="信:私服（夏）" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="爆弾魔" text="（な、なぜ俺は気づかなかった!?&#xA;細心の注意を払っていたはずなのに……！）" speaker_show="True" stop="True" voice="99031_01_0008" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="あっ!?&#xA;それって……爆弾!?" speaker_show="True" stop="True" voice="ks11010_01_0153" />
+    <msg speaker="爆弾魔" text="（この少女に恨みはないが、&#xA;見られた以上は仕方がない……）" speaker_show="True" stop="True" voice="99031_01_0009" lip_sync="False" />
+    <msg speaker="爆弾魔" text="おい！&#xA;痛い目に遭いたくなかったら大人しく……" speaker_show="True" stop="True" voice="99031_01_0010" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】スマホガン発砲音" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash color="#ffffffff" count="1" time="0.2" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <shake target="MsgWindow" obj_id="爆弾魔" x="10" y="10" time="0.3" />
+    <msg speaker="爆弾魔" text="うっ……!?" speaker_show="True" stop="True" voice="99031_01_0011" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】バタンと倒れる音" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="イヴァンカさん、こちら信です！&#xA;ターゲットを確保しました！" speaker_show="True" stop="True" voice="ks11010_01_0154" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="高坂 信" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <Comment comment="信:私服（夏）" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="イヴァンカ" data_id="311009006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="この男が爆弾魔ね……。" speaker_show="True" stop="True" voice="kt11009_01_0160" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="イヴァンカさんの予想通りでした。&#xA;マラソンコースに爆弾を仕掛けるって……" speaker_show="True" stop="True" voice="ks11010_01_0155" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="今は、睡眠弾を撃ち込んで眠らせてあります。" speaker_show="True" stop="True" voice="ks11010_01_0156" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="上出来よ、シン。" speaker_show="True" stop="True" voice="kt11009_01_0161" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……起きなさい。" speaker_show="True" stop="True" voice="kt11009_01_0162" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ドカッと蹴る音" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1" />
+    <shake target="MsgWindow" obj_id="爆弾魔" x="10" y="10" time="0.3" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="爆弾魔" text="げほっ、ぐぅっ！" speaker_show="True" stop="True" voice="99031_01_0012" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="あなたの計画はこれで終わりよ。&#xA;爆弾の解除方法を教えなさい。" speaker_show="True" stop="True" voice="kt11009_01_0163" />
+    <msg speaker="爆弾魔" text="いいや、まだ終わってない。最後の一花が残っている。&#xA;……あんたにこの爆弾を解除できるかな？" speaker_show="True" stop="True" voice="99031_01_0013" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="チッ……" speaker_show="True" stop="True" voice="kt11009_01_0164" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ドカッと蹴る音" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="1" />
+    <shake target="MsgWindow" obj_id="爆弾魔" x="10" y="10" time="0.3" />
+    <msg speaker="爆弾魔" text="がほっ、ぐっ、ごほっ……！" speaker_show="True" stop="True" voice="99031_01_0014" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="映画の撮影じゃないのよ。&#xA;さっさと解除方法を教えなさい。" speaker_show="True" stop="True" voice="kt11009_01_0165" />
+    <msg speaker="爆弾魔" text="……く、ふふふ……" speaker_show="True" stop="True" voice="99031_01_0015" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="何がおかしい……" speaker_show="True" stop="True" voice="kt11009_01_0166" />
+    <msg speaker="爆弾魔" text="くふふ……今、爆破時間を早めたよ……&#xA;あと５分だ……５分で……この爆弾は爆発する!!" speaker_show="True" stop="True" voice="99031_01_0016" />
+    <create_effect effect_id="kato_Exclamation" effect_type="MampExclamation" life_time="1" target_obj="イヴァンカ" />
+    <create_effect effect_id="shin_Exclamation" effect_type="MampExclamation" life_time="1" target_obj="高坂 信" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ・信" text="――!?" speaker_show="True" stop="True" voice="2003000010_union_001" />
+  </command>
+</adv>

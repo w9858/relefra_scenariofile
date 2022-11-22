@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000016battle" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="RecallsIn" />
+    <wait time="1" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="アルム" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="アルム" text="標的確認。ＺＥＴノブナガ、消去を開始する。" speaker_show="True" stop="True" voice="ar16004_02_0035" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="また壁をぶち破って登場か。&#xA;その追跡のしつこさは評価するけどね。" speaker_show="True" stop="True" voice="sr13001_02_0317" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="敷島 来夢" text="私に楯突いた子にはお仕置きよアルム！" speaker_show="True" stop="True" voice="sr13001_02_0318" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

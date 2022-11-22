@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021010501" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="02_wasabini_001" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="カジノ事件の後、Wasabiで食事を終えた&#xA;ツキカゲは、初芽から報告を受けていた。" stop="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="-300" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="青葉 初芽" text="という訳で、山田さんの野望は、言ってみれば&#xA;組長さんへの恩返しのようなものだったんです。" speaker_show="True" stop="True" voice="ah11005_03_0103" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="源 モモ" text="自分を唯一可愛がってくれた人の組を立て直したい&#xA;一心で、資金を集めていたとはいえ……麻薬なんて。" speaker_show="True" stop="True" voice="mm11001_03_0075" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" />
+    <msg speaker="高坂 信" text="信には少し、山田さんの気持ちが解るけど……&#xA;悪事で恩返しはいただけないよね……。" speaker_show="True" stop="True" voice="ks11010_03_0055" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="八千代 命" text="ま、手段は間違ってたんだから、&#xA;別にイイ奴って思う必要は全然ないよ。" speaker_show="True" stop="True" voice="ym11003_03_0088" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="相模 楓" text="そうですね。目立ちたい願望のある変なセンスの&#xA;悪党じゃないですか。捕まえられて良かった！" speaker_show="True" stop="True" voice="sf11004_03_0064" />
+    <char_spine_animation force_end="False" loop="True" obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="半蔵門 雪" text="さあ、この話はもう終わりにしましょう。&#xA;あとは凪の部隊が処理してくれるはずよ。" speaker_show="True" stop="True" voice="hy11002_03_0076" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="-200" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="サンセー！　どうせなら、もっと愉快な&#xA;話をするべきだな、ウン。" speaker_show="True" stop="True" voice="bk11008_03_0057" />
+    <char_spine_animation force_end="False" loop="True" obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="テレジア" text="初芽、カジノはどうだった？" speaker_show="True" stop="True" voice="tr11007_03_0029" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="0" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" />
+    <msg speaker="青葉 初芽" text="私は、主にカードを担当していたんです。&#xA;シャッフルの練習も役に立ちましたよ。ほら？" speaker_show="True" stop="True" voice="ah11005_03_0104" />
+    <sound type="Se" cue_name="card-shuffle" />
+    <wait time="1" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" />
+    <move obj_id="青葉 初芽" position_id="left" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" />
+    <msg speaker="源 モモ" text="わああーーっ！　すっごいキレイな切り方！&#xA;私もそういうのやってみたかったんです！" speaker_show="True" stop="True" voice="mm11001_03_0076" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="青葉 初芽" text="慣れれば簡単です。ほら、こうして持って。&#xA;カードを交互に入れて、こう……" speaker_show="True" stop="True" voice="ah11005_03_0105" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="源 モモ" text="こうして……こう？" speaker_show="True" stop="True" voice="mm11001_03_0077" />
+    <sound type="Se" cue_name="card-open1" />
+    <wait time="1.5" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="-300" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" />
+    <msg speaker="白虎" text="おわっ！　トランプが部屋中に飛び散った！" speaker_show="True" stop="True" voice="bk11008_03_0058" />
+    <char_spine_animation force_end="False" loop="True" obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="半蔵門 雪" text="モモ……。" speaker_show="True" stop="True" voice="hy11002_03_0077" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" />
+    <msg speaker="源 モモ" text="す、すみません、すぐ片付けます！&#xA;ふぇ～、全然簡単じゃなかった～。" speaker_show="True" stop="True" voice="mm11001_03_0078" />
+    <delete obj_id="白虎" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="-300" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="0" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" />
+    <msg speaker="高坂 信" text="それで？　どんなゲームをしてたの？" speaker_show="True" stop="True" voice="ks11010_03_0056" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="青葉 初芽" text="ブラックジャックです。&#xA;ポーカーより簡単で助かっちゃいました。" speaker_show="True" stop="True" voice="ah11005_03_0106" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="源 モモ" text="どんな遊びだか知らないけど。&#xA;カッコイイ名前の響きですねー。" speaker_show="True" stop="True" voice="mm11001_03_0079" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation force_end="False" loop="True" obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="半蔵門 雪" text="モモ……。" speaker_show="True" stop="True" voice="hy11002_03_0078" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="源 モモ" text="だ、大丈夫です。&#xA;もうシャッフルはニ度としません……。" speaker_show="True" stop="True" voice="mm11001_03_0080" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-200" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="200" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="青葉 初芽" text="ブラックジャックは、自分の手札の合計数を&#xA;21に近づけた人の勝ちなんです。" speaker_show="True" stop="True" voice="ah11005_03_0107" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="相模 楓" text="へぇ、ホントに何だか簡単そうですね。" speaker_show="True" stop="True" voice="sf11004_03_0065" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="青葉 初芽" text="絵札は10として数え、エースは１か11と数えます。&#xA;まず最初に２枚ずつカードが配られ……" speaker_show="True" stop="True" voice="ah11005_03_0108" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="200" />
+    <create type="Character" obj_id="白虎" data_id="311007008" position_id="left" x="-200" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" />
+    <msg speaker="八千代 命" text="ちょ、ちょい待ち！&#xA;何で絵札とエースは文字通りの数じゃないの？" speaker_show="True" stop="True" voice="ym11003_03_0089" />
+    <char_spine_animation force_end="False" loop="True" obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="そーだそーだ！　普通11、12、13で、１は１だ！&#xA;変な数え方で、混乱させる気だな？　ズルイぞ！" speaker_show="True" stop="True" voice="bk11008_03_0059" />
+    <delete obj_id="白虎" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-300" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005018" position_id="left" x="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006019" position_id="left" x="300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" />
+    <msg speaker="青葉 初芽" text="ええ？　そう言われても……&#xA;私が決めたルールではありませんし……。" speaker_show="True" stop="True" voice="ah11005_03_0109" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="石川 五恵" text="あ、あの、だったら今からみんなの解る&#xA;トランプゲームを一緒にやりませんか？" speaker_show="True" stop="True" voice="ig11006_03_0087" />
+    <char_spine_animation force_end="False" loop="False" obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="テレジア" face_anim_type="002_Facial_smile" />
+    <msg speaker="テレジア" text="うん、いいな。" speaker_show="True" stop="True" voice="tr11007_03_0030" />
+    <char_spine_animation force_end="False" loop="True" obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="青葉 初芽" text="解りました。そういう事でしたら&#xA;ディーラー役は私にお任せ下さい♪" speaker_show="True" stop="True" voice="ah11005_03_0110" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="150" />
+    <move obj_id="テレジア" position_id="left" x="-450" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <move obj_id="青葉 初芽" position_id="left" x="-150" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <move obj_id="石川 五恵" position_id="left" x="450" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" />
+    <msg speaker="源 モモ" text="楽しそう♪　でも、全員が解る&#xA;トランプゲームってなにかな？" speaker_show="True" stop="True" voice="mm11001_03_0081" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

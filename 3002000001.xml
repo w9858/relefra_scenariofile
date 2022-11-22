@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3002000001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg file="04_shopstreetmo_03" show="True" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="商店街" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="-200" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="フー、ちょっと待っておくれよ～。&#xA;メイもう歩けないよ……。" speaker_show="True" stop="True" voice="ym11003_01_0330" lip_sync="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あの程度の訓練で疲れるなんて、&#xA;師匠もまだまだですね。" speaker_show="True" stop="True" voice="sf11004_01_0403" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="フーだってさっきまで、&#xA;もう動けない～とか言ってたじゃんか！" speaker_show="True" stop="True" voice="ym11003_01_0331" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" to_idle="True" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="False" />
+    <msg speaker="相模 楓" text="そっ、それは……。普段よりはハードだったから。&#xA;ともかく早くお風呂に入って疲れを癒しますよ。" speaker_show="True" stop="True" voice="sf11004_01_0404" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" to_idle="True" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="False" />
+    <msg_window_show show="False" />
+    <Comment comment="北風の吹く音(既存SEない…？？)" />
+    <sound type="Se" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <shake target="Character" obj_id="八千代 命" x="10" vibrate="50" time="0.5" />
+    <msg speaker="八千代 命" text="ぶるるっ。何でこんなに寒いんだよ～。&#xA;このままじゃ凍え死んじゃう。" speaker_show="True" stop="True" voice="ym11003_01_0332" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="空崎のあたりに寒波が到来してるんですよ。&#xA;……それにしても、寒い……。" speaker_show="True" stop="True" voice="sf11004_01_0405" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そうだ、師匠！　体を冷やさないために、&#xA;銭湯までダッシュで行きましょう！" speaker_show="True" stop="True" voice="sf11004_01_0406" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="16_BendBackward" to_idle="True" loop="True" face_anim_type="005_Facial_sad" />
+    <msg speaker="八千代 命" text="えー、お風呂の前に更に疲れるなんて、&#xA;あんびりーばぼにも程があるよ～！" speaker_show="True" stop="True" voice="ym11003_01_0333" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" to_idle="True" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="じゃあ師匠は、この寒さの中で、&#xA;銭湯までの道を耐え切れるんですか？" speaker_show="True" stop="True" voice="sf11004_01_0407" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="寒いのもイヤだけど、疲れるのもイヤだよ～。&#xA;何とかしてくれよ～、頼れる我が弟子～！" speaker_show="True" stop="True" voice="ym11003_01_0334" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" face_anim_type="005_Facial_sad" />
+    <msg speaker="相模 楓" text="こんな時だけ持ち上げないでください。&#xA;もっと近くに他の銭湯があれば良いんだけど……。" speaker_show="True" stop="True" voice="sf11004_01_0408" />
+    <create_effect effect_id="left_mei" effect_type="MampLight" life_time="1.7" target_obj="八千代 命" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="そうだ！　それだよ！&#xA;メイ、すっごくいいこと思いついたよ！" speaker_show="True" stop="True" voice="ym11003_01_0335" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="確かこの近くに、&#xA;でっかいスーパー銭湯があったよね！" speaker_show="True" stop="True" voice="ym11003_01_0336" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あるにはありますけど……、&#xA;あそこは普通の銭湯よりも高いんですよ。" speaker_show="True" stop="True" voice="sf11004_01_0409" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="えー、ちょっとくらい高くても、たまには&#xA;色んなお風呂に入ってみたいよ～。" speaker_show="True" stop="True" voice="ym11003_01_0337" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あそこなら露天風呂もサウナもあるから、&#xA;フーも絶対楽しめるって！" speaker_show="True" stop="True" voice="ym11003_01_0338" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="13_Question" force_end="False" loop="True" face_anim_type="020_Facial_thinking" />
+    <msg speaker="相模 楓" text="うーん……。" speaker_show="True" stop="True" voice="sf11004_01_0410" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" to_idle="True" force_end="False" loop="True" body_anim_type="06_ChestLeftHand" />
+    <create_effect effect_id="kirakira_mei" effect_type="EffectKirakira" life_time="7.0" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="想像してごらん、こんな寒い日に、フーとメイとで&#xA;露天風呂……。極楽だと思わないかい？" speaker_show="True" stop="True" voice="ym11003_01_0339" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="（うむむ……。師匠と一緒に露天風呂か……。&#xA;確かにちょっと高いんだけど、悪くないわね）" speaker_show="True" stop="True" voice="sf11004_01_0411" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" force_end="False" loop="True" face_anim_type="015_Facial_poker" />
+    <msg speaker="相模 楓" text="しょうがないですね。寒風に晒されて&#xA;風邪引いちゃうよりは安くつきますし。" speaker_show="True" stop="True" voice="sf11004_01_0412" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="そうと決まれば、早く行きましょう！" speaker_show="True" stop="True" voice="sf11004_01_0413" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="相模 楓" position_id="left" x="-1500" x_move_type="MoveValue" time="1" wait="True" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" time="0.5" />
+    <delete obj_id="相模 楓" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="待ってよ、フー！&#xA;結局、走るんかーい！" speaker_show="True" stop="True" voice="ym11003_01_0340" />
+    <msg_window_show show="False" />
+    <delete obj_id="kirakira_mei" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="八千代 命" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="Run" />
+    <telop text="スーパー銭湯" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="400" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" force_end="False" loop="True" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="はぁはぁ……、ようやく到着～！&#xA;ってあれ？　何だか暗くない？" speaker_show="True" stop="True" voice="ym11003_01_0341" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="張り紙がしてありますね。嫌な予感が……。&#xA;なになに？　……設備点検のため本日休業。" speaker_show="True" stop="True" voice="sf11004_01_0414" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <create_effect effect_id="ga-n" effect_type="MampWorry" life_time="5" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="がーん…！" speaker_show="True" stop="True" voice="ym11003_01_0342" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <delete obj_id="ga-n" />
+    <msg speaker="八千代 命" text="なんてこったい……。寒風の中、わざわざ&#xA;走って来たってのに……。はぁ～、露天風呂～！" speaker_show="True" stop="True" voice="ym11003_01_0343" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="こればっかりはしょうがないですよ。さ、体が&#xA;冷える前に普段の銭湯まで走りましょう。" speaker_show="True" stop="True" voice="sf11004_01_0415" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="13_Question" to_idle="True" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="え～、また走るの？" speaker_show="True" stop="True" voice="ym11003_01_0344" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="これだけ寒い中で走ったら、普通の銭湯だって&#xA;スーパー銭湯ばりに気持ちイイですって！" speaker_show="True" stop="True" voice="sf11004_01_0416" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="相模 楓" position_id="left" x="-1500" x_move_type="MoveTo" time="1" wait="True" />
+    <delete obj_id="相模 楓" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" to_idle="True" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="ちょっとフー！　だから待っておくれよ～。" speaker_show="True" stop="True" voice="ym11003_01_0345" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="八千代 命" position_id="left" x="-1500" x_move_type="MoveTo" time="1" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <bg show="True" file="04_shopstreetev_01" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="いつもの銭湯" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="-200" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="True" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <create_effect effect_id="ga-n" effect_type="MampWorry" life_time="5" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="がーん…！" speaker_show="True" stop="True" voice="ym11003_01_0346" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="019_Facial_damage" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="何なのよ。&#xA;こっちも臨時休業って！" speaker_show="True" stop="True" voice="sf11004_01_0417" />
+    <delete obj_id="ga-n" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_eye obj_id="八千代 命" type="Eye03_tear" loop="True" />
+    <msg speaker="八千代 命" text="うぅっ……、今日のお風呂が……。" speaker_show="True" stop="True" voice="ym11003_01_0347" />
+    <msg_window_show show="False" />
+    <move obj_id="相模 楓" position_id="left" x="-400" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="-150" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="400" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="あら、２人ともどうしたの？&#xA;棒立ちになって。" speaker_show="True" stop="True" voice="kt11009_01_0221" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="カトーさん！&#xA;きーてよぉぉぉぉ！" speaker_show="True" stop="True" voice="ym11003_01_0348" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

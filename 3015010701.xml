@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3015010701" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="True" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="白虎、カトー、テレジアの水着立ち絵がないので、仮の立ち絵です。" />
+    <Comment comment="背景：海水浴場　仮で入れています。" />
+    <bg show="True" resource_type="Background" file="43_beachev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="海水浴場" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="夏。カトリーナが商店街の面々から任された&#xA;海の家で、白虎は今日も配膳作業に励んでいた。" stop="True" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="お待たせしたぞ、コーラにウーロン茶だ！" speaker_show="True" stop="True" voice="bk11008_02_0099" />
+    <msg speaker="カップル（男）" text="店員さん、すごく元気いいね～。&#xA;そうだ、何かお昼のおススメはある？" speaker_show="True" stop="True" voice="99097_02_0001" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="白虎" text="Ｗａｓａｂｉはカレー屋だからカレーだなー。&#xA;昨日からおでんカレーも出してるんだ！" speaker_show="True" stop="True" voice="bk11008_02_0100" />
+    <msg speaker="カップル（男）" text="おでんカレー……ごくり。&#xA;食べたことないけど、それを１つ。" speaker_show="True" stop="True" voice="99097_02_0002" />
+    <msg speaker="カップル（女）" text="わたしは焼きソバがいいかな。" speaker_show="True" stop="True" voice="99098_02_0001" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="おーい、テレ公ー。&#xA;おでんカレー１つ、焼きソバ１つだー！" speaker_show="True" stop="True" voice="bk11008_02_0101" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="False" mixing="True" obj_id="テレジア" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="015_Facial_poker" />
+    <msg speaker="テレジア" text="わかった。&#xA;おでんカレーに焼きソバ１つずつ承りました。" speaker_show="True" stop="True" voice="tr11007_02_0164" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009010" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" />
+    <msg speaker="カトリーナ" text="白虎ちゃん、これ奥のお客様ね。&#xA;品数も多いし、別けて配膳してもいいから。" speaker_show="True" stop="True" voice="kt11009_02_0140" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="心配しすぎだ、これくらい一度に持っていける。" speaker_show="True" stop="True" voice="bk11008_02_0102" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" body_anim_type="13_Question" />
+    <msg speaker="カトリーナ" text="そう？　無理しちゃダメよ？" speaker_show="True" stop="True" voice="kt11009_02_0141" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="こんなの村の修行に比べたら楽勝だ。&#xA;ひょいっと。行ってくる！" speaker_show="True" stop="True" voice="bk11008_02_0103" />
+    <msg_window_show show="False" />
+    <move obj_id="白虎" position_id="left" x="-1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="カトリーナ" text="知っていたけれど、流石よね。&#xA;ふらつきもしないなんて。" speaker_show="True" stop="True" voice="kt11009_02_0142" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" />
+    <msg speaker="テレジア" text="子供とは思えないほどの身体能力だからな。" speaker_show="True" stop="True" voice="tr11007_02_0165" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" />
+    <msg speaker="カトリーナ" text="よく働いてくれるし、すごく助かってるわ。" speaker_show="True" stop="True" voice="kt11009_02_0143" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="テレジア" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009010" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="カトリーナ" text="お客さんも少ないし、少し休憩にしましょう。&#xA;２人とも体力はあるけど、無理は禁物だからね。" speaker_show="True" stop="True" voice="kt11009_02_0144" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" />
+    <msg speaker="テレジア" text="白虎、しっかり水分は取れよ。" speaker_show="True" stop="True" voice="tr11007_02_0166" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="白虎" text="ちょくちょく飲んでるぞ。&#xA;客が来なくて暇だからなー……。" speaker_show="True" stop="True" voice="bk11008_02_0104" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="002_Facial_smile" />
+    <char_spine_animation force_end="False" loop="False" mixing="True" obj_id="テレジア" body_anim_type="14_Positive" />
+    <msg speaker="テレジア" text="それならいい。" speaker_show="True" stop="True" voice="tr11007_02_0167" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="それより、カトリーナ！" speaker_show="True" stop="True" voice="bk11008_02_0105" />
+    <move obj_id="白虎" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="テレジア" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009010" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" />
+    <msg speaker="カトリーナ" text="何かしら？　白虎ちゃん。" speaker_show="True" stop="True" voice="kt11009_02_0145" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="白虎" text="退屈……退屈だぞ！&#xA;さっきからこうしてボーっと立ってるだけだ！" speaker_show="True" stop="True" voice="bk11008_02_0106" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="カトリーナ" text="お客さんが途切れないほうがありがたいけど、&#xA;たまにはこんな時間があってもいいんじゃない？" speaker_show="True" stop="True" voice="kt11009_02_0146" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" />
+    <msg speaker="テレジア" text="退屈も何も私たちには接客の仕事があるだろ。" speaker_show="True" stop="True" voice="tr11007_02_0168" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" body_anim_type="05_HipBothHands" face_anim_type="008_Facial_serious" />
+    <msg speaker="白虎" text="その客が来ないから退屈なんだ！&#xA;もっとこう！　ずっと動き回ってないと！" speaker_show="True" stop="True" voice="bk11008_02_0107" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="テレジア" text="そのうち、来るだろう。" speaker_show="True" stop="True" voice="tr11007_02_0169" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="白虎" text="……もうこうなったら、&#xA;この白虎様みずから客の呼び込みをやってやる！" speaker_show="True" stop="True" voice="bk11008_02_0108" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="とめるなよ！&#xA;とめられてもこの白虎様は止まらないけどな！" speaker_show="True" stop="True" voice="bk11008_02_0109" />
+    <msg_window_show show="False" />
+    <move obj_id="白虎" position_id="left" x="-1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" />
+    <msg speaker="カトリーナ" text="白虎ちゃんがここまで&#xA;勤労意欲に溢れた子だったなんて意外。" speaker_show="True" stop="True" voice="kt11009_02_0147" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" body_anim_type="05_HipBothHands" />
+    <msg speaker="テレジア" text="（単純に体を動かしてないと嫌なんだろうな。）" speaker_show="True" stop="True" voice="tr11007_02_0170" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" />
+    <msg speaker="カトリーナ" text="（でも、お客さんの呼び込みは難しいから&#xA;ちょっと心配ね。）" speaker_show="True" stop="True" voice="kt11009_02_0148" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

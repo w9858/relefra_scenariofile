@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3013020401" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="葉栖美たちは、黒百合女子の学校行事、&#xA;臨海学校のため、海に来ていた。" stop="True" />
+    <msg window_type="SystemMsg" text="緊急任務も無事終えて、ようやくみんなで&#xA;野外活動を楽しむ時間が訪れて……" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="61_Seasideev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="海" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create obj_id="薩摩 しぶき" data_id="312003007" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="轟 葉栖美" data_id="312004008" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="さあ、今日は外でキャンプじゃな！" speaker_show="True" stop="True" voice="ss12003_02_0205" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="しぶきちは飯盒でご飯炊きよろしくね。&#xA;アタシはその間にカレーを作るから。" speaker_show="True" stop="True" voice="th12004_02_0239" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="何度見てもすごい手際じゃのう。" speaker_show="True" stop="True" voice="ss12003_02_0206" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そんなことないよー。アウトドアと普段の料理は&#xA;勝手が違うからねー。アタシもちょっと苦戦中。" speaker_show="True" stop="True" voice="th12004_02_0240" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="全くそうは見えない手さばきじゃがな。" speaker_show="True" stop="True" voice="ss12003_02_0207" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="轟 葉栖美" text="よし、とりあえず煮込みの段階まできたから&#xA;あとは出来上がるのを待つだけだね。" speaker_show="True" stop="True" voice="th12004_02_0241" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="しぶきの方もあとは弱火でじっと待つだけじゃ。&#xA;案外楽勝じゃったのう。" speaker_show="True" stop="True" voice="ss12003_02_0208" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="待って、しぶきち！　折角の臨海学校だし、&#xA;海ならではの物も作らないとね。" speaker_show="True" stop="True" voice="th12004_02_0242" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="海ならでは？　と言っても材料はどうするんじゃ？" speaker_show="True" stop="True" voice="ss12003_02_0209" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create obj_id="乱獅子 ゆら" data_id="312002007" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="宗近 飛粋" data_id="312001008" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="葉栖美さーん、お待たせしましたー！" speaker_show="True" stop="True" voice="mh12001_02_0188" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="いやぁ、大漁大漁！&#xA;見てくれよ、このでっかい魚たち。" speaker_show="True" stop="True" voice="ry12002_02_0163" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <create obj_id="薩摩 しぶき" data_id="312003007" position_id="left" x="0" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="飛粋、ゆら、どうしたんじゃ？&#xA;その大量の魚介類は。" speaker_show="True" stop="True" voice="ss12003_02_0210" />
+    <delete obj_id="薩摩 しぶき" />
+    <create obj_id="乱獅子 ゆら" data_id="312002007" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="宗近 飛粋" data_id="312001008" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ヨモギさんに聞いたら、この辺のは獲ってもいいって&#xA;許可が出たので色々と集めてきたんです！" speaker_show="True" stop="True" voice="mh12001_02_0189" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="018_Facial_smug" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="飛粋の魚を探す能力と、アタシ様の瞬発力の&#xA;お陰で大漁だったぜ。" speaker_show="True" stop="True" voice="ry12002_02_0164" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <create obj_id="薩摩 しぶき" data_id="312003007" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="轟 葉栖美" data_id="312004008" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="２人ともありがとうね。&#xA;早速、下ごしらえやっちゃうね。" speaker_show="True" stop="True" voice="th12004_02_0243" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="轟 葉栖美" text="よし、これでいいかな！" speaker_show="True" stop="True" voice="th12004_02_0244" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="おお、海鮮鍋か！&#xA;飛粋とゆらもご苦労じゃったな。" speaker_show="True" stop="True" voice="ss12003_02_0211" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="ん……ちょっと待て！　下ごしらえをしたのは良いが&#xA;鍋に火をかけるかまどが足りないではないか？" speaker_show="True" stop="True" voice="ss12003_02_0212" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create obj_id="乱獅子 ゆら" data_id="312002007" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="宗近 飛粋" data_id="312001008" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="本当だ。カレーとご飯に使ってるから&#xA;空いてねえじゃねーか！" speaker_show="True" stop="True" voice="ry12002_02_0165" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="お鍋とカレー両方一緒に楽しめると思ったけど、&#xA;カレーが終わってからだねぇ。" speaker_show="True" stop="True" voice="mh12001_02_0190" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+    <create obj_id="轟 葉栖美" data_id="312004008" position_id="left" x="0" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ふっふっふー、この葉栖美さんに抜かりはないぞ！&#xA;今からみんなに手品を見せてあげよう！" speaker_show="True" stop="True" voice="th12004_02_0245" />
+    <msg_window_show show="False" />
+    <fade_out time="1" wait="True" />
+  </command>
+</adv>

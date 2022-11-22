@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3022010401" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="62_AutumnMountainev_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="山" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="紅葉狩りの最中、他のツキカゲメンバーと&#xA;はぐれてしまった命と楓は、合流するべく山道を進む。" stop="True" />
+    <sound cue_name="Walk" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003017" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ふん、ふふーん♪　いやー、&#xA;山ってほんと空気が美味しいよね。" speaker_show="True" stop="True" voice="ym11003_03_0187" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="空崎の中心から少し離れただけで&#xA;こんなに違うなんて、知らなかったよ～。" speaker_show="True" stop="True" voice="ym11003_03_0188" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あの……師匠。" speaker_show="True" stop="True" voice="sf11004_03_0201" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" />
+    <msg speaker="相模 楓" text="こんな状況なのに、&#xA;普通に楽しんじゃってませんか？" speaker_show="True" stop="True" voice="sf11004_03_0202" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="さっきは何か当てがあるのかなって思ってたけど、&#xA;そんな様子もないし……。" speaker_show="True" stop="True" voice="sf11004_03_0203" />
+    <char_spine_animation />
+    <msg speaker="相模 楓" text="(繋いでくれた手も、いつの間にか&#xA;元に戻っちゃってるし。)" speaker_show="True" stop="True" voice="sf11004_03_0204" lip_sync="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そりゃ楽しいよー。&#xA;だってフーと一緒だもん。" speaker_show="True" stop="True" voice="ym11003_03_0189" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek03_strong" loop="True" />
+    <msg speaker="相模 楓" text="あ、アタシだって&#xA;師匠と２人きりなのは嬉しいですけどっ。" speaker_show="True" stop="True" voice="sf11004_03_0205" />
+    <char_spine_cheek obj_id="相模 楓" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="じゃなくて、一体どこに向かう気ですか？&#xA;もう結構歩いてますよ。" speaker_show="True" stop="True" voice="sf11004_03_0206" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="020_Facial_thinking" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ここから引き返す事になったら……&#xA;紅葉狩りの予定なんて守れっこないです。" speaker_show="True" stop="True" voice="sf11004_03_0207" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="大丈夫大丈夫、メイに任せて。" speaker_show="True" stop="True" voice="ym11003_03_0190" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="頼れる師匠として、フーを&#xA;皆の所まで送り届けてみせようぞ！" speaker_show="True" stop="True" voice="ym11003_03_0191" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ん？　わー、おっきな紅葉！&#xA;見て見て、フーの手より大きいかもよ？" speaker_show="True" stop="True" voice="ym11003_03_0192" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="020_Facial_thinking" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はぁ……そうかも知れませんね。" speaker_show="True" stop="True" voice="sf11004_03_0208" />
+    <char_spine_animation />
+    <msg speaker="相模 楓" text="(アタシ達、&#xA;一体どうなるんだろう……。)" speaker_show="True" stop="True" voice="sf11004_03_0209" lip_sync="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ねえ、フー。ちょっと&#xA;耳を澄ませて聞いてみて。" speaker_show="True" stop="True" voice="ym11003_03_0193" />
+    <char_spine_animation />
+    <msg speaker="八千代 命" text="向こうの方から、&#xA;水の流れる音がする！" speaker_show="True" stop="True" voice="ym11003_03_0194" />
+    <sound type="Se" cue_name="EnvCruiser" />
+    <wait time="0.5" />
+    <delete />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="確かに、聞こえてきます……&#xA;川があるんでしょうか？" speaker_show="True" stop="True" voice="sf11004_03_0210" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="メイ、ちょっと見てくるね。" speaker_show="True" stop="True" voice="ym11003_03_0195" />
+    <move obj_id="八千代 命" x="-1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あ、もう！&#xA;また寄り道になっちゃうじゃないですか。" speaker_show="True" stop="True" voice="sf11004_03_0211" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="相模 楓" text="待ってくださーい、師匠！" speaker_show="True" stop="True" voice="sf11004_03_0212" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

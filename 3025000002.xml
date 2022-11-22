@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3025000002" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="20_meiandfuhouse_02" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="メイと楓の家" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="300" />
+    <sound type="Se" cue_name="Typing" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="おっ、レンタル着物屋さんのホームページ発見！&#xA;なんかいい感じだよ！" speaker_show="True" stop="True" voice="ym11003_03_0284" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="本当だ！　綺麗な振袖がいっぱいだね。" speaker_show="True" stop="True" voice="ks11010_03_0172" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ちょっとこれ！　何かの間違いじゃ&#xA;ないんですか!?　レンタル料金１日10万円て……。" speaker_show="True" stop="True" voice="sf11004_03_0292" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="さすがに高すぎるね。でもたまたまこのお店が&#xA;高いだけかもしれないし、他も見てみよう。" speaker_show="True" stop="True" voice="ks11010_03_0173" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="だよね、着物って言ってもしょせんは服だし。&#xA;１万くらいで行けるっしょ？" speaker_show="True" stop="True" voice="ym11003_03_0285" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="LeftToRight" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="高坂 信" />
+    <fade_in time="1" type="RightToLeft" wait="True" />
+    <msg window_type="SystemMsg" text="１時間後……。" stop="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ダメだー！&#xA;どれもこれも高すぎるー！" speaker_show="True" stop="True" voice="ym11003_03_0286" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="激安ハンターのアタシが本気で調べましたけど、&#xA;この辺だと着付け込み５万円が底値って感じですね。" speaker_show="True" stop="True" voice="sf11004_03_0293" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="お正月は特別料金がかかるから、&#xA;このくらいが限界なのかもね……。" speaker_show="True" stop="True" voice="ks11010_03_0174" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="019_Facial_damage" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ぐぅ～、ダメだったかぁ。３人で振袖着て&#xA;初詣したら最高の１年が始まると思ったのにー！" speaker_show="True" stop="True" voice="ym11003_03_0287" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="さすがにちょっと予算オーバー過ぎたね。&#xA;残念だけど、今回は諦めよう。" speaker_show="True" stop="True" voice="ks11010_03_0175" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="うぅっ……。" speaker_show="True" stop="True" voice="ym11003_03_0288" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="待ってください！　１番安いプランのなら、今から&#xA;バイト頑張ればどうにかなるんじゃないですか？" speaker_show="True" stop="True" voice="sf11004_03_0294" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="フー……。" speaker_show="True" stop="True" voice="ym11003_03_0289" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="確かにフーちゃんの言う通りかも。&#xA;年末ならバイトの募集も多そうだし！" speaker_show="True" stop="True" voice="ks11010_03_0176" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="諦めなければ、何とかなりますって！&#xA;みんなで手分けして頑張りましょう！" speaker_show="True" stop="True" voice="sf11004_03_0295" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="さっすがフー！　何だかんだ言いつつ&#xA;結局フーもノリノリだったんじゃーん！" speaker_show="True" stop="True" voice="ym11003_03_0290" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek03_strong" loop="True" />
+    <msg speaker="相模 楓" text="そ、そんなんじゃないですよ！　ただ、師匠と&#xA;信さんがあまりにもガッカリしてるから……。" speaker_show="True" stop="True" voice="sf11004_03_0296" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ありがとう。フーちゃんて優しいね。" speaker_show="True" stop="True" voice="ks11010_03_0177" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そ、そんなことは……。" speaker_show="True" stop="True" voice="sf11004_03_0297" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="アタシはいつものバイトを増やそうと思ってますけど&#xA;師匠と信さんはどうするんですか？" speaker_show="True" stop="True" voice="sf11004_03_0298" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="信は……バイトとか今までやったことないんだけど&#xA;前から気になってたお店があるんだ。" speaker_show="True" stop="True" voice="ks11010_03_0178" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="いいですね、履歴書の書き方と面接対策なら、&#xA;アタシに任せてください！" speaker_show="True" stop="True" voice="sf11004_03_0299" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ありがとう！　メイちゃんも一緒に応募してみない？" speaker_show="True" stop="True" voice="ks11010_03_0179" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="いやー、メイは社会に縛られるのは&#xA;ゴメンだからなぁ。" speaker_show="True" stop="True" voice="ym11003_03_0291" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="わがまま言ってる場合じゃないですよ！&#xA;元々師匠が言い出したんですから。" speaker_show="True" stop="True" voice="sf11004_03_0300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="わかってるよー。だからメイは、&#xA;メイらしい方法で稼いでみせる！" speaker_show="True" stop="True" voice="ym11003_03_0292" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="メイちゃんらしい方法って？" speaker_show="True" stop="True" voice="ks11010_03_0180" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="へへへん。それは次会う時までの&#xA;お楽しみさ。" speaker_show="True" stop="True" voice="ym11003_03_0293" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="とにかく、やると決めたからには、お正月までに&#xA;各自頑張りましょう！" speaker_show="True" stop="True" voice="sf11004_03_0301" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <lip_sync target1="八千代 命" target2="相模 楓" target3="高坂 信" />
+    <msg speaker="命・楓・信" text="おー！" speaker_show="True" stop="True" voice="3025000002_union_001" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

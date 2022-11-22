@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005010101" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Adv1" type="Bgm" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="ツキカゲと凪の部隊は、互いの理解を深め、親睦を&#xA;図ることを目的に交換留学を行うことになり……" stop="True" />
+    <msg window_type="SystemMsg" text="ツキカゲからはモモが、凪の部隊からは飛粋が、&#xA;それぞれ相手組織の一員として活動を開始した。" stop="True" />
+    <msg window_type="SystemMsg" text="そんなある日のこと……。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="34_sakasatower_01" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="前にも軽く説明したと思うが、ここ逆さ塔には&#xA;国内外の様々な犯罪者が捕らえられている。" speaker_show="True" stop="True" voice="ss12003_02_0124" />
+    <msg speaker="薩摩 しぶき" text="奴らは犯罪者ではあるが、恩赦を求めて国のために&#xA;働くと契約を交わした身。" speaker_show="True" stop="True" voice="ss12003_02_0125" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="いざと言う時には凪の部隊の指揮下で&#xA;戦力となって貰うことになっておる。" speaker_show="True" stop="True" voice="ss12003_02_0126" />
+    <msg speaker="薩摩 しぶき" text="そこまでは覚えておるな？" speaker_show="True" stop="True" voice="ss12003_02_0127" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="はい！" speaker_show="True" stop="True" voice="mm11001_02_0125" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="しかし、奴らの任務は&#xA;前線で戦うことだけではないのじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0128" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="え？　他にも任務が？" speaker_show="True" stop="True" voice="mm11001_02_0126" />
+    <delete obj_id="薩摩 しぶき" />
+    <create obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="轟 葉栖美" text="アタシ達の訓練の為に、組手をやるのも&#xA;重要な任務の１つなんだよん。" speaker_show="True" stop="True" voice="th12004_02_0073" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" loop="True" />
+    <msg speaker="源 モモ" text="犯罪者達と組手……。" speaker_show="True" stop="True" voice="mm11001_02_0127" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <delete obj_id="轟 葉栖美" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="早速じゃが今回は、モモにもその組手を&#xA;体験してもらおうと思ってな。" speaker_show="True" stop="True" voice="ss12003_02_0129" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" />
+    <msg speaker="源 モモ" text="えっ、私がですか……。" speaker_show="True" stop="True" voice="mm11001_02_0128" />
+    <delete obj_id="薩摩 しぶき" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="何ビビってんだよ、モモ公。アタシ様がモモ公に&#xA;ぴったりの相手を見繕ってきてやるから。" speaker_show="True" stop="True" voice="ry12002_02_0069" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ドキドキワクワクザワザワしながら、&#xA;楽しみに待ってろよ。" speaker_show="True" stop="True" voice="ry12002_02_0070" />
+    <delete obj_id="乱獅子 ゆら" />
+    <sound cue_name="Walk" />
+    <wait time="2" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveValue" y="0" time="0.3" wait="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="わっ、３人とも居なくなっちゃった……。" speaker_show="True" stop="True" voice="mm11001_02_0129" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="逆さ塔って確か、通称&#xA;変態博物館とも言われてるんだよね……。" speaker_show="True" stop="True" voice="mm11001_02_0130" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="21_PutElbow" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="うぅ、どうしよう。&#xA;どんな人が来るんだろう……。" speaker_show="True" stop="True" voice="mm11001_02_0131" />
+    <delete obj_id="源 モモ" />
+    <msg_window_show show="False" />
+    <sound cue_name="Walk" />
+    <wait time="2" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="モモちゃん、お待たせー。&#xA;ってどうしたの？　そんなガチガチに緊張して。" speaker_show="True" stop="True" voice="th12004_02_0074" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="まぁ、凶悪な犯罪者と事前に言われれば、&#xA;怯える気持ちもわからなくはないが。" speaker_show="True" stop="True" voice="ss12003_02_0130" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="みんなアタシ様たちが手懐けてっからカワイイ&#xA;ペットみてーなもんだよ。" speaker_show="True" stop="True" voice="ry12002_02_0071" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="300" x_move_type="MoveValue" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <sound_volume cue_name="Adv1" volume="0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="つー訳で早速、ドアオープン！　出でよ！&#xA;ミラクルファックスなド変態犯罪者ブタ野郎！" speaker_show="True" stop="True" voice="ry12002_02_0072" />
+    <delete obj_id="乱獅子 ゆら" />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound cue_name="Adv2" />
+    <create obj_id="源 モモ" data_id="311001013" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="ジョージ" text="ん～、やはり言葉攻めは物足りないねぇ。&#xA;いつものように身体を痛めつけてくれないと。" speaker_show="True" stop="True" voice="jj14004_02_0013" />
+    <msg speaker="源 モモ" text="あ、あの人！&#xA;前にメイちゃんとフーちゃんが捕まえた人だ！" speaker_show="True" stop="True" voice="mm11001_02_0132" />
+    <msg speaker="ジョージ" text="今日の相手はお前か……ゾクゾクするぜぇ……。&#xA;さぁ、お好みの方法で傷めつけておくれ。" speaker_show="True" stop="True" voice="jj14004_02_0014" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" mixing="True" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="19_Amazed" mixing="True" />
+    <msg speaker="源 モモ" text="うぅっ、噂通り気持ち悪い……。" speaker_show="True" stop="True" voice="mm11001_02_0133" />
+    <msg speaker="ジョージ" text="気持ち悪いと噂になるなんて…光栄だ。&#xA;さぁ、早く私に苦痛を与えておくれ。" speaker_show="True" stop="True" voice="jj14004_02_0015" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="メイちゃんとフーちゃんから聞いてたけど、&#xA;こういう人だったんだね……" speaker_show="True" stop="True" voice="mm11001_02_0134" />
+  </command>
+</adv>

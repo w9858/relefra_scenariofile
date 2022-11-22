@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3002010301" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="20_meiandfuhouse_02" />
+    <msg window_type="SystemMsg" text="命と楓は、カトリーナから高級な&#xA;ヘアオイルを貰ったことをきっかけに、" stop="True" />
+    <msg window_type="SystemMsg" text="きちんと髪のお手入れをするようになっていた。&#xA;そんなある日のことーー" stop="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003003" position_id="left" x="125" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <create_effect effect_id="aseri_mei" effect_type="MampSweat" target_obj="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004003" position_id="left" x="-125" />
+    <msg speaker="八千代 命" text="わー、遅刻だ遅刻だー！" speaker_show="True" stop="True" voice="ym11003_01_0378" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="待ってください、師匠！　まだ間に合いますから、&#xA;髪の毛、ちょっとだけ整えますね。" speaker_show="True" stop="True" voice="sf11004_01_0441" />
+    <Comment comment="【SE】ブラシで髪を整える音" />
+    <delete obj_id="aseri_mei" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="フーってば、すっかりカトーさんの&#xA;ヘアオイルに夢中だね。" speaker_show="True" stop="True" voice="ym11003_01_0379" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="せっかく貰ったからには、綺麗な髪を&#xA;キープしないとカトリーナさんにも悪いですから。" speaker_show="True" stop="True" voice="sf11004_01_0442" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="はぁ～、朝からヘアオイルの匂いに包まれてフーに&#xA;お手入れしてもらってると幸せな気分になるねぇ。" speaker_show="True" stop="True" voice="ym11003_01_0380" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="020_Facial_thinking" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <create_effect effect_id="sleep_mei" effect_type="MampSleep" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="このまま朝日に包まれて、もうひと眠り……。&#xA;うとうと……うとうと……すぴー……。" speaker_show="True" stop="True" voice="ym11003_01_0381" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="ちょっと師匠！　寝てる場合じゃないです！&#xA;学校、行きますよ！" speaker_show="True" stop="True" voice="sf11004_01_0443" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ドタバタと家を出て行く音" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="八千代 命" position_id="left" x="1500" x_move_type="MoveTo" time="0.8" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="1500" x_move_type="MoveTo" time="0.8" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <bg show="False" file="20_meiandfuhouse_02" />
+    <bg show="True" file="01_school1mo_003" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003003" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="はぁはぁ……、結局遅刻ギリギリだー。&#xA;モモち、ごえちゃん、おはよー！" speaker_show="True" stop="True" voice="ym11003_01_0382" />
+    <move obj_id="八千代 命" position_id="left" x="-300" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001003" position_id="left" x="300" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006003" position_id="left" x="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="メイちゃんおはよー！" speaker_show="True" stop="True" voice="mm11001_01_0595" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="おはよー。あれ？　メイちゃん、何だかいつもより&#xA;髪の毛がサラサラできれい。" speaker_show="True" stop="True" voice="ig11006_01_0240" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="うん、それにいい匂いがするよー。&#xA;何か、つけるようにしたんだね。" speaker_show="True" stop="True" voice="mm11001_01_0596" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="２人とも、とんだ名探偵だねぇ。実はこの間、&#xA;カトーさんから凄くいいものをもらったんだ！" speaker_show="True" stop="True" voice="ym11003_01_0383" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="09_PutHands" loop="True" to_idle="False" face_anim_type="002_Facial_smile" />
+    <msg speaker="八千代 命" text="スマホで写真撮ったから、見て、見て！" speaker_show="True" stop="True" voice="ym11003_01_0384" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="そのブランド、知ってるよ！　セレブ愛用の&#xA;人気商品なんだよね。さすがはカトーさん！" speaker_show="True" stop="True" voice="ig11006_01_0241" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="やっぱり有名なやつなんだ。コレのお陰で最近、&#xA;髪がすっごくいい感じなんだよね。" speaker_show="True" stop="True" voice="ym11003_01_0385" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="フーちゃんも同じ匂いがしたし、２人でお揃いの&#xA;匂いだなんて、素敵だね～。" speaker_show="True" stop="True" voice="mm11001_01_0597" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="そうなんだよ。メイもとーっても&#xA;気に入ってるんだ！　けどね……。" speaker_show="True" stop="True" voice="ym11003_01_0386" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="ん？　どうしたの？&#xA;何か困ったことでもあるの？" speaker_show="True" stop="True" voice="ig11006_01_0242" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="いやぁ、何でもないよ！&#xA;それより今日の宿題は……。" speaker_show="True" stop="True" voice="ym11003_01_0387" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="（そう言えば、貰ったヘアオイル、もう少しで&#xA;なくなっちゃうんだよね……。はぁ、残念……）" speaker_show="True" stop="True" voice="ym11003_01_0388" lip_sync="False" />
+  </command>
+</adv>

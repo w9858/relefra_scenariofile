@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1005000002" />
+  </info>
+  <command>
+    <Start />
+    <bg show="True" file="01_school1mo_008" resource_type="Background" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <msg window_type="SystemMsg" text="復学したテレジアはクラスメートのモモ、メイ、&#xA;五恵のフォローもあってクラスに馴染んだ。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="グラウンド" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" force_end="True" to_idle="False" />
+    <msg speaker="テレジア" text="普通に過ごす、普通に過ごす……。" speaker_show="True" stop="True" voice="tr11007_01_0046" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="うーん。そう呟きながら歩いているだけで、&#xA;フツーじゃないかも。" speaker_show="True" stop="True" voice="ig11006_01_0064" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="False" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="どうすれば、師匠。" speaker_show="True" stop="True" voice="tr11007_01_0047" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="し、師匠は早いよ。えーとモモちと&#xA;メイちゃんを見て。" speaker_show="True" stop="True" voice="ig11006_01_0065" />
+    <msg_window_show show="False" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="テレジア" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" force_end="True" to_idle="False" />
+    <msg speaker="源 モモ" text="これ見てメイちゃん。この学校&#xA;校則破ったら写経させられるんだって。" speaker_show="True" stop="True" voice="mm11001_01_0112" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="八千代 命" text="うはっ、ここは自由な校風で良かった。" speaker_show="True" stop="True" voice="ym11003_01_0077" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" position_id="left" x="-200" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="200" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="他の高校の噂話を楽しそうにしている。" speaker_show="True" stop="True" voice="tr11007_01_0048" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="11_Point" loop="False" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="フツーに会話を楽しめばいいわけだね。&#xA;テレちゃんはテレビとかみる？" speaker_show="True" stop="True" voice="ig11006_01_0066" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="ああ。白虎がよく見ているしな。&#xA;それに全く知らないのも不自然だ。" speaker_show="True" stop="True" voice="tr11007_01_0049" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="09_PutHands" loop="False" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="どう、誰か好きな芸能人とか出来た？&#xA;設定じゃなく本心でいいよ。" speaker_show="True" stop="True" voice="ig11006_01_0067" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="芸能人……クラスの女子が涼真とか&#xA;将暉とか言っていたが。" speaker_show="True" stop="True" voice="tr11007_01_0050" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="私は、これはめでたいぞの仁藤とか。&#xA;金シャリとか……。" speaker_show="True" stop="True" voice="tr11007_01_0051" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="あっ、芸人さんにいくんだね。" speaker_show="True" stop="True" voice="ig11006_01_0068" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="私もどうせなら人を笑顔にさせる芸を学びたい。" speaker_show="True" stop="True" voice="tr11007_01_0052" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="テレちゃん……。" speaker_show="True" stop="True" voice="ig11006_01_0069" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="石川 五恵" />
+    <msg window_type="SystemMsg" text="その時、テレジアに向かってソフトボールが飛んできた。" stop="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="（！　ボール？　そうか部活動の&#xA;球が飛びすぎて、こっちに来た事故だな）" speaker_show="True" stop="True" voice="tr11007_01_0053" lip_sync="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="（私は普通の女子高生だ。ならばここは）" speaker_show="True" stop="True" voice="tr11007_01_0054" lip_sync="False" />
+    <msg_window_show show="False" />
+    <create_effect effect_id="ShockWave_terejia" effect_type="EffectShockWave" life_time="2.0" target_obj="テレジア" x="0" y="0" />
+    <wait time="1.0" />
+    <sound cue_name="Spike" type="Se" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <shake target="Character" obj_id="テレジア" x="20" time="0.5" vibrate="20" wait="True" y="0" />
+    <msg speaker="テレジア" text="くっ。" speaker_show="True" stop="True" voice="tr11007_01_0055" />
+    <msg_window_show show="False" />
+    <delete obj_id="テレジア" />
+    <wait time="0.1" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" x="0" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="えっ、テレちゃん！？" speaker_show="True" stop="True" voice="ig11006_01_0070" />
+    <msg_window_show show="False" />
+    <delete obj_id="石川 五恵" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" force_end="False" to_idle="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <wait time="0.1" />
+    <move obj_id="源 モモ" x="250" x_move_type="MoveTo" time="0.5" y="0" position_id="left" y_move_type="MoveValue" wait="False" />
+    <move obj_id="八千代 命" x="-250" x_move_type="MoveTo" time="0.5" y="0" wait="False" y_move_type="MoveValue" position_id="left" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="源 モモ" text="だ、大丈夫！？" speaker_show="True" stop="True" voice="mm11001_01_0113" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="八千代 命" text="なんでむざむざ当たってんのさ！" speaker_show="True" stop="True" voice="ym11003_01_0078" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="これが普通かと思ったが……。" speaker_show="True" stop="True" voice="tr11007_01_0056" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" loop="False" to_idle="False" face_anim_type="015_Facial_poker" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="07_ChestBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="源 モモ" text="わっ、ビックリしたーって感じで&#xA;偶然よけれた雰囲気でいいと思うよ。" speaker_show="True" stop="True" voice="mm11001_01_0114" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="そうなのか。&#xA;難しい……。" speaker_show="True" stop="True" voice="tr11007_01_0057" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010410001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="10_terminalmo_01" />
+    <fade_in time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="ある日の放課後。楓と信は、&#xA;命の路上ライブを見に来ていた。" stop="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="もー！ 師匠、16時からライブするって&#xA;言ってたのに、まだ来ない……！" speaker_show="True" stop="True" voice="sf11004_02_0807" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="もう30分過ぎてるね～。" speaker_show="True" stop="True" voice="ks11010_02_0401" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="絶対またどっかで寄り道してるんですよ。&#xA;可愛いネコがいたんだ〜とか言って！" speaker_show="True" stop="True" voice="sf11004_02_0808" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あはは。&#xA;メイちゃん、言いそう。" speaker_show="True" stop="True" voice="ks11010_02_0402" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ですよね!?&#xA;師匠は、いっつもそうなんです！" speaker_show="True" stop="True" voice="sf11004_02_0809" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="この前も、洗濯物取り込むの忘れてたから&#xA;怒ったら、師匠なんて言ったと思います？" speaker_show="True" stop="True" voice="sf11004_02_0810" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うーん……なんだろう？" speaker_show="True" stop="True" voice="ks11010_02_0403" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="「風になびく洗濯物を見てフレーズが浮かんだんだ！&#xA;今楽譜に起こすから、取り込むのは後！」……です！" speaker_show="True" stop="True" voice="sf11004_02_0811" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="04_HipLeftHand" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="気分屋にもほどがあると思いません!?" speaker_show="True" stop="True" voice="sf11004_02_0812" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="08_MouthBothHands" force_end="False" loop="True" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="高坂 信" text="あらら……。" speaker_show="True" stop="True" voice="ks11010_02_0404" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そういえばメイちゃん、&#xA;昔もそんな感じのこと、いっぱいあったなあ。" speaker_show="True" stop="True" voice="ks11010_02_0405" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="やっぱり！&#xA;師匠は昔から適当だったんですね！" speaker_show="True" stop="True" voice="sf11004_02_0813" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="信さん、師匠にどんなことされたんですか？" speaker_show="True" stop="True" voice="sf11004_02_0814" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="えっとね、例えば、放課後&#xA;Wasabiで待ち合わせた時……" speaker_show="True" stop="True" voice="ks11010_02_0406" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="高坂 信" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="楓と信は、互いに尽きることのない&#xA;命のダメエピソードを語り合った。" stop="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="えー！ 師匠、そんなことしたんですか!?&#xA;信じらんない!!" speaker_show="True" stop="True" voice="sf11004_02_0815" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="信さん、師匠に振り回されてきたんですね……。" speaker_show="True" stop="True" voice="sf11004_02_0816" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="フーちゃんも、苦労してるね。" speaker_show="True" stop="True" voice="ks11010_02_0407" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ほんっとあのダメ師匠は、適当すぎるし、自由過ぎるし&#xA;周りの迷惑とか考えないし、不真面目だし……" speaker_show="True" stop="True" voice="sf11004_02_0817" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="うんうん。" speaker_show="True" stop="True" voice="ks11010_02_0408" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="…………でも…………" speaker_show="True" stop="True" voice="sf11004_02_0818" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="うん。&#xA;それもメイちゃんの良いところ……だよね？" speaker_show="True" stop="True" voice="ks11010_02_0409" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はぁ……&#xA;……そうなんですよねぇ。" speaker_show="True" stop="True" voice="sf11004_02_0819" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あはは……なんだかんだ言って、信もフーちゃんも&#xA;メイちゃんのことが大好きだよね。" speaker_show="True" stop="True" voice="ks11010_02_0410" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="だっ、大好きかは、ともかく……！" speaker_show="True" stop="True" voice="sf11004_02_0820" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek01_default" loop="True" />
+    <msg speaker="相模 楓" text="……普段はあんな適当なのに、決めるときは&#xA;ビシッと決める師匠は、すごく格好いいです。" speaker_show="True" stop="True" voice="sf11004_02_0821" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="いっ、今の、師匠には内緒にしておいてくださいね！&#xA;師匠、すぐ調子に乗るので!!" speaker_show="True" stop="True" voice="sf11004_02_0822" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="17_Hush" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="わかった。&#xA;２人だけの秘密だね。" speaker_show="True" stop="True" voice="ks11010_02_0411" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="それじゃあ改めて……信の最高に可愛い弟子を、&#xA;これからもどうかよろしくね。" speaker_show="True" stop="True" voice="ks11010_02_0412" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="こちらこそ、実は超格好いい師匠ともども、&#xA;どうぞよろしくお願いします！" speaker_show="True" stop="True" voice="sf11004_02_0823" />
+  </command>
+</adv>

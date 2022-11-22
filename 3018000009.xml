@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3018000009" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <Comment comment="一部の背景とキャラクターイラストは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg show="True" resource_type="Background" file="04_shopstreetsp_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="商店街" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="雪と五恵は老齢の女性と共に、&#xA;人気のない路地裏へ入っていく。" stop="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002014" position_id="left" x="200" y="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006014" position_id="left" x="-200" y="0" />
+    <char_spine_animation obj_id="赤星 イタ子" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="五右衛門、気づいていると思うけど、&#xA;この老人は一般人ではないわ。" speaker_show="True" stop="True" voice="hy11002_02_0513" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はい……地元の人間とは雰囲気が違います。" speaker_show="True" stop="True" voice="ig11006_02_0347" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="加えて、歩法が常人とは異なる。&#xA;覚えがあるわ……これは山に慣れた者の歩法よ。" speaker_show="True" stop="True" voice="hy11002_02_0514" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="『山伏』のように山地を拠点とする組織の&#xA;人間かもしれない……気を引き締めて。" speaker_show="True" stop="True" voice="hy11002_02_0515" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="赤星 イタ子" />
+    <bg file="18_rojiura_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="路地裏" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002014" position_id="left" x="-150" y="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006014" position_id="left" x="-400" y="0" />
+    <create type="Character" obj_id="赤星 イタ子" data_id="399005001" position_id="left" x="400" y="0" />
+    <char_spine_animation obj_id="赤星 イタ子" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="赤星 イタ子" text="そろそろ大丈夫か……&#xA;ここなら人目につかんじゃろ。" speaker_show="True" stop="True" voice="ai99010_02_0006" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="…………。" speaker_show="True" stop="True" voice="ig11006_02_0348" />
+    <create_effect effect_id="itajishok" effect_type="EffectShockWave" target_obj="赤星 イタ子" />
+    <char_spine_animation />
+    <msg speaker="赤星 イタ子" text="私は赤星イタ子！　貴様らについておる&#xA;邪霊を祓ってくれるわ！　カァーーッ!!" speaker_show="True" stop="True" voice="ai99010_02_0007" />
+    <delete obj_id="itajishok" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="……へ？" speaker_show="True" stop="True" voice="ig11006_02_0349" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="…………山を拠点とする組織の&#xA;エージェントではないの……？" speaker_show="True" stop="True" voice="hy11002_02_0516" />
+    <char_spine_animation />
+    <msg speaker="赤星 イタ子" text="えいじぇんと？　何を訳のわからんことを言っておる！&#xA;私は山の霊媒師じゃああ!!" speaker_show="True" stop="True" voice="ai99010_02_0008" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="えっと……山の霊媒師さんが、なぜここに？" speaker_show="True" stop="True" voice="ig11006_02_0350" />
+    <char_spine_animation />
+    <msg speaker="赤星 イタ子" text="孫の結婚式に呼ばれ、数年ぶりに人里へ降りてみれば、&#xA;街に溢れる妖魔と化した人間ども!!" speaker_show="True" stop="True" voice="ai99010_02_0009" />
+    <char_spine_animation />
+    <msg speaker="赤星 イタ子" text="百鬼夜行じゃ！　妖魔化した人間たちを&#xA;救ってやらねば!!　臨兵闘者皆陣烈在前!!アーーッ‼" speaker_show="True" stop="True" voice="ai99010_02_0010" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="恐ろしく速い九字切り……鍛えられている。" speaker_show="True" stop="True" voice="hy11002_02_0517" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="感心してる場合じゃないですよ!?" speaker_show="True" stop="True" voice="ig11006_02_0351" />
+    <char_spine_animation />
+    <msg speaker="赤星 イタ子" text="カァーーー！" speaker_show="True" stop="True" voice="ai99010_02_0011" />
+    <flash color="#ffffffff" count="5" time="0.5" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="うぷっ、これ……塩!?" speaker_show="True" stop="True" voice="ig11006_02_0352" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="どうやら、今回の一件の犯人は、&#xA;このお婆さんで確定のようね。" speaker_show="True" stop="True" voice="hy11002_02_0518" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はい……。" speaker_show="True" stop="True" voice="ig11006_02_0353" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あの、お婆さん。これはハロウィンというイベントで、&#xA;百鬼夜行とは違うんですよ。" speaker_show="True" stop="True" voice="ig11006_02_0354" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="妖怪のように見える人も、イベントとしてお化けの&#xA;格好をしているだけで、妖怪化したわけではなく……。" speaker_show="True" stop="True" voice="ig11006_02_0355" />
+    <char_spine_animation obj_id="赤星 イタ子" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="赤星 イタ子" text="私は騙されぬぞ！　見よ、この写真を！&#xA;妖魔の顔が映っておる！" speaker_show="True" stop="True" voice="ai99010_02_0012" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="さっき私たちを撮った写真ね。" speaker_show="True" stop="True" voice="hy11002_02_0519" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あれ？　なんだか私たちの後ろに&#xA;人の顔みたいなものがぼんやりと……" speaker_show="True" stop="True" voice="ig11006_02_0356" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="いや、こんな心霊写真、単なる撮影ミスです！" speaker_show="True" stop="True" voice="ig11006_02_0357" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="ええ……光の具合などで、人の顔のように&#xA;見えるものが映ることは珍しくないわ。" speaker_show="True" stop="True" voice="hy11002_02_0520" />
+    <char_spine_animation />
+    <msg speaker="赤星 イタ子" text="言い訳を！　妖魔に取り憑かれておるから、&#xA;妖魔の格好をするのじゃ！　カァーー!!" speaker_show="True" stop="True" voice="ai99010_02_0013" />
+    <flash color="#ffffffff" count="5" time="0.5" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="わわ、今度は灰!?" speaker_show="True" stop="True" voice="ig11006_02_0358" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="清め塩と護摩灰……なるほど、塩や灰をかけて&#xA;回っていたのはお祓いをしていたからだったのね。" speaker_show="True" stop="True" voice="hy11002_02_0521" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv4" />
+  </command>
+</adv>

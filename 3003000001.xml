@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003000001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="ツキカゲ基地" />
+    <bg show="True" file="03_tsukikage_001" resource_type="Background" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="石川 五恵" position_id="left" x="200" x_move_type="MoveTo" time="2.0" wait="False" y="0" y_move_type="MoveValue" />
+    <msg speaker="石川 五恵" text="よいしょ、よいしょっ……。&#xA;師匠、荷物ここに置きますね。" speaker_show="True" stop="True" voice="ig11006_01_0264" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ドンと重そうな箱が置かれる音" />
+    <sound />
+    <move obj_id="石川 五恵" position_id="left" y="-50" y_move_type="MoveValue" time="1.0" wait="True" />
+    <move obj_id="石川 五恵" position_id="left" y="50" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ごえちゃん、お手伝いありがとうございました。&#xA;重かったでしょう。" speaker_show="True" stop="True" voice="ah11005_01_0156" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="力仕事なら任せてください！　師匠は&#xA;クリーム作りでお疲れなんですし、休んでください。" speaker_show="True" stop="True" voice="ig11006_01_0265" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="わぁ！　この箱の中身、全部透明クリームの&#xA;チューブですよね？　どうしてこんなに？" speaker_show="True" stop="True" voice="mm11001_01_0598" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="次の潜入ミッションは、全員で透明になって&#xA;敵陣に忍び込むのよ。" speaker_show="True" stop="True" voice="hy11002_01_0355" />
+    <msg_window_show show="False" />
+    <move obj_id="半蔵門 雪" x="0" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="源 モモ" x="300" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="量が多かったので少し心配でしたが&#xA;潜入までに何とか全員分間に合って良かったです。" speaker_show="True" stop="True" voice="ah11005_01_0157" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="では私は片付けがあるので、&#xA;これで失礼しますね。" speaker_show="True" stop="True" voice="ah11005_01_0158" />
+    <msg_window_show show="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="-1000" x_move_type="MoveTo" time="1.0" wait="True" y="0" y_move_type="MoveValue" />
+    <wait time="0.5" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="はぁ～、&#xA;全員分間に合っちゃったのかぁ～。" speaker_show="True" stop="True" voice="ym11003_01_0424" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="師匠！ それは言っちゃダメなやつでしょ？&#xA;気持ちはまぁ、わからなくないですけど……。" speaker_show="True" stop="True" voice="sf11004_01_0465" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="このクリーム、滅多に使う機会はなかったけれど、&#xA;使った時には、色々あったものね。" speaker_show="True" stop="True" voice="hy11002_01_0356" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="色々って、一体どんなことが……？" speaker_show="True" stop="True" voice="mm11001_01_0599" />
+    <msg_window_show show="False" />
+    <delete obj_id="半蔵門 雪" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="色々って言ったら色々よ。" speaker_show="True" stop="True" voice="sf11004_01_0466" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="例えば、ミッションの途中でクリームの効果が&#xA;切れそうになって慌てたり。" speaker_show="True" stop="True" voice="sf11004_01_0467" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="そ、それは大変だったね。" speaker_show="True" stop="True" voice="mm11001_01_0600" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="源 モモ" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="メイはやっぱり、フーの首なしお化け事件が&#xA;忘れられないけどね～。" speaker_show="True" stop="True" voice="ym11003_01_0425" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="首なしお化け!?　フーちゃんが？" speaker_show="True" stop="True" voice="mm11001_01_0601" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="師匠！ 余計なこと思い出さないでくださいよ！" speaker_show="True" stop="True" voice="sf11004_01_0468" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="いや～、アレばっかりは忘れられないっしょ。" speaker_show="True" stop="True" voice="ym11003_01_0426" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="えー、何？　何？&#xA;何があったの～？" speaker_show="True" stop="True" voice="mm11001_01_0602" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="楓が顔だけクリームを塗り終えたところに、&#xA;五恵が入ってきて大騒ぎになったのよ。" speaker_show="True" stop="True" voice="hy11002_01_0357" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="「出た～、首なしお化け～！」って、ごえちゃんが&#xA;フーのこと見てパニクっちゃって。" speaker_show="True" stop="True" voice="ym11003_01_0427" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="あれはほんと笑ったねぇ～。あははっ。" speaker_show="True" stop="True" voice="ym11003_01_0428" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="笑いごとじゃないですよ！　こっちはアタシだって&#xA;わかってもらうのに、どれだけ苦労したか。" speaker_show="True" stop="True" voice="sf11004_01_0469" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="石川 五恵" text="ごめんごめん。でもあれ以来みんな、顔には&#xA;最後に塗るようになったんだよね。" speaker_show="True" stop="True" voice="ig11006_01_0266" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="苦笑" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="色んな事件があったんだね。&#xA;それもなかなか、大変そうな……。" speaker_show="True" stop="True" voice="mm11001_01_0603" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="こんなに凄い発明をしてくれた師匠には、言い出し&#xA;づらいけど、まだまだ問題点は多いんだよね。" speaker_show="True" stop="True" voice="ig11006_01_0267" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="そうそう。直接肌に塗らないと効果時間が&#xA;短くなるから、毎回裸にならないといけない所とか。" speaker_show="True" stop="True" voice="sf11004_01_0470" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="裸だと武器の持ち込みが制限されてしまうのも、&#xA;戦闘には不便だし。" speaker_show="True" stop="True" voice="hy11002_01_0358" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="いやいや、それより何より裸で敵陣に侵入って、&#xA;どーなのよ！　乙女としてはリスキー過ぎるっしょ？" speaker_show="True" stop="True" voice="ym11003_01_0429" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="言われてみると、そうだよね。&#xA;どうしよう、ちょっと心配になってきちゃった。" speaker_show="True" stop="True" voice="mm11001_01_0604" />
+  </command>
+</adv>

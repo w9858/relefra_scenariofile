@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000006" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <bg show="True" file="01_school1mo_004" resource_type="Background" />
+    <msg window_type="SystemMsg" text="モモがツキカゲと出会った翌日。&#xA;楓に呼び出されたモモは、屋上にやってきていた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="相模さん、話って？" speaker_show="True" stop="True" voice="mm11001_01_0200" />
+    <msg speaker="相模 楓" text="……正直アタシ、先輩みたいに純粋そうな人は&#xA;ツキカゲに向いてないと思います。" speaker_show="True" stop="True" voice="sf11004_01_0140" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="――！" speaker_show="True" stop="True" voice="mm11001_01_0201" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="相模 楓" text="それでもツキカゲに入ると言うなら、今日の放課後&#xA;Wasabiへ行って、こう注文して下さい。" speaker_show="True" stop="True" voice="sf11004_01_0141" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="相模 楓" text="「オリジナルカレー、はちみつ抜き、&#xA;ガラムマサラましまし」……じゃ、アタシはこれで。" speaker_show="True" stop="True" voice="sf11004_01_0142" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <move obj_id="相模 楓" position_id="left" x="1000" x_move_type="MoveTo" time="1.0" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="源 モモ" text="……私には、向いてない……？&#xA;……ううん。やってやるっ！" speaker_show="True" stop="True" voice="mm11001_01_0202" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="なんたって半蔵門先輩が師匠になるわけだし!!&#xA;もう迷わない。この街を護るって決めたんだから!!" speaker_show="True" stop="True" voice="mm11001_01_0203" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" wait="True" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <transition type="In" color_change="False" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="1000" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="False" force_end="True" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" time="1.0" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="いらっしゃいませ～。" speaker_show="True" stop="True" voice="kt11009_01_0071" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あ、あのっ……オリジナルカレー、はちみつ抜き&#xA;ガラムマサラましましっ。" speaker_show="True" stop="True" voice="mm11001_01_0204" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="は～い。こちらへどうぞ～。" speaker_show="True" stop="True" voice="kt11009_01_0072" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" wait="True" />
+    <Comment comment="ツキカゲ基地" />
+    <bg show="True" file="No_034" resource_type="AnimSS" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="カトリーナ" />
+    <Comment comment="【SE】エレベーター下降音" />
+    <Comment comment="【SE】エレベーター停止音" />
+    <Comment comment="【SE】扉が開く音" />
+    <transition type="In" color_change="False" wait="True" />
+    <msg speaker="源 モモ" text="はぇぇぇぇ!!&#xA;お、お店の地下にこんな場所が……！" speaker_show="True" stop="True" voice="mm11001_01_0205" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv1" time="0.5" wait="True" />
+    <bg show="True" file="03_tsukikage_005" resource_type="Background" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <transition type="In" color_change="False" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="待ってましたよ～、モモちゃん。&#xA;ツキカゲの秘密基地へようこそ。" speaker_show="True" stop="True" voice="ah11005_01_0077" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="それじゃあ早速、ツキカゲの基本情報について&#xA;教えるわ。しっかり聞いておくように。" speaker_show="True" stop="True" voice="hy11002_01_0096" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はっ、はいっ！" speaker_show="True" stop="True" voice="mm11001_01_0206" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="この街は、昔から交通の要衝として&#xA;栄えていたけれど、治安は悪かった。" speaker_show="True" stop="True" voice="hy11002_01_0097" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="そこで街を護る自警団が設立されたんだ。&#xA;ツキカゲのはじまりね。" speaker_show="True" stop="True" voice="ym11003_01_0117" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="以後ツキカゲは、正義の私設情報機関……&#xA;いわゆるスパイとして、犯罪組織と戦っている。" speaker_show="True" stop="True" voice="hy11002_01_0098" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="知ってた？　スパイの語源って、&#xA;香辛料、つまりスパイスの省略形なんだよ。" speaker_show="True" stop="True" voice="ym11003_01_0118" />
+    <msg_window_show show="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="八千代 命" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="注意・あくまで一説にすぎません。" speaker_show="True" stop="True" voice="ah11005_01_0078" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="では、次はそのスパイスについて説明するわ。&#xA;スパイスは、ツキカゲの生命線でもあるの。" speaker_show="True" stop="True" voice="hy11002_01_0099" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <bg show="True" resource_type="AnimSS" file="No_035" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <msg speaker="青葉 初芽" text="服用すると脳が刺激されて、少しの間、超人的な&#xA;動きができます。昔から伝わる秘密道具ですね。" speaker_show="True" stop="True" voice="ah11005_01_0079" />
+    <msg speaker="八千代 命" text="ソレ、若い女性にしか効かないんだよ。&#xA;効き目が落ちたら、ツキカゲは卒業。" speaker_show="True" stop="True" voice="ym11003_01_0119" />
+    <msg speaker="半蔵門 雪" text="卒業後は、協力者としてツキカゲをサポートするか、&#xA;ツキカゲの記憶を消し日常に戻るか、選ぶことになる。" speaker_show="True" stop="True" voice="hy11002_01_0100" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <bg show="True" file="03_tsukikage_005" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="Wasabiの店長のカトリーナさんは&#xA;元ツキカゲで、私の師匠なんですよ。" speaker_show="True" stop="True" voice="ah11005_01_0080" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-225" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="青葉 初芽" position_id="left" x="-450" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="450" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="師匠……。" speaker_show="True" stop="True" voice="mm11001_01_0207" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ツキカゲは少数精鋭。現役期間中に弟子を&#xA;１人育てて、技術と魂を継承していく。" speaker_show="True" stop="True" voice="hy11002_01_0101" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ちなみにフーは、マイ弟子でーす。" speaker_show="True" stop="True" voice="ym11003_01_0120" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="私はごえちゃんの師匠です。" speaker_show="True" stop="True" voice="ah11005_01_0081" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="そ、それで！&#xA;私が半蔵門先輩の弟子ということですね！" speaker_show="True" stop="True" voice="mm11001_01_0208" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="私のことは師匠と呼びなさい。……まずは修行よ。&#xA;訓練を積み試験をパスすれば、晴れてツキカゲとなる。" speaker_show="True" stop="True" voice="hy11002_01_0102" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="早速、今夜から修行開始。&#xA;一九〇〇に公園に来ること。" speaker_show="True" stop="True" voice="hy11002_01_0103" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はい！　師匠！" speaker_show="True" stop="True" voice="mm11001_01_0209" />
+  </command>
+</adv>

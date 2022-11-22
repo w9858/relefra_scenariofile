@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010302" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="20_meiandfuhouse_02" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="メイと楓の部屋" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <Comment comment="【SE】ドアの開く音と元気に入ってくる足音" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="1.0" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003006" position_id="left" x="1000" />
+    <move obj_id="八千代 命" position_id="left" x="-1000" time="1.5" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ただいまー！　フー、聞いてよ！&#xA;自己最高記録が出たんだよ！" speaker_show="True" stop="True" voice="ym11003_01_0650" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="……。" speaker_show="True" stop="True" voice="sf11004_01_0639" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="我ながら今日も最高の演奏！　と思ってたら、&#xA;なんとなんと！　過去最高記録のおひねりが！" speaker_show="True" stop="True" voice="ym11003_01_0651" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ほら見て！　こーんなに！" speaker_show="True" stop="True" voice="ym11003_01_0652" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】ジャラジャラと小銭を袋から出す音" />
+    <sound type="Se" cue_name="Coins" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_kirakira" effect_type="EffectKirakira" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="すっごいでしょー？　メイ、自分の才能が&#xA;恐ろしくなってきたよ。" speaker_show="True" stop="True" voice="ym11003_01_0653" />
+    <delete obj_id="mei_kirakira" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="……。" speaker_show="True" stop="True" voice="sf11004_01_0640" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ちょっとちょっと、フー！&#xA;聞いてんの？" speaker_show="True" stop="True" voice="ym11003_01_0654" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="聞いてますよ。" speaker_show="True" stop="True" voice="sf11004_01_0641" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="え？　なんか怒ってる？" speaker_show="True" stop="True" voice="ym11003_01_0655" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="師匠、約束しましたよね？&#xA;今日は弾き語りしないで帰ってくるって。" speaker_show="True" stop="True" voice="sf11004_01_0642" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そうだっけ？&#xA;それより見てよ、このおひねりの山！" speaker_show="True" stop="True" voice="ym11003_01_0656" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="信じられない！　あれだけちゃんと約束したのに、&#xA;何で忘れちゃうんですか？　師匠のバカ！" speaker_show="True" stop="True" voice="sf11004_01_0643" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_Sweat" effect_type="MampSweat" life_time="1" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="こ、これこれ弟子！　メイがせっかく&#xA;いい気分で帰ってきたってのに！" speaker_show="True" stop="True" voice="ym11003_01_0657" />
+    <delete obj_id="mei_Sweat" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_eye obj_id="相模 楓" type="Eye03_tear" loop="True" />
+    <msg speaker="相模 楓" text="アタシは全っ然、気分よくないです！　約束&#xA;破っといて、よくそんなヘラヘラ笑ってられますね。" speaker_show="True" stop="True" voice="sf11004_01_0644" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ヘラヘラ？　メイはもとからこういう顔ですー！" speaker_show="True" stop="True" voice="ym11003_01_0658" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="もういいです！&#xA;師匠の顔なんて見たくありません！" speaker_show="True" stop="True" voice="sf11004_01_0645" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="あーそこまで言う!?&#xA;もういい！" speaker_show="True" stop="True" voice="ym11003_01_0659" />
+    <Comment comment="【SE】ドスドス歩く足音とドアが開く音" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="八千代 命" position_id="left" x="400" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="ちょっと師匠！　どこ行くんですか！" speaker_show="True" stop="True" voice="sf11004_01_0646" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="どこだっていいジャロ！&#xA;ふーん！" speaker_show="True" stop="True" voice="ym11003_01_0660" />
+    <move obj_id="八千代 命" position_id="left" x="1000" x_move_type="MoveTo" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <Comment comment="【SE】ドアがバタンと閉まる音" />
+    <sound type="Se" cue_name="DoorClose" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="師匠のバカ……。" speaker_show="True" stop="True" voice="sf11004_01_0647" />
+  </command>
+</adv>

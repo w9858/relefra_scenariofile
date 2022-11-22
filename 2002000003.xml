@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000003" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" volume="100" cue_name="Quest1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <camera move_x="0" move_y="-300" scale_x="3.0" scale_y="3.0" time="0.1" easing="Unset" wait="False" />
+    <Comment comment="オフィスの中　踊り階段" />
+    <bg show="True" file="37_office_01" />
+    <msg window_type="SystemMsg" text="凪の部隊は悪徳企業の不正を入手するため&#xA;高層ビルに潜入していた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="オフィスの中　踊り階段" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="shockwave_hisui" effect_type="EffectShockWave" life_time="0.5" target_obj="宗近 飛粋" y="100" x="0" />
+    <msg speaker="宗近 飛粋" text="葉栖美さん。最上階まであと少しと&#xA;いった感じですね。ドキドキがとまりません。" speaker_show="True" stop="True" voice="mh12001_01_0060" />
+    <camera_reset time="0" wait="False" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <move obj_id="轟 葉栖美" position_id="left" x="-450" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="分かったからアップになりすぎないで飛粋ちゃん。&#xA;ぶっちゃけさ、ちょっと怖いから。" speaker_show="True" stop="True" voice="th12004_01_0031" />
+    <move obj_id="宗近 飛粋" position_id="left" x="200" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" wait="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="う。よくパーソナルスペースが近すぎるって&#xA;高千穂では言われてました…。" speaker_show="True" stop="True" voice="mh12001_01_0061" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="いや顔もちょっと怖いんだけどね。&#xA;美人ゆえの圧っていうかさ。" speaker_show="True" stop="True" voice="th12004_01_0032" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="False" y="0" y_move_type="MoveValue" />
+    <move obj_id="轟 葉栖美" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="はっすーも美人じゃろ。&#xA;それより支給された武器の調子は良好か飛粋？" speaker_show="True" stop="True" voice="ss12003_01_0079" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="はい。このワイヤー凄いんですよ。&#xA;どこまでもみょーんと伸びて！　みょーん！" speaker_show="True" stop="True" voice="mh12001_01_0062" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="使いこなせば良い武器になる。励むのじゃな。&#xA;ちなみにしぶきが本気の時は素手で戦う。" speaker_show="True" stop="True" voice="ss12003_01_0080" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="アタシは色々と武器使えるけど、器用貧乏でね&#xA;自分で言うのも何だけどサポート向きだと思う。" speaker_show="True" stop="True" voice="th12004_01_0033" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="轟 葉栖美" text="しぶきちと肩を並べるアタッカーを待ってたんだ。&#xA;期待してるよ飛粋ちゃん。" speaker_show="True" stop="True" voice="th12004_01_0034" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="はい。張り切っていっちゃいますよ！！" speaker_show="True" stop="True" voice="mh12001_01_0063" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="よし任務を続けるぞ。最上階を目指すのじゃ。&#xA;しぶきに続け！" speaker_show="True" stop="True" voice="ss12003_01_0081" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

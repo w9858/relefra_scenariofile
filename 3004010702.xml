@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3004010702" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Adv2 女子会話・コメディ" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <Comment comment="お花見会場" />
+    <bg show="True" file="29_hanamipark_01" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007003" position_id="left" x="0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="迷子センター職員" text="お嬢ちゃん、ジュース飲む？" speaker_show="True" stop="True" voice="99046_01_0001" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="お嬢ちゃんじゃない！&#xA;白虎様だ！" speaker_show="True" stop="True" voice="bk11008_01_0145" />
+    <msg speaker="迷子センター職員" text="そっかそっか。ごめんね、白虎様。&#xA;ジュース飲みますか？" speaker_show="True" stop="True" voice="99046_01_0002" />
+    <create_effect effect_id="bk_Smile" effect_type="MampSmile" life_time="3" target_obj="白虎" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="なかなか物分かりの良いやつだな。&#xA;よし、ジュースを飲んでやるから。持ってこい。" speaker_show="True" stop="True" voice="bk11008_01_0146" />
+    <delete obj_id="bk_Smile" />
+    <msg speaker="迷子センター職員" text="はいはい。ジュースをどうぞ。&#xA;お友達、早く迎えに来てくれると良いわね。" speaker_show="True" stop="True" voice="99046_01_0003" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ん？　迎えに来てやったのは私の方だ。&#xA;早くテレ公を連れてきてくれ。" speaker_show="True" stop="True" voice="bk11008_01_0147" />
+    <msg speaker="迷子センター職員" text="はいはい。それじゃあ、お菓子でも食べて&#xA;ゆっくり待っててね。" speaker_show="True" stop="True" voice="99046_01_0004" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="おー！ ポテチにチョコにシュークリーム！&#xA;これ全部、食べ放題なのか？" speaker_show="True" stop="True" voice="bk11008_01_0148" />
+    <msg speaker="迷子センター職員" text="ええ、ジュースもお代わりしていいからね。" speaker_show="True" stop="True" voice="99046_01_0005" />
+    <msg_window_show show="False" />
+    <transition type="Out" time="1" wait="True" />
+    <delete obj_id="白虎" />
+    <bg resource_type="Still" file="311007003" />
+    <transition type="In" time="1" wait="True" />
+    <char_spine_animation obj_id="白虎" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="そ、そうなのか！　では遠慮なく。&#xA;もぐもぐ……がつがつ……うまーい！" speaker_show="True" stop="True" voice="bk11008_01_0149" />
+    <delete obj_id="bk_Heart" />
+    <msg speaker="白虎" text="ぐびぐび……ぷはぁ～、ジュースも美味い！&#xA;もう１杯！" speaker_show="True" stop="True" voice="bk11008_01_0150" />
+    <msg speaker="迷子センター職員" text="はいはい、どうぞ。" speaker_show="True" stop="True" voice="99046_01_0006" />
+    <msg speaker="白虎" text="あれ？　あっちにあるのは&#xA;新作のゲーム機じゃないか？" speaker_show="True" stop="True" voice="bk11008_01_0151" />
+    <msg speaker="迷子センター職員" text="よかったら待ってる間、&#xA;好きに遊んでいいわよ。" speaker_show="True" stop="True" voice="99046_01_0007" />
+    <msg speaker="白虎" text="何だってー！" speaker_show="True" stop="True" voice="bk11008_01_0152" />
+    <msg speaker="白虎" text="じゃっ……じゃあもしかして、&#xA;そこに積んである漫画も読み放題なのか？" speaker_show="True" stop="True" voice="bk11008_01_0153" />
+    <msg speaker="迷子センター職員" text="ええ、もちろん！　いい子で&#xA;待って居てくれる子は遊び放題よ。" speaker_show="True" stop="True" voice="99046_01_0008" />
+    <msg speaker="白虎" text="うぉ～、そうなのか！&#xA;何なんだ、この場所は！" speaker_show="True" stop="True" voice="bk11008_01_0154" />
+    <msg speaker="白虎" text="ジュースもお菓子も食べ放題！" speaker_show="True" stop="True" voice="bk11008_01_0155" />
+    <msg speaker="白虎" text="遊ぶ物もいっぱいあって、優しいヤツらが&#xA;何でも言うことを聞いてくれてる！" speaker_show="True" stop="True" voice="bk11008_01_0156" />
+    <msg speaker="白虎" text="さすがの白虎様も、ここまでとは思ってなかったが、&#xA;お花見ってやつは最高だな！" speaker_show="True" stop="True" voice="bk11008_01_0157" />
+  </command>
+</adv>

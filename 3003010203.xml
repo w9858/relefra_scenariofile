@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003010203" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="06_yukihousemo_01" clor="#ffffffff" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="雪の道場" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002003" postion_id="left" x="200" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" postion_id="left" x="-200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="来たわね、モモ。&#xA;そこに座ってちょうだい。" speaker_show="True" stop="True" voice="hy11002_01_0441" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あの～師匠、お呼び出しというのは一体……。&#xA;私、また何かやらかしちゃったでしょうか？" speaker_show="True" stop="True" voice="mm11001_01_0675" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="呼び出しイコール叱られる、と思うだなんて&#xA;何かやましいことでもあるのかしら？" speaker_show="True" stop="True" voice="hy11002_01_0442" />
+    <create_effect effect_id="sweat" effect_type="MampSweat" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="源 モモ" text="そっ、そんなことはないです！　ただ、&#xA;道場に呼び出されるなんて久々だったので。" speaker_show="True" stop="True" voice="mm11001_01_0676" />
+    <delete obj_id="sweat" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="安心なさい。今日はモモと２人だけで&#xA;稽古をしたいと思って呼んだだけよ。" speaker_show="True" stop="True" voice="hy11002_01_0443" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="そうだったんですね！&#xA;師匠、わざわざありがとうございますっ！" speaker_show="True" stop="True" voice="mm11001_01_0677" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="それじゃあ私は準備をしてくるから、&#xA;あなたも、体を温めておきなさい。" speaker_show="True" stop="True" voice="hy11002_01_0444" />
+    <msg_window_show show="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="1500" x_move_type="MoveTo" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="はいっ！" speaker_show="True" stop="True" voice="mm11001_01_0678" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="良かった。お説教じゃなくて。" speaker_show="True" stop="True" voice="mm11001_01_0679" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="師匠のマンツーマン指導なんて久しぶり！&#xA;嬉しいけどドキドキする～。" speaker_show="True" stop="True" voice="mm11001_01_0680" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="…………………………………………。" speaker_show="True" stop="True" voice="mm11001_01_0681" />
+    <transition effect="Default" type="Out" time="0.5" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <transition effect="Default" type="In" time="0.5" wait="True" />
+    <create_effect effect_id="sweat" effect_type="MampSweat" target_obj="源 モモ" />
+    <msg speaker="源 モモ" text="師匠、遅いな。&#xA;準備って、一体何してるんだろう。" speaker_show="True" stop="True" voice="mm11001_01_0682" />
+    <delete obj_id="sweat" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002009" x="1500" />
+    <wait time="0.1" />
+    <move obj_id="半蔵門 雪" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="しっ、師匠！　そのお姿は……。" speaker_show="True" stop="True" voice="mm11001_01_0683" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモ、今日の稽古の最終目標は、&#xA;私のこの姿を見ても、平常心を保つことよ。" speaker_show="True" stop="True" voice="hy11002_01_0445" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="へ……？" speaker_show="True" stop="True" voice="mm11001_01_0684" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="いい加減見慣れてもらわないと、あなたは今後、&#xA;潜入ミッションから外れてもらうことになるわ。" speaker_show="True" stop="True" voice="hy11002_01_0446" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="そ、そんなぁ～。私、何でも頑張りますから&#xA;お願いです！　見捨てないでください！" speaker_show="True" stop="True" voice="mm11001_01_0685" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="いい心がけね。それじゃあ今日は、&#xA;私の指示通りに動いてもらうわよ。" speaker_show="True" stop="True" voice="hy11002_01_0447" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="はい！　そ、それでまずは何をすれば……。" speaker_show="True" stop="True" voice="mm11001_01_0686" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="この姿の私に慣れるまで、私のそばで一緒に&#xA;過ごすことが今日の特訓よ。" speaker_show="True" stop="True" voice="hy11002_01_0448" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="16_BendBackward" face_anim_type="101_Facial_unique" force_end="False" loop="True" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源 モモ" text="えええええええ！" speaker_show="True" stop="True" voice="mm11001_01_0687" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

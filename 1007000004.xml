@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1007000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="12_maidcafe_03" effect="Immediately" effect_time="0" wait="False" color="#ffffffff" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="メイド喫茶" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="ＺＥＴはツキカゲや凪の部隊に会うために&#xA;空崎に到着していた。" stop="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004007" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="3" wait="False" />
+    <wait time="3" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="どうぞです、ご主人様。量が多いのは&#xA;アタシからのサービスです。" speaker_show="True" stop="True" voice="sf11004_02_0003" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="おおっ！？　これは前乗りした甲斐があったわね。" speaker_show="True" stop="True" voice="sr13001_02_0033" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="（敷島 来夢はまだツキカゲの詳細なデータ…&#xA;アタシの顔までは知らないはず。）" speaker_show="True" stop="True" voice="sf11004_02_0004" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="（それが明日、スパイとして再会した時に、&#xA;あー、あの時のって感じになるわけよ。）" speaker_show="True" stop="True" voice="sf11004_02_0005" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="018_Facial_smug" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="（世界でも有数のお金持ちには好印象を&#xA;もたれておいて損はないって完璧な思考よ。）" speaker_show="True" stop="True" voice="sf11004_02_0006" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そこのメイドさんちょっと！" speaker_show="True" stop="True" voice="sr13001_02_0034" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="（え、まさか気付かれた！？）" speaker_show="True" stop="True" voice="sf11004_02_0007" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="超可愛いわね。ついじーっと見ちゃうわ。" speaker_show="True" stop="True" voice="sr13001_02_0035" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="私、こういうモノなの。名刺。&#xA;敷島で働いてみる気はないかしら？" speaker_show="True" stop="True" voice="sr13001_02_0036" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="は、はぁ…。" speaker_show="True" stop="True" voice="sf11004_02_0008" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="お給料ははずむわ。" speaker_show="True" stop="True" voice="sr13001_02_0037" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="！？&#xA;ご、ごくり。" speaker_show="True" stop="True" voice="sf11004_02_0009" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" />
+    <msg speaker="相模 楓" text="と、ゴホン。ご冗談をご主人様、おほほ。" speaker_show="True" stop="True" voice="sf11004_02_0010" />
+    <move obj_id="相模 楓" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="3" wait="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="3" />
+    <delete obj_id="相模 楓（Ｍ）" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さりげなくヒップを撫でようと思ったら&#xA;自然な動きでかわされたのよ。偶然かしら。" speaker_show="True" stop="True" voice="sr13001_02_0038" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="はぁ……。同性同士でも、&#xA;そういうセクハラはよくありませんわ。" speaker_show="True" stop="True" voice="sm13002_02_0018" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg show="True" resource_type="Background" file="08_parkni_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <sound type="Bgm" volume="0" />
+    <transition type="In" color_change="True" wait="True" effect="Default" time="1.0" />
+    <telop text="東扇島公園" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="おぉー。工業地帯の眺めっていうのは最高ね。" speaker_show="True" stop="True" voice="sr13001_02_0039" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="ええ。落ち着きますわ。漂うケミカルな匂いも。" speaker_show="True" stop="True" voice="sm13002_02_0019" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="工場で働いている人形を見ると和みまする。" speaker_show="True" stop="True" voice="am13002_02_0017" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg show="True" resource_type="Background" file="08_parkni_01" effect="Immediately" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <delete obj_id="アミィ" />
+    <transition type="In" color_change="True" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="3" wait="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あれれ。師匠、あの人達って。" speaker_show="True" stop="True" voice="mm11001_02_0001" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="敷島姉妹だわ、初芽から聞いていたＺＥＴね。&#xA;空崎に前乗りしてきたのか。" speaker_show="True" stop="True" voice="hy11002_02_0001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="明日ご挨拶って予定ですけど、どうします？" speaker_show="True" stop="True" voice="mm11001_02_0002" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="それまでは、知らない振りをしている方が&#xA;ややこしくなくていいでしょう。" speaker_show="True" stop="True" voice="hy11002_02_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="分かりました師匠。自然に自然に。" speaker_show="True" stop="True" voice="mm11001_02_0003" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="（……本当に、自然に出来ているわね、&#xA;はじめに言葉に出さなければ完璧だけども。）" speaker_show="True" stop="True" voice="hy11002_02_0003" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg show="True" resource_type="Background" file="08_parkni_02" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <transition type="In" color_change="True" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="おぉ、あの二人も可愛い。" speaker_show="True" stop="True" voice="sr13001_02_0040" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="24_bodyUnique" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="空崎は可愛い子が多いのねぇ。&#xA;こりゃあ俄然張り切っちゃうわ。" speaker_show="True" stop="True" voice="sr13001_02_0041" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="まずは表の仕事を片付けていきましょう。&#xA;折角関東に来たんです。会食がありますわ。" speaker_show="True" stop="True" voice="sm13002_02_0020" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ほいほい。明日の顔合わせを楽しみにしつつ&#xA;こなしていきましょーかい。アミィ。" speaker_show="True" stop="True" voice="sr13001_02_0042" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="はっ、どこまでもサポートする所存。" speaker_show="True" stop="True" voice="am13002_02_0018" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

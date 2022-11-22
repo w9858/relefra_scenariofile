@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1004000003battle" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Adv4" />
+    <sound type="Bgm" />
+    <bg show="True" file="22_plant_01" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="さぁ。追い詰めたわよ正体不明の連中め。&#xA;洗いざらい吐いてもらうわよ。" speaker_show="True" stop="True" voice="sf11004_01_0115" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="追い詰めた？　笑止千万！&#xA;見さらせ！　これが我らの真なる姿じゃ。" speaker_show="True" stop="True" voice="ss12003_01_0010" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="皆さんはじめまして。&#xA;そして、お相手よろしくっ！" speaker_show="True" stop="True" voice="mh12001_01_0006" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="事情を吐かせたきゃ吐かせてみてよね。&#xA;ツキカゲさん達。" speaker_show="True" stop="True" voice="th12004_01_0003" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="へへ、アタシ様に勝てるかな？&#xA;さぁ皆大好きバトル展開のはじまりだぁ！！" speaker_show="True" stop="True" voice="ry12002_01_0008" />
+  </command>
+</adv>

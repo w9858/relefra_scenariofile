@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="34_sakasatower_02" effect="Immediately" effect_time="0.3" wait="False" color="#ffffffff" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="よし、今日の訓練はここまでじゃ。&#xA;モモ、よくついて来れたな。" speaker_show="True" stop="True" voice="ss12003_02_0099" />
+    <move obj_id="源 モモ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <move obj_id="津守 ヨモギ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="2.0" wait="True" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="全員集合とはちょうど良かったぜ。お前たち、&#xA;気をぬいてるとこ悪いが急ぎの任務が入ったぞ！" speaker_show="True" stop="True" voice="ty12005_02_0039" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="わっ、早速出動ですか！" speaker_show="True" stop="True" voice="mm11001_02_0064" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="ほほう。今日はどこで何をしろと言うのじゃ？" speaker_show="True" stop="True" voice="ss12003_02_0100" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="とある工場に潜入して、&#xA;設計図を取ってくるんだ。" speaker_show="True" stop="True" voice="ty12005_02_0040" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="その工場は、人形の違法武装を&#xA;作っているとの噂でな。" speaker_show="True" stop="True" voice="ty12005_02_0041" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="つまり、その違法武装の設計図を&#xA;奪ってこいって話だな？" speaker_show="True" stop="True" voice="ry12002_02_0053" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="モモちゃん、着任早々の出動になっちゃうけど、&#xA;大丈夫？" speaker_show="True" stop="True" voice="th12004_02_0058" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="もちろんです！&#xA;お役に立てるよう頑張ります。" speaker_show="True" stop="True" voice="mm11001_02_0065" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="気持ちの良いやる気じゃな。そこまで言うならば、&#xA;モモが先陣を切るというのはどうじゃ？" speaker_show="True" stop="True" voice="ss12003_02_0101" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="わ、私がですか……？&#xA;ちょっと緊張するけど……、頑張ります！" speaker_show="True" stop="True" voice="mm11001_02_0066" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="よし、そうと決まれば早速、&#xA;凪の部隊、進発！" speaker_show="True" stop="True" voice="ss12003_02_0102" />
+    <msg_window_show show="False" />
+    <sound_volume cue_name="Adv1" volume="0" time="0.5" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" file="22_plant_01" wait="False" effect="Immediately" effect_time="0.3" resource_type="Background" color="#ffffffff" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM16_Quest4" />
+    <sound type="Bgm" cue_name="Quest4" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="ここが件の工場か。百地、&#xA;裏口の解錠を任せたい。行けるか？" speaker_show="True" stop="True" voice="ss12003_02_0103" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="こちら百地、了解です！&#xA;直ちに解除……ん？" speaker_show="True" stop="True" voice="mm11001_02_0067" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="百地、どうしたの？" speaker_show="True" stop="True" voice="th12004_02_0059" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="大丈夫です。無事解除できました。" speaker_show="True" stop="True" voice="mm11001_02_0068" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="了解。では引き続き、敷地内のセキュリティを突破し&#xA;設計図のある研究室へと向かってちょうだい。" speaker_show="True" stop="True" voice="th12004_02_0060" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="了解です！" speaker_show="True" stop="True" voice="mm11001_02_0069" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="源 モモ" />
+    <fade_in time="1" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ミッション完了！&#xA;設計図も無事、持ち帰ることができました。" speaker_show="True" stop="True" voice="mm11001_02_0070" />
+    <msg_window_show show="False" />
+    <sound_volume cue_name="Quest4" volume="0" time="0.5" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" file="35_dorm_01" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="ふむ、ご苦労だったな。&#xA;それでモモ、初めての任務はどうだった？" speaker_show="True" stop="True" voice="ty12005_02_0042" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="うーん、案外楽勝でした。中のセキュリティも&#xA;最新のモデルでしたけど、前に別のミッションで……" speaker_show="True" stop="True" voice="mm11001_02_0071" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="……はっ！　なるほど、そういう事か。" speaker_show="True" stop="True" voice="mm11001_02_0072" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="あの、これってもしや、新しい部隊員が入ってきた&#xA;時用のテストだったんじゃないでしょうか？" speaker_show="True" stop="True" voice="mm11001_02_0073" />
+    <delete obj_id="津守 ヨモギ" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="なんと！&#xA;モモ、一体いつから気づいていたのじゃ？" speaker_show="True" stop="True" voice="ss12003_02_0104" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="やっぱり。最初の施錠が、工場の規模にしては&#xA;余りにも厳重だったのが気になって……。" speaker_show="True" stop="True" voice="mm11001_02_0074" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="はー。恐ろしい子。&#xA;最初の時点で見破っていたとはねー。" speaker_show="True" stop="True" voice="th12004_02_0061" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="いえ、まだその時は未確定でした。けど、その後の&#xA;セキュリティ装置も、高級メーカーの物でしたし。" speaker_show="True" stop="True" voice="mm11001_02_0075" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="そうじゃったか。&#xA;モモよ、試すような真似をして悪かった。" speaker_show="True" stop="True" voice="ss12003_02_0105" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="やるじゃねーか、モモ公！&#xA;んなところで見破れるなんて大したモンだぜ。" speaker_show="True" stop="True" voice="ry12002_02_0054" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="凪の部隊にようこそじゃ。&#xA;しぶき達はお前を歓迎する。" speaker_show="True" stop="True" voice="ss12003_02_0106" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="ありがとうございます！&#xA;短い期間ですが、よろしくお願いします！" speaker_show="True" stop="True" voice="mm11001_02_0076" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

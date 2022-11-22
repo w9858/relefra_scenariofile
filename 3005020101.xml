@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005020101" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="雪先輩、全員集合しました。" speaker_show="True" stop="True" voice="ig11006_02_0051" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="あら、今日は弟子の２人にしか声をかけて&#xA;いなかったはずだけど。" speaker_show="True" stop="True" voice="hy11002_02_0152" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="いきなり弟子だけ集合なんて聞いたら気になって&#xA;来ちゃうのが師匠ってモンでしょ。" speaker_show="True" stop="True" voice="ym11003_02_0110" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="それで、どうしてアタシ達を呼び出したんですか？" speaker_show="True" stop="True" voice="sf11004_02_0032" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="宗近がツキカゲにいるうちに、２人に是非&#xA;経験してもらいたい訓練を思いついたの。" speaker_show="True" stop="True" voice="hy11002_02_0153" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="飛粋ちゃんとの訓練。&#xA;と言いますと？" speaker_show="True" stop="True" voice="ah11005_02_0211" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="彼女の身体能力やコピー能力が凄いことは皆も&#xA;既に知っているでしょう？" speaker_show="True" stop="True" voice="hy11002_02_0154" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうですね。さすがのアタシも驚きました。" speaker_show="True" stop="True" voice="sf11004_02_0033" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="けど、宗近の特技はそれだけじゃないのよ。" speaker_show="True" stop="True" voice="hy11002_02_0155" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="相手に距離感をはからせずに近づく能力もまた、&#xA;ずば抜けたものがあるのよね。" speaker_show="True" stop="True" voice="hy11002_02_0156" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="信みたいな人に気づかれにくい能力って事？" speaker_show="True" stop="True" voice="ks11010_02_0071" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="近い所はあります。&#xA;けど、使える場面は真逆だと思うんです。" speaker_show="True" stop="True" voice="hy11002_02_0157" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="先輩の場合は潜入に向いていて、宗近の場合は&#xA;奇襲に向いているタイプだと考えます。" speaker_show="True" stop="True" voice="hy11002_02_0158" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="なるほど。確かにヒッスーは突然近くにいるって事が&#xA;多いから、奇襲向きかもね。" speaker_show="True" stop="True" voice="ym11003_02_0111" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="信さんの特技を一番よく知ってるメイちゃんが&#xA;言うんだから、間違いなさそうだね。" speaker_show="True" stop="True" voice="ig11006_02_0052" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="それで、今日はどんな訓練をするんですか？" speaker_show="True" stop="True" voice="mh12001_02_0120" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" force_end="False" loop="False" mixing="True" />
+    <msg speaker="半蔵門 雪" text="ルールはいたってシンプルよ。まず宗近には、&#xA;ピコピコハンマーを持って隠れてもらう。" speaker_show="True" stop="True" voice="hy11002_02_0159" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="そして楓と五恵は、どこから来るかわからない&#xA;宗近の攻撃を盾で防ぐ。" speaker_show="True" stop="True" voice="hy11002_02_0160" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="防御できれば成功、叩かれてしまったら、&#xA;失格というルールですね。" speaker_show="True" stop="True" voice="ah11005_02_0212" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="わー、そんな素敵な大役任されちゃうなんて、&#xA;光栄です！　私、頑張ります！" speaker_show="True" stop="True" voice="mh12001_02_0121" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="へー。面白そうだし、信も参加したい！" speaker_show="True" stop="True" voice="ks11010_02_0072" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="私も混ぜろ！&#xA;絶対に優勝してやるぞ！" speaker_show="True" stop="True" voice="bk11008_02_0029" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="ならば私も。" speaker_show="True" stop="True" voice="tr11007_02_0100" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="人数は多い方が白熱しそうだし、大歓迎よ。&#xA;では、早速訓練開始するわよ！" speaker_show="True" stop="True" voice="hy11002_02_0161" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

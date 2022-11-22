@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3022000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="62_AutumnMountainev_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop in_time="0.5" show_time="0.5" out_time="0.5" wait="True" text="山中" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003017" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="や、やっと師匠に追い付いた……。" speaker_show="True" stop="True" voice="sf11004_03_0138" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="急いで山頂に向かわないと……&#xA;人気のソフトクリーム、もう売り切れてるかも……。" speaker_show="True" stop="True" voice="sf11004_03_0139" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あははっ。まあまあ、&#xA;少しくらい計画が変わるのは仕方ないっしょ！" speaker_show="True" stop="True" voice="ym11003_03_0126" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="むぅ～……。" speaker_show="True" stop="True" voice="sf11004_03_0140" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="byako01" effect_type="MampSmile" target_obj="白虎" />
+    <msg speaker="白虎" text="それにしても、たくさん栗が落ちてるな！&#xA;これだけあれば毎日栗ご飯が食べられるぞ！" speaker_show="True" stop="True" voice="bk11008_03_0072" />
+    <delete obj_id="byako01" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="毎日はどうなんだ。" speaker_show="True" stop="True" voice="tr11007_03_0038" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ふふーん。白虎、&#xA;メイと栗拾い競争でもするかね？" speaker_show="True" stop="True" voice="ym11003_03_0127" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="お、受けて立とう！" speaker_show="True" stop="True" voice="bk11008_03_0073" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="020_Facial_thinking" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あぁ、また脱線しようとしてる……！" speaker_show="True" stop="True" voice="sf11004_03_0141" />
+    <sound cue_name="walking_on_leaves1" type="Se" />
+    <wait time="1" />
+    <sound_stop cue_name="walking_on_leaves1" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ん……？　今、茂みから&#xA;何か音が聞こえたような。" speaker_show="True" stop="True" voice="mm11001_03_0118" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="あ、見てください、あれ！&#xA;イノシシの子供！" speaker_show="True" stop="True" voice="ah11005_03_0127" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ウリ坊ってやつかぁ。可愛いね～。" speaker_show="True" stop="True" voice="ym11003_03_0128" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="イノシシも栗は大好物ですからねぇ。&#xA;秋の香りに誘われて来たのかも知れません。" speaker_show="True" stop="True" voice="ah11005_03_0128" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="こ、これは私のだ。やらんぞ！" speaker_show="True" stop="True" voice="bk11008_03_0074" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="少しやれよ。" speaker_show="True" stop="True" voice="tr11007_03_0039" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="皆――気を緩めないで。" speaker_show="True" stop="True" voice="hy11002_03_0090" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="どうしました、師匠？" speaker_show="True" stop="True" voice="mm11001_03_0119" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="イノシシの子供がいるということは……&#xA;近くには、親もいるわ。" speaker_show="True" stop="True" voice="hy11002_03_0091" />
+    <wait time="0.5" />
+    <sound cue_name="walking_on_leaves1" type="Se" />
+    <wait time="2" />
+    <sound_stop cue_name="walking_on_leaves1" />
+    <wait time="0.2" />
+    <sound cue_name="Clash" />
+    <wait time="0.5" />
+    <create_effect effect_id="momo01" effect_type="MampExclamation" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="わぁっ!?&#xA;茂みの奥から、イノシシが出てきました！" speaker_show="True" stop="True" voice="mm11001_03_0120" />
+    <delete obj_id="源 モモ" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="普通のものより何倍も大きい。&#xA;抑えるのには、ちょっと手を焼きそうね。" speaker_show="True" stop="True" voice="hy11002_03_0092" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="私達目掛けて突進して来ます！" speaker_show="True" stop="True" voice="mm11001_03_0121" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004018" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠、&#xA;ここはひとまず逃げましょう！" speaker_show="True" stop="True" voice="sf11004_03_0142" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

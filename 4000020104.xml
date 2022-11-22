@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000020104" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="35_dorm_01" />
+    <fade_in time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="ある日の夕食後。" stop="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="あー、食った食った。&#xA;しっかし、すんげーボリュームだったぜ。" speaker_show="True" stop="True" voice="ry12002_01_0180" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="ま、腹八分目ってところかのう。" speaker_show="True" stop="True" voice="ss12003_01_0197" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <create_effect effect_id="yura_Sweat" effect_type="MampSweat" life_time="1" target_obj="乱獅子 ゆら" />
+    <msg speaker="乱獅子 ゆら" text="げっ、アタシ様の３倍は食ったのにか？&#xA;マジで化け物だな。" speaker_show="True" stop="True" voice="ry12002_01_0181" />
+    <delete obj_id="yura_Sweat" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="それで、その…&#xA;隊長、お味の方はどうでしたか？" speaker_show="True" stop="True" voice="mh12001_01_0267" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="そうじゃな。なかなかイイ線は行っておったが、&#xA;はっすーに比べると、やや大味だったかもしれんのう。" speaker_show="True" stop="True" voice="ss12003_01_0198" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="そうか？　アタシ様は十分旨かったと思うけどな。" speaker_show="True" stop="True" voice="ry12002_01_0182" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="ありがとう、ゆらちゃん。" speaker_show="True" stop="True" voice="mh12001_01_0268" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="でも…うーん、何が違うんだろう？　葉栖美さんに&#xA;教えてもらった通りに作ったんだけどな。" speaker_show="True" stop="True" voice="mh12001_01_0269" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="こればっかりは経験かな。微妙な塩加減とか火の通し&#xA;具合とか、感覚で掴まないと難しいからね。" speaker_show="True" stop="True" voice="th12004_01_0134" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="でも大丈夫、筋の良さはアタシが保証するよ。&#xA;また今度教えてあげるからさ。" speaker_show="True" stop="True" voice="th12004_01_0135" />
+    <move obj_id="轟 葉栖美" position_id="left" x="125" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="はい！　よろしくお願いします！" speaker_show="True" stop="True" voice="mh12001_01_0270" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="…さて、それじゃあ飛粋。&#xA;そろそろ行くか。" speaker_show="True" stop="True" voice="ss12003_01_0199" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="んあ？　メシ食ったばっかなのに、&#xA;２人ともどっか行くのか？" speaker_show="True" stop="True" voice="ry12002_01_0183" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="囚人さんたちの部屋が汚れてるから、&#xA;お掃除に行くんだよ。" speaker_show="True" stop="True" voice="mh12001_01_0271" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="スーパーしぶき棒があれば、細かい隙間もなんのその。&#xA;その使い方を伝授する約束でな。" speaker_show="True" stop="True" voice="ss12003_01_0200" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="スーパーしぶき棒って…&#xA;大丈夫かよ、そのネーミング。" speaker_show="True" stop="True" voice="ry12002_01_0184" />
+    <delete obj_id="薩摩 しぶき" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="125" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-125" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="てか、飛粋はなんでそんなに貪欲なんだ？　さすがに&#xA;料理とか掃除までマスターしなくってもよ…。" speaker_show="True" stop="True" voice="ry12002_01_0185" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="ううん、そういうわけには行かないよ。&#xA;だって私、何にもできないから。" speaker_show="True" stop="True" voice="mh12001_01_0272" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="いやいや、十分できてるだろ？&#xA;これ以上ないくらい、なんでもすげー器用によ？" speaker_show="True" stop="True" voice="ry12002_01_0186" />
+    <char_spine_animation obj_id="宗近 飛粋" loop="True" to_idle="False" face_anim_type="005_Facial_sad" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="うん、器用ってのはそうかもなんだけど…&#xA;でもやっぱり、中途半端ではあると思うんだよね。" speaker_show="True" stop="True" voice="mh12001_01_0273" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" face_anim_type="015_Facial_poker" />
+    <msg speaker="宗近 飛粋" text="技を真似ることができても、私はゆらちゃんのような&#xA;すごい突破力があるわけじゃないし――" speaker_show="True" stop="True" voice="mh12001_01_0274" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="宗近 飛粋" loop="True" to_idle="False" face_anim_type="005_Facial_sad" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="何かあった時のサポートは葉栖美さんに頼ってばかり&#xA;だし、判断力も隊長には敵わないしね。" speaker_show="True" stop="True" voice="mh12001_01_0275" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="だから私、どんなことでも頑張ろうって決めてるんだ。&#xA;それが今の私にできる、唯一のことだから。" speaker_show="True" stop="True" voice="mh12001_01_0276" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="どんなことでも頑張る、か…はぁ、こりゃ放っとくと&#xA;ますます手が付けられなくなりそーだぜ。" speaker_show="True" stop="True" voice="ry12002_01_0187" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="ああ。この調子でオールラウンダーを極めてくれれば、&#xA;飛粋は立派な凪のエースになりそうじゃな。" speaker_show="True" stop="True" voice="ss12003_01_0201" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="同感。けど、飛粋ちゃんがどんなに強くなろうと、&#xA;得意分野で譲るつもりはないけどね。" speaker_show="True" stop="True" voice="th12004_01_0136" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="おう、アタシ様だって。" speaker_show="True" stop="True" voice="ry12002_01_0188" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="（ふっ…やはり飛粋を今のままにしといて、&#xA;大正解だったようじゃのう）" speaker_show="True" stop="True" voice="ss12003_01_0202" lip_sync="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="（凪全体の、能力の底上げにもなりそうじゃ）" speaker_show="True" stop="True" voice="ss12003_01_0203" lip_sync="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="ん？　しぶきち、なんで笑ってるの？" speaker_show="True" stop="True" voice="th12004_01_0137" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="なに、しぶきも負けないようにせねばと思ってのう。" speaker_show="True" stop="True" voice="ss12003_01_0204" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="さてと、ではそろそろ掃除にでも…む？" speaker_show="True" stop="True" voice="ss12003_01_0205" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】スマホの呼び出し音" />
+    <sound type="Se" cue_name="IncomingMessage" />
+    <wait time="2" />
+    <msg speaker="薩摩 しぶき" text="緊急連絡か…ほう、またぞろ世間を騒がす悪が、&#xA;動き出したようだのう。" speaker_show="True" stop="True" voice="ss12003_01_0206" />
+    <move obj_id="轟 葉栖美" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="てことは、凪の部隊出動ですね！&#xA;よーし、任務は任務で頑張らなきゃ！" speaker_show="True" stop="True" voice="mh12001_01_0277" />
+  </command>
+</adv>

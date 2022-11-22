@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3021010602" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="68_casino_01" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop in_time="0.5" show_time="0.5" out_time="0.5" wait="True" text="カジノ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006019" position_id="left" x="-200" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004011" position_id="left" x="200" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="轟 葉栖美" text="お待たせしました。&#xA;お客様のチップでございます。" speaker_show="True" stop="True" voice="th12004_03_0064" />
+    <sound type="Se" cue_name="jyuwaki" />
+    <wait time="1" />
+    <msg speaker="恰幅の良い紳士" text="よしよし。では、手始めに&#xA;500＄くらいからいくかな……。" speaker_show="True" stop="True" voice="99024_03_0003" />
+    <msg speaker="白髪まじりの老紳士" text="いやいや、グリュッグを出されてはこちらも&#xA;5000＄程度は出さねば男がすたる。" speaker_show="True" stop="True" voice="99027_03_0002" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" />
+    <msg speaker="石川 五恵" text="(えっ!?)" speaker_show="True" stop="True" voice="ig11006_03_0100" lip_sync="False" />
+    <msg speaker="ドレスの御婦人" text="それもそうね。美味しい物を頂きっぱなしと&#xA;いうのも悪いし、わたくしも5000スタートで。" speaker_show="True" stop="True" voice="99025_03_0003" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" />
+    <msg speaker="石川 五恵" text="(ええっ!?)" speaker_show="True" stop="True" voice="ig11006_03_0101" lip_sync="False" />
+    <msg speaker="宝石の御婦人" text="じゃあ私もそれに乗っかって5000から。" speaker_show="True" stop="True" voice="99026_03_0003" />
+    <msg speaker="恰幅の良い紳士" text="おお、ならばワシもケチケチしておられん。&#xA;皆さんと同じ5000で始めようじゃないか。" speaker_show="True" stop="True" voice="99024_03_0004" />
+    <msg speaker="オールバックの紳士" text="ハッハッハ、奇しくも同額での勝負と&#xA;相成りますな。無論、私も5000＄で。" speaker_show="True" stop="True" voice="99028_03_0001" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" />
+    <msg speaker="石川 五恵" text="(ぇぇええ……この人達の金銭感覚どうなってるの？&#xA;缶ジュースでも買うみたいに50万円をポンて……。)" speaker_show="True" stop="True" voice="ig11006_03_0102" lip_sync="False" />
+    <msg speaker="厚化粧の御婦人" text="あら、そちら初めて見るお顔ね。&#xA;今日のディーラーは、このお嬢さんなの？" speaker_show="True" stop="True" voice="99029_03_0001" />
+    <msg speaker="ディーラーの男" text="はい、今日入店したばかりの新人です。&#xA;腕は確かですので、どうぞお見知り置きを。" speaker_show="True" stop="True" voice="99017_03_0018" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="石川 五恵" text="本日、ルーレットのディーラーを務めます。&#xA;石……ストンリバーと申します。" speaker_show="True" stop="True" voice="ig11006_03_0103" />
+    <msg speaker="白髪まじりの老紳士" text="随分お若いようだが、大丈夫なのかね？" speaker_show="True" stop="True" voice="99027_03_0003" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="石川 五恵" text="ベガスで２年、マカオでは３年間&#xA;修行を積んで参りましたので御安心を。" speaker_show="True" stop="True" voice="ig11006_03_0104" />
+    <msg speaker="宝石の御婦人" text="まあ！　凄いじゃないの。&#xA;本場で勉強されたのね！" speaker_show="True" stop="True" voice="99026_03_0004" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" />
+    <msg speaker="石川 五恵" text="(とは言ったものの……まだ半分も&#xA;数字の配列が頭に入ってない……。)" speaker_show="True" stop="True" voice="ig11006_03_0105" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="False" obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="005_Facial_sad" />
+    <msg speaker="石川 五恵" text="(このまま始めたら、思うようにペースが&#xA;作れなくなって失敗しちゃうかも……。)" speaker_show="True" stop="True" voice="ig11006_03_0106" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="轟 葉栖美" text="……………………お客様ぁ！　ゲームの前に&#xA;験担ぎのおまじないはいかがですか！" speaker_show="True" stop="True" voice="th12004_03_0065" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" />
+    <msg speaker="石川 五恵" text="え……はす、ハスラーさん？" speaker_show="True" stop="True" voice="ig11006_03_0107" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" />
+    <msg speaker="轟 葉栖美" text="お手持ちのチップを１枚額にあてて&#xA;目を閉じ、御自分の運気を注ぎ込むんです♪" speaker_show="True" stop="True" voice="th12004_03_0066" />
+    <msg speaker="厚化粧の御婦人" text="ウフフッ、あたくしこういうスピリチュアルな&#xA;事が大好きなの。当たれ～、当たれ～♪" speaker_show="True" stop="True" voice="99029_03_0002" />
+    <msg speaker="オールバックの紳士" text="経営も良い占い師に頼ることがあるし&#xA;やってみるか。当たれ～、当たれ～い♪" speaker_show="True" stop="True" voice="99028_03_0002" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="石川 五恵" text="(み、みんなで目を閉じてお祈りを&#xA;始めちゃったけど……これって？)" speaker_show="True" stop="True" voice="ig11006_03_0108" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="False" obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" />
+    <msg speaker="轟 葉栖美" text="…………………………。" speaker_show="True" stop="True" voice="th12004_03_0067" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="石川 五恵" text="(あ……葉栖美さん。そ、そうか私のために。&#xA;緊張してる場合じゃない。ピリッとするよ！)" speaker_show="True" stop="True" voice="ig11006_03_0109" lip_sync="False" />
+    <char_spine_eye obj_id="石川 五恵" type="Eye02_spyce" loop="True" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="石川 五恵" text="(スパイスのおかげで神経が研ぎ澄まされて&#xA;数字の配列がどんどん記憶されていく！)" speaker_show="True" stop="True" voice="ig11006_03_0110" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="石川 五恵" text="(ヨーロピアンスタイルのルーレット&#xA;26、3、35、12、28、7………覚えた！)" speaker_show="True" stop="True" voice="ig11006_03_0111" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="石川 五恵" text="さあ、勝負を始めましょう。" speaker_show="True" stop="True" voice="ig11006_03_0112" />
+    <char_spine_animation force_end="False" loop="False" obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="20_PositiveDouble" />
+    <char_spine_animation force_end="False" loop="True" obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" />
+    <msg speaker="轟 葉栖美" text="(よしっ、緊張が解れたみたいだね。&#xA;いったれ～、ＧＯＧＯ五恵ちゃん！)" speaker_show="True" stop="True" voice="th12004_03_0068" lip_sync="False" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

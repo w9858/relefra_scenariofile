@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3004000002" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="29_hanamipark_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="お花見会場" in_time="1" show_time="1" out_time="1" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007003" position_id="left" x="200" />
+    <create obj_id="テレジア" data_id="311008005" position_id="left" x="-200" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="うわー、見てみろテレ公！&#xA;地面も空もピンク色ですっごいぞ！" speaker_show="True" stop="True" voice="bk11008_01_0102" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="ああ。確かに凄い……。&#xA;これが桜の花というものか……。" speaker_show="True" stop="True" voice="tr11007_01_0120" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="それにしても凄い賑わいだ。&#xA;皆が弁当を食べながら花を見ている。" speaker_show="True" stop="True" voice="tr11007_01_0121" />
+    <char_spine_animation obj_id="白虎" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="08_MouthBothHands" loop="True" />
+    <move obj_id="白虎" x="1500" time="6" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="白虎、合流する前に、&#xA;はぐれたりしないように……" speaker_show="True" stop="True" voice="tr11007_01_0122" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="テレジア" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <move obj_id="白虎" position_id="left" x="450" x_move_type="MoveTo" time="1.0" wait="True" />
+    <move obj_id="白虎" position_id="left" x="-450" x_move_type="MoveTo" time="1.0" wait="True" />
+    <wait time="0.3" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" time="0.8" wait="True" />
+    <msg speaker="白虎" text="おっ、ここのグループの弁当は豪華で、&#xA;うまそうだな！" speaker_show="True" stop="True" voice="bk11008_01_0103" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="みんな酒と桜に夢中で見てないようだし、&#xA;白虎様がちょっと味見してやろう……。" speaker_show="True" stop="True" voice="bk11008_01_0104" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create obj_id="テレジア" data_id="311008005" position_id="left" x="200" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="待て、白虎！" speaker_show="True" stop="True" voice="tr11007_01_0124" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="おう、テレ公！　お前も食うか？" speaker_show="True" stop="True" voice="bk11008_01_0105" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="テレジア" text="いや、私は遠慮しておく。初芽たちがご馳走を&#xA;準備して待っていると言っていた。" speaker_show="True" stop="True" voice="tr11007_01_0125" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="そうだったな。&#xA;けど、あいつらどこにいるんだよ。" speaker_show="True" stop="True" voice="bk11008_01_0106" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="指定された場所は、&#xA;恐らくこのあたりのはずなのだが。" speaker_show="True" stop="True" voice="tr11007_01_0126" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ご馳走の匂いが色々しすぎて、&#xA;白虎様の嗅覚でも見つけられないぞ！" speaker_show="True" stop="True" voice="bk11008_01_0107" />
+    <msg_window_show show="False" />
+    <wait time="0.5" />
+    <Comment comment="SEどんとぶつかる音" />
+    <sound type="Se" cue_name="Clash" />
+    <shake target="Character" obj_id="白虎" x="5" vibrate="20" time="0.2" wait="True" />
+    <char_spine_animation obj_id="白虎" body_anim_type="16_BendBackward" face_anim_type="011_Facial_surprise" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="うわー！　テレ公！&#xA;お前いきなりぶつかるやつがあるか！" speaker_show="True" stop="True" voice="bk11008_01_0108" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="テレジア" text="いや、それは私ではない……" speaker_show="True" stop="True" voice="tr11007_01_0127" />
+    <msg speaker="子供" text="うわぁぁぁん！" speaker_show="True" stop="True" voice="99043_01_0001" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="何だ、子供か。&#xA;白虎様に体当たりとはいい根性だな。" speaker_show="True" stop="True" voice="bk11008_01_0109" />
+    <msg speaker="子供" text="うわぁぁぁん！　うわぁぁぁん！" speaker_show="True" stop="True" voice="99043_01_0002" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="白虎、通りすがりの子供を泣かすのはさすがに……。" speaker_show="True" stop="True" voice="tr11007_01_0128" />
+    <char_spine_animation obj_id="白虎" loop="True" to_idle="False" face_anim_type="015_Facial_poker" />
+    <char_spine_animation obj_id="白虎" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="ちっ、違うぞ！&#xA;私が泣かしたんじゃないからな！" speaker_show="True" stop="True" voice="bk11008_01_0110" />
+    <msg speaker="子供" text="うわぁぁぁん！　うわぁぁぁん！" speaker_show="True" stop="True" voice="99043_01_0003" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="こ、こら、泣きやめ、子供！&#xA;白虎様が泣かせたと思われるじゃないか！" speaker_show="True" stop="True" voice="bk11008_01_0111" />
+    <msg speaker="子供" text="うわぁぁぁん！　おかーさーん！&#xA;うわぁぁぁん！　おとーさーん！　どこー？" speaker_show="True" stop="True" voice="99043_01_0004" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="ん？&#xA;この子供、もしや迷子ではないか？" speaker_show="True" stop="True" voice="tr11007_01_0129" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="迷子？　お前、そうなのか？" speaker_show="True" stop="True" voice="bk11008_01_0112" />
+    <msg speaker="子供" text="うわぁぁぁん！　おかーさーん！" speaker_show="True" stop="True" voice="99043_01_0005" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="白虎" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="くっ……会話が成立してない。" speaker_show="True" stop="True" voice="bk11008_01_0113" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="親とはぐれて気が動転しているのだろう。&#xA;ついでだ、この子の親を探してあげよう。" speaker_show="True" stop="True" voice="tr11007_01_0130" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="なんで私がそんなことを……。" speaker_show="True" stop="True" voice="bk11008_01_0114" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="このままだと、周りは白虎が&#xA;泣かせたと思うだろう。" speaker_show="True" stop="True" voice="tr11007_01_0131" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="仕方ないな。やい、迷子！&#xA;白虎様が一緒に探してやるからついてこい！" speaker_show="True" stop="True" voice="bk11008_01_0115" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

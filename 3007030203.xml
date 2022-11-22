@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030203" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="03_tsukikage_007" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="東郷さんのアイデアは特殊すぎて……&#xA;実装には多くの困難がありそうです。" speaker_show="True" stop="True" voice="ah11005_01_0480" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="どのような事でしょう？" speaker_show="True" stop="True" voice="tm96002_01_0068" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="永続的に特殊パルスを発信するとなると&#xA;まずは、大型バッテリーが必要なのですが……" speaker_show="True" stop="True" voice="ah11005_01_0481" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="サイズ・重量ともに、それはとても&#xA;スマホの中に収められる物ではありません。" speaker_show="True" stop="True" voice="ah11005_01_0482" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="友奈ちゃんのためなら&#xA;どんな大型電源でも、背負ってみせます！" speaker_show="True" stop="True" voice="tm96002_01_0069" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="友奈のスマホの電源なら、友奈が持たないと&#xA;意味ないんじゃないの？" speaker_show="True" stop="True" voice="sf11004_01_0569" />
+    <move obj_id="相模 楓" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="あ……。いいえ！　ならば、私が電源となり&#xA;友奈ちゃんに線で電気を供給します！" speaker_show="True" stop="True" voice="tm96002_01_0070" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="意味ワカランわ！　第一それ、もう……&#xA;友奈のためじゃないでしょうが……。" speaker_show="True" stop="True" voice="if96003_01_0049" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="単に、自分の欲望のためじゃないのよ！" speaker_show="True" stop="True" voice="mk96005_01_0037" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006003" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="乃木 園子" text="解ってないねぇ、２人とも～。&#xA;欲望こそが急激な発展を生む糧なんよ～。" speaker_show="True" stop="True" voice="ns96006_01_0039" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="園子ちゃんの言う通りだわ。初芽ちゃんは&#xA;実装が困難すぎて開発を断念する。" speaker_show="True" stop="True" voice="kt11009_01_0323" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="でも、東郷さんなら、恐らく諦めず開発を&#xA;し続け、いつか小型化も可能にするでしょう。" speaker_show="True" stop="True" voice="kt11009_01_0324" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="これが、欲望を持たない人間と&#xA;マッドな欲望を持つ人間の違いなのよ。" speaker_show="True" stop="True" voice="kt11009_01_0325" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="う…っ！　そ、それは……確かに。&#xA;私にはとてもそこまでのマッドな執着心は……。" speaker_show="True" stop="True" voice="ah11005_01_0483" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="し、しっかりしてください、師匠。&#xA;そもそも、例えばの話ですから！" speaker_show="True" stop="True" voice="ig11006_01_0464" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="そ、そうですよ！　そんな洗脳パルスが&#xA;実際に存在するわけが……" speaker_show="True" stop="True" voice="mm11001_01_0805" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="それが……まだ試験段階ですが、それらしき物は&#xA;現在でも研究されているんですよ……。" speaker_show="True" stop="True" voice="ah11005_01_0484" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="三好 夏凜" text="えっ、じゃあもし敵がそれを完成させて&#xA;実装してきたら大変じゃないの！" speaker_show="True" stop="True" voice="mk96005_01_0038" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="005_Facial_sad" body_anim_type="10_FaceBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="ああああ！　友奈ちゃんと私の仲が&#xA;敵の新兵器によって裂かれてしまう!!" speaker_show="True" stop="True" voice="tm96002_01_0071" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="いや……アンタ、その敵と関係ないから。" speaker_show="True" stop="True" voice="if96003_01_0050" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="犬吠埼 風" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="そう……もしシン様がそんなパルスを浴びて&#xA;私に冷たく当たってきたりしたら………クッ！" speaker_show="True" stop="True" voice="kt11009_01_0326" />
+    <msg_window_show show="False" />
+    <wait time="1" />
+    <sound />
+    <Comment comment="【ＳＥ】ゴゴゴゴ……" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <wait time="1" />
+    <move obj_id="カトリーナ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="え、ちょっ……カ、カトリーナさん？" speaker_show="True" stop="True" voice="mm11001_01_0806" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="初芽ちゃん、何をしているの！　今すぐ&#xA;反友情パルスの開発と実装化を進めなさい！" speaker_show="True" stop="True" voice="kt11009_01_0327" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="は……えっ？" speaker_show="True" stop="True" voice="ah11005_01_0485" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="愛を打ち砕く悪の思想を止めるため&#xA;私達ツキカゲが、先手を打つのよ！" speaker_show="True" stop="True" voice="kt11009_01_0328" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <lip_sync target1="青葉 初芽" target2="源 モモ" target3="石川 五恵" />
+    <msg speaker="初芽・五恵・モモ" text="愛!?" speaker_show="True" stop="True" voice="3007030203_01" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="友情です！" speaker_show="True" stop="True" voice="tm96002_01_0072" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <lip_sync target1="相模 楓" />
+    <msg speaker="夏凜・風・楓" text="絶対違う……。" speaker_show="True" stop="True" voice="3007030203_02" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="スパイシーな友情だなぁ……アハハ…ハ。" speaker_show="True" stop="True" voice="mm11001_01_0808" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

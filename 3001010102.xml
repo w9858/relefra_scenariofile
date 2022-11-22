@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3001010102" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="05_momohousemo_02" clor="#ffffffff" resource_type="Background" />
+    <fade_in time="2.0" type="Default" wait="True" />
+    <telop text="源家　キッチン" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006009" position_id="left" x="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="冷蔵庫に入れて30分経ったし、そろそろかな？&#xA;ちょっと様子を見てみるね。" speaker_show="True" stop="True" voice="ig11006_01_0176" />
+    <Comment comment="SE冷蔵庫を開ける音" />
+    <move obj_id="石川 五恵" position_id="left" x="-300" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004009" position_id="left" x="300" />
+    <create type="Character" obj_id="源 モモ" data_id="311001009" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="…ごえちゃん、どんな感じ？" speaker_show="True" stop="True" voice="mm11001_01_0505" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" loop="False" to_idle="True" face_anim_type="002_Facial_smile" force_end="False" />
+    <msg speaker="石川 五恵" text="うん。このくらい固まれば、もう大丈夫だね。" speaker_show="True" stop="True" voice="ig11006_01_0177" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="次は、確か手で形を整えるのよね？" speaker_show="True" stop="True" voice="sf11004_01_0339" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="今はチョコと生クリームを合わせたものを、&#xA;小分けにして冷やしただけだからね。" speaker_show="True" stop="True" voice="ig11006_01_0178" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="普通のチョコよりも柔らかいから、&#xA;トリュフ型にこだわらなくても平気だよ。" speaker_show="True" stop="True" voice="ig11006_01_0179" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="でもその前に、チョコを溶かしちゃわないように、&#xA;手を冷やしておいた方がよさそうね。" speaker_show="True" stop="True" voice="sf11004_01_0340" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" force_end="False" />
+    <msg speaker="源 モモ" text="えへへ。そう思って、３人分の氷水は&#xA;もう用意してあるんだー。" speaker_show="True" stop="True" voice="mm11001_01_0506" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="へー、モモちにしては気が利くわね。" speaker_show="True" stop="True" voice="sf11004_01_0341" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ふふ。じゃあ、さっそく始めよっか。チョコに水気は&#xA;厳禁だから、手をちゃんと拭かなきゃダメだよ？" speaker_show="True" stop="True" voice="ig11006_01_0180" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <lip_sync target1="相模 楓" target2="源 モモ" />
+    <msg speaker="モモ・楓" text="はーい。&#xA;わかったわ。" speaker_show="True" stop="True" voice="3001010102_union_001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="よーし。まずは氷水に手を入れてっと……" speaker_show="True" stop="True" voice="mm11001_01_0508" />
+    <Comment comment="SE氷水に手を入れた水音" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ひゃー、冷たー！&#xA;でも、師匠のためにガマンガマン！" speaker_show="True" stop="True" voice="mm11001_01_0509" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（あ、そうだ。今の内にチョコの形を&#xA;決めとかなくっちゃ）" speaker_show="True" stop="True" voice="mm11001_01_0510" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（でも、どんな形にすれば、&#xA;師匠に喜んでもらえるのかなぁ…？）" speaker_show="True" stop="True" voice="mm11001_01_0511" lip_sync="False" />
+    <create_effect effect_id="light" effect_type="MampLight" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="07_ChestBothHands" force_end="False" loop="True" face_anim_type="002_Facial_smile" />
+    <msg speaker="源 モモ" text="（あ、師匠の趣味は工場見学だから、&#xA;チョコで工場の形を再現してみるとか…？）" speaker_show="True" stop="True" voice="mm11001_01_0512" lip_sync="False" />
+    <delete obj_id="light" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="（て、そんなの私には無理そうだしなぁ…）" speaker_show="True" stop="True" voice="mm11001_01_0513" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="（師匠の好きそうな形…師匠の好きそうな形…&#xA;ダメだ、全然思いつかないよぉ…）" speaker_show="True" stop="True" voice="mm11001_01_0514" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="じゃあ、いっそハート型にするとか…。" speaker_show="True" stop="True" voice="mm11001_01_0515" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="（て、さすがに師匠にハート型は渡せないよ～！&#xA;も～私ってば、告白するわけじゃないんだから～！）" speaker_show="True" stop="True" voice="mm11001_01_0516" lip_sync="False" />
+    <create type="Character" obj_id="相模 楓" data_id="311004009" position_id="left" x="300" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006009" position_id="left" x="-300" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ちょっとモモち、アンタいつまでそうしてるの？&#xA;アタシとごえっちは、もう終わったわよ？" speaker_show="True" stop="True" voice="sf11004_01_0343" />
+    <create_effect effect_id="excalmation" effect_type="MampExclamation" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ええ！？　いつの間に!?&#xA;…あ、本当だ!?" speaker_show="True" stop="True" voice="mm11001_01_0517" />
+    <delete obj_id="excalmation" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ごめんね、２人とも！&#xA;すぐ、私も形を整えるから！" speaker_show="True" stop="True" voice="mm11001_01_0518" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004009" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001009" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006009" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="仕上げにチョコでコーティングして、ココアパウダーを&#xA;表面にまぶせば…ふぅ、これで完成ね。" speaker_show="True" stop="True" voice="sf11004_01_0344" />
+    <char_spine_animation obj_id="源 モモ" loop="False" to_idle="True" body_anim_type="14_Positive" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" loop="True" to_idle="True" force_end="False" face_anim_type="005_Facial_sad" />
+    <msg speaker="源 モモ" text="う、うん…そう、だね…。" speaker_show="True" stop="True" voice="mm11001_01_0519" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あれ？　どうしたの、モモち？" speaker_show="True" stop="True" voice="ig11006_01_0181" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そう言えば、モモちのチョコ…&#xA;ずいぶん形がベチャッとしてるわね？" speaker_show="True" stop="True" voice="sf11004_01_0345" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="それが…さっき形を整えた時、&#xA;うっかり手を拭くのを忘れちゃってて…。" speaker_show="True" stop="True" voice="mm11001_01_0520" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="でも、味は大丈夫なはずだから！&#xA;試しに１個食べてみるね！" speaker_show="True" stop="True" voice="mm11001_01_0521" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ぱく…うぅ、グニュグニュしてて、&#xA;美味しくないよぉ…。" speaker_show="True" stop="True" voice="mm11001_01_0522" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="まったくもう…ごえっち、これってさ、&#xA;冷やせば何とかなったりしない？" speaker_show="True" stop="True" voice="sf11004_01_0346" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="うーん…水がついたとなると、難しいかなぁ。" speaker_show="True" stop="True" voice="ig11006_01_0182" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ごめんね、ごえちゃん…&#xA;ちゃんと注意してくれてたのに…。" speaker_show="True" stop="True" voice="mm11001_01_0523" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はぁ…モモちのは、作り直した方が良さそうね。&#xA;材料って、まだ残ってるんだっけ？" speaker_show="True" stop="True" voice="sf11004_01_0347" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="うん。１人分なら問題ないよ。&#xA;それじゃ、３人で協力してやっちゃおっか。" speaker_show="True" stop="True" voice="ig11006_01_0183" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="え…？　３人で…？" speaker_show="True" stop="True" voice="mm11001_01_0524" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="なにキョトンってしてるのよ？&#xA;アタシたちも、手伝うに決まってるじゃない。" speaker_show="True" stop="True" voice="sf11004_01_0348" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_eye obj_id="源 モモ" type="Eye03_tear" loop="True" />
+    <msg speaker="源 モモ" text="うぇぇ～ん！　ありがとう、２人とも～！" speaker_show="True" stop="True" voice="mm11001_01_0525" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あっ、こら！　そんなに引っつかないの！&#xA;いいから、さっさと始めるわよ！" speaker_show="True" stop="True" voice="sf11004_01_0349" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

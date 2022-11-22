@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3001000004" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" file="05_momohousemo_01" />
+    <msg window_type="SystemMsg" text="バレンタイン当日、朝６時。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="相模 楓" data_id="311004009" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create_effect effect_id="manpsleep_fu" effect_type="MampSleep" life_time="60" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="すぅ、すぅ…も～、師匠ぉ…&#xA;もっと大事に食べてくださいよぉ～…すぅ、すぅ。" speaker_show="True" stop="True" voice="sf11004_01_0251" lip_sync_volume="0.03" />
+    <sound cue_name="CutinTransmission" />
+    <Comment comment="//【SE】市内放送のスイッチを入れる音" />
+    <wait time="0.5" />
+    <msg speaker="ショコラちゃん" text="あー、おほん……テステス。&#xA;オッケ～、ちゃんと入ってるみたいね、ウフフ。" speaker_show="True" stop="True" voice="ms98005_01_0010" />
+    <msg speaker="ショコラちゃん" text="空崎市のみなさぁ～ん、おはようございまぁ～す♪" speaker_show="True" stop="True" voice="ms98005_01_0011" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <delete obj_id="manpsleep_fu" />
+    <msg speaker="相模 楓" text="んん…ちょっとモモちぃ、うるさいわよぉ…。" speaker_show="True" stop="True" voice="sf11004_01_0252" />
+    <move obj_id="相模 楓" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ふぁ～あ…フーちゃん、私は何もしてないよぉ…？" speaker_show="True" stop="True" voice="mm11001_01_0458" />
+    <move obj_id="相模 楓" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006009" position_id="left" x="-300" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="あれぇ…？　でも今の声、どっかでぇ…？" speaker_show="True" stop="True" voice="ig11006_01_0139" />
+    <msg speaker="ショコラちゃん" text="あ、そうだったわぁ～ん♪&#xA;自己紹介がまだだったわねぇ～ん♪" speaker_show="True" stop="True" voice="ms98005_01_0012" />
+    <msg speaker="ショコラちゃん" text="あ・た・し、体はガチムチ、心は乙女♪&#xA;ショコラちゃんよぉ～ん♪" speaker_show="True" stop="True" voice="ms98005_01_0013" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <lip_sync target1="相模 楓" target2="源 モモ" target3="石川 五恵" />
+    <msg speaker="五恵・モモ・楓" text="えっ!?" speaker_show="True" stop="True" voice="3001000004_union_001" />
+    <msg speaker="ショコラちゃん" text="ウフフ♪　空崎市のみなさんに朗報よぉ～ん♪" speaker_show="True" stop="True" voice="ms98005_01_0014" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ショコラちゃん" text="空崎市のみなさんには、あたしから特別にぃ～、&#xA;バレンタインのプレゼントをさせてもらったわぁ～ん♪" speaker_show="True" stop="True" voice="ms98005_01_0015" />
+    <msg speaker="ショコラちゃん" text="ウフフ♪　喜んでいただけたら幸いよぉ～ん♪&#xA;それじゃあ、まったねぇ～ん♪" speaker_show="True" stop="True" voice="ms98005_01_0016" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="なによ、今の？　どうなってるの？&#xA;アイツの身柄は警察に引き渡したはずじゃ…？" speaker_show="True" stop="True" voice="sf11004_01_0254" />
+    <sound type="Se" />
+    <Comment comment="//【SE】スマホの着信&#xD;" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あ、師匠から通信だ！&#xA;はい！　こちら百地です！" speaker_show="True" stop="True" voice="mm11001_01_0460" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="百地、今のショコラの放送は聞いた？" speaker_show="True" stop="True" voice="hy11002_01_0327" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="はい、聞きました！　風魔と五右衛門も一緒です！" speaker_show="True" stop="True" voice="mm11001_01_0461" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="そう…状況を手短に説明するわ。&#xA;他の２人もよく聞いて。" speaker_show="True" stop="True" voice="hy11002_01_0328" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="今から１時間前、ショコラが警察の拘置所から脱走。&#xA;同刻、例のチョコが街中で無料配布されたわ。" speaker_show="True" stop="True" voice="hy11002_01_0329" />
+    <msg speaker="半蔵門 雪" text="そのチョコを食べた人たちが正気を失い、暴徒化。&#xA;街は今、大混乱に陥っているわ。" speaker_show="True" stop="True" voice="hy11002_01_0330" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="私たちが寝てる間に、そんなことに…!?" speaker_show="True" stop="True" voice="ig11006_01_0141" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="でも、チョコは警察に押収されたはずですよね？&#xA;それも奪われたってことですか？" speaker_show="True" stop="True" voice="sf11004_01_0255" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="どうやら他の工場でも作らせていたみたいね。" speaker_show="True" stop="True" voice="hy11002_01_0331" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="迂闊だったわ。私たちは、&#xA;薬物の出所ばかりに気を取られていたから…。" speaker_show="True" stop="True" voice="hy11002_01_0332" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="師匠、これだけのことが一度に起こったってことは、&#xA;ひょっとして…？" speaker_show="True" stop="True" voice="mm11001_01_0462" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ええ、組織的な犯行と見て間違いないわ。その証拠に、&#xA;千代女が一味と思しき者にやられて怪我を…。" speaker_show="True" stop="True" voice="hy11002_01_0333" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="え!?　どういうことですか!?" speaker_show="True" stop="True" voice="sf11004_01_0256" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="暴徒化した人たちを傷つけないよう気遣ってる内に&#xA;不覚を…千代女は、しばらく動けそうにないわ。" speaker_show="True" stop="True" voice="hy11002_01_0334" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="そんな…師匠が…。" speaker_show="True" stop="True" voice="sf11004_01_0257" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="私と局で今、暴徒たちの鎮静化を図っている。&#xA;百地、風魔、五右衛門は、ショコラを追って。" speaker_show="True" stop="True" voice="hy11002_01_0335" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="そして、ショコラの裏にいる組織の壊滅も、&#xA;あなたたち３人に任せるわ。" speaker_show="True" stop="True" voice="hy11002_01_0336" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="組織の壊滅も、私たちだけで、ですか…？" speaker_show="True" stop="True" voice="mm11001_01_0463" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="モウリョウとの戦いを思い出しなさい。&#xA;あなたたちは、私たちがいなくても動けるはずよ。" speaker_show="True" stop="True" voice="hy11002_01_0337" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="師匠…！&#xA;はい！　百地、了解です！" speaker_show="True" stop="True" voice="mm11001_01_0464" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="半蔵、横から失礼しますね。&#xA;五右衛門、私もあなたを信じていますからね。" speaker_show="True" stop="True" voice="ah11005_01_0139" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="わかりました、師匠！　任せてください！" speaker_show="True" stop="True" voice="ig11006_01_0142" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="風魔も、行けるわね？" speaker_show="True" stop="True" voice="hy11002_01_0338" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="はい、もちろんです！&#xA;師匠の借りは、弟子のアタシが返します！" speaker_show="True" stop="True" voice="sf11004_01_0258" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="あのガチムチも、組織の連中も、&#xA;このアタシが見つけ出して、絶対にぶっ潰してやる！" speaker_show="True" stop="True" voice="sf11004_01_0259" />
+  </command>
+</adv>

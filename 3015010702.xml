@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3015010702" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="True" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="白虎、カトー、テレジアの水着立ち絵がないので、仮の立ち絵です。" />
+    <Comment comment="背景：海水浴場　仮で入れています。" />
+    <bg show="True" resource_type="Background" file="61_Seasideev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="海水浴場" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="白虎は『うみのいえ　Ｗａｓａｂｉ』と書かれた&#xA;看板を持って、浜辺を歩いていた。" stop="True" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="海の家Ｗａｓａｂｉやってるぞー。&#xA;ご飯に休憩、どしどし利用してくれー。" speaker_show="True" stop="True" voice="bk11008_02_0110" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="白虎" text="料理がすごくうまいんだ！&#xA;ついつい私もおかわりしたくなるくらいだなー。" speaker_show="True" stop="True" voice="bk11008_02_0111" />
+    <delete obj_id="白虎" />
+    <Comment comment="可能であれば端っこに表示とありましたが、違和感が出てしまうので、一人立ちにしました。" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" />
+    <msg speaker="テレジア" text="（あんな看板、いつの間に？）" speaker_show="True" stop="True" voice="tr11007_02_0171" lip_sync="False" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="女性海水浴客Ａ" text="ねぇねぇ、見て見て&#xA;小さい女の子が頑張って呼び込みしてるー。" speaker_show="True" stop="True" voice="99099_02_0001" />
+    <msg speaker="女性海水浴客Ｂ" text="あ、ほんとだ。超可愛い～！&#xA;おうちのお手伝い？　まだ子供なのにえらいねー。" speaker_show="True" stop="True" voice="99100_02_0001" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="この白虎様をそのへんの子供と一緒にするなー！&#xA;私は、海の家Ｗａｓａｂｉを絶賛宣伝中なんだ！" speaker_show="True" stop="True" voice="bk11008_02_0112" />
+    <msg speaker="女性海水浴客Ｂ" text="へー、白虎様って言うんだ。えらいえらい。&#xA;海の家なら、あとで休憩しに行くのもいいかも？" speaker_show="True" stop="True" voice="99100_02_0002" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="ほんとか!?　来てくれるか！" speaker_show="True" stop="True" voice="bk11008_02_0113" />
+    <msg speaker="女性海水浴客Ａ" text="白虎様可愛すぎかよ……ずっと見てたいんですけど。&#xA;あ、行きたいのはほんとだよ。少し涼みたい気分だし。" speaker_show="True" stop="True" voice="99099_02_0002" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="003_Facial_laugh" />
+    <char_spine_animation force_end="False" loop="False" mixing="True" obj_id="白虎" body_anim_type="20_PositiveDouble" />
+    <msg speaker="白虎" text="うんうん、それがいいぞ。&#xA;カキ氷やアイスもあるからな。頼んだぞー。" speaker_show="True" stop="True" voice="bk11008_02_0114" />
+    <msg_window_show show="False" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="いい感じだなー、どんどん行くかー！" speaker_show="True" stop="True" voice="bk11008_02_0115" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="海の家Ｗａｓａｂｉで、浮き輪やパラソルのレンタルも&#xA;やってるぞー。浮き輪は子供用大人用色々あるぞー。" speaker_show="True" stop="True" voice="bk11008_02_0116" />
+    <msg speaker="若い男性Ａ" text="なんかでっかい看板持った女の子が&#xA;店の宣伝やってるみたいだ。" speaker_show="True" stop="True" voice="99101_02_0001" />
+    <msg speaker="若い男性Ｂ" text="うぅ、いい子だなー……俺、頑張ってる子供とか動物に&#xA;弱くてよ……俺浮き輪借りるわ、全部借りるわ！" speaker_show="True" stop="True" voice="99102_02_0001" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="白虎" text="みんな、私の声に足を止めているな！&#xA;さすが白虎様のかんぺきな作戦だ。" speaker_show="True" stop="True" voice="bk11008_02_0117" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="この調子で、もっともーっと人を集めて&#xA;店を客でいっぱいにしてやろう。" speaker_show="True" stop="True" voice="bk11008_02_0118" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="テレジア" text="（心配で見にきてみたが、大丈夫そうだな。&#xA;お客が来る前に店に戻るか。）" speaker_show="True" stop="True" voice="tr11007_02_0172" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition type="Out" wait="True" />
+    <delete obj_id="テレジア" />
+    <transition type="In" wait="True" />
+    <Comment comment="SE:賑わい（ざわざわ）" />
+    <sound type="Se" cue_name="EnvGaya" volume="30" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="白虎" data_id="311007005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="ずいぶんと人が集まってるな。&#xA;これなら店のほうも……。" speaker_show="True" stop="True" voice="bk11008_02_0119" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="……!?&#xA;まさか店のほうに客が全然行ってないんじゃないか！" speaker_show="True" stop="True" voice="bk11008_02_0120" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="白虎" text="まー、この白虎様と一緒にいたい気持ちはわかるぞ。&#xA;でも……あっちだ！　あそこの海の家に行ってくれー！" speaker_show="True" stop="True" voice="bk11008_02_0121" />
+    <msg speaker="女性海水浴客Ａ" text="あ、今度はちっちゃな体で&#xA;看板をぶんぶん振り回してる～！" speaker_show="True" stop="True" voice="99099_02_0003" />
+    <msg speaker="女性海水浴客Ｂ" text="なんかそんな姿も可愛いよね～。" speaker_show="True" stop="True" voice="99100_02_0003" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="あ、さっき話しかけてきた２人組！&#xA;海の家には行ってくれたか？" speaker_show="True" stop="True" voice="bk11008_02_0122" />
+    <msg speaker="女性海水浴客Ａ" text="ううん、まだだよ～。&#xA;白虎様見てるのが楽しくて～" speaker_show="True" stop="True" voice="99099_02_0004" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" body_anim_type="16_BendBackward" />
+    <msg speaker="白虎" text="何ぃぃぃっ!?&#xA;ああ、もうっ！　頼むから……！" speaker_show="True" stop="True" voice="bk11008_02_0123" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="私の周りに集まるんじゃなくて……みんな、&#xA;海の家Ｗａｓａｂｉに行ってくれーーーーっ！" speaker_show="True" stop="True" voice="bk11008_02_0124" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="白虎" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009010" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" />
+    <msg speaker="カトリーナ" text="うーん、どうしたのかしらねー？" speaker_show="True" stop="True" voice="kt11009_02_0149" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" />
+    <msg speaker="カトリーナ" text="呼び込みに行ってくれた白虎ちゃんも&#xA;お客さんもなかなか来ないわねー……。" speaker_show="True" stop="True" voice="kt11009_02_0150" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" mixing="True" obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" />
+    <msg speaker="テレジア" text="あれだけ人が集まっていたのに、何故だ……。" speaker_show="True" stop="True" voice="tr11007_02_0173" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="EnvGaya" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

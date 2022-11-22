@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000003" />
+  </info>
+  <command>
+    <Start />
+    <fade_out />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <msg window_type="SystemMsg" text="飛粋がツキカゲに来て２日目" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_002" effect="Immediately" wait="False" effect_time="0.3" color="#ffffffff" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="軍議の社" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="飛粋ちゃん、いよいよ今日からツキカゲの訓練に&#xA;参加してもらいますよ。" speaker_show="True" stop="True" voice="ah11005_02_0203" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="はい！　ワクワクしてきました。" speaker_show="True" stop="True" voice="mh12001_02_0067" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="モモちゃんと入れ替えで来たから、&#xA;指導係は雪ちゃんってことでどうかしら？" speaker_show="True" stop="True" voice="kt11009_02_0078" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="そうね。ではモモが私と一緒に普段から行っている&#xA;トレーニングをやりましょう。" speaker_show="True" stop="True" voice="hy11002_02_0131" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="はい！&#xA;雪さん、まずは何から始めましょうか？" speaker_show="True" stop="True" voice="mh12001_02_0068" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="まずは軽く、ロードワークに川での水泳、&#xA;ウェイトトレーニングから始めましょうか。" speaker_show="True" stop="True" voice="hy11002_02_0132" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うへぇ。全然軽くないフルコース。ヒッスー、&#xA;キツくなったらこっそりメイに言うんだよ。" speaker_show="True" stop="True" voice="ym11003_02_0098" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="宗近 飛粋" text="メイちゃん、ありがとう。けど大丈夫。&#xA;私、凪の部隊の代表として、頑張るよ！" speaker_show="True" stop="True" voice="mh12001_02_0069" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="いい心構えね。&#xA;ではついてきなさい。" speaker_show="True" stop="True" voice="hy11002_02_0133" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <bg show="True" resource_type="Background" file="23_rivermo_01" effect="Immediately" wait="False" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="トレーニング終了後" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <move obj_id="宗近 飛粋" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="よし、ゴールだー！" speaker_show="True" stop="True" voice="mh12001_02_0070" />
+    <move obj_id="宗近 飛粋" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="さすが凪の部隊の一員なだけあって&#xA;フィジカル面には何の問題もないようね。" speaker_show="True" stop="True" voice="hy11002_02_0134" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ありがとうございます！&#xA;次は何をしましょうか！　何なりと！" speaker_show="True" stop="True" voice="mh12001_02_0071" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="次は話術の訓練よ。" speaker_show="True" stop="True" voice="hy11002_02_0135" />
+    <transition time="0.5" wait="True" />
+    <bg file="09_cafe_02" />
+    <transition type="In" time="0.5" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="私がこれを飲み終えるまでに、誰か１人&#xA;新しい連絡先をゲットしてきなさい。" speaker_show="True" stop="True" voice="hy11002_02_0136" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="えぇ、ツキカゲではそんな訓練を！&#xA;って言ってる間に、もうコーヒーが半分に！" speaker_show="True" stop="True" voice="mh12001_02_0072" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="急がなきゃ！" speaker_show="True" stop="True" voice="mh12001_02_0073" />
+    <msg_window_show show="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <bg show="True" resource_type="Background" file="09_cafe_01" effect="Immediately" wait="False" color="#ffffffff" effect_time="0.3" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="宗近 飛粋" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <Comment comment="飛粋はcameraでmove_x0y-300 scale_x3.0y3.0 time0.1 easingUnset waitFalse" />
+    <msg speaker="宗近 飛粋" text="あの、すみませ～ん！" speaker_show="True" stop="True" voice="mh12001_02_0074" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <camera move_x="0" move_y="-300" scale_x="2" scale_y="2" time="1" easing="Unset" wait="True" />
+    <msg speaker="通行人A" text="ヒッ！　何！？&#xA;いきなりヌッと現れた！？" speaker_show="True" stop="True" voice="99082_02_0001" />
+    <char_spine_animation obj_id="通行人B" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="通行人B" text="ていうか、顔めっちゃ近い！&#xA;アンタ知り合い？" speaker_show="True" stop="True" voice="99083_02_0001" />
+    <char_spine_animation obj_id="通行人A" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="通行人A" text="全然。てか怖いんだけど～。&#xA;行こ。" speaker_show="True" stop="True" voice="99082_02_0002" />
+    <move obj_id="通行人A" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="False" />
+    <move obj_id="通行人B" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <delete obj_id="通行人A" />
+    <delete obj_id="通行人B" />
+    <camera_reset time="0.5" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="はぁ、逃げられちゃった。雪さん、&#xA;私、一体何がいけないんでしょうか。" speaker_show="True" stop="True" voice="mh12001_02_0075" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="まずは距離感。初めての人に&#xA;話し掛けるにしては顔が近すぎる。" speaker_show="True" stop="True" voice="hy11002_02_0137" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="あなたは表情のインパクトも強いから、&#xA;普通の人以上に距離感をはかる必要があるわ。" speaker_show="True" stop="True" voice="hy11002_02_0138" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="10_FaceBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="うぅっ……。&#xA;いつもみんなに言われてることだ。" speaker_show="True" stop="True" voice="mh12001_02_0076" />
+    <move obj_id="宗近 飛粋" x="100" x_move_type="MoveValue" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="けど、原因がわかったのでもう大丈夫です！&#xA;雪さん、ご指導ありがとうございます。" speaker_show="True" stop="True" voice="mh12001_02_0077" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="半蔵門 雪" text="早速、距離が近いわ。&#xA;本当に理解できたのかしら……。" speaker_show="True" stop="True" voice="hy11002_02_0139" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="任せてください！　ドキドキしますが&#xA;頑張ります！" speaker_show="True" stop="True" voice="mh12001_02_0078" />
+    <msg_window_show show="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <bg show="True" resource_type="Background" file="04_shopstreetmo_03" effect="Immediately" wait="False" effect_time="0.3" color="#ffffffff" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="北斗 凪" data_id="399002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="畠山 結愛" data_id="399001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <move obj_id="宗近 飛粋" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="す、すみません！&#xA;あのー、もしよかったら私とお話しませんか？" speaker_show="True" stop="True" voice="mh12001_02_0079" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="北斗 凪" text="お話？" speaker_show="True" stop="True" voice="hn99002_02_0012" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="畠山 結愛" text="凪っち、ちょっとヤバい子かも。美人だけど、&#xA;全身から滲み出る圧がなんか凄い……。行こう。" speaker_show="True" stop="True" voice="ha99001_02_0007" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="北斗 凪" text="待って！　確か前にもこんな事があった気が。&#xA;あ、モモちだ！" speaker_show="True" stop="True" voice="hn99002_02_0013" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="北斗 凪" text="確か初めてモモちと会ったのも&#xA;この辺だったんだよね。突然声かけてきて。" speaker_show="True" stop="True" voice="hn99002_02_0014" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="そうなんだ！　私、モモちの友達で、&#xA;宗近飛粋って言います。" speaker_show="True" stop="True" voice="mh12001_02_0080" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="畠山 結愛" text="そーなんだ。モモちの友達ならきっといい子だよね。&#xA;今からパフェ食べに行くんだけど、一緒にどう？" speaker_show="True" stop="True" voice="ha99001_02_0008" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="行く行く！　あ、私ちょっと寄る所があるから&#xA;後で合流するね。連絡先教えてくれる？" speaker_show="True" stop="True" voice="mh12001_02_0081" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="北斗 凪" text="うん、じゃあこれ、私のアドレス。" speaker_show="True" stop="True" voice="hn99002_02_0015" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="ありがとー！" speaker_show="True" stop="True" voice="mh12001_02_0082" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="北斗 凪" />
+    <delete obj_id="畠山 結愛" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="どうやら無事、聞き出せたようね。" speaker_show="True" stop="True" voice="hy11002_02_0140" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

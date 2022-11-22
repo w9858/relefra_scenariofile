@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010801" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="テレジアの部屋" />
+    <bg show="True" file="24_freespace_01" color="#ffffffff" resource_type="Background" />
+    <fade_in time="0.8" type="Default" wait="True" />
+    <telop text="テレジアの部屋" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <msg window_type="SystemMsg" text="これは、テレジアがまだ初芽の部屋に住む前の話……" stop="True" />
+    <msg window_type="SystemMsg" text="この日、五恵はテレジアの家を訪れていた…" stop="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="197、198、199、200…&#xA;ふぅ。" speaker_show="True" stop="True" voice="tr11007_01_0239" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="腕立て伏せ200回３セット、終了。&#xA;今日の日課は終わりだな。" speaker_show="True" stop="True" voice="tr11007_01_0240" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="あの…なぜ裸で突然トレーニングを？" speaker_show="True" stop="True" voice="ig11006_01_0648" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="トレーニングは日課だ。&#xA;いつも決まった時間にやっている。" speaker_show="True" stop="True" voice="tr11007_01_0241" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="日課はわかるけど…なぜ裸？" speaker_show="True" stop="True" voice="ig11006_01_0649" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="私は家にいる時、いつもこの格好だ。" speaker_show="True" stop="True" voice="tr11007_01_0242" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（…そういえば前に、雪先輩が監視カメラを&#xA;仕掛けた時も、テレちゃん、裸だったっけ…）" speaker_show="True" stop="True" voice="ig11006_01_0650" lip_sync="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" body_anim_type="13_Question" />
+    <msg speaker="テレジア" text="何か用事でも？" speaker_show="True" stop="True" voice="tr11007_01_0243" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="うん。せっかくツキカゲの仲間になってくれたんだから&#xA;テレちゃんのこと、もっと知りたいと思って。" speaker_show="True" stop="True" voice="ig11006_01_0651" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="テレジア" text="…もしかして、心配しているのか？" speaker_show="True" stop="True" voice="tr11007_01_0244" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="え？" speaker_show="True" stop="True" voice="ig11006_01_0652" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="以前の私は初芽を恨み、敵視していた。&#xA;だから、まだ初芽とわだかまりがあるかも…と。" speaker_show="True" stop="True" voice="tr11007_01_0245" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="……。" speaker_show="True" stop="True" voice="ig11006_01_0653" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="テレジア" text="それなら、心配は不要だ。&#xA;もう誤解は解けているし、初芽とは和解している。" speaker_show="True" stop="True" voice="tr11007_01_0246" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="幼かった頃…人身売買組織に捕らわれた時、&#xA;私は初芽が裏切ったんだと思った。" speaker_show="True" stop="True" voice="tr11007_01_0247" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="だが、今になってよく考えてみれば、初芽のような&#xA;底抜けのお人好しに、そんなことできるはずがない。" speaker_show="True" stop="True" voice="tr11007_01_0248" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="テレちゃん…。" speaker_show="True" stop="True" voice="ig11006_01_0654" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="あの頃の私は、ロクでもない家庭に生まれて、&#xA;周りを憎みすぎていた…" speaker_show="True" stop="True" voice="tr11007_01_0249" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="そのせいで、冷静な判断ができなくなっていたんだと&#xA;思う。" speaker_show="True" stop="True" voice="tr11007_01_0250" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="初めて会った時、初芽は何度拒絶されても、&#xA;めげずに私に手を差し出して、心を開かせた。" speaker_show="True" stop="True" voice="tr11007_01_0251" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="そして再会した今も…あいつは同じことをした。&#xA;昔と変わらない…。" speaker_show="True" stop="True" voice="tr11007_01_0252" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="五恵。お前の師匠は、本当に良いヤツだぞ。" speaker_show="True" stop="True" voice="tr11007_01_0253" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="はい、知っています。&#xA;自慢の師匠ですから。" speaker_show="True" stop="True" voice="ig11006_01_0655" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="そうだな。" speaker_show="True" stop="True" voice="tr11007_01_0254" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="…ねえ、テレちゃん。&#xA;今から出かけない？" speaker_show="True" stop="True" voice="ig11006_01_0656" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="ん？　どこに？" speaker_show="True" stop="True" voice="tr11007_01_0255" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="駅のショッピングモールに、いろんな種類のパフェが&#xA;食べられるカフェができたんだ。" speaker_show="True" stop="True" voice="ig11006_01_0657" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="…パフェ…！" speaker_show="True" stop="True" voice="tr11007_01_0256" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="どうしたの？&#xA;あ…もしかしてパフェ、苦手だった？" speaker_show="True" stop="True" voice="ig11006_01_0658" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="テレジア" text="そんなことはない。" speaker_show="True" stop="True" voice="tr11007_01_0257" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="よかった…&#xA;そのお店、10種類以上もパフェがあるんだって。" speaker_show="True" stop="True" voice="ig11006_01_0659" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="パフェ食べながら、いろんな話を…&#xA;って、わわわ！" speaker_show="True" stop="True" voice="ig11006_01_0660" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="何をグズグズしている？&#xA;早く行くぞ、そのカフェに。" speaker_show="True" stop="True" voice="tr11007_01_0258" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="そ、そんなに手を引っ張らなくても、&#xA;パフェはなくならないから…！" speaker_show="True" stop="True" voice="ig11006_01_0661" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（ふふ…よっぽど好きなんだね）" speaker_show="True" stop="True" voice="ig11006_01_0662" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.8" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3023000003" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <bg file="65_Skatingrink_002" show="True" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="ショー当日" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="わずか１週間で準備を整えたツキカゲは&#xA;暗殺を未然に防ぐべく、リンクに潜入していた。" stop="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002021" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006018" position_id="left" x="-300" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" x="300" />
+    <create_effect effect_id="love" effect_type="EffectHeart" target_obj="源 モモ" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek03_strong" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="し、師匠……とってもおキレイです～！&#xA;五右衛門もカワイイな～♪" speaker_show="True" stop="True" voice="mm11001_03_0156" />
+    <delete obj_id="love" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="任務中よモモ。気を引き締めなさい。それから&#xA;今回は、不自然だからコードネームは使用禁止。" speaker_show="True" stop="True" voice="hy11002_03_0108" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek01_default" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="は、はい！　えと……あと２時間で本番ですが&#xA;周囲にも、スタッフ出演者にも異常はありません。" speaker_show="True" stop="True" voice="mm11001_03_0157" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あの、暗殺対象がお客さんの中にいるという&#xA;可能性はないんでしょうか……？" speaker_show="True" stop="True" voice="ig11006_03_0155" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そっか……関係者がターゲットなら、本番じゃなくても&#xA;いくらでもチャンスがあったはずだもんね……。" speaker_show="True" stop="True" voice="mm11001_03_0158" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="目撃者の多い場所で単なる観客を殺す可能性は低い。&#xA;ショーの本番初日というインパクトを狙い……" speaker_show="True" stop="True" voice="hy11002_03_0109" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="わざわざ暗号まで使って緻密な計画を立てたからには&#xA;対象は恐らく有名人。となると、キャストが濃厚。" speaker_show="True" stop="True" voice="hy11002_03_0110" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="し、師匠って実はスパイよりも&#xA;探偵の方が向いてるのでは……。" speaker_show="True" stop="True" voice="mm11001_03_0159" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="青葉 初芽" text="現在、違法な通信を傍受中。発信元はリンクの半径&#xA;300ｍ以内。不審な物や、人を探して下さい。" speaker_show="True" stop="True" voice="ah11005_03_0143" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="今回の通信に、隠された暗号は？" speaker_show="True" stop="True" voice="hy11002_03_0111" />
+    <msg speaker="青葉 初芽" text="暗号化されていない、日本語の文言です。&#xA;『変更あり。ヴァルゴはクマに乗る』以上。" speaker_show="True" stop="True" voice="ah11005_03_0144" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="えっ。ターゲットが熊に……乗る？&#xA;どういう意味でしょうか……？" speaker_show="True" stop="True" voice="ig11006_03_0156" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="………モモ、五恵、手分けして舞台監督と演出家を&#xA;捜して。演出の変更は、その人達の指示のはず。" speaker_show="True" stop="True" voice="hy11002_03_0112" />
+    <lip_sync target1="石川 五恵" target2="源 モモ" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="モモ・五恵" text="了解です！" speaker_show="True" stop="True" voice="3023000003_union_001" />
+    <move obj_id="石川 五恵" position_id="left" x="1200" x_move_type="MoveValue" time="0.5" wait="True" />
+    <move obj_id="源 モモ" position_id="left" x="1000" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="熊……。これは裏目に出たのか、吉と転じるか。&#xA;こちら半蔵門……テレジア、応答を。" speaker_show="True" stop="True" voice="hy11002_03_0113" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <bg file="11_hospital_01" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="会場内・楽屋廊下" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="2.0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" x="200" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006018" position_id="left" x="-130" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うぅ～、ずっとスケート靴を履いてたから&#xA;普通の靴が変な感じ……わぷっ!?" speaker_show="True" stop="True" voice="mm11001_03_0161" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="す、すみませ……わあーーオルサ君だあ♪&#xA;着ぐるみカワイイ～、フカフカ～！" speaker_show="True" stop="True" voice="mm11001_03_0162" />
+    <msg speaker="オルサ君" text="……………………………。" speaker_show="True" stop="True" voice="99030_03_0001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あっ、オルサ君は熊がモチーフのキャラだ！&#xA;さっきの通信と何か関係があるのかな……。" speaker_show="True" stop="True" voice="mm11001_03_0163" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="でも、これイタリアのキャラだし……&#xA;中の人もやっぱりイタリア人……？　あ、あの…！" speaker_show="True" stop="True" voice="mm11001_03_0164" />
+    <msg speaker="オルサ君" text="……………………………っ。" speaker_show="True" stop="True" voice="tr11007_03_0044" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="グ、グラッチェ！　うぅー、これしか知らない。&#xA;すみません、後でお話聞かせて下さいね！" speaker_show="True" stop="True" voice="mm11001_03_0165" />
+    <move obj_id="源 モモ" position_id="left" x="1000" x_move_type="MoveValue" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="2.0" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound cue_name="Message" type="Se" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="21_PutElbow" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="うわ……まだ開演まで大分あるのにお客さんの列が。&#xA;どうしよう。衣装のままじゃ目立ちすぎる……。" speaker_show="True" stop="True" voice="ig11006_03_0158" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="石川 五恵" text="……っ!?　び、ビックリした……急にノイズが。&#xA;どうしたんだろ？　この辺に何か干渉する物でも……" speaker_show="True" stop="True" voice="ig11006_03_0159" />
+    <sound cue_name="Message" type="Se" />
+    <wait time="2.0" />
+    <msg speaker="舞台監督" text="ったく、直前に振り付けも音楽も変えやがって。&#xA;何でジークフリードからロッドバルトなのよ！" speaker_show="True" stop="True" voice="99031_03_0001" />
+    <sound cue_name="Message" type="Se" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あの、すみません。&#xA;それって、何の機械なんですか？" speaker_show="True" stop="True" voice="ig11006_03_0160" />
+    <msg speaker="舞台監督" text="はっ!?　な、何でもないわ。キャストには&#xA;関係ないからあっち行ってなさいよ。" speaker_show="True" stop="True" voice="99031_03_0002" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="確か、あなたは舞台監督さんでしたよね？&#xA;でしたらその……………ヴァルゴ。" speaker_show="True" stop="True" voice="ig11006_03_0161" />
+    <msg speaker="舞台監督" text="は……!?&#xA;な…っ、な、なんの事よ……失礼！" speaker_show="True" stop="True" voice="99031_03_0003" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="いえ、こちらこそ………失礼。" speaker_show="True" stop="True" voice="ig11006_03_0162" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="0.5" />
+    <msg speaker="舞台監督" text="う……ぁ。" speaker_show="True" stop="True" voice="99031_03_0004" />
+    <sound type="Se" cue_name="Down" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="麻酔弾、撃たせてもらいました。" speaker_show="True" stop="True" voice="ig11006_03_0163" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Quest2" />
+  </command>
+</adv>

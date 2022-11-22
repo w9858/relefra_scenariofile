@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000009" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="24_freespace_01" />
+    <msg window_type="SystemMsg" text="さらに数日後。&#xA;カトリーナは、相変わらず部屋での監視を続けていた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ホテル　カトリーナの部屋" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="イヴァンカ" data_id="311009006" position_id="left" x="-200" />
+    <Comment comment="信:私服（夏）" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010003" position_id="left" x="1000" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="True" loop="True" to_idle="False" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <move obj_id="高坂 信" x="450" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="イヴァンカさん、何か見つかりましたか？" speaker_show="True" stop="True" voice="ks11010_01_0135" />
+    <move obj_id="高坂 信" x="200" x_move_type="MoveTo" time="0.8" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="いいえ、何も。国際マラソンの開催時期を考えると、&#xA;もう動きがないとおかしいのに……" speaker_show="True" stop="True" voice="kt11009_01_0142" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（……私の読みが外れていたかもしれない）" speaker_show="True" stop="True" voice="kt11009_01_0143" lip_sync="False" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（このままマラソンコースの監視を続けるか、&#xA;別の場所を探すべきなのか、決断しなければ……）" speaker_show="True" stop="True" voice="kt11009_01_0144" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……大丈夫ですよ。このまま監視を続けましょう。&#xA;信はイヴァンカさんを信じます。" speaker_show="True" stop="True" voice="ks11010_01_0136" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……！&#xA;どうして……" speaker_show="True" stop="True" voice="kt11009_01_0145" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="この数日間一緒に過ごしただけでも、イヴァンカさんが&#xA;すごい人だということはわかります。" speaker_show="True" stop="True" voice="ks11010_01_0137" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="だから信は、イヴァンカさんの予想を信じます。" speaker_show="True" stop="True" voice="ks11010_01_0138" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……そうね。私らしくもない、少し弱気になってたわ。&#xA;今ので気が紛れた。" speaker_show="True" stop="True" voice="kt11009_01_0146" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="お役に立てて、よかったです。" speaker_show="True" stop="True" voice="ks11010_01_0139" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="あ、そうだ！　信、今日もカレーを作ってきたんです。&#xA;一緒に食べましょう！" speaker_show="True" stop="True" voice="ks11010_01_0140" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="ええ。" speaker_show="True" stop="True" voice="kt11009_01_0147" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <wait time="1.0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="高坂 信" text="ふー。&#xA;ごちそうさまでした。" speaker_show="True" stop="True" voice="ks11010_01_0141" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="015_Facial_poker" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="ごちそうさま。&#xA;……ねえ、シン。あなたはなぜスパイをやってるの？" speaker_show="True" stop="True" voice="kt11009_01_0148" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="え？" speaker_show="True" stop="True" voice="ks11010_01_0142" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="008_Facial_serious" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="イヴァンカ" text="あなたの性格はスパイ向きじゃない。" speaker_show="True" stop="True" voice="kt11009_01_0149" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="人より存在感がないことは武器だけど、&#xA;それだけで続けていけるほど、この世界は甘くないわ。" speaker_show="True" stop="True" voice="kt11009_01_0150" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="えっと……そうですね……" speaker_show="True" stop="True" voice="ks11010_01_0143" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="きっとスパイとしては、信は普通すぎると思います。&#xA;特徴も特技もなくて、人の中に埋もれてしまいます。" speaker_show="True" stop="True" voice="ks11010_01_0144" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="でも、そんな信に価値を見出してくれた&#xA;人たちがいるんです。" speaker_show="True" stop="True" voice="ks11010_01_0145" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="それがツキカゲだと？" speaker_show="True" stop="True" voice="kt11009_01_0151" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="はい。だから信は、少しでもツキカゲの&#xA;役に立てるなら、頑張ります。" speaker_show="True" stop="True" voice="ks11010_01_0146" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="他人のため……ナンセンスね。私は一族のため、&#xA;そして自分自身のためにスパイをしている。" speaker_show="True" stop="True" voice="kt11009_01_0152" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="自分と血の繋がりもない誰かのために動く……&#xA;美談だけど、そういう連中は弱いものよ。" speaker_show="True" stop="True" voice="kt11009_01_0153" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="ただ自分たちのために動く貪欲さの中にこそ、&#xA;強さはある。ツキカゲ、あなたたちはプロではないわ。" speaker_show="True" stop="True" voice="kt11009_01_0154" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="11_Point" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……そういう考えもあるかもしれませんけど、&#xA;信は、ツキカゲが弱いとは思いません。" speaker_show="True" stop="True" voice="ks11010_01_0147" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="信が弱いのは事実ですけど、&#xA;ツキカゲのことは悪く言わないでください。" speaker_show="True" stop="True" voice="ks11010_01_0148" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……！" speaker_show="True" stop="True" voice="kt11009_01_0155" />
+    <char_spine_animation obj_id="イヴァンカ" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（普段の柔和さとは違う、強い意志がこもっている……&#xA;……この子のこんな表情、初めて見るわ）" speaker_show="True" stop="True" voice="kt11009_01_0156" lip_sync="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="………………。" speaker_show="True" stop="True" voice="kt11009_01_0157" />
+    <msg_window_show show="False" />
+    <move obj_id="イヴァンカ" x="-1500" x_move_type="MoveTo" time="1.5" wait="True" />
+    <Comment comment="【SE】ドサッと横になる音" />
+    <sound type="Se" cue_name="Hug" />
+    <msg speaker="イヴァンカ" text="……食事をしたら、眠くなったわ。&#xA;少し仮眠する。" speaker_show="True" stop="True" voice="kt11009_01_0158" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="え？" speaker_show="True" stop="True" voice="ks11010_01_0149" />
+    <msg speaker="イヴァンカ" text="その間、モニターの監視をお願いね。シン。" speaker_show="True" stop="True" voice="kt11009_01_0159" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……！" speaker_show="True" stop="True" voice="ks11010_01_0150" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="はい！&#xA;任せてください！" speaker_show="True" stop="True" voice="ks11010_01_0151" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+    <msg window_type="SystemMsg" text="カトリーナが信の前で眠るのは、&#xA;これが初めてのことだった。" stop="True" />
+    <msg_window_show show="False" />
+    <wait time="1.0" />
+  </command>
+</adv>

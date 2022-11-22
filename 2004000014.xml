@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000014" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg show="True" resource_type="Background" file="42_skyni_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <msg window_type="SystemMsg" text="ＺＥＴは今夜も出撃していた。人形を不法に&#xA;改造し武力として使用した犯罪組織が相手である。" stop="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="静岡は浜松上空に到達。&#xA;ノブナガ。今から潜入を開始するわ。" speaker_show="True" stop="True" voice="sr13001_02_0289" />
+    <char_spine_animation obj_id="敷島 真留瀬" />
+    <msg speaker="敷島 真留瀬" text="こちらミツヒデ。了解。いつアルムが襲ってくるか&#xA;分かりませんわ。用心を。" speaker_show="True" stop="True" voice="sm13002_02_0167" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="了解！　愛してるわミツヒデ。" speaker_show="True" stop="True" voice="sr13001_02_0290" />
+    <delete obj_id="敷島 真留瀬" />
+    <move obj_id="敷島 来夢" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="（今回アルムは来ないんじゃないのかな。前回とは&#xA;随分離れた場所だし。まぁ最低限の警戒はしつつ…。）" speaker_show="True" stop="True" voice="sr13001_02_0291" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <msg speaker="敷島 来夢" text="（マルの地道な諜報活動が割り出してくれた&#xA;悪の巣窟。念入りに潰します、か！）" speaker_show="True" stop="True" voice="sr13001_02_0292" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

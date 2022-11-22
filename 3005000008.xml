@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="34_sakasatower_01" effect="Immediately" effect_time="0.3" wait="False" color="#ffffffff" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="２日連続で全員に招集をかけるとは、&#xA;一体何があったというのじゃ？" speaker_show="True" stop="True" voice="ss12003_02_0114" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="安心しろ。今日は出動の話じゃねーよ。モモ、お前の&#xA;凪の部隊の制服が完成したから届けてやったんだ。" speaker_show="True" stop="True" voice="ty12005_02_0043" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="津守 ヨモギ" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="仕事が早ぇな！&#xA;よし、モモ公、早速着てみろ！" speaker_show="True" stop="True" voice="ry12002_02_0062" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="うん。" speaker_show="True" stop="True" voice="mm11001_02_0092" />
+    <msg_window_show show="False" />
+    <sound_volume cue_name="Adv1" volume="0" time="1.0" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg speaker="源 モモ" text="これが凪の部隊の制服かー。えっと、&#xA;ここをこう着て、袖を通して……よし！" speaker_show="True" stop="True" voice="mm11001_02_0093" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="源 モモ" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="なんか大人っぽい感じになるんですね！" speaker_show="True" stop="True" voice="mm11001_02_0094" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="アタシ様の足元にゃ及ばねえけど、&#xA;中々似合っているじゃないか。" speaker_show="True" stop="True" voice="ry12002_02_0063" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="そうじゃな。このまま凪の部隊に&#xA;正式入隊をしてみてはどうじゃ？" speaker_show="True" stop="True" voice="ss12003_02_0115" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="しぶきち、勧誘まだ諦めてなかったんだね。&#xA;ま、アタシも大歓迎だけど。" speaker_show="True" stop="True" voice="th12004_02_0067" />
+    <move obj_id="轟 葉栖美" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="盛り上がってるとこ悪りぃが、お前ら３人、&#xA;ちょっと席外してくれねえか？" speaker_show="True" stop="True" voice="ty12005_02_0044" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="何故じゃ？　しぶきはまだ勧誘の途中…" speaker_show="True" stop="True" voice="ss12003_02_0116" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="モモと２人きりで話がしてえんだよ。&#xA;オラオラ、さっさと出てけ！" speaker_show="True" stop="True" voice="ty12005_02_0045" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ちぇっ、せっかく盛り上がってたってのに。" speaker_show="True" stop="True" voice="ry12002_02_0064" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="False" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="津守 ヨモギ" />
+    <wait time="1" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ヨモギさん、それでお話というのは……。" speaker_show="True" stop="True" voice="mm11001_02_0095" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="一緒に暮らしてみて、あの３人はどうだ？" speaker_show="True" stop="True" voice="ty12005_02_0046" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="（どう？　って、随分とふわっとした質問……。&#xA;待って、この質問にも何か意図があるはず。）" speaker_show="True" stop="True" voice="mm11001_02_0096" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="（落ち着いて、会話が途切れないよう自然に&#xA;ヨモギさんの意図を探らなきゃ……。）" speaker_show="True" stop="True" voice="mm11001_02_0097" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="……仲間想いだと思います。ツキカゲとはまた違った&#xA;絆を結んでいるんだなって、よくわかります。" speaker_show="True" stop="True" voice="mm11001_02_0098" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="……そうか。あいつらもちゃんと&#xA;成長出来てるんだな。嬉しいねぇ。" speaker_show="True" stop="True" voice="ty12005_02_0047" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="それでだ、源モモ、それとは別の話もあって……。" speaker_show="True" stop="True" voice="ty12005_02_0048" />
+    <sound_volume type="Bgm" cue_name="Adv6" volume="0" time="0" />
+    <sound cue_name="IncomingMessage" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="俺だ。どうした？&#xA;……そうか、わかった。" speaker_show="True" stop="True" voice="ty12005_02_0049" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="悪いが話は後にする。&#xA;どうやら事件のようだ。" speaker_show="True" stop="True" voice="ty12005_02_0050" />
+  </command>
+</adv>

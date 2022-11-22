@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3010000002" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="01_school1mo_004" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="空崎高校　屋上" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="False" />
+    <msg speaker="八千代 命" text="師匠に、プレゼント楽しみにしててねとは&#xA;言ったものの……。" speaker_show="True" stop="True" voice="ym11003_02_0191" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="絶対これ！　っていうアテがあるわけじゃ&#xA;ないんだよね～。むしろ未定。" speaker_show="True" stop="True" voice="ym11003_02_0192" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="せっかくの誕生日、喜んで欲しいし&#xA;何にしよう……むむぅ～。" speaker_show="True" stop="True" voice="ym11003_02_0193" />
+    <move obj_id="八千代 命" position_id="left" x="-200" x_move_type="MoveValue" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="それを相談するために、&#xA;私たちを呼び出したのね。" speaker_show="True" stop="True" voice="hy11002_02_0186" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="その通ーりっ。ほら、メイたちって&#xA;ツキカゲ師匠チームだし？" speaker_show="True" stop="True" voice="ym11003_02_0194" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="やっぱり色々と相談しやすいからねー。&#xA;そんなわけで、お知恵を拝借！" speaker_show="True" stop="True" voice="ym11003_02_0195" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" mixing="False" />
+    <create_effect effect_id="Smile_hatyme" effect_type="MampSmile" life_time="1.0" target_obj="青葉 初芽" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="青葉 初芽" text="ふふっ、頼ってもらえるというのは&#xA;嬉しいですね。" speaker_show="True" stop="True" voice="ah11005_02_0222" />
+    <delete obj_id="Smile_hatyme" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="でも、お誕生日プレゼントはある意味、&#xA;何でもいいんじゃないですか？" speaker_show="True" stop="True" voice="ah11005_02_0223" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Worry_mei" effect_type="MampWorry" life_time="0" target_obj="八千代 命" x="0" y="0" attach_head_bone="True" />
+    <sound type="Se" />
+    <Comment comment="SE：ガーン" />
+    <msg speaker="八千代 命" text="おぉ、早速の相談放棄……&#xA;ひどいよ初さん、メイ悲しいよ。しくしく。" speaker_show="True" stop="True" voice="ym11003_02_0196" />
+    <delete obj_id="Worry_mei" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="青葉 初芽" text="そうではなくて。&#xA;ほら、メイちゃんと信さんは師弟でしょう？" speaker_show="True" stop="True" voice="ah11005_02_0224" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="False" mixing="True" />
+    <msg speaker="青葉 初芽" text="弟子にもらったプレゼントなら、どんなものでも&#xA;喜んでくれるんじゃないでしょうか。" speaker_show="True" stop="True" voice="ah11005_02_0225" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="う～ん、&#xA;それは、そうかもしれないけど。" speaker_show="True" stop="True" voice="ym11003_02_0197" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="でも、せっかく誕生日なんだし、何か&#xA;驚くことをしてあげられたらなぁって思うんだ！" speaker_show="True" stop="True" voice="ym11003_02_0198" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="驚くこと、ですか。&#xA;ふむ……。" speaker_show="True" stop="True" voice="ah11005_02_0226" />
+    <create_effect effect_id="hatsume_Light" effect_type="MampLight" life_time="1.0" target_obj="青葉 初芽" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="だったら、私の発明品を差し上げるのはどうでしょう？&#xA;というかそれ、名案なのでは!?" speaker_show="True" stop="True" voice="ah11005_02_0227" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="安全なものから、エキサイティング体験を&#xA;お約束する逸品まで各種取り揃えてます！" speaker_show="True" stop="True" voice="ah11005_02_0228" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <sound type="Se" />
+    <Comment comment="SE：パッパラーのようなSE（ラッパ？）" />
+    <msg speaker="青葉 初芽" text="一生の思い出になること間違いなし。&#xA;誕生日プレゼントなら、青葉初芽にお任せを！" speaker_show="True" stop="True" voice="ah11005_02_0229" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <msg speaker="八千代 命" text="確かに、初さんの発明品なら&#xA;とにかく記憶に残るプレゼントになりそう……！" speaker_show="True" stop="True" voice="ym11003_02_0199" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="初芽の発明品なら、それはメイからのプレゼントには&#xA;ならないんじゃない？" speaker_show="True" stop="True" voice="hy11002_02_0187" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="う……そうかも。" speaker_show="True" stop="True" voice="ym11003_02_0200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="驚かせたいんだったら、こういうのはどう？" speaker_show="True" stop="True" voice="hy11002_02_0188" />
+    <Comment comment="半蔵門雪がチラシを見せているので、紙がひらめく「ピラッ」の音。" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <sound type="Se" />
+    <Comment comment="SE：紙の音" />
+    <msg speaker="八千代 命" text="何これ、チラシ？" speaker_show="True" stop="True" voice="ym11003_02_0201" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="半蔵門 雪" text="ええ。この時期に相応しい&#xA;素敵なプレゼントになると思うわ。" speaker_show="True" stop="True" voice="hy11002_02_0189" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="むむ、これって……" speaker_show="True" stop="True" voice="ym11003_02_0202" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ウェディングドレスの&#xA;撮影モデル募集……？" speaker_show="True" stop="True" voice="ym11003_02_0203" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

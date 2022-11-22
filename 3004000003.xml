@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3004000003" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="29_hanamipark_01" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="お花見会場" in_time="0.5" show_time="1.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="テレジア" data_id="311008005" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007003" position_id="left" x="-200" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="おい、子供の母親～！　どこにいるんだ？&#xA;お前の子供は預かった！" speaker_show="True" stop="True" voice="bk11008_01_0116" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="白虎、それでは私たちが&#xA;誘拐犯のようではないか。" speaker_show="True" stop="True" voice="tr11007_01_0132" />
+    <char_spine_animation obj_id="白虎" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="そうか。おい坊主、&#xA;お前、名前は何て言うんだ？" speaker_show="True" stop="True" voice="bk11008_01_0117" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="子供" text="おかーさん！　おかーさーん！" speaker_show="True" stop="True" voice="99043_01_0006" />
+    <char_spine_animation obj_id="白虎" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="白虎" text="お前の名前だったのか！&#xA;おい、おかーさん、お前の母親は……。" speaker_show="True" stop="True" voice="bk11008_01_0118" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" face_anim_type="005_Facial_sad" />
+    <msg speaker="テレジア" text="待て、白虎。&#xA;恐らくそれは名前じゃない。" speaker_show="True" stop="True" voice="tr11007_01_0133" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="くぅ～、これじゃ手がかりが&#xA;何もないじゃないか。どうすればいいんだ？" speaker_show="True" stop="True" voice="bk11008_01_0119" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="13_Question" loop="True" to_idle="False" face_anim_type="015_Facial_poker" />
+    <msg speaker="テレジア" text="そうだな……では母親の特徴を教えてくれ。&#xA;子供、お前の母親はどんな人物だ？" speaker_show="True" stop="True" voice="tr11007_01_0134" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="子供" text="優しくて、可愛くて、眼鏡をしてて……&#xA;ぐずん……ぐずん……。" speaker_show="True" stop="True" voice="99043_01_0007" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="そうか。はぐれないよう、&#xA;私の手をしっかり掴んでいろ。" speaker_show="True" stop="True" voice="tr11007_01_0135" />
+    <msg speaker="子供" text="はぁい……。" speaker_show="True" stop="True" voice="99043_01_0008" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="くっ、テレ公相手だと随分素直だな。" speaker_show="True" stop="True" voice="bk11008_01_0120" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="ひとまず、眼鏡をかけた女を探そう。" speaker_show="True" stop="True" voice="tr11007_01_0136" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="1.0" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="テレジア" data_id="311008005" position_id="left" x="0" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="True" loop="True" to_idle="False" />
+    <msg speaker="子供" text="あっ、おかーさん！&#xA;今ね、あっちにおかーさんいた！" speaker_show="True" stop="True" voice="99043_01_0009" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="よし、案内しろ。" speaker_show="True" stop="True" voice="tr11007_01_0137" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Run" />
+    <delete obj_id="テレジア" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="テレジア" data_id="311008005" position_id="left" x="1000" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" force_end="True" loop="True" to_idle="False" />
+    <move obj_id="テレジア" position_id="left" x="0" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="この辺りだな？" speaker_show="True" stop="True" voice="tr11007_01_0138" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="ん？　あれは……" speaker_show="True" stop="True" voice="tr11007_01_0139" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="テレジア" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003005" position_id="left" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="True" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="あら！ テレちゃん！" speaker_show="True" stop="True" voice="ah11005_01_0294" />
+    <msg speaker="子供" text="おかーさん！" speaker_show="True" stop="True" voice="99043_01_0010" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="テレジア" data_id="311008005" position_id="left" x="0" anchor="Bottom" />
+    <create_effect effect_id="tr_Sweat" effect_type="MampSweat" life_time="1" target_obj="テレジア" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="は、初芽、お前の子だったのか!?" speaker_show="True" stop="True" voice="tr11007_01_0140" />
+    <delete obj_id="tr_Sweat" />
+    <delete obj_id="テレジア" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="そんな訳ないでしょ？&#xA;お母さん、息子さんはこの子で間違いないですか？" speaker_show="True" stop="True" voice="hy11002_01_0473" />
+    <msg speaker="母親" text="はい！&#xA;一緒に探してくれて、ありがとうございます。" speaker_show="True" stop="True" voice="99044_01_0001" />
+    <msg speaker="子供" text="おかーさん、会いたかったよ。おかーさん！" speaker_show="True" stop="True" voice="99043_01_0011" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_eye obj_id="八千代 命" type="Eye03_tear" loop="True" />
+    <msg speaker="八千代 命" text="母と息子の感動の再会。泣かせるねぇ。" speaker_show="True" stop="True" voice="ym11003_01_0481" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="テレジア" data_id="311008005" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="それにしてもテレちゃん、&#xA;どうしてこの子と一緒にいたんですか？" speaker_show="True" stop="True" voice="ah11005_01_0295" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="初芽たちこそ何故、この子の母親と？" speaker_show="True" stop="True" voice="tr11007_01_0141" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="子供が迷子になったと困っていたから、&#xA;一緒に探してあげていたのよ。" speaker_show="True" stop="True" voice="hy11002_01_0474" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="テレジア" data_id="311008005" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="そうだったのか。&#xA;ともかく、見つかってよかった。" speaker_show="True" stop="True" voice="tr11007_01_0142" />
+    <msg speaker="子供" text="うん！&#xA;おねーちゃん、どうもありがとう。" speaker_show="True" stop="True" voice="99043_01_0012" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="テレちゃん、もしかしてこの子と一緒に&#xA;お母さんを探してあげていたのですか？" speaker_show="True" stop="True" voice="ah11005_01_0296" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="テレジア" text="ああ、１人にする訳にはいかないだろう。" speaker_show="True" stop="True" voice="tr11007_01_0143" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="そうだったのですね。テレちゃん、私からも&#xA;お礼を言います。ありがとうございます。" speaker_show="True" stop="True" voice="ah11005_01_0297" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="テレジア" text="礼なら白虎にも……ん？&#xA;白虎はどこに行った？" speaker_show="True" stop="True" voice="tr11007_01_0144" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="白虎？　一緒だったの？" speaker_show="True" stop="True" voice="ym11003_01_0482" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="テレジア" data_id="311008005" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="ああ、一緒にこの子の母親を&#xA;探していたはずなのだが……。" speaker_show="True" stop="True" voice="tr11007_01_0145" />
+    <delete obj_id="テレジア" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Chime" volume="50" />
+    <sound_volume type="Se" cue_name="Chime" volume="0" time="3" wait="False" />
+    <wait time="1.0" />
+    <msg speaker="アナウンスの声" text="迷子のお知らせです。&#xA;１０歳くらいの女の子が……" speaker_show="True" stop="True" voice="99045_01_0001" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003005" position_id="left" x="300" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <lip_sync target1="八千代 命" target2="半蔵門 雪" target3="青葉 初芽" />
+    <msg speaker="雪・初芽・命" text="あっ……！" speaker_show="True" stop="True" voice="3004000003_union_001" />
+  </command>
+</adv>

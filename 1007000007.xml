@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1007000007" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="ツキカゲ、凪の部隊、ＺＥＴは&#xA;違法人形の密輸を防ぐべく出撃していた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="19_wharfni_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="空崎コンテナターミナル" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="13_Question" />
+    <msg speaker="敷島 来夢" text="ミツヒデ、こっちの様子は伝わっている？" speaker_show="True" stop="True" voice="sr13001_02_0062" />
+    <msg speaker="敷島 真留瀬" text="はい。皆さんの身体能力の高さに&#xA;驚いているところですわ。" speaker_show="True" stop="True" voice="sm13002_02_0025" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="敷島 来夢" text="そうね超人揃いだわ。&#xA;頼もしい味方が増えたわね。" speaker_show="True" stop="True" voice="sr13001_02_0063" />
+    <msg speaker="敷島 真留瀬" text="これほどの人材が沢山…。&#xA;世界は広いですわね。" speaker_show="True" stop="True" voice="sm13002_02_0026" />
+    <delete obj_id="敷島 来夢" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="敷島 真留瀬" text="（そんな凄い人達から&#xA;早くも一目置かれているお姉様も流石天才。）" speaker_show="True" stop="True" voice="sm13002_02_0027" lip_sync="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" />
+    <msg speaker="敷島 真留瀬" text="（……比べて私はなんと未熟な。自己嫌悪ですわ。）" speaker_show="True" stop="True" voice="sm13002_02_0028" lip_sync="False" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="アミィ" text="東の方でも人形の密輸は&#xA;横行しているのですね。" speaker_show="True" stop="True" voice="am13002_02_0025" />
+    <char_spine_animation force_end="False" loop="False" obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="008_Facial_serious" />
+    <msg speaker="八千代 命" text="そうなんだよアミすけ。&#xA;潰しても潰してもなくならない。" speaker_show="True" stop="True" voice="ym11003_02_0002" />
+    <move obj_id="アミィ" position_id="left" x="-450" x_move_type="MoveTo" y_move_type="MoveValue" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="-150" x_move_type="MoveTo" y_move_type="MoveValue" wait="False" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="450" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="24_bodyUnique" />
+    <msg speaker="敷島 来夢" text="ふむ！　ツキカゲの衣装はセクシー！&#xA;足に目が行っちゃうわね。" speaker_show="True" stop="True" voice="sr13001_02_0064" />
+    <char_spine_animation force_end="False" loop="True" obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="乱獅子 ゆら" text="あの手この手を使ってきやがるが&#xA;アタシ様達の目はごまかされないぜ。" speaker_show="True" stop="True" voice="ry12002_02_0003" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="敷島 来夢" text="ふむふむ！！　凪の部隊の衣装も&#xA;かっこいいけど、ヒップラインが素敵！" speaker_show="True" stop="True" voice="sr13001_02_0065" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="アミィ" />
+    <delete obj_id="八千代 命" />
+    <move obj_id="敷島 来夢" position_id="left" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="源 モモ" text="さぁ滾っていくよ！" speaker_show="True" stop="True" voice="mm11001_02_0007" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" loop="True" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="敷島 来夢" text="いいわねぇ。私も滾ってきたわ。ヒデヨシ！" speaker_show="True" stop="True" voice="sr13001_02_0066" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <move obj_id="敷島 来夢" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation force_end="False" loop="False" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" />
+    <msg speaker="アミィ" text="ヒデヨシ、ノブナガに続きます。" speaker_show="True" stop="True" voice="am13002_02_0026" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="源 モモ" position_id="left" x="1500" x_move_type="MoveValue" y_move_type="MoveValue" time="2" />
+    <move obj_id="アミィ" position_id="left" x="2100" x_move_type="MoveValue" y_move_type="MoveValue" time="2" />
+    <move obj_id="敷島 来夢" position_id="left" x="1800" x_move_type="MoveValue" y_move_type="MoveValue" time="2" />
+    <bg_fade to_color="#000000ff" time="2" wait="True" />
+    <msg speaker="敷島 真留瀬" text="待ち構えている人形は強敵ですが&#xA;皆さんなら倒せますわ。ご武運を。" speaker_show="True" stop="True" voice="sm13002_02_0029" />
+    <delete obj_id="アミィ" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" loop="True" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="源 モモ" text="百地、了解！" speaker_show="True" stop="True" voice="mm11001_02_0008" />
+    <char_spine_animation force_end="False" loop="False" obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation force_end="False" loop="True" obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" />
+    <msg speaker="宗近 飛粋" text="不動、同じく了解！" speaker_show="True" stop="True" voice="mh12001_02_0005" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" position_id="left" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" wait="False" />
+    <move obj_id="宗近 飛粋" position_id="left" x="300" x_move_type="MoveTo" y_move_type="MoveValue" wait="False" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="敷島 来夢" text="初めての合同任務&#xA;華々しく成功させましょ！！" speaker_show="True" stop="True" voice="sr13001_02_0067" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="源 モモ" />
+    <sound type="Se" cue_name="Wire2" />
+    <wait time="1.5" />
+    <create_effect effect_id="bom" effect_type="EffectExplosion" />
+    <sound type="Se" cue_name="Bom" />
+    <wait time="1" />
+    <create_effect effect_id="slash" effect_type="EffectSlash" />
+    <sound type="Se" cue_name="SwordQuick" />
+    <wait time="2" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1" wait="True" />
+    <bg_fade to_color="#00000000" wait="False" />
+    <transition effect="Default" type="In" color_change="True" time="1" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="11_Point" />
+    <msg speaker="敷島 来夢" text="ミッション完了ね。さーて、首謀者は&#xA;もう少し痛めつけておく？" speaker_show="True" stop="True" voice="sr13001_02_0068" />
+    <char_spine_animation force_end="False" loop="True" obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="薩摩 しぶき" text="悪を倒す時には、やりすぎてしまう事も&#xA;あるじゃろうが。" speaker_show="True" stop="True" voice="ss12003_02_0004" />
+    <char_spine_animation force_end="False" loop="False" obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" />
+    <char_spine_animation force_end="False" loop="True" obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" />
+    <msg speaker="薩摩 しぶき" text="しかし決着が付いた後は、基本もうよい。" speaker_show="True" stop="True" voice="ss12003_02_0005" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="敷島 来夢" text="真面目なのね、そこもまたいいいわ。了解。" speaker_show="True" stop="True" voice="sr13001_02_0069" />
+    <msg speaker="敷島 真留瀬" text="皆さんお疲れ様ですわ。帰還して下さいまし。" speaker_show="True" stop="True" voice="sm13002_02_0030" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="宗近 飛粋" text="アミィちゃん、お疲れ様！　大活躍だったね。" speaker_show="True" stop="True" voice="mh12001_02_0006" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="アミィ" text="人の為に役立って嬉しゅうございます。" speaker_show="True" stop="True" voice="am13002_02_0027" />
+    <delete obj_id="アミィ" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="敷島 来夢" text="モモ。貴方戦闘の時、いい動きみせるわね。" speaker_show="True" stop="True" voice="sr13001_02_0070" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源 モモ" text="えへへ、師匠の仕込みが良いので。" speaker_show="True" stop="True" voice="mm11001_02_0009" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="敷島 来夢" text="師弟システムいいわねー。&#xA;私も弟子をとろうかしら。" speaker_show="True" stop="True" voice="sr13001_02_0071" />
+    <msg speaker="敷島 真留瀬" text="お姉様には私がいますわ。" speaker_show="True" stop="True" voice="sm13002_02_0031" />
+    <move obj_id="敷島 来夢" position_id="left" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation force_end="False" loop="True" obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="アミィ" text="アミィも。" speaker_show="True" stop="True" voice="am13002_02_0028" />
+    <char_spine_animation force_end="False" loop="True" obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="敷島 来夢" text="あはは、そうだったわ。" speaker_show="True" stop="True" voice="sr13001_02_0072" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <msg window_type="SystemMsg" text="こうしてＺＥＴはモモや飛粋達の仲間になった。" stop="True" />
+    <msg window_type="SystemMsg" text="ＺＥＴの技術力を得て力をつけた&#xA;正義の同盟は、果敢に犯罪組織と戦っていく。" stop="True" />
+    <msg window_type="SystemMsg" text="この新たな力は、&#xA;たちどころに敵が知る事になった――。" stop="True" />
+  </command>
+</adv>

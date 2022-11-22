@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3008000007" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="各キャラの衣装は現在、仮のものを入れております。" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="背景：動物園、現在は仮の背景を入れています。" />
+    <bg show="True" resource_type="Background" file="59_zooev_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="動物園" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="園長さん、急に呼び出しだなんて、&#xA;何があったんですか？" speaker_show="True" stop="True" voice="sf11004_02_0093" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="もしかして、アタシたちのお世話に何か問題でも……。" speaker_show="True" stop="True" voice="th12004_02_0120" />
+    <msg speaker="園長" text="いやいやとんでもない。むしろその逆よ。あなたたち、&#xA;新人なのにとても良くやってくれてるそうね。" speaker_show="True" stop="True" voice="99026_02_0006" />
+    <msg speaker="園長" text="それで、今日は2人に大事な仕事を任せたいと&#xA;思ってね。頼まれてくれるかしら？" speaker_show="True" stop="True" voice="99026_02_0007" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="大事な仕事って？" speaker_show="True" stop="True" voice="th12004_02_0121" />
+    <msg speaker="園長" text="口で言うより直接見てもらった方が話が早いわ。&#xA;さ、一緒に来てちょうだい。" speaker_show="True" stop="True" voice="99026_02_0008" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="（何だろう、大切な仕事って……）" speaker_show="True" stop="True" voice="sf11004_02_0094" lip_sync="False" />
+    <msg_window_show show="False" />
+    <Comment comment="SE:歩く足音" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="轟 葉栖美" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="2.0" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="2.0" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="轟 葉栖美" />
+    <bg file="59_zooev_002" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="飼育室" />
+    <Comment comment="SE:ドアの開く音" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="1.0" />
+    <msg speaker="園長" text="さあ、着いたわよ。&#xA;中に入ってちょうだい。" speaker_show="True" stop="True" voice="99026_02_0009" />
+    <create type="Character" obj_id="相模 楓" data_id="311004013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004007" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="わぁ、可愛い動物たちがいっぱい！" speaker_show="True" stop="True" voice="th12004_02_0122" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="（あれ……？　けどこの子たちって……。）" speaker_show="True" stop="True" voice="th12004_02_0123" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="（みんなワシントン条約で輸出入の制限が&#xA;されている動物だ……。）" speaker_show="True" stop="True" voice="sf11004_02_0095" lip_sync="False" />
+    <msg speaker="園長" text="今日からここに居る動物たちの世話を任せたいの。&#xA;お願いできる？" speaker_show="True" stop="True" voice="99026_02_0010" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="えっと……この動物たちは？" speaker_show="True" stop="True" voice="sf11004_02_0096" />
+    <msg speaker="園長" text="この子たちは、今ではもう数も少なくなってしまった&#xA;とっても貴重な動物たちでね。" speaker_show="True" stop="True" voice="99026_02_0011" />
+    <msg speaker="園長" text="これから、色々な保護地区や研究施設へと&#xA;渡っていくの。" speaker_show="True" stop="True" voice="99026_02_0012" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="そんな貴重な動物たちが、どうしてこの動物園に？" speaker_show="True" stop="True" voice="th12004_02_0124" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="園長" text="一時的な飼育場所として、数ある動物園の中から&#xA;うちが選ばれたのよ。" speaker_show="True" stop="True" voice="99026_02_0013" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="園長" text="スタッフの動物たちへの愛情が認められたからこそ、&#xA;こんな大役を任されたんだと思うと、嬉しくってね。" speaker_show="True" stop="True" voice="99026_02_0014" />
+    <msg speaker="園長" text="だからここにいる間だけでも、この子たちには&#xA;幸せな時間を過ごしてもらいたいの。" speaker_show="True" stop="True" voice="99026_02_0015" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="園長さん……。" speaker_show="True" stop="True" voice="sf11004_02_0097" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="きっと大丈夫ですよ！　ここにいる間の&#xA;この子たちは本当に幸せだと思いますよ！" speaker_show="True" stop="True" voice="th12004_02_0125" />
+    <msg speaker="園長" text="だったら、仕事冥利に尽きるね。" speaker_show="True" stop="True" voice="99026_02_0016" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

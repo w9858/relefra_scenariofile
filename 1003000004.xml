@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1003000004" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="04_shopstreetmo_02" effect_time="0" effect="Immediately" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" volume="100" cue_name="Adv4" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="諸星 明" text="どうかな？　俺のコロッケ、&#xA;観光客の皆さんにも割と評判なんだけど。" speaker_show="True" stop="True" voice="ma99004_01_0007" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="イエス。味が染みていて大変デリシャス！" speaker_show="True" stop="True" voice="ks16001_01_0014" lip_sync="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Walk" volume="100" />
+    <move obj_id="クリッシー" x="-1000" x_move_type="MoveTo" time="2.0" wait="True" />
+    <char_spine_animation obj_id="諸星 明" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="諸星 明" text="良かった。やっぱり俺の肉は&#xA;世界に通じるワールドワイドな肉だったんだ。" speaker_show="True" stop="True" voice="ma99004_01_0008" lip_sync="True" />
+    <char_spine_animation obj_id="諸星 明" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="諸星 明" text="でも何か今の人、やたら怖かったなぁ……。" speaker_show="True" stop="True" voice="ma99004_01_0009" lip_sync="True" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" time="0.5" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" sound_stop="True" />
+    <delete obj_id="クリッシー" />
+    <msg window_type="SystemMsg" text="リザード社のクリッシー・ガオは組織の運転手を&#xA;従えて、空崎の各地を車で見て回っていた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="14_carbk_03" effect_time="0" effect="Immediately" wait="False" resource_type="Background" />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" volume="100" cue_name="Adv3" />
+    <sound type="Se" cue_name="EnvDrivingCar" volume="50" />
+    <transition type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="車内" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="101_Facial_trouble" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="日本はゴハンが美味しいですけど&#xA;油っぽさが足りませんね。" speaker_show="True" stop="True" voice="ks16001_01_0015" lip_sync="True" />
+    <msg speaker="リザード社員" text="クリッシー様。次は空崎のドコに車を向かわせますか？" speaker_show="True" stop="True" voice="rs16002_01_0001" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="もう十分です。色々と見る事が出来ました。&#xA;日本にしては混沌とした街ですね、気に入りました。" speaker_show="True" stop="True" voice="ks16001_01_0016" lip_sync="True" />
+    <delete obj_id="クリッシー" />
+    <msg window_type="SystemMsg" text="クリッシーは外行きの顔として、いかにもなアメリカ&#xA;キャラをしているが、それは相手を欺く演技にすぎない。" stop="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="リザード社員" text="ではそろそろ戻りますか？" speaker_show="True" stop="True" voice="rs16002_01_0002" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="貴方気付かないのですか。ワタシは市内を見て&#xA;回るとき、あえて殺気をまき散らしていたのですよ。" speaker_show="True" stop="True" voice="ks16001_01_0017" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="そしたら釣れました。ワタシをただ者ではないと&#xA;思ってバイクで尾行している者がいます。" speaker_show="True" stop="True" voice="ks16001_01_0018" lip_sync="True" />
+    <msg speaker="リザード社員" text="……し、失礼しました。尾行に、ま、全く気が&#xA;つきませんでした。どうかお許しを、クリッシー様。" speaker_show="True" stop="True" voice="rs16002_01_0003" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="いいですよワタシは寛大です。さぁバイクを人気の無い&#xA;海へ誘導しましょう。そして追跡者を絡め取るのです。" speaker_show="True" stop="True" voice="ks16001_01_0019" lip_sync="True" />
+    <msg speaker="リザード社員" text="クリッシー様の殺気を感じ取っているなら、&#xA;仲間を呼んでくるかもしれませんが。" speaker_show="True" stop="True" voice="rs16002_01_0004" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="というか呼ぶでしょうね、大歓迎でしょう。&#xA;ワタシがまとめて倒してしまえば手間が省けます、" speaker_show="True" stop="True" voice="ks16001_01_0020" lip_sync="True" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+    <delete obj_id="クリッシー" />
+    <msg window_type="SystemMsg" text="クリッシー・ガオを尾行していたのは、その&#xA;尋常ならざる殺気を感じ取った半蔵門雪だった。" stop="True" />
+    <msg_window_show show="False" />
+    <sound_volume type="Se" cue_name="EnvDrivingCar" volume="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="………。あの車の動き。尾行されている事に&#xA;気付いたか？" speaker_show="True" stop="True" voice="hy11002_01_0042" lip_sync="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="どっちみち、あのような殺気を発するのは、&#xA;ただ者ではない。皆を招集して、捕獲する。" speaker_show="True" stop="True" voice="hy11002_01_0043" lip_sync="True" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <fade_in time="0.5" type="Default" wait="False" />
+    <transition type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="夜になり場所は人気のない港……&#xA;襲うには絶好のポジションですね。警戒しなさい。" speaker_show="True" stop="True" voice="ks16001_01_0021" lip_sync="True" />
+    <msg speaker="リザード社員" text="はい、クリッシー様……。&#xA;！　車が、車がこちらへ突っ込んできます！！" speaker_show="True" stop="True" voice="rs16002_01_0005" lip_sync="True" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM08_Quest3" />
+    <sound type="Bgm" cue_name="Quest3" />
+    <msg speaker="クリッシー" text="かわしなさい！　リザードの宝である&#xA;ワタシを傷つけてはいけません。" speaker_show="True" stop="True" voice="ks16001_01_0022" lip_sync="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="AvoidCars" />
+    <wait time="2" />
+    <msg speaker="リザード社員" text="…っ、か、かわせました！！&#xA;やりました！　リザード社員ボブやりました！" speaker_show="True" stop="True" voice="rs16002_01_0006" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="突っ込んできた車、運転席に誰も座って&#xA;いませんでしたね。…遠隔操作の自動運転か。" speaker_show="True" stop="True" voice="ks16001_01_0023" lip_sync="True" />
+    <delete obj_id="クリッシー" />
+    <bg file="07_containerni_02" />
+    <sound type="Se" cue_name="FullAccel" />
+    <msg window_type="SystemMsg" text="すると今度は多くの無人自動車が現れ、&#xA;一斉にクリッシーの乗る車の方に突っ込んでいく。" stop="True" />
+    <bg file="14_carbk_03" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="！　運転を代わりなさいボォブ！&#xA;相手は思ったより滅茶苦茶やる連中のようです！" speaker_show="True" stop="True" voice="ks16001_01_0024" lip_sync="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="クリッシー" />
+    <sound type="Se" cue_name="AvoidCars" />
+    <msg window_type="SystemMsg" text="クリッシーは凄まじいハンドル捌きで襲いかかる&#xA;車を次々と回避していた。" stop="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="クリッシーと社員が運転を交代にたため、２人の立ち位置を入れ替えています" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="101_Facial_unique" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="フッ！　これぐらい何てことはありません！&#xA;が、甘く見すぎましたね。プランＳに変更です！" speaker_show="True" stop="True" voice="ks16001_01_0025" lip_sync="True" />
+    <msg speaker="リザード社員" text="あっ、プランＳというとまさかアレですか！" speaker_show="True" stop="True" voice="rs16002_01_0007" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="そうＳＥＡです。いきますよ！！" speaker_show="True" stop="True" voice="ks16001_01_0026" lip_sync="True" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound cue_name="Dobon" />
+    <wait time="1.5" />
+    <msg window_type="SystemMsg" text="クリッシーが乗る車は、突っ込んでくる車から&#xA;逃げるように、そのまま海へ飛び込んでしまった。" stop="True" />
+  </command>
+</adv>

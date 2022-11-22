@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3002000004" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="25_katrinahouse_01" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="カトリーナの部屋" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="はい、フーちゃんも完成！" speaker_show="True" stop="True" voice="kt11009_01_0244" />
+    <msg_window_show show="False" />
+    <delete obj_id="カトリーナ" />
+    <Comment comment="【SE】シャララン、的なキラキラ音" />
+    <sound />
+    <create type="Character" obj_id="八千代 命" data_id="311003008" position_id="left" x="125" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004011" position_id="left" x="-125" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="KiraKira_fuu" effect_type="EffectKirakira" life_time="3.0" target_obj="相模 楓" />
+    <msg speaker="八千代 命" text="ふわ～、フーの髪の毛きもちいい！&#xA;指通りなめらかで、いい匂い～。" speaker_show="True" stop="True" voice="ym11003_01_0367" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_cheek obj_id="相模 楓" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="ちょっ、ちょっと師匠！&#xA;アタシより先に触らないでくださいよ～。" speaker_show="True" stop="True" voice="sf11004_01_0431" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="まぁまぁ、減るもんじゃないんだし、&#xA;もう少し触らせておくれよ～。" speaker_show="True" stop="True" voice="ym11003_01_0368" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="じゃっ、じゃあアタシも師匠の髪、&#xA;触らせてもらいますよ。" speaker_show="True" stop="True" voice="sf11004_01_0432" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】シャララン、的なキラキラ音" />
+    <sound />
+    <create_effect effect_id="KiraKira_mei" effect_type="EffectKirakira" life_time="3.0" target_obj="八千代 命" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="わっ、師匠の髪、時間が経ってもサラサラ！" speaker_show="True" stop="True" voice="sf11004_01_0433" />
+    <msg_window_show show="False" />
+    <delete obj_id="KiraKira_mei" />
+    <Comment comment="【SE】シャララン、的なキラキラ音" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="フーだって！　はぁ～、いい気持ち。&#xA;ずっと触っていられるねぇ。" speaker_show="True" stop="True" voice="ym11003_01_0369" />
+    <msg_window_show show="False" />
+    <delete obj_id="KiraKira_fuu" />
+    <delete obj_id="KiraKira_mei" />
+    <create_effect effect_id="KiraKira_mei" effect_type="EffectKirakira" life_time="3.0" target_obj="八千代 命" />
+    <create_effect effect_id="KiraKira_fuu" effect_type="EffectKirakira" life_time="3.0" target_obj="相模 楓" />
+    <Comment comment="【SE】シャララン、的なキラキラ音" />
+    <load_cue_sheet cue_sheet="Battle_sb/Battle_sb_311004001" />
+    <sound cue_name="Kirakira" />
+    <wait time="2.5" />
+    <sound_volume type="Se" cue_name="Kirakira" volume="0" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ふふ、喜んでもらえてよかった。" speaker_show="True" stop="True" voice="kt11009_01_0245" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <move obj_id="カトリーナ" position_id="left" x="300" x_move_type="MoveTo" time="0.1" wait="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <msg speaker="相模 楓" text="カトリーナさん、名残惜しくはありますが、&#xA;そろそろ、アタシたちお暇します。" speaker_show="True" stop="True" voice="sf11004_01_0434" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="カトーさん、今日は本当に&#xA;ありがとね！" speaker_show="True" stop="True" voice="ym11003_01_0370" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="八千代 命" position_id="left" x="-150" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="-400" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ちょっと待って！　良かったらこれ、&#xA;お土産に持って行って。" speaker_show="True" stop="True" voice="kt11009_01_0246" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="今使ったヘアオイル……。ダメです！&#xA;こんな高いもの頂けません。" speaker_show="True" stop="True" voice="sf11004_01_0435" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="遠慮しないで。空気が乾燥している季節だから、&#xA;しっかりお手入れしてほしいの。" speaker_show="True" stop="True" voice="kt11009_01_0247" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="そうは言っても……。さっきフーに聞いたけど、&#xA;高いんでしょ、これ。" speaker_show="True" stop="True" voice="ym11003_01_0371" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="そんなこと、気にしないで。" speaker_show="True" stop="True" voice="kt11009_01_0248" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="せっかく綺麗になったんだから、次に会う時も&#xA;可愛い２人を見たいのよ。お願い、持って帰って。" speaker_show="True" stop="True" voice="kt11009_01_0249" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <bg show="True" file="04_shopstreetev_01" color="#ffffffff" resource_type="Background" />
+    <delete obj_id="カトリーナ" />
+    <move obj_id="八千代 命" position_id="left" x="1250" x_move_type="MoveTo" time="0.0" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="1000" x_move_type="MoveTo" time="0.0" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="Walk" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="街　夜" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" time="1.0" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="結局、貰ってきちゃいましたね……。" speaker_show="True" stop="True" voice="sf11004_01_0436" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="だね。" speaker_show="True" stop="True" voice="ym11003_01_0372" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ていうか師匠、&#xA;いつまで自分の髪の毛触ってるんですか？" speaker_show="True" stop="True" voice="sf11004_01_0437" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="だってこの手触り、クセになっちゃって。" speaker_show="True" stop="True" voice="ym11003_01_0373" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="もう少し髪とかに気を使ったほうがいいのかな……。" speaker_show="True" stop="True" voice="ym11003_01_0374" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="そうですね、師匠はもう少し気を使ったほうが&#xA;いいですよ。" speaker_show="True" stop="True" voice="sf11004_01_0438" />
+    <Comment comment="苦笑する命" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="あはは、そっかー。やっぱり、そうだよね～。&#xA;けど、メンドクサイは強敵だからな～。" speaker_show="True" stop="True" voice="ym11003_01_0375" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="じゃあ、このヘアオイルがなくなるまでは、アタシが&#xA;お風呂上がりに師匠の髪をとかしてあげます。" speaker_show="True" stop="True" voice="sf11004_01_0439" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="アタシも師匠がかわいいほうがいいですから。" speaker_show="True" stop="True" voice="sf11004_01_0440" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="やったー！　フーがやってくれるなら安心だ！" speaker_show="True" stop="True" voice="ym11003_01_0376" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="最初はどうなるかと思ったけど、今日は結果、&#xA;最高のお風呂日和になったね～。" speaker_show="True" stop="True" voice="ym11003_01_0377" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

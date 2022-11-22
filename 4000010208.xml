@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010208" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <sound_volume type="Bgm" cue_name="Adv1" time="1.0" wait="False" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_001" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="最近また空崎市内に違法風俗店が増えてきている&#xA;ようですね。" speaker_show="True" stop="True" voice="ah11005_02_0677" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。しかも最近は薬を使って女性に強制労働を&#xA;させる悪質な店も少なくないという噂もあるわ。" speaker_show="True" stop="True" voice="hy11002_02_0572" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="青葉 初芽" text="そんな……。これは一大事です！&#xA;すぐにみんなを集めて出動しましょう。" speaker_show="True" stop="True" voice="ah11005_02_0678" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="待って初芽、ちょっと冷静になりなさい。&#xA;どうしたのよ、あなたがそんなに取り乱すなんて。" speaker_show="True" stop="True" voice="hy11002_02_0573" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="青葉 初芽" text="すみません……。" speaker_show="True" stop="True" voice="ah11005_02_0679" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="まだこれは噂レベルの話。しかも背後で&#xA;大八洲師団が糸を引いている可能性だってあるのよ。" speaker_show="True" stop="True" voice="hy11002_02_0574" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" loop="True" />
+    <msg speaker="半蔵門 雪" text="ここはまず落ち着いて、&#xA;真偽のほどを確かめた上で冷静に動かないと。" speaker_show="True" stop="True" voice="hy11002_02_0575" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="07_ChestBothHands" loop="True" />
+    <msg speaker="青葉 初芽" text="そうですね。けど、そう言っている間にも、悲しい&#xA;目に遭う女の子が増えているかも、と思うと……。" speaker_show="True" stop="True" voice="ah11005_02_0680" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="02_Idle" loop="True" face_anim_type="008_Facial_serious" />
+    <msg speaker="青葉 初芽" text="雪ちゃん、前に違法風俗店に潜入したことが&#xA;ありましたよね。" speaker_show="True" stop="True" voice="ah11005_02_0681" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。&#xA;けど、何故今その話を？" speaker_show="True" stop="True" voice="hy11002_02_0576" />
+    <char_spine_animation body_anim_type="06_ChestLeftHand" loop="True" obj_id="青葉 初芽" face_anim_type="005_Facial_sad" />
+    <msg speaker="青葉 初芽" text="あの時私は、テレちゃんにとてもよく似た子を&#xA;見て、心から怒りと悲しみが湧いてきました。" speaker_show="True" stop="True" voice="ah11005_02_0682" />
+    <char_spine_animation body_anim_type="18_ArmsCrossed" loop="True" obj_id="青葉 初芽" face_anim_type="008_Facial_serious" />
+    <msg speaker="青葉 初芽" text="テレちゃんは私にとって、&#xA;とってもとっても大事な人です。" speaker_show="True" stop="True" voice="ah11005_02_0683" />
+    <char_spine_animation body_anim_type="06_ChestLeftHand" loop="True" obj_id="青葉 初芽" />
+    <msg speaker="青葉 初芽" text="それと同じように今強制労働させられている子たちも&#xA;誰かにとって大事な人のはずですよね。" speaker_show="True" stop="True" voice="ah11005_02_0684" />
+    <char_spine_animation body_anim_type="01_Stay" loop="True" obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" />
+    <msg speaker="半蔵門 雪" text="初芽……。" speaker_show="True" stop="True" voice="hy11002_02_0577" />
+    <char_spine_animation body_anim_type="04_HipLeftHand" loop="True" obj_id="青葉 初芽" face_anim_type="008_Facial_serious" />
+    <msg speaker="青葉 初芽" text="リスクがあるのは勿論わかっています。&#xA;けど、一刻も早く救ってあげたいんです。" speaker_show="True" stop="True" voice="ah11005_02_0685" />
+    <char_spine_animation body_anim_type="18_ArmsCrossed" loop="True" obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" />
+    <msg speaker="半蔵門 雪" text="そうね……あなたの言う通りだわ。" speaker_show="True" stop="True" voice="hy11002_02_0578" />
+    <char_spine_animation body_anim_type="06_ChestLeftHand" loop="True" obj_id="青葉 初芽" face_anim_type="002_Facial_smile" />
+    <msg speaker="青葉 初芽" text="雪ちゃん！" speaker_show="True" stop="True" voice="ah11005_02_0686" />
+    <char_spine_animation body_anim_type="11_Point" loop="True" obj_id="半蔵門 雪" />
+    <msg speaker="半蔵門 雪" text="まずは現状をこの目で見て把握する必要があるわね。" speaker_show="True" stop="True" voice="hy11002_02_0579" />
+    <char_spine_animation body_anim_type="18_ArmsCrossed" loop="True" obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" />
+    <msg speaker="半蔵門 雪" text="全員を集めてミッションを決行する前に、&#xA;私と初芽の２人で潜入して、様子を伺いましょう。" speaker_show="True" stop="True" voice="hy11002_02_0580" />
+    <char_spine_animation body_anim_type="14_Positive" loop="False" obj_id="青葉 初芽" face_anim_type="008_Facial_serious" />
+    <msg speaker="青葉 初芽" text="はい！" speaker_show="True" stop="True" voice="ah11005_02_0687" />
+    <char_spine_animation body_anim_type="04_HipLeftHand" loop="True" obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" />
+    <msg speaker="半蔵門 雪" text="そうと決まれば、すぐに作戦決行よ！" speaker_show="True" stop="True" voice="hy11002_02_0581" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

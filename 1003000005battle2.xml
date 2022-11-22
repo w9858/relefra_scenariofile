@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1003000005" />
+  </info>
+  <command>
+    <Start />
+    <msg_window_show show="False" />
+    <Comment comment="空崎コンテナターミナル 夜" />
+    <create obj_id="カトリーナ" data_id="311009001" x="0" type="Character" position_id="left" y="0" anchor="Bottom" />
+    <Comment comment="カトリーナ私服（夏）" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="カトリーナ" text="静かになったわね。海の中にダイブした奴は&#xA;さっさと逃げたみたいだし…。" speaker_show="True" stop="True" voice="kt11009_01_0027" lip_sync="True" />
+    <move obj_id="カトリーナ・トビー" x_move_type="MoveTo" time="0.5" x="-200" y="0" wait="False" y_move_type="MoveValue" position_id="left" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <move obj_id="半蔵門 雪" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" position_id="left" />
+    <msg speaker="半蔵門 雪" text="新型人形の残骸を持ち帰ってミッション終了ですね。&#xA;逃げられはしたが、収穫も多かった…。" speaker_show="True" stop="True" voice="hy11002_01_0047" lip_sync="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="600" y="0" anchor="Bottom" />
+    <move obj_id="カトリーナ" x="-300" x_move_type="MoveTo" time="0.5" y="0" wait="False" y_move_type="MoveValue" position_id="left" />
+    <move obj_id="半蔵門 雪" x="0" x_move_type="MoveTo" time="0.5" y="0" wait="False" y_move_type="MoveValue" position_id="left" />
+    <move obj_id="青葉 初芽" x="300" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" position_id="left" wait="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="発信器や危険な物質の類は検知されませんでした。&#xA;遠慮無く頂戴して、色々と調べましょう！" speaker_show="True" stop="True" voice="ah11005_01_0032" lip_sync="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <wait time="0.1" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="運ぶのお手伝いします、師匠！" speaker_show="True" stop="True" voice="ig11006_01_0031" lip_sync="True" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="それにしてもクリッシー・ガオ。あそこまでの&#xA;殺気が出せるとは。間違いなく強い…。" speaker_show="True" stop="True" voice="hy11002_01_0048" lip_sync="True" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" x="-300" position_id="left" y="0" anchor="Bottom" />
+    <Comment comment="カトリーナ私服（夏）" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="アメリカでも要注意人物よ。トビー家は危険レベル&#xA;Ｓをつけている。モウリョウの大幹部に匹敵するわ。" speaker_show="True" stop="True" voice="kt11009_01_0028" lip_sync="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="相模 楓" text="そっか犯罪組織が手を組んでるって事は、今回は文鳥の女みたいな敵が数人いる可能性があると…。" speaker_show="True" stop="True" voice="sf11004_01_0093" lip_sync="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="八千代 命" text="いやーどうかなー天堂さんクラスは&#xA;流石にそうそういないと思うよ？" speaker_show="True" stop="True" voice="ym11003_01_0066" lip_sync="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="101_Facial_trouble" body_anim_type="05_HipBothHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="相模 楓" text="あー！　やっぱりあの女のことを&#xA;ちょっと気にいってる！！" speaker_show="True" stop="True" voice="sf11004_01_0094" lip_sync="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="014_Facial_angryStrong" body_anim_type="05_HipBothHands" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="八千代 命" text="だーっ！　過剰反応しすぎ！" speaker_show="True" stop="True" voice="ym11003_01_0067" lip_sync="True" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" wait="True" time="0.5" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <transition type="In" color_change="True" wait="True" time="0.5" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" x="0" position_id="left" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="クリッシー" text="ん～。カメラに写らないんですねツキカゲ。&#xA;正体は分からずじまいか。" speaker_show="True" stop="True" voice="ks16001_01_0031" lip_sync="True" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="クリッシー" text="まぁいいです戦闘データはとれました。今度は&#xA;きっちり準備してきますよ。他の皆も連れてね…。" speaker_show="True" stop="True" voice="ks16001_01_0032" lip_sync="True" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+  </command>
+</adv>

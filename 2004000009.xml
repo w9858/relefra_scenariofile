@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000009" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg show="True" resource_type="Background" file="42_skyni_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="空" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こちらノブナガ。ファクトリーは潰した。&#xA;ミッション終了したんで戻るわ。" speaker_show="True" stop="True" voice="sr13001_02_0243" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="とうとう、私達は戦いを仕掛けたのですね。&#xA;リザード社という巨大な敵に。" speaker_show="True" stop="True" voice="sm13002_02_0150" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="……ＺＥＴが使っているテクノロジーから&#xA;敷島関係との繋がりを真っ先に疑われるはずですわ。" speaker_show="True" stop="True" voice="sm13002_02_0151" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="でしょうね。そもそも、無敵甲冑なんてハイテク&#xA;作れる天才、世界でも殆どいないからね。" speaker_show="True" stop="True" voice="sr13001_02_0244" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="いいんじゃない。下手に手を出してきたら、&#xA;その時こそリザードの最後よ。" speaker_show="True" stop="True" voice="sr13001_02_0245" />
+    <msg window_type="SystemMsg" text="敷島とリザードの因縁が、より深まっていく――。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

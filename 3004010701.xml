@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3004010701" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Adv2 女子会話・コメディ" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <Comment comment="お花見会場" />
+    <bg show="True" file="29_hanamipark_01" />
+    <msg window_type="SystemMsg" text="初めてのお花見にやってきたテレジアと白虎は、&#xA;モモ達の指定する花見場所を目指して歩いていた。" stop="True" />
+    <msg window_type="SystemMsg" text="その道中、人混みの中で、迷子を見つけた２人は、&#xA;母親探しを手伝うことにしたのだが……。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="お花見会場" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="-200" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008005" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="おーい、母親！&#xA;坊主の母親～！　どこ行った～？" speaker_show="True" stop="True" voice="bk11008_01_0130" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="見つからないな……。" speaker_show="True" stop="True" voice="tr11007_01_0148" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="白虎" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <wait time="1.0" />
+    <move obj_id="テレジア" position_id="left" x="0" x_move_type="MoveTo" time="0" wait="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="子供の声" text="あっ、おかーさん！&#xA;今ね、あっちにおかーさんいた！" speaker_show="True" stop="True" voice="99043_01_0013" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="よし、案内しろ。" speaker_show="True" stop="True" voice="tr11007_01_0149" />
+    <msg_window_show show="False" />
+    <sound cue_name="Run" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="0" anchor="Bottom" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ん……？　テレ公？　坊主？" speaker_show="True" stop="True" voice="bk11008_01_0131" />
+    <char_spine_animation obj_id="白虎" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="……居ない。" speaker_show="True" stop="True" voice="bk11008_01_0132" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="くそー、テレ公！&#xA;どこに行きやがった？　おーい、テレ公！" speaker_show="True" stop="True" voice="bk11008_01_0133" />
+    <msg speaker="白虎" text="花見場所の地図はテレ公が持ってるから、&#xA;あいつを捕まえないことには、花見にも行けない。" speaker_show="True" stop="True" voice="bk11008_01_0134" />
+    <msg_window_show show="False" />
+    <sound cue_name="Walk" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" time="0.8" wait="True" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" time="1.5" wait="True" />
+    <char_spine_animation obj_id="白虎" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="おーい、テレ公！&#xA;どこだー？　白虎様はここだぞー！" speaker_show="True" stop="True" voice="bk11008_01_0135" />
+    <msg_window_show show="False" />
+    <msg speaker="新垣 歩" text="お嬢ちゃん、どうしたの？" speaker_show="True" stop="True" voice="na99003_01_0016" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="誰だお前は？　それから私は&#xA;お嬢ちゃんなんかじゃない！　白虎様だ！" speaker_show="True" stop="True" voice="bk11008_01_0136" />
+    <char_spine_animation obj_id="新垣 歩" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="新垣 歩" text="そっか、ごめんね。白虎ちゃん。" speaker_show="True" stop="True" voice="na99003_01_0017" />
+    <char_spine_animation obj_id="新垣 歩" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="新垣 歩" text="お姉さんはパトロール中のお巡りさんなんだけど、&#xA;あなたはここで何をしているの？" speaker_show="True" stop="True" voice="na99003_01_0018" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="テレ公を探してるんだよ！" speaker_show="True" stop="True" voice="bk11008_01_0137" />
+    <char_spine_animation obj_id="新垣 歩" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="新垣 歩" text="テレ公……？&#xA;もしかして、迷子になっちゃったのかな？" speaker_show="True" stop="True" voice="na99003_01_0019" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="バカなことを言うな！&#xA;迷子になったのはテレ公の方だ！" speaker_show="True" stop="True" voice="bk11008_01_0138" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="この白虎様を迷子と勘違いするなんて、&#xA;日本の警察は何を考えてるんだ！" speaker_show="True" stop="True" voice="bk11008_01_0139" />
+    <char_spine_animation obj_id="新垣 歩" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="新垣 歩" text="ごめんごめん。それじゃあ白虎ちゃんは、その&#xA;テレ公ちゃんとはぐれちゃったってことなのかな？" speaker_show="True" stop="True" voice="na99003_01_0020" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="そうだ。私がちょっと目を離した隙に、&#xA;居なくなりやがって……。" speaker_show="True" stop="True" voice="bk11008_01_0140" />
+    <char_spine_animation obj_id="新垣 歩" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="新垣 歩" text="そうだったのね。" speaker_show="True" stop="True" voice="na99003_01_0021" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="お前、警察ならテレ公を探し出せ！" speaker_show="True" stop="True" voice="bk11008_01_0141" />
+    <char_spine_animation obj_id="新垣 歩" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="新垣 歩" text="それじゃあ……、お巡りさんと一緒に&#xA;来てくれる？" speaker_show="True" stop="True" voice="na99003_01_0022" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="おう、さっさとテレ公を連れてこい。" speaker_show="True" stop="True" voice="bk11008_01_0142" />
+    <sound cue_name="Walk" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="白虎" />
+    <delete obj_id="新垣 歩" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007003" position_id="left" x="0" anchor="Bottom" />
+    <msg speaker="新垣 歩" text="さ、着いたわよ。" speaker_show="True" stop="True" voice="na99003_01_0023" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="ん……？　何だここ？&#xA;迷子センターって書いてあるぞ！" speaker_show="True" stop="True" voice="bk11008_01_0143" />
+    <char_spine_animation obj_id="新垣 歩" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="新垣 歩" text="ここでテレ公ちゃんを待ってあげてね。&#xA;それじゃあ。" speaker_show="True" stop="True" voice="na99003_01_0024" />
+    <msg_window_show show="False" />
+    <move obj_id="新垣 歩" position_id="left" x="1500" x_move_type="MoveTo" time="1.5" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="おい、待て！　迷子になったのは&#xA;テレ公だと言っただろう！" speaker_show="True" stop="True" voice="bk11008_01_0144" />
+  </command>
+</adv>

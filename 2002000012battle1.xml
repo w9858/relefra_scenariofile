@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000011" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="ダンジョン　潜入パート" />
+    <Comment comment="バトル中ADVパート" />
+    <Comment comment="背景の指定なし" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="あっ！？　ヨッスヨッスまた会ったな。これも&#xA;運命って奴かよ。すげぇ嬉しいぜ。お前らの名は？" speaker_show="True" stop="True" voice="ry12002_01_0042" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="乱獅子 ゆら" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="警視庁・凪の部隊。国家に波風立てる輩は綺麗に&#xA;取り除く。というかお前自爆したじゃろ？" speaker_show="True" stop="True" voice="ss12003_01_0145" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="アタシ様は乱獅子原野の血をひいてる乱獅子ゆらだ！&#xA;あんな自爆ぐらい朝のシャワーと同じ感覚だったぜ。" speaker_show="True" stop="True" voice="ry12002_01_0043" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="来た来た噂の乱獅子だよ。ってことは&#xA;何か怪しげな特技をもってるわけだ。" speaker_show="True" stop="True" voice="th12004_01_0090" />
+    <delete obj_id="轟 葉栖美" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="お前ら倒して、悪いおじさん仕留めるのがアタシ様の&#xA;お仕事なんだよ。さぁ行くぜ行くぜ行っちゃうぜ！！" speaker_show="True" stop="True" voice="ry12002_01_0044" />
+    <msg_window_show show="False" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="宗近 飛粋" />
+  </command>
+</adv>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000014battle" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <move obj_id="敷島 来夢" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="アルム" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="アルム！　いきなり現れたわね。&#xA;壁をぶち破ってまぁ豪快だこと。" speaker_show="True" stop="True" voice="sr13001_02_0293" />
+    <char_spine_animation obj_id="敷島 来夢" />
+    <msg speaker="敷島 来夢" text="（にしても本当に来るとは。少し妙ね。追跡装置が&#xA;そこまで高性能ならもっと早く襲ってくるような。）" speaker_show="True" stop="True" voice="sr13001_02_0294" lip_sync="False" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" force_end="True" loop="True" />
+    <msg speaker="アルム" text="標的確認。消去開始。デストロイモード起動。" speaker_show="True" stop="True" voice="ar16004_02_0021" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="おっ、問答無用ね。デストロイ上等！&#xA;アルムの分析は済んでるのよ。" speaker_show="True" stop="True" voice="sr13001_02_0295" />
+    <char_spine_animation obj_id="敷島 真留瀬" />
+    <msg speaker="敷島 真留瀬" text="ノブナガ！　こちらもデータを解析されている&#xA;可能性があります。油断はしないで下さいまし。" speaker_show="True" stop="True" voice="sm13002_02_0168" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

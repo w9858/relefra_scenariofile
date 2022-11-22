@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000020" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <Comment comment="街　夕" />
+    <bg show="True" file="04_shopstreetev_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="街　夜" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" x="0" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="（ビラ配り中に怪しい奴を見かけて&#xA;尾行してみれば……）" speaker_show="True" stop="True" voice="sf11004_01_0183" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="相模 楓" />
+    <bg show="True" resource_type="AnimSS" file="No_078" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="チンピラ" text="ジョージさん、今回のアガリです。" speaker_show="True" stop="True" voice="99015_01_0001" />
+    <msg speaker="ジョージ" text="ああ。" speaker_show="True" stop="True" voice="jj14004_01_0004" />
+    <msg speaker="相模 楓" text="（お金と薬を交換してる……！　ビンゴ……！&#xA;このまま、アタシ１人で捕まえてやる！）" speaker_show="True" stop="True" voice="sf11004_01_0184" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <bg show="True" file="04_shopstreetev_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" x="-1000" y="0" position_id="left" anchor="Bottom" />
+    <move obj_id="八千代 命" x="0" x_move_type="MoveTo" time="0.8" position_id="left" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="あれ、フー？&#xA;何やってんの？" speaker_show="True" stop="True" voice="ym11003_01_0168" />
+    <move obj_id="八千代 命" x="-200" x_move_type="MoveTo" time="0.3" wait="True" position_id="left" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" x="200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠!?" speaker_show="True" stop="True" voice="sf11004_01_0185" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……あ、あれ!?　さっきの男がいない……！&#xA;取り逃がした……！" speaker_show="True" stop="True" voice="sf11004_01_0186" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <Comment comment="Wasabi　夕" />
+    <bg show="True" file="02_wasabimo_001" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" x="200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="True" loop="True" />
+    <msg speaker="八千代 命" text="単独行動はダメって、いつも言ってるじゃないか！" speaker_show="True" stop="True" voice="ym11003_01_0169" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="アタシの仕事は完璧でした。&#xA;師匠が来なかったら、今頃アイツは捕獲してました。" speaker_show="True" stop="True" voice="sf11004_01_0187" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そういう問題じゃなくて！&#xA;フーはまだ弟子なんだから！" speaker_show="True" stop="True" voice="ym11003_01_0170" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="メ、メイちゃん、フーちゃん……&#xA;ケンカは……" speaker_show="True" stop="True" voice="mm11001_01_0349" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" x="200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <lip_sync target1="相模 楓" target2="八千代 命" />
+    <msg speaker="命・楓" text="モモちは黙ってて！" speaker_show="True" stop="True" voice="2001000020_union_001" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="momo_sweat" effect_type="MampSweat" life_time="1.0" target_obj="源 モモ" x="0" y="0" />
+    <msg speaker="源 モモ" text="は、はい！" speaker_show="True" stop="True" voice="mm11001_01_0350" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="13_Question" force_end="False" loop="True" face_anim_type="002_Facial_smile" />
+    <msg speaker="青葉 初芽" text="息はピッタリですね。" speaker_show="True" stop="True" voice="ah11005_01_0112" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" x="200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="弟子、弟子って……！&#xA;そんなにアタシは頼りないですか……！" speaker_show="True" stop="True" voice="sf11004_01_0189" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="違う、なんでも１人でやろうとして、&#xA;抱え込んで……" speaker_show="True" stop="True" voice="ym11003_01_0172" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……だって、アタシだって……" speaker_show="True" stop="True" voice="sf11004_01_0190" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="フーはメイの言うこと聞いてればいいの！" speaker_show="True" stop="True" voice="ym11003_01_0173" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……！" speaker_show="True" stop="True" voice="sf11004_01_0191" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠の言うことを全部聞いてたら、&#xA;浪費癖のダメ人間になっちゃいます！" speaker_show="True" stop="True" voice="sf11004_01_0192" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="なっ!?　普段の生活だったら、フーだって！&#xA;寝相が悪すぎて、いつも蹴飛ばされて！" speaker_show="True" stop="True" voice="ym11003_01_0174" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="家に帰る時間がいつも分からないです！" speaker_show="True" stop="True" voice="sf11004_01_0193" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ギターがノッたら、帰れないんだ！" speaker_show="True" stop="True" voice="ym11003_01_0175" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ご飯の用意だってあるんですよ！" speaker_show="True" stop="True" voice="sf11004_01_0194" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="True" loop="True" />
+    <msg speaker="カトリーナ" text="なんだか、夫婦喧嘩みたいね。" speaker_show="True" stop="True" voice="kt11009_01_0075" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="まったく、この２人は……" speaker_show="True" stop="True" voice="hy11002_01_0174" />
+    <create_effect effect_id="yuki_Exclamation" effect_type="MampExclamation" life_time="1.0" target_obj="半蔵門 雪" x="0" y="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="……千代女、風魔。緊急任務よ。" speaker_show="True" stop="True" voice="hy11002_01_0175" />
+    <msg_window_show show="False" />
+    <transition effect="Shutter" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="カトリーナ" />
+    <Comment comment="街　夜　の背景は無い。代わりはこれ? 10_terminalni_01" />
+    <bg show="True" file="04_shopstreetev_01" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <transition effect="Shutter" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" x="-300" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" x="300" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="風魔、急げ!!" speaker_show="True" stop="True" voice="ym11003_01_0176" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="言われなくてもわかってます!!" speaker_show="True" stop="True" voice="sf11004_01_0195" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" force_end="True" />
+    <msg speaker="青葉 初芽" text="経路前方より、敵の接近を確認。&#xA;数は12。" speaker_show="True" stop="True" voice="ah11005_01_0113" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="アタシが突破します！" speaker_show="True" stop="True" voice="sf11004_01_0196" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="前に出すぎるな！&#xA;風魔は自分の安全確保を優先！" speaker_show="True" stop="True" voice="ym11003_01_0177" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="また、そうやって……！&#xA;アタシだって……！" speaker_show="True" stop="True" voice="sf11004_01_0197" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <msg speaker="黒服の男" text="お前ら、止まれ!!" speaker_show="True" stop="True" voice="99016_01_0001" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="fuu_Exclamation" effect_type="MampExclamation" life_time="1.0" target_obj="相模 楓" x="0" y="0" />
+    <msg speaker="相模 楓" text="拳銃!?&#xA;まずい……!!" speaker_show="True" stop="True" voice="sf11004_01_0198" />
+    <move obj_id="相模 楓" x="-125" x_move_type="MoveTo" time="0.3" wait="False" position_id="left" />
+    <move obj_id="八千代 命" x="125" x_move_type="MoveTo" time="0.3" wait="True" position_id="left" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="フー!!!!" speaker_show="True" stop="True" voice="ym11003_01_0178" />
+    <Comment comment="「ズドン！」と重い銃声が良いかと" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <msg_window_show show="False" />
+    <fade_out type="Default" wait="True" time="1.0" />
+    <wait time="1.0" />
+    <msg speaker="相模 楓" text="師匠!!!!" speaker_show="True" stop="True" voice="sf11004_01_0199" />
+  </command>
+</adv>

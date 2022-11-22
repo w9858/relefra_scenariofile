@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <Comment comment="背景：プールがないため仮" />
+    <bg show="True" resource_type="Background" file="02_wasabimo_001" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="はー、訓練のしすぎで腹ペコ丸だよ～。&#xA;今日は何カレーにしよっかなー。" speaker_show="True" stop="True" voice="ym11003_02_0488" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="あ、メイちゃんいらっしゃい。&#xA;もうこんな時間か。" speaker_show="True" stop="True" voice="ig11006_02_0155" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="あれ？　ごえちゃんもモモちも&#xA;ノート広げて何してんの？" speaker_show="True" stop="True" voice="ym11003_02_0489" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="お客さんが来なくて暇だから、ごえちゃんと&#xA;一緒に夏休みの宿題やってたんだ。" speaker_show="True" stop="True" voice="mm11001_02_0432" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="げげっ、まだ夏休み始まったばかりだよ？　毎日&#xA;訓練やら事件やらあるのによくやる気になるねぇ。" speaker_show="True" stop="True" voice="ym11003_02_0490" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="暇な時間ができたなら、メイと一緒に&#xA;サマーをエンジョイしちゃおうぜ～。" speaker_show="True" stop="True" voice="ym11003_02_0491" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="悪魔の誘惑……。確かにミッション、宿題、&#xA;訓練で遊ぶ時間なんて全然ない毎日だけど……。" speaker_show="True" stop="True" voice="mm11001_02_0433" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="青春は一度きり！　女子高生の夏休みは&#xA;あっという間に終わっちゃうんだぜい！" speaker_show="True" stop="True" voice="ym11003_02_0492" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="師匠、一応言っときますけど、８月の終わりに&#xA;泣きついてきてもアタシは宿題手伝いませんよ？" speaker_show="True" stop="True" voice="sf11004_02_0432" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ふ、フー！　いつの間に……。" speaker_show="True" stop="True" voice="ym11003_02_0493" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="さっきからずっと居ましたよ。ちなみにアタシは&#xA;たった今、夏休みの宿題片付きました。" speaker_show="True" stop="True" voice="sf11004_02_0433" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="むぐぐ、我が弟子ながら恐ろしい子……。&#xA;けどメイだって大丈夫！" speaker_show="True" stop="True" voice="ym11003_02_0494" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="メイにはモモちとごえちゃんという、&#xA;いざと言う時頼りになっちゃう心の友が……。" speaker_show="True" stop="True" voice="ym11003_02_0495" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="って２人とも、メイのこと無視して&#xA;宿題しないでおくれよー。" speaker_show="True" stop="True" voice="ym11003_02_0496" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="ごめんごめん、けどメイちゃん去年の８月最後の日に&#xA;言ってたよね。来年は絶対計画的に宿題やるって。" speaker_show="True" stop="True" voice="ig11006_02_0156" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="むー、確かに訓練もミッションも宿題も、&#xA;大事だけどさ、貴重な女子高生の夏休みだよ！" speaker_show="True" stop="True" voice="ym11003_02_0497" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="やっぱり遊びも満喫すべきだとメイは思う！" speaker_show="True" stop="True" voice="ym11003_02_0498" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="確かに気を張り詰め続けるのも良いことではないし、&#xA;たまには休息も大事だとは思うわね。" speaker_show="True" stop="True" voice="hy11002_02_0370" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="それなら、ごえちゃんの誕生日ももうすぐですし、&#xA;お祝いも兼ねてみんなで遊びに行きましょう！" speaker_show="True" stop="True" voice="ah11005_02_0319" />
+    <move obj_id="青葉 初芽" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="さっすがユッキーと初さん！&#xA;そうこなくっちゃ！" speaker_show="True" stop="True" voice="ym11003_02_0499" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="けど、ただでさえ毎日忙しいのに、&#xA;私のためにそこまでして貰うのは……" speaker_show="True" stop="True" voice="ig11006_02_0157" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="何、遠慮してるのよ？　ごえっちの誕生日って事なら&#xA;盛大にお祝いしない訳にはいかないでしょ。" speaker_show="True" stop="True" voice="sf11004_02_0434" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="うんうん、夏休みの思い出になるような&#xA;楽しいお祝い、やりたいねー。" speaker_show="True" stop="True" voice="mm11001_02_0434" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_006" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="35_hisuiandyuraroom_01" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="宗近飛粋" data_id="312001002" type="Character" />
+    <char_spine_animation obj_id="宗近飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" lip_sync_volume="0.01" text="そうだよ！&#xA;今日、７月２６日は私の誕生日！" voice="hisui_001" />
+    <char_spine_animation obj_id="宗近飛粋" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" text="お祝いしてくれてありがとう！&#xA;とっても嬉しいよー！" voice="hisui_002" />
+    <scale_obj obj_id="宗近飛粋" value="200" />
+    <move obj_id="宗近飛粋" y="-550" time="0" wait="True" />
+    <create_effect effect_id="飛粋周り" effect_type="EffectShockWave" target_obj="宗近飛粋" />
+    <char_spine_animation obj_id="宗近飛粋" loop="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" voice="hisui_003" text="えへへ。&#xA;えへへへへへへへ。" />
+    <char_spine_animation obj_id="宗近飛粋" face_anim_type="011_Facial_surprise" loop="True" body_anim_type="13_Question" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" text="……え？&#xA;近過ぎる？　う～ん。" voice="hisui_004" />
+    <delete obj_id="飛粋周り" />
+    <char_spine_animation obj_id="宗近飛粋" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" mixing="True" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" text="また近付き過ぎちゃったー……。&#xA;えへへへへ。" voice="hisui_005" />
+    <scale_obj obj_id="宗近飛粋" value="100" />
+    <move obj_id="宗近飛粋" y="550" y_move_type="MoveValue" time="0" wait="True" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="宗近飛粋" face_anim_type="002_Facial_smile" body_anim_type="21_PutElbow" loop="True" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" text="凪の部隊に入ってからの毎日は&#xA;とっても忙しいけど。" voice="hisui_006" />
+    <char_spine_animation obj_id="宗近飛粋" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" text="大切な友達ができたし、&#xA;すごく充実してるよ。" voice="hisui_007" />
+    <char_spine_animation obj_id="宗近飛粋" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="宗近飛粋" stop="True" window_type="CharMsg" text="これからも悪を懲らしめるために&#xA;宗近飛粋、頑張ります！" voice="hisui_008" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+  </command>
+</adv>

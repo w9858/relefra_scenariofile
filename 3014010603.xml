@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014010603" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <Comment comment="背景：プールがないため仮" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="-200" y="0" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ぷはー！&#xA;あれ？　ごえちゃん？" speaker_show="True" stop="True" voice="mm11001_02_0520" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ぶは～！　ありゃ？&#xA;浮き輪の上にごえちゃんが居ない！" speaker_show="True" stop="True" voice="ym11003_02_0581" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ちょっとやりすぎちゃったかもね……" speaker_show="True" stop="True" voice="mm11001_02_0521" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="だね。で、ごえちゃんは？&#xA;どこ行っちゃったんだろ？" speaker_show="True" stop="True" voice="ym11003_02_0582" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="見た感じ、&#xA;プールの周りにはいなそうだけど。" speaker_show="True" stop="True" voice="mm11001_02_0522" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="もしかして、さっきの衝撃で水の中に落ちて&#xA;溺れてたりして……" speaker_show="True" stop="True" voice="ym11003_02_0583" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="どうしよう！　ごえちゃん……" speaker_show="True" stop="True" voice="mm11001_02_0523" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="きゃっ、きゃははは！　あはははっ！" speaker_show="True" stop="True" voice="mm11001_02_0524" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="モモち!?&#xA;いきなりどうしちゃったのさ？" speaker_show="True" stop="True" voice="ym11003_02_0584" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="きゃははは！　きゃっ！&#xA;あははははははっっ。" speaker_show="True" stop="True" voice="mm11001_02_0525" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="何でこんな時に笑ってんの！　はっ、もしかして、&#xA;何かヤバい洗脳薬が撒かれたんじゃ……" speaker_show="True" stop="True" voice="ym11003_02_0585" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うひゃっ！&#xA;ひゃひゃひゃひゃひゃっ！" speaker_show="True" stop="True" voice="ym11003_02_0586" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うひー！　きゃははははっ！&#xA;誰？　水の中でくすぐってるのは誰だよー？" speaker_show="True" stop="True" voice="ym11003_02_0587" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ぎゃははっ！　脇腹はダメー！&#xA;くすぐったいよー、やーめてー！" speaker_show="True" stop="True" voice="ym11003_02_0588" />
+    <move obj_id="八千代 命" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create obj_id="石川 五恵" data_id="311006013" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="ぷはー！&#xA;あははっ、私だよー。" speaker_show="True" stop="True" voice="ig11006_02_0264" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ちょっ、ちょっとごえちゃん！&#xA;何で突然！" speaker_show="True" stop="True" voice="ym11003_02_0589" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="それはこっちの台詞だよ！&#xA;イタズラにはイタズラでお返ししただけ。" speaker_show="True" stop="True" voice="ig11006_02_0265" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="なんだ、バレてたのか～。" speaker_show="True" stop="True" voice="mm11001_02_0526" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ってきゃははっ！&#xA;ダメダメ！　足の裏こちょこちょしないで～！" speaker_show="True" stop="True" voice="mm11001_02_0527" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うひゃひゃひゃっ！&#xA;やめてやめてっ！　くすぐった……きゃはは！" speaker_show="True" stop="True" voice="ym11003_02_0590" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="あははは！　ごめん、ごえちゃん！&#xA;いたずらして悪かったってー！" speaker_show="True" stop="True" voice="ym11003_02_0591" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="あはは、反省してくれたみたいだね。&#xA;お返し、大成功～！" speaker_show="True" stop="True" voice="ig11006_02_0266" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

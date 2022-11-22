@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_009" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="02_wasabisp_001" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="テレジア" data_id="311008003" type="Character" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="False" mixing="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" loop="True" />
+    <msg speaker="テレジア" stop="True" window_type="CharMsg" lip_sync_volume="0.01" voice="bd_tr_01" text="そうか……。今日が私の誕生日か。" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="07_ChestBothHands" loop="True" force_end="False" mixing="True" />
+    <msg speaker="テレジア" stop="True" window_type="CharMsg" voice="bd_tr_02" text="みんなの喜ぶ姿を見て、&#xA;とても温かい気持ちになった。" />
+    <char_spine_animation obj_id="テレジア" loop="False" body_anim_type="14_Positive" face_anim_type="001_Facial_blink" mixing="False" />
+    <msg speaker="テレジア" stop="True" window_type="CharMsg" voice="bd_tr_03" text="私は……嬉しかったんだな。&#xA;誕生日をこんな風に迎えられるとは思わなかった。" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="003_Facial_laugh" loop="True" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="テレジア" stop="True" window_type="CharMsg" voice="bd_tr_04" text="本当にありがとう。&#xA;それからケーキ、とてもおいしかった。" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" mixing="False" />
+    <msg speaker="テレジア" stop="True" window_type="CharMsg" voice="bd_tr_05" text="みんなには、よくしてもらってばかりだ。" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="テレジア" stop="True" window_type="CharMsg" voice="bd_tr_06" text="少しでも役に立てるように、&#xA;もっと強くなりたいと思う。" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" mixing="False" />
+    <msg speaker="テレジア" stop="True" window_type="CharMsg" voice="bd_tr_07" text="これからも、よろしく頼む。" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+  </command>
+</adv>

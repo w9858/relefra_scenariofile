@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020000011" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="ごらく部４人は、&#xA;１日限定の修行を終える。" stop="True" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001001" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004001" position_id="left" x="130" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002001" position_id="left" x="-130" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="それじゃ、せーのっ。" speaker_show="True" stop="True" voice="tk95002_03_0063" />
+    <lip_sync target1="赤座 あかり" target2="吉川 ちなつ" target3="歳納 京子" target4="船見 結衣" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="赤座 あかり" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="あかり・京子・結衣・ちなつ" text="ありがとうございましたー！" speaker_show="True" stop="True" voice="aa95001_03_0043" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="やー、何だか本当に&#xA;スパイになれる気がしてきたな！" speaker_show="True" stop="True" voice="tk95002_03_0064" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="いやいや、さすがにそれは無理でしょ。&#xA;修行もすごく手加減してくれたんだろうし。" speaker_show="True" stop="True" voice="fy95003_03_0062" />
+    <delete obj_id="船見 結衣" />
+    <delete obj_id="赤座 あかり" />
+    <delete obj_id="吉川 ちなつ" />
+    <delete obj_id="歳納 京子" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="あなた達なら&#xA;本当になれるかも知れないよ。" speaker_show="True" stop="True" voice="ig11006_03_0028" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="正直、スパイとしての素質は&#xA;間違いなくあるよねー。" speaker_show="True" stop="True" voice="ym11003_03_0050" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="３ヶ月程度の修行を積めば……いいえ、&#xA;もっと早く実戦に出られる可能性もあるわ。" speaker_show="True" stop="True" voice="hy11002_03_0043" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="これは私の立ててみたトレーニングのスケジュールよ。&#xA;どう、やってくれるかしら？" speaker_show="True" stop="True" voice="hy11002_03_0044" />
+    <sound type="Se" cue_name="Paper" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="021_Facial_exciting" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="2.0" target_obj="赤座 あかり" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="赤座 あかり" text="うわー、&#xA;びっしりと予定が詰まってるよぉ……。" speaker_show="True" stop="True" voice="aa95001_03_0044" />
+    <delete obj_id="Sweat" />
+    <delete obj_id="赤座 あかり" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="こんなにトレーニングしたら、&#xA;かなりマッチョになれそうだね。" speaker_show="True" stop="True" voice="tk95002_03_0065" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="腹筋で銃弾を跳ね返せそうだな。" speaker_show="True" stop="True" voice="fy95003_03_0063" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="False" mixing="True" />
+    <char_spine_cheek obj_id="吉川 ちなつ" type="Cheek03_strong" loop="True" />
+    <create_effect effect_id="Heart" effect_type="EffectHeart" life_time="2.0" target_obj="吉川 ちなつ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="吉川 ちなつ" text="そんな結衣先輩も素敵……！" speaker_show="True" stop="True" voice="yc95004_03_0033" />
+    <delete obj_id="Heart" />
+    <move obj_id="歳納 京子" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="-130" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="船見 結衣" position_id="left" x="130" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002002" position_id="left" x="430" y="0" anchor="Bottom" />
+    <move obj_id="半蔵門 雪" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_cheek obj_id="吉川 ちなつ" type="Cheek01_default" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="任務で命を落とさないためにも、&#xA;このくらいは必要よ。" speaker_show="True" stop="True" voice="hy11002_03_0045" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="歳納 京子" text="やー、すみません。これは無理。&#xA;だって明後日はコムケの締め切りだし。" speaker_show="True" stop="True" voice="tk95002_03_0066" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="コムケ……？" speaker_show="True" stop="True" voice="hy11002_03_0046" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001001" position_id="left" x="430" y="0" anchor="Bottom" />
+    <move obj_id="赤座 あかり" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="あかり、９時には寝ないといけないし。" speaker_show="True" stop="True" voice="aa95001_03_0045" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="それに、あまり遅くに出掛けると&#xA;お姉ちゃんが心配しちゃう。" speaker_show="True" stop="True" voice="aa95001_03_0046" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="船見 結衣" text="私も、命を懸けて悪と戦うとかは&#xA;ちょっと……。" speaker_show="True" stop="True" voice="fy95003_03_0064" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="結衣先輩がそう言っているので、私も無理です。" speaker_show="True" stop="True" voice="yc95004_03_0034" />
+    <delete obj_id="船見 結衣" />
+    <delete obj_id="赤座 あかり" />
+    <delete obj_id="吉川 ちなつ" />
+    <delete obj_id="歳納 京子" />
+    <create type="Character" obj_id="テレジア" data_id="311008002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="完全拒否だな。" speaker_show="True" stop="True" voice="tr11007_03_0011" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="分かってはいたけど、残念ね。" speaker_show="True" stop="True" voice="hy11002_03_0047" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="私のスパイアイテムが、皆さんに実戦で使われるのも&#xA;見てみたかったですけどね。" speaker_show="True" stop="True" voice="ah11005_03_0039" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="それじゃ、名残惜しいけど&#xA;一緒にいられるのはここまでかな。" speaker_show="True" stop="True" voice="ym11003_03_0051" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="き、記憶を消すんでしたっけ。" speaker_show="True" stop="True" voice="fy95003_03_0065" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うん、決まりだし。" speaker_show="True" stop="True" voice="ym11003_03_0052" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="船見 結衣" />
+    <create type="Character" obj_id="源 モモ" data_id="311001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="ここで過ごした事を忘れちゃうのって……&#xA;ちょっぴり寂しいかも。" speaker_show="True" stop="True" voice="aa95001_03_0047" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="私達もだよ。" speaker_show="True" stop="True" voice="mm11001_03_0043" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="でも……いつか空崎に来たときに、&#xA;また会えるかも知れない。" speaker_show="True" stop="True" voice="mm11001_03_0044" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="うん、今生の別れじゃないもの。" speaker_show="True" stop="True" voice="ig11006_03_0029" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="赤座 あかり" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="そうだぞ、あかりよ。ごらく部とツキカゲは&#xA;別々の道で生きていくのじゃ。" speaker_show="True" stop="True" voice="tk95002_03_0067" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="お前はなぜ得意気なんだ。" speaker_show="True" stop="True" voice="fy95003_03_0066" />
+    <delete obj_id="船見 結衣" />
+    <move obj_id="歳納 京子" position_id="left" x="-180" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001002" position_id="left" x="420" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001001" position_id="left" x="-420" y="0" anchor="Bottom" />
+    <move obj_id="赤座 あかり" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="180" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="じゃ、撃つよー。" speaker_show="True" stop="True" voice="ym11003_03_0053" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="021_Facial_exciting" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="は、はいっ……！" speaker_show="True" stop="True" voice="aa95001_03_0048" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="皆さんと一緒にいられて、すごく楽しかったです。&#xA;ありがとう！" speaker_show="True" stop="True" voice="mm11001_03_0045" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="ふぁぁっ……い、痛くしないでね……！" speaker_show="True" stop="True" voice="tk95002_03_0068" />
+    <delete obj_id="赤座 あかり" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="-430" y="0" anchor="Bottom" />
+    <move obj_id="船見 結衣" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="最後まで茶化すなぁ。" speaker_show="True" stop="True" voice="fy95003_03_0067" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="1.0" />
+  </command>
+</adv>

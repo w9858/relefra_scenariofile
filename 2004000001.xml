@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg show="True" resource_type="Background" file="07_containerni_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="港" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="ロボットは人間社会での運用が進んでおり&#xA;今では「人形」と呼ばれていた――。" stop="True" />
+    <msg window_type="SystemMsg" text="人形は重労働の補佐、警備など人間を&#xA;助けるために開発が進められたが……。" stop="True" />
+    <msg window_type="SystemMsg" text="その叡智を悪用する人間もいた。&#xA;一部のロボットは軍事に用いられている。" stop="True" />
+    <msg speaker="密輸人１" text="よーしそのまま運び込め。&#xA;……おい、どうした何ボサッとしている。" speaker_show="True" stop="True" voice="99005_02_0001" />
+    <msg speaker="密輸人２" text="あ、いや……その。" speaker_show="True" stop="True" voice="99006_02_0001" />
+    <msg speaker="密輸人１" text="とっとと片付けちまおうぜ。警察は大丈夫&#xA;だろうけど、うるさい輩もいるからなぁ。" speaker_show="True" stop="True" voice="99005_02_0002" />
+    <msg speaker="密輸人２" text="そ、空を何かがブワァーッて&#xA;飛んできたような……。あれは人形……？" speaker_show="True" stop="True" voice="99006_02_0002" />
+    <msg speaker="密輸人１" text="あぁん？　お前クスリやってきたのか？" speaker_show="True" stop="True" voice="99005_02_0003" />
+    <msg speaker="密輸人１" text="……って。え。本当に空、飛んでる？&#xA;飛行可能な人形って超ハイテクじゃねぇ？" speaker_show="True" stop="True" voice="99005_02_0004" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg file="42_skyni_01" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="23_bodyUnique" force_end="False" loop="True" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg speaker="敷島 来夢" text="（ハタから見れば人形なんだけど、それは迷彩でね。&#xA;実は美人の敷島来夢様なんだなぁ、これが。）" speaker_show="True" stop="True" voice="sr13001_02_0131" lip_sync="False" />
+    <msg speaker="敷島 来夢" text="（サーチ開始っと。おー良好良好。&#xA;さすが私が作った装置よね、と。）" speaker_show="True" stop="True" voice="sr13001_02_0132" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="（……なるほどなるほど。違法に造られた人形の密輸。&#xA;しかも車輪にクスリまで隠して。ギルティ。）" speaker_show="True" stop="True" voice="sr13001_02_0133" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <bg file="07_containerni_01" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <sound type="Se" cue_name="RecallsOut" />
+    <wait time="1" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こらーっ、悪人ども、&#xA;中京圏での悪事はＺＥＴが許さないわよ。" speaker_show="True" stop="True" voice="sr13001_02_0134" />
+    <msg speaker="密輸人３" text="ＺＥＴ！？　噂のハイテクマシンで&#xA;ムチャクチャやってくるって言うエージェント……。" speaker_show="True" stop="True" voice="99007_02_0001" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そのＺＥＴよ。ただ、ハイテクマシンではないわね。&#xA;これは無敵甲冑と呼ぶ。" speaker_show="True" stop="True" voice="sr13001_02_0135" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="私が判決を言い渡すわ。貴方達は&#xA;入院六ヶ月プラス逮捕の刑って所かな。" speaker_show="True" stop="True" voice="sr13001_02_0136" />
+    <msg speaker="密輸人３" text="ええい撃て撃て撃て撃て！！！！" speaker_show="True" stop="True" voice="99007_02_0002" />
+    <sound type="Se" cue_name="DoolsMachinegun" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="DoolsMachinegun" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="DoolsMachinegun" />
+    <wait time="0.5" />
+    <msg speaker="密輸人２" text="あ、当たらない！？&#xA;あの人形、滅茶苦茶速い！！" speaker_show="True" stop="True" voice="99006_02_0003" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="非致死性の拳銃とはいえ、死ぬほど&#xA;痛いから覚悟しなさい。" speaker_show="True" stop="True" voice="sr13001_02_0137" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="0.3" />
+    <msg speaker="密輸人３" text="ぐわぁぁぁぁっ！" speaker_show="True" stop="True" voice="99007_02_0003" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="んふっふっふ。悪人どもはこれぐらい&#xA;苦しんでくれないと。" speaker_show="True" stop="True" voice="sr13001_02_0138" />
+    <msg speaker="密輸人１" text="お、お前警察じゃないんだろ？　だったらお前だって&#xA;悪人だ、勝手に判決とか言いやがって。" speaker_show="True" stop="True" voice="99005_02_0005" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ノンノン。私がやる事は全部正しいの。&#xA;貴方は口答えの罪で判決、電撃刑！" speaker_show="True" stop="True" voice="sr13001_02_0139" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="密輸人１" text="あばばばばば！！！！！&#xA;痺れ痺れ痺れる……！！" speaker_show="True" stop="True" voice="99005_02_0006" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="さて、こいつらのデータもとって…。&#xA;任務完了。帰還しますか。" speaker_show="True" stop="True" voice="sr13001_02_0140" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <bg file="42_skyni_01" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="23_bodyUnique" force_end="False" loop="True" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg speaker="敷島 来夢" text="（無敵甲冑で空を飛ぶ……。いつもながら&#xA;快感だわ。私に与えられた特権ね。）" speaker_show="True" stop="True" voice="sr13001_02_0141" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="こちらノブナガよりミツヒデへ。&#xA;１分後に帰還するわ。" speaker_show="True" stop="True" voice="sr13001_02_0142" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <bg file="44_raimuhouseni_01" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <telop text="敷島ビル 最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <sound type="Se" cue_name="RecallsOut" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="とーちゃく。キャストオフ。" speaker_show="True" stop="True" voice="sr13001_02_0143" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ふぃー。ただいま、マル。愛しているわ。" speaker_show="True" stop="True" voice="sr13001_02_0144" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <move obj_id="敷島 来夢" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="敷島 真留瀬" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様。お疲れ様でしたわ。&#xA;いえ、社長とお呼びするべきですか？" speaker_show="True" stop="True" voice="sm13002_02_0077" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="今日は店じまいだからお姉様でいいわマル。&#xA;あぁ今夜も妹は可愛い、よしよし、よしよし。" speaker_show="True" stop="True" voice="sr13001_02_0145" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="うふふ、お姉様もお美しいですわ。" speaker_show="True" stop="True" voice="sm13002_02_0078" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <msg window_type="SystemMsg" text="ＺＥＴ。敷島の社長である敷島来夢とその妹、&#xA;敷島真留瀬、二人だけの私設情報機関である――。" stop="True" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

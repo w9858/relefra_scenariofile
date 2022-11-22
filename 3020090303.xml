@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020090303" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM08_Quest3" />
+    <sound type="Bgm" cue_name="Quest3" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" />
+    <telop text="ツキカゲ基地" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="２人２組の『どろけい』は、五恵が捕まって&#xA;結衣・テレジアチームが優勢となっていた。" stop="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" volume="100" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create_effect effect_id="Shockwave" effect_type="EffectShockWave" life_time="2.0" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="はっはっはー！&#xA;この白虎様は１人だろうと逃げ続けるぞ！" speaker_show="True" stop="True" voice="bk11008_03_0041" />
+    <delete obj_id="Shockwave" />
+    <create type="Character" obj_id="テレジア" data_id="311008002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="往生際が悪い。" speaker_show="True" stop="True" voice="tr11007_03_0020" />
+    <move obj_id="テレジア" position_id="left" x="-100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="白虎" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="おおっと、危ない！　やるなテレ公！" speaker_show="True" stop="True" voice="bk11008_03_0042" />
+    <delete obj_id="テレジア" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="350" y="0" anchor="Bottom" />
+    <move obj_id="船見 結衣" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="たーっ！" speaker_show="True" stop="True" voice="fy95003_03_0089" />
+    <move obj_id="船見 結衣" position_id="left" x="100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <move obj_id="白虎" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <msg speaker="白虎" text="うおっ？&#xA;お前、なかなか足が速いな!?" speaker_show="True" stop="True" voice="bk11008_03_0043" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="船見 結衣" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008002" position_id="left" x="-330" y="0" anchor="Bottom" />
+    <move obj_id="テレジア" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="挟み撃ちだ、結衣。" speaker_show="True" stop="True" voice="tr11007_03_0021" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="船見 結衣" text="はいっ！" speaker_show="True" stop="True" voice="fy95003_03_0090" />
+    <char_spine_animation obj_id="白虎" face_anim_type="102_Facial_unique" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="2.0" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="白虎" text="卑怯だぞー！" speaker_show="True" stop="True" voice="bk11008_03_0044" />
+    <delete obj_id="Sweat" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="どろけいですからね、&#xA;卑怯じゃありませんっ！" speaker_show="True" stop="True" voice="fy95003_03_0091" />
+    <char_spine_animation obj_id="白虎" face_anim_type="019_Facial_damage" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="しまった……！" speaker_show="True" stop="True" voice="bk11008_03_0045" />
+    <move obj_id="白虎" position_id="left" x="-225" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="船見 結衣" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="テレジア" position_id="left" x="-450" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005002" position_id="left" x="470" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" position_id="left" x="450" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="白虎ちゃん、囲まれちゃいましたか。&#xA;勝負ありですね。" speaker_show="True" stop="True" voice="ah11005_03_0053" />
+    <char_spine_animation obj_id="白虎" face_anim_type="013_Facial_angry" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="う、うぅ……&#xA;いや、まだこの手がある！" speaker_show="True" stop="True" voice="bk11008_03_0046" />
+    <sound type="Se" cue_name="GachaLever" />
+    <wait time="0.5" />
+    <delete obj_id="青葉 初芽" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="船見 結衣" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="テレジア" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="白虎" text="エレベーターの傍に追い詰めたのが運の尽き！&#xA;これで追って来られないだろう!!" speaker_show="True" stop="True" voice="bk11008_03_0047" />
+    <delete obj_id="Smile" />
+    <sound type="Se" />
+    <Comment comment="エレベーターの起動音" />
+    <wait time="1.0" />
+    <delete obj_id="白虎" />
+    <move obj_id="船見 結衣" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="テレジア" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005002" position_id="left" x="330" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="エレベーターに乗って行っちゃった……&#xA;あれ、いいんですか？" speaker_show="True" stop="True" voice="fy95003_03_0092" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="どうなんだ、初芽。" speaker_show="True" stop="True" voice="tr11007_03_0022" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="そうですね、基地の範囲外に逃げるのは&#xA;反則なので……。" speaker_show="True" stop="True" voice="ah11005_03_0054" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="この時点をもちまして、&#xA;結衣ちゃん、テレちゃんチームの勝利とします。" speaker_show="True" stop="True" voice="ah11005_03_0055" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="船見 結衣" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="テレジア" data_id="311008002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <sound_stop cue_name="Quest3" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="やった……&#xA;勝ちました、テレジアさんのお陰です！" speaker_show="True" stop="True" voice="fy95003_03_0093" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="結衣も見事だったぞ。" speaker_show="True" stop="True" voice="tr11007_03_0023" />
+    <move obj_id="船見 結衣" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="テレジア" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006002" position_id="left" x="330" y="0" anchor="Bottom" />
+    <move obj_id="石川 五恵" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="019_Facial_damage" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="ふぅ、やっと罠から出られた……。" speaker_show="True" stop="True" voice="ig11006_03_0041" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="2.0" target_obj="船見 結衣" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="船見 結衣" text="五恵さん、大丈夫でしたか？&#xA;網なんて落としちゃってすみません。" speaker_show="True" stop="True" voice="fy95003_03_0094" />
+    <delete obj_id="Sweat" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="石川 五恵" text="ううん。凄かったよ、結衣ちゃん。&#xA;私達の負けだね。" speaker_show="True" stop="True" voice="ig11006_03_0042" />
+    <delete obj_id="船見 結衣" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <sound type="Se" cue_name="GachaLever" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="330" y="0" anchor="Bottom" />
+    <move obj_id="白虎" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="いーや、まだ負けてないぞ！" speaker_show="True" stop="True" voice="bk11008_03_0048" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="戻って来たか。" speaker_show="True" stop="True" voice="tr11007_03_0024" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="白虎ちゃん、駄々を捏ねないの。" speaker_show="True" stop="True" voice="ig11006_03_0043" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="ぶー。まあ、皆に言われたら仕方ないか。&#xA;私が本気を出すのも大人気なさすぎるしな！" speaker_show="True" stop="True" voice="bk11008_03_0049" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="石川 五恵" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003001" position_id="left" x="-230" y="0" anchor="Bottom" />
+    <move obj_id="船見 結衣" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="白虎" text="ほんの少～しだけ、結衣の事を認めてやろう。&#xA;見た目よりも根性はあったしな。" speaker_show="True" stop="True" voice="bk11008_03_0050" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="ありがとうございます。&#xA;嬉しいです。" speaker_show="True" stop="True" voice="fy95003_03_0095" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="うんうん、素直な奴だなお前。&#xA;そういうのは大事だぞ。" speaker_show="True" stop="True" voice="bk11008_03_0051" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Kirakira" effect_type="EffectKirakira" life_time="5.0" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="白虎" text="私の事を師と仰いで、&#xA;これからも精進するように！" speaker_show="True" stop="True" voice="bk11008_03_0052" />
+    <delete obj_id="Kirakira" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Exclamation" effect_type="MampExclamation" life_time="3.0" target_obj="船見 結衣" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="船見 結衣" text="は、はいっ!?" speaker_show="True" stop="True" voice="fy95003_03_0096" />
+    <delete obj_id="Exclamation" />
+    <move obj_id="船見 結衣" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="白虎" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005002" position_id="left" x="330" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="ふふ、白虎ちゃんもブレませんね。" speaker_show="True" stop="True" voice="ah11005_03_0056" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

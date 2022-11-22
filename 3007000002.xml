@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007000002" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <bg show="True" file="38_shoppingmall_01" color="#282828ff" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="ショッピングモール" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-125" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="125" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ねぇ…これってさぁ、コスプレマニアの&#xA;ちょっとアレな子達ってだけなんじゃない？" speaker_show="True" stop="True" voice="ym11003_01_0502" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="さっきの動きは、とてもそんな簡単に&#xA;説明できる物ではなかった……。" speaker_show="True" stop="True" voice="hy11002_01_0496" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="125" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="-125" anchor="Bottom" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="あのさ……ひょっとしてこれ、私達の方が&#xA;異世界に飛ばされたパターンじゃない？" speaker_show="True" stop="True" voice="mk96005_01_0002" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="で、でも……景色は普通の街みたいですよ？&#xA;カガミブネの転送失敗ってだけなんじゃ……。" speaker_show="True" stop="True" voice="ii96004_01_0003" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="うーーん。&#xA;このままじゃ、埒が明かないわ……。" speaker_show="True" stop="True" voice="sf11004_01_0536" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="そうだね。じゃあ、ここは私が滾ってみるよ！" speaker_show="True" stop="True" voice="mm11001_01_0724" />
+    <msg_window_show show="False" />
+    <sound cue_name="Run" />
+    <move obj_id="源 モモ" position_id="left" x="1000" x_move_type="MoveTo" time="0.8" wait="True" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <delete obj_id="相模 楓" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="-200" anchor="Bottom" />
+    <move obj_id="源 モモ" position_id="left" x="400" x_move_type="MoveTo" time="0.8" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="あのー、ちょっと失礼！&#xA;………………ぺろっ。" speaker_show="True" stop="True" voice="mm11001_01_0725" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="ひゃっ!?" speaker_show="True" stop="True" voice="yy96001_01_0004" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="いきなり、友奈の首筋を舐めたーーっ!?&#xA;ああああんた、何のつもりよーーーっ!!" speaker_show="True" stop="True" voice="mk96005_01_0003" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="師匠！　この子、嘘はついていません！&#xA;敵意も、攻撃の意志もないです！　全くのゼロ！" speaker_show="True" stop="True" voice="mm11001_01_0726" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="敵ではない……？" speaker_show="True" stop="True" voice="hy11002_01_0497" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="-200" anchor="Bottom" />
+    <shake target="Character" obj_id="東郷 美森" x="3" vibrate="15" time="5.0" wait="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="い、今のはいったいなに…あああありえない信じない&#xA;私は何も見ていないまぼろしまぼろしまぼろし……" speaker_show="True" stop="True" voice="tm96002_01_0004" />
+    <create_effect effect_id="ns_Sweat" effect_type="MampSweat" life_time="1" target_obj="乃木 園子" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="わっしー、わっしー？　しっかりして～。&#xA;目の前に見えてる川は渡っちゃダメな川だよ～！" speaker_show="True" stop="True" voice="ns96006_01_0003" />
+    <delete obj_id="ns_Sweat" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="-200" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ゴメンね、突然。私、味や匂いで、人の感情や思考が&#xA;読める体質なの。だから、ちょっとだけ味見を……。" speaker_show="True" stop="True" voice="mm11001_01_0727" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="へー、すごーい！　そんなの初めて聞いた！&#xA;私もやってみよーっと。東郷さんっ、ぺろっ♪" speaker_show="True" stop="True" voice="yy96001_01_0005" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_cheek obj_id="東郷 美森" type="Cheek03_strong" loop="True" />
+    <msg speaker="東郷 美森" text="ふぁあぁ……っ!?&#xA;ゆ、ゆう、友奈ちゃん！！！！！！" speaker_show="True" stop="True" voice="tm96002_01_0005" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="うーん？　よくワカンナイ……。&#xA;やっぱり私には無理みたい。あは。" speaker_show="True" stop="True" voice="yy96001_01_0006" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="0" anchor="Bottom" />
+    <create_effect effect_id="tm_Heart" effect_type="EffectHeart" target_obj="東郷 美森" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_cheek obj_id="東郷 美森" type="Cheek03_strong" loop="True" />
+    <msg speaker="東郷 美森" text="なるべく諦めないで……！&#xA;もう一度試してみるのも、ありだからね。" speaker_show="True" stop="True" voice="tm96002_01_0006" />
+    <delete obj_id="tm_Heart" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="350" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="ハァ～……暴走が回避されて何よりだわ……。&#xA;てことで、この辺で自己紹介といきましょうか。" speaker_show="True" stop="True" voice="if96003_01_0005" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="アタシは、勇者部部長の犬吠埼風。&#xA;背中に隠れてるのは妹で、引っ込み思案の樹。" speaker_show="True" stop="True" voice="if96003_01_0006" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="私は、完成型勇者の三好夏凜よ。" speaker_show="True" stop="True" voice="mk96005_01_0004" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="東郷美森と申します。&#xA;私のことは、苗字で呼んでください。" speaker_show="True" stop="True" voice="tm96002_01_0007" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="えへへ……モジモジ～。&#xA;乃木園子で～す。" speaker_show="True" stop="True" voice="ns96006_01_0004" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="えっと、初めまして。空崎高校２年の&#xA;源モモっていいます。よろしくね！" speaker_show="True" stop="True" voice="mm11001_01_0728" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="百地、迂闊に本名を……。" speaker_show="True" stop="True" voice="hy11002_01_0498" />
+    <create_effect effect_id="momo_Sweat" effect_type="MampSweat" life_time="1" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ああーーーっ!?　すみません、師匠！&#xA;安心してしまって、ついうっかり！" speaker_show="True" stop="True" voice="mm11001_01_0729" />
+    <delete obj_id="momo_Sweat" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="まあまあ、別に良いじゃん。ナイスな子達だよ。&#xA;どもども、モモちと同じ高２の八千代命だよ♪" speaker_show="True" stop="True" voice="ym11003_01_0503" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="アタシはその弟子で、相模楓。&#xA;この中で唯一の１年生よ。" speaker_show="True" stop="True" voice="sf11004_01_0537" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="え……お姉ちゃんと同じ名前！&#xA;それに、私と同じ学年だ。良かったぁ。" speaker_show="True" stop="True" voice="ii96004_01_0004" />
+    <msg_window_show show="False" />
+    <move obj_id="犬吠埼 樹" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="400" anchor="Bottom" />
+    <move obj_id="相模 楓" position_id="left" x="200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="失礼な！　１年といっても高校のよ！&#xA;完全無欠のアタシを見くびらないでよね！" speaker_show="True" stop="True" voice="sf11004_01_0538" />
+    <create_effect effect_id="ii_Sweat" effect_type="MampSweat" life_time="1" target_obj="犬吠埼 樹" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="こ、高校生!?　ご、ごめんなさい。" speaker_show="True" stop="True" voice="ii96004_01_0005" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="ii_Sweat" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="私は、３年の青葉初芽と申します。&#xA;そしてこちらが、弟子のごえちゃん。" speaker_show="True" stop="True" voice="ah11005_01_0447" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="こ、こんにち…じゃなくて、こんばんは。&#xA;石川五恵です。よろしく……お願いします。" speaker_show="True" stop="True" voice="ig11006_01_0441" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="私は、初芽と同じ３年生で&#xA;モモの師匠、半蔵門雪。" speaker_show="True" stop="True" voice="hy11002_01_0499" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="師匠？　弟子？　それって先輩後輩とは&#xA;何か違うんですか？" speaker_show="True" stop="True" voice="yy96001_01_0007" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="んー、まあ似たようなもんだけどね～。&#xA;どう言ったら良いのかなぁ？" speaker_show="True" stop="True" voice="ym11003_01_0504" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="敵ではないにしろ、詳しく話を聞く必要がある。&#xA;あなた達、悪いけど一緒に来てくれないかしら。" speaker_show="True" stop="True" voice="hy11002_01_0500" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="乃木 園子（中）【合】" data_id="396006002" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈【合】" data_id="396001002" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子（中）【合】" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="結城 友奈【合】" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="友奈・園子" text="は～い♪" speaker_show="True" stop="True" voice="3007000002_01" />
+  </command>
+</adv>

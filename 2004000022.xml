@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000022" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg file="44_shikisima_02" />
+    <msg window_type="SystemMsg" text="アルムやゾーイとの決着から数ヶ月が経過していた。&#xA;敷島の研究室では――。" stop="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="来夢ガールズＡ" text="いよいよ完成しましたねぇ来夢様ぁ。" speaker_show="True" stop="True" voice="ra13003_02_0009" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="予想よりずっと早くできた。貴方達のおかげよ。" speaker_show="True" stop="True" voice="sr13001_02_0366" />
+    <msg speaker="来夢ガールズＢ" text="パーツが既に多く揃っていたからですよ。" speaker_show="True" stop="True" voice="rb13004_02_0008" />
+    <move obj_id="敷島 来夢" position_id="left" x="-300" x_move_type="MoveTo" wait="True" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="それもあるでしょうが、改めてお姉様や貴方達の&#xA;優秀さに驚くばかりですわ。だって数ヶ月で……。" speaker_show="True" stop="True" voice="sm13002_02_0185" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="こんな素晴らしい人形が……。&#xA;流石世界に誇る敷島の技術。" speaker_show="True" stop="True" voice="sm13002_02_0186" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="（アルムの残されたパーツをかき集めて、&#xA;私なりに、敷島なりに、作り上げた最新型の人形。）" speaker_show="True" stop="True" voice="sr13001_02_0367" lip_sync="False" />
+    <msg speaker="来夢ガールズＺ" text="来夢様、起動しました。" speaker_show="True" stop="True" voice="rz13007_02_0008" />
+    <create type="Character" obj_id="アミィ" data_id="313002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <move obj_id="敷島 来夢" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="新型人形" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <lip_sync target1="アミィ" />
+    <msg speaker="新型人形" text="マスター。私の名前は？" speaker_show="True" stop="True" voice="am13002_02_0048" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="決めていた、いい名前があるの。" speaker_show="True" stop="True" voice="sr13001_02_0368" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="貴方はアミィ。友達って意味よ。" speaker_show="True" stop="True" voice="sr13001_02_0369" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="――アミィ。" speaker_show="True" stop="True" voice="am13002_02_0049" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="良い名前を、かたじけない。" speaker_show="True" stop="True" voice="am13002_02_0050" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="(見た目は本当そっくりね、でもアミィはアミィ。&#xA;アルムじゃない。間違えないようにしないと。)" speaker_show="True" stop="True" voice="sr13001_02_0370" lip_sync="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="23_bodyUnique" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="――……。" speaker_show="True" stop="True" voice="am13002_02_0051" />
+    <msg speaker="来夢ガールズＷ" text="どうして前髪をいじっとるんじゃ、アミィ。" speaker_show="True" stop="True" voice="rw13006_02_0007" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="特に理由はないが、なんとなく。" speaker_show="True" stop="True" voice="am13002_02_0052" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ふ、ふふふふふ。&#xA;そう、そういうクセがあるのねアミィには。" speaker_show="True" stop="True" voice="sr13001_02_0371" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="どうしたのですかお姉様？" speaker_show="True" stop="True" voice="sm13002_02_0186a" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="敷島 来夢" text="いえ何でもないわ。アミィ。&#xA;これからよろしくね。" speaker_show="True" stop="True" voice="sr13001_02_0373" />
+    <msg window_type="SystemMsg" text="ＺＥＴに新しい仲間が加わった――。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

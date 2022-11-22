@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1001000001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <Comment comment="校門前" />
+    <bg show="True" file="23_rivermo_01" />
+    <fade_in time="1.0" wait="True" />
+    <wait time="1" />
+    <msg window_type="SystemMsg" text="２０１８年晩夏、空崎市――。空崎高校に通う&#xA;女子高生、源モモにはある秘密があった。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" wait="True" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <fade_in time="1.0" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" anchor="Bottom" x="0" y="0" position_id="left" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="わくわく。そんなに美味しいなら絶対いきたい結愛！&#xA;そのパン屋さん！" speaker_show="True" stop="True" voice="mm11001_01_0001" />
+    <create type="Character" obj_id="畠山 結愛" data_id="399001001" anchor="Bottom" x="0" y="0" position_id="right" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="畠山 結愛" text="じゃあ今からソッコー駅に向かわなきゃダメだねー。&#xA;凪っちいけそ？" speaker_show="True" stop="True" voice="ha99001_01_0001" />
+    <create type="Character" obj_id="北斗 凪" data_id="399002001" anchor="Bottom" x="-300" y="0" position_id="left" />
+    <char_spine_animation obj_id="北斗 凪" body_anim_type="07_ChestBothHands" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="北斗 凪" text="うん。私基本的に暇だから大丈夫だよ。&#xA;モモちはどうなの？　今日道場は？" speaker_show="True" stop="True" voice="hn99002_01_0001" />
+    <msg speaker="源 モモ" text="今日、道場は休み――" speaker_show="True" stop="True" voice="mm11001_01_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="じゃなかったぁー。今日道場あったんだった！&#xA;うぅー。ごめんね私行くね。" speaker_show="True" stop="True" voice="mm11001_01_0003" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="畠山 結愛" text="モモちの分まで食べておくよ～～。" speaker_show="True" stop="True" voice="ha99001_01_0002" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" wait="True" />
+    <Comment comment="Wasabi前昼" />
+    <bg show="True" file="02_wasabimo_002" />
+    <delete obj_id="畠山 結愛" />
+    <delete obj_id="北斗 凪" />
+    <delete obj_id="源 モモ" />
+    <transition effect="Default" type="In" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="空を旋回してたから、びっくりしたよモノミ。&#xA;緊急の任務なんだね。" speaker_show="True" stop="True" voice="mm11001_01_0004" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" wait="True" />
+    <Comment comment="Wasabi店内" />
+    <bg show="True" file="02_wasabimo_001" />
+    <delete obj_id="源 モモ" />
+    <transition effect="Default" type="In" wait="False" />
+    <sound cue_name="DoorOpen" />
+    <wait time="1.5" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create obj_id="カトリーナ" data_id="311009003" x="-200" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="いらっしゃいませー。" speaker_show="True" stop="True" voice="kt11009_01_0001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="オリジナルカレー、はちみつ抜き&#xA;ガラムマサラましまし！" speaker_show="True" stop="True" voice="mm11001_01_0005" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="はい、こちらの個室にご案内～。" speaker_show="True" stop="True" voice="kt11009_01_0002" />
+    <msg_window_show show="False" />
+    <sound_volume volume="0" time="1.0" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <Comment comment="弥勒菩薩の部屋" />
+    <bg show="True" file="03_tsukikage_006" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="カトリーナ" />
+    <msg window_type="SystemMsg" text="カレー屋の個室そのものがエレベーターとなり&#xA;地下深くに降りていく。そこには基地が存在した。" stop="True" />
+    <msg_window_show show="False" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <fade_in time="1.0" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" x="0" anchor="Bottom" y="0" position_id="left" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="よしっ、着替え完了！" speaker_show="True" stop="True" voice="mm11001_01_0006" />
+    <msg_window_show show="False" />
+    <Comment comment="軍議の社" />
+    <transition type="Out" color_change="True" wait="True" />
+    <bg show="True" file="03_tsukikage_001" />
+    <delete obj_id="源 モモ" />
+    <transition type="In" color_change="True" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" x="0" anchor="Bottom" y="0" position_id="left" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="百地、到着しました！！" speaker_show="True" stop="True" voice="mm11001_01_0007" />
+    <msg_window_show show="False" />
+    <move obj_id="源 モモ" position_id="left" x_move_type="MoveTo" time="0.5" wait="True" x="200" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ツキカゲ揃いましたね。では&#xA;今回のミッションについて説明します。" speaker_show="True" stop="True" voice="ah11005_01_0001" />
+    <msg_window_show show="False" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <msg window_type="SystemMsg" text="そう、女子高生源モモの裏の顔は平和を守る&#xA;私設情報機関・ツキカゲの一員だったのだ。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="――という事で、今回はこの場所へ潜入を行い&#xA;不正の証拠であるファイルをＧＥＴします。" speaker_show="True" stop="True" voice="ah11005_01_0002" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="皆で力をあわせてスムーズなスパイ活動を&#xA;心がけましょう。" speaker_show="True" stop="True" voice="ah11005_01_0003" />
+    <msg_window_show show="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="200" x_move_type="MoveTo" y="0" time="0.5" wait="True" y_move_type="MoveValue" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="今回から、この負け知らずの白虎様も本格的に&#xA;手を貸すからお前達、すっごく頼もしく思え！" speaker_show="True" stop="True" voice="bk11008_01_0001" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="それでは白虎ちゃんに、改めてツキカゲメンバーの&#xA;自己紹介をしておきましょうか。" speaker_show="True" stop="True" voice="ah11005_01_0004" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" x="200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="源モモだよ。空崎高校２年。散歩とか、美味しいもの&#xA;食べるのが好きなんだ！　コードネームは百地。" speaker_show="True" stop="True" voice="mm11001_01_0008" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="モモの師匠となる半蔵門雪。空崎高校３年。&#xA;家は道場をやっているわ。コードネームは半蔵。" speaker_show="True" stop="True" voice="hy11002_01_0001" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" x="200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="メイは八千代命。空崎２年でコードネームは千代女！&#xA;趣味は音楽だね！　駅前で弾き語りしてるよ。" speaker_show="True" stop="True" voice="ym11003_01_0001" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="相模楓。空崎１年。師匠…八千代命の弟子よ。&#xA;コードネーム風魔。ツキカゲＮＯ１を目指してるわ。" speaker_show="True" stop="True" voice="sf11004_01_0001" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" x="200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="空崎３年、青葉初芽です。コードネームは局。趣味は&#xA;秘密道具の発明。夢は沢山の人とお友達になること。" speaker_show="True" stop="True" voice="ah11005_01_0005" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="石川五恵。コードネーム五右衛門。空崎２年で師匠…&#xA;青葉初芽の弟子だよ。モモち、メイちゃんと同じ組。" speaker_show="True" stop="True" voice="ig11006_01_0001" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create obj_id="白虎" data_id="311007001" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="私は白虎。中国は傭兵村の出身だ。&#xA;色々あって帰れない。だからここで働く！" speaker_show="True" stop="True" voice="bk11008_01_0002" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="smile" effect_type="MampSmile" life_time="2" target_obj="白虎" y="0" />
+    <msg speaker="白虎" text="モノミと、ラッパと、カマリと、この白虎様で&#xA;お前達を助けてやるぜ！" speaker_show="True" stop="True" voice="bk11008_01_0003" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="頼もしいですね～。一応、白虎ちゃんは慣れるまで&#xA;こちらの指示で動いて下さいね。" speaker_show="True" stop="True" voice="ah11005_01_0006" />
+    <msg_window_show show="False" />
+    <sound_volume volume="0" time="1.0" />
+    <transition color_change="True" wait="True" />
+    <Comment comment="コンテナターミナル" />
+    <bg show="True" file="07_containerni_02" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <delete obj_id="青葉 初芽" />
+    <transition type="In" color_change="True" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" x="-200" y="0" anchor="Bottom" position_id="left" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="モモ。基礎は何よりも大事。今回任務をこなしながら&#xA;スパイの基本をおさらいをしていくわ。" speaker_show="True" stop="True" voice="hy11002_01_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="分かりました師匠。源モモ、滾ります！" speaker_show="True" stop="True" voice="mm11001_01_0009" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ツキカゲ、ミッションスタート！！" speaker_show="True" stop="True" voice="hy11002_01_0003" />
+  </command>
+</adv>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_003" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="02_wasabimo_001" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="高坂信" data_id="311010003" type="Character" />
+    <char_spine_animation obj_id="高坂信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="高坂信" text="信はここだよ～。また見つからなかったね～" stop="True" window_type="CharMsg" voice="Sin_001" lip_sync_volume="0.01" />
+    <sound type="Se" cue_name="SE_Cracker" volume="50" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="高坂信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" />
+    <msg speaker="高坂信" text="って、わぁ！　びっくりした～。" stop="True" window_type="CharMsg" voice="Sin_002" />
+    <char_spine_animation obj_id="高坂信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" />
+    <msg speaker="高坂信" text="あ……そっか。今日、5月28日は信の誕生日だったね。" stop="True" window_type="CharMsg" voice="Sin_003" />
+    <char_spine_animation obj_id="高坂信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="高坂信" text="みんなにお祝いしてもらえて、とっても嬉しいよ。&#xA;ありがとう。" stop="True" window_type="CharMsg" voice="Sin_004" />
+    <char_spine_animation obj_id="高坂信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="高坂信" text="これからは新しい力で&#xA;戦闘でも活躍できるようになりたいんだ。" stop="True" window_type="CharMsg" voice="Sin_005" />
+    <char_spine_animation obj_id="高坂信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="高坂信" text="信のこと、頼れる先輩として見てもらえるように、頑張るね。" stop="True" window_type="CharMsg" voice="Sin_006" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+  </command>
+</adv>

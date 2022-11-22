@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000020battle" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <create type="Character" obj_id="ゾーイ" data_id="316002001" position_id="left" x="-300" />
+    <move obj_id="敷島 来夢" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="お目にかかれて嬉しいよＺＥＴ。&#xA;凄い装甲を着込んでるな。是非研究したい。" speaker_show="True" stop="True" voice="zi16003_02_0073" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="300" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="人形工学の権威、ゾーイ……か。&#xA;貴方がアルムを生み出したのね。てい！" speaker_show="True" stop="True" voice="sr13001_02_0355" />
+    <move obj_id="敷島 来夢" x="-55" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <sound type="Se" cue_name="Guard2" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="攻撃しても無駄さ。アタシは特製の強化ガラスで&#xA;守護られている。すぐには破壊できないよ。" speaker_show="True" stop="True" voice="zi16003_02_0074" />
+    <move obj_id="敷島 来夢" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="聞いておくれよ。アルムは失敗作だったんだ。&#xA;人形のくせにマスターの言う事を守らないんだ。" speaker_show="True" stop="True" voice="zi16003_02_0075" />
+    <char_spine_animation obj_id="ゾーイ" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="ゾーイ" text="高すぎる知能が、良くなかったんだね。&#xA;だから、思い切り改造したのさ" speaker_show="True" stop="True" voice="zi16003_02_0076" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="――まさか。" speaker_show="True" stop="True" voice="sr13001_02_0356" />
+    <char_spine_animation obj_id="ゾーイ" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="ゾーイ" text="そこにいる戦車がアルムだったものだ。&#xA;さぁ今度こそ標的を消去するんだよ。" speaker_show="True" stop="True" voice="zi16003_02_0077" />
+    <delete obj_id="ゾーイ" />
+    <delete obj_id="敷島 来夢" />
+    <wait time="0.8" />
+    <create type="Character" obj_id="アルム" data_id="316005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アルム" force_end="False" loop="True" />
+    <msg speaker="アルム" text="…イ………エ……ス。" speaker_show="True" stop="True" voice="ar16004_02_0070" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

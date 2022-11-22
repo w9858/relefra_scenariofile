@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1003000005" />
+  </info>
+  <command>
+    <Start />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <create obj_id="テレジア" data_id="311008001" position_id="left" x="200" type="Character" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" force_end="False" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="さらに新しい武装人形が現れました。&#xA;データにない、新型です！" speaker_show="True" stop="True" voice="ah11005_01_0030" lip_sync="True" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="テレジア" text="モウリョウが所持していた武装人形より高性能だ。&#xA;さすが人形開発では世界トップのリザード社…。" speaker_show="True" stop="True" voice="tr11007_01_0019" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="八千代 命" text="初さん。アンテナとりつけて、制御できるようにして&#xA;こいつらとお友達にはなれないの？" speaker_show="True" stop="True" voice="ym11003_01_0065" lip_sync="True" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="新型だけあって今までの装置では通じないと思います。&#xA;大変ですが、まずは大人しくなってもらいましょう。" speaker_show="True" stop="True" voice="ah11005_01_0031" />
+    <move obj_id="青葉 初芽" x="-200" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" wait="False" position_id="left" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="600" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="013_Facial_angry" loop="True" force_end="False" to_idle="False" />
+    <move obj_id="石川 五恵" position_id="left" x="200" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" wait="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" loop="True" force_end="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="師匠がそれを望むなら！　頑張る！！" speaker_show="True" stop="True" voice="ig11006_01_0030" lip_sync="True" />
+  </command>
+</adv>

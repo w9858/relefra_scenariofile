@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010704" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="Wasabi店内" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="買ってきたぞ、カトリーナ。" speaker_show="True" stop="True" voice="bk11008_01_0307" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="あら、白虎ちゃん、お帰りなさい。&#xA;ずいぶん早かったのね。" speaker_show="True" stop="True" voice="kt11009_01_0380" />
+    <char_spine_animation obj_id="白虎" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="急いで買ってきたからな。&#xA;私が本気を出せばこんなものだ。ほら、これ。" speaker_show="True" stop="True" voice="bk11008_01_0308" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ありがとう、本当に助かったわ。&#xA;ええと……あら、これ何かしら？" speaker_show="True" stop="True" voice="kt11009_01_0381" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="まぁ、可愛い。化粧品？　いえ、ハンドクリームね。&#xA;でも、どうしてこれを……。" speaker_show="True" stop="True" voice="kt11009_01_0382" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="カトリーナはいつも洗い物をしているからな。&#xA;これで手の荒れが少しは防げるだろう。" speaker_show="True" stop="True" voice="bk11008_01_0309" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ありがとう、白虎ちゃん。それならさっき、&#xA;ちょうど洗い物したばかりだから、早速……。" speaker_show="True" stop="True" voice="kt11009_01_0383" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="うん。匂いもあまりないし、すぐに肌に馴染む。&#xA;これならお店で使っても大丈夫そうね。" speaker_show="True" stop="True" voice="kt11009_01_0384" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="すごく嬉しいプレゼントだわ。&#xA;さすがね、白虎ちゃん。" speaker_show="True" stop="True" voice="kt11009_01_0385" />
+    <char_spine_cheek obj_id="白虎" type="Cheek02_medium" loop="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="い、いや、これくらい当然のことだ。&#xA;これからもよろしく頼むな、カトリーナ。" speaker_show="True" stop="True" voice="bk11008_01_0310" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_cheek obj_id="白虎" type="Cheek01_default" loop="True" />
+    <msg speaker="白虎" text="お前たちにも礼を言うぞ。プレゼントは大成功だ。&#xA;はは、そうか。お前たちも嬉しいか。" speaker_show="True" stop="True" voice="bk11008_01_0311" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="さあ、白虎ちゃん、夕飯の準備できてるわよ。" speaker_show="True" stop="True" voice="kt11009_01_0386" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="うぉ～、今日はカレーかー！&#xA;ん？　でもこの匂いは……クンクン。" speaker_show="True" stop="True" voice="bk11008_01_0312" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="さすがね、白虎ちゃん。新作のカレーなの。&#xA;白虎ちゃんの意見、聞かせてくれる？" speaker_show="True" stop="True" voice="kt11009_01_0387" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="そういったことなら任せろ。&#xA;すごくうまそうだな！" speaker_show="True" stop="True" voice="bk11008_01_0313" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ほらほら、ちゃんと手を洗ってね。&#xA;……あら？　そういえば、白虎ちゃん。" speaker_show="True" stop="True" voice="kt11009_01_0388" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="他に何も持っていないみたいだけど&#xA;お願いしていた買い物はどうしたの？" speaker_show="True" stop="True" voice="kt11009_01_0389" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="買い物……あ！　し、しまった!!&#xA;キッチンペーパーのこと、すっかり忘れてた！" speaker_show="True" stop="True" voice="bk11008_01_0314" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="プレゼントのことで頭がいっぱいで……。&#xA;ええと、キッチンペーパーとラップだったな。" speaker_show="True" stop="True" voice="bk11008_01_0315" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="……ふふ、まぁ、買い物は明日にしましょうか。&#xA;それよりカレー、冷めないうちにどうぞ。" speaker_show="True" stop="True" voice="kt11009_01_0390" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="む……腹が減っては戦ができぬと言うしな。&#xA;このミッションは明日必ず遂行してやる。待ってろ。" speaker_show="True" stop="True" voice="bk11008_01_0316" />
+  </command>
+</adv>

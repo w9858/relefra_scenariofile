@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030101" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="08_parkev_01" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="港" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="東郷 美森" text="ああっ！　あれは護衛艦たかなみ！&#xA;まさか、この目で見られるなんて！" speaker_show="True" stop="True" voice="tm96002_01_0035" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="東郷 美森" x="-1000" x_move_type="MoveTo" time="1.0" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="結城 友奈" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <delete obj_id="東郷 美森" />
+    <msg speaker="結城 友奈" text="アハハ！　東郷さーん！&#xA;転ばないように気をつけてねー♪" speaker_show="True" stop="True" voice="yy96001_01_0033" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="02_Idle" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="船が見たいって……豪華客船とかではなく&#xA;ああいう類の船だったのね。" speaker_show="True" stop="True" voice="hy11002_01_0539" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ちょうど、空崎港に停泊中で良かったけど&#xA;中学生にしては変わった趣味だね。" speaker_show="True" stop="True" voice="mm11001_01_0770" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="結城 友奈" text="東郷さんは護国思想の人なんです。&#xA;だから、国防関係に目がなくて。" speaker_show="True" stop="True" voice="yy96001_01_0034" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="護国思想って？　そのままの意味？" speaker_show="True" stop="True" voice="mm11001_01_0771" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="読んで字の如く、国を護るという信念よ。" speaker_show="True" stop="True" voice="hy11002_01_0540" />
+    <delete obj_id="半蔵門 雪" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="……でも、護るというか、東郷ちゃんは&#xA;どちらかというと攻撃専門な気が……。" speaker_show="True" stop="True" voice="mm11001_01_0772" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="東郷 美森" text="戦わざれば亡国、戦うもまた亡国であれば、&#xA;戦わずしての亡国は身も心も民族永遠の亡国である！" speaker_show="True" stop="True" voice="tm96002_01_0036" />
+    <create_effect effect_id="sweat1" effect_type="MampSweat" life_time="1" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <move obj_id="源 モモ" x="200" x_move_type="MoveTo" time="0.3" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <msg speaker="源 モモ" text="わあっ!?　ビックリしたあ！" speaker_show="True" stop="True" voice="mm11001_01_0773" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="東郷 美森" text="攻撃こそ最大の防御。御国を護るためには&#xA;この東郷、鬼となるのも吝かではありません。" speaker_show="True" stop="True" voice="tm96002_01_0037" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そ、そうなんだ……。&#xA;私、日本人でホントに良かった……ホッ。" speaker_show="True" stop="True" voice="mm11001_01_0774" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="結城 友奈" text="ツキカゲの人達も、国を護るための活動を&#xA;しているんですよね？" speaker_show="True" stop="True" voice="yy96001_01_0035" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="国を護る、か。私は……私達は果たして&#xA;そこまで考えられているのかしらね、モモ……。" speaker_show="True" stop="True" voice="hy11002_01_0541" lip_sync_volume="0.01" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="東郷 美森" text="と、仰いますと？" speaker_show="True" stop="True" voice="tm96002_01_0038" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="国って言われると、あまりにも大きすぎて&#xA;ちょっと掴み所がない気がしない？" speaker_show="True" stop="True" voice="mm11001_01_0775" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="師匠も私もね、日本というよりはまず……&#xA;大好きなこの街を護りたいと思ってるんだ。" speaker_show="True" stop="True" voice="mm11001_01_0776" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="東郷 美森" text="解ります。それ即ち、護国思想の第一歩！" speaker_show="True" stop="True" voice="tm96002_01_0039" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="え……。" speaker_show="True" stop="True" voice="mm11001_01_0777" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうね。&#xA;街を護れずして、国など護れる筈はない。" speaker_show="True" stop="True" voice="hy11002_01_0542" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="大事をなすためには、まず自身の手の届く&#xA;範囲から気遣っていかなくては……。" speaker_show="True" stop="True" voice="hy11002_01_0543" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="東郷 美森" text="はい！　まず、いの一番に隣人の幸せです。&#xA;ね、友奈ちゃん。" speaker_show="True" stop="True" voice="tm96002_01_0040" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="結城 友奈" text="うん、東郷さん！" speaker_show="True" stop="True" voice="yy96001_01_0036" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

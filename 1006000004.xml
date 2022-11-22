@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <bg show="True" file="03_tsukikage_001" />
+    <msg window_type="SystemMsg" text="ツキカゲに対して、凪の部隊から&#xA;秘密回線を使った連絡が入った。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ぬわにぃ？　空崎スカイタワーへの突入を&#xA;三時間ずらせ？" speaker_show="True" stop="True" voice="ym11003_01_0082" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="事情は今、話した通りよ。凪の部隊は&#xA;要人警護に狩り出されちゃったみたいで。" speaker_show="True" stop="True" voice="kt11009_01_0066" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="なんとかして駆けつけるから、決行時間を&#xA;少しずらしてくれないかと。" speaker_show="True" stop="True" voice="kt11009_01_0067" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……ずらした所で来られるかどうかは&#xA;分からないわね。" speaker_show="True" stop="True" voice="hy11002_01_0073" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="本人達の意志より上の意向だもんねぇ。&#xA;はーっ。これだから公的機関は。" speaker_show="True" stop="True" voice="ym11003_01_0083" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="国が絡むと、しがらみが多すぎるんですよ。" speaker_show="True" stop="True" voice="sf11004_01_0135" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="敵の動きを見るに、作戦決行を今日より&#xA;後ろにはずらせません。" speaker_show="True" stop="True" voice="ah11005_01_0069" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="-200" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="待つだけ待って、いざとなれば私たちで行こう。" speaker_show="True" stop="True" voice="tr11007_01_0096" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="そもそも待つ必要すらあるか？&#xA;雪の言ってた通り、来られるかどうか怪しいぞ。" speaker_show="True" stop="True" voice="bk11008_01_0047" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="三時間って具体的な時間を出してくれたんだから&#xA;待つだけは待ってみたいな。" speaker_show="True" stop="True" voice="mm11001_01_0126" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="20_PositiveDouble" loop="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="うん、うん。モモちに賛成。" speaker_show="True" stop="True" voice="ig11006_01_0081" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="という意見もあるし。&#xA;さてさて、どうしようかしらね。" speaker_show="True" stop="True" voice="kt11009_01_0068" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="信も、三時間は待ってみるに賛成だよ。" speaker_show="True" stop="True" voice="ks11010_01_0071" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <create_effect effect_id="kato_kirakira" effect_type="EffectKirakira" life_time="2.0" target_obj="カトリーナ" />
+    <msg speaker="カトリーナ" text="という事で三時間は待つわよ。皆。" speaker_show="True" stop="True" voice="kt11009_01_0069" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="わぉ問答無用。" speaker_show="True" stop="True" voice="ym11003_01_0084" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="そして夜。ツキカゲは約束通り、決行時間を&#xA;三時間ずらしたものの、凪の部隊は現れなかった。" stop="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="時間よ。凪の部隊から連絡は？" speaker_show="True" stop="True" voice="hy11002_01_0074" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="うーん来ませんね。暗号を読むと、相変わらず&#xA;来ると言う意志は示していますが。" speaker_show="True" stop="True" voice="ah11005_01_0070" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="こちらとしても夜のうちに動く必要があるわ。&#xA;私たちだけで行くわよ。" speaker_show="True" stop="True" voice="hy11002_01_0075" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="目標・アジトの壊滅とクリッシー・ガオの確保。&#xA;ツキカゲ、ミッションスタート！" speaker_show="True" stop="True" voice="hy11002_01_0076" />
+    <msg_window_show show="False" />
+    <transition effect="Shutter" type="Out" color_change="True" time="0.5" wait="True" />
+    <bg show="True" file="40_Apartmentni_01" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <sound type="Bgm" cue_name="Briefing" />
+    <transition effect="Shutter" type="In" color_change="True" time="1.0" wait="True" />
+    <telop text="マンション高層階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" anchor="Bottom" />
+    <msg speaker="リザード社員" text="クリッシー様！　タワーのエリア内に&#xA;侵入者が現れたようです。" speaker_show="True" stop="True" voice="rs16002_01_0011" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="来ましたか。こちらが準備を整える前に潰しに来る。&#xA;これまでと同じ行動で実に読みやすいです。" speaker_show="True" stop="True" voice="ks16001_01_0055" />
+    <char_spine_animation obj_id="クリッシー" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="迎撃を開始してください。&#xA;さぞや驚くでしょう、伏せておいた兵力の数に。" speaker_show="True" stop="True" voice="ks16001_01_0056" />
+    <msg speaker="リザード社員" text="はっ！！　このボブも出撃させて頂きます！！" speaker_show="True" stop="True" voice="rs16002_01_0012" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="ワタシは音楽でも聴きながら吉報を待つとしましょう。&#xA;今夜またひとつレジェンドの礎が出来るのです。" speaker_show="True" stop="True" voice="ks16001_01_0057" />
+  </command>
+</adv>

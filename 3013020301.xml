@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3013020301" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Adv1" type="Bgm" />
+    <fade_out time="0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="黒百合女子の学校行事、臨海学校の日が&#xA;近づいてきたある日……" stop="True" />
+    <msg window_type="SystemMsg" text="しぶきと葉栖美は、それぞれ荷造りを&#xA;初めていた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="35_shibukiandhasumiroom_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="しぶきと葉栖美の部屋" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="着替えじゃろ、歯ブラシじゃろ、それから&#xA;寝袋にテントにランタンに……" speaker_show="True" stop="True" voice="ss12003_02_0183" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="しぶきち、臨海学校はちゃんと宿泊所があるから&#xA;キャンプ道具は必要ないでしょ！" speaker_show="True" stop="True" voice="th12004_02_0215" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="じゃが、任務で急遽野営を張るという展開が&#xA;絶対にないとは言い切れないじゃろ。" speaker_show="True" stop="True" voice="ss12003_02_0184" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="はっ、という事は、もしもの事態を考えて、&#xA;非常食と小型の発電機も必要じゃな……。" speaker_show="True" stop="True" voice="ss12003_02_0185" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="もー、そんなとこまで心配してたら、この部屋の物&#xA;全部持ってかなきゃいけなくなっちゃうよー。" speaker_show="True" stop="True" voice="th12004_02_0216" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="任務じゃなくて学校行事なんだから、&#xA;着替えと水着さえ忘れなければ大丈夫だよ。" speaker_show="True" stop="True" voice="th12004_02_0217" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="そうか、確かに水着が必要じゃな。&#xA;おお、あった。" speaker_show="True" stop="True" voice="ss12003_02_0186" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="これさえ有れば、&#xA;水上での任務が発生した場合でも……" speaker_show="True" stop="True" voice="ss12003_02_0187" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ってちょっと待って！　しぶきち。&#xA;それ、学校指定の水着じゃん！" speaker_show="True" stop="True" voice="th12004_02_0218" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="もしかして知らないの？　臨海学校に持っていく&#xA;水着は自由に選んでいいんだよ？" speaker_show="True" stop="True" voice="th12004_02_0219" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="015_Facial_poker" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="そんな事はしぶきだって知っておるわ。" speaker_show="True" stop="True" voice="ss12003_02_0188" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="自由で良いと言うならば、学校指定の水着でも&#xA;問題ないではないか。" speaker_show="True" stop="True" voice="ss12003_02_0189" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="わかってない！&#xA;しぶきちは何もわかっていない！" speaker_show="True" stop="True" voice="th12004_02_0220" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="ん？　水着がいると言ったのは&#xA;はっすーではないか？" speaker_show="True" stop="True" voice="ss12003_02_0190" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="女の子にとって水着は特別なものなの！" speaker_show="True" stop="True" voice="th12004_02_0221" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="何をそんなに熱くなっているんじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0191" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="よし！　明日水着を買いに行こう！&#xA;しぶきちに似合うやつ、アタシが選んであげる！" speaker_show="True" stop="True" voice="th12004_02_0222" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

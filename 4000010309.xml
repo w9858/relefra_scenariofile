@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010309" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="31_shoppingmallev_03" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="ショッピングモール" wait="True" />
+    <sound type="Se" cue_name="Run" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="3000" y="0" anchor="Bottom" />
+    <move obj_id="八千代 命" position_id="left" x="-200" x_move_type="MoveTo" time="2" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <sound type="Se" cue_name="Run" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="3000" y="0" anchor="Bottom" />
+    <move obj_id="石川 五恵" position_id="left" x="200" x_move_type="MoveTo" time="2" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="石川 五恵" text="メイちゃん待って～！　そんなに急がなくても&#xA;商品券はなくならないよ。" speaker_show="True" stop="True" voice="ig11006_02_0413" />
+    <msg speaker="八千代 命" text="わかっちゃいるけど、こちとら空崎っ子！&#xA;宵越しの銭は持たないんだぜぃ！" speaker_show="True" stop="True" voice="ym11003_02_0704" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <transition effect="Default" type="In" color_change="False" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="八千代 命" text="いよっし、目的地に到着だよん！" speaker_show="True" stop="True" voice="ym11003_02_0705" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" />
+    <msg speaker="石川 五恵" text="ここって、女子高生に人気の&#xA;アパレルショップ。" speaker_show="True" stop="True" voice="ig11006_02_0414" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="八千代 命" text="せっかくだから、普段は着ないような&#xA;可愛い服でも選んじゃおうと思ってさ。" speaker_show="True" stop="True" voice="ym11003_02_0706" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="石川 五恵" text="洋服かぁ。それもいいかも！" speaker_show="True" stop="True" voice="ig11006_02_0415" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="八千代 命" text="わっ、ごえちゃん見て見て！&#xA;このワンピース、超可愛い！" speaker_show="True" stop="True" voice="ym11003_02_0707" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" />
+    <msg speaker="石川 五恵" text="本当だ！　真っ白くてふわふわ～。" speaker_show="True" stop="True" voice="ig11006_02_0416" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="八千代 命" text="これ絶対フーに似合うよね！" speaker_show="True" stop="True" voice="ym11003_02_0708" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="八千代 命" text="あっ、こっちのスカートも！&#xA;それからあの帽子もフーに似合そう！" speaker_show="True" stop="True" voice="ym11003_02_0709" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="石川 五恵" text="クスッ、メイちゃん、楓ちゃんの話ばっかり。" speaker_show="True" stop="True" voice="ig11006_02_0417" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" />
+    <msg speaker="八千代 命" text="そーかなー？&#xA;でもこのお店がフーに似合うものばっかりで。" speaker_show="True" stop="True" voice="ym11003_02_0710" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" />
+    <msg speaker="八千代 命" text="いっぱいあり過ぎるのも困りものだよね～。&#xA;うーん……。" speaker_show="True" stop="True" voice="ym11003_02_0711" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" />
+    <msg speaker="八千代 命" text="よしっ、決めた！　メイ、この白のワンピースを&#xA;フーにプレゼントしちゃう！" speaker_show="True" stop="True" voice="ym11003_02_0712" />
+    <msg_window_show show="False" />
+    <transition type="Out" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="石川 五恵" />
+    <transition type="In" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <msg speaker="店員の声" text="ありがとうございました～！" speaker_show="True" stop="True" voice="99093_02_0003" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="八千代 命" text="は～、商品券の金額ギリギリで&#xA;ヒヤヒヤした～！" speaker_show="True" stop="True" voice="ym11003_02_0713" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="石川 五恵" text="メイちゃんの選んだ服なら、楓ちゃん&#xA;絶対に喜んでくれるよね。" speaker_show="True" stop="True" voice="ig11006_02_0418" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="八千代 命" text="えへへ、そうだといいけど。&#xA;いつも楓には迷惑かけているからね～。" speaker_show="True" stop="True" voice="ym11003_02_0714" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" />
+    <msg speaker="石川 五恵" text="ふふ、メイちゃんてば弟子思いのいい師匠だね。" speaker_show="True" stop="True" voice="ig11006_02_0419" />
+    <fade_out time="1" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

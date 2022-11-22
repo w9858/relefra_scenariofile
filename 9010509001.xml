@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010509001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="えーっと、次はあれをやって……。&#xA;それよりこっちが先のほうがいいかしら……。" speaker_show="True" stop="True" voice="kt11009_02_0379" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="こんにちは師匠。ずいぶんお忙しそうですね。" speaker_show="True" stop="True" voice="ah11005_02_0978" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="あ、いらっしゃい、初芽ちゃん。&#xA;今度の日曜日、市のイベントがあるでしょう？" speaker_show="True" stop="True" voice="kt11009_02_0380" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="だからお客さんが増えた場合に備えて、&#xA;少しずつ仕込みをしておこうと思って。" speaker_show="True" stop="True" voice="kt11009_02_0381" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ああ、そういうことですか。&#xA;急に忙しくなると大変ですよね。" speaker_show="True" stop="True" voice="ah11005_02_0979" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="そうなの。だからバタバタしちゃって……。&#xA;ごめんなさいね、注文、ちょっとだけ待ってもらえる？" speaker_show="True" stop="True" voice="kt11009_02_0382" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ゆっくりで大丈夫ですよ。急ぎませんから。&#xA;それより私、何かお手伝いしましょうか？" speaker_show="True" stop="True" voice="ah11005_02_0980" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="わー、ありがとう。&#xA;じゃ、悪いけど、これ、そっちに運んでくれるかしら。" speaker_show="True" stop="True" voice="kt11009_02_0383" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="わかりました。&#xA;師匠の手助けが出来るのは嬉しいです！" speaker_show="True" stop="True" voice="ah11005_02_0981" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="青葉 初芽" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="それにしても、１人だと何かと大変じゃないですか？&#xA;今度仕込みに役立ちそうな機械でも作りましょうか。" speaker_show="True" stop="True" voice="ah11005_02_0982" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="発明もどんどん進化していくわねー。&#xA;もしあったら便利そうではあるけれど。" speaker_show="True" stop="True" voice="kt11009_02_0384" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="今後に向けて作っておくと師匠も少しは&#xA;ラクになるでしょうし。あぁアイデアが湧いてきます。" speaker_show="True" stop="True" voice="ah11005_02_0983" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="そうねえ……。" speaker_show="True" stop="True" voice="kt11009_02_0385" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="どうせなら調理だけじゃなくて、自動野菜洗い機とか&#xA;自動スパイス調合機とかも作るといいかもしれません！" speaker_show="True" stop="True" voice="ah11005_02_0984" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="うーん……ごめんね、やっぱりやめておくわ。" speaker_show="True" stop="True" voice="kt11009_02_0386" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="010_Facial_shy" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="え？　作らなくていいんですか？&#xA;いつでもいけますよ師匠。" speaker_show="True" stop="True" voice="ah11005_02_0985" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="ええ。初芽ちゃんの気持ちは嬉しいけど、&#xA;やっぱりカレーは心を込めて自分で作りたいもの。" speaker_show="True" stop="True" voice="kt11009_02_0387" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="そのほうが機械で作るよりも&#xA;おいしいカレーができると思うしね。" speaker_show="True" stop="True" voice="kt11009_02_0388" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="……なるほど、なるほど！" speaker_show="True" stop="True" voice="ah11005_02_0986" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="やっぱり、ちゃんと自分の手で&#xA;作っておもてなししたいから。" speaker_show="True" stop="True" voice="kt11009_02_0389" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="勉強になりました。発明に頼りすぎるのも&#xA;良くないですね。" speaker_show="True" stop="True" voice="ah11005_02_0987" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="カトリーナ" text="ううん、初芽ちゃんの気持ちすごく嬉しかったわよ。&#xA;良かったら日曜もみんなと一緒に手伝ってくれない？" speaker_show="True" stop="True" voice="kt11009_02_0390" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="はい、もちろんです師匠！&#xA;みんなにも声をかけておきますね。" speaker_show="True" stop="True" voice="ah11005_02_0988" />
+  </command>
+</adv>

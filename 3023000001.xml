@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3023000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="02_wasabini_001" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" data_id="311001005" obj_id="源 モモ" x="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="300" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <msg speaker="源 モモ" text="………………………………。" speaker_show="True" stop="True" voice="mm11001_03_0136" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ねえ、モモち。&#xA;フルーツ切ったら食べる？" speaker_show="True" stop="True" voice="ig11006_03_0144" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <msg speaker="源 モモ" text="………………………………。" speaker_show="True" stop="True" voice="mm11001_03_0137" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ちょっと、モモち。&#xA;返事くらいしなさいよ。" speaker_show="True" stop="True" voice="sf11004_03_0243" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.1" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <msg speaker="源 モモ" text="………うーん。" speaker_show="True" stop="True" voice="mm11001_03_0138" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="珍しいね、モモちがスマホに釘付けなんて。&#xA;ゲームにでもハマってるのかな？" speaker_show="True" stop="True" voice="ig11006_03_0145" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="モモち、ゲームやってんの？" speaker_show="True" stop="True" voice="sf11004_03_0244" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="PhoneOff" />
+    <wait time="0.5" />
+    <msg speaker="源 モモ" text="………うーん。" speaker_show="True" stop="True" voice="mm11001_03_0139" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="これ以上ないくらい上の空。&#xA;ま、どうせ大した物じゃないん…" speaker_show="True" stop="True" voice="sf11004_03_0245" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あああーーーーーーーーっ!!" speaker_show="True" stop="True" voice="mm11001_03_0140" />
+    <lip_sync target1="石川 五恵" target2="相模 楓" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="楓・五恵" text="!?" speaker_show="True" stop="True" voice="3023000001_union_001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ダメだーーーーーーーーっ!!" speaker_show="True" stop="True" voice="mm11001_03_0141" />
+    <lip_sync target1="石川 五恵" target2="相模 楓" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="楓・五恵" text="何が!?" speaker_show="True" stop="True" voice="3023000001_union_002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ううー！　狙ってた１番安いチケットが&#xA;完売しちゃったよぉーー。" speaker_show="True" stop="True" voice="mm11001_03_0142" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="チケットって、何の？" speaker_show="True" stop="True" voice="ig11006_03_0148" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あのね、今度すっごいアイスショーが空崎に来るの。&#xA;元オリンピック選手とかいっぱい出るんだよ！" speaker_show="True" stop="True" voice="mm11001_03_0143" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あー、何かテレビでもＣＭやってるやつ？&#xA;モモち、スケート好きだったんだ？" speaker_show="True" stop="True" voice="sf11004_03_0248" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="まあ、いわゆるニワカってやつなんだけど、&#xA;師匠と一緒に行きたいなぁって思って！" speaker_show="True" stop="True" voice="mm11001_03_0144" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="キレイだもんね、フィギュアスケートって。&#xA;私も１度、生で観てみたいよ♪" speaker_show="True" stop="True" voice="ig11006_03_0149" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="でしょでしょ！&#xA;あーあ……でも、チケット……残念。" speaker_show="True" stop="True" voice="mm11001_03_0145" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="もう、全然ダメなの？&#xA;他に手段はないわけ？" speaker_show="True" stop="True" voice="sf11004_03_0249" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="それはあるだろうけど、そういうの高いよね？&#xA;私、先立つ物が……そんなに。" speaker_show="True" stop="True" voice="mm11001_03_0146" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あぁ、納得。学生は辛いわよね。" speaker_show="True" stop="True" voice="sf11004_03_0250" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="元気出して、モモち……。&#xA;あ、じゃあせめて、かき氷でも食べる？" speaker_show="True" stop="True" voice="ig11006_03_0150" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ありがとう、ごえちゃん。&#xA;でも真冬だからやめとくよ……。" speaker_show="True" stop="True" voice="mm11001_03_0147" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait time="1.0" />
+    <create obj_id="半蔵門 雪" data_id="311002005" x="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="３人とも、ここだったのね。&#xA;緊急招集よ。一緒に下りて。" speaker_show="True" stop="True" voice="hy11002_03_0102" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" data_id="311001005" obj_id="源 モモ" x="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="300" />
+    <create type="Character" obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <lip_sync target1="源 モモ" target2="石川 五恵" target3="相模 楓" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="モモ・楓・五恵" text="はい！" speaker_show="True" stop="True" voice="3023000001_union_003" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

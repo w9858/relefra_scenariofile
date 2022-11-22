@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010403" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="20_meiandfuhouse_02" color="#ffffffff" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="命と楓の家" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="美味しくな～れ♪　美味しくな～れ～♪" speaker_show="True" stop="True" voice="sf11004_01_0717" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はぁ～、スパイスのいい匂い！　それに今日は&#xA;大きなお肉もゴロゴロ！　しかも牛肉！" speaker_show="True" stop="True" voice="sf11004_01_0718" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="こんなに贅沢しても、今月は何と大幅な黒字です！" speaker_show="True" stop="True" voice="sf11004_01_0719" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="さすがはアタシ！&#xA;お嫁さんにしたいスパイナンバー１！" speaker_show="True" stop="True" voice="sf11004_01_0720" />
+    <Comment comment="SEグツグツとカレーの煮える音" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="それにしても、コンロのそばに居ると喉が乾くわね。&#xA;あ、そういえば師匠も……。" speaker_show="True" stop="True" voice="sf11004_01_0721" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <bg show="True" file="04_shopstreetmo_01" color="#ffffffff" />
+    <Comment comment="回想（街背景）" />
+    <delete obj_id="相模 楓" />
+    <wait time="0.5" />
+    <screen_effect mode="FlashbackWhite" show="True" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="先週の休日" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ねぇフー、喉が渇いたよー。" speaker_show="True" stop="True" voice="ym11003_01_0748" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="それじゃあ早く家に帰って、&#xA;空崎の美味しい水を飲みましょう。" speaker_show="True" stop="True" voice="sf11004_01_0722" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="空崎の美味しい水？&#xA;ってそれ！　ただの水道水じゃん！" speaker_show="True" stop="True" voice="ym11003_01_0749" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="はい、師匠の健康を考えて、一度煮沸消毒したのを&#xA;冷ました水ですから、美味しさも倍増です。" speaker_show="True" stop="True" voice="sf11004_01_0723" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="うー、そんなんじゃなくて、たまには甘くて&#xA;冷たいのが飲みたいんだよー。" speaker_show="True" stop="True" voice="ym11003_01_0750" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="それじゃあ美味しい水を凍らせて、かき氷にして&#xA;砂糖水をかけてあげますね。" speaker_show="True" stop="True" voice="sf11004_01_0724" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="砂糖水!?　そこはせめてイチゴとかメロンとか&#xA;ブルーハワイのシロップじゃない？" speaker_show="True" stop="True" voice="ym11003_01_0751" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="師匠、砂糖水のかき氷はみぞれ味と言って、&#xA;素材の旨みが楽しめる最強のフレーバーなんですよ！" speaker_show="True" stop="True" voice="sf11004_01_0725" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="True" />
+    <msg speaker="八千代 命" text="やだやだやだー！　そんな地味なのじゃなくて、&#xA;メイはフローズンチョコレートが飲みたいよー！" speaker_show="True" stop="True" voice="ym11003_01_0752" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="無駄遣いはダメです。" speaker_show="True" stop="True" voice="sf11004_01_0726" />
+    <Comment comment="SEスタスタと歩き出す楓の足音" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="相模 楓" x="300" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ちょっと待ってよ、フー。あっ、それじゃあさ、&#xA;小腹もすいたし、コロッケ買って帰ろう！" speaker_show="True" stop="True" voice="ym11003_01_0753" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="もうすぐご飯だからダメです。" speaker_show="True" stop="True" voice="sf11004_01_0727" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="じゃあじゃあ、コンビニ寄ってアイス買おう！&#xA;食後のデザートにアイス！　フーも好きだよね？" speaker_show="True" stop="True" voice="ym11003_01_0754" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="ダメです!!" speaker_show="True" stop="True" voice="sf11004_01_0728" />
+    <msg_window_show show="False" />
+    <Comment comment="SEスタスタと歩き出す楓の足音" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="相模 楓" x="1000" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="待ってよ～、フー。" speaker_show="True" stop="True" voice="ym11003_01_0755" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <bg show="True" file="20_meiandfuhouse_02" color="#ffffffff" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <wait time="0.5" />
+    <screen_effect mode="FlashbackWhite" show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="節約のためとはいえ、師匠には色々と&#xA;我慢をさせ過ぎてたかも……。" speaker_show="True" stop="True" voice="sf11004_01_0729" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="今月は黒字もキープ出来てるし、少しは師匠の&#xA;わがままに付き合ってあげようかな。" speaker_show="True" stop="True" voice="sf11004_01_0730" />
+    <Comment comment="SEグツグツとカレーの煮える音" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="それにしても師匠遅いなー。" speaker_show="True" stop="True" voice="sf11004_01_0731" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

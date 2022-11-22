@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010610001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="研究所内" />
+    <bg show="True" file="03_tsukikage_007" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <move obj_id="石川 五恵" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="2.0" wait="True" />
+    <msg speaker="石川 五恵" text="んしょ、んしょ……。" speaker_show="True" stop="True" voice="ig11006_02_0647" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あれ、初芽ちゃんいないのかな……？" speaker_show="True" stop="True" voice="ks11010_02_0450" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <msg speaker="石川 五恵" text="えーっと、これをあっちに……。&#xA;あ、違う、こっちだ。" speaker_show="True" stop="True" voice="ig11006_02_0648" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あ、ごえちゃん。何してるの？" speaker_show="True" stop="True" voice="ks11010_02_0451" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="んー、これ意外と重いな。&#xA;落とさないように気をつけないと……。" speaker_show="True" stop="True" voice="ig11006_02_0649" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" lip_sync="False" text="（んー、なんか必死に運んでるみたいだけど、&#xA;もしかして、こっちの声、聞こえてないのかな？）" speaker_show="True" stop="True" voice="ks11010_02_0452" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="おーい、ごえちゃーん。" speaker_show="True" stop="True" voice="ks11010_02_0453" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あ……これはこっちじゃなくてあっちかも……。" speaker_show="True" stop="True" voice="ig11006_02_0650" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="高坂 信" lip_sync="False" text="（ダメだ、集中してて&#xA;ぜんぜん聞こえてないみたいだ。）" speaker_show="True" stop="True" voice="ks11010_02_0454" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ごーえーちゃんっ！" speaker_show="True" stop="True" voice="ks11010_02_0455" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="わっ、信さん！　いつの間にっ!?" speaker_show="True" stop="True" voice="ig11006_02_0651" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="ははっ、いつの間にっていうか、結構前から。&#xA;何度かごえちゃんのこと呼んだんだけどな。" speaker_show="True" stop="True" voice="ks11010_02_0456" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="す、すみません、ぜんぜん気がつかなくて。" speaker_show="True" stop="True" voice="ig11006_02_0652" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ううん、それは慣れっこだから別にいいよ。&#xA;でも、なんだか忙しそうだね。荷物を運んでるの？" speaker_show="True" stop="True" voice="ks11010_02_0457" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="実験用の道具らしいです。師匠が戻ってくるまでに&#xA;移動させておきたくて……。" speaker_show="True" stop="True" voice="ig11006_02_0653" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そうなんだ。大変そうだから信も手伝うよ。&#xA;……って、重っー!!" speaker_show="True" stop="True" voice="ks11010_02_0458" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="わーっ、本当に大丈夫ですから、&#xA;そこに置いておいてください！" speaker_show="True" stop="True" voice="ig11006_02_0654" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ご、ごめん……。" speaker_show="True" stop="True" voice="ks11010_02_0459" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="いえ、信さんはゆっくりしていてください。&#xD;&#xA;今、お茶をいれますね。" speaker_show="True" stop="True" voice="ig11006_02_0654a" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ありがとう。だけど、この荷物、&#xA;全部、運ぶのはさすがに無理なんじゃ……。" speaker_show="True" stop="True" voice="ks11010_02_0460" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="石川 五恵" text="そんなことないですよ。これも弟子の仕事ですし、&#xA;修行の一環だと思えば、なんてことないです。" speaker_show="True" stop="True" voice="ig11006_02_0655" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="すごいね、ごえちゃん。&#xA;やっぱりお茶なんていいよ。" speaker_show="True" stop="True" voice="ks11010_02_0461" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="え、でも……。" speaker_show="True" stop="True" voice="ig11006_02_0656" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="いいからいいから。荷物運ぶの優先して。&#xA;信は邪魔しないうちに帰るとするよ。" speaker_show="True" stop="True" voice="ks11010_02_0462" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="そんな、信さんこそ気にしないでください。&#xA;すぐ用意できますから。" speaker_show="True" stop="True" voice="ig11006_02_0657" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="高坂 信" lip_sync="False" text="（優しい子だなぁ。&#xA;初芽ちゃん、ずいぶんいい弟子を持ったんだね。）" speaker_show="True" stop="True" voice="ks11010_02_0463" />
+  </command>
+</adv>

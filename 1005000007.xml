@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1005000007" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" volume="100" cue_name="Base" />
+    <fade_out time="0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="テレジアは、カトリーナと二人きりで&#xA;ツキカゲの基地内にいた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="03_tsukikage_007" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地 ラボ室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="テレジア" text="呼び出しがあったが…どうしたカトリーナ？" speaker_show="True" stop="True" voice="tr11007_01_0079" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="015_Facial_poker" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="テレジアちゃんと少し真面目な話がしたかったから&#xA;場所はここにしたわ。" speaker_show="True" stop="True" voice="kt11009_01_0048" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="……雰囲気がツキカゲのカトリーナというより&#xA;トビー一族としてのカトリーナだな。" speaker_show="True" stop="True" voice="tr11007_01_0080" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="テレジアちゃんは、ツキカゲで一緒に戦うことを&#xA;志願して、高校にも復学した。" speaker_show="True" stop="True" voice="kt11009_01_0049" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="実際そうしてみて、しばらく経ったけど&#xA;どうかしら調子は。" speaker_show="True" stop="True" voice="kt11009_01_0050" lip_sync_volume="0.03" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="……。" speaker_show="True" stop="True" voice="tr11007_01_0081" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="質問の真意。なんとなく分かるでしょ？" speaker_show="True" stop="True" voice="kt11009_01_0051" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="心理テストのようなものか。" speaker_show="True" stop="True" voice="tr11007_01_0082" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="貴方はモウリョウで教育を受けた子だけど&#xA;今は立ち直るよう頑張ってる。" speaker_show="True" stop="True" voice="kt11009_01_0052" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="でも悲しいけれど、&#xA;昔の呪縛から逃げられなかったケースも多々あるわ。" speaker_show="True" stop="True" voice="kt11009_01_0053" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ふとした事でフラッシュバックして錯乱、&#xA;チームが危機に陥った。なんて話もね。" speaker_show="True" stop="True" voice="kt11009_01_0054" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="だからこのタイミングで一度、&#xA;腹をわって話をさせてもらうわ。" speaker_show="True" stop="True" voice="kt11009_01_0055" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="調子か。" speaker_show="True" stop="True" voice="tr11007_01_0083" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="……正直、皆に迷惑をかけながら、&#xA;なんとかやっていってる状態だ。" speaker_show="True" stop="True" voice="tr11007_01_0084" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="でも、明日も五恵達と授業に出たいし、&#xA;初芽達とゴハンを食べたいと思う。" speaker_show="True" stop="True" voice="tr11007_01_0085" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="今のテレジアちゃんにとって&#xA;楽しいものは何？" speaker_show="True" stop="True" voice="kt11009_01_0056" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="毎日、といっても漠然としているが……" speaker_show="True" stop="True" voice="tr11007_01_0086" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="今度、噂の遊園地に行くらしいから&#xA;あれは楽しみだ。" speaker_show="True" stop="True" voice="tr11007_01_0087" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="……本来、私は逆さ塔の連中のような&#xA;扱いを受けるべきなんだ。" speaker_show="True" stop="True" voice="tr11007_01_0088" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="それを、こんなに優しくしてもらっていて。&#xA;感謝しても足りない。" speaker_show="True" stop="True" voice="tr11007_01_0089" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="恩返ししたいと、心から思う。" speaker_show="True" stop="True" voice="tr11007_01_0090" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="………。" speaker_show="True" stop="True" voice="kt11009_01_0057" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ふふ、本当はもっと質問を用意してたけど&#xA;十分かしら。" speaker_show="True" stop="True" voice="kt11009_01_0058" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="分かってはいたけど、貴方は大丈夫ね&#xA;テレジアちゃん。" speaker_show="True" stop="True" voice="kt11009_01_0059" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="皆がいるから、大丈夫でいられるんだ。" speaker_show="True" stop="True" voice="tr11007_01_0091" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="そこを自覚しているから大丈夫なのよ。" speaker_show="True" stop="True" voice="kt11009_01_0060" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="考えたけどツキカゲのコードネームは「蔵人」で&#xA;どうかしら。響きが異国的かなって。" speaker_show="True" stop="True" voice="kt11009_01_0061" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="蔵人、か……。いいと思う。" speaker_show="True" stop="True" voice="tr11007_01_0092" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="五恵の弟子という可能性と&#xA;コードネームまでもらえた…これは嬉しい。" speaker_show="True" stop="True" voice="tr11007_01_0093" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ふふ。これからも宜しくねテレジアちゃん。" speaker_show="True" stop="True" voice="kt11009_01_0062" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="…ありがとう。" speaker_show="True" stop="True" voice="tr11007_01_0094" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" time="1.0" wait="True" />
+  </command>
+</adv>

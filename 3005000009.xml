@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000009" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Briefing" />
+    <bg show="True" resource_type="Background" file="34_sakasatower_01" effect="Immediately" wait="False" effect_time="0.3" color="#ffffffff" />
+    <fade_in time="0.5" />
+    <telop text="逆さ塔" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" type="Character" anchor="Bottom" y="0" />
+    <create obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="200" type="Character" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="事件って、一体何が起きたんだよ。" speaker_show="True" stop="True" voice="ry12002_02_0065" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="まぁそう焦るんじゃねえ。任務の内容は、&#xA;ツキカゲの奴らと通信を繋いでから説明してやるよ。" speaker_show="True" stop="True" voice="ty12005_02_0051" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="津守 ヨモギ" />
+    <create obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-200" type="Character" y="0" anchor="Bottom" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="200" type="Character" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="ヨモギさん、ビデオ通話の準備完了です！" speaker_show="True" stop="True" voice="th12004_02_0068" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="よし、皆、モニターの前に集合するのじゃ。" speaker_show="True" stop="True" voice="ss12003_02_0117" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="薩摩 しぶき" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="0" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源 モモ" text="わっ、ツキカゲのみんなが映ってる！&#xA;画面越しに見る師匠も、美しい～。" speaker_show="True" stop="True" voice="mm11001_02_0099" />
+    <msg speaker="半蔵門 雪" text="モモ、元気にやっているようね。それでヨモギさん、&#xA;今回の合同ミッションの概要は?" speaker_show="True" stop="True" voice="hy11002_02_0146" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="200" type="Character" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="通信越しですまねぇな。一刻を争うからよ。" speaker_show="True" stop="True" voice="ty12005_02_0052" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek01_default" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="一刻を争う？&#xA;一体何があったんですか？" speaker_show="True" stop="True" voice="mm11001_02_0100" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="モウリョウの残党共が、軍事人形を持ち出して&#xA;羽田空港に向かっているって通報があってな。" speaker_show="True" stop="True" voice="ty12005_02_0053" />
+    <delete obj_id="源 モモ" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" type="Character" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="羽田空港？　残党共が何故&#xA;そんなところに向かっているのじゃ？" speaker_show="True" stop="True" voice="ss12003_02_0118" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="自暴自棄になって羽田空港を占拠しようと&#xA;してるらしい。" speaker_show="True" stop="True" voice="ty12005_02_0054" />
+    <delete obj_id="薩摩 しぶき" />
+    <create obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-200" type="Character" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="羽田空港は国の動脈。占拠なんてされたら、&#xA;相当な被害が出ちゃうよね。" speaker_show="True" stop="True" voice="th12004_02_0069" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="それを阻止するために、今回は&#xA;合同ミッションをやって欲しいって話だぜ。" speaker_show="True" stop="True" voice="ty12005_02_0055" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="残党共が持ち出した人形の機能停止と、&#xA;被疑者集団の確保をしてきてくれ。" speaker_show="True" stop="True" voice="ty12005_02_0056" />
+    <delete obj_id="轟 葉栖美" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" type="Character" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="了解じゃ。しかし、その程度のことならば&#xA;凪の部隊だけでも片付けられるのではないか？" speaker_show="True" stop="True" voice="ss12003_02_0119" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="そう出来りゃいいんだが、今回動いている残党の数が&#xA;相当な数だと情報が入ってよ。" speaker_show="True" stop="True" voice="ty12005_02_0057" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="最悪の場合を想定して、こっちも抜かりない布陣で&#xA;望むべし、ってのが上の判断なんだよ。" speaker_show="True" stop="True" voice="ty12005_02_0058" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="薩摩 しぶき" />
+    <create obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="-200" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="200" y="0" anchor="Bottom" type="Character" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="なるほど、ミッションの内容は承知です。" speaker_show="True" stop="True" voice="kt11009_02_0080" />
+    <msg speaker="青葉 初芽" text="羽田空港は、互いの拠点の中間地点にありますから、&#xA;合同ミッションにはもってこいの場所ですし。" speaker_show="True" stop="True" voice="ah11005_02_0205" />
+    <msg speaker="八千代 命" text="交換留学生たちの腕試しもできて、&#xA;グッドタイミングだったかも～！" speaker_show="True" stop="True" voice="ym11003_02_0107" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうね。飛粋の力が実戦でどこまで使えるか、&#xA;お手並み拝見しちゃいましょ。" speaker_show="True" stop="True" voice="sf11004_02_0029" />
+    <msg speaker="宗近 飛粋" text="ツキカゲの一員としての初出動、&#xA;素敵に活躍できるよう頑張ります！" speaker_show="True" stop="True" voice="mh12001_02_0098" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="飛粋、随分と張り切ってるな。&#xA;モモ公もオラ、気合のほどを見せてやれ！" speaker_show="True" stop="True" voice="ry12002_02_0066" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="は、はい！　私も、&#xA;凪の部隊の名に恥じないよう、頑張ります！" speaker_show="True" stop="True" voice="mm11001_02_0101" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="源 モモ" />
+    <create obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" type="Character" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="津守 ヨモギ" text="よし、それぞれ気合も十分入ったみてえだな。&#xA;任せたぞ、凪の部隊、そしてツキカゲ！" speaker_show="True" stop="True" voice="ty12005_02_0059" />
+    <msg_window_show show="False" />
+    <delete obj_id="津守 ヨモギ" />
+    <create obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" type="Character" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="薩摩 しぶき" text="凪の部隊、進発！" speaker_show="True" stop="True" voice="ss12003_02_0120" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_002" effect="Immediately" wait="False" effect_time="0.3" color="#ffffffff" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" type="Character" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="了解！&#xA;ツキカゲ、ミッションスタート！" speaker_show="True" stop="True" voice="hy11002_02_0147" />
+  </command>
+</adv>

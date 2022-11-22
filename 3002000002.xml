@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3002000002" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="25_katrinahouse_01" resource_type="Background" />
+    <Comment comment="カトリーナの部屋背景に変える" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="カトリーナの部屋" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="カトリーナ　私服" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="それにしても、銭湯が悉くお休みなんて、&#xA;ついてなかったわね。" speaker_show="True" stop="True" voice="kt11009_01_0222" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" loop="False" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="KiraKIra_kato" effect_type="EffectKirakira" target_obj="カトリーナ" />
+    <msg speaker="カトリーナ" text="もう少しでお風呂が沸くから、それまで暖かい&#xA;ハーブティーでも飲んで待っていてね。" speaker_show="True" stop="True" voice="kt11009_01_0223" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="はぁ……、カトーさんからキラキラの後光が……。&#xA;ありがとう、メイたちを救ってくれたメシア様。" speaker_show="True" stop="True" voice="ym11003_01_0349" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ふふ、メイちゃんたら、大げさねぇ。" speaker_show="True" stop="True" voice="kt11009_01_0224" />
+    <delete obj_id="KiraKIra_kato" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="カトリーナ" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="そんなことないです！　まさかあったかいお風呂に&#xA;ありつけるなんて思わなかったから感激です！" speaker_show="True" stop="True" voice="sf11004_01_0418" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="そんなに喜んでくれると、&#xA;私まで嬉しくなってしまうわね。" speaker_show="True" stop="True" voice="kt11009_01_0225" />
+    <delete obj_id="KiraKIra_kato" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="うちのお風呂はそれなりに大きいから、&#xA;銭湯とまではいかなくとも２人一緒には入れるわよ。" speaker_show="True" stop="True" voice="kt11009_01_0226" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】お風呂にお湯がたまった系の音が見つからない…" />
+    <sound type="Se" cue_name="IncomingMessage" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="お風呂が沸いたみたいね。&#xA;さあ、お湯が冷めないうちにどうぞ。" speaker_show="True" stop="True" voice="kt11009_01_0227" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ありがとうございます、それじゃあ師匠、&#xA;お言葉に甘えて行きましょう。" speaker_show="True" stop="True" voice="sf11004_01_0419" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="Smile_mei" effect_type="MampSmile" life_time="5.0" target_obj="八千代 命" y="30" />
+    <msg speaker="八千代 命" text="お風呂♪　お風呂♪　あったかいお風呂～♪" speaker_show="True" stop="True" voice="ym11003_01_0350" />
+    <msg_window_show show="False" />
+    <delete obj_id="Smile_mei" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="八千代 命" position_id="left" x="-150" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="-400" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="そうだ！　２人とも、折角だからお風呂から&#xA;出たらこれを使ってあげるわね。" speaker_show="True" stop="True" voice="kt11009_01_0228" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="何この、女子力高そうなキラキラした瓶は……。&#xA;ん？　ヘアオイル？" speaker_show="True" stop="True" voice="ym11003_01_0351" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="（これ！　いくらするかは知らないけど、&#xA;人気のブランドの高いやつだ……）" speaker_show="True" stop="True" voice="sf11004_01_0420" lip_sync="False" />
+    <char_spine_animation obj_id="相模 楓" loop="True" to_idle="True" force_end="False" face_anim_type="015_Facial_poker" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="カトリーナさん！　こんな素敵なもの、使えないです！&#xA;必要なものは自分達で持ってきていますから。" speaker_show="True" stop="True" voice="sf11004_01_0421" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="いいからいいから、お姉さんの言う事には&#xA;従っておくものよ。" speaker_show="True" stop="True" voice="kt11009_01_0229" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="けど&#x8;……。" speaker_show="True" stop="True" voice="sf11004_01_0422" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="メイ、折角なんだし使ってみたい！　遠慮は無用！&#xA;武士は喰わねど高楊枝って言うでしょ？" speaker_show="True" stop="True" voice="ym11003_01_0352" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="101_Facial_trouble" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="意味は真逆ですけどね……。" speaker_show="True" stop="True" voice="sf11004_01_0423" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="じゃあ、ちょっと恐縮ですけど、&#xA;カトリーナさんがそう言うなら遠慮なく。" speaker_show="True" stop="True" voice="sf11004_01_0424" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="はーい。上がったらつけてあげるから、&#xA;ゆっくり温まってきてね。" speaker_show="True" stop="True" voice="kt11009_01_0230" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="わーい！　お風呂上がりに楽しみも出来たし、&#xA;フー、さっさと行くよ！" speaker_show="True" stop="True" voice="ym11003_01_0353" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="八千代 命" position_id="left" y_move_type="MoveValue" time="0.5" wait="True" x="-1500" />
+    <delete obj_id="八千代 命" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="待ってくださいよ師匠！" speaker_show="True" stop="True" voice="sf11004_01_0425" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="相模 楓" position_id="left" y_move_type="MoveValue" time="0.5" wait="True" x="-1500" />
+    <delete obj_id="相模 楓" />
+    <wait time="0.5" />
+    <move obj_id="カトリーナ" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <shake target="Screen" x="10" y="10" vibrate="20" time="0.5" />
+    <msg speaker="八千代 命" text="ぎっ、ぎゃー！&#xA;なんじゃこりゃー!?" speaker_show="True" stop="True" voice="ym11003_01_0354" />
+    <msg speaker="相模 楓" text="カ、カトリーナさん！　お、お風呂が、白いです！&#xA;それにふんわり牛乳の匂いが……。" speaker_show="True" stop="True" voice="sf11004_01_0426" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="２人のために今日は牛乳風呂にしてみたの。" speaker_show="True" stop="True" voice="kt11009_01_0231" />
+    <msg speaker="命・楓" text="ぎゅっ、牛乳風呂～!?" speaker_show="True" stop="True" voice="3002000002_union_001" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="そう、かのクレオパトラも好んだと言われる&#xA;牛乳風呂よ。" speaker_show="True" stop="True" voice="kt11009_01_0232" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="入れば2人とも絶世の美女になれるわよ。" speaker_show="True" stop="True" voice="kt11009_01_0233" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ふふ、予想通りに驚いてくれたわね。" speaker_show="True" stop="True" voice="kt11009_01_0234" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

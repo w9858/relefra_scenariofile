@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003000012" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv2" />
+    <bg show="True" file="14_car_02" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="車内" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" x="200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="みなさん、結局ミッションまでにスーツを&#xA;間に合わせることができなくて、すみません。" speaker_show="True" stop="True" voice="ah11005_01_0218" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="師匠が謝ることなんてありませんよ！&#xA;透明クリームを発明しただけでも凄いんですから。" speaker_show="True" stop="True" voice="ig11006_01_0307" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="青葉 初芽" text="でも……。" speaker_show="True" stop="True" voice="ah11005_01_0219" />
+    <msg_window_show show="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" x="-450" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" x="450" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" x="150" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" x="-150" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="五恵の言う通りよ。未完成のスーツを&#xA;実戦に使うのはやめようと決めたのは私だもの。" speaker_show="True" stop="True" voice="hy11002_01_0417" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="まぁ敵さんと衝突した途端、効果が切れちゃったら&#xA;それこそ大事件ですし、賢明な判断だと思います。" speaker_show="True" stop="True" voice="sf11004_01_0505" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="慣れちゃえば、このクリームの冷たさも&#xA;刺激的で気持ちイイし～！　えいっ！" speaker_show="True" stop="True" voice="ym11003_01_0464" />
+    <shake target="Character" obj_id="八千代 命" x="10" vibrate="10" time="0.5" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <create_effect effect_id="momo_Sweat" effect_type="MampSweat" life_time="1.0" target_obj="源 モモ" />
+    <shake target="Character" obj_id="源 モモ" x="10" vibrate="10" time="0.5" />
+    <msg speaker="源 モモ" text="キャッ!!" speaker_show="True" stop="True" voice="mm11001_01_0660" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="メイちゃん！　まだ脱いでないのに、&#xA;いきなり首筋に塗るなんてルール違反だよ～。" speaker_show="True" stop="True" voice="mm11001_01_0661" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="モモちのことだから、首だけ塗り残して&#xA;首だけオバケになるんじゃないかと思ってさ～。" speaker_show="True" stop="True" voice="ym11003_01_0465" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="首だけオバケなんて聞いたことないよ～。&#xA;こうなったら、お返し～！" speaker_show="True" stop="True" voice="mm11001_01_0662" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="クリーム塗り塗り攻撃だぁ～！" speaker_show="True" stop="True" voice="mm11001_01_0663" />
+    <shake target="Character" obj_id="源 モモ" x="10" vibrate="10" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="mei_Sweat" effect_type="MampSweat" life_time="1.0" target_obj="八千代 命" />
+    <shake target="Character" obj_id="八千代 命" x="10" vibrate="10" time="0.5" />
+    <msg speaker="八千代 命" text="あひゃっ！　冷たいっ！　いきなりお腹に&#xA;塗られたら、お腹が冷えてデンジャラスじゃん！" speaker_show="True" stop="True" voice="ym11003_01_0466" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="メイ、モモ！　ミッション前に貴重なクリームを&#xA;無駄遣いしな……。" speaker_show="True" stop="True" voice="hy11002_01_0418" />
+    <Comment comment="ベチャっとクリームの飛ぶ音" />
+    <sound type="Se" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="009_Facial_blush" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <shake target="Character" obj_id="半蔵門 雪" x="20" vibrate="20" time="0.5" wait="True" />
+    <create_effect effect_id="yuki_Sweat" effect_type="MampSweat" life_time="1.0" target_obj="半蔵門 雪" />
+    <msg speaker="半蔵門 雪" text="ぶはっ……。顔にクリームが。" speaker_show="True" stop="True" voice="hy11002_01_0419" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <wait time="0.2" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" x="200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <create_effect effect_id="hatume_Smile" effect_type="MampSmile" life_time="1.0" target_obj="青葉 初芽" />
+    <msg speaker="青葉 初芽" text="ふふ、何だか後ろが賑やかですね。" speaker_show="True" stop="True" voice="ah11005_01_0220" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <create_effect effect_id="goe_Smile" effect_type="MampSmile" life_time="1.0" target_obj="石川 五恵" />
+    <msg speaker="石川 五恵" text="そうですね、楽しそう。" speaker_show="True" stop="True" voice="ig11006_01_0308" />
+    <msg speaker="源 モモ" text="ひっ、師匠、ごめんなさい！&#xA;どうしよう、師匠の顔だけなくなっちゃった……。" speaker_show="True" stop="True" voice="mm11001_01_0664" />
+    <msg speaker="半蔵門 雪" text="こうなったらモモ、責任を持って全身きれいに&#xA;塗ってちょうだい。" speaker_show="True" stop="True" voice="hy11002_01_0420" />
+    <shake target="Screen" x="5" y="5" vibrate="20" time="0.5" />
+    <msg speaker="源 モモ" text="きゃー、師匠！　ま、まだ心の準備が……。" speaker_show="True" stop="True" voice="mm11001_01_0665" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <shake target="Screen" x="5" y="5" vibrate="20" time="0.5" />
+    <msg speaker="八千代 命" text="いよっ、ユッキー！&#xA;いい脱ぎっぷり！　それじゃあメイも！" speaker_show="True" stop="True" voice="ym11003_01_0467" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="脱ぎっこ、始まったみたいですね。" speaker_show="True" stop="True" voice="ig11006_01_0309" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="False" />
+    <msg speaker="青葉 初芽" text="さすが雪ちゃんたち。もうすぐ到着しますし、&#xA;ちょうど良いタイミングです。" speaker_show="True" stop="True" voice="ah11005_01_0221" />
+    <shake target="Screen" x="5" y="5" vibrate="20" time="0.5" />
+    <msg speaker="相模 楓" text="ちょっ、ちょっと師匠、半蔵さんも！&#xA;こんな狭いところで脱がないでください！" speaker_show="True" stop="True" voice="sf11004_01_0506" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <shake target="Screen" x="5" y="5" vibrate="20" time="0.5" />
+    <msg speaker="八千代 命" text="フーも恥ずかしがってないで&#xA;ガバーっと行っちゃいな！　ガバーっと！" speaker_show="True" stop="True" voice="ym11003_01_0468" />
+    <shake target="Screen" x="5" y="5" vibrate="20" time="0.5" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" />
+    <char_spine_cheek obj_id="石川 五恵" type="Cheek02_medium" loop="True" />
+    <msg speaker="相模 楓" text="オッサンみたいな言い方やめてくださ……&#xA;きゃー！" speaker_show="True" stop="True" voice="sf11004_01_0507" />
+    <msg speaker="半蔵門 雪" text="モモ、あなたも早く脱ぎなさい。&#xA;私がクリームを塗ってあげるわ。" speaker_show="True" stop="True" voice="hy11002_01_0421" />
+    <shake target="Screen" x="5" y="5" vibrate="20" time="0.5" />
+    <msg speaker="源 モモ" text="し、師匠が直接っ!!!!&#xA;きゃー!!!!" speaker_show="True" stop="True" voice="mm11001_01_0666" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ふふ、なんだかみんな楽しそうですね。" speaker_show="True" stop="True" voice="ah11005_01_0222" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="スーツがなくても、これはこれで&#xA;楽しいかもしれませんね。" speaker_show="True" stop="True" voice="ig11006_01_0310" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <wait time="0.5" />
+  </command>
+</adv>

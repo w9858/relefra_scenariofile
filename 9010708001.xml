@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010708001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="04_shopstreetmo_01" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" lip_sync="False" text="（今日は天気もいいし、ゲーセンにでも行くか。）" speaker_show="True" stop="True" voice="bk11008_02_0351" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ん？　あそこにいるのは……おーい、テレ公！" speaker_show="True" stop="True" voice="bk11008_02_0352" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="白虎か。こんなところで何をしている？" speaker_show="True" stop="True" voice="tr11007_02_0358" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="今からゲーセンに行くところだ。ちょうどいい、&#xA;暇そうなお前も連れて行ってやろう。" speaker_show="True" stop="True" voice="bk11008_02_0353" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="いや、私は行かない。&#xA;ゲーセンにはひとりで行くといい。" speaker_show="True" stop="True" voice="tr11007_02_0359" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="わ、私だってそうしたいが、&#xA;新しく入ったゲームが２人専用なんだ！" speaker_show="True" stop="True" voice="bk11008_02_0354" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="２人専用？　そんなゲームがあるのか。" speaker_show="True" stop="True" voice="tr11007_02_0360" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="白虎" text="ああ。この間来たとき、&#xA;協力プレイがなんとかって店員が言ってた。" speaker_show="True" stop="True" voice="bk11008_02_0355" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="とにかく、やりたくても私ひとりじゃできないんだ。&#xA;仕方ないからテレ公にも協力させてやる。" speaker_show="True" stop="True" voice="bk11008_02_0356" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="……よくわからないが、協力が必要なのか。&#xA;それなら、私ではないほうがいいんじゃないか？" speaker_show="True" stop="True" voice="tr11007_02_0361" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" text="それは……どういうことだ？" speaker_show="True" stop="True" voice="bk11008_02_0357" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そのゲームは、自分と相性がいいと思う人を&#xA;誘ったほうがいい。協力プレイなんだろう？" speaker_show="True" stop="True" voice="tr11007_02_0362" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="白虎" text="う……そ、それは……！" speaker_show="True" stop="True" voice="bk11008_02_0358" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="白虎" lip_sync="False" text="（ひとりで行くのも飽きてきたし、&#xA;たまにはテレ公と行ってみたい気がするが……。）" speaker_show="True" stop="True" voice="bk11008_02_0359" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="それじゃあな。夕食までには帰れよ。&#xD;" speaker_show="True" stop="True" voice="tr11007_02_0363" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="って、待て待て！&#xA;勝手に話を終わらせるな！" speaker_show="True" stop="True" voice="bk11008_02_0360" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="なんだ、まだ何かあるのか？" speaker_show="True" stop="True" voice="tr11007_02_0364" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="白虎" text="テレ公の言い分はよくわかった。&#xA;だったら、ここはひとつ取引といこうじゃないか。" speaker_show="True" stop="True" voice="bk11008_02_0361" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="取引……？" speaker_show="True" stop="True" voice="tr11007_02_0365" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="白虎" text="今、冷蔵庫には私のプリンがある。&#xA;あれをテレ公にやる！" speaker_show="True" stop="True" voice="bk11008_02_0363" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="その代わり、私とゲームにつき合うんだ！" speaker_show="True" stop="True" voice="bk11008_02_0364" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="プリンが報酬……つまり、仕事ということだな？" speaker_show="True" stop="True" voice="tr11007_02_0366" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="白虎" text="ああ、そうだ。お前もプロなら&#xA;報酬に見合った働きをしろよ。" speaker_show="True" stop="True" voice="bk11008_02_0365" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="……どうだ、引き受けるか？" speaker_show="True" stop="True" voice="bk11008_02_0366" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="……わかった。取引成立だな。&#xA;最大限の力を尽くそう。" speaker_show="True" stop="True" voice="tr11007_02_0367" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="よっしゃー！&#xA;今日は思いっきり遊んでやるぞー！" speaker_show="True" stop="True" voice="bk11008_02_0367" />
+  </command>
+</adv>

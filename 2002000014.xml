@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000013" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="飛粋はアッコ。葉栖美はマミという名前で&#xA;新興宗教に入信、離島の施設に行き数日が過ぎた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="37_religiousfacility_01" color="#ffffffff" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="宗教施設" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="入信者" text="マミさんは素晴らしい人ですね。&#xA;偉大なるミカボシ様と会える日も近いですよ。" speaker_show="True" stop="True" voice="99026_01_0001" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="轟 葉栖美" text="ありがとうございます。ミカボシ様のため&#xA;さらに精進いたします。" speaker_show="True" stop="True" voice="th12004_01_0097" />
+    <msg_window_show show="False" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="（……素敵だな葉栖美さん。もう皆から好かれてる。&#xA;私も見習わないと。ようし頑張るぞ）" speaker_show="True" stop="True" voice="mh12001_01_0136" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="あの何か手伝う事はありますか？&#xA;徳を積みたいのです。" speaker_show="True" stop="True" voice="mh12001_01_0137" />
+    <msg speaker="入信者" text="アッコさん焦ってはいけません。&#xA;それが顔に出て鬼気迫る表情をしていますよ？" speaker_show="True" stop="True" voice="99026_01_0002" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="（う～。そこまで焦っていないのに。&#xA;元からこういう顔ですぅ）" speaker_show="True" stop="True" voice="mh12001_01_0138" lip_sync="False" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="（色々調べて分かったけど、要塞のような施設ね&#xA;ここは。信者を騙すカラクリもいっぱいあるし）" speaker_show="True" stop="True" voice="th12004_01_0098" speaker_front="True" lip_sync="False" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="（テロの兵器をおさえるにしても、凪の部隊全員で&#xA;かからないと危ない。ウミネコ君、頼まれてくれる？）" speaker_show="True" stop="True" voice="th12004_01_0099" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <bg show="True" file="34_sakasatower_01" color="#ffffffff" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="津守 ヨモギ" text="波止場に葉栖美からのメッセージがきたぜ。&#xA;あの宗教は完全に黒らしいな。" speaker_show="True" stop="True" voice="ty12005_01_0072" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="警備の厳重さからして不自然じゃからの。まぁ&#xA;人っ子１人入れぬ警備でも動物なら平気じゃ！" speaker_show="True" stop="True" voice="ss12003_01_0153" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="津守 ヨモギ" text="本当に便利な能力だぜ葉栖美は。&#xA;こっちも乗り込む準備はじめるぜ。" speaker_show="True" stop="True" voice="ty12005_01_0073" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="薩摩 しぶき" />
+    <bg show="True" file="37_religiousfacility_01" color="#ffffffff" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="宗教施設" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="200" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="あの、何か私にお手伝い出来る事はありますか？" speaker_show="True" stop="True" voice="mh12001_01_0139" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="別にないな？　ミカボシ様のご健康でも&#xA;祈っておけばいーんじゃ……。" speaker_show="True" stop="True" voice="ry12002_01_0047" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="あ。" speaker_show="True" stop="True" voice="mh12001_01_0140" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="あ。" speaker_show="True" stop="True" voice="ry12002_01_0048" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="おまっ、こんな所に何しにきやがった！？&#xA;ええと名前なんていうんだよ。" speaker_show="True" stop="True" voice="ry12002_01_0049" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="ア、アッコ。ところでゆらちゃんこそ何してるの？&#xA;信者のフリをしているんだよね？" speaker_show="True" stop="True" voice="mh12001_01_0141" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="018_Facial_smug" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="潜入名っぽいし、馴れ馴れしいなー。まぁいいや。&#xA;アタシ様は処刑人としてここに来てるんだ。" speaker_show="True" stop="True" voice="ry12002_01_0050" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ここの教祖はな、アタシら大八洲師団と連携していく&#xA;手筈だったのにチヤホヤされ勘違いしちまったのさ。" speaker_show="True" stop="True" voice="ry12002_01_0051" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ぬわんと。自分がマジ神だと思って同時テロを&#xA;かますらしい。そんな事こっちは聞いてないぞと。" speaker_show="True" stop="True" voice="ry12002_01_0052" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="混沌はこっちも望むところだけどよ。命令を&#xA;聞かない組織は在っちゃいけないわけだ。" speaker_show="True" stop="True" voice="ry12002_01_0053" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="私たちは、この組織がテロをおこす疑いが&#xA;あるからって、調べにきてるんだ。" speaker_show="True" stop="True" voice="mh12001_01_0142" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="それは事実だ。じゃあ面倒くせーからここは互いに&#xA;不干渉といこーぜ。難しい言葉だけど分かるか？" speaker_show="True" stop="True" voice="ry12002_01_0054" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="うん。今騒ぎを起こしたらまずいもんね…。&#xA;ここまで警備が厳重なんて思わなかった。" speaker_show="True" stop="True" voice="mh12001_01_0143" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ハッタリだろうと人をここまで動かせる&#xA;力は本物の教祖だったわけだ。" speaker_show="True" stop="True" voice="ry12002_01_0055" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="心のよりどころを作るのは素敵なことなのに、&#xA;悪いことにしちゃダメだよね。" speaker_show="True" stop="True" voice="mh12001_01_0144" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="それをアタシ様に言うな。アタシ様は別に&#xA;正義とか悪は知らん。やりたいようにやるだけだ。" speaker_show="True" stop="True" voice="ry12002_01_0056" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="とにかく。ここの教祖は大八洲のケジメ案件だ。&#xA;首を持って帰る。お前ら後は好きにしろ。" speaker_show="True" stop="True" voice="ry12002_01_0057" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="くあーっ！　アタシ様ってば超大人な判断だな。&#xA;個人の恨みより大八洲を第一に考える。素敵すぎる。" speaker_show="True" stop="True" voice="ry12002_01_0058" lip_sync="True" window_type="CharMsg" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="013_Facial_angry" body_anim_type="18_ArmsCrossed" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="乱獅子 ゆら" text="（今度はもうしくじれねぇしな。任務こなすためにも&#xA;暴れたいのはグッとおさえるぜ……）" speaker_show="True" stop="True" voice="ry12002_01_0059" lip_sync="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="宗近 飛粋" text="（妙な成り行きになっちゃったけど、戦って騒ぎに&#xA;なるより、いいよね！　うん、頑張ろう）" speaker_show="True" stop="True" voice="mh12001_01_0145" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010109" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <Comment comment="一部背景を仮の物を使用しています。" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg show="True" resource_type="Background" file="16_soapland_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" loop="True" />
+    <msg speaker="源 モモ" text="うわぁ～、相変わらずいかがわしい雰囲気……。&#xA;ソワソワが止まらない……。" speaker_show="True" stop="True" voice="mm11001_02_0698" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" />
+    <msg speaker="源 モモ" text="けど、せっかく師匠が褒めてくれたんだから&#xA;頑張らなくちゃ！" speaker_show="True" stop="True" voice="mm11001_02_0699" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" loop="True" />
+    <create_effect effect_id="モモ漫符" effect_type="MampExclamation" target_obj="源 モモ" />
+    <msg speaker="風俗店オーナー" text="ん？&#xA;誰だ、お前は。" speaker_show="True" stop="True" voice="99111_02_0001" />
+    <delete obj_id="モモ漫符" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="（わっ、誰この人。お客さんかな。&#xA;ここは怪しまれないように堂々と……。）" speaker_show="True" stop="True" voice="mm11001_02_0700" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="源 モモ" text="こんにちわ～！&#xA;新人のピーチでーす！" speaker_show="True" stop="True" voice="mm11001_02_0701" />
+    <msg speaker="風俗店オーナー" text="新人？　あぁ、面接の。&#xA;早かったな。" speaker_show="True" stop="True" voice="99111_02_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="（面接？）" speaker_show="True" stop="True" voice="mm11001_02_0702" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="風俗店オーナー" text="私がこの店のオーナーだ。&#xA;面接も私が担当する、よろしく。" speaker_show="True" stop="True" voice="99111_02_0003" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" loop="True" mixing="False" />
+    <msg speaker="源 モモ" text="はいっ！" speaker_show="True" stop="True" voice="mm11001_02_0703" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" body_anim_type="13_Question" />
+    <msg speaker="源 モモ" text="（面接の子と間違われちゃったみたい。&#xA;とりあえず怪しまれないで済んで良かったけど……。）" speaker_show="True" stop="True" voice="mm11001_02_0704" lip_sync="False" />
+    <msg speaker="半蔵門 雪" text="百地、こちら半蔵。目の前にいる男は&#xA;大八洲師団と関わりがある可能性が高いわ。" speaker_show="True" stop="True" voice="hy11002_02_0566" />
+    <msg speaker="半蔵門 雪" text="格好の機会を得たようだから、なるべく会話を&#xA;引き延ばして、情報を聞き出してちょうだい。" speaker_show="True" stop="True" voice="hy11002_02_0567" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="源 モモ" text="（引き伸ばしてって、そんな無茶振り……。）" speaker_show="True" stop="True" voice="mm11001_02_0705" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="風俗店オーナー" text="ではまず、志望動機と自己PR、それから得意な&#xA;プレイを教えてくれ。" speaker_show="True" stop="True" voice="99111_02_0004" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="えっと、志望動機は……お客さんを笑顔にしたいから…&#xA;自己PRは、笑顔とやる気には自信があります！" speaker_show="True" stop="True" voice="mm11001_02_0706" />
+    <msg speaker="風俗店オーナー" text="そうか、ではそのやる気を&#xA;早速披露してもらおうか……。" speaker_show="True" stop="True" voice="99111_02_0005" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="15_Negative" loop="False" />
+    <msg speaker="源 モモ" text="待ってください。その前に、もう一つ質問が&#xA;あった気が。何でしたっけ？" speaker_show="True" stop="True" voice="mm11001_02_0707" />
+    <msg speaker="風俗店オーナー" text="あぁ、得意なプレイだな。&#xA;どんなプレイで攻めるのが好きなんだ？" speaker_show="True" stop="True" voice="99111_02_0006" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" body_anim_type="13_Question" />
+    <msg speaker="源 モモ" text="……えぇっと……。&#xA;相手を捕まえて縛り上げたりとか……" speaker_show="True" stop="True" voice="mm11001_02_0708" />
+    <msg speaker="風俗店オーナー" text="お前、なかなか面白いことを言うな。&#xA;縛り上げか、私もよくやられることはあるが……。" speaker_show="True" stop="True" voice="99111_02_0007" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" />
+    <msg speaker="源 モモ" text="そうなんですか？　それってもしかして、&#xA;上納金を納めろって凄まれて……とか？" speaker_show="True" stop="True" voice="mm11001_02_0709" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="源 モモ" text="だとしたら私、ボディーガードも出来ます！&#xA;どんな奴らですか？　後ろに何か悪の組織がいるとか？" speaker_show="True" stop="True" voice="mm11001_02_0710" />
+    <msg speaker="風俗店オーナー" text="んんっ？　面白い事を言う奴だな。&#xA;だが、店の商品を危険にさらす訳にはいかねえ。" speaker_show="True" stop="True" voice="99111_02_0008" />
+    <msg speaker="風俗店オーナー" text="お前たちの役割はあくまで俺たちを癒すこと。&#xA;さぁ、次は実技試験といこう。" speaker_show="True" stop="True" voice="99111_02_0009" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="15_Negative" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" loop="True" />
+    <msg speaker="源 モモ" text="そ、その前にもう少しお喋りを……。&#xA;自己PRをもう少しやらせて貰っていいですか？" speaker_show="True" stop="True" voice="mm11001_02_0711" />
+    <char_spine_animation obj_id="源 モモ" />
+    <msg speaker="風俗店オーナー" text="そんなのは、体で伝えてくれれば構わん！&#xA;もお我慢できねえ！" speaker_show="True" stop="True" voice="99111_02_0010" />
+    <move obj_id="源 モモ" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.1" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="源 モモ" text="うわっ！" speaker_show="True" stop="True" voice="mm11001_02_0712" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002008" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <move obj_id="半蔵門 雪" x="-1000" x_move_type="MoveValue" y_move_type="MoveValue" time="0.1" wait="False" />
+    <move obj_id="半蔵門 雪" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.1" wait="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" />
+    <msg speaker="半蔵門 雪" text="黙れ、変態！" speaker_show="True" stop="True" voice="hy11002_02_0568" />
+    <sound cue_name="Slash" />
+    <create_effect effect_id="斬撃" effect_type="EffectSlash" />
+    <wait time="1" />
+    <msg speaker="風俗店オーナー" text="ぐはぁ……、ガクッ。" speaker_show="True" stop="True" voice="99111_02_0011" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="02_Idle" loop="True" />
+    <char_spine_eye obj_id="源 モモ" type="Eye03_tear" loop="True" />
+    <msg speaker="半蔵門 雪" text="念のため天井裏に張り込んでいて正解だったわね。" speaker_show="True" stop="True" voice="hy11002_02_0569" />
+    <move obj_id="源 モモ" position_id="left" x="150" x_move_type="MoveTo" wait="True" />
+    <char_spine_animation obj_id="源 モモ" />
+    <msg speaker="源 モモ" text="師匠～！" speaker_show="True" stop="True" voice="mm11001_02_0713" />
+    <char_spine_animation obj_id="源 モモ" />
+    <msg speaker="半蔵門 雪" text="こんな所で抱きつかないの。&#xA;けどモモ、なかなかよく頑張ったわね。" speaker_show="True" stop="True" voice="hy11002_02_0570" />
+    <msg speaker="半蔵門 雪" text="この男の態度の急変、何か知っているに違いない。&#xA;お手柄よ。" speaker_show="True" stop="True" voice="hy11002_02_0571" />
+    <fade_out time="0.5" wait="True" />
+    <sound_stop cue_name="Adv6" />
+  </command>
+</adv>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3019000002" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <Comment comment="秋服がないため、夏服を使用しています。" />
+    <Comment comment="すまは仮キャラをおいています。" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg show="True" resource_type="Background" file="23_forestev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="森" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create data_id="312002002" obj_id="乱獅子 ゆら" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="クソっ、アタシ様をこんな森の奥まで&#xA;呼びつけるたぁ、いい度胸だぜ、すま姉さん。" speaker_show="True" stop="True" voice="ry12002_02_0171" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="てか、何なんだよこれ。バースデーカード&#xA;っつーから開けてみたら……" speaker_show="True" stop="True" voice="ry12002_02_0172" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="あやめ姉さんを捕まえた恨み言が、紙いっぱいに&#xA;ダラダラネチネチグチグチと……。" speaker_show="True" stop="True" voice="ry12002_02_0173" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="んで、最後にようやくアタシ様の誕生日の話題に&#xA;なったと思ったら……" speaker_show="True" stop="True" voice="ry12002_02_0174" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="「あやめ姉さんを捕らえたお前がのうのうと誕生日を&#xA;迎えようとしてるなんておかしいよね？」" speaker_show="True" stop="True" voice="ry12002_02_0175" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="「ボクはねぇ、ゆら、お前のことを許さないよ。&#xA;絶対絶対絶対絶対絶対に…」って繰り返し長えよ！" speaker_show="True" stop="True" voice="ry12002_02_0176" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="バースデーカードなんて貰ったの初めてだから、&#xA;ちょっと期待しながら開けてみたってのに……" speaker_show="True" stop="True" voice="ry12002_02_0177" />
+    <msg speaker="乱獅子 ゆら" text="よりによって、すま姉さんの&#xA;呪いたっぷりの果し状だったなんてなぁ……。" speaker_show="True" stop="True" voice="ry12002_02_0178" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ったく、アタシ様も姉さん達に&#xA;モテちゃって困るねぇ。" speaker_show="True" stop="True" voice="ry12002_02_0179" />
+    <delete obj_id="乱獅子 ゆら" />
+    <sound cue_name="Walk_01" />
+    <wait time="2.2" />
+    <create data_id="315004001" obj_id="乱獅子 すま" x="0" position_id="left" y="0" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="確かに、ゆらは昔からあやめ姉さんに好かれていた&#xA;よね。ボクはそこが一番気に入らないんだよ……。" speaker_show="True" stop="True" voice="rs15004_02_0001" />
+    <move obj_id="乱獅子 すま" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.7" wait="False" />
+    <create data_id="312002002" obj_id="乱獅子 ゆら" x="-300" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="すま姉さん！　お望み通り来てやったぜ。けど、&#xA;アタシ様をこんな所まで呼び出すたぁいい度胸だな。" speaker_show="True" stop="True" voice="ry12002_02_0180" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="こっちはテメエら全員捕まえるって決めてんだ。&#xA;そっちから招いてくれて手間が省けたよ。" speaker_show="True" stop="True" voice="ry12002_02_0181" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="018_Facial_smug" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="誕生日祝いだなんてつまんねえ嘘つかねーで&#xA;正々堂々と呼び出したらどうなんだ？" speaker_show="True" stop="True" voice="ry12002_02_0182" />
+    <char_spine_animation obj_id="乱獅子 すま" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="相変わらずだねぇ、ゆら。けどね、誕生日を祝うために&#xA;お前を呼び出したと言うのは決して嘘じゃないんだよ。" speaker_show="True" stop="True" voice="rs15004_02_0002" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="だってそうだろ？　姉さんが妹の誕生日を祝おうと&#xA;することの一体、何がおかしいって言うんだい？" speaker_show="True" stop="True" voice="rs15004_02_0003" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="へぇ～、わざわざアタシ様のお祝いにねぇ。&#xA;来てくれてありがとよ。" speaker_show="True" stop="True" voice="ry12002_02_0183" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="で、何をプレゼントしてくれるんだい？" speaker_show="True" stop="True" voice="ry12002_02_0184" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="久々の再会だってのに、会って早々にプレゼントを&#xA;ねだるなんて相変わらずの浅ましさだねぇ、ゆら。" speaker_show="True" stop="True" voice="rs15004_02_0004" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="ボクは君の、そして姉妹の、それから世の中のことを&#xA;思って、最良のプレゼントを考えてきたんだよ。" speaker_show="True" stop="True" voice="rs15004_02_0005" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="ったく、相変わらず話がなげぇよ、すま姉さん。&#xA;プレゼントがあるならとっととよこせ！" speaker_show="True" stop="True" voice="ry12002_02_0185" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="そんなに期待してくれると贈り甲斐があるって物だね。&#xA;じゃあ発表しよう。ボクからゆらへのプレゼントは…" speaker_show="True" stop="True" voice="rs15004_02_0006" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="その丈夫なだけが取り柄の身体でも絶対に直らない&#xA;傷とか、死に至る傷とか、つまり致命傷のことだよ。" speaker_show="True" stop="True" voice="rs15004_02_0007" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="はぁ？　んなもん、プレゼントでも何でもねーだろ！" speaker_show="True" stop="True" voice="ry12002_02_0186" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="果たしてそうだろうか。出来の悪い妹の始末を姉が&#xA;つける。そうすれば次のプレゼントも手に入るんだ。" speaker_show="True" stop="True" voice="rs15004_02_0008" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="お前を始末したその暁にはあやめ姉さんを取り返そう。&#xA;どう？　最高のプレゼントだと思うだろう？" speaker_show="True" stop="True" voice="rs15004_02_0009" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 ゆら" text="は～、沢山喋った割には何言ってるか全然伝わって&#xA;こなかったな……けど、出来るもんならやってみな！" speaker_show="True" stop="True" voice="ry12002_02_0187" />
+    <char_spine_animation obj_id="乱獅子 すま" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="乱獅子 すま" text="それじゃあ、遠慮なくいかせてもらうよ！　ハッピー&#xA;バースデーゆら。そして永遠におやすみ！　でぇーい！" speaker_show="True" stop="True" voice="rs15004_02_0010" />
+    <Comment comment="効果音：戦闘音" />
+    <sound cue_name="Slash" type="Se" />
+    <wait time="0.5" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000020303" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="36_school_02" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001004" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003004" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="あーん、はむ…んー！　青空の下で&#xA;みんなで食べるお昼ご飯はおいしいねー！" speaker_show="True" stop="True" voice="mh12001_01_0305" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="もぐもぐもぐ、もぐもぐもぐ。" speaker_show="True" stop="True" voice="ss12003_01_0280" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="だな。大八洲師団の時は、いっつも自分の部屋ん中で&#xA;食ってたから、それに比べりゃ大違いだぜ。" speaker_show="True" stop="True" voice="ry12002_01_0277" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="もぐもぐもぐ、もぐもぐもぐ。" speaker_show="True" stop="True" voice="ss12003_01_0281" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004004" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="ちなみに大八洲師団のご飯って、どんなんだったの？" speaker_show="True" stop="True" voice="th12004_01_0156" />
+    <move obj_id="轟 葉栖美" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="味のうっすい病院食みたいなメシだったぜ。&#xA;あと、謎のサプリメントがどっさりな。" speaker_show="True" stop="True" voice="ry12002_01_0278" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="ほんと、凪の部隊に入って良かったぜ。&#xA;まずメシからして、断然こっちの方が上だからな。" speaker_show="True" stop="True" voice="ry12002_01_0279" />
+    <delete obj_id="乱獅子 ゆら" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003004" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="もぐもぐもぐ、もぐもぐもぐ。&#xA;もぐもぐもぐ、もぐもぐもぐ。" speaker_show="True" stop="True" voice="ss12003_01_0282" lip_sync_volume="0.01" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001004" position_id="left" x="125" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="-125" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="……にしても隊長、すげー食うな。" speaker_show="True" stop="True" voice="ry12002_01_0280" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="016_Facial_smileBitter" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="本当だね。１人だけお弁当箱じゃなくて３段の重箱&#xA;なのに、もう半分くらいになってるよ。" speaker_show="True" stop="True" voice="mh12001_01_0306" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003004" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="もぐもぐもぐ、もぐもぐ…ん？&#xA;なんじゃ２人とも、しぶきの顔をじーっと見たりして。" speaker_show="True" stop="True" voice="ss12003_01_0283" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="いや、だから、すげー食うなって話だよ。" speaker_show="True" stop="True" voice="ry12002_01_0281" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="はっすーの飯が美味いんだから仕方なかろう？&#xA;もう弁当屋を開いた方がいいレベルじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0284" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004004" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="さすがしぶきち、わかってるねー。&#xA;嬉しいから、アタシの卵焼きを進呈しよう。" speaker_show="True" stop="True" voice="th12004_01_0157" />
+    <move obj_id="轟 葉栖美" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003004" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="む？　いいのか、はっすー。" speaker_show="True" stop="True" voice="ss12003_01_0285" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="しぶきちは食べなきゃいけない体だしさ。&#xA;ほら、食べて食べて。" speaker_show="True" stop="True" voice="th12004_01_0158" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="おお、すまんのう…あーむ、もぐもぐ。" speaker_show="True" stop="True" voice="ss12003_01_0286" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001004" position_id="left" x="125" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="-125" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="葉栖美さん、隊長が食べなきゃいけない体って？" speaker_show="True" stop="True" voice="mh12001_01_0307" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <create_effect effect_id="yura_Sweat" effect_type="MampSweat" life_time="1" target_obj="乱獅子 ゆら" />
+    <msg speaker="乱獅子 ゆら" text="まさか!?　妊し…" speaker_show="True" stop="True" voice="ry12002_01_0282" />
+    <delete obj_id="yura_Sweat" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004004" position_id="left" x="-200" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003004" position_id="left" x="200" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="轟 葉栖美" text="こらこら、んなわけないっての。" speaker_show="True" stop="True" voice="th12004_01_0159" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="しぶきは生まれつき力が強いんじゃが、そのぶん&#xA;ちゃんと食べないと、体力を維持できないんじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0287" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001004" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="そっか、だからそんなに大食いだったんですね。" speaker_show="True" stop="True" voice="mh12001_01_0308" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003004" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="もぐもぐ…うむ、その通りじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0288" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="そして、これだけ食うからにはしぶきの力は、&#xA;人のために役立てねばならん。" speaker_show="True" stop="True" voice="ss12003_01_0289" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="それが特別な力を持つ者の義務というものじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0290" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="どうじゃ、ゆら？　確かにしぶきのナリは小さいが、&#xA;大きな器を持っているとは思わんか？" speaker_show="True" stop="True" voice="ss12003_01_0291" />
+    <move obj_id="薩摩 しぶき" position_id="left" x="200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002004" position_id="left" x="-200" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="ああ、すんげー器の大きさだ。&#xA;アタシ様はもう、感服しまくりだぜ。" speaker_show="True" stop="True" voice="ry12002_01_0283" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="ふふふ、そうじゃろうそうじゃろう。" speaker_show="True" stop="True" voice="ss12003_01_0292" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="てなわけで、その旨そうな唐揚げをもらっても、&#xA;当然、怒ったりなんかは…" speaker_show="True" stop="True" voice="ry12002_01_0284" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="薩摩 しぶき" text="隊長の食事に許可なく手を出すとは何事か！&#xA;そういう悪い部下は、おしおきじゃ！" speaker_show="True" stop="True" voice="ss12003_01_0293" />
+    <Comment comment="【SE】尻を叩く音" />
+    <sound type="Se" cue_name="Cracker" />
+    <shake target="MsgWindow" obj_id="乱獅子 ゆら" x="4" y="4" time="1" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="ぎゃいんっ！&#xA;…痛ぅぅ、尻をぶっ叩きやがったな！" speaker_show="True" stop="True" voice="ry12002_01_0285" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <create_effect effect_id="shibuki_Smile" effect_type="MampSmile" life_time="1" target_obj="薩摩 しぶき" />
+    <msg speaker="薩摩 しぶき" text="はっはっはっ、しぶきの食い物を奪おうとするなど&#xA;百万年早いというものじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0294" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="19_Amazed" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="くっそー、それのどこが大きな器だってぇーんだよ！" speaker_show="True" stop="True" voice="ry12002_01_0285a" />
+  </command>
+</adv>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020090102" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_008" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="うすしお味のポテチを食べ終え、信と仲良くなった&#xA;あかりは、いよいよ実践的な訓練に入る。" stop="True" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="さて、それじゃ始めようか。" speaker_show="True" stop="True" voice="ks11010_03_0035" />
+    <char_spine_animation obj_id="赤座 あかり" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="はい。あかり頑張りますっ！" speaker_show="True" stop="True" voice="aa95001_03_0069" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="あ、でも、誰かと戦ったりするのは&#xA;ちょっと恐いかも……。" speaker_show="True" stop="True" voice="aa95001_03_0070" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="大丈夫、これからする修行は&#xA;『追いかけっこ』だから。" speaker_show="True" stop="True" voice="ks11010_03_0036" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="追いかけっこ？" speaker_show="True" stop="True" voice="aa95001_03_0071" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="そう。基地の中にいるこの子達を見つけ出して、&#xA;持たせてあるチップを入手するっていうルール。" speaker_show="True" stop="True" voice="ks11010_03_0037" />
+    <sound cue_name="CutinAnimal" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="赤座 あかり" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="赤座 あかり" text="わぁ、可愛い動物さん！" speaker_show="True" stop="True" voice="aa95001_03_0072" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="アライグマがラッパで、ミミズクがモノミ、&#xA;カエルがカマリっていうの。" speaker_show="True" stop="True" voice="ks11010_03_0038" />
+    <delete obj_id="311013001" />
+    <move obj_id="赤座 あかり" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="高坂 信" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009002" position_id="left" x="-330" y="0" anchor="Bottom" />
+    <move obj_id="カトリーナ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="見た目に騙されると、&#xA;なかなか捕まえられないかも知れないわよ。" speaker_show="True" stop="True" voice="kt11009_03_0067" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="数分後、あかりの修業がスタートした。" stop="True" />
+    <delete obj_id="赤座 あかり" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="カトリーナ" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" />
+    <sound_stop cue_name="Base" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="まずはあの子達を探さなくちゃ。&#xA;どこにいるんだろ？" speaker_show="True" stop="True" voice="aa95001_03_0073" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="おーい、って呼ぶわけにもいかないし……&#xA;あっ！" speaker_show="True" stop="True" voice="aa95001_03_0074" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="見つけた～。&#xA;目を瞑って、寝ちゃってるのかな？" speaker_show="True" stop="True" voice="aa95001_03_0075" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="起こさないように、そお～っと&#xA;チップだけ貰っちゃお……。" speaker_show="True" stop="True" voice="aa95001_03_0076" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Exclamation" effect_type="MampExclamation" life_time="2.0" target_obj="赤座 あかり" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="赤座 あかり" text="わ、起きた！&#xA;ていうか起きてた!?" speaker_show="True" stop="True" voice="aa95001_03_0077" />
+    <delete obj_id="Exclamation" />
+    <char_spine_animation obj_id="赤座 あかり" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="ふわっ？　カマリとラッパまで出てきた!?&#xA;待ち伏せ!?" speaker_show="True" stop="True" voice="aa95001_03_0078" />
+    <move obj_id="赤座 あかり" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <sound type="Se" cue_name="Run" />
+    <Comment comment="もっとドタバタした雰囲気なので、荒々しい足音がいいと思います。" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="15.0" target_obj="赤座 あかり" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="赤座 あかり" text="止めて～、３匹とも、追いかけないで～！&#xA;ごめんなさぁ～い！" speaker_show="True" stop="True" voice="aa95001_03_0079" />
+    <delete obj_id="Sweat" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="021_Facial_exciting" force_end="False" loop="True" mixing="True" body_anim_type="07_ChestBothHands" />
+    <msg speaker="赤座 あかり" text="もうしないから、命だけは助けてぇ～！" speaker_show="True" stop="True" voice="aa95001_03_0080" />
+    <delete obj_id="Sweat" />
+    <create type="Character" obj_id="高坂 信" data_id="311010002" position_id="left" x="-230" y="0" anchor="Bottom" />
+    <move obj_id="高坂 信" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="そこまでっ。" speaker_show="True" stop="True" voice="ks11010_03_0039" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="し、信さん……。" speaker_show="True" stop="True" voice="aa95001_03_0081" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="この子達もツキカゲの一員だからね。&#xA;ただ逃げるだけじゃなくて、いろいろ仕掛けて来る。" speaker_show="True" stop="True" voice="ks11010_03_0040" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="その裏をかかなくちゃ、捕まえられないよ。" speaker_show="True" stop="True" voice="ks11010_03_0041" />
+    <char_spine_animation obj_id="赤座 あかり" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="うぅ……&#xA;で、でも、どうやって？" speaker_show="True" stop="True" voice="aa95001_03_0082" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="あかりちゃんなら、&#xA;難しく考えなくても大丈夫。" speaker_show="True" stop="True" voice="ks11010_03_0042" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="信達の見込んだ才能があるんだから。&#xA;普段通りにすれば、きっと上手くいくよ。" speaker_show="True" stop="True" voice="ks11010_03_0043" />
+    <move obj_id="赤座 あかり" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="高坂 信" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009002" position_id="left" x="-330" y="0" anchor="Bottom" />
+    <move obj_id="カトリーナ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="あなたの身体に宿る、&#xA;シン様と同じ素質を信じなさい。" speaker_show="True" stop="True" voice="kt11009_03_0068" />
+    <delete obj_id="Worry" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="あかりに宿る、素質……。" speaker_show="True" stop="True" voice="aa95001_03_0083" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="分かりました。&#xA;自信はないけど……もう１回やってみます！" speaker_show="True" stop="True" voice="aa95001_03_0084" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="その意気だよ、頑張って。" speaker_show="True" stop="True" voice="ks11010_03_0044" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="Quest1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

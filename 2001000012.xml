@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000012" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <bg show="True" file="03_tsukikage_001" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（さっきの私はほんとに考え無しだった……。&#xA;もうスパイなんだから、考えて動かなくちゃ）" speaker_show="True" stop="True" voice="mm11001_01_0280" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（……よし、切り替えよう！&#xA;次の任務、次の任務！）" speaker_show="True" stop="True" voice="mm11001_01_0281" lip_sync="False" />
+    <msg_window_show show="False" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="半蔵門 雪" text="モモ、任務の最終確認よ。" speaker_show="True" stop="True" voice="hy11002_01_0140" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="さっき競輪場で捕まえた女が吐いたわ。&#xA;自分が経営する店でも、薬をばら撒いているそうよ。" speaker_show="True" stop="True" voice="hy11002_01_0141" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="これから、彼女が経営している&#xA;この違法ソープランドに潜入する。" speaker_show="True" stop="True" voice="hy11002_01_0142" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="非合法の店だけあって、男性店員は戦闘訓練を受け&#xA;武装している。戦闘はなるべく避けた方が無難ね。" speaker_show="True" stop="True" voice="hy11002_01_0143" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="五恵と楓はサポート、メイと初芽は事務所に潜入して、&#xA;顧客名簿を入手。私とモモで手分けして部屋を調べる。" speaker_show="True" stop="True" voice="hy11002_01_0144" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あ、あの！&#xA;私、今度はもっと努力します！" speaker_show="True" stop="True" voice="mm11001_01_0282" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="ええ……頑張りなさい。&#xA;……では、ミッションスタート！" speaker_show="True" stop="True" voice="hy11002_01_0145" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" time="0.5" wait="True" effect="Default" />
+    <sound_volume type="Bgm" cue_name="Base" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <Comment comment="ソープランド　廊下" />
+    <bg show="True" file="16_soapland_02" />
+    <transition type="In" color_change="True" time="0.5" wait="True" effect="Default" />
+    <create type="Character" obj_id="源 モモ" data_id="311001008" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" x="0" x_move_type="MoveTo" time="1.0" wait="True" y="0" position_id="left" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（うぅー……緊張するぅ……。&#xA;あ。ここ、空き部屋だ！）" speaker_show="True" stop="True" voice="mm11001_01_0283" lip_sync="False" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="源 モモ" x="1000" x_move_type="MoveTo" time="1.0" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <Comment comment="【SE】ガチャッとドアを開ける音" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <transition type="Out" color_change="True" time="0.5" wait="True" effect="Default" />
+    <delete obj_id="源 モモ" />
+    <Comment comment="ソープ空き部屋" />
+    <bg show="True" file="16_soapland_01" />
+    <transition type="In" color_change="True" time="0.5" wait="True" effect="Default" />
+    <create type="Character" obj_id="源 モモ" data_id="311001008" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" x="-500" x_move_type="MoveTo" time="1.0" wait="True" y="0" position_id="left" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="102_Facial_unique" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="な、なんともピンクな……インモラルな……。&#xA;……と、とにかく調べていかないと。" speaker_show="True" stop="True" voice="mm11001_01_0284" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_051" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <msg speaker="源 モモ" text="おおぅ……引き出しの中に手錠と白い粉……&#xA;二重の意味で危ない……。" speaker_show="True" stop="True" voice="mm11001_01_0285" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <Comment comment="ソープランド　廊下" />
+    <bg show="True" file="16_soapland_02" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <msg speaker="男性客" text="あ。俺、先にトイレ行ってくるわ。" speaker_show="True" stop="True" voice="99010_01_0001" />
+    <msg speaker="女性従業員" text="では、部屋でお待ちしてます。" speaker_show="True" stop="True" voice="99011_01_0001" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" time="0.5" wait="True" effect="Default" />
+    <bg show="True" file="16_soapland_01" />
+    <transition type="In" color_change="True" time="0.5" wait="True" effect="Default" />
+    <create type="Character" obj_id="源 モモ" data_id="311001008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（――！&#xA;まさか、この部屋に来るの!?）" speaker_show="True" stop="True" voice="mm11001_01_0286" lip_sync="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="（……でも、これは逆にチャンスかも）" speaker_show="True" stop="True" voice="mm11001_01_0287" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_052" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <Comment comment="【SE】スマホガン発砲音" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash count="1" time="0.5" wait="False" />
+    <msg speaker="女性従業員" text="うっ……。" speaker_show="True" stop="True" voice="99011_01_0002" />
+    <bg show="True" resource_type="AnimSS" file="No_053" />
+    <msg speaker="源 モモ" text="……っと。&#xA;ごめんなさい、ちょっとだけ眠っててください。" speaker_show="True" stop="True" voice="mm11001_01_0288" />
+    <sound type="Se" cue_name="LockerClose" />
+    <msg speaker="源 モモ" text="少しの間、このロッカーで我慢してて下さいね……。" speaker_show="True" stop="True" voice="mm11001_01_0289" />
+    <bg show="True" resource_type="AnimSS" file="No_054" />
+    <msg speaker="男性客" text="お待たせ～……&#xA;あれ？ パインちゃんは？" speaker_show="True" stop="True" voice="99010_01_0002" />
+    <msg speaker="源 モモ" text="パ、パインさんは急病のために&#xA;私と交代しましてぇ……ピーチでーす。" speaker_show="True" stop="True" voice="mm11001_01_0290" />
+    <msg speaker="男性客" text="えぇー!?&#xA;でも、まぁ……うん、合格。" speaker_show="True" stop="True" voice="99010_01_0003" />
+    <msg speaker="源 モモ" text="ほっ……。&#xA;ど、どうぞこちらの部屋へ。" speaker_show="True" stop="True" voice="mm11001_01_0291" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="True" time="0.5" wait="True" effect="Default" />
+    <Comment comment="ソープ空き部屋" />
+    <bg show="True" file="16_soapland_01" />
+    <transition type="In" color_change="True" time="0.5" wait="True" effect="Default" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <msg speaker="男性客" text="さーそれじゃ、優しく頼むよ。" speaker_show="True" stop="True" voice="99010_01_0004" />
+    <create type="Character" obj_id="源 モモ" data_id="311001008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" loop="False" to_idle="False" force_end="False" body_anim_type="14_Positive" />
+    <msg speaker="源 モモ" text="はい。" speaker_show="True" stop="True" voice="mm11001_01_0292" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="AnimSS" file="No_055" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <Comment comment="【SE】スマホガン発砲音" />
+    <flash count="1" time="0.5" wait="False" />
+    <msg speaker="男性客" text="うっ……。" speaker_show="True" stop="True" voice="99010_01_0005" />
+    <msg_window_show show="False" />
+    <sound />
+    <Comment comment="【SE】バタンと倒れる音" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <bg show="True" file="16_soapland_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="False" to_idle="False" force_end="False" body_anim_type="14_Positive" />
+    <msg speaker="源 モモ" text="よし……！　部屋のついでにお客さんからも&#xA;情報を入手しておけば、ぬかりないよね。" speaker_show="True" stop="True" voice="mm11001_01_0293" />
+    <move obj_id="源 モモ" x="-100" x_move_type="MoveTo" time="1.0" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <Comment comment="【SE】ごそごそとバッグを探る音" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="源 モモ" text="あった、免許証！&#xA;これを写真に撮って……。" speaker_show="True" stop="True" voice="mm11001_01_0294" />
+    <sound type="Se" cue_name="Camera" />
+    <Comment comment="【SE】カシャカシャとシャッター音" />
+    <wait time="2.0" />
+    <move obj_id="源 モモ" x="0" x_move_type="MoveTo" time="1.0" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="これなら、師匠も褒めてくれるかな……。" speaker_show="True" stop="True" voice="mm11001_01_0295" />
+    <Comment comment="【SE】けたたましい非常ブザー音" />
+    <load_cue_sheet cue_sheet="Quest/Quest_Common" />
+    <sound cue_name="Jingle_Warning" />
+    <wait time="2.0" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="石川 五恵" text="潜入が発覚、全員緊急離脱を！" speaker_show="True" stop="True" voice="ig11006_01_0096" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="――！  えっ!?" speaker_show="True" stop="True" voice="mm11001_01_0296" />
+  </command>
+</adv>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info />
+  <command>
+    <Start />
+    <bg file="01_school1mo_003" />
+    <create obj_id="0" data_id="10100103" />
+    <msg speaker="モモ" text="bgコマンドのeffectを指定するとできます" stop="True" />
+    <msg speaker="モモ" text="背景切り替えテスト&#xA;背景の境界が気になる?。。" />
+    <command_position id="start" />
+    <screen_effect mode="FlashbackWhite" />
+    <bg file="01_school1mo_004" effect="Pan" />
+    <stop />
+    <bg file="03_tsukikage_003" effect_time="0.1" wait="True" />
+    <goto_command id="start" />
+  </command>
+</adv>

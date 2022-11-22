@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010606" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <sound cue_name="Rain" volume="15" type="Se" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="04_shopstreetmo_01" color="#ffffffff" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="商店街" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="どうしよう、完全に見失っちゃったみたい……。&#xA;雨も強くなってきちゃったし……あれ？" speaker_show="True" stop="True" voice="ig11006_01_0625" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="もぐもぐ……ん？&#xA;わーっ！　な、なんでごえちゃんがここに!?" speaker_show="True" stop="True" voice="ym11003_01_0834" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ここで買い食いしてたこと、&#xA;フーにはナイショにして……！" speaker_show="True" stop="True" voice="ym11003_01_0835" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="メイちゃん、子猫見なかった？" speaker_show="True" stop="True" voice="ig11006_01_0626" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="へっ、子猫？　見なかったけど……。&#xA;子猫探してるの？" speaker_show="True" stop="True" voice="ym11003_01_0836" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="うん、雨で子猫がどこかにいっちゃって……。&#xA;あ、ごめんね、引き止めて。それじゃ……。" speaker_show="True" stop="True" voice="ig11006_01_0627" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="ちょっと待って、ごえちゃん！&#xA;風邪引いちゃうから、とにかく傘に入って！" speaker_show="True" stop="True" voice="ym11003_01_0837" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="う、うん、ありがとう。ごめんね、メイちゃん。" speaker_show="True" stop="True" voice="ig11006_01_0628" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ううん。寄るところがあるって言ってたの、&#xA;その子猫のことだったの？" speaker_show="True" stop="True" voice="ym11003_01_0838" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="うん。まだすごく小さいから心配で、&#xA;毎日、子猫用のミルクをあげてたの。" speaker_show="True" stop="True" voice="ig11006_01_0629" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="そっか。それなら早く&#xA;言ってくれれば良かったのに。" speaker_show="True" stop="True" voice="ym11003_01_0839" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="……ごめんね。&#xA;隠すつもりはなかったんだけど……。" speaker_show="True" stop="True" voice="ig11006_01_0630" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="あれ？　今、あっちのほうに子猫が……。" speaker_show="True" stop="True" voice="ym11003_01_0840" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="え？　どこ？　ちょっと見てくるね！" speaker_show="True" stop="True" voice="ig11006_01_0631" />
+    <sound_stop cue_name="Rain" />
+    <sound type="Se" cue_name="Run" volume="100" />
+    <Comment comment="【SE】走って行く足音" />
+    <move obj_id="石川 五恵" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ちょっ、ごえちゃん!?&#xA;待ってよ！　濡れちゃうよ！" speaker_show="True" stop="True" voice="ym11003_01_0841" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <Comment comment="SE指定はないが、演出上入れている" />
+    <move obj_id="八千代 命" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <delete obj_id="八千代 命" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <sound cue_name="Rain" volume="15" type="Se" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="はぁ、はぁ……ダメだ……。&#xA;また見失っちゃった……。" speaker_show="True" stop="True" voice="ig11006_01_0632" />
+    <move obj_id="石川 五恵" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="019_Facial_damage" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="も～、ごえちゃんってば。&#xA;待ってって、言ってるのにぃ～。" speaker_show="True" stop="True" voice="ym11003_01_0842" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="あ、ごめんね、メイちゃん。&#xA;子猫がいたのって、こっちのほうだよね？" speaker_show="True" stop="True" voice="ig11006_01_0633" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="そうだけど、そんなに焦らなくても。&#xA;急に走るから驚いたよ～。" speaker_show="True" stop="True" voice="ym11003_01_0843" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="ご、ごめん。早く見つけてあげたくて、つい……。&#xA;雨もどんどん強くなってるし。" speaker_show="True" stop="True" voice="ig11006_01_0634" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="子猫が心配なのはわかるけど、&#xA;これじゃ、本当にごえちゃんが風邪ひくって。" speaker_show="True" stop="True" voice="ym11003_01_0844" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="子猫ちゃんだって、さすがに雨宿りしてるよ。&#xA;とにかく今日は帰って、明日出直そ？" speaker_show="True" stop="True" voice="ym11003_01_0845" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="う、うん……大丈夫かな……。" speaker_show="True" stop="True" voice="ig11006_01_0635" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="メイの知り合いにも、声かけておくからさ。&#xA;だから今日のところはいったん帰ろう？" speaker_show="True" stop="True" voice="ym11003_01_0846" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="うん……。&#xA;ごめんね、メイちゃん。" speaker_show="True" stop="True" voice="ig11006_01_0636" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Rain" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

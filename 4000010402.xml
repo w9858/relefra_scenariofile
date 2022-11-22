@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010402" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="04_shopstreetmo_01" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" x="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="1000" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ふんふんふん～♪　我ながら大収穫だわ！&#xA;ニンジン、ジャガイモ、玉ねぎの詰め放題！" speaker_show="True" stop="True" voice="sf11004_01_0706" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="タイムセールで牛肉も激安♪&#xA;激安スーパーって本当、神だわ。" speaker_show="True" stop="True" voice="sf11004_01_0707" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <create_effect effect_id="fuu_Smile" effect_type="MampSmile" life_time="1.0" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="ていうか、その激安スーパーをいち早く見つけ出した&#xA;アタシが凄いって説もあるけどねー。ふんふん～♪" speaker_show="True" stop="True" voice="sf11004_01_0708" />
+    <msg_window_show show="False" />
+    <move obj_id="相模 楓" x="-200" x_move_type="MoveTo" time="0.5" />
+    <wait time="0.5" />
+    <move obj_id="源 モモ" x="200" x_move_type="MoveTo" time="0.5" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あっ、フーちゃん！　どうしたの？&#xA;鼻歌なんか歌って、ご機嫌だねぇ。" speaker_show="True" stop="True" voice="mm11001_01_0971" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="fuu_Sweat" effect_type="MampSweat" life_time="1.0" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="モモち！　べっ、別に何でもないわよ！&#xA;モモちこそ何してんの？" speaker_show="True" stop="True" voice="sf11004_01_0709" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="私は師匠のお遣いで夕ご飯の材料の買い出しだよ。&#xA;お魚って結構高いんだねー、驚いたよ～。" speaker_show="True" stop="True" voice="mm11001_01_0972" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="モモち、それどこで買ったの？" speaker_show="True" stop="True" voice="sf11004_01_0710" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="どこって、駅前のスーパーだよ。" speaker_show="True" stop="True" voice="mm11001_01_0973" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="勿体ない、激安スーパーのタイムセールを&#xA;活用すればあと200円は安く買えたわよ？" speaker_show="True" stop="True" voice="sf11004_01_0711" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そうなんだ！　すっごいなー、フーちゃん。&#xA;やり手の主婦みたい！" speaker_show="True" stop="True" voice="mm11001_01_0974" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <create_effect effect_id="fuu_KiraKira" effect_type="EffectKirakira" life_time="1.0" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="ふふん、家事くらい余裕よ、余裕！&#xA;今日だってこんだけ買って千円でお釣りがきたわ。" speaker_show="True" stop="True" voice="sf11004_01_0712" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="えー！　野菜がいっぱい！&#xA;それに大っきなお肉の塊もあるのに？" speaker_show="True" stop="True" voice="mm11001_01_0975" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="じー……。フーちゃん、&#xA;さては今日の晩御飯はカレーだね？" speaker_show="True" stop="True" voice="mm11001_01_0976" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そうよ、今日は大奮発してビーフカレーなの！" speaker_show="True" stop="True" voice="sf11004_01_0713" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うわー、いいなー。美味しそう！&#xA;けど大奮発って、何かいいことでもあったの？" speaker_show="True" stop="True" voice="mm11001_01_0977" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="実は、今日は師匠との大事な記念日なんだ。&#xA;だからちょっぴり豪華なディナーを。" speaker_show="True" stop="True" voice="sf11004_01_0714" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="いいなぁ、私もフーちゃんみたいな&#xA;お嫁さんがほしいよ。" speaker_show="True" stop="True" voice="mm11001_01_0978" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="アタシはモモちみたいな頼りない旦那さん、&#xA;ちょっとね～。" speaker_show="True" stop="True" voice="sf11004_01_0715" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="じゃあ、行くわね。１分でも長く煮込めば、&#xA;安いお肉も柔らかくなるから。" speaker_show="True" stop="True" voice="sf11004_01_0716" />
+    <msg_window_show show="False" />
+    <move obj_id="相模 楓" x="-1000" x_move_type="MoveTo" time="0.5" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="2.0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="フーちゃん、楽しそう！" speaker_show="True" stop="True" voice="mm11001_01_0979" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

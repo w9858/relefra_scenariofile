@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <bg show="True" file="33_cruiserni_01" />
+    <telop text="クルーザー" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="乱獅子 しおん" data_id="315003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="刑部 冴魅" data_id="317001001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="クリッシー、やられちゃったねサエミー。" speaker_show="True" stop="True" voice="rs15003_01_0041" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="お前残念そうだが、これを予測してなかったか？" speaker_show="True" stop="True" voice="os17001_01_0021" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="や、クリッシーが勝ってくれれば最上だったよ。" speaker_show="True" stop="True" voice="rs15003_01_0042" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="でも敵もそこまで甘くは無いね。" speaker_show="True" stop="True" voice="rs15003_01_0043" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="だがこれでリザードは連合に本腰をいれるはずだ。&#xA;若手のエースがやられた事で、な。" speaker_show="True" stop="True" voice="os17001_01_0022" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="そういう事だね。ついさっき社長から&#xA;コンタクトがあったし。" speaker_show="True" stop="True" voice="rs15003_01_0044" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="アメリカから精鋭部隊がやってくるわけか。" speaker_show="True" stop="True" voice="os17001_01_0023" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="混沌が深まるねぇ、いいねぇ。ふふふ。&#xA;サエミー、影の戦争って知ってる？" speaker_show="True" stop="True" voice="rs15003_01_0045" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="１９００年代前半、モウリョウは圧倒的な&#xA;力をもって裏世界を席巻していた。" speaker_show="True" stop="True" voice="os17001_01_0024" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="そこで、世界各地の情報機関が連携をとって、&#xA;モウリョウと激突した。" speaker_show="True" stop="True" voice="os17001_01_0025" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="激しい戦いの末、モウリョウは壊滅寸前にまで&#xA;追いやられた。それが影の戦争。" speaker_show="True" stop="True" voice="os17001_01_0026" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="正解っ、優等生だねサエミー。" speaker_show="True" stop="True" voice="rs15003_01_0046" />
+    <msg_window_show show="False" />
+    <move obj_id="乱獅子 しおん" position_id="left" x="100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create_effect effect_id="saemi_Sweat" effect_type="MampSweat" life_time="1" target_obj="刑部 冴魅" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="010_Facial_shy" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <sound type="Se" cue_name="Hug" />
+    <msg speaker="刑部 冴魅" text="ベタベタ触るな。そこは、胸だ…。" speaker_show="True" stop="True" voice="os17001_01_0027" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg_window_show show="False" />
+    <move obj_id="乱獅子 しおん" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" face_anim_type="002_Facial_smile" />
+    <msg speaker="乱獅子 しおん" text="ああゴメン。ベタベタしたコミュニケーションが&#xA;好きなものでさ。あはは。" speaker_show="True" stop="True" voice="rs15003_01_0047" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="モウリョウはその後、世界大戦で情報を売って&#xA;力を取り戻すけど、まぁそれは後のお話。" speaker_show="True" stop="True" voice="rs15003_01_0048" />
+    <char_spine_animation obj_id="乱獅子 しおん" body_anim_type="03_BackBothHands" loop="True" to_idle="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="乱獅子 しおん" text="今回もさ、同じなんだよ。決して表には出ないけど&#xA;水面下で行われている大規模な激突。" speaker_show="True" stop="True" voice="rs15003_01_0049" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="今のお祭り騒ぎは、後にこう言われるんじゃないかな。&#xA;第二次影の戦争と！！！" speaker_show="True" stop="True" voice="rs15003_01_0050" />
+    <char_spine_animation obj_id="刑部 冴魅" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="刑部 冴魅" text="戦争か。&#xA;ならばまだまだ戦火は広がるな。" speaker_show="True" stop="True" voice="os17001_01_0028" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="徹底的にやろうよ。&#xA;勝つのは闇の中の闇か。" speaker_show="True" stop="True" voice="rs15003_01_0051" />
+    <char_spine_animation obj_id="乱獅子 しおん" face_anim_type="102_Facial_unique" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 しおん" text="はたまた闇の中の光か。&#xA;フフフ……。戦争戦争、ハハハ……！！！" speaker_show="True" stop="True" voice="rs15003_01_0052" />
+  </command>
+</adv>

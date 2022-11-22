@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020090203" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_008" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <msg window_type="SystemMsg" text="訓練用の人形に苦戦する京子は、&#xA;ついに撃破のための一手を思いついた。" stop="True" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="メイさん、すみません！&#xA;その差し入れ、貰ってもいいですか？" speaker_show="True" stop="True" voice="tk95002_03_0101" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="八千代 命" text="う、うん。元々京子ちゃん達に&#xA;あげるつもりだったし。" speaker_show="True" stop="True" voice="ym11003_03_0056" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="でも、修行の後で食べた方が&#xA;良いんじゃない？" speaker_show="True" stop="True" voice="ym11003_03_0057" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="いいえ、今じゃなきゃ駄目なんですっ！" speaker_show="True" stop="True" voice="tk95002_03_0102" />
+    <sound type="Se" cue_name="Gasagasa" />
+    <Comment comment="コンビニの袋をあさっている音　ガサガサ" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="歳納 京子" text="確か、さっきここに……&#xA;あったー！" speaker_show="True" stop="True" voice="tk95002_03_0103" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="源 モモ" data_id="311001002" position_id="left" x="-230" y="0" anchor="Bottom" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="それは……&#xA;ラムレーズンのアイス？" speaker_show="True" stop="True" voice="mm11001_03_0063" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="ありがとうございます、メイさん！&#xA;いただきま～す！" speaker_show="True" stop="True" voice="tk95002_03_0104" />
+    <delete obj_id="Smile" />
+    <delete obj_id="源 モモ" />
+    <move obj_id="歳納 京子" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="019_Facial_damage" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="あむ、あむあむ……くぅ～～、&#xA;頭にキーンって来る！" speaker_show="True" stop="True" voice="tk95002_03_0105" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="でも、おぉ……&#xA;今日一番の凄い力が、湧き上がって来るのを感じる！" speaker_show="True" stop="True" voice="tk95002_03_0106" />
+    <move obj_id="歳納 京子" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create_effect effect_id="Shockwave" effect_type="EffectShockWave" life_time="5.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <sound type="Se" cue_name="Run" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="013_Facial_angry" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="今なら、きっと出来る……滾らせるっ！&#xA;うおおおぉーーーーーーっ!!" speaker_show="True" stop="True" voice="tk95002_03_0107" />
+    <delete obj_id="Shockwave" />
+    <move obj_id="歳納 京子" position_id="left" x="250" x_move_type="MoveTo" y="-100" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="わ、わっ!?" speaker_show="True" stop="True" voice="tk95002_03_0108" />
+    <delete obj_id="歳納 京子" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ありゃ、小石に躓いちゃった。" speaker_show="True" stop="True" voice="ym11003_03_0058" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="このままだと転んじゃう――&#xA;無理しないで、京子ちゃん！" speaker_show="True" stop="True" voice="mm11001_03_0064" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="019_Facial_damage" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="私は、諦めないっ……ぞぉーっ!!" speaker_show="True" stop="True" voice="tk95002_03_0109" />
+    <sound type="Se" cue_name="Run" />
+    <create_effect effect_id="Shockwave" effect_type="EffectShockWave" life_time="2.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <wait time="3.0" />
+    <move obj_id="歳納 京子" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <sound type="Se" cue_name="RoboDown" />
+    <wait time="3.0" />
+    <delete obj_id="歳納 京子" />
+    <delete obj_id="Shockwave" />
+    <create type="Character" obj_id="八千代 命" data_id="311003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="頭から行った!?" speaker_show="True" stop="True" voice="mm11001_03_0065" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="うわ、ぶつかった！&#xA;人形は……。" speaker_show="True" stop="True" voice="ym11003_03_0059" />
+    <move obj_id="八千代 命" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002001" position_id="left" x="330" y="0" anchor="Bottom" />
+    <move obj_id="歳納 京子" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="動きが、止まってる……。" speaker_show="True" stop="True" voice="tk95002_03_0110" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="す……凄い！　凄いよ京子ちゃん！" speaker_show="True" stop="True" voice="mm11001_03_0066" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="や、やった……やったぁー!!" speaker_show="True" stop="True" voice="tk95002_03_0111" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <move obj_id="歳納 京子" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002002" position_id="left" x="-230" y="0" anchor="Bottom" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(あの状況から、本当に逆転するなんて。)" speaker_show="True" stop="True" voice="hy11002_03_0062" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(確かに今の頭突きは凄かったけど、&#xA;それくらいで壊れる強度ではなかったはず……。)" speaker_show="True" stop="True" voice="hy11002_03_0063" lip_sync="False" />
+    <msg speaker="半蔵門 雪" text="(急に加えられた揺れが、&#xA;イレギュラーを引き起こしたのかしら。)" speaker_show="True" stop="True" voice="hy11002_03_0064" lip_sync="False" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="本当にありがとうございます、&#xA;皆さんのお陰です！" speaker_show="True" stop="True" voice="tk95002_03_0112" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="でも、私も少しは見所あったのかも？&#xA;なーんて！" speaker_show="True" stop="True" voice="tk95002_03_0113" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(偶然が重なった結果だとしても……。)" speaker_show="True" stop="True" voice="hy11002_03_0065" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(それを呼び込んだのは、&#xA;あなたの諦めない心よ。)" speaker_show="True" stop="True" voice="hy11002_03_0066" lip_sync="False" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="018_Facial_smug" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="やったぞー、おーっ！" speaker_show="True" stop="True" voice="tk95002_03_0114" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="Quest2" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

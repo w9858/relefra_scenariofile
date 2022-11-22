@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030601" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="Wasabi・夜" />
+    <bg show="True" file="02_wasabimo_001" effect_time="0.0" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="今夜でお別れって……マジ？&#xA;もう、みんな帰っちゃうの？" speaker_show="True" stop="True" voice="ym11003_01_0564" />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="はい。神樹様に私達を帰還させるだけの&#xA;御力が戻ったと、神託が来ましたので……。" speaker_show="True" stop="True" voice="tm96002_01_0091" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="寂しくなるよ……。みんなと過ごせて&#xA;本当に楽しかったから……。" speaker_show="True" stop="True" voice="ig11006_01_0487" />
+    <char_spine_animation obj_id="犬吠埼 樹" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="私もです……。知り合えたばっかりなのに&#xA;もうお別れなんて……。" speaker_show="True" stop="True" voice="ii96004_01_0069" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="400" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="勇者部のみんなには、本当にお世話になったから&#xA;今夜は、心ばかりの御馳走を用意したわ。" speaker_show="True" stop="True" voice="kt11009_01_0349" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="ありがとうございます。得体の知れないアタシ達を&#xA;受け入れてくださった上に、送別会まで。" speaker_show="True" stop="True" voice="if96003_01_0071" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="三好 夏凜" text="西暦の正義の味方が、今までもこれからも&#xA;守った平和は、未来で私達が守り抜くからね！" speaker_show="True" stop="True" voice="mk96005_01_0068" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="じゃあ、みんなグラスを。我らツキカゲと&#xA;任務を共にした、清廉なる勇者達に。" speaker_show="True" stop="True" voice="hy11002_01_0559" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-100" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="500" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="-500" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ【合】" text="勇者達に！" speaker_show="True" stop="True" voice="mm11001_01_0809" />
+    <msg speaker="半蔵門 雪【合】" text="勇者達に！" speaker_show="True" stop="True" voice="hy11002_01_0560" />
+    <msg speaker="八千代 命【合】" text="勇者達に！" speaker_show="True" stop="True" voice="ym11003_01_0565" />
+    <msg speaker="相模 楓【合】" text="勇者達に！" speaker_show="True" stop="True" voice="sf11004_01_0594" />
+    <msg speaker="青葉 初芽【合】" text="勇者達に！" speaker_show="True" stop="True" voice="ah11005_01_0501" />
+    <msg speaker="石川 五恵【合】" text="勇者達に！" speaker_show="True" stop="True" voice="ig11006_01_0488" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 風" text="我ら勇者部と御役目を共にした&#xA;勇敢なるツキカゲに！" speaker_show="True" stop="True" voice="if96003_01_0072" />
+    <move obj_id="犬吠埼 風" position_id="left" x="500" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="-500" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="-100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈【合】" text="ツキカゲに！" speaker_show="True" stop="True" voice="yy96001_01_0074" />
+    <msg speaker="東郷 美森【合】" text="ツキカゲに！" speaker_show="True" stop="True" voice="tm96002_01_0092" />
+    <msg speaker="犬吠埼 風【合】" text="ツキカゲに！" speaker_show="True" stop="True" voice="if96003_01_0073" />
+    <msg speaker="犬吠埼 樹【合】" text="ツキカゲに！" speaker_show="True" stop="True" voice="ii96004_01_0070" />
+    <msg speaker="三好 夏凜【合】" text="ツキカゲに！" speaker_show="True" stop="True" voice="mk96005_01_0069" />
+    <msg speaker="乃木 園子【合】" text="ツキカゲに！" speaker_show="True" stop="True" voice="ns96006_01_0069" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="犬吠埼 風" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="乃木 園子" />
+    <msg speaker="源 モモ【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="mm11001_01_0810" />
+    <msg speaker="半蔵門 雪【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="hy11002_01_0561" />
+    <msg speaker="八千代 命【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="ym11003_01_0566" />
+    <msg speaker="相模 楓【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="sf11004_01_0595" />
+    <msg speaker="青葉 初芽【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="ah11005_01_0502" />
+    <msg speaker="石川 五恵【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="ig11006_01_0489" />
+    <msg speaker="結城 友奈【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="yy96001_01_0075" />
+    <msg speaker="東郷 美森【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="tm96002_01_0093" />
+    <msg speaker="犬吠埼 風【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="if96003_01_0074" />
+    <msg speaker="犬吠埼 樹【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="ii96004_01_0071" />
+    <msg speaker="三好 夏凜【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="mk96005_01_0070" />
+    <msg speaker="乃木 園子【合】" text="カンパーーーイ！" speaker_show="True" stop="True" voice="ns96006_01_0070" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="名残惜しいなぁ。部室にいるみたいで、&#xA;居心地良かったもんね……Wasabiって。" speaker_show="True" stop="True" voice="yy96001_01_0076" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="勇者に似てる人もいたしね～。雪さんは&#xA;わかちゃんに雰囲気そっくりだし～。" speaker_show="True" stop="True" voice="ns96006_01_0071" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="犬吠埼 樹" text="五恵さんは、杏さんみたいです。&#xA;あとあと、楓さんと夏凜さん♪" speaker_show="True" stop="True" voice="ii96004_01_0072" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="乃木 園子" />
+    <delete obj_id="犬吠埼 樹" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓【合】" text="はああ!?　どこが似てるっていうのよ！" speaker_show="True" stop="True" voice="sf11004_01_0596" />
+    <msg speaker="三好 夏凜【合】" text="はああ!?　どこが似てるっていうのよ！" speaker_show="True" stop="True" voice="mk96005_01_0071" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="アハハ！　ハモった♪" speaker_show="True" stop="True" voice="yy96001_01_0077" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="今度来る時は、タマコってのを連れて来いよ！&#xA;勝負して絶対に私が勝ってやる。" speaker_show="True" stop="True" voice="bk11008_01_0209" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="その機会は、平和のためを思うとない方が&#xA;良いのだけれど…………はぁ、悩ましいわ。" speaker_show="True" stop="True" voice="tm96002_01_0094" />
+    <delete obj_id="白虎" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="ハァ～～～～………悩ましいのはこれもだよ～。&#xA;初芽さんに、買ってもらった薄い本の山……。" speaker_show="True" stop="True" voice="ns96006_01_0072" />
+    <char_spine_animation obj_id="乃木 園子" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="読み終わってから気付いたんだけど……&#xA;これ、時空間移動で消えちゃうかもだよね……。" speaker_show="True" stop="True" voice="ns96006_01_0073" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="えっ、そうなの!?　もったいない……。" speaker_show="True" stop="True" voice="mm11001_01_0811" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="それは、質量保存の法則ですか？&#xA;ハ……ッ、それ以前に、パラドックスは……!?" speaker_show="True" stop="True" voice="ah11005_01_0503" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="テレジア" data_id="311008004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="テレジア" text="タイムパラドックス……。勇者達の脳から&#xA;ここでの記憶は消えてしまうということか……。" speaker_show="True" stop="True" voice="tr11007_01_0218" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="101_Facial_trouble" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ【合】" text="えっ!?" speaker_show="True" stop="True" voice="mm11001_01_0812" />
+    <msg speaker="八千代 命【合】" text="えっ!?" speaker_show="True" stop="True" voice="ym11003_01_0567" />
+    <msg speaker="相模 楓【合】" text="えっ!?" speaker_show="True" stop="True" voice="sf11004_01_0597" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="この時代に危機があったから、私達が来た。&#xA;でも、その危機は未然に防がれた……。" speaker_show="True" stop="True" voice="ns96006_01_0074" />
+    <char_spine_animation obj_id="乃木 園子" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="だから、未来の同時間軸では危機は感知されず&#xA;私達がここへ来たことも、無かったことになる。" speaker_show="True" stop="True" voice="ns96006_01_0075" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="んんん??　でも、あったよね???" speaker_show="True" stop="True" voice="yy96001_01_0078" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="恐らく、その異なった事実の折り合いは&#xA;タイムホールの通過でつけられるのかと……。" speaker_show="True" stop="True" voice="ah11005_01_0504" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="すごい……これっぽっちも理解できない。&#xA;でも……ホントなの？　忘れちゃうって。" speaker_show="True" stop="True" voice="ym11003_01_0568" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="なによ……都合良く使っといて、&#xA;終わったら忘れろなんて……アリ!?" speaker_show="True" stop="True" voice="sf11004_01_0598" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="乃木 園子" data_id="396006002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乃木 園子" face_anim_type="005_Facial_sad" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="乃木 園子" text="神樹様は神様だから……そういう厳しい所も&#xA;あるんです～。でも、それも平和のためだから～。" speaker_show="True" stop="True" voice="ns96006_01_0076" />
+    <delete obj_id="乃木 園子" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004002" position_id="left" x="450" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="08_MouthBothHands" face_anim_type="005_Facial_sad" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="12_DropShoulders" face_anim_type="005_Facial_sad" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="結城 友奈" body_anim_type="06_ChestLeftHand" face_anim_type="005_Facial_sad" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="犬吠埼 樹" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" face_anim_type="005_Facial_sad" force_end="False" />
+    <msg speaker="源 モモ" text="そんな……。" speaker_show="True" stop="True" voice="mm11001_01_0813" />
+  </command>
+</adv>

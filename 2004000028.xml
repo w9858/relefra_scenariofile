@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000028" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg file="44_raimuhouseev_01" />
+    <telop text="敷島ビル最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="時は流れ……。来夢２０歳。" stop="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そうか、初芽がツキカゲだったとはね&#xA;何かしら影で動いている気配はあったけど。" speaker_show="True" stop="True" voice="sr13001_02_0425" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="やっぱり初芽にはＺＥＴの正体バレたか。" speaker_show="True" stop="True" voice="sr13001_02_0426" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="来夢さんとよく話している立場としては&#xA;ピンと来ましたよ。" speaker_show="True" stop="True" voice="ah11005_02_0188" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="子供の頃から、犯罪者をこらしめたいと&#xA;言ってましたね。" speaker_show="True" stop="True" voice="ah11005_02_0189" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="敷島の社長が味方につけば頼もしいわ。&#xA;貴方を正義の連合軍に、お誘いに来たのよ。" speaker_show="True" stop="True" voice="kt11009_02_0074" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="津守 ヨモギ" text="悪の連合軍と戦うためによ、お前の力が&#xA;必要なんだよ。" speaker_show="True" stop="True" voice="ty12005_02_0023" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="津守 ヨモギ" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="是非、宜しくお願いします来夢さん。&#xA;一緒に戦いましょう。" speaker_show="True" stop="True" voice="ah11005_02_0190" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="どうやら敵にはリザードもいるみたいだし&#xA;――詳しく聞きましょうか。" speaker_show="True" stop="True" voice="sr13001_02_0427" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

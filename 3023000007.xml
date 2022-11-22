@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3023000007" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg file="65_Skatingrink_002" show="True" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="スケートリンク" wait="True" in_time="0.5" show_time="0.5" out_time="0.5" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" />
+    <create obj_id="石川 五恵" data_id="311006018" position_id="left" x="-300" />
+    <create obj_id="半蔵門 雪" data_id="311002021" position_id="left" x="300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="オルサくーーーーーーーん！&#xA;あ、あれ……ナイフが刺さったのに大丈夫？" speaker_show="True" stop="True" voice="mm11001_03_0190" />
+    <msg speaker="オルサ君" text="…………………………。" speaker_show="True" stop="True" voice="99030_03_0003" />
+    <msg speaker="フルチェンコフ" text="ク…ッ！" speaker_show="True" stop="True" voice="99034_03_0004" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="２度目のチャンスなんてない！&#xA;武器の持ち込み禁止！　えいっ！" speaker_show="True" stop="True" voice="mm11001_03_0191" />
+    <sound type="Se" cue_name="quest_060_Guard1" />
+    <wait time="0.5" />
+    <msg speaker="フルチェンコフ" text="!?" speaker_show="True" stop="True" voice="99034_03_0005" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="雪先輩っ、様子のおかしいキャストが&#xA;何人かいます！" speaker_show="True" stop="True" voice="ig11006_03_0181" />
+    <sound type="Se" cue_name="quest_018_SwordLight" />
+    <wait time="0.8" />
+    <msg speaker="マドベージェフスカヤ" text="ーーー！" speaker_show="True" stop="True" voice="99033_03_0004" />
+    <sound type="Se" cue_name="people_people-performance-cheer1" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="22_PushGlasses" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="観客は革新的な演出だと思っているわ。&#xA;このままターゲットを逃がしましょう！" speaker_show="True" stop="True" voice="hy11002_03_0136" />
+    <msg speaker="オルサ君" text="ヴィヂチ アチューダ。(ここから逃げなさい)" speaker_show="True" stop="True" voice="tr11007_03_0049" />
+    <msg speaker="マドベージェフスカヤ" text="スパシーバ……！(ありがとう)" speaker_show="True" stop="True" voice="99033_03_0005" />
+    <msg speaker="フルチェンコフ" text="ーーーーッ！" speaker_show="True" stop="True" voice="99034_03_0006" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="妖精は優雅に舞いながら、悪い人を止める！&#xA;……っていうのは無理ぃー！　動きが速すぎる！" speaker_show="True" stop="True" voice="mm11001_03_0192" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="何人かの演者がターゲットを追って&#xA;退場してしまいます！　雪先輩!?" speaker_show="True" stop="True" voice="ig11006_03_0182" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="大丈夫。このまま行かせましょう。&#xA;ツキカゲは、私達だけじゃないわ。" speaker_show="True" stop="True" voice="hy11002_03_0137" />
+    <msg_window_show show="False" />
+    <transition wait="True" />
+    <bg file="38_shoppingmall_01" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="半蔵門 雪" />
+    <transition type="In" color_change="False" wait="True" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="相模楓" face_anim_type="008_Facial_serious" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" />
+    <msg speaker="マドベージェフスカヤ" text="パマギーチェ！(助けて！)" speaker_show="True" stop="True" voice="99033_03_0006" />
+    <msg speaker="暗殺者A" text="ポドズディーチェ！(待て！)" speaker_show="True" stop="True" voice="99047_03_0001" />
+    <create obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create obj_id="白虎" data_id="311007008" position_id="left" x="300" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="待ちなさい！　あんた達、日本をナメないでよね。&#xA;この完璧スパイが暗殺なんてさせやしないわ！" speaker_show="True" stop="True" voice="sf11004_03_0256" />
+    <char_spine_animation obj_id="白虎" face_anim_type="013_Facial_angry" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ボルシチパーーーーンチ!!" speaker_show="True" stop="True" voice="bk11008_03_0082" />
+    <sound type="Se" cue_name="quest_028_BlowDamagePunch" />
+    <wait time="0.5" />
+    <msg speaker="暗殺者A" text="ガハーーーーッ！" speaker_show="True" stop="True" voice="99047_03_0002" />
+    <char_spine_animation obj_id="白虎" face_anim_type="013_Facial_angry" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="白虎" text="ピロシキーーーーーック!!" speaker_show="True" stop="True" voice="bk11008_03_0083" />
+    <sound type="Se" cue_name="quest_029_BlowDamageKick" />
+    <wait time="0.2" />
+    <sound type="Se" cue_name="quest_029_BlowDamageKick" />
+    <wait time="0.5" />
+    <msg speaker="暗殺者B" text="グハーーーーッ！" speaker_show="True" stop="True" voice="99048_03_0001" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="ちょっ、白虎！　アタシの出番とらないで！&#xA;えと……マトリョーシカハリケーーーン！" speaker_show="True" stop="True" voice="sf11004_03_0257" />
+    <sound type="Se" cue_name="quest_002_Wire2" />
+    <wait time="0.5" />
+    <msg speaker="暗殺者A・B" text="ゴヒャァアーーーーッ！" speaker_show="True" stop="True" voice="3023000007_union_001" />
+    <sound type="Se" cue_name="adv_035_Down" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="people_people-performance-cheer1" />
+    <wait time="0.5" />
+    <delete obj_id="白虎" />
+    <delete obj_id="相模 楓" />
+    <create obj_id="八千代 命" data_id="311003005" position_id="left" x="-300" />
+    <create obj_id="高坂 信" data_id="311010003" position_id="left" x="300" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="いやー、ご苦労ご苦労。&#xA;メイの出番、全然なかったや。" speaker_show="True" stop="True" voice="ym11003_03_0232" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="マドベージェフスカヤさん、もう大丈夫だよ。&#xA;信達は、あなたを助けに来た日本の組織だから。" speaker_show="True" stop="True" voice="ks11010_03_0078" />
+    <msg speaker="マドベージェフスカヤ" text="ア、アリガトゴザイマス……。日本語スコシ。&#xA;アニメ好きカラ。勉強シマシタ……。" speaker_show="True" stop="True" voice="99033_03_0007" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="わぁ……カワイイなぁ♪　お目々パッチリ。&#xA;お人形みたいで抱っこしたくなっちゃう。" speaker_show="True" stop="True" voice="ks11010_03_0079" />
+    <msg speaker="カトリーナ" text="し、シン様!?　離して初芽ちゃん&#xA;私もすぐに会場へ……" speaker_show="True" stop="True" voice="kt11009_03_0094" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="青葉 初芽" text="ど、どうやらショーも終わったようです。&#xA;雪ちゃん達と合流して下さい。" speaker_show="True" stop="True" voice="ah11005_03_0147" />
+    <sound type="Se" cue_name="people-performance-cheer2" />
+    <wait time="0.5" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <create obj_id="相模 楓" data_id="311004005" position_id="left" x="-300" />
+    <create obj_id="白虎" data_id="311007008" position_id="left" x="300" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="アハ。どうやら観客は、全部演出だと&#xA;思ってくれたみたいね。" speaker_show="True" stop="True" voice="sf11004_03_0258" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="白虎" text="我々の方が、ヒーローショーみたいで&#xA;カッコ良かったけどな！　かっかっか♪" speaker_show="True" stop="True" voice="bk11008_03_0084" />
+    <fade_out time="0.5" wait="True" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020000002" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="04_shopstreetmo_03" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <sound type="Se" cue_name="EnvGaya" />
+    <wait time="0.5" />
+    <telop in_time="1.0" show_time="2.0" out_time="1.0" wait="True" text="商店街" />
+    <msg window_type="SystemMsg" text="引率の先生の話も終わって、&#xA;ごらく部の４人は自由時間を迎える。" stop="True" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="さて、それじゃ一緒に回ろうか。" speaker_show="True" stop="True" voice="fy95003_03_0006" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="えへへ。学年が違うのに、こうして４人で&#xA;行動出来ちゃうのって、何だか嬉しいね。" speaker_show="True" stop="True" voice="aa95001_03_0003" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="この自由時間内で、空崎の街の歴史について&#xA;調べて提出するんだっけ。" speaker_show="True" stop="True" voice="aa95001_03_0004" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="船見 結衣" text="うん。&#xA;知らない街だし、結構大変かも。" speaker_show="True" stop="True" voice="fy95003_03_0007" />
+    <delete obj_id="赤座 あかり" />
+    <move obj_id="船見 結衣" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="そう？　ここからの眺めでも写真に撮って、&#xA;レポート用紙に貼っ付けて出せばいいんじゃないの？" speaker_show="True" stop="True" voice="tk95002_03_0005" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <sound type="Se" volume="100" cue_name="Camera" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="よし終わり。さ、お昼食べに行こう！" speaker_show="True" stop="True" voice="tk95002_03_0006" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="013_Facial_angry" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="雑だなぁ。&#xA;さすがにもう少ししっかりやれよ。" speaker_show="True" stop="True" voice="fy95003_03_0008" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="えー。それよりご飯だよ、ご飯。&#xA;もうお腹ぺこぺこ！" speaker_show="True" stop="True" voice="tk95002_03_0007" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="ほら、あのお店とかいい感じじゃない？" speaker_show="True" stop="True" voice="tk95002_03_0008" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <bg show="True" resource_type="Background" file="02_wasabimo_002" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <move obj_id="船見 結衣" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="歳納 京子" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004002" position_id="left" x="-350" y="0" anchor="Bottom" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="『Wasabi』って面白い名前ですね。&#xA;入りますか、結衣先輩？" speaker_show="True" stop="True" voice="yc95004_03_0003" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="はぁ……まあいいか。確かにお腹空いてきたし。&#xA;でも後でちゃんと課題をやるんだぞ。" speaker_show="True" stop="True" voice="fy95003_03_0009" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="歳納 京子" x="0" y="30" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="ひゃっほー、ご飯だー！" speaker_show="True" stop="True" voice="tk95002_03_0009" />
+    <delete obj_id="Smile" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="これ絶対やる気ないよなぁ。" speaker_show="True" stop="True" voice="fy95003_03_0010" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <wait />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="船見 結衣" />
+    <delete obj_id="歳納 京子" />
+    <delete obj_id="吉川 ちなつ" />
+    <bg show="True" resource_type="Background" file="02_wasabimo_001" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="Wasabi" in_time="1.0" show_time="2.0" out_time="1.0" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="400" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="-100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="いらっしゃいませ。&#xA;４名様、こちらのお席になります。" speaker_show="True" stop="True" voice="kt11009_03_0029" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="ご注文が決まりましたらお呼び下さい。" speaker_show="True" stop="True" voice="kt11009_03_0030" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="カトリーナ" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <move obj_id="歳納 京子" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.6" wait="False" />
+    <move obj_id="船見 結衣" position_id="left" x="130" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.6" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="-130" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.6" wait="False" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001002" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <move obj_id="赤座 あかり" position_id="left" x="-400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.6" wait="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="False" mixing="True" />
+    <msg speaker="船見 結衣" text="さて、何にしようかな。" speaker_show="True" stop="True" voice="fy95003_03_0011" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="ふっふーん。私ぐらいの通になると、&#xA;普通のカレーじゃ満足出来ないってものよ。" speaker_show="True" stop="True" voice="tk95002_03_0010" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="False" mixing="True" />
+    <msg speaker="赤座 あかり" text="えー、京子ちゃんすごぉい！&#xA;じゃあどんなカレーを頼むの？" speaker_show="True" stop="True" voice="aa95001_03_0005" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="2.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="んー……？　それは、アレだな。&#xA;なかなか一言で表すのは難しいっていうか。" speaker_show="True" stop="True" voice="tk95002_03_0011" />
+    <delete obj_id="Sweat" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="何も考えてなかったって顔してますよ。" speaker_show="True" stop="True" voice="yc95004_03_0004" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="2.0" target_obj="歳納 京子" x="0" y="30" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="そ、そんな事ないよ!?　私、カレー屋に来たら&#xA;いつもこればっか食べてるし！" speaker_show="True" stop="True" voice="tk95002_03_0012" />
+    <delete obj_id="Sweat" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="本当かなぁ。" speaker_show="True" stop="True" voice="fy95003_03_0012" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="本当だもん。店員さーん！" speaker_show="True" stop="True" voice="tk95002_03_0013" />
+    <delete obj_id="吉川 ちなつ" />
+    <delete obj_id="赤座 あかり" />
+    <move obj_id="歳納 京子" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.6" wait="False" />
+    <move obj_id="船見 結衣" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.6" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="350" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="カトリーナ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="はい、お決まりでしょうか？" speaker_show="True" stop="True" voice="kt11009_03_0031" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="えっとー、私は……『オリジナルカレー、&#xA;はちみつ抜き、ガラムマサラましまし』で！" speaker_show="True" stop="True" voice="tk95002_03_0014" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(えっ……!?)" speaker_show="True" stop="True" voice="kt11009_03_0032" lip_sync="False" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="ラーメン屋さんじゃないんだし、&#xA;そんなオーダーの仕方はないだろ。" speaker_show="True" stop="True" voice="fy95003_03_0013" />
+    <char_spine_animation obj_id="船見 結衣" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="ほら、メニューにも書いてない。&#xA;変な見栄張らなくてもいいから、ちゃんと注文しよう。" speaker_show="True" stop="True" voice="fy95003_03_0014" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="ゴメンナサーイ。" speaker_show="True" stop="True" voice="tk95002_03_0015" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(い、今のって……。)" speaker_show="True" stop="True" voice="kt11009_03_0033" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(聞き間違えるはずもない、ツキカゲの合言葉よね？&#xA;誰かが教えたのかしら。)" speaker_show="True" stop="True" voice="kt11009_03_0034" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(でも初めて見る子達なのに……&#xA;あ、ひょっとして。)" speaker_show="True" stop="True" voice="kt11009_03_0035" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(モモちゃんとフーちゃんの&#xA;弟子候補だったりするのかしら？)" speaker_show="True" stop="True" voice="kt11009_03_0036" lip_sync="False" />
+    <delete obj_id="船見 結衣" />
+    <delete obj_id="歳納 京子" />
+    <move obj_id="カトリーナ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001002" position_id="left" x="-210" y="0" anchor="Bottom" />
+    <move obj_id="赤座 あかり" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="う～ん、あかりは何にしようかな。&#xA;どれも美味しそうだよぉ。" speaker_show="True" stop="True" voice="aa95001_03_0006" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Exclamation" effect_type="MampExclamation" life_time="2.0" target_obj="カトリーナ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="カトリーナ" text="(ハッ……！　この子、いったいいつから&#xA;Wasabiにいたの!?)" speaker_show="True" stop="True" voice="kt11009_03_0037" lip_sync="False" />
+    <delete obj_id="Exclamation" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(全然気付かなかった……ここまで存在感を&#xA;消すなんて、まるでシン様のよう……。)" speaker_show="True" stop="True" voice="kt11009_03_0038" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(そう考えると、私の神であるシン様には及ばないけど&#xA;この子もまるで天使のように思えてきちゃう……！)" speaker_show="True" stop="True" voice="kt11009_03_0039" lip_sync="False" />
+    <delete obj_id="赤座 あかり" />
+    <move obj_id="カトリーナ" position_id="left" x="400" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="90" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004002" position_id="left" x="-110" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="-310" y="0" anchor="Bottom" />
+    <move obj_id="船見 結衣" position_id="left" x="100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="-100" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="歳納 京子" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="あのー、もう少しだけ注文待ってもらっても&#xA;いいですか。急いで決めるので。" speaker_show="True" stop="True" voice="fy95003_03_0015" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="は、はい。" speaker_show="True" stop="True" voice="kt11009_03_0040" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="ほら、京子先輩。ちゃんと&#xA;ある料理の中から選んでくださいね。" speaker_show="True" stop="True" voice="yc95004_03_0005" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="ちなつちゃんの頼みならしょうがないな。" speaker_show="True" stop="True" voice="tk95002_03_0016" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(私が動揺しているのを察して、フォローした？&#xA;何て自然な演技……。)" speaker_show="True" stop="True" voice="kt11009_03_0041" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="黒髪の子も、合言葉を聞かれていた場合に備えて、&#xA;すかさずカバーに回って対応している。" speaker_show="True" stop="True" voice="kt11009_03_0042" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="カトリーナ" text="(やはり、この子達が弟子候補……。&#xA;スパイとしての素質は確かに感じられる。)" speaker_show="True" stop="True" voice="kt11009_03_0043" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(それに気付いたツキカゲの誰かが&#xA;推薦したというわけね。なら。)" speaker_show="True" stop="True" voice="kt11009_03_0044" lip_sync="False" />
+    <delete obj_id="歳納 京子" />
+    <delete obj_id="吉川 ちなつ" />
+    <move obj_id="船見 結衣" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="ご注文、承りました。" speaker_show="True" stop="True" voice="kt11009_03_0045" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="え？　でも、まだ何も。" speaker_show="True" stop="True" voice="fy95003_03_0016" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="いいえ、皆まで言わずとも結構ですよ。&#xA;こちらへご案内します♪" speaker_show="True" stop="True" voice="kt11009_03_0046" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

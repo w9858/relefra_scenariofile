@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010501" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="03_tsukikage_007" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（青葉初芽は、私の自慢の師匠だ）" speaker_show="True" stop="True" voice="ig11006_01_0517" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（優秀なスパイで、美人で、優しくて、&#xA;どんな人とでも仲良くなるから友達も多い）" speaker_show="True" stop="True" voice="ig11006_01_0518" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="（それに、すごく頭が良い。いろんなアイテムを&#xA;発明して、ツキカゲの活躍に貢献している）" speaker_show="True" stop="True" voice="ig11006_01_0519" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（ツキカゲが使っているスパイアイテムの多くは、&#xA;師匠が作ったものだ）" speaker_show="True" stop="True" voice="ig11006_01_0520" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（そして今も、新しい発明品を開発している。&#xA;その姿も凛々しくて見惚れてしまう…）" speaker_show="True" stop="True" voice="ig11006_01_0521" lip_sync="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="できましたっ！　まだ試作品段階ですが、&#xA;白虎ちゃん専用の強化スーツです！" speaker_show="True" stop="True" voice="ah11005_01_0549" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007001" position_id="left" x="0" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="なんだー？　私は強化スーツなんてなくても&#xA;ちょー強いから、いらないぞ！" speaker_show="True" stop="True" voice="bk11008_01_0212" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" time="0.3" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="まぁ、そう言わないでください。&#xA;このスーツは現代科学の粋を集めた一品なんです。" speaker_show="True" stop="True" voice="ah11005_01_0550" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="まず特筆すべきはその防御力！　防弾防刃防毒機能に&#xA;加え、水深100メートルの圧力に耐えることも可能！" speaker_show="True" stop="True" voice="ah11005_01_0551" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="さらに人工筋肉により身体能力を強化！&#xA;パンチ１発で最大１トンのパワーを発揮可能！" speaker_show="True" stop="True" voice="ah11005_01_0552" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="加圧機能により猫背を矯正し、リンパを刺激して&#xA;血流を改善！　デトックス効果があります！" speaker_show="True" stop="True" voice="ah11005_01_0553" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="さらに金運の上昇、縁結びの効果、病の改善にも&#xA;効果ありとの報告が！　あくまで個人の感想ですが。" speaker_show="True" stop="True" voice="ah11005_01_0554" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="な、なにー！　そんなにすごいのか！&#xA;さっそく着てみるぞ！" speaker_show="True" stop="True" voice="bk11008_01_0213" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <delete obj_id="白虎" />
+    <delete obj_id="青葉 初芽" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="300" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007001" position_id="left" x="-300" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="着たぞ！　強化スーツって言っても、&#xA;見た目は私の普段の服と同じだな。" speaker_show="True" stop="True" voice="bk11008_01_0214" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="物々しいデザインは今のトレンドじゃありません。&#xA;普段の服と同じように着られて、強くなれる。" speaker_show="True" stop="True" voice="ah11005_01_0555" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="それが重要なんです。" speaker_show="True" stop="True" voice="ah11005_01_0556" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="トレンドとかどうでもいいけど、&#xA;これで私は強くなったのか？" speaker_show="True" stop="True" voice="bk11008_01_0215" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="はい。間違いなく。" speaker_show="True" stop="True" voice="ah11005_01_0557" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="よーし、じゃあ五恵！&#xA;全力でパンチしてみろ！" speaker_show="True" stop="True" voice="bk11008_01_0216" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="400" x_move_type="MoveTo" />
+    <move obj_id="白虎" position_id="left" x="-400" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006006" position_id="left" x="150" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="え？　でも…" speaker_show="True" stop="True" voice="ig11006_01_0522" />
+    <char_spine_animation obj_id="白虎" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="この強化スーツが本物なら、&#xA;五恵のパンチくらい、なんともないはずだ！" speaker_show="True" stop="True" voice="bk11008_01_0217" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="はい！　データ上では、ごえちゃんの一撃にも&#xA;耐えられるはずです！" speaker_show="True" stop="True" voice="ah11005_01_0558" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <create_effect effect_id="bk_Smile" effect_type="MampSmile" life_time="1" target_obj="白虎" />
+    <msg speaker="白虎" text="はっはっは！　五恵！　お前にはほんのちょーっとだけ&#xA;「逆らわないでおこう」とか思ったこともあるが！" speaker_show="True" stop="True" voice="bk11008_01_0218" />
+    <delete obj_id="bk_Smile" />
+    <char_spine_animation obj_id="白虎" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="このスーツで攻撃が効かなくなれば、もう怖くないぞ！&#xA;さあ、やってみろ！　パンチ！　パンチ！" speaker_show="True" stop="True" voice="bk11008_01_0219" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="じゃあ行くよ…&#xA;はっ!!" speaker_show="True" stop="True" voice="ig11006_01_0523" />
+    <msg_window_show show="False" />
+    <move obj_id="石川 五恵" position_id="left" x="-300" x_move_type="MoveTo" time="0.2" wait="True" />
+    <Comment comment="【SE】ドゴーン！" />
+    <sound type="Se" cue_name="RoboDown" />
+    <flash color="#ffffffff" count="1" time="0.2" />
+    <move obj_id="白虎" position_id="left" x="-1000" time="0.3" />
+    <shake target="MsgWindow" x="10" y="10" time="1.0" obj_id="白虎" />
+    <wait time="3" />
+    <msg speaker="白虎" text="ぎゃああああああ！" speaker_show="True" stop="True" voice="bk11008_01_0220" />
+    <delete obj_id="白虎" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="…すごく飛びましたね…飛ばされて&#xA;壁にめり込んじゃってます。" speaker_show="True" stop="True" voice="ah11005_01_0559" />
+    <move obj_id="石川 五恵" position_id="left" x="-150" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="だ、大丈夫？" speaker_show="True" stop="True" voice="ig11006_01_0524" />
+    <create type="Character" anchor="Bottom" obj_id="白虎" data_id="311007001" position_id="left" x="-400" y="-400" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <move obj_id="白虎" position_id="left" y="400" time="1.5" />
+    <msg speaker="白虎" text="うう……&#xA;あ、あれ！？　大丈夫だ！" speaker_show="True" stop="True" voice="bk11008_01_0221" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="確かにすごくふっ飛ばされたけど、&#xA;痛くも痒くもない！" speaker_show="True" stop="True" voice="bk11008_01_0222" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="どうです、この強化スーツの性能！" speaker_show="True" stop="True" voice="ah11005_01_0560" />
+    <char_spine_animation obj_id="白虎" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="すんごいぞ！　白虎様の強さと、このスーツがあれば、&#xA;もう何も怖いもんなんかないぞー！" speaker_show="True" stop="True" voice="bk11008_01_0223" />
+    <Comment comment="//画面にスモークを" />
+    <char_spine_animation obj_id="白虎" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="白虎" text="あ、あれ？&#xA;なんか煙くないか？" speaker_show="True" stop="True" voice="bk11008_01_0224" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="あ、いけません！&#xA;爆発します！" speaker_show="True" stop="True" voice="ah11005_01_0561" />
+    <msg_window_show show="False" />
+    <flash color="#ffffffff" count="1" time="0.5" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="白虎" />
+    <delete obj_id="青葉 初芽" />
+    <bg show="True" file="07_containerni_02" color="#000000ff" />
+    <Comment comment="【SE】爆発音" />
+    <sound cue_name="Spike" />
+    <wait time="1.0" />
+    <shake target="MsgWindow" x="10" y="10" time="1.0" obj_id="白虎" />
+    <msg speaker="白虎" text="ぎゃーーー！" speaker_show="True" stop="True" voice="bk11008_01_0225" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <bg show="False" file="07_containerni_02" color="#000000ff" />
+    <bg show="True" file="03_tsukikage_007" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="ごほっ、ごほっ！&#xA;白虎ちゃん！" speaker_show="True" stop="True" voice="ah11005_01_0562" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="大丈夫です…爆発する直前に、&#xA;スーツを剥がして助け出しました。" speaker_show="True" stop="True" voice="ig11006_01_0525" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="よかった…！" speaker_show="True" stop="True" voice="ah11005_01_0563" />
+    <msg speaker="白虎" text="あ～…う～…。&#xA;な…なんで爆発…？" speaker_show="True" stop="True" voice="bk11008_01_0226" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="すみません…試作品の段階では、&#xA;私の発明品はよく爆発するんです…。" speaker_show="True" stop="True" voice="ah11005_01_0564" />
+    <msg speaker="白虎" text="五恵がいなかったら、危なかったぞ…。" speaker_show="True" stop="True" voice="bk11008_01_0227" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="青葉 初芽" text="そうですね、本当にごえちゃんには&#xA;いつも助けられてます。" speaker_show="True" stop="True" voice="ah11005_01_0565" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="ごえちゃんがいるから、私は安心して実験が&#xA;できるんです。ありがとう、ごえちゃん。" speaker_show="True" stop="True" voice="ah11005_01_0566" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="いえ、師匠のお役に立てるのなら。" speaker_show="True" stop="True" voice="ig11006_01_0526" />
+  </command>
+</adv>

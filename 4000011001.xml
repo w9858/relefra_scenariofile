@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000011001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <Comment comment="Wasabi　店内" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="その日、メイとモモはWasabi店内で&#xA;教科書と睨み合っていた。" stop="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="以下の３次方程式が３つの実数解を持つような&#xA;定数ａの値の範囲を求めよ…むむむ…。" speaker_show="True" stop="True" voice="ym11003_01_0875" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ハプスブルグ家はフェルディナンドの代に&#xA;アウグスブルグの宗教和議の影響で…むぅぅ…。" speaker_show="True" stop="True" voice="mm11001_01_1028" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="あら、２人ともお勉強？" speaker_show="True" stop="True" voice="kt11009_01_0405" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="はいぃぃ…もうすぐテストなんですぅ…。&#xA;全然勉強が進んでなくて…。" speaker_show="True" stop="True" voice="mm11001_01_1029" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="最近、任務が多かったからねー。&#xA;仕方ないよ。" speaker_show="True" stop="True" voice="ym11003_01_0876" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="師匠は普段から勉強してないじゃないですか。" speaker_show="True" stop="True" voice="sf11004_01_0797" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="てへぺろ！" speaker_show="True" stop="True" voice="ym11003_01_0877" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="しかーし！　ツキカゲメンバーはテストで&#xA;全教科７０点以上取らないと除名処分…！" speaker_show="True" stop="True" voice="ym11003_01_0878" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="そうなんですよねえ…&#xA;学業と両立できないといけないので…。" speaker_show="True" stop="True" voice="mm11001_01_1030" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" x="200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="師匠もモモちも、普段からアタシみたいに&#xA;完璧に勉強してれば困らないのに！" speaker_show="True" stop="True" voice="sf11004_01_0798" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ふふ。でも、メイちゃんもモモちゃんも&#xA;今までテストの点数、乗り越えてきたじゃない。" speaker_show="True" stop="True" voice="kt11009_01_0406" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="相模 楓" text="ですね。師匠だっていつもピンチだっていいながら、&#xA;結局クリアしちゃうし…その点は信頼してますけど。" speaker_show="True" stop="True" voice="sf11004_01_0799" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="今回も初さん特製の３日間眠れなくなる栄養ドリンクを&#xA;飲んで１夜漬け、いや３夜漬けに励むか…！" speaker_show="True" stop="True" voice="ym11003_01_0879" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="源 モモ" text="私も…。" speaker_show="True" stop="True" voice="mm11001_01_1031" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="メイちゃん、モモちゃん。たまにならいいけど、&#xA;毎回そのやり方じゃダメよ。" speaker_show="True" stop="True" voice="kt11009_01_0407" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="あのドリンクは確かに素晴らしい効力だけど、&#xA;反動も強いから。" speaker_show="True" stop="True" voice="kt11009_01_0408" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="飲んだ後の反動で疲れて動けない時に、&#xA;緊急任務が発生したら大変よ？" speaker_show="True" stop="True" voice="kt11009_01_0409" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="-200" y="0" position_id="left" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="200" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" force_end="False" loop="True" to_idle="True" />
+    <msg speaker="源 モモ" text="た、確かに…&#xA;ああ、やっぱり地道に勉強するしかないんですね…。" speaker_show="True" stop="True" voice="mm11001_01_1032" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="019_Facial_damage" body_anim_type="10_FaceBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ああ、でも何か刺激を入れないと、&#xA;このままじゃ勉強を続けられない…。" speaker_show="True" stop="True" voice="ym11003_01_0880" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="0" y="0" position_id="left" anchor="Bottom" />
+    <create_effect effect_id="mei_Light" effect_type="MampLight" life_time="1.0" target_obj="カトリーナ" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" force_end="False" loop="True" to_idle="False" />
+    <wait time="1.5" />
+    <msg speaker="カトリーナ" text="だったら、ちょっと待ってて。&#xA;初芽ちゃんのドリンクの代わりに…。" speaker_show="True" stop="True" voice="kt11009_01_0410" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" x="-1000" x_move_type="MoveTo" time="2.0" wait="True" y="0" position_id="left" y_move_type="MoveValue" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="どうしたんだろ、カトーさん。" speaker_show="True" stop="True" voice="ym11003_01_0881" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-1000" y="0" anchor="Bottom" />
+    <move obj_id="カトリーナ" x="0" x_move_type="MoveTo" time="2.0" y="0" y_move_type="MoveValue" position_id="left" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="はい、どうぞ。&#xA;ジンジャーティーを入れてきたわ。" speaker_show="True" stop="True" voice="kt11009_01_0411" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ジンジャーティー？" speaker_show="True" stop="True" voice="mm11001_01_1033" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ちょうどいい刺激になると思うわよ。&#xA;飲んでみて。" speaker_show="True" stop="True" voice="kt11009_01_0412" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <create_effect effect_id="momo_KiraKira" effect_type="EffectKirakira" life_time="15" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="ごくごく…&#xA;んん～！　ピリッとして元気が出るぅ～！" speaker_show="True" stop="True" voice="ym11003_01_0882" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <delete obj_id="mei_KiraKira" />
+    <create_effect effect_id="mei_KiraKira" effect_type="EffectKirakira" life_time="15" target_obj="源 モモ" />
+    <msg speaker="源 モモ" text="体が温かくなってきた気がする…&#xA;滾ってきたぁ！　まだまだ勉強頑張れそうです！" speaker_show="True" stop="True" voice="mm11001_01_1034" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <create_effect effect_id="fuu_Exclamation" effect_type="MampExclamation" life_time="1.0" target_obj="相模 楓" />
+    <msg speaker="相模 楓" text="これは…！&#xA;カトリーナさん、レシピを教えてもらっていいですか！" speaker_show="True" stop="True" voice="sf11004_01_0800" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="カトリーナ" text="もちろん。" speaker_show="True" stop="True" voice="kt11009_01_0413" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="（今度、アタシも師匠に作ってあげよう…！）" speaker_show="True" stop="True" voice="sf11004_01_0801" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="任務と学業の両立は大変だけど、どちらも大切なこと&#xA;だから、無理をしすぎない程度に頑張ること。" speaker_show="True" stop="True" voice="kt11009_01_0414" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="このWasabiはみんなの憩いの場よ。&#xA;疲れたり困ったりしたら、いつでも言ってね。" speaker_show="True" stop="True" voice="kt11009_01_0415" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="私もあなたたちの力になるから。そのために私は&#xA;引退後もツキカゲに残っているんだもの。" speaker_show="True" stop="True" voice="kt11009_01_0416" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="源 モモ" text="ありがとうございます、カトリーナさん！" speaker_show="True" stop="True" voice="mm11001_01_1035" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="よーし、テストまで最後のひと踏ん張り、頑張るぞ！" speaker_show="True" stop="True" voice="mm11001_01_1036" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="メイも！　今回も乗り越えてやんよー！" speaker_show="True" stop="True" voice="ym11003_01_0883" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="ふふ。その調子よ。" speaker_show="True" stop="True" voice="kt11009_01_0417" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <wait time="0.5" />
+  </command>
+</adv>

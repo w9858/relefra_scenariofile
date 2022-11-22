@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010308001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="03_tsukikage_001" />
+    <fade_in time="0.5" wait="True" />
+    <msg text="ある日、任務の報告のため&#xD;&#xA;ツキカゲメンバーは基地に招集されていた。" speaker_show="True" stop="True" window_type="SystemMsg" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" lip_sync="False" text="（ちょっと早く着いちった～。&#xA;まだ誰も来てないかな？）" speaker_show="True" stop="True" voice="ym11003_02_0869" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" lip_sync="False" text="（お、テレっちがいた！）" speaker_show="True" stop="True" voice="ym11003_02_0870" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <shake target="Character" obj_id="テレジア" x="0" y="10" vibrate="5" time="2" wait="False" />
+    <Comment comment="「//腕立てしつつ」とあるが,shakeを使うと膝下が見える" />
+    <msg speaker="テレジア" text="はっ、はっ、はっ……。" speaker_show="True" stop="True" voice="tr11007_02_0260" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" lip_sync="False" text="（おお、すんごい汗だくで腕立てしてる……。）" speaker_show="True" stop="True" voice="ym11003_02_0871" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="おっす、テレっち～。" speaker_show="True" stop="True" voice="ym11003_02_0872" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008007" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="メイ。&#xA;ずいぶん早いな。" speaker_show="True" stop="True" voice="tr11007_02_0261" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="テレっちこそ。&#xA;鍛錬中かい？ 精が出るね～。" speaker_show="True" stop="True" voice="ym11003_02_0873" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="ああ。&#xA;怪我をしていた間に鈍った身体を鍛え直さないと。" speaker_show="True" stop="True" voice="tr11007_02_0262" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="早く戦力として、ツキカゲのみんなの&#xA;役に立てるようになりたいんだ。" speaker_show="True" stop="True" voice="tr11007_02_0263" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="テレっちは真面目だな〜。鍛錬するのはいいこと&#xA;だけど、あんま根詰め過ぎたらいかんよー。" speaker_show="True" stop="True" voice="ym11003_02_0874" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="もっと適当に、肩の力抜きなよ〜。&#xA;ほら、メイみたいにさ！" speaker_show="True" stop="True" voice="ym11003_02_0875" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="そうだな……&#xA;鍛錬のし過ぎで心身を壊したら、本末転倒だ。" speaker_show="True" stop="True" voice="tr11007_02_0264" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="少しペースを調整してみる。&#xA;ありがとう、メイ。" speaker_show="True" stop="True" voice="tr11007_02_0265" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="うんうん、どいたま～。" speaker_show="True" stop="True" voice="ym11003_02_0876" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="でも、私は知ってるぞ。" speaker_show="True" stop="True" voice="tr11007_02_0266" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="へ？ 何を？" speaker_show="True" stop="True" voice="ym11003_02_0877" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="メイは、本当は色々考えてる。&#xA;モウリョウとの闘いでもそうだった。" speaker_show="True" stop="True" voice="tr11007_02_0267" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="ダブルスパイを買って出たのは、自分の身を危険に&#xA;さらしてでも、みんなを守ろうとしたからだろう。" speaker_show="True" stop="True" voice="tr11007_02_0268" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ちょ、待って待って、テレっち……" speaker_show="True" stop="True" voice="ym11003_02_0878" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="020_Facial_thinking" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="メイは、適当なんかじゃない。&#xA;根は誰より真面目な——" speaker_show="True" stop="True" voice="tr11007_02_0269" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="10_FaceBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="だー!!!!&#xA;ストップ、スト〜ップ!!" speaker_show="True" stop="True" voice="ym11003_02_0879" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="020_Facial_thinking" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="も〜、テレっちと話してると調⼦狂うなー。&#xA;ピュアっ⼦恐ろしいわー……。" speaker_show="True" stop="True" voice="ym11003_02_0880" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="す、すまない……&#xA;何か気に障っただろうか……？" speaker_show="True" stop="True" voice="tr11007_02_0270" />
+    <msg_window_show show="False" />
+    <create_effect effect_id="effectkirakira_terejia" effect_type="EffectKirakira" life_time="1.0" target_obj="テレジア" x="0" y="0" />
+    <Comment comment="【SE】キラキラした音" />
+    <sound type="Se" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="うっ……&#xA;なんてキラキラした目だ……" speaker_show="True" stop="True" voice="ym11003_02_0881" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="はっ……そうか。モウリョウの一員だった私は、&#xA;メイにこんなこと言える立場じゃなかったな……。" speaker_show="True" stop="True" voice="tr11007_02_0271" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="いやいやいや!!&#xA;そんなことはないって!!" speaker_show="True" stop="True" voice="ym11003_02_0882" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そうか……？&#xA;では何が……？" speaker_show="True" stop="True" voice="tr11007_02_0272" />
+    <msg_window_show show="False" />
+    <create_effect effect_id="effectkirakira_terejia" effect_type="EffectKirakira" life_time="1.0" target_obj="テレジア" x="0" y="0" />
+    <Comment comment="【SE】キラキラした音" />
+    <sound type="Se" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ううっ……&#xA;カトーさん、みんな、早く来てー!!" speaker_show="True" stop="True" voice="ym11003_02_0883" />
+  </command>
+</adv>

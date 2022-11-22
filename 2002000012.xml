@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000011" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <Comment comment="背景　黒百合教室" />
+    <bg show="True" file="36_school_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="黒百合学園　教室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg speaker="黒百合学生２" text="ねぇ見た？　お金ちょろまかしたって政治家が&#xA;撃たれた動画。すぐ削除されたけど。" speaker_show="True" stop="True" voice="99024_01_0007" />
+    <msg speaker="黒百合学生３" text="こ、怖くて見られないよ。でもびっくりだね。&#xA;テレビにうつってる時に撃たれるなんて。" speaker_show="True" stop="True" voice="99025_01_0008" />
+    <msg speaker="黒百合学生１" text="（……宗近さん今日は休みなのかな）" speaker_show="True" stop="True" voice="99023_01_0013" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <bg show="True" file="34_sakasatower_02" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="逆さ塔" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="撃たれた政治家が汚職をしていたのは事実だ。&#xA;これから逮捕される所だった。その前にやられた。" speaker_show="True" stop="True" voice="ty12005_01_0058" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="大八洲師団が犯行声明を出してる。腐った&#xA;官僚を天にかわって誅殺したってな。" speaker_show="True" stop="True" voice="ty12005_01_0059" />
+    <msg_window_show show="False" />
+    <move obj_id="津守 ヨモギ" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="何が誅じゃ。暴れるのに名目つけとるだけじゃろ&#xA;あのドグサレ犯罪集団めが。イライラする。" speaker_show="True" stop="True" voice="ss12003_01_0138" />
+    <msg_window_show show="False" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="薩摩 しぶき" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="大八洲師団……。日本で最大規模の犯罪組織。" speaker_show="True" stop="True" voice="mh12001_01_0125" />
+    <msg_window_show show="False" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="昔、戦争で負けた時、それを受け入れられない&#xA;連中を集めて地下に潜った組織が大八洲師団じゃ。" speaker_show="True" stop="True" voice="ss12003_01_0139" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="はじめは大日本の復興が大義名分だったけど&#xA;時が経つに連れて、組織がねじれたみたい。" speaker_show="True" stop="True" voice="th12004_01_0086" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="戦争知ってる奴等が死んでって恨みだけが&#xA;残って、ただ暴れる組織に成り果てたのさ。" speaker_show="True" stop="True" voice="ty12005_01_0060" />
+    <char_spine_animation obj_id="津守 ヨモギ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="戦争時に実験中の薬品を頭から浴びたからか、&#xA;頭領の乱獅子原野も頭がおかしくなってるのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0140" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="轟 葉栖美" text="その乱獅子には娘が沢山居て、娘には薬品&#xA;かぶった父親の能力が遺伝してるらしいよ。" speaker_show="True" stop="True" voice="th12004_01_0087" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="津守 ヨモギ" text="つまり大八洲を相手にする時は乱獅子姓に&#xA;注意しろってこった。強敵だぜ。" speaker_show="True" stop="True" voice="ty12005_01_0061" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="しぶき達はこれから政治家の護衛にあたる。&#xA;次は間違いなくコイツが狙われるという奴がいる。" speaker_show="True" stop="True" voice="ss12003_01_0141" />
+    <msg_window_show show="False" />
+    <delete obj_id="津守 ヨモギ" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="015_Facial_poker" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="宗近 飛粋" text="護衛ミッションですね。了解！" speaker_show="True" stop="True" voice="mh12001_01_0126" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <msg window_type="SystemMsg" text="かくして凪の部隊はテロリストに命を狙われている&#xA;政治家の護衛チームに加わった。" stop="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="宗近 飛粋" />
+    <sound_volume cue_name="Adv1" volume="0" time="3" wait="True" />
+    <load_cue_sheet cue_sheet="BGM/BGM16_Quest4" />
+    <sound cue_name="Quest4" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <telop text="街並み" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <msg speaker="轟 葉栖美" text="こちら孔雀。現在異常なしであります。" speaker_show="True" stop="True" voice="th12004_01_0088" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="軍荼利了解。こちらも異常ないのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0142" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <msg speaker="宗近 飛粋" text="こちらも異常なしです。…あの、その素敵な&#xA;コードネームみたいなの、私には無いんですか？" speaker_show="True" stop="True" voice="mh12001_01_0127" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="今ナイスなの考えとるからドキドキして待つのじゃ。" speaker_show="True" stop="True" voice="ss12003_01_0143" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <msg speaker="轟 葉栖美" text="こちら孔雀！　空から見てる鳥たちから&#xA;不審な人影、複数ありと連絡！" speaker_show="True" stop="True" voice="th12004_01_0089" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="薩摩 しぶき" text="ふっ。孔雀の動物索敵は必ず敵を見つけ出す。&#xA;ここは他の護衛に任せてそいつら捕まえにいくぞ。" speaker_show="True" stop="True" voice="ss12003_01_0144" />
+    <msg_window_show show="False" />
+    <Comment comment="ダンジョン　潜入パート" />
+    <Comment comment="バトル中ADVパート" />
+    <Comment comment="背景の指定なし" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="monitor_hasumi" />
+    <delete obj_id="monitor_hisui" />
+  </command>
+</adv>

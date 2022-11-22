@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1004000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <Comment comment="黒背景" />
+    <bg show="True" color="#000000ff" file="01_school1mo_001" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" x="0" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="ワタシ達が空崎でカーチェイスしている時に&#xA;大八洲やトリムヘイムは花火大会を催したようですね。" speaker_show="True" stop="True" voice="ks16001_01_0033" />
+    <msg speaker="リザード社員" text="はい。派手に爆破を行ったようで。リザード製の武装&#xA;人形も大活躍。連合に貢献したかと。ボブは思います。" speaker_show="True" stop="True" voice="rs16002_01_0009" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="クリッシー" text="大八洲の連中もトリムヘイムの顧客達も大満足……か。&#xA;こちらも空崎の攻略を進めましょう。まずは……。" speaker_show="True" stop="True" voice="ks16001_01_0034" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv4" time="0.5" wait="True" volume="0" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="商店街 昼" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <delete obj_id="クリッシー" />
+    <delete obj_id="リザード社員" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="二人カラオケ、楽しかったねー。ごえちゃん。" speaker_show="True" stop="True" voice="mm11001_01_0077" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="うんっ。私、モモちの前でなら大きな声を&#xA;出して歌えるんだ。" speaker_show="True" stop="True" voice="ig11006_01_0037" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="今度はフーちゃんも来られるといいね。&#xA;じゃあ。またね。" speaker_show="True" stop="True" voice="mm11001_01_0078" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="また明日ね、モモち。" speaker_show="True" stop="True" voice="ig11006_01_0038" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="False" />
+    <Comment comment="モモの部屋" />
+    <bg show="True" file="05_momohousemo_01" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" x="0" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ただいまーっ。&#xA;あれお母さんいないのかな？" speaker_show="True" stop="True" voice="mm11001_01_0079" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="今日は早く帰るって言って……た。" speaker_show="True" stop="True" voice="mm11001_01_0080" />
+    <msg_window_show show="False" />
+    <move obj_id="源 モモ" x="-300" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="？？？《薩摩 しぶき》" data_id="312003006" x="300" anchor="Bottom" y="0" position_id="left" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="？？？《薩摩 しぶき》" text="……お前は今、死魔の射程内にいる源モモ。&#xA;我らの組織を。連合を。怒らせすぎたな。" speaker_show="True" stop="True" voice="ss12003_01_0001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="！？　誰！！" speaker_show="True" stop="True" voice="mm11001_01_0081" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Monomi1" />
+    <move obj_id="？？？《薩摩 しぶき》" x="-100" x_move_type="MoveTo" time="0.3" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <wait time="0.2" />
+    <Comment comment="Boss1" />
+    <load_cue_sheet cue_sheet="BGM/BGM09_Boss1" />
+    <sound type="Bgm" cue_name="Boss1" />
+    <delete obj_id="？？？《薩摩 しぶき》" />
+    <delete obj_id="源 モモ" />
+    <msg window_type="SystemMsg" text="部屋にいた怪人物は、雷鳴のような迅さで突きを&#xA;繰り出すと、モモはそれをなんとか手で受け止めた。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-100" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="？？？《薩摩 しぶき》" data_id="312003006" position_id="left" x="100" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="うわっ！？&#xA;こ、この人……！！" speaker_show="True" stop="True" voice="mm11001_01_0082" />
+    <msg speaker="源 モモ" text="（触れて分かる。凄い力が伝わってくる。&#xA;気を抜いたらバラバラにされる…！！）" speaker_show="True" stop="True" voice="mm11001_01_0083" lip_sync="False" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="？？？《薩摩 しぶき》" text="お前の母親は既に黄泉路へ立った。&#xA;だが悲しい事にお前は被検体。楽には殺さん。" speaker_show="True" stop="True" voice="ss12003_01_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" loop="True" to_idle="False" force_end="False" body_anim_type="02_Idle" />
+    <msg speaker="源 モモ" text="――え。よみ…じ？" speaker_show="True" stop="True" voice="mm11001_01_0084" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="？？？《薩摩 しぶき》" text="風呂場に七分前まで源すずという名前だった&#xA;ものが辺り一面に転がっているぞ。" speaker_show="True" stop="True" voice="ss12003_01_0003" />
+    <Comment comment="「源 モモ」の表情を激昂にする予定" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="014_Facial_angryStrong" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="嘘を言うなぁぁああ！！！！！" speaker_show="True" stop="True" voice="mm11001_01_0085" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+    <wait time="1.5" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <fade_in time="0" type="Default" wait="False" />
+    <Comment comment="河川敷" />
+    <bg show="True" file="23_rivermo_01" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="？？？《薩摩 しぶき》" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" x="0" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="～♪" speaker_show="True" stop="True" voice="ig11006_01_0039" />
+    <msg speaker="？？？《宗近 飛粋》" text="とぉーりゃんせ～♪　とぉーりゃんせ～♪&#xA;行きはよいよい　帰りはこわい～♪" speaker_show="True" stop="True" voice="mh12001_01_0001" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="えっ！？　え、ええっ！？" speaker_show="True" stop="True" voice="ig11006_01_0040" />
+    <msg_window_show show="False" />
+    <move obj_id="石川 五恵" x="-300" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="？？？《宗近 飛粋》" data_id="312001006" x="300" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="？？？《宗近 飛粋》" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="？？？《宗近 飛粋》" text="石川五恵。これは現代の怪談だ。&#xA;お前はその主人公になっている。" speaker_show="True" stop="True" voice="mh12001_01_0002" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="？？？《宗近 飛粋》" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="？？？《宗近 飛粋》" text="これからお前は闇にさらわれる。そして光を&#xA;拝むことはない。大八洲に逆らった者の末路だ。" speaker_show="True" stop="True" voice="mh12001_01_0003" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="……敵！" speaker_show="True" stop="True" voice="ig11006_01_0041" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="0.5" wait="True" />
+    <Comment comment="Wasabi" />
+    <bg show="True" file="02_wasabimo_001" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="？？？《宗近 飛粋》" />
+    <transition effect="Default" type="In" color_change="True" time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" x="-200" anchor="Bottom" position_id="left" y="0" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" x="200" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="カトリーナさん。バイトで接客疲れしたんで&#xA;逆に接客されにきましたー。" speaker_show="True" stop="True" voice="sf11004_01_0099" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="あらフーちゃん。メイドお疲れ様。誰も来ないから&#xA;そろそろ看板にしようと思ってたのよ。" speaker_show="True" stop="True" voice="kt11009_01_0034" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="相変わらず店じまいの時間がアバウトな……。" speaker_show="True" stop="True" voice="sf11004_01_0100" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ところで二人きりだから言うけど、今度&#xA;フーちゃんのメイド服、内緒で私にも着せてくれない？" speaker_show="True" stop="True" voice="kt11009_01_0035" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="なぜ。" speaker_show="True" stop="True" voice="sf11004_01_0101" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="我ながら似合うかなーって。ふふふ。" speaker_show="True" stop="True" voice="kt11009_01_0036" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="カトリーナさんって時々そういうところありま……。" speaker_show="True" stop="True" voice="sf11004_01_0102" />
+    <msg_window_show show="False" />
+    <move obj_id="相模 楓" x="-400" x_move_type="MoveTo" time="0.5" wait="False" position_id="left" y="0" y_move_type="MoveValue" />
+    <move obj_id="カトリーナ" x="-150" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="？？？《乱獅子 ゆら》" data_id="312002006" x="400" anchor="Bottom" position_id="left" y="0" />
+    <char_spine_animation obj_id="？？？《乱獅子 ゆら》" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="？？？《乱獅子 ゆら》" text="存在に気付くの遅すぎっ。" speaker_show="True" stop="True" voice="ry12002_01_0001" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="？？？《乱獅子 ゆら》" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="乱獅子 ゆら" x="-50" x_move_type="MoveTo" time="0.3" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <move obj_id="乱獅子 ゆら" x="400" x_move_type="MoveTo" time="0.3" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="！？　くあっ！！！" speaker_show="True" stop="True" voice="kt11009_01_0037" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="？？？《乱獅子 ゆら》" />
+    <msg window_type="SystemMsg" text="カトリーナは銃を構えると同時に&#xA;派手に蹴り飛ばされていた。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="？？？《乱獅子 ゆら》" data_id="312002006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="なっ……！" speaker_show="True" stop="True" voice="sf11004_01_0103" />
+    <char_spine_animation obj_id="？？？《乱獅子 ゆら》" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="？？？《乱獅子 ゆら》" text="相模楓だな。お前を大八洲のアジトに&#xA;ご案内してやる。もっとも帰れないけどな。" speaker_show="True" stop="True" voice="ry12002_01_0002" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="こいつ連合……！" speaker_show="True" stop="True" voice="sf11004_01_0104" />
+  </command>
+</adv>

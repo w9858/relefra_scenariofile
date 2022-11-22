@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000012" />
+  </info>
+  <command>
+    <Start />
+    <fade_out />
+    <sound type="Bgm" cue_name="Adv1" volume="0" />
+    <bg show="True" file="10_terminalmo_01" />
+    <msg window_type="SystemMsg" text="テロリスト捕獲任務が完了した翌日。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" wait="True" />
+    <sound type="Se" cue_name="EnvGayaOutdoor" volume="25" />
+    <telop text="空崎駅前" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" anchor="Bottom" x="0" position_id="left" />
+    <Comment comment="信:私服（夏）" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" anchor="Bottom" x="1500" position_id="left" />
+    <char_spine_eye obj_id="高坂 信" type="Eye03_tear" loop="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="（……なぜ、こんなに名残惜しい気持ちなのかしら……&#xA;何かを待っているような、期待しているような……）" speaker_show="True" stop="True" voice="kt11009_01_0190" lip_sync="False" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <move obj_id="高坂 信" position_id="left" x="200" x_move_type="MoveTo" time="1.5" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="イヴァンカさん。" speaker_show="True" stop="True" voice="ks11010_01_0168" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <lip_sync target1="カトリーナ" />
+    <msg speaker="イヴァンカ" text="……今度は気づいたわ、シン。&#xA;あなたが近づいてくるの。" speaker_show="True" stop="True" voice="kt11009_01_0191" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="009_Facial_blush" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……会ったら別れたくなくなるから、来ないでいようと&#xA;思ったんですけど……ちゃんとお別れを言いたくて……" speaker_show="True" stop="True" voice="ks11010_01_0169" />
+    <lip_sync target1="カトリーナ" />
+    <msg speaker="イヴァンカ" text="泣くことはないでしょう？　任務は成功したんだし、&#xA;シンもこの世界に居続けるなら、きっとまた会えるわ。" speaker_show="True" stop="True" voice="kt11009_01_0192" />
+    <msg speaker="高坂 信" text="はい……。" speaker_show="True" stop="True" voice="ks11010_01_0170" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="イヴァンカ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <lip_sync target1="カトリーナ" />
+    <msg speaker="イヴァンカ" text="シン。他人のために行動するというあなたの信念……&#xA;私は弱者の生き方だと言ったけど、撤回する。" speaker_show="True" stop="True" voice="kt11009_01_0193" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <lip_sync target1="カトリーナ" />
+    <msg speaker="イヴァンカ" text="あなたの信念も、一族のため成すべきことを成すという&#xA;私の生き方も……根本は同じね。どちらも強い。" speaker_show="True" stop="True" voice="kt11009_01_0194" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="初めてイヴァンカさんに褒められました……&#xA;ありがとうございます。" speaker_show="True" stop="True" voice="ks11010_01_0171" />
+    <lip_sync target1="カトリーナ" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="イヴァンカ" text="……！" speaker_show="True" stop="True" voice="kt11009_01_0195" />
+    <sound_volume type="Se" cue_name="EnvGayaOutdoor" volume="0" time="0.5" sound_stop="True" />
+    <msg speaker="イヴァンカ" text="（なぜかしら、なんだか胸が急に痛む……&#xA;どこか甘い、不思議な痛み……）" speaker_show="True" stop="True" voice="kt11009_01_0196" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM15_Adv5" />
+    <sound cue_name="Adv5" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="……私の本当の名前は、イヴァンカじゃないわ。&#xA;カトリーナ・トビーというの。" speaker_show="True" stop="True" voice="kt11009_01_0197" />
+    <msg speaker="カトリーナ" text="シン、あなたの本当の名前も教えて。" speaker_show="True" stop="True" voice="kt11009_01_0198" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="え？　あの……初めから本当の名前です。&#xA;高坂信。それが本当の名前です。" speaker_show="True" stop="True" voice="ks11010_01_0172" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="…………ふ、あはは。そうなのね。" speaker_show="True" stop="True" voice="kt11009_01_0199" />
+    <msg speaker="カトリーナ" text="（シンは初めから私に自分を晒し、委ねていたのね。&#xA;……それができる勇気を、この子は持っている）" speaker_show="True" stop="True" voice="kt11009_01_0200" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="（とても普通で、けれどきっと&#xA;誰よりも普通ではない人）" speaker_show="True" stop="True" voice="kt11009_01_0201" lip_sync="False" />
+    <msg speaker="カトリーナ" text="（私はこれまでずっと、神を信じずに生きてきた。&#xA;存在しないものを信じるなんて無意味だと思っていた）" speaker_show="True" stop="True" voice="kt11009_01_0202" lip_sync="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="（でも、もしかして……神を信じない私の心を揺らし、&#xA;こんなに綺麗な笑顔ができるこの方こそ――）" speaker_show="True" stop="True" voice="kt11009_01_0203" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" loop="True" to_idle="False" />
+    <msg window_type="SystemMsg" text="カトリーナはこの時、信の笑顔に&#xA;生まれて初めて神の存在を信じたのだ。" stop="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="カトリーナ" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" anchor="Bottom" x="0" position_id="left" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="それから、私はすぐに動いたわ。&#xA;トビー家を出て、日本に来ることに決めたの。" speaker_show="True" stop="True" voice="kt11009_01_0204" />
+    <msg speaker="カトリーナ" text="そしてツキカゲの一員になって、&#xA;シン様のために自分の力を使うことにしたわ。" speaker_show="True" stop="True" voice="kt11009_01_0205" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005011" anchor="Bottom" x="200" position_id="left" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002011" anchor="Bottom" x="-200" position_id="left" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="国を超えた友情ですね……&#xA;何度聞いても感動します。" speaker_show="True" stop="True" voice="ah11005_01_0133" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="先輩、いきなり本名を名乗るのは無防備すぎでは…？&#xA;信頼関係が築かれるまでは、偽名かコードネームを――" speaker_show="True" stop="True" voice="hy11002_01_0268" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" anchor="Bottom" x="0" position_id="left" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="初めから自分の情報を晒し、相手に委ねる。&#xA;そうできることがシン様の強さであり深謀遠慮なのよ。" speaker_show="True" stop="True" voice="kt11009_01_0206" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003011" anchor="Bottom" x="0" position_id="left" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ただ単に、コードネーム使うの忘れてただけの&#xA;ような気もするけど……" speaker_show="True" stop="True" voice="ym11003_01_0226" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="というか、なんで神にまで……？　……あ、いや、&#xA;ちょっとそこに触れるの怖いから、黙っとく……" speaker_show="True" stop="True" voice="ym11003_01_0227" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" anchor="Bottom" x="0" position_id="left" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="聞こえてるわよ、メイちゃん。" speaker_show="True" stop="True" voice="kt11009_01_0207" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003011" anchor="Bottom" x="300" position_id="left" />
+    <create type="Character" obj_id="高坂 信" data_id="311010007" anchor="Bottom" x="0" position_id="left" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011002" anchor="Bottom" x="-300" position_id="left" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <wait time="1.0" />
+    <create_effect effect_id="shin_effect" effect_type="MampSleep" target_obj="高坂 信" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <msg speaker="高坂 信" text="すぅ……すやぁ～……" speaker_show="True" stop="True" voice="ks11010_01_0173" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="……この師匠に神を見た、ねぇ……&#xA;しっかし、ほんと幸せそうに眠ってるな～。" speaker_show="True" stop="True" voice="ym11003_01_0228" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="目を醒ましたら、不用意に食べ物に&#xA;パクついた説教が待っているとも知らずにねー。" speaker_show="True" stop="True" voice="fn11011_01_0042" />
+    <msg_window_show show="False" />
+    <fade_out time="1" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="shin_effect" />
+    <delete obj_id="藤林 長穂" />
+    <bg show="True" file="07_containerni_02" />
+    <Comment comment="Adv4 モウリョウ・敵組織" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <Comment comment="青竜" />
+    <create type="Character" obj_id="青竜" data_id="398004001" anchor="Bottom" x="0" position_id="left" />
+    <Comment comment="アレクセイ" />
+    <char_spine_animation obj_id="青竜" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="エージェント" text="う、うぅ……" speaker_show="True" stop="True" voice="99032_01_0001" />
+    <msg_window_show show="False" />
+    <Comment comment="【SEバタンと倒れる音" />
+    <sound type="Se" cue_name="Clash" />
+    <msg speaker="？？？" text="これで私の腕を示したことになるだろう？" speaker_show="True" stop="True" voice="sr98004_01_0001" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】拍手の音" />
+    <sound type="Se" />
+    <move obj_id="青竜" position_id="left" x="300" x_move_type="MoveTo" time="1.0" wait="False" />
+    <move obj_id="眼帯の男" position_id="left" x="-300" x_move_type="MoveTo" time="2.0" wait="True" />
+    <char_spine_animation obj_id="眼帯の男" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="眼帯の男" text="さすが噂に名高い桃源の四聖獣・青竜。彼は我ら&#xA;モウリョウの中では、なかなかの戦闘員だったのだが。" speaker_show="True" stop="True" voice="99033_01_0001" />
+    <char_spine_animation obj_id="青竜" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青竜" text="ふん。この程度のエージェントなど、私の力の&#xA;百億万分の一で倒せる。もっと強い奴と戦いたい。" speaker_show="True" stop="True" voice="sr98004_01_0002" />
+    <char_spine_animation obj_id="眼帯の男" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="眼帯の男" text="それならば、より手応えのある敵をくれてやろう。&#xA;奴らの名は――ツキカゲという。" speaker_show="True" stop="True" voice="99033_01_0002" />
+  </command>
+</adv>

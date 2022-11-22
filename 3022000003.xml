@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3022000003" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="04_shopstreetmo_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="商店街" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="紅葉狩りを明日に控えた放課後、&#xA;楓達はある場所に急行していた。" stop="True" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="0.5" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="300" anchor="Bottom" />
+    <create_effect effect_id="momo01" effect_type="MampSweat" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ま、待って、フーちゃん～！" speaker_show="True" stop="True" voice="mm11001_03_0106" />
+    <delete obj_id="momo01" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <create_effect effect_id="goesweat" effect_type="MampSweat" target_obj="石川 五恵" />
+    <msg speaker="石川 五恵" text="そんなに走らなくても……。" speaker_show="True" stop="True" voice="ig11006_03_0132" />
+    <delete obj_id="goesweat" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" x="-400" anchor="Bottom" />
+    <move obj_id="相模 楓" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="急がないと、スーパーの&#xA;タイムセールが終わっちゃう！" speaker_show="True" stop="True" voice="sf11004_03_0108" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" x="400" anchor="Bottom" />
+    <move obj_id="高坂 信" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あ、みんな～。&#xA;随分急いでるみたいだけど、どうしたの？" speaker_show="True" stop="True" voice="ks11010_03_0062" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="信さんこんにちは！&#xA;明日のお弁当の材料を買いに行くんです！" speaker_show="True" stop="True" voice="sf11004_03_0109" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="スーパーで今やってるセールが&#xA;時間ぎりぎりらしくて……。" speaker_show="True" stop="True" voice="mm11001_03_0107" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ご覧の通り、ダッシュしてるんです。" speaker_show="True" stop="True" voice="ig11006_03_0133" />
+    <char_spine_animation />
+    <msg speaker="高坂 信" text="あー、なるほどねぇ。" speaker_show="True" stop="True" voice="ks11010_03_0063" />
+    <char_spine_animation />
+    <msg speaker="相模 楓" text="お弁当は、行楽の満足度を大きく左右しますからね。&#xA;食材選びから抜かれません。" speaker_show="True" stop="True" voice="sf11004_03_0110" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="なおかつ、良い物を安く買うチャンス――&#xA;力の入れどころですよ、ここは！" speaker_show="True" stop="True" voice="sf11004_03_0111" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="高坂 信" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <char_spine_animation />
+    <msg window_type="SystemMsg" text="セール終了間際に滑り込み、楓達は&#xA;目当ての食材をゲットする事に成功した。" stop="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" position_id="left" x="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004003" x="-300" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ふわ～……&#xA;なんとか間に合って良かったねぇ。" speaker_show="True" stop="True" voice="mm11001_03_0108" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そうね。でも、これはまだまだ&#xA;行楽準備における第一歩に過ぎないわ。" speaker_show="True" stop="True" voice="sf11004_03_0112" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="疲れた顔してる暇はないわよ、モモち。&#xA;今日は寝る間もないと思いなさい。" speaker_show="True" stop="True" voice="sf11004_03_0113" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="寝る間もないの!?" speaker_show="True" stop="True" voice="mm11001_03_0109" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="今回は本当、&#xA;楓ちゃん気合い入ってるね。" speaker_show="True" stop="True" voice="ig11006_03_0134" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" x="200" anchor="Bottom" />
+    <move obj_id="相模 楓" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="（フーちゃん……メイちゃんのために、&#xA;頑張ってくれてるんだ。）" speaker_show="True" stop="True" voice="ks11010_03_0064" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ねえ、もし良ければ、信にも&#xA;お弁当作り手伝わせてくれるかな？" speaker_show="True" stop="True" voice="ks11010_03_0065" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="え、いいんですか？&#xA;信さんが手伝ってくだされば百人力です！" speaker_show="True" stop="True" voice="sf11004_03_0114" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="師匠の好きなおかずとか、&#xA;いっぱい教えてくださいね。" speaker_show="True" stop="True" voice="sf11004_03_0115" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うーん、そういうのはフーちゃんの方が&#xA;詳しいと思うけど。" speaker_show="True" stop="True" voice="ks11010_03_0066" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="でも、メイちゃんを喜ばせるための&#xA;力になれたら嬉しいな。" speaker_show="True" stop="True" voice="ks11010_03_0067" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="はいっ、よろしくお願いします！" speaker_show="True" stop="True" voice="sf11004_03_0116" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

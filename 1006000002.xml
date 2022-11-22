@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1006000002" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM13_Adv3" />
+    <sound type="Bgm" cue_name="Adv3" />
+    <sound type="Se" cue_name="EnvDrivingCar" volume="60" />
+    <fade_out />
+    <msg window_type="SystemMsg" text="クリッシーは準備のために、&#xA;東京へ戻る。その車内では。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="14_car_03" />
+    <fade_in time="1.0" />
+    <wait time="0.5" />
+    <telop text="車内" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="しおんも冴魅も、欲が足りませんね。&#xA;空崎の攻略をワタシに一任するとは。" speaker_show="True" stop="True" voice="ks16001_01_0049" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="一番乗りして、美味しいところは&#xA;リザードが全て頂いてしまいましょう。" speaker_show="True" stop="True" voice="ks16001_01_0050" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="ボォブ。社長に連絡しておいてください。" speaker_show="True" stop="True" voice="ks16001_01_0051" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="もうすぐ空崎を手にいれると。そのための&#xA;経費としてショッピングをしますと。" speaker_show="True" stop="True" voice="ks16001_01_0052" />
+    <msg speaker="リザード社員" text="はい、クリッシー様。&#xA;何をお買いになられるのですか？" speaker_show="True" stop="True" voice="rs16002_01_0010" />
+    <char_spine_animation obj_id="クリッシー" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="空崎で一番高い建造物を調べて下さい。&#xA;それです。どうせなら高みから見下ろすのがいい。" speaker_show="True" stop="True" voice="ks16001_01_0053" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="クリッシー" text="（空崎の攻略も、連合も、ワタシがレジェンドになる&#xA;礎に過ぎません。次にいくためにも決着をつけます）" speaker_show="True" stop="True" voice="ks16001_01_0054" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="クリッシー" />
+    <sound_stop cue_name="EnvDrivingCar" />
+    <bg show="True" file="03_tsukikage_001" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="資料を見返しているけど、リザードも、&#xA;倶楽部トリムヘイムも、本当にひどいね。" speaker_show="True" stop="True" voice="mm11001_01_0122" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="リザードは、軍事用の人形を売りたいから&#xA;戦争や内紛が起こるように煽ったりね。" speaker_show="True" stop="True" voice="sf11004_01_0128" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="相模 楓" text="お金は稼ぎたいけど、流石に&#xA;このやり方はドン引きだわ。" speaker_show="True" stop="True" voice="sf11004_01_0129" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="こんな奴等はアタシ達でぶっ潰すのよ。" speaker_show="True" stop="True" voice="sf11004_01_0130" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="源 モモ" text="うん！　よーしそのためにも鍛錬だ。" speaker_show="True" stop="True" voice="mm11001_01_0123" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="単純ねぇ。モモちらしいけど。" speaker_show="True" stop="True" voice="sf11004_01_0131" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="よく言ったわモモ。ではまず準備運動からよ。" speaker_show="True" stop="True" voice="hy11002_01_0068" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="そして、この御方も突然出てくるし……。" speaker_show="True" stop="True" voice="sf11004_01_0132" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" anchor="Bottom" obj_id="源 モモ" data_id="311001001" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="では、私を上にのせて腕立てしてみなさい。" speaker_show="True" stop="True" voice="hy11002_01_0069" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="師匠、どうぞお乗り下さい！" speaker_show="True" stop="True" voice="mm11001_01_0124" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="なんかしごかれて嬉しそうだし。" speaker_show="True" stop="True" voice="sf11004_01_0133" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="仲が良くて微笑ましいよねぇ。" speaker_show="True" stop="True" voice="ks11010_01_0069" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" anchor="Bottom" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="相模 楓" text="この御方も、さっきからいたようだし……。&#xA;濃いわ。" speaker_show="True" stop="True" voice="sf11004_01_0134" />
+  </command>
+</adv>

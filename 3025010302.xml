@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3025010302" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <bg file="67_shrine" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="空崎大師" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003018" position_id="left" x="0" />
+    <create type="Character" obj_id="相模 楓" data_id="311004019" position_id="left" x="-300" />
+    <create type="Character" obj_id="高坂 信" data_id="311010014" position_id="left" x="300" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="11_Point" />
+    <msg speaker="相模 楓" text="要するに射的ってのは、小さくて落ちやすそうなのを&#xA;狙えばいいんですよ。ほら。" speaker_show="True" stop="True" voice="sf11004_03_0369" />
+    <sound type="Se" cue_name="Cracker" />
+    <wait time="1" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="09_PutHands" />
+    <msg speaker="高坂 信" text="フーちゃんすごーい！&#xA;１発目から的中だ。" speaker_show="True" stop="True" voice="ks11010_03_0244" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="相模 楓" text="次で倒して景品ゲットしますよ！" speaker_show="True" stop="True" voice="sf11004_03_0370" />
+    <sound type="Se" cue_name="Cracker" />
+    <wait time="1" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" />
+    <msg speaker="相模 楓" text="よし！　落ちた！&#xA;おじさん、アタシの景品は何ですか？" speaker_show="True" stop="True" voice="sf11004_03_0371" />
+    <msg speaker="屋台のおじさん" text="はいよ、お嬢ちゃんの落とした箱の中身はこれ。" speaker_show="True" stop="True" voice="99061_03_0001" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" />
+    <msg speaker="相模 楓" text="えっ、これは……。" speaker_show="True" stop="True" voice="sf11004_03_0372" />
+    <sound type="Se" cue_name="boyoyon" volume="100" />
+    <wait time="1.5" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="高坂 信" text="七色のスプリング……。お祭りのクジ引きとかで&#xA;よく見る、残念賞のやつだよね……。" speaker_show="True" stop="True" voice="ks11010_03_0245" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="高坂 信" text="じゃあ次は信がやってみるね。&#xA;あの箱ならいけるかも！　えーい！" speaker_show="True" stop="True" voice="ks11010_03_0246" />
+    <sound type="Se" cue_name="Cracker" />
+    <wait time="1" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="高坂 信" text="やった！　信も当たったよ～。&#xA;おじさん、景品は何ですか？" speaker_show="True" stop="True" voice="ks11010_03_0247" />
+    <msg speaker="屋台のおじさん" text="お嬢ちゃんの景品はこれだ。" speaker_show="True" stop="True" voice="99061_03_0002" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" />
+    <msg speaker="高坂 信" text="去年の干支の貯金箱かぁ。&#xA;だいぶビミョー……。" speaker_show="True" stop="True" voice="ks11010_03_0248" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="相模 楓" text="ま、まぁ、所詮お祭りの景品ですから。&#xA;最初からそんなに期待してなかったですし！" speaker_show="True" stop="True" voice="sf11004_03_0373" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" />
+    <msg speaker="高坂 信" text="そうだね、いっぱい楽しんでお土産まで&#xA;もらえるなら、十分だよね。" speaker_show="True" stop="True" voice="ks11010_03_0249" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="八千代 命" text="チッチッチッ、フーも師匠も&#xA;そんな小さいもので満足してちゃあダメだよ！" speaker_show="True" stop="True" voice="ym11003_03_0364" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="八千代 命" text="新年最初の大勝負！&#xA;夢は大きくゴージャスに！" speaker_show="True" stop="True" voice="ym11003_03_0365" />
+    <sound type="Se" cue_name="wadaiko_dodon" />
+    <wait time="1.0" />
+    <msg speaker="屋台のおじさん" text="いいねぇ、お嬢ちゃん！&#xA;じゃあおじさんが特別に教えてあげよう。" speaker_show="True" stop="True" voice="99061_03_0003" />
+    <msg speaker="屋台のおじさん" text="ウチの店で１番目玉の景品はこの箱！&#xA;中身は……。ちらっ。" speaker_show="True" stop="True" voice="99061_03_0004" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" />
+    <msg speaker="八千代 命" text="こ、これ！&#xA;メイがずーっと欲しかったゲーム機だ！" speaker_show="True" stop="True" voice="ym11003_03_0366" />
+    <msg speaker="屋台のおじさん" text="この１番大きな箱を倒せば、このゲーム機は&#xA;君のものだ！　この勝負、挑んでみるかい？" speaker_show="True" stop="True" voice="99061_03_0005" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" />
+    <msg speaker="八千代 命" text="よっしゃ！　やっちゃうぜぃ！" speaker_show="True" stop="True" voice="ym11003_03_0367" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" />
+    <msg speaker="相模 楓" text="ちょっと師匠！　あんな大きな箱、&#xA;倒せる訳ないじゃないですか！" speaker_show="True" stop="True" voice="sf11004_03_0374" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" />
+    <msg speaker="高坂 信" text="そうだね、大きいだけじゃなくて&#xA;重さもありそうだし。" speaker_show="True" stop="True" voice="ks11010_03_0250" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" />
+    <msg speaker="八千代 命" text="大丈夫！&#xA;メイなら10発以内で撃ち落としちゃうよ！" speaker_show="True" stop="True" voice="ym11003_03_0368" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" />
+    <msg speaker="八千代 命" text="んじゃ最初の１発目！" speaker_show="True" stop="True" voice="ym11003_03_0369" />
+    <sound type="Se" cue_name="Cracker" />
+    <wait time="1" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" />
+    <msg speaker="八千代 命" text="ほら！　ど真ん中に的中！" speaker_show="True" stop="True" voice="ym11003_03_0370" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" />
+    <msg speaker="相模 楓" text="でも、ビクともしてませんね……。" speaker_show="True" stop="True" voice="sf11004_03_0375" />
+    <char_spine_animation force_end="False" loop="False" obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" />
+    <char_spine_animation force_end="False" loop="True" obj_id="高坂 信" face_anim_type="005_Facial_sad" />
+    <msg speaker="高坂 信" text="うん。これはかなりの回数、&#xA;当てなきゃ動かないと思う。" speaker_show="True" stop="True" voice="ks11010_03_0251" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="11_Point" />
+    <msg speaker="八千代 命" text="動かぬなら、動くまで撃とう、ゲーム機ちゃん！&#xA;どんどんいくよー！" speaker_show="True" stop="True" voice="ym11003_03_0371" />
+    <char_spine_animation force_end="False" loop="True" obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" />
+    <msg speaker="相模 楓" text="ダメです！" speaker_show="True" stop="True" voice="sf11004_03_0376" />
+    <char_spine_animation force_end="False" loop="True" obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="09_PutHands" />
+    <msg speaker="八千代 命" text="フー、そこを何とか！&#xA;泣きの１回！　このとーり！" speaker_show="True" stop="True" voice="ym11003_03_0372" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

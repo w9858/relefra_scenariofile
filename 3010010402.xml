@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3010010402" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="39_Chapelev_02" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <Comment comment="全員ウエディングドレス" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="チャペル　入り口" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="３人はチャペルの入口に集まった。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010008" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="むぅ～、やっぱりメイは&#xA;ブーケトスの受け取る役、やりたかったなぁ。" speaker_show="True" stop="True" voice="ym11003_02_0328" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="誰よりも俊敏に、そして確実に&#xA;キャッチできる自信があるんだけど。" speaker_show="True" stop="True" voice="ym11003_02_0329" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="師匠、まだ言ってるんですか。" speaker_show="True" stop="True" voice="sf11004_02_0302" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="それはまた今度にしようよ、メイちゃん。&#xA;ブーケだけならどこかで調達できそうだし。" speaker_show="True" stop="True" voice="ks11010_02_0159" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうですよ、&#xA;アタシも付き合ってあげますから。" speaker_show="True" stop="True" voice="sf11004_02_0303" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="綺麗なドレスを着てるこの瞬間は今だけ！&#xA;明日やろうは馬鹿やろうって言うっしょ。" speaker_show="True" stop="True" voice="ym11003_02_0330" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="はぁ……どうしましょう？" speaker_show="True" stop="True" voice="sf11004_02_0304" />
+    <msg speaker="チャペルスタッフ" text="撮影の後でしたら、投げたものを&#xA;キャッチして頂いても大丈夫ですよ。" speaker_show="True" stop="True" voice="99091_02_0009" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="いいの!?" speaker_show="True" stop="True" voice="ym11003_02_0331" />
+    <msg speaker="チャペルスタッフ" text="はい。お写真には残りませんけど、&#xA;それでよろしければ。" speaker_show="True" stop="True" voice="99091_02_0010" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile_mei" effect_type="MampSmile" life_time="2" target_obj="八千代 命" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="八千代 命" text="やったー！&#xA;スタッフさん、ありがとうございます！" speaker_show="True" stop="True" voice="ym11003_02_0332" />
+    <delete obj_id="Smile_mei" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="高坂 信" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010008" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="無事、撮影も終わりましたね。&#xA;お疲れ様でした。" speaker_show="True" stop="True" voice="sf11004_02_0305" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="さあ、いざ&#xA;ブーケデスマッチの開幕だー！" speaker_show="True" stop="True" voice="ym11003_02_0333" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="その名前は物々しすぎるよ、メイちゃん。" speaker_show="True" stop="True" voice="ks11010_02_0160" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="まずは師匠が投げて！&#xA;そのブーケを、メイとフーが争うから。" speaker_show="True" stop="True" voice="ym11003_02_0334" />
+    <delete obj_id="高坂 信" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="競い合うのはいいですけど、&#xA;ドレスを汚さないでくださいね。" speaker_show="True" stop="True" voice="sf11004_02_0306" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="弁償することになったら、&#xA;師匠のお小遣い減らしますから。" speaker_show="True" stop="True" voice="sf11004_02_0307" />
+    <create_effect effect_id="mei_kirakira" effect_type="EffectKirakira" life_time="1.5" target_obj="八千代 命" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ふっふっふ、ドレスの裾を擦らない、&#xA;メイの華麗なダッシュを見せてあげよう。" speaker_show="True" stop="True" voice="ym11003_02_0335" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010008" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="高坂 信" text="じゃ、行くよー。" speaker_show="True" stop="True" voice="ks11010_02_0161" />
+    <sound type="Se" cue_name="Hug" />
+    <wait time="0.5" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="来たっ……！&#xA;落下地点は、ここだああぁぁぁぁぁっ!!" speaker_show="True" stop="True" voice="ym11003_02_0336" />
+    <move obj_id="八千代 命" position_id="right" x="800" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="相模 楓" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <delete obj_id="八千代 命" />
+    <sound cue_name="Hug" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="あ……！" speaker_show="True" stop="True" voice="sf11004_02_0308" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile_mei" effect_type="MampSmile" life_time="0" target_obj="八千代 命" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="八千代 命" text="やったー！&#xA;ブーケ、取ったぞぉぉっ！" speaker_show="True" stop="True" voice="ym11003_02_0337" />
+    <delete obj_id="Smile_mei" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="この緊張感がブーケトスの醍醐味だよね。&#xA;えへへへっ！" speaker_show="True" stop="True" voice="ym11003_02_0338" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="それじゃ、次はアタシが投げます。" speaker_show="True" stop="True" voice="sf11004_02_0309" />
+    <delete obj_id="相模 楓" />
+    <move obj_id="八千代 命" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010008" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="お手柔らかにね、メイちゃん。" speaker_show="True" stop="True" voice="ks11010_02_0162" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="んー、いくら師匠でも&#xA;その頼みは聞けないな。" speaker_show="True" stop="True" voice="ym11003_02_0339" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="なんだか、ブーケトス本来の趣旨とは&#xA;違ってきてる気がしますけど……。" speaker_show="True" stop="True" voice="sf11004_02_0310" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="行きます……えいっ！" speaker_show="True" stop="True" voice="sf11004_02_0311" />
+    <sound type="Se" cue_name="Hug" />
+    <wait time="0.5" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010008" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="どっせーーーーい!!" speaker_show="True" stop="True" voice="ym11003_02_0340" />
+    <move obj_id="八千代 命" position_id="left" x="-700" />
+    <sound cue_name="Hug" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="0.5" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="わー、また見事なキャッチ！　すごい動き！&#xA;さすがメイちゃんだね。" speaker_show="True" stop="True" voice="ks11010_02_0163" />
+    <move obj_id="八千代 命" position_id="right" x="400" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ふふーん、どうよどうよ？&#xA;フーも見てた？" speaker_show="True" stop="True" voice="ym11003_02_0341" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="これでメイの連勝！&#xA;向かうところ敵なしの花嫁だね！" speaker_show="True" stop="True" voice="ym11003_02_0342" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうかもしれませんけど……&#xA;むぅぅ……。" speaker_show="True" stop="True" voice="sf11004_02_0312" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="何か……何か違う。&#xA;ブーケトスって、こんなのだったっけ……？" speaker_show="True" stop="True" voice="sf11004_02_0313" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

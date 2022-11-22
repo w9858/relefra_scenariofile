@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000022" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <Comment comment="九天サイエンス　夜" />
+    <bg show="True" file="17_kyutenscience_01" effect_time="0.3" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <Comment comment="サーバーからデータをダウンロードする機械音" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="（外から九天サイエンスを調べても、モウリョウに&#xA;繋がる手がかりは見つからなかった……）" speaker_show="True" stop="True" voice="hy11002_01_0178" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="（しかし、こうして内部から探れば……）" speaker_show="True" stop="True" voice="hy11002_01_0179" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <Comment comment="ツキカゲ基地  軍議の社" />
+    <bg show="True" file="03_tsukikage_001" resource_type="Background" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="私達を襲った白虎に付着していた砂は、&#xA;九天サイエンスの施設で使われているものだった。" speaker_show="True" stop="True" voice="hy11002_01_0180" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="そこで今夜、半蔵が施設に潜入し、最上階にある&#xA;サーバーから内部データを入手しました。" speaker_show="True" stop="True" voice="ah11005_01_0115" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="ですが……九天サイエンスから持ち帰ったデータから、&#xA;モウリョウの手がかりは一切見つかりませんでした。" speaker_show="True" stop="True" voice="ah11005_01_0116" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="設置した盗聴器から拾える会話にも、&#xA;怪しいものはありません。" speaker_show="True" stop="True" voice="ah11005_01_0117" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="じゃあ九天サイエンスはシロか～。&#xA;珍しく外れたね～、ユッキーの勘。" speaker_show="True" stop="True" voice="ym11003_01_0202" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="まだ分からないわ。データを見たけれど、&#xA;九天サイエンスは優良企業すぎるのよ。" speaker_show="True" stop="True" voice="hy11002_01_0181" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="まるで見て下さいと言わんばかりの……。" speaker_show="True" stop="True" voice="hy11002_01_0182" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <Comment comment="九天サイエンス　夜" />
+    <bg show="True" file="No_084" resource_type="AnimSS" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg speaker="文鳥の女" text="内通者によれば、九天サイエンスは&#xA;ツキカゲに疑われているそうだ。" speaker_show="True" stop="True" voice="bo14001_01_0017" />
+    <msg speaker="文鳥の女" text="まあ、奴らが侵入したのは、あらかじめすり替えた&#xA;部屋だ。探られたところで痛くもかゆくもない。" speaker_show="True" stop="True" voice="bo14001_01_0018" />
+    <msg speaker="ホログラム幹部１" text="しかし、ツキカゲにうろつかれるのは困ったものだ。" speaker_show="True" stop="True" voice="99017_01_0001" />
+    <msg speaker="ホログラム幹部２" text="ゲッカコウ成就のためにも&#xA;今、九天サイエンスで揉め事はいかん。" speaker_show="True" stop="True" voice="99018_01_0001" />
+    <msg speaker="ホログラム幹部１" text="ウム、手荒な真似はできん。" speaker_show="True" stop="True" voice="99017_01_0002" />
+    <bg show="True" file="No_085" resource_type="AnimSS" />
+    <msg speaker="文鳥の女" text="……あの手を使ってみるか。" speaker_show="True" stop="True" voice="bo14001_01_0019" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg show="True" file="No_086" resource_type="AnimSS" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg speaker="エモ・パチーノ" text="本当にこのエモい街の縄張りをくれるのか？&#xA;話がうますぎるぜ。" speaker_show="True" stop="True" voice="ep14005_01_0001" />
+    <msg speaker="文鳥の女" text="ああ。その代わり、今後の付き合いは&#xA;同盟でなくモウリョウの傘下に入ってもらいたい。" speaker_show="True" stop="True" voice="bo14001_01_0020" />
+    <msg speaker="エモ・パチーノ" text="モウリョウ傘下……エモい響きだ。裏社会に生きる者が&#xA;どれだけその肩書を欲しがっているか……" speaker_show="True" stop="True" voice="ep14005_01_0002" />
+    <msg speaker="文鳥の女" text="……で、返答は？&#xA;エモ・パチーノ。" speaker_show="True" stop="True" voice="bo14001_01_0021" />
+    <msg speaker="エモ・パチーノ" text="……了解だ。すぐに動く。&#xA;チャオ！" speaker_show="True" stop="True" voice="ep14005_01_0003" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Walk" />
+    <Comment comment="【SE】歩き去る２人の足音" />
+    <wait time="2.0" />
+    <bg show="True" resource_type="AnimSS" file="No_087" />
+    <msg speaker="文鳥の女" text="……ドルテ。" speaker_show="True" stop="True" voice="bo14001_01_0022" />
+    <msg speaker="ドルテ" text="……ネェ、ワタシ……ウツクシイ？" speaker_show="True" stop="True" voice="dt14003_01_0002" />
+    <msg speaker="文鳥の女" text="あぁ、この世の誰よりも美しいぞ。" speaker_show="True" stop="True" voice="bo14001_01_0023" />
+    <msg speaker="ドルテ" text="ウフフ……" speaker_show="True" stop="True" voice="dt14003_01_0003" />
+    <msg speaker="文鳥の女" text="あの男達の匂いは覚えたか？" speaker_show="True" stop="True" voice="bo14001_01_0024" />
+    <msg speaker="ドルテ" text="ウン！" speaker_show="True" stop="True" voice="dt14003_01_0004" />
+    <msg speaker="文鳥の女" text="追って見張っていろ。怪しい奴等が現れたら、&#xA;それがツキカゲだ。囓ってしまえ。" speaker_show="True" stop="True" voice="bo14001_01_0025" />
+    <msg speaker="ドルテ" text="オヤツダネ！&#xA;ウレシイ……。" speaker_show="True" stop="True" voice="dt14003_01_0005" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <Comment comment="【SE】ドスドスと去っていく足音" />
+    <wait time="2.0" />
+    <bg show="True" resource_type="AnimSS" file="No_088" />
+    <msg speaker="テレジア" text="……あんな様子で、大丈夫でしょうか……。" speaker_show="True" stop="True" voice="tr11007_01_0103" />
+    <msg speaker="文鳥の女" text="敵味方の判別ぐらいはつくさ。" speaker_show="True" stop="True" voice="bo14001_01_0026" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <Comment comment="車の中　夜" />
+    <bg show="True" resource_type="AnimSS" file="No_089" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg speaker="エモ・パチーノ" text="早速明日からクスリを空崎でばらまくぞ。&#xA;指揮はお前がとれよ、マルコ。" speaker_show="True" stop="True" voice="ep14005_01_0004" />
+    <msg speaker="マルコ" text="うぅ……はい……。" speaker_show="True" stop="True" voice="me14006_01_0001" />
+    <msg speaker="エモ・パチーノ" text="また車酔いか？&#xA;エモくねぇなぁ……。" speaker_show="True" stop="True" voice="ep14005_01_0005" />
+  </command>
+</adv>

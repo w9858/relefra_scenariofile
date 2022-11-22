@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3010010302" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="39_Chapelev_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="チャペル" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="命はチャペルのスタッフと一緒に試着室へ入った。" stop="True" />
+    <msg_window_show />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="八千代 命" text="それじゃ、よろしくお願いします！" speaker_show="True" stop="True" voice="ym11003_02_0294" />
+    <msg speaker="チャペルスタッフ" text="よろしくお願いします。まず、こちらで&#xA;ブライダルインナーをご用意致しました。" speaker_show="True" stop="True" voice="99091_02_0003" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="え、ええっ？&#xA;ブライダルインナー？" speaker_show="True" stop="True" voice="ym11003_02_0295" />
+    <msg speaker="相模 楓" text="ドレスを綺麗に見せるための&#xA;下着らしいですよ。" speaker_show="True" stop="True" voice="sf11004_02_0281" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="おぉ、そういうのがあるんだ。&#xA;全然知らなかった。" speaker_show="True" stop="True" voice="ym11003_02_0296" />
+    <msg speaker="高坂 信" text="信も初めて見るよ。&#xA;こんな風になってるんだね。" speaker_show="True" stop="True" voice="ks11010_02_0148" />
+    <msg speaker="高坂 信" text="スタッフさん、外で待っててくれるみたいだし&#xA;手早く着替えちゃおう。" speaker_show="True" stop="True" voice="ks11010_02_0149" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="LeftToRight" wait="True" />
+    <delete obj_id="八千代 命" />
+    <fade_in time="0.5" type="LeftToRight" wait="True" />
+    <sound type="Se" cue_name="Hug" />
+    <wait time="1.0" />
+    <msg speaker="八千代 命" text="はいっ、付け終わりましたー！" speaker_show="True" stop="True" voice="ym11003_02_0297" />
+    <msg speaker="チャペルスタッフ" text="では、ドレスを着ていきましょう。&#xA;肩のところを通しますので、少し手を上げてください。" speaker_show="True" stop="True" voice="99091_02_0004" />
+    <msg speaker="八千代 命" text="こうですか？　わ、わっ……なんだか、&#xA;すごく無防備になっちゃってる気がする。" speaker_show="True" stop="True" voice="ym11003_02_0298" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" face_anim_type="015_Facial_poker" />
+    <msg speaker="八千代 命" text="んっ……ふぅ。&#xA;ドレスって、想像してたより重たいかも。" speaker_show="True" stop="True" voice="ym11003_02_0299" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="師匠とフーは、ちゃんと着れてるー？" speaker_show="True" stop="True" voice="ym11003_02_0300" />
+    <msg speaker="相模 楓" text="はい、どうにか。" speaker_show="True" stop="True" voice="sf11004_02_0282" />
+    <msg speaker="高坂 信" text="普段着てる服と全然違うね。&#xA;結構動き辛そう。" speaker_show="True" stop="True" voice="ks11010_02_0150" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="019_Facial_damage" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="八千代 命" text="次に付けるのは、コルセット？&#xA;こ……これ、なかなかきついかも……。" speaker_show="True" stop="True" voice="ym11003_02_0301" />
+    <msg speaker="相模 楓" text="ドレスのシルエットって、腰回りが大事みたいですし&#xA;頑張りましょう。" speaker_show="True" stop="True" voice="sf11004_02_0283" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="あ、そうだ。今のうちに&#xA;胸の谷間もしっかり作っとかないと。" speaker_show="True" stop="True" voice="ym11003_02_0302" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="メイの魅力で、２人を悩殺しなくちゃ&#xA;いけないもんね。くふふっ。" speaker_show="True" stop="True" voice="ym11003_02_0303" />
+    <msg speaker="相模 楓" text="師匠、変なこと考えなくても&#xA;いいですからね？" speaker_show="True" stop="True" voice="sf11004_02_0284" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="そして、着替えが終わり&#xA;命は鏡を見る。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="010_Facial_shy" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="おおーっ！　こ、この花嫁……&#xA;今すぐお持ち帰りしたいくらい可愛い!!" speaker_show="True" stop="True" voice="ym11003_02_0304" />
+    <delete obj_id="Smile_mei" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="自分で言うのもなんですけど、&#xA;結構似合ってますよね？" speaker_show="True" stop="True" voice="ym11003_02_0305" />
+    <msg speaker="チャペルスタッフ" text="はい、とてもお綺麗ですよ。" speaker_show="True" stop="True" voice="99091_02_0005" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="えへへ、スタッフさんに褒められると&#xA;自信出てきちゃう。" speaker_show="True" stop="True" voice="ym11003_02_0306" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="よーし、師匠とフーに&#xA;見せつけてやるぞー！" speaker_show="True" stop="True" voice="ym11003_02_0307" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

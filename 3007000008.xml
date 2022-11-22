@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007000008" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Quest2 スパイ感" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <Comment comment="貿易港・夜（無ければコンテナターミナル）" />
+    <bg show="True" file="07_containerni_02" />
+    <Comment comment="【ＳＥ】波の音" />
+    <sound />
+    <fade_in time="0.5" wait="True" />
+    <telop text="コンテナターミナル" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="今から我々で、この港周辺を調査する。&#xA;くれぐれも、警戒を怠らないように。" speaker_show="True" stop="True" voice="hy11002_01_0512" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <lip_sync target1="源 モモ" />
+    <msg speaker="源 モモ・友奈・美森" text="はいっ！" speaker_show="True" stop="True" voice="3007000008_01" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <Comment comment="【ＳＥ】船の汽笛" />
+    <sound />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="東郷 美森" />
+    <delete obj_id="結城 友奈" />
+    <wait time="1.0" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="大っきな船！　夜中なのに、働いてる人が&#xA;いっぱいいるんだねー。偉いなぁ。" speaker_show="True" stop="True" voice="yy96001_01_0018" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="良い所に目を付けたわね、結城さん。&#xA;確かに、この時間にしては人が多すぎる……。" speaker_show="True" stop="True" voice="hy11002_01_0513" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="船が着いたばかりなんでしょうか？&#xA;荷下ろしで忙しそうです。" speaker_show="True" stop="True" voice="mm11001_01_0741" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="東郷 美森" text="そのせいか、周囲が明るく照らされていて&#xA;容易には動き回れそうにありません。" speaker_show="True" stop="True" voice="tm96002_01_0023" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="コンテナに隠れながら、ビュンッて移動すれば&#xA;端っこまでピューって行けるんじゃないかな？" speaker_show="True" stop="True" voice="yy96001_01_0019" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <move obj_id="結城 友奈" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="あっ、ダメだよ友奈ちゃん。こういう時は&#xA;身の安全と、万が一の逃走経路を考えてから動くの。" speaker_show="True" stop="True" voice="mm11001_01_0742" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="ふんふん、なるほど。勉強になります！&#xA;モモさんて、頼れるお姉さんな感じですね♪" speaker_show="True" stop="True" voice="yy96001_01_0020" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源 モモ" text="え、照れちゃうよぉ。じゃあ私が&#xA;まずやって見せるね。物陰から顔を覗かせ…て。" speaker_show="True" stop="True" voice="mm11001_01_0743" />
+    <msg_window_show show="False" />
+    <char_spine_cheek obj_id="源 モモ" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <move obj_id="源 モモ" position_id="left" x="-400" x_move_type="MoveTo" time="2.0" wait="True" />
+    <Comment comment="【ＳＥ】警告音（大音量ではない）" />
+    <sound />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <create_effect effect_id="momo_Sweat" effect_type="MampSweat" life_time="1" target_obj="源 モモ" />
+    <msg speaker="源 モモ" text="あ……っ。" speaker_show="True" stop="True" voice="mm11001_01_0744" />
+    <msg_window_show show="False" />
+    <delete obj_id="momo_Sweat" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="結城 友奈" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="頼られて調子に乗ったわね。" speaker_show="True" stop="True" voice="hy11002_01_0514" />
+    <delete obj_id="半蔵門 雪" />
+    <sound type="Se" />
+    <Comment comment="【ＳＥ】ドローン飛行" />
+    <msg speaker="ドローン" text="警告シマス。ココハ部外者立入リ禁止区域デス。&#xA;10秒以内ニ敷地内カラ出ナサイ。10、９、８……" speaker_show="True" stop="True" voice="99054_01_0001" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ドローンに上から見られてたーー！" speaker_show="True" stop="True" voice="mm11001_01_0745" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="百地、慌てないの。まだカウントダウン中よ。&#xA;こういう時の最善は……" speaker_show="True" stop="True" voice="hy11002_01_0515" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="あれを落とせばいいんだね。&#xA;勇者ぁああああ" speaker_show="True" stop="True" voice="yy96001_01_0021" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="パアーーーーーーンチッ！" speaker_show="True" stop="True" voice="yy96001_01_0022" />
+    <msg_window_show show="False" />
+    <delete obj_id="結城 友奈" />
+    <wait time="0.3" />
+    <Comment comment="【ＳＥ】パンチ炸裂" />
+    <sound />
+    <flash color="#ffffffff" count="1" time="0.2" wait="True" />
+    <Comment comment="【ＳＥ】ドローン破壊" />
+    <load_cue_sheet cue_sheet="Quest/Quest_Common" />
+    <sound cue_name="Bom" />
+    <create_effect effect_id="effect_Explosion" effect_type="EffectExplosion" y="0" />
+    <wait time="3.0" />
+    <delete obj_id="effect_Explosion" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="おぉーーナイスパーンチ。" speaker_show="True" stop="True" voice="mm11001_01_0746" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="即断即決。見事よ。" speaker_show="True" stop="True" voice="hy11002_01_0516" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="ただの監視専用機で良かったわ。&#xA;まだ警告中だったし、他の奴らは気付いていない。" speaker_show="True" stop="True" voice="hy11002_01_0517" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="ほっ。" speaker_show="True" stop="True" voice="mm11001_01_0747" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <Comment comment="【ＳＥ】船の汽笛" />
+    <sound />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <wait time="1.0" />
+    <Comment comment="【ＳＥ】ライフルを構える（スチャッ！）" />
+    <sound type="Se" cue_name="HoldGun" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="東郷さんっ!?　ライフル構えて何するの!?" speaker_show="True" stop="True" voice="mm11001_01_0748" />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="新しい船が来たので、照準器で確認するだけです。&#xA;あ………あれは、外国船かぁっ！" speaker_show="True" stop="True" voice="tm96002_01_0024" />
+    <Comment comment="【ＳＥ】装填（ガシャッ！）" />
+    <sound />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="う、撃たないでよ…？　絶対撃たないでよ!?&#xA;今のはフリじゃないからね！　撃たないでよ!?" speaker_show="True" stop="True" voice="mm11001_01_0749" />
+    <msg_window_show show="False" />
+    <move obj_id="東郷 美森" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="また、同じ倉庫へズダ袋を運び込んでいる。&#xA;……いいわ。東郷さん、あの袋を撃って。" speaker_show="True" stop="True" voice="hy11002_01_0518" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="師匠!?" speaker_show="True" stop="True" voice="mm11001_01_0750" />
+    <create_effect effect_id="effect_ShockWave" effect_type="EffectShockWave" life_time="3" target_obj="東郷 美森" />
+    <char_spine_animation obj_id="東郷 美森" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="東郷 美森" text="頭陀袋に向け、狙撃用光線銃出力最小限にて&#xA;構え！　狙え！　てぇーーーっ！" speaker_show="True" stop="True" voice="tm96002_01_0025" />
+    <delete obj_id="effect_ShockWave" />
+    <msg_window_show show="False" />
+    <Comment comment="【ＳＥ】ビームライフル発射（バシューッ！）" />
+    <sound />
+    <flash color="#ffffffff" count="1" time="0.2" />
+    <wait time="1.0" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="東郷 美森" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="わ！　袋に開いた穴から白い粉がバーーッて！&#xA;担いでた人、何が起きたか解らないみたい！" speaker_show="True" stop="True" voice="yy96001_01_0023" />
+    <msg_window_show show="False" />
+    <move obj_id="結城 友奈" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="白い粉……それってまさか、麻薬!?" speaker_show="True" stop="True" voice="mm11001_01_0751" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="だとしたら、大事だわ……。&#xA;サンプルを持ち帰る必要があるわね。" speaker_show="True" stop="True" voice="hy11002_01_0519" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="はい！　カマリ、出て来て。&#xA;あそこの白い粉、取って来れる？" speaker_show="True" stop="True" voice="mm11001_01_0752" />
+    <msg_window_show show="False" />
+    <delete obj_id="結城 友奈" />
+    <delete obj_id="半蔵門 雪" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound type="Se" cue_name="CutinAnimal" />
+    <wait time="1" />
+    <create type="Character" obj_id="結城 友奈" data_id="396001002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="結城 友奈" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="結城 友奈" text="えっ、カエルが頷いて、向こうへ飛び跳ねてく！&#xA;スゴイかしこ可愛い！　まるで精霊みたーい！" speaker_show="True" stop="True" voice="yy96001_01_0024" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="えへへ、でしょ～？&#xA;ン……？　精霊って……なんだろう。" speaker_show="True" stop="True" voice="mm11001_01_0753" />
+  </command>
+</adv>

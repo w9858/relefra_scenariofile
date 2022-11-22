@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000019" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <bg file="07_containerni_02" />
+    <telop text="倉庫" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="来夢はなるべくジャバウオックを大破させず&#xA;機能停止に追い込むように戦った。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アルム" data_id="316004001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ようやく機能停止したか。&#xA;こんなにボロボロになるまで動いて……。" speaker_show="True" stop="True" voice="sr13001_02_0337" />
+    <char_spine_animation obj_id="アルム" face_anim_type="001_Facial_blink" force_end="False" loop="True" />
+    <msg speaker="アルム" text="なんという非効率的な戦い方を……。&#xA;もっと早く仕留めるコトも出来たはずだ。" speaker_show="True" stop="True" voice="ar16004_02_0054" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="私に刃向かってくる奴は人間だろうが&#xA;人形だろうがお仕置きするけどね。" speaker_show="True" stop="True" voice="sr13001_02_0338" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="お仕置きしたうえで、助けたい奴と&#xA;さらに追い込みたい奴に分かれるのよ。" speaker_show="True" stop="True" voice="sr13001_02_0339" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="で、アルム達は助けたいわけ。" speaker_show="True" stop="True" voice="sr13001_02_0340" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="そんな事を言える立場か。お前は今の戦いで&#xA;無敵甲冑とやらが激しくパワーダウンしている。" speaker_show="True" stop="True" voice="ar16004_02_0055" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="で、逆にアルムは今の戦いの間で、&#xA;回復しちゃってるわね。" speaker_show="True" stop="True" voice="sr13001_02_0341" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="敷島 来夢" text="なかなかにまずい状況だけど。&#xA;まぁ何とかすると思うわ。なにせ私だから。フフ。" speaker_show="True" stop="True" voice="sr13001_02_0342" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="アルム" text="……目標、消去開始。" speaker_show="True" stop="True" voice="ar16004_02_0056" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……。" speaker_show="True" stop="True" voice="sr13001_02_0343" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="アルム" text="……。" speaker_show="True" stop="True" voice="ar16004_02_0057" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="どうしたのかしら？" speaker_show="True" stop="True" voice="sr13001_02_0344" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" force_end="False" loop="False" body_anim_type="15_Negative" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="アルム" text="……お前を消去することが出来ない。" speaker_show="True" stop="True" voice="ar16004_02_0058" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="あら嬉しいわね。" speaker_show="True" stop="True" voice="sr13001_02_0345" />
+    <char_spine_animation obj_id="アルム" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="アルム" text="その理由を計算していた。" speaker_show="True" stop="True" voice="ar16004_02_0059" />
+    <msg speaker="アルム" text="おそらく、お前が優秀な人間だからだ。&#xA;消去するには惜しいと判断した。" speaker_show="True" stop="True" voice="ar16004_02_0060" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ん～それはただ理由をつけただけよ。&#xA;答えは愛。" speaker_show="True" stop="True" voice="sr13001_02_0346" />
+    <msg speaker="アルム" text="理解不能。" speaker_show="True" stop="True" voice="ar16004_02_0061" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="私と来てくれれば全部解決するのよアルム。" speaker_show="True" stop="True" voice="sr13001_02_0347" />
+    <msg speaker="アルム" text="ありえない。私はマスターのものだ。&#xA;そこは絶対に揺るがない。" speaker_show="True" stop="True" voice="ar16004_02_0062" />
+    <msg speaker="アルム" text="なのでマスターに提案してみる。&#xA;お前を消去しないで済む方法を。" speaker_show="True" stop="True" voice="ar16004_02_0063" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="やめときなって！　そんな事言ったら&#xA;アルムがどうなるか。" speaker_show="True" stop="True" voice="sr13001_02_0348" />
+    <msg speaker="アルム" text="また会おうノブナガ。" speaker_show="True" stop="True" voice="ar16004_02_0064" />
+    <sound type="Se" cue_name="RecallsOut" />
+    <move obj_id="アルム" x="1000" x_move_type="MoveTo" y_move_type="MoveValue" time="0.7" wait="True" position_id="left" />
+    <delete obj_id="アルム" />
+    <move obj_id="敷島 来夢" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.7" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="くっ、甲冑を修理しないと……！" speaker_show="True" stop="True" voice="sr13001_02_0349" />
+    <move obj_id="敷島 真留瀬" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <msg speaker="敷島 真留瀬" text="サブの飛行ユニットをそちらに射出しました。" speaker_show="True" stop="True" voice="sm13002_02_0178" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="敷島 来夢" text="ミツヒデ。開発した新型の追跡装置は？" speaker_show="True" stop="True" voice="sr13001_02_0350" />
+    <msg speaker="敷島 真留瀬" text="しっかり作動していますわ。戦闘中アルムに&#xA;取り付けてくれたのですね。追跡可能です。" speaker_show="True" stop="True" voice="sm13002_02_0179" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ナイス！　アルムはマスターのところに帰るはず。&#xA;尾けていって大元を叩いてしまえばこっちのものよ。" speaker_show="True" stop="True" voice="sr13001_02_0351" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" />
+    <msg speaker="敷島 来夢" text="今からいったん帰還するわミツヒデ。無敵甲冑を&#xA;メンテしてから敵基地に乗り込むわよ！" speaker_show="True" stop="True" voice="sr13001_02_0352" />
+    <sound_stop cue_name="Quest2" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

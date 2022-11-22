@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_004" />
+  </info>
+  <command>
+    <Start />
+    <auto_mode active="True" />
+    <function_menu_show show="False" />
+    <bg file="05_momohousemo_01" />
+    <load_cue_sheet cue_sheet="BGM/BGM18_Adv6" />
+    <sound type="Bgm" cue_name="Adv6" />
+    <fade_in time="0.5" wait="True" />
+    <create obj_id="源モモ" data_id="311001005" type="Character" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源モモ" text="今日、6月29日は私の誕生日！" stop="True" window_type="CharMsg" voice="momo_001" lip_sync_volume="0.01" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="11_Point" loop="True" />
+    <move obj_id="源モモ" x="-100" x_move_type="MoveValue" time="1" wait="True" />
+    <msg speaker="源モモ" text="もしかして屋根裏に……" stop="True" window_type="CharMsg" voice="momo_002" />
+    <sound cue_name="Gosogoso" volume="100" />
+    <wait time="2" />
+    <char_spine_animation obj_id="源モモ" loop="True" body_anim_type="13_Question" />
+    <move obj_id="源モモ" x="200" x_move_type="MoveValue" time="1" wait="True" />
+    <msg speaker="源モモ" text="ベッドの下に……いるわけないか。" stop="True" window_type="CharMsg" voice="momo_003" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="源モモ" text="と思ったらうわわっ！" stop="True" window_type="CharMsg" voice="momo_004" />
+    <move obj_id="源モモ" x="-100" x_move_type="MoveValue" time="1" wait="True" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="011_Facial_surprise" loop="True" />
+    <msg speaker="源モモ" text="びっくりしたぁ。" stop="True" window_type="CharMsg" voice="momo_005" />
+    <msg_window_show show="False" />
+    <transition type="Out" wait="True" effect="Default" color_change="False" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" mixing="True" />
+    <transition type="In" wait="True" effect="Default" color_change="False" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源モモ" text="本当にお祝いしてくれるなんて……！&#xA;とっても嬉しいです！" stop="True" window_type="CharMsg" voice="momo_006" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="002_Facial_smile" body_anim_type="21_PutElbow" loop="True" />
+    <char_spine_cheek obj_id="源モモ" type="Cheek02_medium" loop="True" />
+    <msg speaker="源モモ" text="はぁ……久しぶりにゆっくりと&#xA;こうしてお話できますね♪" stop="True" window_type="CharMsg" voice="momo_007" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" />
+    <char_spine_cheek obj_id="源モモ" loop="True" />
+    <msg speaker="源モモ" text="……っと、気を緩めちゃだめですよね！" stop="True" window_type="CharMsg" voice="momo_008" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源モモ" text="まだまだ未熟なところばかりですが、&#xA;もっと強くなれるよう、滾りに滾らせて頑張るので、" stop="True" window_type="CharMsg" voice="momo_009" />
+    <char_spine_animation obj_id="源モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" />
+    <msg speaker="源モモ" text="これからもご指導、よろしくお願いします！" stop="True" window_type="CharMsg" voice="momo_010" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" wait="True" />
+  </command>
+</adv>

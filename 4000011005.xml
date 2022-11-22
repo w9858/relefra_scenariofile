@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000011005" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <bg show="True" resource_type="Background" file="22_plant_05" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="倉庫" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-300" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="こちら千代女、風魔とともに&#xA;敵の拠点、敷地内への潜入に成功しました。" speaker_show="True" stop="True" voice="ym11003_03_0633" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="違法薬物の取引が行われるという&#xA;場所に向かっています。" speaker_show="True" stop="True" voice="sf11004_03_0642" />
+    <msg speaker="青葉 初芽" text="了解です。&#xA;他の皆さんは配置につきましたか？" speaker_show="True" stop="True" voice="ah11005_03_0437" />
+    <msg speaker="半蔵門 雪" text="こちら半蔵。百地とともに出入り口付近に待機。" speaker_show="True" stop="True" voice="hy11002_03_0404" />
+    <msg speaker="源 モモ" text="風魔、千代女、ここから先は誰も行かせない！&#xA;安心して潜入して。" speaker_show="True" stop="True" voice="mm11001_03_0584" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="了解！&#xA;言われる前から頼りにしてるよん！" speaker_show="True" stop="True" voice="ym11003_03_0634" />
+    <msg speaker="石川 五恵" text="こちら五右衛門、局とともに車内から&#xA;サポートを努めます。" speaker_show="True" stop="True" voice="ig11006_03_0519" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="了解、みんな位置についたみたいだし、&#xA;ちゃちゃっとやりますか。" speaker_show="True" stop="True" voice="sf11004_03_0643" />
+    <msg speaker="高坂 信" text="待って。こちら甚内。千代女、風魔とともに敷地内に&#xA;潜入し建物内部の屋上に待機。２人を援護します。" speaker_show="True" stop="True" voice="ks11010_03_0476" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" force_end="False" loop="True" />
+    <lip_sync target1="八千代 命" target2="相模 楓" />
+    <msg speaker="命・楓" text="へ？" speaker_show="True" stop="True" voice="4000011005_union_001" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="これ、風魔や風魔、&#xA;今、『甚内ともに潜入』って……。" speaker_show="True" stop="True" voice="ym11003_03_0636" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="言ってましたね。うわー、アタシとしたことが、&#xA;全然気づいてませんでした。" speaker_show="True" stop="True" voice="sf11004_03_0645" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <create_effect effect_id="shin01" effect_type="MampSweat" life_time="2.0" target_obj="高坂 信" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="高坂 信" text="そんなー！&#xA;ミッション開始の時から一緒にいたよー。" speaker_show="True" stop="True" voice="ks11010_03_0477" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="高坂 信" />
+    <bg show="True" resource_type="Background" file="22_plant_04" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="300" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-300" anchor="Bottom" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="味方にすら気配を感じさせない。&#xA;甚内の本領発揮ですね。" speaker_show="True" stop="True" voice="hy11002_03_0405" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="なるほど、これが甚内の特殊技能。&#xA;頼もしいです！" speaker_show="True" stop="True" voice="mm11001_03_0583" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <bg show="True" resource_type="Background" file="22_plant_05" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" anchor="Bottom" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="あ、ありがとう。&#xA;気配、消してた訳じゃないんだけどね……。" speaker_show="True" stop="True" voice="ks11010_03_0478" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="でも、頑張って千代女と風魔の援護するよ。" speaker_show="True" stop="True" voice="ks11010_03_0479" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-300" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="300" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="頼もしいです！　何ていうか、予想外の味方が&#xA;増えて得したみたいな感じですね。" speaker_show="True" stop="True" voice="sf11004_03_0646" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そうじゃろそうじゃろ？&#xA;これが師匠の底力！" speaker_show="True" stop="True" voice="ym11003_03_0637" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うぅっ、だから&#xA;わざとじゃないんだよー。" speaker_show="True" stop="True" voice="ks11010_03_0480" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Quest2" />
+  </command>
+</adv>

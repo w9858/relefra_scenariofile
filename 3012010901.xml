@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3012010901" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" resource_type="Background" file="21_island_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <Comment comment="背景、キャラクターイラストは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <wait time="1" />
+    <sound cue_name="EnvSeaside" volume="30" />
+    <load_cue_sheet />
+    <fade_in time="1" type="Default" wait="True" />
+    <msg_window_show show="True" />
+    <msg window_type="SystemMsg" text="夏合宿で無人島へやって来ているモモ達にも&#xA;訓練の合間には、ひとときの休憩時間があった。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg_window_show show="True" />
+    <msg speaker="源 モモ" text="師匠、お水持ってきました。&#xA;海に浸しておいたので、冷たいですよ。" speaker_show="True" stop="True" voice="mm11001_02_0426" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="ありがとう、いただくわ。&#xA;モモ、あなたも少し休憩しなさい。" speaker_show="True" stop="True" voice="hy11002_02_0362" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006013" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004015" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="青葉 初芽" text="ごえちゃんに楓ちゃん。スイカ割りマシンを&#xA;調整するので、手伝っていただけますか？" speaker_show="True" stop="True" voice="ah11005_02_0316" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" />
+    <msg speaker="石川 五恵" text="はい、師匠。" speaker_show="True" stop="True" voice="ig11006_02_0150" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="017_Facial_shock" body_anim_type="13_Question" loop="True" />
+    <msg speaker="相模 楓" text="なんでマシンの投入を……。" speaker_show="True" stop="True" voice="sf11004_02_0428" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010009" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="八千代 命" text="はぁ～～～、大の字で岩に寝そべってると&#xA;目玉焼きになったみたいだ～～。" speaker_show="True" stop="True" voice="ym11003_02_0464" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="高坂 信" text="信はハンバーグの気分だよ～～。" speaker_show="True" stop="True" voice="ks11010_02_0254" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="八千代 命" text="ハンバーグに目玉焼きなんて&#xA;ゴールデンコンビでイカス～～！" speaker_show="True" stop="True" voice="ym11003_02_0465" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" />
+    <msg speaker="高坂 信" text="ファミレスの王者だね～～。&#xA;バカンスハンバーグスペシャルだ～～。" speaker_show="True" stop="True" voice="ks11010_02_0255" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="高坂 信" text="ウフフフ……やだなぁ、もうメイちゃん。&#xA;くすぐったいよー。" speaker_show="True" stop="True" voice="ks11010_02_0256" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="八千代 命" text="えー？　なにがー？" speaker_show="True" stop="True" voice="ym11003_02_0466" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" loop="False" />
+    <msg speaker="高坂 信" text="あ～ん、もう、またぁ。いっつも&#xA;そうやって信をからかうんだからー。" speaker_show="True" stop="True" voice="ks11010_02_0257" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="八千代 命" text="何もしてないってばー。&#xA;変な師匠。" speaker_show="True" stop="True" voice="ym11003_02_0467" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" />
+    <msg speaker="高坂 信" text="そんなに言うなら良いよーだ。&#xA;今度やったら、パッて捕まえちゃうからね！" speaker_show="True" stop="True" voice="ks11010_02_0258" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="八千代 命" text="何もしてない無実のメイを&#xA;捕まえられるもんなら、どーぞどーぞ。" speaker_show="True" stop="True" voice="ym11003_02_0468" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="020_Facial_thinking" loop="True" />
+    <msg speaker="高坂 信" text="よーし……集中集中。&#xA;全神経を耳に……。聴覚を研ぎ澄ませて……。" speaker_show="True" stop="True" voice="ks11010_02_0259" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" />
+    <msg speaker="高坂 信" text="そこだーーー！" speaker_show="True" stop="True" voice="ks11010_02_0260" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="八千代 命" text="えっ!?　どこ！　何っ!?" speaker_show="True" stop="True" voice="ym11003_02_0469" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="高坂 信" text="あ、あれ……？&#xA;メイちゃんそっちにいたの？" speaker_show="True" stop="True" voice="ks11010_02_0261" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="八千代 命" text="そうだけど。" speaker_show="True" stop="True" voice="ym11003_02_0470" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="高坂 信" text="だったら、今のは……？" speaker_show="True" stop="True" voice="ks11010_02_0262" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="19_Amazed" loop="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" loop="True" />
+    <msg speaker="高坂 信" text="やーーーーーー!!&#xA;何かいたーーーーーーーっ!!" speaker_show="True" stop="True" voice="ks11010_02_0263" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="017_Facial_shock" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="八千代 命" text="えっ、何かって!?" speaker_show="True" stop="True" voice="ym11003_02_0471" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" />
+    <msg speaker="高坂 信" text="あわ…あわわ…わ……こ、腰が抜けた……。" speaker_show="True" stop="True" voice="ks11010_02_0264" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="13_Question" loop="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="017_Facial_shock" body_anim_type="16_BendBackward" loop="True" />
+    <msg speaker="八千代 命" text="ええ!?　ちょっと、師匠！&#xA;しっかりしてよ、師匠ぉおーーー！" speaker_show="True" stop="True" voice="ym11003_02_0472" />
+    <msg_window_show show="False" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1" sound_stop="True" wait="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+    <sound_stop cue_name="EnvSeaside" />
+  </command>
+</adv>

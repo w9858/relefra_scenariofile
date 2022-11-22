@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1007000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <msg window_type="SystemMsg" text="敷島来夢達は、ツキカゲや凪の部隊の&#xA;面子と東京に移動していた。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="34_sakasatower_01" effect="Immediately" wait="False" color="#ffffffff" effect_time="0.3" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="凪の部隊 本部" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="轟 葉栖美" text="逆さ塔の紹介は、こんな感じだね。" speaker_show="True" stop="True" voice="th12004_02_0002" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="やー。いいものを見せてもらったわ。ありがとう。" speaker_show="True" stop="True" voice="sr13001_02_0052" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="ツキカゲからも凪の部隊からも、&#xA;色々と教えて頂きました。" speaker_show="True" stop="True" voice="am13002_02_0021" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="じゃあ、今度はこっちがアレを見せる番かしら。&#xA;部屋使わせてもらうわよ。" speaker_show="True" stop="True" voice="sr13001_02_0053" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="構わぬのじゃ。言われた通り荷物は運んだ。" speaker_show="True" stop="True" voice="ss12003_02_0002" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="これは戦国時代の、鎧……？" speaker_show="True" stop="True" voice="mm11001_02_0005" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様、いつでも装着可能ですわ。" speaker_show="True" stop="True" voice="sm13002_02_0024" />
+    <char_spine_animation obj_id="白虎" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="白虎" text="なんだなんだ、何がはじまるんだ。" speaker_show="True" stop="True" voice="bk11008_02_0002" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="各々方。これからＺＥＴが誇る最高技術を&#xA;お見せ致しまする。" speaker_show="True" stop="True" voice="am13002_02_0022" />
+    <delete obj_id="敷島 真留瀬" />
+    <delete obj_id="白虎" />
+    <delete obj_id="アミィ" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="危ないからちょっと離れててね。&#xA;でも目は離さないでね。" speaker_show="True" stop="True" voice="sr13001_02_0054" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="出陣！！！" speaker_show="True" stop="True" voice="sr13001_02_0055" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="HoldGun" />
+    <wait time="0.5" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="甲冑はパーツごとに来夢に射出されていき&#xA;あっという間に装着が行われていく。" stop="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="敷島 来夢" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="これが無敵甲冑！&#xA;私はこれを装備して戦うのよ。" speaker_show="True" stop="True" voice="sr13001_02_0056" />
+    <delete obj_id="敷島 来夢" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ヒューー！！！" speaker_show="True" stop="True" voice="ry12002_02_0002" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="む、ムチャクチャだわ！！&#xA;なんて技術力なのよ。" speaker_show="True" stop="True" voice="sf11004_02_0012" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="刺激的～～！！　さわっていいさわっていい？" speaker_show="True" stop="True" voice="ym11003_02_0001" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="どうぞどうぞ。" speaker_show="True" stop="True" voice="sr13001_02_0057" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="映画みたいで素敵です、ドキドキ……！" speaker_show="True" stop="True" voice="mh12001_02_0004" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="白虎" text="武器もついてるし、最高だなコレ。" speaker_show="True" stop="True" voice="bk11008_02_0003" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ちなみにこれ飛ぶわよ。凄い速度で。" speaker_show="True" stop="True" voice="sr13001_02_0058" />
+    <move obj_id="敷島 来夢" position_id="left" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <delete obj_id="白虎" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="アミィも飛んでお供しておりまする。" speaker_show="True" stop="True" voice="am13002_02_0023" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ツキカゲや凪の部隊の皆が&#xA;只者じゃないっていうのは分かるわ。" speaker_show="True" stop="True" voice="sr13001_02_0059" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そこに私の技術力が加わると、&#xA;どんな悪の連合だって倒せるでしょ。" speaker_show="True" stop="True" voice="sr13001_02_0060" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="なんというか、生命力に満ちあふれている人って&#xA;近くにいるだけで元気もらえますね。" speaker_show="True" stop="True" voice="mm11001_02_0006" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="彼女の魅力ということね。心強い仲間だわ。" speaker_show="True" stop="True" voice="hy11002_02_0004" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="でも、どんなに強い人間でも足下を&#xA;すくわれたら脆いものよ。" speaker_show="True" stop="True" voice="hy11002_02_0005" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="敷島さん。その発明が凄いのは分かりますが、&#xA;だからこそ油断はしない方が。" speaker_show="True" stop="True" voice="hy11002_02_0006" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="貴方……抜き身の刃のような鋭さね雪。&#xA;警告ありがとう。" speaker_show="True" stop="True" voice="sr13001_02_0061" />
+    <delete obj_id="敷島 来夢" />
+    <create type="Character" obj_id="津守 ヨモギ" data_id="312005001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="津守 ヨモギ" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="津守 ヨモギ" text="せっかく鎧着込んだんだ。&#xA;合同任務、行ってみるか。" speaker_show="True" stop="True" voice="ty12005_02_0004" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="いざという時のためにも、実際に動いて&#xA;呼吸を合わせておかなければのう。" speaker_show="True" stop="True" voice="ss12003_02_0003" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="早速の任務でありますか。&#xA;武者震いがしますな！" speaker_show="True" stop="True" voice="am13002_02_0024" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

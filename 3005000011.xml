@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005000011" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM17_Boss2" />
+    <sound type="Bgm" cue_name="Boss2" />
+    <bg show="True" file="22_plant_03" wait="False" resource_type="Background" effect_time="0.3" effect="Immediately" color="#ffffffff" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="羽田" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create obj_id="源 モモ" data_id="311001013" position_id="left" x="-200" y="0" anchor="Bottom" type="Character" />
+    <create obj_id="宗近 飛粋" data_id="312001007" position_id="left" anchor="Bottom" x="200" y="0" type="Character" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="不動、あれが親機だね。" speaker_show="True" stop="True" voice="mm11001_02_0109" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="うん、早速攻撃を仕掛けよう。" speaker_show="True" stop="True" voice="mh12001_02_0106" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="待って！　ロボの中に誰か居る！" speaker_show="True" stop="True" voice="mm11001_02_0110" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="人形を操っている人がいるんだ。&#xA;てことは、まずは説得してみるのも手かも。" speaker_show="True" stop="True" voice="mh12001_02_0107" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="それじゃあ操縦席に潜入しよう！" speaker_show="True" stop="True" voice="mm11001_02_0111" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="さぁ残党さん！　お遊びはここまでです。&#xA;今すぐ人形達の動きを停止してください！" speaker_show="True" stop="True" voice="mh12001_02_0108" />
+    <msg speaker="残党" text="ひひひ……全員一緒に地獄行きだぁ……" speaker_show="True" stop="True" voice="99084_02_0001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="わっ、目が正気じゃない……。" speaker_show="True" stop="True" voice="mm11001_02_0112" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="モウリョウの敗北を受け入れられずに、&#xA;自暴自棄になっちゃってるんだね。" speaker_show="True" stop="True" voice="mh12001_02_0109" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="残念だけど全然声が届いてない。どうしよう、&#xA;こうしてる間にも人形たちは羽田に近づいてるし……" speaker_show="True" stop="True" voice="mm11001_02_0113" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="11_Point" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="こうなったら強制的に親機の機能停止を&#xA;しちゃうしかないよね！" speaker_show="True" stop="True" voice="mh12001_02_0110" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="だよね。&#xA;不動！　スパイスは受け取ってる!?" speaker_show="True" stop="True" voice="mm11001_02_0114" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="うん、この通り！&#xA;受け取ってるよ百地！" speaker_show="True" stop="True" voice="mh12001_02_0111" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="じゃあ一気に行くよ！" speaker_show="True" stop="True" voice="mm11001_02_0115" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="08_MouthBothHands" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="滾らせる！" speaker_show="True" stop="True" voice="mm11001_02_0116" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="08_MouthBothHands" force_end="False" loop="False" mixing="True" />
+    <msg speaker="宗近 飛粋" text="滾らせる！" speaker_show="True" stop="True" voice="mh12001_02_0112" />
+    <char_spine_eye obj_id="宗近 飛粋" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="源 モモ" type="Eye02_spyce" loop="True" />
+    <sound cue_name="Spice" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="どりゃぁぁぁぁ！！" speaker_show="True" stop="True" voice="mm11001_02_0117" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="てぇぇぇぇい！！" speaker_show="True" stop="True" voice="mh12001_02_0113" />
+    <create_effect effect_id="Slash" effect_type="EffectSlash" />
+    <wait time="0.5" />
+    <sound cue_name="Slash" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="よし、不動、両方から挟み撃ちで行くよ！" speaker_show="True" stop="True" voice="mm11001_02_0118" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="了解！　百地、いくよー！" speaker_show="True" stop="True" voice="mh12001_02_0114" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <lip_sync target1="源 モモ" target2="宗近 飛粋" />
+    <msg speaker="源 モモ・宗近 飛粋" text="たぁぁぁぁぁ！！！" speaker_show="True" stop="True" voice="3005000011_01" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

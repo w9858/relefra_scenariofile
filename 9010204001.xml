@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010204001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" volume="0" />
+    <sound_volume type="Bgm" cue_name="Adv1" time="1.0" wait="False" />
+    <bg show="True" file="04_shopstreetmo_01" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="……。" speaker_show="True" stop="True" voice="hy11002_02_0651" lip_sync="False" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" lip_sync="False" text="（なるほど、半蔵さんはこういうとき、&#xA;目を伏せるんだ……。）" speaker_show="True" stop="True" voice="sf11004_02_0615" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002004" position_id="left" x="200" y="-1000" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="……ってあれ？　さっきまでここにいたのに……。&#xA;どこに行っちゃったんだろう？" speaker_show="True" stop="True" voice="sf11004_02_0616" />
+    <move obj_id="半蔵門 雪" position_id="left" x="0" x_move_type="MoveValue" y="1000" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="まだまだね、楓。" speaker_show="True" stop="True" voice="hy11002_02_0652" speaker_front="False" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveValue" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="は、半蔵さん!?　いつの間に!!" speaker_show="True" stop="True" voice="sf11004_02_0617" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="今日ずっとつけていたでしょ？&#xA;さすがに気づくわよ。" speaker_show="True" stop="True" voice="hy11002_02_0653" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="そんな……でも、さすがですね。" speaker_show="True" stop="True" voice="sf11004_02_0618" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="もしかして監視の訓練？" speaker_show="True" stop="True" voice="hy11002_02_0654" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="相模 楓" text="いえ、その……実は、前に半蔵さんに&#xA;変装したときがあったんですけど……。" speaker_show="True" stop="True" voice="sf11004_02_0619" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="モモの加入試験のときのことね。" speaker_show="True" stop="True" voice="hy11002_02_0655" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="はい。自分でも納得できなかったので、&#xA;もっとクオリティーを高めようと観察を……。" speaker_show="True" stop="True" voice="sf11004_02_0620" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="それで私のことをつけていたのね。&#xA;さすが変装のエキスパートだわ。" speaker_show="True" stop="True" voice="hy11002_02_0656" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="見た目が似ているだけじゃ完璧とは言えませんから。&#xA;でも、気づかれてしまうなんて、変装以前の話ですね。" speaker_show="True" stop="True" voice="sf11004_02_0621" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="できれば半蔵さんの仕草や癖、息遣いなんかも&#xA;把握したかったんですが……残念です。" speaker_show="True" stop="True" voice="sf11004_02_0622" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="勝手につけ回すようなことをして&#xA;本当にすみませんでした。" speaker_show="True" stop="True" voice="sf11004_02_0623" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="謝る必要はないわ。&#xA;スキルの向上はとても大切なことだもの。" speaker_show="True" stop="True" voice="hy11002_02_0657" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="私はただ、つけている理由を知りたかっただけよ。&#xA;でも、そういうことなら協力するわ。" speaker_show="True" stop="True" voice="hy11002_02_0658" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="協力……ですか？" speaker_show="True" stop="True" voice="sf11004_02_0624" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。私のデータが必要なんでしょう？&#xA;仕草でも癖でも……お好きにどうぞ。" speaker_show="True" stop="True" voice="hy11002_02_0659" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="009_Facial_blush" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="え？　あ、あの……？" speaker_show="True" stop="True" voice="sf11004_02_0625" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <create_effect effect_id="ShockWave_yuki" effect_type="EffectShockWave" life_time="1.0" target_obj="半蔵門 雪" x="0" y="0" />
+    <msg speaker="半蔵門 雪" text="心ゆくまで観察していいわよ。&#xA;脈拍や呼吸の回数も調べたければ協力するわ。" speaker_show="True" stop="True" voice="hy11002_02_0660" />
+    <delete obj_id="ShockWave_yuki" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="……で、私はどうすればいいのかしら。&#xA;知りたいことを聞いてもらえれば答えるわ。" speaker_show="True" stop="True" voice="hy11002_02_0661" />
+    <delete obj_id="ShockWave_yuki" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="017_Facial_shock" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <move obj_id="相模 楓" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <msg speaker="相模 楓" lip_sync="False" text="（半蔵さんの圧がすごい……。&#xA;やっぱり監視してたこと怒ってるんじゃ……。）" speaker_show="True" stop="True" voice="sf11004_02_0626" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <create_effect effect_id="ShockWave_yuki" effect_type="EffectShockWave" life_time="1.0" target_obj="半蔵門 雪" x="0" y="0" />
+    <msg speaker="半蔵門 雪" text="楓？　どうしたの？" speaker_show="True" stop="True" voice="hy11002_02_0662" />
+    <char_spine_animation obj_id="相模 楓" force_end="False" loop="True" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="相模 楓" text="い、いえ、すみません！&#xA;用事を思い出したので今日はこれで帰ります！" speaker_show="True" stop="True" voice="sf11004_02_0627" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <delete obj_id="ShockWave_yuki" />
+    <msg speaker="半蔵門 雪" text="あら、そう？&#xA;それじゃ、またの機会に……。" speaker_show="True" stop="True" voice="hy11002_02_0663" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="相模 楓" text="あの……今日はつけ回して本当にすみませんでした！&#xA;では、失礼します！" speaker_show="True" stop="True" voice="sf11004_02_0628" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="019_Facial_damage" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="相模 楓" lip_sync="False" text="（ふー、うちの師匠がちゃらんぽらんだから、&#xA;半蔵さんの圧に驚いちゃった……。）" speaker_show="True" stop="True" voice="sf11004_02_0629" />
+    <msg_window_show show="False" />
+    <move obj_id="相模 楓" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <move obj_id="半蔵門 雪" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" lip_sync="False" text="（何か協力できたらと思ったのに……。&#xA;私……何か変なこと言ったかしら？）" speaker_show="True" stop="True" voice="hy11002_02_0664" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="False" />
+    <sound_volume type="Bgm" cue_name="Adv5" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3001000002" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg file="22_plant_03" show="True" resource_type="Background" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="⼯場　管理室" in_time="0.5" show_time="1.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="はっ！" speaker_show="True" stop="True" voice="hy11002_01_0320" />
+    <msg_window_show show="False" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create_effect effect_id="effectslash_chocola" effect_type="EffectSlash" life_time="1.0" x="0" y="0" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Slash" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ショコラちゃん" text="いやぁぁぁ～～ん…ぐぼはぁっ！" speaker_show="True" stop="True" voice="ms98005_01_0007" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="KnockDown" />
+    <move obj_id="ショコラちゃん" position_id="left" y="-1000" y_move_type="MoveValue" time="1.0" wait="True" x="0" x_move_type="MoveValue" />
+    <delete obj_id="ショコラちゃん" />
+    <delete obj_id="effectslash_chocola" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="…ふぅ。" speaker_show="True" stop="True" voice="hy11002_01_0321" />
+    <msg_window_show show="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="200" x_move_type="MoveTo" time="0.3" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="さすが師匠、お見事です！" speaker_show="True" stop="True" voice="mm11001_01_0440" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="うーん、ガチムチのわりに呆気なかったね。" speaker_show="True" stop="True" voice="ym11003_01_0264" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" to_idle="True" loop="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="筋肉の無駄遣いよ。&#xA;全然活かしきれてなかったもの。" speaker_show="True" stop="True" voice="hy11002_01_0322" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" face_anim_type="008_Facial_serious" force_end="False" />
+    <msg speaker="半蔵門 雪" text="けど、違法なチョコを製造していたわりに、&#xA;警備が手薄だったのは確かね…。" speaker_show="True" stop="True" voice="hy11002_01_0323" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="020_Facial_thinking" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="「愛してるゲーム」に夢中になり過ぎてた、とか…？" speaker_show="True" stop="True" voice="mm11001_01_0441" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" face_anim_type="001_Facial_blink" />
+    <msg speaker="石川 五恵" text="ところで、さっきのチョコはどうしますか？&#xA;かなり量があったみたいですけど。" speaker_show="True" stop="True" voice="ig11006_01_0126" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" face_anim_type="001_Facial_blink" force_end="False" />
+    <msg speaker="青葉 初芽" text="そちらは警察の方々に回収して頂きましょう。&#xA;何個かは詳しく解析したいので、持ち帰りますが。" speaker_show="True" stop="True" voice="ah11005_01_0137" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="じゃあ、とりあえず一件落着ですね。" speaker_show="True" stop="True" voice="ig11006_01_0127" />
+    <msg_window_show show="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" y="-100" x="0" anchor="Bottom" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" to_idle="False" />
+    <shake target="Character" obj_id="ショコラちゃん" x="10" y="3" vibrate="10" time="1.0" wait="True" />
+    <move obj_id="ショコラちゃん" position_id="left" y="100" y_move_type="MoveValue" time="1.0" wait="True" x="0" x_move_type="MoveValue" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ショコラちゃん" text="モ…モウリョウを潰した、ツキカゲ…&#xA;今回も…そう上手くいく、かしらね…フ、フフ…。" speaker_show="True" stop="True" voice="ms98005_01_0008" />
+    <delete obj_id="ショコラちゃん" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="001_Facial_blink" />
+    <msg speaker="八千代 命" text="へー、半蔵の攻撃を食らってまだ意識があるなんて、&#xA;タフさは一級品ねー。" speaker_show="True" stop="True" voice="ym11003_01_0265" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="ま、どっちにしろこれで終わりだけど。" speaker_show="True" stop="True" voice="ym11003_01_0266" />
+    <msg_window_show show="False" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="ショコラちゃん" data_id="398005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create_effect effect_id="effectslash_chocola" effect_type="EffectSlash" life_time="1.0" x="0" y="0" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Slash" />
+    <Comment comment="//【SE】斬撃" />
+    <wait time="1.0" />
+    <char_spine_animation obj_id="ショコラちゃん" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="ショコラちゃん" text="うぐ…かはっ…。" speaker_show="True" stop="True" voice="ms98005_01_0009" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="KnockDown" />
+    <Comment comment="【SE】どさりと倒れる音" />
+    <move obj_id="ショコラちゃん" position_id="left" y="-1000" y_move_type="MoveValue" time="1.0" wait="True" x="0" x_move_type="MoveValue" />
+    <delete obj_id="ショコラちゃん" />
+    <delete obj_id="effectslash_chocola" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="はい、終了終了～っと。" speaker_show="True" stop="True" voice="ym11003_01_0267" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="ですが、なんでしょうか…&#xA;最後の言葉、少し含みがあったような…？" speaker_show="True" stop="True" voice="ah11005_01_0138" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ただの負け惜しみのようにも聞こえましたけど…&#xA;師匠、どう思います？" speaker_show="True" stop="True" voice="mm11001_01_0442" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" to_idle="True" loop="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="そうね、私も不可解なものを感じているわ。" speaker_show="True" stop="True" voice="hy11002_01_0324" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="チョコの製造に使用されていた違法薬物の出所も&#xA;不明だし、引き続き調べる必要はありそうね。" speaker_show="True" stop="True" voice="hy11002_01_0325" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="半蔵門 雪" text="けど、今日のところはここまでよ。&#xA;百地、警察に通報を。" speaker_show="True" stop="True" voice="hy11002_01_0326" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" to_idle="True" loop="False" force_end="False" />
+    <msg speaker="源 モモ" text="はい！　わかりました！" speaker_show="True" stop="True" voice="mm11001_01_0443" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" wait="True" type="Default" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="源 モモ" />
+    <bg file="22_plant_04" show="True" resource_type="Background" />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv2" />
+    <fade_in time="1.0" wait="True" type="Default" />
+    <telop text="⼯場外　夜" in_time="0.5" show_time="1.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" force_end="False" loop="True" to_idle="False" body_anim_type="03_BackBothHands" />
+    <msg speaker="相模 楓" text="はぁ、危なかった…もう少しで、師匠に変なチョコを&#xA;プレゼントしちゃうところだった…。" speaker_show="True" stop="True" voice="sf11004_01_0231" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="帰ったら、街でもらったあのチョコのチラシは、&#xA;処分しておかないと…。" speaker_show="True" stop="True" voice="sf11004_01_0232" />
+    <move obj_id="相模 楓" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" loop="True" to_idle="False" face_anim_type="001_Facial_blink" force_end="False" />
+    <msg speaker="八千代 命" text="フー、何してんの？&#xA;早くしないと、パトカー来ちゃうよ？" speaker_show="True" stop="True" voice="ym11003_01_0268" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" face_anim_type="001_Facial_blink" />
+    <msg speaker="相模 楓" text="あ、はい…！" speaker_show="True" stop="True" voice="sf11004_01_0233" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="あの…ところで、師匠？" speaker_show="True" stop="True" voice="sf11004_01_0234" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" face_anim_type="001_Facial_blink" />
+    <msg speaker="八千代 命" text="ん？" speaker_show="True" stop="True" voice="ym11003_01_0269" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" face_anim_type="008_Facial_serious" />
+    <msg speaker="相模 楓" text="師匠って、どんなチョコが好きとかありますか？" speaker_show="True" stop="True" voice="sf11004_01_0235" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" face_anim_type="001_Facial_blink" />
+    <msg speaker="八千代 命" text="んー、そだねぇ。&#xA;メイは食べられれば何でもいいかなー？" speaker_show="True" stop="True" voice="ym11003_01_0270" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="そ、そうですか……。" speaker_show="True" stop="True" voice="sf11004_01_0236" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="001_Facial_blink" />
+    <msg speaker="八千代 命" text="どうしたの、フー？&#xA;なんだか元気がないみたいだけど？" speaker_show="True" stop="True" voice="ym11003_01_0271" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" to_idle="True" loop="False" force_end="False" />
+    <msg speaker="相模 楓" text="な、なんでもないです！　行きましょう、師匠！&#xA;グズグズしてると、パトカーが来ちゃいます！" speaker_show="True" stop="True" voice="sf11004_01_0237" />
+    <delete obj_id="相模 楓" />
+    <move obj_id="八千代 命" position_id="left" x="0" x_move_type="MoveTo" time="0.3" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="えっ、あ、うん…&#xA;あれ？　それってメイの台詞だったような…？" speaker_show="True" stop="True" voice="ym11003_01_0272" />
+  </command>
+</adv>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010904" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="Wasabi" />
+    <bg show="True" file="02_wasabimo_001" color="#ffffffff" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.25" show_time="0.5" out_time="0.25" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="シン様！　ごえちゃん！&#xA;カレーおまちどうさま！" speaker_show="True" stop="True" voice="kt11009_01_0402" />
+    <delete obj_id="カトリーナ" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="信はやっぱり普通のカレーが一番好きだなぁ。&#xA;いただきまーす。" speaker_show="True" stop="True" voice="ks11010_01_0240" stop_auto_time="1.2" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="あち、あちち。" speaker_show="True" stop="True" voice="ks11010_01_0241" stop_auto_time="1.2" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ふーふー。" speaker_show="True" stop="True" voice="ks11010_01_0242" stop_auto_time="1.2" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="もぐもぐ……おいしい。" speaker_show="True" stop="True" voice="ks11010_01_0243" stop_auto_time="1.2" />
+    <move obj_id="高坂 信" position_id="left" x="200" x_move_type="MoveTo" time="0.5" wait="True" y="0" y_move_type="MoveValue" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="………。" speaker_show="True" stop="True" voice="ig11006_01_0692" stop_auto_time="1.2" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="？　どうしたの、ごえちゃん。" speaker_show="True" stop="True" voice="ks11010_01_0244" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="師匠の事、可愛いなーっ、よしよししたいなと&#xA;思って眺めてたんだよね、ごえちゃん。" speaker_show="True" stop="True" voice="ym11003_01_0870" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="え、えええっ、そ、そんな事はな、ないよ？" speaker_show="True" stop="True" voice="ig11006_01_0693" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="モーモーち。ごえちゃんを舐めてみ？" speaker_show="True" stop="True" voice="ym11003_01_0871" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="あぅぅごめんなさい、少し思ってました。" speaker_show="True" stop="True" voice="ig11006_01_0694" />
+    <delete obj_id="八千代 命" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="謝らなくてもいいけど、信は頼れる&#xA;先輩として見られたいんだよね～。" speaker_show="True" stop="True" voice="ks11010_01_0245" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そこで！　弟子のメイがアイデアを&#xA;考えてきました。この紙を見て。" speaker_show="True" stop="True" voice="ym11003_01_0872" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="えーと何々。シン・信計画？" speaker_show="True" stop="True" voice="ks11010_01_0246" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="まず仕込み銃にドリルをつけられるようにして&#xA;背中に機械の翼を装備できるようにする。" speaker_show="True" stop="True" voice="ks11010_01_0247" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ってこれじゃ信がロボットになっちゃうよー。" speaker_show="True" stop="True" voice="ks11010_01_0248" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そこまでやればカトーさんどころか&#xA;皆が師匠を神と崇めるのに。" speaker_show="True" stop="True" voice="ym11003_01_0873" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="もー。メイちゃん信をからかってるでしょ。" speaker_show="True" stop="True" voice="ks11010_01_0249" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="って冷めないうちに頂かないと。もぐもぐ。" speaker_show="True" stop="True" voice="ks11010_01_0250" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="そーいや、今日の訓練は何をするの？" speaker_show="True" stop="True" voice="ym11003_01_0874" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="全部は秘密だけど、潜伏訓練もやるわよ。" speaker_show="True" stop="True" voice="kt11009_01_0403" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="03_BackBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="（あ、カレーを食べた後なら、もしかして&#xA;匂いで分かるかも）" speaker_show="True" stop="True" voice="mm11001_01_1026" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="カトリーナ" />
+    <msg window_type="SystemMsg" text="食事をして小休止をした後、ツキカゲは&#xA;今日も基地内で合同訓練を行っていた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="源 モモ" text="…あー。考えが甘かったーー！！&#xA;信先輩どこですかーー！！" speaker_show="True" stop="True" voice="mm11001_01_1027" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="カトリーナ" text="根をあげるのは早いわよ、&#xA;少しでも神の叡智を学ぶのよ。" speaker_show="True" stop="True" voice="kt11009_01_0404" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="カトリーナ" />
+    <Comment comment="信の服装は「私服（夏）」変更予定" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="高坂 信" text="（相変わらず潜伏スキルでは頼りにされてるなぁ）" speaker_show="True" stop="True" voice="ks11010_01_0251" lip_sync="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="（他でも先輩として輝けるようハッスルしよう！）" speaker_show="True" stop="True" voice="ks11010_01_0252" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

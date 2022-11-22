@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1003000002" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" volume="100" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" file="01_school1mo_002" effect_time="0" effect="Immediately" wait="False" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="空崎高校　教室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="020_Facial_thinking" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="テレちゃんと、もっと仲良くなりたいんだけど&#xA;どうすればいいと思う？" speaker_show="True" stop="True" voice="ig11006_01_0026" lip_sync="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ここはサプライズプレゼント作戦とか！&#xA;机の上にお菓子タワーとか！" speaker_show="True" stop="True" voice="mm11001_01_0059" lip_sync="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="テレちゃん甘いもの好きだから、&#xA;それいいかも。モモち、早速ありがとう。" speaker_show="True" stop="True" voice="ig11006_01_0027" lip_sync="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="ハロー先輩がた。" speaker_show="True" stop="True" voice="sf11004_01_0087" />
+    <move obj_id="相模 楓" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006004" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" face_anim_type="015_Facial_poker" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あれフーちゃん&#xA;二年のクラスにどうしたの？" speaker_show="True" stop="True" voice="mm11001_01_0060" lip_sync="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="今日アタシがバイトしてるメイド喫茶に来ると&#xA;なんと好きなものをアタシがおごってあげる！" speaker_show="True" stop="True" voice="sf11004_01_0088" lip_sync="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_unique" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_unique" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ええっ！？　ふ、フーちゃんが&#xA;誰かにおごるなんて！？" speaker_show="True" stop="True" voice="mm11001_01_0061" lip_sync="True" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="も、モモち舐めて見たら？&#xA;一応、もしかしてがあるから。" speaker_show="True" stop="True" voice="ig11006_01_0028" lip_sync="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="確かめなくてもアタシは本物よ。ほら、&#xA;師匠と信さんの件では二人に心配かけたから。" speaker_show="True" stop="True" voice="sf11004_01_0089" lip_sync="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="あれほぼ解決したから。お礼としてね。&#xA;オゴるわってこと。" speaker_show="True" stop="True" voice="sf11004_01_0090" lip_sync="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="解決したんだ！　良かったねフーちゃん。" speaker_show="True" stop="True" voice="mm11001_01_0062" lip_sync="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="八千代 命" data_id="311003004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="おろ？　フーってばどうしたん？　ははーん&#xA;メイに会いたくなったんジャロ？　ジャロジャロ？" speaker_show="True" stop="True" voice="ym11003_01_0062" lip_sync="True" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="013_Facial_angry" body_anim_type="15_Negative" loop="False" to_idle="False" force_end="False" />
+    <msg speaker="相模 楓" text="いーえモモちとごえっちに用事でしたので。&#xA;ではでは失礼します。" speaker_show="True" stop="True" voice="sf11004_01_0091" lip_sync="True" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="WalkAway" />
+    <move obj_id="相模 楓" position_id="left" x="-1000" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="八千代 命" text="くっ、よそよそしくされると&#xA;なんか気になるな。家で問い詰めよう。" speaker_show="True" stop="True" voice="ym11003_01_0063" lip_sync="True" />
+    <msg_window_show show="False" />
+    <transition type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="八千代 命" />
+    <Comment comment="商店街 夕方" />
+    <bg show="True" file="04_shopstreetmo_02" resource_type="Background" />
+    <transition type="In" color_change="False" time="0.5" wait="True" />
+    <telop text="商店街 夕方" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="畠山 結愛" data_id="399001001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="北斗 凪" data_id="399002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="True" />
+    <msg speaker="畠山 結愛" text="やー、二学期はじまってモモちが&#xA;楽しそうで安心したよ。もぐもぐ。コロッケうまし。" speaker_show="True" stop="True" voice="ha99001_01_0003" lip_sync="True" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="009_Facial_blush" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="北斗 凪" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="畠山 結愛" text="一学期はクラスが分かれて、新しい友達できるか&#xA;不安にしてたからさー。…次に口直しのアメ。" speaker_show="True" stop="True" voice="ha99001_01_0004" lip_sync="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="北斗 凪" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="畠山 結愛" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="あの時は落ちてたねー気分。でも石川さんと&#xA;八千代さんって素敵な友達がクラスで出来たから。" speaker_show="True" stop="True" voice="mm11001_01_0063" lip_sync="True" />
+    <char_spine_animation obj_id="北斗 凪" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="畠山 結愛" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="北斗 凪" text="私に話しかけてくれたんだから&#xA;すぐ友達作れるタイプだと思ってたよ。" speaker_show="True" stop="True" voice="hn99002_01_0002" lip_sync="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="凪ちゃんに話しかける時は、結構&#xA;勇気を振り絞ったんだよ。" speaker_show="True" stop="True" voice="mm11001_01_0064" lip_sync="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="諸星 明" text="はぁぁぁ。モモちゃんの笑顔は俺にとっての&#xA;ビタミン剤。キまると元気になるなぁ～。" speaker_show="True" stop="True" voice="ma99004_01_0006" lip_sync="True" />
+    <msg speaker="新垣 歩" text="はいはい。あまりそういう発言、しない方がいいわよ。" speaker_show="True" stop="True" voice="na99003_01_0003" lip_sync="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="北斗 凪" />
+    <delete obj_id="畠山 結愛" />
+    <delete obj_id="源 モモ" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" />
+    <delete obj_id="諸星 明" />
+    <delete obj_id="新垣 歩" />
+    <Comment comment="背景　クルーザー" />
+    <bg show="True" file="33_cruiserni_01" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="クルーザー" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="ツキカゲが束の間の日常を謳歌している間に&#xA;膨れ上がった悪意は新たな動きを見せ始めていた――。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

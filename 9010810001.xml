@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010810001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="02_wasabimo_001" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="テレジア　私服" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" lip_sync="False" text="（週末だからか、今日は人通りが多いな。&#xA;店の手伝いを引き受けて正解だったようだ。）" speaker_show="True" stop="True" voice="tr11007_02_0382" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" lip_sync="False" text="（開店時間まであと少し……。）" speaker_show="True" stop="True" voice="tr11007_02_0383" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="窓も拭いた、テーブルも拭いた、&#xA;イスもきれい並べた……よし、問題ないな。" speaker_show="True" stop="True" voice="tr11007_02_0384" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="うん。ピカピカで完璧だよ～。" speaker_show="True" stop="True" voice="ks11010_02_0496" />
+    <move obj_id="高坂 信" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <Comment comment="テレジア　私服" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="し、信！？&#xA;いつからそこに？" speaker_show="True" stop="True" voice="tr11007_02_0385" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="テレジアちゃんが掃除を始めたあたりからだよ。" speaker_show="True" stop="True" voice="ks11010_02_0497" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="カトさんが、開店前だけど&#xA;座って待っててって言ってくれたんだ。" speaker_show="True" stop="True" voice="ks11010_02_0498" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="19_Amazed" force_end="False" loop="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" force_end="False" loop="True" />
+    <msg speaker="テレジア" lip_sync="False" text="（同じ店内にいたのに&#xA;まったく気づかなかったということか……。）" speaker_show="True" stop="True" voice="tr11007_02_0386" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="さすが信だな。&#xA;その席のテーブルも拭いたのに全然気づかなかった。" speaker_show="True" stop="True" voice="tr11007_02_0387" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="まあ、邪魔にならないようにしてたからね。" speaker_show="True" stop="True" voice="ks11010_02_0499" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="おかげで、一生懸命掃除してるテレジアちゃんが&#xA;見られたよ。感心しちゃった。" speaker_show="True" stop="True" voice="ks11010_02_0500" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="020_Facial_thinking" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そうか？　食事をする場所は&#xA;清潔にしておいたほうがいいだろう？" speaker_show="True" stop="True" voice="tr11007_02_0388" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="それはそうなんだけど、丁寧だったっていうか。" speaker_show="True" stop="True" voice="ks11010_02_0501" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="それは当たり前だ。ここはカトリーナの店だからな。" speaker_show="True" stop="True" voice="tr11007_02_0389" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="うん、そうだね！&#xA;今の、カトさんが聞いたら喜ぶと思うな～。" speaker_show="True" stop="True" voice="ks11010_02_0502" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="そうだ、テレジアちゃんもカレー食べて行くでしょ？&#xA;今日は信がおごっちゃう。一緒に食べよう。" speaker_show="True" stop="True" voice="ks11010_02_0503" />
+    <char_spine_animation obj_id="テレジア" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="……ちょうどお腹も空いたところだが、&#xA;本当にいいのか？" speaker_show="True" stop="True" voice="tr11007_02_0390" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="うん！　せっかくだし、デザートもつけちゃおうか。" speaker_show="True" stop="True" voice="ks11010_02_0504" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="デザート……！&#xA;なんだか、開店が待ち遠しくなった。" speaker_show="True" stop="True" voice="tr11007_02_0391" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="高坂 信" text="ふふ、楽しみにするのはいいけど、&#xA;デザートはカレーの後だよ。" speaker_show="True" stop="True" voice="ks11010_02_0505" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そ、それはわかっている。" speaker_show="True" stop="True" voice="tr11007_02_0392" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="……よし、掃除は終わったから&#xA;カトリーナへ報告に行ってくる。" speaker_show="True" stop="True" voice="tr11007_02_0393" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="信は水でも飲んで待っていてくれ。" speaker_show="True" stop="True" voice="tr11007_02_0394" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="高坂 信" text="はーい。" speaker_show="True" stop="True" voice="ks11010_02_0506" />
+  </command>
+</adv>

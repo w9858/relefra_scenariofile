@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030301" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" volume="100" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="犬吠埼 風" data_id="396003003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" force_end="True" />
+    <msg speaker="犬吠埼 風" text="へえー、カレーに使うスパイスって&#xA;こんなに沢山あるんですねー。" speaker_show="True" stop="True" voice="if96003_01_0052" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="ええ。それぞれに効能があるから、食べる人の&#xA;体調を見て、配合を変えたりもするのよ？" speaker_show="True" stop="True" voice="kt11009_01_0329" />
+    <char_spine_animation obj_id="犬吠埼 風" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="奥が深いんだなぁ。アタシなんて、普段は&#xA;市販のルーに頼りっきりで……。" speaker_show="True" stop="True" voice="if96003_01_0053" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="市販のルーも馬鹿にできないけど、独自にいくつか&#xA;加えてあげるだけで、もっと美味しくなるわ。" speaker_show="True" stop="True" voice="kt11009_01_0330" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="犬吠埼 風" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="False" />
+    <move obj_id="カトリーナ" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" obj_id="東郷 美森" data_id="396002003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="それは、私達のような素人にも&#xA;学べば出来るものでしょうか？" speaker_show="True" stop="True" voice="tm96002_01_0073" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="勿論よ。" speaker_show="True" stop="True" voice="kt11009_01_0331" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="何よ、東郷。ずいぶん調子良いわね。&#xA;アンタ、洋食は作らないんじゃなかった？" speaker_show="True" stop="True" voice="if96003_01_0054" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="友奈ちゃんのためなら別です。&#xA;友奈ちゃんが喜ぶなら、例え火の中・洋の物。" speaker_show="True" stop="True" voice="tm96002_01_0074" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="解るわ。" speaker_show="True" stop="True" voice="kt11009_01_0332" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="まあ、うちも樹がカレー好きだし、&#xA;残してきた他のみんなも、そうじゃない？" speaker_show="True" stop="True" voice="if96003_01_0055" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="だから、帰ったら、とびっきり美味しい&#xA;カレーうどんを作ってあげようと思ってさ。" speaker_show="True" stop="True" voice="if96003_01_0056" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="ああ、それは良いですね。&#xA;きっと、みんな大喜びしますよ。" speaker_show="True" stop="True" voice="tm96002_01_0075" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="カレーうどん……考えて見れば&#xA;今まで、作ったことがなかったわね……。" speaker_show="True" stop="True" voice="kt11009_01_0333" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="じゃあ、良かったら、今から作ってみませんか？&#xA;最高のカレーうどんを！" speaker_show="True" stop="True" voice="if96003_01_0057" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="初めてなのに、上手くできるかしら……。" speaker_show="True" stop="True" voice="kt11009_01_0334" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="きっと大丈夫です。美味しいカレーうどん、&#xA;シン様も喜ばれると思いますよ？" speaker_show="True" stop="True" voice="tm96002_01_0076" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ハッ！　きっとそうね。そうに違いない。&#xA;やりましょう、東郷さん！" speaker_show="True" stop="True" voice="kt11009_01_0335" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="はいっ！" speaker_show="True" stop="True" voice="tm96002_01_0077" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="カトリーナ" position_id="left" x="-50" x_move_type="MoveTo" time="1.0" wait="False" />
+    <move obj_id="東郷 美森" position_id="left" x="-250" x_move_type="MoveTo" time="1.0" wait="True" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="101_Facial_trouble" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 風" text="はー、東郷がアメリカ人と固い握手なんて&#xA;誰に言っても絶対信じないわよね～。全く。" speaker_show="True" stop="True" voice="if96003_01_0058" />
+    <msg_window_show show="False" />
+    <move obj_id="カトリーナ" position_id="left" x="0" x_move_type="MoveTo" time="1.0" wait="False" />
+    <move obj_id="東郷 美森" position_id="left" x="-300" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="友奈ちゃんと石川さんが、ツキカゲの基地で&#xA;鍛錬中なので、後で２人にも食べてもらいましょう。" speaker_show="True" stop="True" voice="tm96002_01_0078" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="え、あの２人、そんな真面目なことしてんの？" speaker_show="True" stop="True" voice="if96003_01_0059" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="東郷 美森" text="はい。友奈ちゃんの技が珍しいみたいで&#xA;石川さんが、詳しく話を聞きたいとか。" speaker_show="True" stop="True" voice="tm96002_01_0079" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="ふーん。じゃあ、お腹空かせて帰ってくるわね。&#xA;ボリュームのあるトッピングにしないと。" speaker_show="True" stop="True" voice="if96003_01_0060" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="それと、疲労回復も考えてスパイスの配合を&#xA;考えていきましょうね。" speaker_show="True" stop="True" voice="kt11009_01_0336" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="東郷 美森" text="あ、ですが、こちらのお店にうどんの麺は&#xA;置いてあるのでしょうか？" speaker_show="True" stop="True" voice="tm96002_01_0080" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="それなら大丈夫。昨日のミッションで押収した&#xA;小麦粉がドッサリ、倉庫で眠ってるから。" speaker_show="True" stop="True" voice="kt11009_01_0337" />
+    <char_spine_animation obj_id="犬吠埼 風" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 風" text="よぉーし！　それじゃあ、うどんも自家製で&#xA;いっちょやっちゃいますかーーー！" speaker_show="True" stop="True" voice="if96003_01_0061" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="東郷 美森" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="美森・カトリーナ" text="おー♪" speaker_show="True" stop="True" voice="3007030301_01" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

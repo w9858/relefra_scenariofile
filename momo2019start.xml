@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="PromoAdv/PromoAdv_001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv1" volume="50" />
+    <function_menu_show show="False" />
+    <auto_mode active="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" />
+    <bg file="23_rivermo_01" />
+    <create obj_id="源 モモ" data_id="311001005" />
+    <fade_in time="1" type="Default" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="あけましておめでとう！" speaker_show="True" stop="True" voice="02_01" />
+    <msg speaker="源 モモ" text="えっへっへー、これから初詣に行くんだー。" speaker_show="True" stop="True" voice="02_02" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="11_Point" />
+    <msg speaker="源 モモ" text="お参りしてー、屋台を見回ってー、&#xA;今日はみんなでいっぱい楽しもうね！" speaker_show="True" stop="True" voice="02_03" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="源 モモ" text="遊んでばっかりってわけじゃないよ。&#xA;スパイには息抜きも必要なんだから。" speaker_show="True" stop="True" voice="02_04" />
+    <msg speaker="源 モモ" text="休むときは休む、キめるときはキめる。&#xA;これが大事なんだよ。" speaker_show="True" stop="True" voice="02_05" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="02_Idle" loop="True" />
+    <msg speaker="源 モモ" text="改めて、今年もよろしくお願いします！" speaker_show="True" stop="True" voice="02_06" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="源 モモ" text="リリース ザ スパイス シークレット フレグランス、&#xA;事前登録受付中！" speaker_show="True" stop="True" voice="02_07" />
+  </command>
+</adv>

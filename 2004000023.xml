@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2004000023" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="背景、キャラクターは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg file="44_raimuhouseev_01" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様、朝ですわ。" speaker_show="True" stop="True" voice="sm13002_02_0187" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="24_bodyUnique" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="むにゃ……朝起きの胸揉み。せいや。" speaker_show="True" stop="True" voice="sr13001_02_0374" />
+    <move obj_id="敷島 来夢" position_id="left" x="100" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Push" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="今のはどのような意味があるのですか&#xA;お聞かせ下されマスター。" speaker_show="True" stop="True" voice="am13002_02_0053" />
+    <move obj_id="敷島 来夢" position_id="left" x="0" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ぬっ、愛よ愛。" speaker_show="True" stop="True" voice="sr13001_02_0375" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="にしても、アミィに身代わりさせるとは&#xA;やるわねマル。ふわー。起きるか。" speaker_show="True" stop="True" voice="sr13001_02_0376" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="今日も良い天気でございまする、マスター。" speaker_show="True" stop="True" voice="am13002_02_0054" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="……やー。ＺＥＴはコードネームが武将系だから&#xA;アミィのしゃべり方に個性をつけてみたけど。" speaker_show="True" stop="True" voice="sr13001_02_0377" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="016_Facial_smileBitter" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="マルと同じく怪しい口調になってるわねぇ。" speaker_show="True" stop="True" voice="sr13001_02_0378" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="で、ありますか？" speaker_show="True" stop="True" voice="am13002_02_0055" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="で、あるよ。そういう所よ。" speaker_show="True" stop="True" voice="sr13001_02_0379" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="013_Facial_angry" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="お姉様失礼な。私は正当派令嬢口調ですわ" speaker_show="True" stop="True" voice="sm13002_02_0188" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="アミィ" text="アミィはこの口調、気に入っておりまする。&#xA;コードネームのヒデヨシも。" speaker_show="True" stop="True" voice="am13002_02_0056" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="今日も一日、楽しく過ごしましょうぞ。" speaker_show="True" stop="True" voice="am13002_02_0057" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="アミィ" />
+    <delete obj_id="敷島 真留瀬" />
+    <msg window_type="SystemMsg" text="敷島来夢は稼働テストという名目でまだ&#xA;アミィの事は世間に発表していなかった。" stop="True" />
+    <msg window_type="SystemMsg" text="敷島の社長までいけば人形を秘書に&#xA;使っていてもさほど違和感はない。" stop="True" />
+    <msg window_type="SystemMsg" text="アミィは昼間は来夢の秘書として、&#xA;夜はＺＥＴのメンバーとして働いていた。" stop="True" />
+    <msg_window_show show="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM14_Adv4" />
+    <bg file="14_car_03" />
+    <fade_in time="1.0" type="LeftToRight" wait="True" />
+    <sound type="Bgm" cue_name="Adv4" />
+    <create type="Character" obj_id="クリッシー" data_id="316001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="基地が潰されたおかげでリザードが日本で&#xA;勢力図を拡げる事が遅れてしまいました。" speaker_show="True" stop="True" voice="ks16001_02_0028" />
+    <msg speaker="リザード社員" text="しかしゾーイ様は本当に倒されたのでしょうか。&#xA;なにせゾーイ様は。" speaker_show="True" stop="True" voice="rs16002_02_0001" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="ゾーイ？　知らない人ですね。ＨＡＨＡＨＡ、&#xA;ここからはワタシの時代です。" speaker_show="True" stop="True" voice="ks16001_02_0029" />
+    <msg speaker="リザード社員" text="……クリッシー様なら数年で目標を&#xA;実現できると思います。" speaker_show="True" stop="True" voice="rs16002_02_0002" />
+    <char_spine_animation obj_id="クリッシー" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="クリッシー" text="ボォブ。素敵な事を言いますね。フフフ、&#xA;ワタシのレジェンドはここからはじまるのです。" speaker_show="True" stop="True" voice="ks16001_02_0030" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

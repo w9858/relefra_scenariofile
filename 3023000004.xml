@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3023000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound cue_name="Briefing" type="Bgm" />
+    <bg file="22_plant_06" resource_type="Background" show="True" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop in_time="0.5" show_time="0.5" out_time="0.5" wait="True" text="倉庫部屋" />
+    <msg speaker="舞台監督" text="う……ぅう……ん？　こ、ここどこ!?&#xA;なっ、なんで縛られてるの！" speaker_show="True" stop="True" voice="99031_03_0005" />
+    <create type="Character" obj_id="源 モモ" data_id="311001020" position_id="left" x="-130" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002021" x="200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="結論から言う。あなたの送信した過去の暗号は&#xA;全て傍受、解読した。計画の全貌を吐いて。" speaker_show="True" stop="True" voice="hy11002_03_0114" />
+    <msg speaker="舞台監督" text="はあ？　意味が解らない。裏方の仲間は&#xA;同じスタッフジャンパー着てる全員よ。" speaker_show="True" stop="True" voice="99031_03_0006" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="暗殺計画は把握済み。言っておくけど&#xA;我々は警察じゃないから逮捕はできない。" speaker_show="True" stop="True" voice="hy11002_03_0115" />
+    <msg speaker="舞台監督" text="へー……。だったら、これもう監禁で犯罪ね。&#xA;ヤバイわよ、あんた。" speaker_show="True" stop="True" voice="99031_03_0007" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。だから、吐かないというなら&#xA;あなたにはここで死んでもらうことになる。" speaker_show="True" stop="True" voice="hy11002_03_0116" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="モモ・舞台監督" text="えっ!?" speaker_show="True" stop="True" voice="3023000004_union_001" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="さ、さすがにそれはマズいですよー。&#xA;死体とかどうするんですかあー？" speaker_show="True" stop="True" voice="mm11001_03_0167" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="バラして、着ぐるみの中に詰めて運び出せば&#xA;後はどうとでもなるわ。組織に任せる。" speaker_show="True" stop="True" voice="hy11002_03_0117" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あぁ……だったらまぁ。何とかなりますね♪" speaker_show="True" stop="True" voice="mm11001_03_0168" />
+    <msg speaker="舞台監督" text="そ、組織って……あんたら何者!?" speaker_show="True" stop="True" voice="99031_03_0009" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="聞きたい？　聞いたら、たとえ情報を吐いても&#xA;生きたまま切り刻まれることになるけど。" speaker_show="True" stop="True" voice="hy11002_03_0118" />
+    <sound type="Se" cue_name="SwordHeavy" />
+    <wait time="1.0" />
+    <msg speaker="舞台監督" text="ヒッ!?　わ、私はただの舞台監督で、連絡係よ。&#xA;ショーに関する変更を逐一報告するだけなの！" speaker_show="True" stop="True" voice="99031_03_0010" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="源 モモ" text="ちょっと失礼……ぺろっ。" speaker_show="True" stop="True" voice="mm11001_03_0169" />
+    <msg speaker="舞台監督" text="ひゃあっ!?　な、なにするの……食べないで！&#xA;私はギャラが安いから小遣い稼ぎしただけで！" speaker_show="True" stop="True" voice="99031_03_0011" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="嘘はついてないみたいです。じゃあ、さっきの&#xA;通信はどういう意味だったんですか？" speaker_show="True" stop="True" voice="mm11001_03_0170" />
+    <msg speaker="舞台監督" text="白鳥の湖のパートで、最後にオデット姫のリフトが&#xA;ちょっと変更になったってだけの話！" speaker_show="True" stop="True" voice="99031_03_0012" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="白鳥の湖？　確かそれは、第１部のラストで&#xA;有名なバレエの登場人物達が総出演する……。" speaker_show="True" stop="True" voice="hy11002_03_0119" />
+    <msg speaker="舞台監督" text="そうそう！　チャイコフスキーバレエに対する&#xA;リスペクトで壮大な演出……なんだけど。" speaker_show="True" stop="True" voice="99031_03_0013" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="けど？" speaker_show="True" stop="True" voice="mm11001_03_0171" />
+    <msg speaker="舞台監督" text="メインスケーターからのたっての頼みで&#xA;〆の曲を『乙女の祈り』にしてくれって……。" speaker_show="True" stop="True" voice="99031_03_0014" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <lip_sync target1="源 モモ" target2="半蔵門 雪" />
+    <msg speaker="モモ・雪" text="乙女……！" speaker_show="True" stop="True" voice="3023000004_union_002" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="半蔵門 雪" />
+    <bg file="11_hospital_01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="廊下" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006018" position_id="left" x="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="じゃあ、振り付けが変わったのは&#xA;完全に単なる思いつき……だったんですか？" speaker_show="True" stop="True" voice="ig11006_03_0164" />
+    <msg speaker="演出家" text="そうそう。曲も変わったことだし、ゲネ見て&#xA;最後はもっと派手にしないとって考えたわけ。" speaker_show="True" stop="True" voice="99032_03_0001" />
+    <msg speaker="演出家" text="スワンレイクのモチーフで曲を変えろなんて&#xA;大冒険よねー。有名な作品なのにさー。" speaker_show="True" stop="True" voice="99032_03_0002" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="曲って、演出家さんが決める物じゃないんですか？&#xA;しかも、こんな直前に変更なんて誰が……。" speaker_show="True" stop="True" voice="ig11006_03_0165" />
+    <msg speaker="演出家" text="まあねー。でも、天下のマドベージェフスカヤの&#xA;御所望とあらば逆らえないっしょ。" speaker_show="True" stop="True" voice="99032_03_0003" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="マドベージェフスカヤ……？　あ、あの現役の&#xA;オリンピック選手ですか!?" speaker_show="True" stop="True" voice="ig11006_03_0166" />
+    <msg speaker="演出家" text="彼女、まだ現役だから、こういうのに出ても&#xA;ノーギャラなのに、よく来てくれたと思うわ。" speaker_show="True" stop="True" voice="99032_03_0004" />
+    <msg speaker="演出家" text="正直、このショーに出演する事で、彼女に&#xA;発生するメリットって何もないのにねぇ。" speaker_show="True" stop="True" voice="99032_03_0005" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="すでに名の売れている現役選手が、&#xA;ショーに参加するメリット……。" speaker_show="True" stop="True" voice="ig11006_03_0167" />
+    <msg speaker="演出家" text="日本が好きで来たかったとか？　アハハ。&#xA;旅行気分ではっちゃけちゃったのかなー。" speaker_show="True" stop="True" voice="99032_03_0006" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="マドベージェフスカヤ選手………調べてみなきゃ。" speaker_show="True" stop="True" voice="ig11006_03_0168" />
+    <fade_out time="1" type="Default" wait="True" />
+  </command>
+</adv>

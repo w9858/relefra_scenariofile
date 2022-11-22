@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2001000016battle" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="背景指示なし" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="こいつを使って&#xA;狩ってやる！！" speaker_show="True" stop="True" voice="bk11008_01_0071" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="スパイス！？" speaker_show="True" stop="True" voice="mm11001_01_0332" />
+    <char_spine_animation obj_id="白虎" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <sound type="Se" cue_name="Spice" />
+    <char_spine_eye obj_id="白虎" type="Eye02_spyce" loop="True" />
+    <create_effect effect_id="白虎Effect" effect_type="EffectShockWave" target_obj="白虎" />
+    <msg speaker="白虎" text="なるほど、こりゃ便利。力が漲らぁ！" speaker_show="True" stop="True" voice="bk11008_01_0072" />
+    <wait time="0.4" />
+    <delete obj_id="白虎Effect" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

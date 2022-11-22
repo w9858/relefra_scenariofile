@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003000006" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound cue_name="Adv2" type="Bgm" />
+    <bg show="True" file="07_containerni_02" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="色々回ってみたけど、やっぱりどこも&#xA;平和みたいだね。今日のところはこの辺で……。" speaker_show="True" stop="True" voice="mm11001_01_0612" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="チッチッチ。甘いねぇ、モモち君。&#xA;名探偵メイの勘によると、あの辺りが匂うがね。" speaker_show="True" stop="True" voice="ym11003_01_0438" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="20_PositiveDouble" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="クンクン……。&#xA;特に不審な匂いはなさそうだけど。" speaker_show="True" stop="True" voice="mm11001_01_0613" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="面白そうなモノを嗅ぎ分けるのはメイの方が&#xA;得意なんだぜ！　しのごの言わずにレッツゴー！" speaker_show="True" stop="True" voice="ym11003_01_0439" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="八千代 命" position_id="left" x="1500" time="1" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="101_Facial_trouble" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="わー、メイちゃん、待ってー。" speaker_show="True" stop="True" voice="mm11001_01_0614" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <move obj_id="源 モモ" position_id="left" x="1500" time="1" wait="True" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="16_BendBackward" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="うそ！　師匠の言った方向に、本当に&#xA;怪しい影発見！" speaker_show="True" stop="True" voice="sf11004_01_0478" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="これ、もしかして人形の破片じゃ……。" speaker_show="True" stop="True" voice="ig11006_01_0281" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="事件の匂いがしてきましたなぁ。" speaker_show="True" stop="True" voice="ym11003_01_0440" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="メイちゃん本物の探偵みたい！" speaker_show="True" stop="True" voice="mm11001_01_0615" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="モモち！　暴走しちゃうから&#xA;あんまり調子に乗せないでよ！" speaker_show="True" stop="True" voice="sf11004_01_0479" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="無残に破壊された人形の破片、そしてこの、&#xA;コンテナターミナルというロケーション……。" speaker_show="True" stop="True" voice="ym11003_01_0441" />
+    <sound type="Se" />
+    <Comment comment="【SE】シャキーンなどかっこいい音" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="謎は大体解けたっ！" speaker_show="True" stop="True" voice="ym11003_01_0442" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="人形の破片は、&#xA;違法取引されたものに違いない！" speaker_show="True" stop="True" voice="ym11003_01_0443" />
+    <move obj_id="八千代 命" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="13_Question" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="でもそうだとしたら、何でここまで&#xA;破壊されてるのかな？　私たち退治してないよね。" speaker_show="True" stop="True" voice="mm11001_01_0616" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="なかなかいい質問だねぇ、モモち君。&#xA;名探偵メイの推理を披露しよう。" speaker_show="True" stop="True" voice="ym11003_01_0444" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="実はこの世界には、ツキカゲ以外にも正義の&#xA;スーパーヒーローが存在していた！" speaker_show="True" stop="True" voice="ym11003_01_0445" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="ある日、スーパーヒーローたちはツキカゲの活躍を&#xA;目の当たりにしてこう呟いたんだ。" speaker_show="True" stop="True" voice="ym11003_01_0446" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ゴクリ……。一体何と……。" speaker_show="True" stop="True" voice="mm11001_01_0617" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="「かっこいい～！」ってね。" speaker_show="True" stop="True" voice="ym11003_01_0447" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="19_Amazed" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="何でスーパーヒーローのくせにツキカゲに&#xA;憧れちゃってるんですか！" speaker_show="True" stop="True" voice="sf11004_01_0480" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="そうして、スーパーヒーローはツキカゲのような&#xA;超絶カッコイイ正義の味方になるべく修行を重ね……。" speaker_show="True" stop="True" voice="ym11003_01_0448" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="敵を倒せるまでの戦力を身につけたのであーる！" speaker_show="True" stop="True" voice="ym11003_01_0449" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="五恵・楓" text="……。" speaker_show="True" stop="True" voice="3003000006_union_001" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <sound type="Se" />
+    <Comment comment="【SE】拍手の音" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="すご～い！　私、スーパーヒーローを見つけて、&#xA;サインもらいたい！" speaker_show="True" stop="True" voice="mm11001_01_0618" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="相模 楓" text="モモちって本当ミーハーね。" speaker_show="True" stop="True" voice="sf11004_01_0482" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="うん、今の推理を聞いてサインが欲しいなんて、&#xA;普通は思わないよね……。" speaker_show="True" stop="True" voice="ig11006_01_0283" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="ん？" speaker_show="True" stop="True" voice="mm11001_01_0619" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="くんくん……。&#xA;くんくんくんくん。" speaker_show="True" stop="True" voice="mm11001_01_0620" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="015_Facial_poker" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="どうしたの？　モモち。" speaker_show="True" stop="True" voice="ig11006_01_0284" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="源 モモ" text="何でだろう。&#xA;今ね、一瞬師匠の匂いがしたの。" speaker_show="True" stop="True" voice="mm11001_01_0621" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="08_MouthBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="はっ……！" speaker_show="True" stop="True" voice="ig11006_01_0285" />
+    <move obj_id="石川 五恵" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="八千代 命" text="ん？　どうしたんだね？　ごえ君。" speaker_show="True" stop="True" voice="ym11003_01_0450" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="ううん、何でもない……。" speaker_show="True" stop="True" voice="ig11006_01_0286" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

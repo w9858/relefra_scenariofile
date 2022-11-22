@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020000003" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM12_Adv2" />
+    <sound type="Bgm" cue_name="Adv2" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop in_time="1.0" show_time="2.0" out_time="1.0" wait="True" text="ツキカゲ基地" />
+    <msg window_type="SystemMsg" text="カトリーナに促されるがまま、ごらく部の４人は&#xA;ツキカゲ基地内部へと入っていく。" stop="True" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="001_Facial_blink" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="赤座 あかり" text="ふわぁ～、凄い。お店の奥って&#xA;こんな風になってたんだぁ。" speaker_show="True" stop="True" voice="aa95001_03_0007" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="船見 結衣" text="裏メニュー、みたいな感じなのかな？" speaker_show="True" stop="True" voice="fy95003_03_0017" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="裏と言えば裏ですけどねー。&#xA;うふふ。" speaker_show="True" stop="True" voice="kt11009_03_0047" />
+    <delete obj_id="赤座 あかり" />
+    <delete obj_id="船見 結衣" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004002" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="018_Facial_smug" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="これは意外性のあるいいお店だわー。&#xA;私の見込み通りね、うんうん。" speaker_show="True" stop="True" voice="tk95002_03_0017" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="吉川 ちなつ" text="見込んでなかったですよね、別に。" speaker_show="True" stop="True" voice="yc95004_03_0006" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="歳納 京子" />
+    <delete obj_id="吉川 ちなつ" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_006" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="カトリーナ" text="あら、初芽ちゃんと白虎ちゃんじゃない。&#xA;ミーティングも終わったのにどうしたの？" speaker_show="True" stop="True" voice="kt11009_03_0048" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="青葉 初芽" text="あ、師匠。実は最近、白虎ちゃんが家で&#xA;少～しばかり目に余る悪戯をしちゃってですね。" speaker_show="True" stop="True" voice="ah11005_03_0012" />
+    <char_spine_animation obj_id="青葉 初芽" force_end="False" loop="True" mixing="True" body_anim_type="11_Point" />
+    <msg speaker="青葉 初芽" text="その罰として、ここのお掃除を&#xA;お願いしようかと思いまして。" speaker_show="True" stop="True" voice="ah11005_03_0013" />
+    <char_spine_animation obj_id="白虎" face_anim_type="013_Facial_angry" force_end="False" loop="True" mixing="True" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="ちょっとくらい悪戯したっていいじゃないか！&#xA;変な我慢はストレスがどうとかで身体に毒なんだぞ。" speaker_show="True" stop="True" voice="bk11008_03_0017" />
+    <char_spine_animation obj_id="カトリーナ" force_end="False" loop="True" mixing="True" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="カトリーナ" text="まあ、お掃除してもらえる分には&#xA;私としては助かるけれど。" speaker_show="True" stop="True" voice="kt11009_03_0049" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="310" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="10" y="0" anchor="Bottom" />
+    <move obj_id="歳納 京子" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="船見 結衣" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="018_Facial_smug" force_end="False" loop="True" mixing="True" body_anim_type="11_Point" />
+    <msg speaker="歳納 京子" text="バレない所までやり切ってこそ悪戯なのじゃぞ。&#xA;まだまだだな、ロリっ子よ。" speaker_show="True" stop="True" voice="tk95002_03_0018" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" body_anim_type="04_HipLeftHand" />
+    <msg speaker="船見 結衣" text="お前はどうして上から目線なんだよ。" speaker_show="True" stop="True" voice="fy95003_03_0018" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" />
+    <msg speaker="白虎" text="ん、私の噂か？　ていうか知らない４人組が&#xA;入って来てるぞ。" speaker_show="True" stop="True" voice="bk11008_03_0018" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" body_anim_type="11_Point" />
+    <msg speaker="白虎" text="まだ弱そうな子供達じゃないか。&#xA;カトリーナにアメちゃん貰って帰るといい。" speaker_show="True" stop="True" voice="bk11008_03_0019" />
+    <delete obj_id="歳納 京子" />
+    <delete obj_id="船見 結衣" />
+    <move obj_id="白虎" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="210" y="0" anchor="Bottom" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="カトリーナ" text="初対面の相手に&#xA;失礼な事を言わないの。" speaker_show="True" stop="True" voice="kt11009_03_0050" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" body_anim_type="04_HipLeftHand" />
+    <msg speaker="白虎" text="別にいいだろう、事実なんだし。特にそっちの黒髪が&#xA;真面目な雰囲気漂ってて弱そうだな。" speaker_show="True" stop="True" voice="bk11008_03_0020" />
+    <delete obj_id="カトリーナ" />
+    <move obj_id="白虎" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="吉川 ちなつ" data_id="394004002" position_id="left" x="10" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="310" y="0" anchor="Bottom" />
+    <move obj_id="船見 結衣" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="吉川 ちなつ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" body_anim_type="05_HipBothHands" />
+    <msg speaker="吉川 ちなつ" text="ちょ、あなた何言ってるんですか!?&#xA;結衣先輩は弱くなんてありません！" speaker_show="True" stop="True" voice="yc95004_03_0007" />
+    <char_spine_animation obj_id="吉川 ちなつ" force_end="False" loop="True" mixing="True" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="吉川 ちなつ" text="その気になったら、相手のことを&#xA;軽く八つ裂きにするくらいの力はあるんですよ？" speaker_show="True" stop="True" voice="yc95004_03_0008" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="船見 結衣" force_end="False" loop="False" mixing="True" body_anim_type="15_Negative" />
+    <msg speaker="船見 結衣" text="いや、ごめん。&#xA;そんな怪力はないから。" speaker_show="True" stop="True" voice="fy95003_03_0019" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="021_Facial_exciting" force_end="False" loop="True" mixing="True" body_anim_type="09_PutHands" />
+    <msg speaker="吉川 ちなつ" text="私なんて、結衣先輩に迫られたら&#xA;簡単に押し倒されちゃうんですから！" speaker_show="True" stop="True" voice="yc95004_03_0009" />
+    <delete obj_id="船見 結衣" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="330" y="0" anchor="Bottom" />
+    <move obj_id="歳納 京子" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" body_anim_type="13_Question" />
+    <msg speaker="歳納 京子" text="それは、ちなつちゃんの願望なような。" speaker_show="True" stop="True" voice="tk95002_03_0019" />
+    <char_spine_animation obj_id="吉川 ちなつ" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" body_anim_type="07_ChestBothHands" />
+    <msg speaker="吉川 ちなつ" text="とにかくさっきの暴言を&#xA;取り消してくださいっ！" speaker_show="True" stop="True" voice="yc95004_03_0010" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" body_anim_type="18_ArmsCrossed" />
+    <msg speaker="白虎" text="お、この白虎様とやるっていうのか？&#xA;喧嘩なら買うぞ、バッチコイだ！" speaker_show="True" stop="True" voice="bk11008_03_0021" />
+    <char_spine_animation obj_id="白虎" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" body_anim_type="05_HipBothHands" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="白虎" text="雑巾掛けレースなんてどうだ？&#xA;これならお前にも勝ち目があるだろう！" speaker_show="True" stop="True" voice="bk11008_03_0022" />
+    <delete obj_id="Smile" />
+    <delete obj_id="歳納 京子" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="330" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="青葉 初芽" text="さり気なくお掃除を&#xA;押し付けようとしないでください。" speaker_show="True" stop="True" voice="ah11005_03_0014" />
+    <delete obj_id="吉川 ちなつ" />
+    <move obj_id="青葉 初芽" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="350" y="0" anchor="Bottom" />
+    <move obj_id="カトリーナ" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" body_anim_type="04_HipLeftHand" />
+    <msg speaker="カトリーナ" text="この子達は、仲間になるかも知れないんだから、&#xA;もっと仲良くしなくちゃ駄目よ。" speaker_show="True" stop="True" voice="kt11009_03_0051" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" force_end="False" loop="True" mixing="True" body_anim_type="11_Point" />
+    <msg speaker="青葉 初芽" text="あ、ひょっとして、&#xA;モモちゃんと楓ちゃんの……ですか？" speaker_show="True" stop="True" voice="ah11005_03_0015" />
+    <char_spine_animation obj_id="白虎" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" body_anim_type="13_Question" />
+    <msg speaker="白虎" text="ひょっとして、ってどういう事だ？" speaker_show="True" stop="True" voice="bk11008_03_0023" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="青葉 初芽" text="それはですね……。" speaker_show="True" stop="True" voice="ah11005_03_0016" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" force_end="False" loop="True" mixing="True" body_anim_type="08_MouthBothHands" />
+    <msg speaker="カトリーナ" text="いけない、お店を開けたままにしちゃってたから&#xA;そろそろ戻らないと。" speaker_show="True" stop="True" voice="kt11009_03_0052" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" body_anim_type="06_ChestLeftHand" />
+    <create_effect effect_id="Sweat" effect_type="MampSweat" life_time="2.0" target_obj="カトリーナ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="カトリーナ" text="初芽ちゃん、この子達に基地の案内、&#xA;頼めるかしら？" speaker_show="True" stop="True" voice="kt11009_03_0053" />
+    <delete obj_id="Sweat" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="青葉 初芽" force_end="False" loop="False" mixing="True" body_anim_type="14_Positive" />
+    <msg speaker="青葉 初芽" text="はい、もちろんです。" speaker_show="True" stop="True" voice="ah11005_03_0017" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="白虎" />
+    <move obj_id="カトリーナ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="赤座 あかり" data_id="394001002" position_id="left" x="-250" y="0" anchor="Bottom" />
+    <move obj_id="赤座 あかり" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="(シン様に似た彼女を見ていられないのは&#xA;名残り惜しいけれど……。)" speaker_show="True" stop="True" voice="kt11009_03_0054" lip_sync="False" />
+    <char_spine_animation obj_id="赤座 あかり" face_anim_type="011_Facial_surprise" force_end="False" loop="True" mixing="True" body_anim_type="07_ChestBothHands" />
+    <msg speaker="赤座 あかり" text="え、ど、どうしたんですか？&#xA;じっと見つめて。" speaker_show="True" stop="True" voice="aa95001_03_0008" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="016_Facial_smileBitter" force_end="False" loop="False" mixing="True" body_anim_type="15_Negative" />
+    <msg speaker="カトリーナ" text="ごめんなさい、何でもないわ。&#xA;じゃあ、私はこれで。" speaker_show="True" stop="True" voice="kt11009_03_0055" />
+    <sound type="Se" cue_name="Walk" />
+    <move obj_id="カトリーナ" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1.0" wait="True" />
+    <wait time="1.0" />
+    <delete obj_id="白虎" />
+    <move obj_id="赤座 あかり" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="赤座 あかり" force_end="False" loop="True" mixing="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="赤座 あかり" text="店員さん、行っちゃった。" speaker_show="True" stop="True" voice="aa95001_03_0009" />
+    <delete obj_id="赤座 あかり" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="011_Facial_surprise" force_end="False" loop="True" mixing="True" body_anim_type="13_Question" />
+    <msg speaker="歳納 京子" text="ここで待ってたら&#xA;料理が出てくるのかな？" speaker_show="True" stop="True" voice="tk95002_03_0020" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" body_anim_type="03_BackBothHands" />
+    <msg speaker="青葉 初芽" text="ご案内を引き継ぎました、青葉 初芽と申します。&#xA;よろしくお願いします。" speaker_show="True" stop="True" voice="ah11005_03_0018" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="青葉 初芽" text="それでは、こちらにどうぞ。&#xA;白虎ちゃんはお掃除続けててくださいね。" speaker_show="True" stop="True" voice="ah11005_03_0019" />
+    <char_spine_animation obj_id="白虎" face_anim_type="013_Facial_angry" force_end="False" loop="True" mixing="True" body_anim_type="05_HipBothHands" />
+    <msg speaker="白虎" text="ぶー。" speaker_show="True" stop="True" voice="bk11008_03_0024" />
+    <delete obj_id="歳納 京子" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="白虎" />
+    <create type="Character" obj_id="船見 結衣" data_id="394003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="船見 結衣" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" body_anim_type="04_HipLeftHand" />
+    <msg speaker="船見 結衣" text="まだ奥があるのか……。" speaker_show="True" stop="True" voice="fy95003_03_0020" />
+    <char_spine_animation obj_id="船見 結衣" force_end="False" loop="True" mixing="True" body_anim_type="13_Question" />
+    <msg speaker="船見 結衣" text="(何だか……このお店、おかしくない？&#xA;本当にただのカレー屋なのかな。)" speaker_show="True" stop="True" voice="fy95003_03_0021" lip_sync="False" />
+    <msg_window_show show="False" />
+    <sound_stop cue_name="Adv2" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

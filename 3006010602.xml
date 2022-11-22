@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3006010602" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Adv6 楽しい・デート" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="パーティ会場" />
+    <bg show="True" file="30_birthdayparty_01" />
+    <fade_in time="1" wait="True" />
+    <telop text="パーティ会場" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006010" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="それではごえちゃん、行きましょうか。" speaker_show="True" stop="True" voice="ah11005_01_0422" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="はいっ！ 誠心誠意、師匠のお供を&#xA;務めさせていただきます！" speaker_show="True" stop="True" voice="ig11006_01_0410" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="ふふ、そんなに緊張しなくても、いつも通りの&#xA;ごえちゃんでいてくれれば大丈夫ですよ。" speaker_show="True" stop="True" voice="ah11005_01_0423" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Walk" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005009" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006010" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（堂々と……。平常心、平常心……。&#xA;大丈夫、だって私はスパイだもの）" speaker_show="True" stop="True" voice="ig11006_01_0411" lip_sync="False" />
+    <msg speaker="老婦人" text="まぁ、初芽さん、お誕生日おめでとう。&#xA;しばらく見ない間にお綺麗になって。" speaker_show="True" stop="True" voice="99048_01_0001" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="あら、田園調布のお婆様！　今日はわざわざ&#xA;来てくださってありがとうございます。" speaker_show="True" stop="True" voice="ah11005_01_0424" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="お婆様も、お元気そうで何よりです。" speaker_show="True" stop="True" voice="ah11005_01_0425" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（あんなゴージャスで優雅な奥さんとも臆することなく&#xA;お話できるなんて、師匠、やっぱり凄い……）" speaker_show="True" stop="True" voice="ig11006_01_0412" lip_sync="False" />
+    <msg speaker="老婦人" text="お隣にいらっしゃるお嬢さんも素敵ですわね。&#xA;美人でスタイルが良くて、女優さんか何かかしら？" speaker_show="True" stop="True" voice="99048_01_0002" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <create_effect effect_id="goe_Sweat" effect_type="MampSweat" life_time="1" target_obj="石川 五恵" />
+    <msg speaker="石川 五恵" text="（も、もしかして私のこと!?）" speaker_show="True" stop="True" voice="ig11006_01_0413" lip_sync="False" />
+    <delete obj_id="goe_Sweat" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="石川 五恵" text="（……いけないいけない、まずは深呼吸。&#xA;どんな時も優雅に落ち着いて）" speaker_show="True" stop="True" voice="ig11006_01_0414" lip_sync="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="お婆様、こちらは私の大切なお友達の、&#xA;ごえちゃんです。" speaker_show="True" stop="True" voice="ah11005_01_0426" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="初めまして、初芽さんの親友の、&#xA;石川五恵と申します。" speaker_show="True" stop="True" voice="ig11006_01_0415" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（ほっ、ひとまず平常心で優雅に振舞えたはず。&#xA;師弟関係も隠して、親友って……）" speaker_show="True" stop="True" voice="ig11006_01_0416" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（はっ、どうしよう！&#xA;よくよく考えたら、私……）" speaker_show="True" stop="True" voice="ig11006_01_0417" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（師匠のことを親友だなんて、いくら何でも&#xA;図々しすぎたんじゃ……。どうしよう……）" speaker_show="True" stop="True" voice="ig11006_01_0418" lip_sync="False" />
+    <msg speaker="老婦人" text="初芽さんにはこんな素敵でしっかりしたご親友が&#xA;いらっしゃるのね。安心いたしましたわ。" speaker_show="True" stop="True" voice="99048_01_0003" />
+    <msg speaker="石川 五恵" text="（どうしよう……、親友じゃなくて普通のお友達です&#xA;って、訂正した方がいいのかな……）" speaker_show="True" stop="True" voice="ig11006_01_0419" lip_sync="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="青葉 初芽" text="はい、お婆様。可愛くて優しくてお料理が上手な&#xA;自慢の親友なんですよ。ぜひお見知りおきを。" speaker_show="True" stop="True" voice="ah11005_01_0427" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（師匠……。師匠が親友って言ってくれたからには&#xA;これでいいんだよね、ほっ……）" speaker_show="True" stop="True" voice="ig11006_01_0420" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（それにしても、師匠って本当に凄いな。どんな人が&#xA;相手でも、優雅に落ち着いて対応出来て）" speaker_show="True" stop="True" voice="ig11006_01_0421" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" to_idle="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（改めて尊敬しちゃうよ）" speaker_show="True" stop="True" voice="ig11006_01_0422" lip_sync="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="石川 五恵" text="（はぁ……、私もいつか、&#xA;師匠みたいになれたらな……）" speaker_show="True" stop="True" voice="ig11006_01_0423" lip_sync="False" />
+  </command>
+</adv>

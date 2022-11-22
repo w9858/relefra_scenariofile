@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000015" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM16_Quest4" />
+    <sound type="Bgm" cue_name="Quest4" />
+    <Comment comment="山地の麓" />
+    <bg show="True" file="23_forestev_01" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="山中" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-450" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="-150" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="450" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="150" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="さてと、ここが山伏の活動拠点のはずだけど……" speaker_show="True" stop="True" voice="fn11011_01_0060" />
+    <msg_window_show show="False" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="念珠" text="お待ちしておりました、ツキカゲの皆様。&#xA;私は山伏の念珠と申します。" speaker_show="True" stop="True" voice="nj98003_01_0004" />
+    <char_spine_animation obj_id="念珠" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="救援に来ていただき、心から感謝いたします。&#xA;……もし皆様が来てくださらなければ、同胞たちは……" speaker_show="True" stop="True" voice="nj98003_01_0005" />
+    <delete obj_id="念珠" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（……仲間が全滅の危機に陥った彼女は、&#xA;どんな思いで助けを待っていたのかしら……）" speaker_show="True" stop="True" voice="hy11002_01_0288" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（罠の可能性はあったけれど、&#xA;やはり師匠の判断通り、助けに来て良かった）" speaker_show="True" stop="True" voice="hy11002_01_0289" lip_sync="False" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="今から、生き残った同胞たちが隠れている洞窟へ&#xA;向かいます。皆様、私についてきてくださいませ。" speaker_show="True" stop="True" voice="nj98003_01_0006" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="モウリョウに見つからぬよう、獣道さえないような所も&#xA;通りますゆえ、はぐれないようお気をつけください。" speaker_show="True" stop="True" voice="nj98003_01_0007" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="念珠" />
+    <Comment comment="山中" />
+    <Comment comment="（麓と背景変わらないようでしたら、時間経過でお願いします）" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="-850" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="-1045" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="-1300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-1525" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="-1750" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <Comment comment="念珠の後に続いて山地を行くツキカゲ４人。" />
+    <sound type="Se" cue_name="Run" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="念珠" />
+    <delete obj_id="藤林 長穂" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="いやーすごいねー、念珠ちゃんは。" speaker_show="True" stop="True" voice="fn11011_01_0061" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="こんな雑草や樹木の根や岩石だらけの所を&#xA;平地と変わらないみたいに走れるなんてさ。" speaker_show="True" stop="True" voice="fn11011_01_0062" />
+    <char_spine_animation obj_id="念珠" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="ここは我々山伏にとっては庭のようなものです。&#xA;自宅の庭を歩けぬ者がいましょうか。" speaker_show="True" stop="True" voice="nj98003_01_0008" />
+    <delete obj_id="念珠" />
+    <delete obj_id="藤林 長穂" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（先ほど、先輩が、山伏には「回峰行」という&#xA;山道を日々歩き回る修行があると言っていた……）" speaker_show="True" stop="True" voice="hy11002_01_0290" lip_sync="False" />
+    <char_spine_animation obj_id="念珠" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（モウリョウの一員が山伏のスパイを装って現れた&#xA;可能性はなさそうね……彼女は山伏で間違いない）" speaker_show="True" stop="True" voice="hy11002_01_0291" lip_sync="False" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="皆様、気を付けてください。そことそこに、山伏が&#xA;仕掛けた対侵入者用の赤外線センサーがあります。" speaker_show="True" stop="True" voice="nj98003_01_0009" />
+    <delete obj_id="念珠" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="赤外線!?&#xA;糸とかじゃないんだ。意外に近代的！" speaker_show="True" stop="True" voice="ym11003_01_0240" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="大昔のスパイではありませんから、&#xA;我々も最先端の道具を使います。" speaker_show="True" stop="True" voice="nj98003_01_0010" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="本来であれば山伏が侵入者を探知するための装置ですが&#xA;今この山中にはモウリョウの手の者も潜んでいます。" speaker_show="True" stop="True" voice="nj98003_01_0011" />
+    <char_spine_animation obj_id="念珠" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="念珠" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="念珠" text="罠にかかってしまえば、モウリョウにも&#xA;こちらの居場所を知られるかもしれません。" speaker_show="True" stop="True" voice="nj98003_01_0012" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="念珠" />
+    <Comment comment="【SE】草木の軋む音" />
+    <Comment comment="【SE】ロボ稼働音" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="RoboAppearance" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="かぁっこいい！&#xA;これも山伏の最先端アイテム？" speaker_show="True" stop="True" voice="ym11003_01_0241" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="違う、千代女！&#xA;避けてッ!!" speaker_show="True" stop="True" voice="ks11010_01_0191" />
+    <msg_window_show show="False" />
+    <move obj_id="八千代 命" x="-100" x_move_type="MoveValue" time="0.2" />
+    <Comment comment="【SE】機関銃の銃撃音" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash color="#ffffffff" count="1" time="0.1" wait="True" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash color="#ffffffff" count="1" time="0.1" wait="True" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash color="#ffffffff" count="1" time="0.1" wait="True" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_Sweat" effect_type="MampSweat" life_time="1" target_obj="八千代 命" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="う、うわあああ!!　危なかったぁ!!&#xA;師匠の声がなかったら死んでたぁっ!!" speaker_show="True" stop="True" voice="ym11003_01_0242" />
+    <delete obj_id="mei_Sweat" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="師匠、なんなのコイツ!?" speaker_show="True" stop="True" voice="ym11003_01_0243" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="それはモウリョウの戦闘兵器だよ！" speaker_show="True" stop="True" voice="ks11010_01_0192" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（……まずい。敵の武器は強力なうえ、不安定な足場で&#xA;こちらの動きが鈍る。スパイスを使うべきか……）" speaker_show="True" stop="True" voice="hy11002_01_0292" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……!?" speaker_show="True" stop="True" voice="hy11002_01_0293" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="00" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="この敵たちは、私が片付けます！" speaker_show="True" stop="True" voice="nj98003_01_0013" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】バチバチッと電撃のようなものが走る音" />
+    <sound type="Se" />
+    <create_effect effect_id="effect_Slash" effect_type="EffectSlash" life_time="3" />
+    <wait time="1.0" />
+    <Comment comment="【SE】ドドッと人形が倒れる音" />
+    <sound type="Se" cue_name="RoboDown" />
+    <move obj_id="戦闘ロボ 2" position_id="left" y="-1000" y_move_type="MoveValue" time="2.0" wait="False" />
+    <move obj_id="戦闘ロボ 1" position_id="left" y="-1000" y_move_type="MoveValue" time="4.0" wait="False" />
+    <move obj_id="戦闘ロボ 3" position_id="left" y="-1000" y_move_type="MoveValue" time="3.0" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="effect_Slash" />
+    <delete obj_id="念珠" />
+    <delete obj_id="戦闘ロボ 2" />
+    <delete obj_id="戦闘ロボ 1" />
+    <delete obj_id="戦闘ロボ 3" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（数珠１具で、一瞬のうちに３体とも戦闘不能に……&#xA;スパイスもなく、あれほどの動きができるなんて……）" speaker_show="True" stop="True" voice="hy11002_01_0294" lip_sync="False" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="うわあ……念珠さん、強い……" speaker_show="True" stop="True" voice="ks11010_01_0193" />
+    <msg_window_show show="False" />
+    <msg speaker="藤林 長穂" text="甚内！&#xA;気を抜かないで！" speaker_show="True" stop="True" voice="fn11011_01_0063" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="えっ……!?" speaker_show="True" stop="True" voice="ks11010_01_0194" />
+    <msg_window_show show="False" />
+    <Comment comment="【SE】機関銃の銃撃音" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <flash color="#ffffffff" count="1" time="0.1" wait="False" />
+    <flash color="#ffffffff" count="1" time="0.1" wait="False" />
+    <wait time="1.0" />
+    <create obj_id="八千代 命" data_id="311003001" x="-200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="師匠!!" speaker_show="True" stop="True" voice="ym11003_01_0244" />
+    <msg_window_show show="False" />
+    <move obj_id="八千代 命" position_id="left" x="100" x_move_type="MoveTo" time="0.5" wait="True" />
+    <sound type="Se" cue_name="Clash" />
+    <move obj_id="八千代 命" position_id="left" x="1500" x_move_type="MoveTo" time="0.3" wait="False" />
+    <move obj_id="高坂 信" position_id="left" x="1500" x_move_type="MoveTo" time="0.3" wait="True" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="念珠" data_id="398003001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="まだ動けたか……！&#xA;はっ!!!!" speaker_show="True" stop="True" voice="nj98003_01_0014" />
+    <msg_window_show show="False" />
+    <create_effect effect_id="effect_Slash" effect_type="EffectSlash" life_time="3" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Slash" />
+    <wait time="1.0" />
+    <wait time="0.5" />
+    <transition effect="Default" type="Out" color_change="False" time="0.5" wait="True" />
+    <delete obj_id="念珠" />
+    <delete obj_id="戦闘ロボ 1" />
+    <transition effect="Default" type="In" color_change="False" time="0.5" wait="True" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="高坂 信" text="か、庇ってくれてありがとう、千代女。&#xA;おかげで、間一髪避けられたよ。" speaker_show="True" stop="True" voice="ks11010_01_0195" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="八千代 命" text="いやいや、さっきは自分が師匠に救われたんで……" speaker_show="True" stop="True" voice="ym11003_01_0245" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="……うっ!?" speaker_show="True" stop="True" voice="ym11003_01_0246" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="どうしたの……!?&#xA;メイちゃん!?" speaker_show="True" stop="True" voice="ks11010_01_0196" />
+  </command>
+</adv>

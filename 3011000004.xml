@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3011000004" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="02_wasabisp_001" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="LeftToRight" wait="True" />
+    <telop text="Wasabi" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="いらっしゃいませ！&#xA;私のバースデーパーティへようこそ！" speaker_show="True" stop="True" voice="mm11001_02_0240" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="おわ……マジでウェイトレスの格好してる！" speaker_show="True" stop="True" voice="ym11003_02_0387" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="やっぱり、あの時に言ってたモモちの&#xA;希望って、本気だったんだ？" speaker_show="True" stop="True" voice="ig11006_02_0087" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="まさか、自分の誕生日に自分で&#xA;みんなを楽しませたいなんて……ね。" speaker_show="True" stop="True" voice="sf11004_02_0351" />
+    <delete obj_id="石川 五恵" />
+    <create type="Character" obj_id="源 モモ" data_id="311001014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ささ、どうぞお席へ。今から私特製の&#xA;スペシャルカレーをお出しします♪" speaker_show="True" stop="True" voice="mm11001_02_0241" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="白虎" data_id="311007002" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile_byakko" effect_type="MampSmile" life_time="1.5" target_obj="白虎" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="白虎" text="私も手伝ったんだ！　美味いゾ！" speaker_show="True" stop="True" voice="bk11008_02_0045" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="美味いと知っているということは……&#xA;つまみ食いしたな……。" speaker_show="True" stop="True" voice="tr11007_02_0113" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="カトリーナ" text="それじゃあ、御飯をよそうわね。" speaker_show="True" stop="True" voice="kt11009_02_0106" />
+    <move obj_id="カトリーナ" position_id="right" x="800" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="False" />
+    <delete obj_id="カトリーナ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ああ、良いんです、私がしますから！&#xA;カトリーナさんも、どうぞ座ってください。" speaker_show="True" stop="True" voice="mm11001_02_0242" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="師匠っ、大盛りで良いですか？" speaker_show="True" stop="True" voice="mm11001_02_0243" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="え、ええ……。" speaker_show="True" stop="True" voice="hy11002_02_0210" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="お待ちどうさまでした！　たっぷり作って&#xA;あるので、どんどんおかわりしてください！" speaker_show="True" stop="True" voice="mm11001_02_0244" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="どうしてモモの誕生日に、モモの給仕でモモに&#xA;モモの手料理を振る舞われているのかしら……。" speaker_show="True" stop="True" voice="hy11002_02_0211" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="雪ちゃん！　モモモモ言ってないで食べてみて。&#xA;これね……これ、すっごく……！" speaker_show="True" stop="True" voice="ks11010_02_0204" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="すごく………？　………………美味しいっ。" speaker_show="True" stop="True" voice="hy11002_02_0212" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="源 モモ" data_id="311001014" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="ホントですか！" speaker_show="True" stop="True" voice="mm11001_02_0245" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="ええ、本当よ。普段のWasabiの味とは違うけど&#xA;まろやかで、角のない風味でとても美味しいわ。" speaker_show="True" stop="True" voice="hy11002_02_0213" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="青葉 初芽" text="家庭的な優しいお味ですね。モモちゃんが&#xA;こんなにお料理上手だったとは、知りませんでした。" speaker_show="True" stop="True" voice="ah11005_02_0238" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Sweat_momo" effect_type="MampSweat" life_time="1.5" target_obj="源 モモ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="源 モモ" text="えへへ、実を言うとカトリーナさんに&#xA;手伝ってもらっちゃいました。" speaker_show="True" stop="True" voice="mm11001_02_0246" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="カトリーナ" text="ううん、私は煮込み時間のアドバイスだけ。&#xA;作ったのもスパイス調合も、モモちゃんが。" speaker_show="True" stop="True" voice="kt11009_02_0107" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="自分の誕生日なのに、そんなに働いたのか。&#xA;どうして……。" speaker_show="True" stop="True" voice="tr11007_02_0114" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="源 モモ" data_id="311001014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="私の誕生日をお祝いするために、みんなが&#xA;話し合ってくれてるって知ったら…" speaker_show="True" stop="True" voice="mm11001_02_0247" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="どうしてもお礼がしたくなっちゃったの。&#xA;だから、こういうパーティにしたんだ♪" speaker_show="True" stop="True" voice="mm11001_02_0248" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006006" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="え、でも、まだ何もしてないけど……&#xA;先にお礼をもらっちゃって、良いのかな。" speaker_show="True" stop="True" voice="ig11006_02_0088" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <msg speaker="八千代 命" text="細けぇ事はイイんだって。美味しいよ、モモち！&#xA;メイに山盛りでおかわりね！" speaker_show="True" stop="True" voice="ym11003_02_0388" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="あ、アタシにも！&#xA;ルーましまし、ライスましましで！" speaker_show="True" stop="True" voice="sf11004_02_0352" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="源 モモ" data_id="311001014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="源 モモ" text="はいっ、２名様大盛りでおかわりですね！&#xA;ただ今、すぐにお持ちしまーす♪" speaker_show="True" stop="True" voice="mm11001_02_0249" />
+    <delete obj_id="源 モモ" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="（モモ………私の予想を超えてくるなんて。&#xA;まったく、あなたって子は……。）" speaker_show="True" stop="True" voice="hy11002_02_0214" lip_sync="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="師匠も、おかわりいかがですか？" speaker_show="True" stop="True" voice="mm11001_02_0250" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="ええ、いただくわ。&#xA;勿論、大盛りでね……ふふっ。" speaker_show="True" stop="True" voice="hy11002_02_0215" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3003000004" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0.0" type="Default" wait="False" />
+    <bg show="True" file="03_tsukikage_007" resource_type="Background" />
+    <fade_in time="2.0" type="Default" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="雪ちゃん、透明クリームの効果が切れる前と後では、&#xA;スーツの着心地に何か変化はありましたか？" speaker_show="True" stop="True" voice="ah11005_01_0181" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="特に違和感はなかったの。予告なく効果が切れるのが&#xA;このスーツの一番の問題点かもしれないわね。" speaker_show="True" stop="True" voice="hy11002_01_0382" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="確かに戦っている当人が気づかない間に&#xA;効果が切れてしまうのは、リスクが高すぎますね。" speaker_show="True" stop="True" voice="ah11005_01_0182" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="効果が薄れ出すきっかけが掴めれば、&#xA;大きな進歩になると思うけど。" speaker_show="True" stop="True" voice="hy11002_01_0383" />
+    <msg_window_show show="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠、学校にお弁当箱、忘れていきましたよね。&#xA;届けにきました。" speaker_show="True" stop="True" voice="ig11006_01_0268" />
+    <move obj_id="石川 五恵" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <create_effect effect_id="aoba_exclamation" effect_type="MampExclamation" life_time="1.0" target_obj="青葉 初芽" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="はっ、ごえちゃん！" speaker_show="True" stop="True" voice="ah11005_01_0183" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="さささっ……。" speaker_show="True" stop="True" voice="ah11005_01_0184" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="師匠？&#xA;今何か、隠しませんでした？" speaker_show="True" stop="True" voice="ig11006_01_0269" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="何でもありませんよ。お弁当箱、&#xA;わざわざ届けてくれてありがとうございました。" speaker_show="True" stop="True" voice="ah11005_01_0185" />
+    <move obj_id="青葉 初芽" position_id="left" x="0" x_move_type="MoveTo" time="1.0" wait="False" />
+    <wait time="0.5" />
+    <move obj_id="青葉 初芽" position_id="left" x="50" x_move_type="MoveTo" time="1.0" wait="False" />
+    <move obj_id="石川 五恵" position_id="left" x="300" x_move_type="MoveTo" time="1.0" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="さ、ご家族が心配しますから、&#xA;暗くなる前におうちに帰ってください。" speaker_show="True" stop="True" voice="ah11005_01_0186" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="もうとっくに夜ですよ……。&#xA;それより今、後ろに隠したのは？" speaker_show="True" stop="True" voice="ig11006_01_0270" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="な、何でもありません。" speaker_show="True" stop="True" voice="ah11005_01_0187" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="本当ですか？" speaker_show="True" stop="True" voice="ig11006_01_0271" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="夜道の１人歩きは心配ですので、&#xA;見送りの車を手配しますね。" speaker_show="True" stop="True" voice="ah11005_01_0188" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="大丈夫ですよ。それよりどうしたんですか？&#xA;師匠、今日は何だか変ですよ。" speaker_show="True" stop="True" voice="ig11006_01_0272" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg show="True" file="04_shopstreetev_01" resource_type="Background" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="石川 五恵" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <sound cue_name="Walk" />
+    <wait time="1.0" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" position_id="left" x="0" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="（はぁ……、師匠、どうしちゃったんだろう。&#xA;あからさまに何かを隠してたよね……。はぁ……）" speaker_show="True" stop="True" voice="ig11006_01_0273" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <bg show="True" file="03_tsukikage_007" resource_type="Background" />
+    <delete obj_id="石川 五恵" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005005" position_id="left" x="200" anchor="Bottom" y="0" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002005" position_id="left" x="-200" anchor="Bottom" y="0" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="初芽、スーツのこと五恵には言ってなかったの？" speaker_show="True" stop="True" voice="hy11002_01_0384" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="はい。せっかく作るなら、しっかり完成させてから&#xA;全てを話すべきだと思うんです。" speaker_show="True" stop="True" voice="ah11005_01_0189" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="その方が、驚きも喜びもいっぱいになるでしょう？" speaker_show="True" stop="True" voice="ah11005_01_0190" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="半蔵門 雪" text="けど、いいの？&#xA;五恵と初芽の間に秘密だなんて。" speaker_show="True" stop="True" voice="hy11002_01_0385" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="それはちょっと心が痛みましたが、&#xA;ごえちゃんなら、きっと大丈夫ですよ。" speaker_show="True" stop="True" voice="ah11005_01_0191" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="言葉にしなくても、わかってくれると&#xA;信じていますから。" speaker_show="True" stop="True" voice="ah11005_01_0192" />
+  </command>
+</adv>

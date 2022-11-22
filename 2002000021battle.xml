@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000021battle" />
+  </info>
+  <command>
+    <Start />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="乱獅子 あやめ" data_id="315002001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="……ゆら。組織を裏切り…俺を倒して…&#xA;生きて、いけると、思っているのか。" speaker_show="True" stop="True" voice="ra15002_01_0030" />
+    <char_spine_animation obj_id="乱獅子 あやめ" face_anim_type="008_Facial_serious" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="乱獅子 あやめ" text="大八洲が、姉妹が、親父が。&#xA;お前を絶対に許さねぇ……ぞ……。" speaker_show="True" stop="True" voice="ra15002_01_0031" />
+    <msg_window_show show="False" />
+    <move obj_id="乱獅子 あやめ" position_id="left" y="-1000" y_move_type="MoveValue" time="2.0" wait="True" x="0" x_move_type="MoveValue" />
+    <delete obj_id="乱獅子 あやめ" />
+    <move obj_id="乱獅子 ゆら" position_id="left" y_move_type="MoveValue" time="0.5" wait="False" x="0" x_move_type="MoveTo" y="0" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="乱獅子 ゆら" text="ハ！　許さねぇのはこっちだ。&#xA;大八洲は全員捕まえてやるぜ！" speaker_show="True" stop="True" voice="ry12002_01_0152" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+  </command>
+</adv>

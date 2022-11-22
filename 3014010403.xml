@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3014010403" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="True" />
+    <Comment comment="背景：プールがないため仮" />
+    <bg show="True" resource_type="Background" file="46_poolev_01" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="プール" in_time="1" show_time="2" out_time="1" wait="True" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <msg speaker="店員" text="お待たせしました。&#xA;ソフトクリーム３つのお客様。" speaker_show="True" stop="True" voice="99093_02_0001" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="はいはい！　メイたちでーす！" speaker_show="True" stop="True" voice="ym11003_02_0567" />
+    <delete obj_id="八千代 命" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="-200" y="0" />
+    <create obj_id="相模 楓" data_id="311004015" position_id="left" x="200" y="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="わっ、何か凄いのが出てきた……。" speaker_show="True" stop="True" voice="sf11004_02_0509" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="トッピングが山盛り過ぎて、パフェみたいに&#xA;なってる～。美味しそ～う！" speaker_show="True" stop="True" voice="mm11001_02_0506" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="相模 楓" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ん～、美味しい～！　ほらほら、&#xA;フーもモモちも溶けちゃう前に食べなよー。" speaker_show="True" stop="True" voice="ym11003_02_0568" />
+    <delete obj_id="八千代 命" />
+    <create obj_id="源 モモ" data_id="311001015" position_id="left" x="-200" y="0" />
+    <create obj_id="相模 楓" data_id="311004015" position_id="left" x="200" y="0" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="けど……" speaker_show="True" stop="True" voice="sf11004_02_0510" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="う～、もう我慢できないっ！&#xA;私もいっただっきま～す♪" speaker_show="True" stop="True" voice="mm11001_02_0507" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="はぐはぐはぐ……おーいしぃ～！" speaker_show="True" stop="True" voice="mm11001_02_0508" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ちょっ、ちょっと！　モモちまで……" speaker_show="True" stop="True" voice="sf11004_02_0511" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ていうか、お勘定まだですよね？&#xA;２人とも、お金払う前に食べちゃうだなんて……" speaker_show="True" stop="True" voice="sf11004_02_0512" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="すみません、店員さん、&#xA;これ全部でおいくらになりますか？" speaker_show="True" stop="True" voice="sf11004_02_0513" />
+    <msg speaker="店員" text="お代は結構ですよ。" speaker_show="True" stop="True" voice="99093_02_0002" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="015_Facial_poker" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <lip_sync target1="源 モモ" target2="相模 楓" />
+    <msg speaker="モモ・楓" text="へ？" speaker_show="True" stop="True" voice="3014010403_union_001" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" />
+    <move obj_id="相模 楓" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" wait="True" />
+    <create obj_id="八千代 命" data_id="311003014" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="売店の食べ物とかも招待券の料金に&#xA;入ってるんだって、初さんが言ってたよ。" speaker_show="True" stop="True" voice="ym11003_02_0569" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そ、そうだったんだ……。" speaker_show="True" stop="True" voice="sf11004_02_0515" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="あ、フーちゃんがへたりこんじゃった。" speaker_show="True" stop="True" voice="mm11001_02_0510" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="それ先に言ってくださいよ、もう。" speaker_show="True" stop="True" voice="sf11004_02_0516" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="にしし。それより早く食べなよー。&#xA;ソフトクリームはスピードが命！" speaker_show="True" stop="True" voice="ym11003_02_0570" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="そうですね、そういうことなら遠慮なく&#xA;いただきますけど……はぐっ……" speaker_show="True" stop="True" voice="sf11004_02_0517" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="08_MouthBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="おっ、美味しい～！　何これ!?&#xA;すっごく美味しいんですけど～！" speaker_show="True" stop="True" voice="sf11004_02_0518" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="商店街で売ってるのと同じ物のはずなのに、&#xA;プールで食べると、更に美味しい気がする～。" speaker_show="True" stop="True" voice="mm11001_02_0511" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="プールと空腹は最高の調味料！　ってね。&#xA;さ、メイ次はなに食べよっかなー？" speaker_show="True" stop="True" voice="ym11003_02_0571" />
+    <char_spine_animation obj_id="相模 楓" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="食べ放題ってことなら、&#xA;全メニュー制覇したいですよね。" speaker_show="True" stop="True" voice="sf11004_02_0519" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="えっ、メイちゃんもフーちゃんも、&#xA;もう食べ終わったの!?" speaker_show="True" stop="True" voice="mm11001_02_0512" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="020_Facial_thinking" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="あ～、最初から知ってたら、持ち帰り用の&#xA;お弁当箱、持ってきたのに～！" speaker_show="True" stop="True" voice="sf11004_02_0520" />
+    <sound_stop cue_name="Adv1" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

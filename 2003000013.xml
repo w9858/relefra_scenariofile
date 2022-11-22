@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000013" />
+  </info>
+  <command>
+    <Start />
+    <fade_out />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="28_train_02" />
+    <msg window_type="SystemMsg" text="ある日。長穂、雪、信、命の４人は&#xA;任務のため、東北へ向かう新幹線の中にいた。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="新幹線　車内" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003011" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="夏になると、いつもお前に会いたくなるよ。" speaker_show="True" stop="True" voice="ym11003_01_0229" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="邪な気持ちを抱くのは、お前がいけない女だからさ。" speaker_show="True" stop="True" voice="fn11011_01_0043" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="叫んでもいいか？&#xA;お前への愛をな。" speaker_show="True" stop="True" voice="ym11003_01_0230" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="む。……な……な……&#xA;泣き顔もかわいいな、お前。" speaker_show="True" stop="True" voice="fn11011_01_0044" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="駅まで送ってく間に、お前を惚れさせてやるよ。" speaker_show="True" stop="True" voice="ym11003_01_0231" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="よ……よ……よ……うう……思いつかない！&#xA;ギブアップ！" speaker_show="True" stop="True" voice="fn11011_01_0045" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <create_effect effect_id="mei_Smile" effect_type="MampSmile" target_obj="八千代 命" />
+    <msg speaker="八千代 命" text="よっしゃ。&#xA;メイの勝ちですねー、長穂の姉御！" speaker_show="True" stop="True" voice="ym11003_01_0232" />
+    <delete obj_id="mei_Smile" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="藤林 長穂" />
+    <msg window_type="SystemMsg" text="２人がやっていたのは、台詞が出てこなかったり、&#xA;ときめいたら負けの「甘い言葉しりとり」である。" stop="True" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="0" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="-300" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003011" position_id="left" x="300" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="…………" speaker_show="True" stop="True" voice="hy11002_01_0269" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="あれ、雪ちゃん、なんだか怒ってる？" speaker_show="True" stop="True" voice="ks11010_01_0174" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="あー、それは、長穂の姉御がメイへ&#xA;甘い言葉を囁きまくってたからだねー。" speaker_show="True" stop="True" voice="ym11003_01_0233" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="別にそういうわけじゃないわ。&#xA;ただ、今は任務に向かう途中で……" speaker_show="True" stop="True" voice="hy11002_01_0270" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="じゃあさ、次は姉御とユッキーでやってみなよ。" speaker_show="True" stop="True" voice="ym11003_01_0234" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" time="0" wait="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="いいよー。&#xA;私に勝てるかな、雪は。" speaker_show="True" stop="True" voice="fn11011_01_0046" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……わかりました。師匠相手に申し訳ありませんが、&#xA;勝たせていただきます。" speaker_show="True" stop="True" voice="hy11002_01_0271" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="じゃあ私から行くよー、雪。最初は……えーっと……&#xA;「これから先も、雪が作ったお菓子を毎日食べたいよ」" speaker_show="True" stop="True" voice="fn11011_01_0047" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="009_Facial_blush" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <char_spine_cheek obj_id="半蔵門 雪" type="Cheek02_medium" loop="True" />
+    <msg speaker="半蔵門 雪" text="あ……！" speaker_show="True" stop="True" voice="hy11002_01_0272" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003011" position_id="left" x="0" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="はい、ユッキーの負け～。&#xA;今ときめいたっしょ？　瞬殺だね～。" speaker_show="True" stop="True" voice="ym11003_01_0235" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="-200" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="……負けました、師匠。" speaker_show="True" stop="True" voice="hy11002_01_0273" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="やった。&#xA;よくわからないけど、勝ったぁ。" speaker_show="True" stop="True" voice="fn11011_01_0048" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（……こんなに人をときめかせる&#xA;師匠の台詞に耐えられるなんて……）" speaker_show="True" stop="True" voice="hy11002_01_0274" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="（メイは、平常心を保つ訓練をよほど積んでいるのね。&#xA;私も訓練を積まなければ……）" speaker_show="True" stop="True" voice="hy11002_01_0275" lip_sync="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="ねえねえ雪、お腹すいたようー。&#xA;お昼ご飯は？" speaker_show="True" stop="True" voice="fn11011_01_0049" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="そんなこともあろうかと、駅弁を買っておきました。" speaker_show="True" stop="True" voice="hy11002_01_0276" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="さっすが私のかわいい弟子ー！" speaker_show="True" stop="True" voice="fn11011_01_0050" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003011" position_id="left" x="-200" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="八千代 命" text="ところで師匠。助けを求めてきたヤマウシだっけ？&#xA;それって何なの？" speaker_show="True" stop="True" voice="ym11003_01_0236" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ヤマウシじゃないよ、山伏。&#xA;東北に拠点がある同業者。" speaker_show="True" stop="True" voice="ks11010_01_0175" />
+    <delete obj_id="八千代 命" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="-200" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="ツキカゲ以外にも、そういう組織が&#xA;あるんですね……" speaker_show="True" stop="True" voice="hy11002_01_0277" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="200" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="あるよー。東北の山伏、沖縄のザ・シーサー、北海道の&#xA;カムイ……他にもたくさん。国外にもあるしね。" speaker_show="True" stop="True" voice="fn11011_01_0051" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="そういう組織は全部独立してるけど、協力関係はあって&#xA;情報のやり取りをしたり、助け合ったりしてるんだ。" speaker_show="True" stop="True" voice="fn11011_01_0052" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="こういう話は、まだ雪たちには教えてなかったっけ。&#xA;じゃあ……諜報組織とかの説明はシンに任せーる。" speaker_show="True" stop="True" voice="fn11011_01_0053" />
+    <delete obj_id="半蔵門 雪" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="-200" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <create_effect effect_id="shin_Sweat" effect_type="MampSweat" life_time="1" target_obj="高坂 信" />
+    <msg speaker="高坂 信" text="ええ!?&#xA;ながもんが教えるんじゃないの？" speaker_show="True" stop="True" voice="ks11010_01_0176" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="きっと私よりシンの方が説明うまいから。それに、&#xA;私には駅弁を食べるという重要な任務があるからねー。" speaker_show="True" stop="True" voice="fn11011_01_0054" />
+    <delete obj_id="shin_Sweat" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="まったく、もー……。&#xA;じゃあ、メイちゃんと雪ちゃん、信から説明するね。" speaker_show="True" stop="True" voice="ks11010_01_0177" />
+    <delete obj_id="藤林 長穂" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="200" />
+    <create type="Character" anchor="Bottom" obj_id="八千代 命" data_id="311003011" position_id="left" x="-200" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <lip_sync target1="半蔵門 雪" target2="八千代 命" />
+    <msg speaker="命・雪" text="はーい。" speaker_show="True" stop="True" voice="2003000013_union_001" />
+  </command>
+</adv>

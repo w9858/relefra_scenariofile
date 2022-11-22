@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000020101" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0.1" wait="True" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="背景　黒百合　教室" />
+    <bg show="True" file="36_school_02" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="凪の仕事服だよ。黒くてオトナな服装。&#xA;これを着て国家の平和、守ってるんだ。" speaker_show="True" stop="True" voice="mh12001_01_0239" />
+    <camera scale_x="2.0" scale_y="2.0" time="0.5" easing="InOutQuad" move_y="-250" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" />
+    <create_effect effect_id="up" effect_type="EffectShockWave" life_time="4" target_obj="宗近 飛粋" />
+    <msg speaker="宗近 飛粋" text="コードネームは不動。不動明王の不動だって。" speaker_show="True" stop="True" voice="mh12001_01_0240" />
+    <camera scale_x="1.0" scale_y="1.0" time="0.5" easing="InOutQuad" move_y="0" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="なんで私がそんな大仕事をできるかっていうと&#xA;運動が、そこそこできるのと――。" speaker_show="True" stop="True" voice="mh12001_01_0241" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="09_PutHands" loop="False" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="モノマネのうまさだね。私、人の特技を再現できるんだ。" speaker_show="True" stop="True" voice="mh12001_01_0242" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="なんだか、凄いなって見ているウチに、&#xA;その極意が分かってくると言うか。" speaker_show="True" stop="True" voice="mh12001_01_0243" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="ただ、当たり前だけど再現度１００％じゃなくて。&#xA;オリジナルにはかなわないんだ。" speaker_show="True" stop="True" voice="mh12001_01_0244" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="06_ChestLeftHand" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="でも実戦に近い再現度にはなってるって&#xA;ヨモギさんや隊長は褒めてくれて！" speaker_show="True" stop="True" voice="mh12001_01_0245" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="これをうまく使えば友達も作れると思うんだけど&#xA;そこらへん歯車がかみ合わないんだよねー。" speaker_show="True" stop="True" voice="mh12001_01_0246" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="False" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="あっ、と。もう時間かな。&#xA;それじゃ、宗近飛粋、自己紹介終わりだよ。" speaker_show="True" stop="True" voice="mh12001_01_0247" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="宗近 飛粋" text="ここまで聞いてくれて、ありがとうね。" speaker_show="True" stop="True" voice="mh12001_01_0248" />
+  </command>
+</adv>

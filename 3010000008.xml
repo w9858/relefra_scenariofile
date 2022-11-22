@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3010000008" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="22_plant_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <Comment comment="昼の工場の背景が見当たらなかったため、仮背景" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="工場" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="そして迎えた撮影当日。" stop="True" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="水無月 ジュン" data_id="399004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="003_Facial_laugh" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="水無月 ジュン" text="フフフ、待っていましたよ。&#xA;こちらの準備は万端です。" speaker_show="True" stop="True" voice="mj99009_02_0026" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="001_Facial_blink" force_end="False" loop="True" mixing="True" />
+    <msg speaker="水無月 ジュン" text="ドレスは向こうに用意してあります。仕切りで&#xA;着替える場所を作りましたので、ぜひ使ってください。" speaker_show="True" stop="True" voice="mj99009_02_0027" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="八千代 命" text="はい、ありがとうございますー！" speaker_show="True" stop="True" voice="ym11003_02_0251" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="LeftToRight" wait="True" />
+    <delete obj_id="水無月 ジュン" />
+    <delete obj_id="八千代 命" />
+    <fade_in time="0.5" type="LeftToRight" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="こんなところで着替えさせるとか、&#xA;デリカシー０ですね……。" speaker_show="True" stop="True" voice="sf11004_02_0256" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ひとまず言う通りにしとこ。&#xA;仕切りの周りに怪しい気配はないし。" speaker_show="True" stop="True" voice="ym11003_02_0252" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="高坂 信" text="そうだね。" speaker_show="True" stop="True" voice="ks11010_02_0122" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="高坂 信" />
+    <bg show="True" resource_type="Background" file="22_plant_01" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <Comment comment="全員ウエディングドレスウエディングドレス" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="高坂 信" data_id="311010008" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile_mei" effect_type="MampSmile" life_time="1" target_obj="八千代 命" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="八千代 命" text="はいはーい、&#xA;準備終わりましたよー！" speaker_show="True" stop="True" voice="ym11003_02_0253" />
+    <delete obj_id="Smile_mei" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="こっちもだよ。" speaker_show="True" stop="True" voice="ks11010_02_0123" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="完璧な花嫁姿です。" speaker_show="True" stop="True" voice="sf11004_02_0257" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="水無月 ジュン" data_id="399004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="101_Facial_unique" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="水無月 ジュン" body_anim_type="02_Idle" force_end="False" loop="False" mixing="True" />
+    <char_spine_cheek obj_id="水無月 ジュン" type="Cheek03_strong" />
+    <msg speaker="水無月 ジュン" text="おおッ！　素晴らしい！　君たちならばきっと、&#xA;真実のラヴに辿り着けることでしょう!!" speaker_show="True" stop="True" voice="mj99009_02_0028" />
+    <char_spine_animation obj_id="水無月 ジュン" body_anim_type="23_bodyUnique" force_end="False" loop="True" mixing="True" />
+    <msg speaker="水無月 ジュン" text="さあ、撮りますよ。&#xA;ポーズよろしくお願いします！" speaker_show="True" stop="True" voice="mj99009_02_0029" />
+    <sound type="Se" cue_name="Camera" />
+    <flash count="1" time="1.0" wait="True" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="002_Facial_smile" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="水無月 ジュン" force_end="False" loop="False" mixing="True" />
+    <msg speaker="水無月 ジュン" text="うーん、可愛い！　だが少しだけ違う！&#xA;もっと愛を前面に出して！" speaker_show="True" stop="True" voice="mj99009_02_0030" />
+    <sound type="Se" cue_name="Camera" />
+    <flash count="1" time="1.0" wait="True" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="水無月 ジュン" type="Cheek01_default" />
+    <msg speaker="水無月 ジュン" text="荒々しさを湛える工場の中、美しき感情を見せて！&#xA;さあ、さあさあっ！" speaker_show="True" stop="True" voice="mj99009_02_0031" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="003_Facial_laugh" body_anim_type="23_bodyUnique" force_end="False" loop="True" mixing="True" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Camera" />
+    <flash count="1" time="1.0" wait="True" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="水無月 ジュン" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="水無月 ジュン" text="これでは……まだ、&#xA;演出が足りないのか……？　ヌウゥゥ～。" speaker_show="True" stop="True" voice="mj99009_02_0032" />
+    <move obj_id="水無月 ジュン" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="300" y="0" anchor="Bottom" />
+    <move obj_id="相模 楓" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="（うわ、なんか雰囲気がえげつないほどアブナイ……&#xA;もう眠らせていいんじゃない……？）" speaker_show="True" stop="True" voice="sf11004_02_0258" lip_sync="False" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="水無月 ジュン" force_end="False" loop="True" mixing="True" body_anim_type="23_bodyUnique" />
+    <wait time="0.5" />
+    <delete obj_id="Exclamation_huu" />
+    <delete obj_id="相模 楓" />
+    <move obj_id="水無月 ジュン" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <sound type="Se" cue_name="Camera" />
+    <flash count="1" time="1.0" wait="True" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="011_Facial_surprise" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="水無月 ジュン" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="水無月 ジュン" text="違ァう！　これは本物じゃない！&#xA;もっと真実を抉らなくては!!" speaker_show="True" stop="True" voice="mj99009_02_0033" />
+    <sound_stop cue_name="Adv1" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="101_Facial_unique" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="水無月 ジュン" type="Cheek03_strong" />
+    <msg speaker="水無月 ジュン" text="そう……ラヴ・イズ・ドラマティーック!!" speaker_show="True" stop="True" voice="mj99009_02_0034" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound type="Bgm" cue_name="Quest1" />
+    <delete obj_id="水無月 ジュン" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="高坂 信" />
+    <sound type="Se" />
+    <Comment comment="SE：ざさっ！（人がたくさん出てくる音）" />
+    <msg window_type="SystemMsg" text="突如、数十人の黒服の男たちが姿を現した。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003013" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="水無月 ジュン" data_id="399004001" position_id="left" x="-350" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="なっ……&#xA;なんなの、こいつら!?" speaker_show="True" stop="True" voice="sf11004_02_0259" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" face_anim_type="002_Facial_smile" />
+    <msg speaker="八千代 命" text="わーお、面白くなってきた。ねえ、水無月さん！&#xA;メイたちをどうするつもりなの？" speaker_show="True" stop="True" voice="ym11003_02_0254" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="002_Facial_smile" body_anim_type="23_bodyUnique" force_end="False" loop="True" mixing="True" />
+    <msg speaker="水無月 ジュン" text="ンン～？　撮影ですよォ。&#xA;ただ、少ォし演出を加えます。" speaker_show="True" stop="True" voice="mj99009_02_0035" />
+    <delete obj_id="相模 楓" />
+    <move obj_id="八千代 命" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="水無月 ジュン" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="011_Facial_surprise" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="水無月 ジュン" text="脚本はこうだ！　卑劣漢が現れ、&#xA;愛する者が今まさに攫われようとしている！" speaker_show="True" stop="True" voice="mj99009_02_0036" />
+    <char_spine_animation obj_id="水無月 ジュン" force_end="False" loop="True" mixing="True" />
+    <msg speaker="水無月 ジュン" text="それを助けようとあがく中にこそ、&#xA;至高の愛があるッ!!" speaker_show="True" stop="True" voice="mj99009_02_0037" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="008_Facial_serious" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <msg speaker="水無月 ジュン" text="もちろん彼らは本物の人身売買組織。&#xA;演出だからこそのリアルが必要なんです！" speaker_show="True" stop="True" voice="mj99009_02_0038" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="水無月 ジュン" />
+    <create type="Character" obj_id="高坂 信" data_id="311010008" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="高坂 信" text="駄目だ……つらい。&#xA;もう家に帰りたい……。" speaker_show="True" stop="True" voice="ks11010_02_0124" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="あっはっは。師匠、もう大詰めだから、あと少しだよ。&#xA;むしろ、帰るためにここを切り抜けなくちゃね！" speaker_show="True" stop="True" voice="ym11003_02_0255" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <move obj_id="八千代 命" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="高坂 信" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="水無月 ジュン" data_id="399004001" position_id="left" x="-350" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="水無月 ジュン" face_anim_type="101_Facial_unique" body_anim_type="01_Stay" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="水無月 ジュン" type="Cheek03_strong" />
+    <msg speaker="水無月 ジュン" text="ラヴ・イズ・ドラマティーック!!&#xA;さあ、魅せてくれ！" speaker_show="True" stop="True" voice="mj99009_02_0039" />
+    <delete obj_id="高坂 信" />
+    <delete obj_id="水無月 ジュン" />
+    <sound type="Se" />
+    <Comment comment="SE：ザッザッザ！（大勢が歩いてくる音）" />
+    <move obj_id="八千代 命" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="相模 楓" data_id="311004014" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="大勢の敵、来ます！" speaker_show="True" stop="True" voice="sf11004_02_0260" />
+    <char_spine_eye obj_id="相模 楓" type="Eye02_spyce" loop="True" />
+    <sound type="Se" cue_name="Spice" volume="100" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="じゃ、刺激的に行こうか！" speaker_show="True" stop="True" voice="ym11003_02_0256" />
+    <char_spine_eye obj_id="八千代 命" type="Eye02_spyce" loop="True" />
+    <sound type="Se" cue_name="Spice" volume="100" />
+    <wait time="0.5" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

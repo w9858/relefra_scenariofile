@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/9010208001" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="09_cafe_02" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="……ええ、わかったわ。&#xA;それじゃ、誰か来たら伝えておく。" speaker_show="True" stop="True" voice="hy11002_02_0743" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="あれ、雪だけなのか？&#xA;他のみんなはどうしたんだ。" speaker_show="True" stop="True" voice="tr11007_02_0236" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="ちょうど今連絡があって、&#xA;みんな遅れてくるそうよ。" speaker_show="True" stop="True" voice="hy11002_02_0744" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="そうか。" speaker_show="True" stop="True" voice="tr11007_02_0237" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="みんなが来るまで少し時間があるから&#xA;先にお茶やケーキを注文しておきたいわね。" speaker_show="True" stop="True" voice="hy11002_02_0745" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="え？　先に食べるのか？" speaker_show="True" stop="True" voice="tr11007_02_0238" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="ええ。ただ待っていても時間がもったいないから。" speaker_show="True" stop="True" voice="hy11002_02_0746" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="しかし、注文はみんなを待ってからのほうが&#xA;いいんじゃないのか。" speaker_show="True" stop="True" voice="tr11007_02_0239" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="毒味を兼ねてよ。これなんかおいしそうね。" speaker_show="True" stop="True" voice="hy11002_02_0747" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="……ああ、確かにうまそうだな。&#xA;それはチーズケーキか。" speaker_show="True" stop="True" voice="tr11007_02_0240" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうね。こっちのも良さそうだわ。&#xA;このガトーショコラはお店で一番人気らしいから。" speaker_show="True" stop="True" voice="hy11002_02_0748" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="ずいぶん詳しいな。ここの常連なのか？" speaker_show="True" stop="True" voice="tr11007_02_0241" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="いえ、ここに来たのは初めてよ。&#xA;でも、どんなことでも事前のリサーチは大切だから。" speaker_show="True" stop="True" voice="hy11002_02_0749" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そうか……。" speaker_show="True" stop="True" voice="tr11007_02_0242" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="……。" speaker_show="True" stop="True" voice="hy11002_02_0750" lip_sync="False" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="……。" speaker_show="True" stop="True" voice="tr11007_02_0243" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="テレジアは毒味しないの？" speaker_show="True" stop="True" voice="hy11002_02_0751" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="そうだな。毒味は大切だからな。" speaker_show="True" stop="True" voice="tr11007_02_0244" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="それじゃ、注文を……。" speaker_show="True" stop="True" voice="hy11002_02_0752" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="020_Facial_thinking" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="ま、待て。まだ何を頼むか考え中だ。&#xA;毒味なら違う種類を頼んだほうがいいだろう。" speaker_show="True" stop="True" voice="tr11007_02_0245" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうね。それなら先にテレジアが好きなのを選んで。&#xA;私はそれに合わせて違うのを頼むわ。" speaker_show="True" stop="True" voice="hy11002_02_0753" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="それなら私は一番人気のガトーショコラ……、&#xA;いや、このチーズケーキも捨てがたいな……。" speaker_show="True" stop="True" voice="tr11007_02_0246" />
+    <msg_window_show show="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <delete obj_id="半蔵門 雪" />
+    <delete obj_id="テレジア" />
+    <fade_in time="1" type="Default" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="テレジア" text="うむ……これは絶品だな。&#xA;人気があるというのもわかる気がする。" speaker_show="True" stop="True" voice="tr11007_02_0247" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="そうね、このケーキもなかなかだわ。&#xA;良ければテレジアも一口食べる？" speaker_show="True" stop="True" voice="hy11002_02_0754" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="011_Facial_surprise" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="い、いいのか？" speaker_show="True" stop="True" voice="tr11007_02_0248" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <msg speaker="半蔵門 雪" text="私は構わないわ。それに、お互い情報は&#xA;ひとつでも多いほうがいいでしょう？" speaker_show="True" stop="True" voice="hy11002_02_0755" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="なるほど。……おぉ、これもうまいな。&#xA;滑らかな舌触りで、あっという間に消えてなくなる。" speaker_show="True" stop="True" voice="tr11007_02_0249" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="半蔵門 雪" text="みんなが来るまで、まだ時間があるから、&#xA;もうひとつ食べられるかもしれないわね。" speaker_show="True" stop="True" voice="hy11002_02_0756" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="テレジア" text="それじゃ、みんなのためにもう少し毒味をしておくか。" speaker_show="True" stop="True" voice="tr11007_02_0250" />
+  </command>
+</adv>

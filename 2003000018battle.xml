@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000018battle" />
+  </info>
+  <command>
+    <Start />
+    <Comment comment="Boss1 激戦" />
+    <create type="Character" obj_id="念珠" data_id="398003001" x="400" />
+    <create type="Character" obj_id="藤林 長穂" data_id="311011001" x="-150" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002015" x="-400" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" x="-1000" />
+    <char_spine_eye obj_id="半蔵門 雪" type="Eye02_spyce" loop="True" />
+    <char_spine_eye obj_id="藤林 長穂" type="Eye02_spyce" loop="True" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="どれほど高潔な志を持っていようと、&#xA;死ねばただの間抜けにすぎない！" speaker_show="True" stop="True" voice="nj98003_01_0050" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="それはさー、死ねば、の話だよ。" speaker_show="True" stop="True" voice="fn11011_01_0099" />
+    <msg_window_show show="False" />
+    <Comment comment="糸が絡まる音" />
+    <sound type="Se" cue_name="Hug" />
+    <shake target="Character" obj_id="念珠" x="20" vibrate="20" time="0.5" wait="True" />
+    <char_spine_animation obj_id="念珠" face_anim_type="005_Facial_sad" body_anim_type="16_BendBackward" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="!?　なんだ……!?　糸!?" speaker_show="True" stop="True" voice="nj98003_01_0051" />
+    <move obj_id="念珠" x="450" x_move_type="MoveTo" time="0.5" />
+    <move obj_id="藤林 長穂" x="0" x_move_type="MoveTo" time="0.5" />
+    <move obj_id="半蔵門 雪" x="-225" x_move_type="MoveTo" time="0.5" wait="True" />
+    <move obj_id="高坂 信" x="-450" x_move_type="MoveTo" time="0.5" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="戦闘はしなくても、サポートしないわけじゃないよ！" speaker_show="True" stop="True" voice="ks11010_01_0204" />
+    <shake target="Character" obj_id="念珠" x="20" vibrate="20" time="0.5" />
+    <char_spine_animation obj_id="念珠" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="念珠" text="何をしようと、山中の山伏は最強だ！" speaker_show="True" stop="True" voice="nj98003_01_0052" />
+    <msg_window_show show="False" />
+  </command>
+</adv>

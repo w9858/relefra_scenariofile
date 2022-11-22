@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/1007000002" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" resource_type="Background" file="44_raimuhouseev_01" effect="Immediately" effect_time="0" wait="False" color="#ffffffff" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="敷島ビル 最上階" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009006" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="カトリーナ" text="――以上が、ツキカゲと凪の部隊について。&#xA;そして戦っている敵についてよ。" speaker_show="True" stop="True" voice="kt11009_02_0006" />
+    <delete obj_id="カトリーナ" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="だいたい分かったわ。ツキカゲと凪の部隊は&#xA;話を聞いているだけでも面白いわね。" speaker_show="True" stop="True" voice="sr13001_02_0009" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="敵については厄介そうだけど&#xA;まぁＺＥＴが手を貸すのよ。勝つでしょ。" speaker_show="True" stop="True" voice="sr13001_02_0010" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="肩を並べて戦うのが楽しみでありまする。" speaker_show="True" stop="True" voice="am13002_02_0007" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="018_Facial_smug" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="ツキカゲと凪のメンバー。&#xA;早くあってみたいわ。フフフ……くすくす。" speaker_show="True" stop="True" voice="sr13001_02_0011" />
+    <delete obj_id="アミィ" />
+    <delete obj_id="敷島 来夢" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="（お姉様ったらハレンチな事を考えている顔ですわ。）" speaker_show="True" stop="True" voice="sm13002_02_0003" lip_sync="False" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="（数で表せば２１ハレンチぐらいのレベルですわ。）" speaker_show="True" stop="True" voice="sm13002_02_0004" lip_sync="False" />
+    <move obj_id="敷島 真留瀬" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="01_Stay" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="話が正式にまとまって嬉しい限りです。" speaker_show="True" stop="True" voice="ah11005_02_0004" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <msg window_type="SystemMsg" text="共闘の意志を確認し、皆で集まる日付を確認した後、&#xA;カトリーナ、初芽、ヨモギは去って行った。" stop="True" />
+    <msg_window_show show="False" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="敷島 真留瀬" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="凪の部隊かぁ。&#xA;ついにお国と手を組む事になったわね。" speaker_show="True" stop="True" voice="sr13001_02_0012" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="20_PositiveDouble" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="頭固そうな雰囲気もあるけど、&#xA;あの人達とならうまくやれそうね。" speaker_show="True" stop="True" voice="sr13001_02_0013" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="顔と体で判断していませんか、お姉様。" speaker_show="True" stop="True" voice="sm13002_02_0005" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="健全な体でした。薬物投与の痕跡なし。" speaker_show="True" stop="True" voice="am13002_02_0008" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="そういう意味ではなく……まぁいいですわ。" speaker_show="True" stop="True" voice="sm13002_02_0006" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="私はどこまでついていきますわ、お姉様。" speaker_show="True" stop="True" voice="sm13002_02_0007" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="そりゃそうよマル。頼りにしてるわ。&#xA;働いてカリは返してね。" speaker_show="True" stop="True" voice="sr13001_02_0014" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="アミィもついていきますが、ひとつ懸念が。&#xA;これからは戦いが激化すると予想されまする。" speaker_show="True" stop="True" voice="am13002_02_0009" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="無敵甲冑やアミィのメンテナンスなど&#xA;バックアップを必要とする回数がグンと増えるかと。" speaker_show="True" stop="True" voice="am13002_02_0010" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="来夢ガールズに、マスターの正体がＺＥＴである事を&#xA;話す頃合いかと思いまする。" speaker_show="True" stop="True" voice="am13002_02_0011" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="それがよさそうね。いつ話すかって思ってたし。" speaker_show="True" stop="True" voice="sr13001_02_0015" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="005_Facial_sad" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="私達の秘密を知る人間が一気に増えてしまいますが。" speaker_show="True" stop="True" voice="sm13002_02_0008" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="信じているわ、あの子達を。" speaker_show="True" stop="True" voice="sr13001_02_0016" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="（一度裏切られる事を体験しているのに、その器。&#xA;流石ですわ、お姉様。私とは、器が違う。）" speaker_show="True" stop="True" voice="sm13002_02_0009" lip_sync="False" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1" wait="True" />
+    <bg file="44_shikisima_02" />
+    <delete obj_id="敷島 来夢" />
+    <delete obj_id="敷島 真留瀬" />
+    <delete obj_id="アミィ" />
+    <transition effect="Default" type="In" color_change="False" time="1" wait="True" />
+    <telop text="敷島ビル 研究室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <msg window_type="SystemMsg" text="来夢は己の研究を支える女の子達に&#xA;自らがＺＥＴである事を話した――。" stop="True" />
+    <msg speaker="来夢ガールズＷ" text="さすが来夢様じゃ。秘密のスケールがデカい！&#xA;惚れ直したぞぉ！" speaker_show="True" stop="True" voice="rw13006_02_0001" />
+    <msg speaker="来夢ガールズＡ" text="良く話してくれましたねぇ、嬉しいですよぉ。" speaker_show="True" stop="True" voice="ra13003_02_0001" />
+    <msg speaker="来夢ガールズＭ" text="コンゴトモ　カワラヌ　忠誠ヲ！！" speaker_show="True" stop="True" voice="rb13005_02_0001" />
+    <msg speaker="来夢ガールズB" text="私達がすべきことは変わりません。" speaker_show="True" stop="True" voice="rb13004_02_0001" />
+    <msg speaker="来夢ガールズＺ" text="ついていきます、これからも。" speaker_show="True" stop="True" voice="rz13007_02_0001" />
+    <create type="Character" obj_id="敷島 来夢" data_id="313001004" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="敷島 真留瀬" data_id="313003002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="アミィ" data_id="313002003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="驚くほどすんなり受け入れられちゃった。" speaker_show="True" stop="True" voice="sr13001_02_0017" />
+    <char_spine_animation obj_id="アミィ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="アミィ" text="マスターの徳のおかげかと。" speaker_show="True" stop="True" voice="am13002_02_0012" />
+    <char_spine_animation obj_id="敷島 真留瀬" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="敷島 真留瀬" text="無敵甲冑のメンテも万全です。&#xA;いつでも激しいドンパチができますわ。" speaker_show="True" stop="True" voice="sm13002_02_0010" />
+    <char_spine_animation obj_id="敷島 来夢" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="敷島 来夢" text="よっし。じゃあ行ってみますか&#xA;空崎と東京へ！！" speaker_show="True" stop="True" voice="sr13001_02_0018" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2002000008" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Quest1" />
+    <bg file="22_plant_05" />
+    <fade_in time="1" wait="True" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="019_Facial_damage" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="ハァ、ハァ……や、やるじゃねぇか。アタシ様は&#xA;ちょっとアレだ、筋肉痛だから押されても仕方無い！" speaker_show="True" stop="True" voice="ry12002_01_0038" />
+    <delete obj_id="乱獅子 ゆら" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="013_Facial_angry" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="！　皆伏せろ！　こやつ爆弾をもっとる！&#xA;自爆する気じゃ！！" speaker_show="True" stop="True" voice="ss12003_01_0114" />
+    <delete obj_id="薩摩 しぶき" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" body_anim_type="11_Point" force_end="False" loop="True" face_anim_type="018_Facial_smug" />
+    <create_effect effect_id="ShockWave_yura" effect_type="EffectShockWave" life_time="3.0" />
+    <msg speaker="乱獅子 ゆら" text="今日の所は引き分けにしといてやるぁ！！&#xA;まぁ死ぬのはお前達だけなんだけどウボァーー！！" speaker_show="True" stop="True" voice="ry12002_01_0039" />
+    <msg_window_show show="False" />
+    <create_effect effect_id="Explosion_yura" effect_type="EffectExplosion" life_time="3.0" x="0" y="0" />
+    <sound cue_name="RoboDown" />
+    <wait time="0.1" />
+    <delete obj_id="乱獅子 ゆら" />
+    <wait time="2" />
+    <camera scale_x="1" scale_y="1" time="1" move_x="0" move_y="0" easing="Unset" wait="True" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004001" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="04_HipLeftHand" force_end="False" loop="True" face_anim_type="005_Facial_sad" />
+    <msg speaker="轟 葉栖美" text="あたた耳キーンってするぅ。二人とも無事？&#xA;…喋ってる途中に爆発しちゃったよ。何なのあの子。" speaker_show="True" stop="True" voice="th12004_01_0067" />
+    <move obj_id="轟 葉栖美" y="0" y_move_type="MoveValue" time="0.5" wait="True" position_id="left" x="200" x_move_type="MoveTo" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001001" x="-200" y="0" anchor="Bottom" position_id="left" />
+    <char_spine_animation obj_id="宗近 飛粋" body_anim_type="07_ChestBothHands" force_end="False" loop="True" face_anim_type="005_Facial_sad" />
+    <msg speaker="宗近 飛粋" text="はい無事です。…今の子、なんだか&#xA;面白かったのにな…何も爆発しなくても。" speaker_show="True" stop="True" voice="mh12001_01_0102" />
+    <move obj_id="轟 葉栖美" y="0" y_move_type="MoveValue" time="0.5" wait="False" position_id="left" x="300" x_move_type="MoveTo" />
+    <move obj_id="宗近 飛粋" y="0" y_move_type="MoveValue" time="0.5" wait="True" position_id="left" x="-300" x_move_type="MoveTo" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003001" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="気合注入！　そぉい！" speaker_show="True" stop="True" voice="ss12003_01_0115" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <move obj_id="薩摩 しぶき" x="-150" x_move_type="MoveTo" time="0.5" wait="True" position_id="left" y="0" y_move_type="MoveValue" />
+    <shake target="Character" obj_id="薩摩 しぶき" vibrate="10" time="0.5" wait="False" x="10" y="0" />
+    <Comment comment="「ぺしっ！」とひっぱたく音" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="009_Facial_blush" body_anim_type="03_BackBothHands" />
+    <sound type="Se" cue_name="Cracker" />
+    <shake target="Character" obj_id="宗近 飛粋" x="10" vibrate="10" time="1.0" y="0" wait="True" />
+    <msg speaker="宗近 飛粋" text="ひゃんっ！？　なんでお尻叩くんですか？&#xA;ドキドキしちゃいますよ？" speaker_show="True" stop="True" voice="mh12001_01_0103" />
+    <move obj_id="薩摩 しぶき" x="0" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" position_id="left" wait="True" />
+    <char_spine_animation obj_id="薩摩 しぶき" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="任務中じゃ。しみったれるでないわ。&#xA;まずは片付けるもん片付けるぞ！" speaker_show="True" stop="True" voice="ss12003_01_0116" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="宗近 飛粋" text="りょ、了解！" speaker_show="True" stop="True" voice="mh12001_01_0104" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="薩摩 しぶき" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="宗近 飛粋" />
+    <msg window_type="SystemMsg" text="凪の部隊の活躍によって犯罪者の基地は制圧。&#xA;標的も確保に成功した。そして翌日――。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" file="36_school_01" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <telop text="黒百合学園　教室" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001004" x="0" y="0" position_id="left" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="ねぇねぇ小川さん。私、小川さんが遊んでた&#xA;ゲーム、インストールしてやってみたんだ。" speaker_show="True" stop="True" voice="mh12001_01_0105" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="面白いね、素敵なゲーム！" speaker_show="True" stop="True" voice="mh12001_01_0106" />
+    <msg speaker="黒百合学生１" text="どれどれ。え？　もうここまで進んだの！？&#xA;ってかこの面クリアするの凄い難しいのに。" speaker_show="True" stop="True" voice="99023_01_0009" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="宗近 飛粋" text="あはは、操作方法は小川さんの見てて&#xA;だいたい分かったからほら。" speaker_show="True" stop="True" voice="mh12001_01_0107" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" force_end="False" loop="True" />
+    <msg speaker="黒百合学生１" text="！　うまい。　えぇ１日でこんなに上達したの？" speaker_show="True" stop="True" voice="99023_01_0010" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="薩摩 しぶき" data_id="312003004" x="-200" position_id="left" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="轟 葉栖美" data_id="312004004" x="200" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" force_end="False" loop="True" />
+    <msg speaker="薩摩 しぶき" text="飛粋のやつどうやら同学年と&#xA;それなりにうまくやってるようじゃの。" speaker_show="True" stop="True" voice="ss12003_01_0117" />
+    <char_spine_animation obj_id="轟 葉栖美" face_anim_type="003_Facial_laugh" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="轟 葉栖美" text="飛粋ちゃんの事を気にかけて、いちいち様子を&#xA;見に来るとは、しぶきちも大概甘いよね。うりうり。" speaker_show="True" stop="True" voice="th12004_01_0068" />
+    <move obj_id="轟 葉栖美" x="-50" x_move_type="MoveTo" time="0.5" y="0" y_move_type="MoveValue" position_id="left" wait="True" />
+    <char_spine_animation obj_id="轟 葉栖美" body_anim_type="11_Point" force_end="False" loop="True" />
+    <wait time="0.5" />
+    <char_spine_animation obj_id="薩摩 しぶき" face_anim_type="009_Facial_blush" body_anim_type="15_Negative" force_end="False" loop="False" to_idle="True" />
+    <msg speaker="薩摩 しぶき" text="こ、こらやめいはっすー。しぶきを愛でるな。&#xA;制裁するぞ。" speaker_show="True" stop="True" voice="ss12003_01_0118" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="轟 葉栖美" />
+    <delete obj_id="薩摩 しぶき" />
+    <bg show="True" file="01_school1mo_001" color="#000000ff" />
+    <wait time="0.5" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <Comment comment="ゆらの服装は「大八洲師団服」変更予定" />
+    <create type="Character" obj_id="乱獅子 ゆら" data_id="312002008" x="0" position_id="left" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="あーようやく体治ったぁ。あいつらなかなか&#xA;強かったじゃん、こいつはおこだぜ！！" speaker_show="True" stop="True" voice="ry12002_01_0040" />
+    <char_spine_animation obj_id="乱獅子 ゆら" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="乱獅子 ゆら" text="顔は覚えたからな。次こそは大八洲師団の&#xA;乱獅子ゆら様が蟹の餌にしてやるぜ。ぜってーな！" speaker_show="True" stop="True" voice="ry12002_01_0041" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <sound_volume type="Bgm" volume="0" time="1.0" wait="True" />
+  </command>
+</adv>

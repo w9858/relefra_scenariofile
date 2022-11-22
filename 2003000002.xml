@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/2003000002" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" file="01_school1mo_004" />
+    <fade_in time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="高坂 信" data_id="311010007" position_id="left" x="-500" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <sound type="Se" cue_name="Walk" />
+    <sound_volume type="Se" cue_name="Walk" volume="0" time="2" wait="False" />
+    <move obj_id="高坂 信" x="500" time="1" wait="True" />
+    <msg speaker="高坂 信" text="おーい、ながもんー。&#xA;そろそろ授業が始まるよー？" speaker_show="True" stop="True" voice="ks11010_01_0073" />
+    <msg window_type="SystemMsg" text="高坂信。彼女もソラ高一年生でありツキカゲの一員だ。&#xA;コードネームは甚内。八千代メイの師匠である。" stop="True" />
+    <move obj_id="高坂 信" position_id="left" x="-200" x_move_type="MoveTo" time="0" wait="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <create type="Character" anchor="Bottom" obj_id="半蔵門 雪" data_id="311002011" position_id="left" x="200" />
+    <msg speaker="高坂 信" text="あ、雪ちゃん。&#xA;こんにちは。" speaker_show="True" stop="True" voice="ks11010_01_0074" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="このいかにも無害そうな雰囲気……&#xA;師匠、これが理想的な「仮の姿」です。" speaker_show="True" stop="True" voice="hy11002_01_0245" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="大体なんですか、屋上でダンボール敷いて寝るって……&#xA;普通に怪しいです。" speaker_show="True" stop="True" voice="hy11002_01_0246" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <move obj_id="半蔵門 雪" position_id="left" x="0" x_move_type="MoveTo" time="0.5" />
+    <move obj_id="高坂 信" position_id="left" x="-300" x_move_type="MoveTo" time="0.5" wait="True" />
+    <create type="Character" anchor="Bottom" obj_id="藤林 長穂" data_id="311011002" position_id="left" x="400" />
+    <move obj_id="藤林 長穂" position_id="left" x="300" x_move_type="MoveTo" time="0.5" wait="True" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="いやー、私のはクラシックスタイルだから。" speaker_show="True" stop="True" voice="fn11011_01_0014" />
+    <msg speaker="半蔵門 雪" text="意味が分かりません。" speaker_show="True" stop="True" voice="hy11002_01_0247" />
+    <create_effect effect_id="shin_Sweat" effect_type="MampSweat" life_time="1" target_obj="高坂 信" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="あの、仮の姿っていうか……&#xA;雪ちゃん、これが、ありのままの信だからね？" speaker_show="True" stop="True" voice="ks11010_01_0075" />
+    <delete obj_id="shin_Sweat" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="そうでした。先輩は、その目立たなさを買われて&#xA;ツキカゲの一員になったんですよね。" speaker_show="True" stop="True" voice="hy11002_01_0248" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="うぅ……そう言われると、なんかちょっと……&#xA;微妙な心境だけど……。" speaker_show="True" stop="True" voice="ks11010_01_0076" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="でも、その特性を活かして、&#xA;先輩は今や潜入や潜伏の達人です。" speaker_show="True" stop="True" voice="hy11002_01_0249" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="……えへへ。&#xA;照れるなぁ。" speaker_show="True" stop="True" voice="ks11010_01_0077" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="02_Idle" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="むぐむぐ……今日は、まふぃんを……&#xA;んぐんぐ、作ってもらったんだ……。" speaker_show="True" stop="True" voice="fn11011_01_0015" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="……ごくん。シンも一つどう？" speaker_show="True" stop="True" voice="fn11011_01_0016" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="そうなるだろうと思って多めに作ってありますから、&#xA;先輩もどうぞ。" speaker_show="True" stop="True" voice="hy11002_01_0250" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="ありがとう。&#xA;じゃ、いただきまーす。" speaker_show="True" stop="True" voice="ks11010_01_0078" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="高坂 信" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="うん！　雪ちゃん、とっても美味しいよー！&#xA;あ、そうだ！" speaker_show="True" stop="True" voice="ks11010_01_0079" />
+    <sound type="Se" cue_name="Camera" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="メイちゃんにも見せてあげよう！&#xA;えっと……。" speaker_show="True" stop="True" voice="ks11010_01_0080" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="「雪ちゃんからまふぃんもらった！　美味しいよー！&#xA;今度メイちゃんも一緒に食べようね」っと……送信！" speaker_show="True" stop="True" voice="ks11010_01_0081" />
+    <sound type="Se" cue_name="Stamp" />
+    <msg speaker="高坂 信" text="あ、メイちゃんから返信だ！&#xA;「マ？」だって！" speaker_show="True" stop="True" voice="ks11010_01_0082" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="むぐむぐ……みじか～。" speaker_show="True" stop="True" voice="fn11011_01_0017" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="メイちゃん、かわいいなぁ。" speaker_show="True" stop="True" voice="ks11010_01_0083" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Monomi2" />
+    <wait time="1" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="モノミ。" speaker_show="True" stop="True" voice="fn11011_01_0018" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="13_Question" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="モノミの足に、手紙がくくりつけられてますね。" speaker_show="True" stop="True" voice="hy11002_01_0251" />
+    <sound type="Se" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="ん、この暗号、カトちゃんからだねー。&#xA;しっかし、普通にメッセージ送ればいいのに。" speaker_show="True" stop="True" voice="fn11011_01_0019" />
+    <char_spine_animation obj_id="藤林 長穂" body_anim_type="15_Negative" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <msg speaker="藤林 長穂" text="暗号にして送るなら、モノミでもネットでも&#xA;安全性では変わんないんだから。" speaker_show="True" stop="True" voice="fn11011_01_0020" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <msg speaker="高坂 信" text="カトさん、日本のこのやり方にはまったみたいで……。" speaker_show="True" stop="True" voice="ks11010_01_0084" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="まあいいけどねー。&#xA;じゃ、アプリでサクッと解析しますか。" speaker_show="True" stop="True" voice="fn11011_01_0021" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" loop="True" to_idle="False" />
+    <msg speaker="藤林 長穂" text="お、きたきた。&#xA;えっと～？" speaker_show="True" stop="True" voice="fn11011_01_0022" />
+    <char_spine_animation obj_id="藤林 長穂" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="008_Facial_serious" body_anim_type="03_BackBothHands" loop="True" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="14_Positive" loop="False" to_idle="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="008_Facial_serious" loop="True" to_idle="False" />
+    <msg speaker="半蔵門 雪" text="「任務につき緊急招集。本日の一五〇〇に基地へ」" speaker_show="True" stop="True" voice="hy11002_01_0252" />
+  </command>
+</adv>

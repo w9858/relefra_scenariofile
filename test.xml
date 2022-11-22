@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info />
+  <command>
+    <Start />
+    <create_monitor monitor_id="1" x="400" y="170" frame="chara" />
+    <bg file="01_school1mo_003" />
+    <create obj_id="青葉 初芽" data_id="11005_0" y="140" monitor_id="1" type="CharFaceIcon" />
+    <msg speaker="初芽" text="msgpos y=400&#xA;monitorid x=400 y=170  c y = -500" stop="True" window_type="CharMsg" />
+    <transition effect="Shutter" type="Out" time="0.5" wait="True" />
+    <msg speaker="初芽" text="おせ！" stop="True" window_type="CharMsg" />
+    <bg file="02_wasabimo_001" wait="True" />
+    <transition effect="Shutter" type="In" time="2" wait="True" />
+    <msg_window_pos y="400" />
+    <msg speaker="初芽" text="msgpos y=400&#xA;monitorid x=400 y=170  c y = -500" stop="True" window_type="CharMsg" />
+    <move obj_id="1" y="-320" />
+    <msg_window_pos y="100" />
+    <transition effect="Shutter" type="Out" time="0.3" wait="True" />
+    <bg file="11_hospital_01" />
+    <transition effect="Shutter" type="In" time="1.5" wait="True" />
+    <msg speaker="初芽" text="msgpos y=100&#xA;monitorid x=400 y=-320  c y = -500" stop="True" window_type="CharMsg" />
+  </command>
+</adv>

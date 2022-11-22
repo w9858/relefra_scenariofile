@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000010509" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="一部のキャラクターイラストと背景は仮の物を使用しています。" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="11_hospital_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="1" type="Default" wait="True" />
+    <telop text="病院" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005012" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="こちら局、病棟への潜入に成功しました。&#xA;夜勤の看護師を装い院内の巡回を始めます。" speaker_show="True" stop="True" voice="ah11005_02_0704" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="半蔵門 雪" text="半蔵了解。病院裏手の駐車場にて&#xA;百地と待機中。" speaker_show="True" stop="True" voice="hy11002_02_0598" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="14_Positive" force_end="False" loop="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="了解です。今のところ、&#xA;不審なところはないようですが……" speaker_show="True" stop="True" voice="ah11005_02_0705" />
+    <msg speaker="男性２" text="離せ、俺の怪我は治ったんだ！&#xA;もう治療なんて必要ない！" speaker_show="True" stop="True" voice="99140_02_0001" />
+    <msg speaker="男性２" text="今すぐ退院させろ！" speaker_show="True" stop="True" voice="99140_02_0002" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="半蔵門 雪" text="院内が騒がしいようだが何があった？" speaker_show="True" stop="True" voice="hy11002_02_0599" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="患者さんが退院したいと暴れて、看護師さんと&#xA;お医者さんに取り押さえられているようです。" speaker_show="True" stop="True" voice="ah11005_02_0706" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="病院では時折見かける光景ではありますが、&#xA;近くで少し様子を探ってみます。" speaker_show="True" stop="True" voice="ah11005_02_0707" />
+    <move obj_id="青葉 初芽" x="900" x_move_type="MoveTo" y_move_type="MoveValue" time="2.0" wait="False" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="2.0" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <msg speaker="男性２" text="離せ！　俺は元気になったんだ！&#xA;家に帰らせてくれ！" speaker_show="True" stop="True" voice="99140_02_0003" />
+    <msg speaker="看護師の声" text="ダメだと言ってるでしょう！&#xA;言う事を聞かない患者は、こうよ！" speaker_show="True" stop="True" voice="99114_02_0001" />
+    <sound type="Se" cue_name="SlashDamageHeavy" />
+    <wait time="1" />
+    <msg speaker="男性２" text="ぎゃー！&#xA;やっ、やめろ……やめ……ガクッ。" speaker_show="True" stop="True" voice="99140_02_0004" />
+    <sound type="Se" cue_name="Down" />
+    <wait time="1" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005012" position_id="left" x="-100" y="0" anchor="Bottom" />
+    <move obj_id="青葉 初芽" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="強引に鎮静剤を打たれてしまったようですね。&#xA;患者さんが急に大人しくなってしまいました。" speaker_show="True" stop="True" voice="ah11005_02_0708" />
+    <msg speaker="医師" text="ん？　見慣れない顔の看護師だな。&#xA;新米か？" speaker_show="True" stop="True" voice="99115_02_0001" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="はい♪　先日からこの病棟の担当になりました。" speaker_show="True" stop="True" voice="ah11005_02_0709" />
+    <msg speaker="医師" text="そうか。さっさと、あの患者を病室に&#xA;ブチ込んでおけ。" speaker_show="True" stop="True" voice="99115_02_0002" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="ブチ込む……？" speaker_show="True" stop="True" voice="ah11005_02_0710" />
+    <sound type="Se" cue_name="Walk" />
+    <wait time="2.0" />
+    <msg speaker="医師" text="フフ、なおった患者を病院に閉じ込めて、&#xA;これでまた大儲けだ。" speaker_show="True" stop="True" voice="99115_02_0003" />
+    <sound type="Se" cue_name="Run" />
+    <wait time="1.5" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="待ちなさい！　医療を金儲けの道具としか&#xA;考えられないなんて、あなたは医者失格です！" speaker_show="True" stop="True" voice="ah11005_02_0711" />
+    <msg speaker="医師" text="何だお前は。看護師のくせに生意気を言うな！" speaker_show="True" stop="True" voice="99115_02_0004" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="013_Facial_angry" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="看護師も医師も、人の命を預かる仕事であることに&#xA;変わりはありません！" speaker_show="True" stop="True" voice="ah11005_02_0712" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="医療とは、一人でも多くの病で苦しむ患者さんを&#xA;助けるために存在するのです！" speaker_show="True" stop="True" voice="ah11005_02_0713" />
+    <msg speaker="医師" text="そんな綺麗事は聞き飽きてるんだ。&#xA;お前だって、金が欲しいだろう？" speaker_show="True" stop="True" voice="99115_02_0005" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="あなたには、厳しいお仕置きが必要ですね！&#xA;てーい！" speaker_show="True" stop="True" voice="ah11005_02_0714" />
+    <move obj_id="青葉 初芽" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.1" wait="False" />
+    <sound type="Se" cue_name="BlowDamagePunch" />
+    <wait time="0.5" />
+    <msg speaker="医師" text="げぶっ……" speaker_show="True" stop="True" voice="99115_02_0006" />
+    <sound type="Se" cue_name="BlowDamageImpact" />
+    <wait time="1.0" />
+    <move obj_id="青葉 初芽" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <msg speaker="看護師" text="ひぃっ……誰よ、あの看護師！" speaker_show="True" stop="True" voice="99114_02_0002" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="皆さんも、お仕置きが必要そうですね。&#xA;いきますよ！" speaker_show="True" stop="True" voice="ah11005_02_0715" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="0.3" />
+    <sound type="Se" cue_name="SuppressorGun" />
+    <wait time="1.5" />
+    <sound type="Se" cue_name="Down" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Down" />
+    <wait time="0.3" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="True" time="1.0" wait="True" />
+    <delete obj_id="青葉 初芽" />
+    <transition effect="Default" type="In" color_change="True" time="1.0" wait="True" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005012" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="008_Facial_serious" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="青葉 初芽" text="こちら局。医師、看護師は睡眠弾で眠らせました。&#xA;今からカルテのデータを抜き取り、持ち帰ります。" speaker_show="True" stop="True" voice="ah11005_02_0716" />
+    <sound type="Se" cue_name="CutinTransmission" />
+    <wait time="0.5" />
+    <msg speaker="半蔵門 雪" text="半蔵了解。&#xA;見事なお手並みだったわね。" speaker_show="True" stop="True" voice="hy11002_02_0600" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

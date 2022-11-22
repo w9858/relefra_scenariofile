@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3020090201" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <load_cue_sheet cue_sheet="BGM/BGM04_Base" />
+    <sound type="Bgm" cue_name="Base" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_001" />
+    <msg window_type="SystemMsg" text="その身に宿るスパイの素質を見出された&#xA;ごらく部４人は、お試しで修行をする事となった。" stop="True" />
+    <msg_window_show show="False" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop in_time="1.0" show_time="2.0" out_time="1.0" wait="True" text="ツキカゲ基地" />
+    <create type="Character" obj_id="歳納 京子" data_id="394002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001002" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002002" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="戦闘服、サイズとかどう？&#xA;ちゃんと合ってる？" speaker_show="True" stop="True" voice="mm11001_03_0046" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="003_Facial_laugh" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="問題ないですー！　ジャストフィット！" speaker_show="True" stop="True" voice="tk95002_03_0079" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="というか、これは……、&#xA;なんかエロいな！" speaker_show="True" stop="True" voice="tk95002_03_0080" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="良く似合っているわよ。&#xA;では、修行を始めましょうか。" speaker_show="True" stop="True" voice="hy11002_03_0048" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="14_Positive" force_end="False" loop="False" mixing="True" />
+    <msg speaker="歳納 京子" text="お願いします、雪さん、モモさん！" speaker_show="True" stop="True" voice="tk95002_03_0081" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="False" mixing="True" />
+    <msg speaker="半蔵門 雪" text="モモ。今回はあなたがこの子を指導してみなさい。&#xA;教えるのも良い訓練になるから。" speaker_show="True" stop="True" voice="hy11002_03_0049" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="はい、師匠！" speaker_show="True" stop="True" voice="mm11001_03_0047" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="京子ちゃんは、私や師匠と一緒で&#xA;戦闘タイプのスパイになれる素質があると思う。" speaker_show="True" stop="True" voice="mm11001_03_0048" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="008_Facial_serious" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <msg speaker="歳納 京子" text="ふむふむ。敵の要人をお色気で虜にするような&#xA;タイプではなくて、ですか？" speaker_show="True" stop="True" voice="tk95002_03_0082" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="そういう任務をこなすには、そうね。&#xA;胸のサイズが少しばかり……。" speaker_show="True" stop="True" voice="hy11002_03_0050" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="020_Facial_thinking" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="あ、いや、いいです。&#xA;自分で言っといてアレですけど理解しました。" speaker_show="True" stop="True" voice="tk95002_03_0083" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Smile" effect_type="MampSmile" life_time="2.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="よーし、私は戦闘タイプとして、&#xA;立派なスパイになってやるー！" speaker_show="True" stop="True" voice="tk95002_03_0084" />
+    <delete obj_id="Smile" />
+    <delete obj_id="半蔵門 雪" />
+    <move obj_id="歳納 京子" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="-200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="今回は１日限定の修業だし、&#xA;最初にコツのようなものを教えちゃうね。" speaker_show="True" stop="True" voice="mm11001_03_0049" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="これを踏まえておくだけで&#xA;大分違うと思うから。" speaker_show="True" stop="True" voice="mm11001_03_0050" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="バッチコイです！" speaker_show="True" stop="True" voice="tk95002_03_0085" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="じゃあ、こほん。任務の途中に&#xA;敵と遭遇したとするよね。" speaker_show="True" stop="True" voice="mm11001_03_0051" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="013_Facial_angry" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <create_effect effect_id="Shockwave" effect_type="EffectShockWave" life_time="5.0" target_obj="源 モモ" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="源 モモ" text="そしたら即、どりゃー！　って距離を詰めて、&#xA;ドバーって斬りかかるの！" speaker_show="True" stop="True" voice="mm11001_03_0052" />
+    <delete obj_id="Shockwave" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="どりゃー、ですか。" speaker_show="True" stop="True" voice="tk95002_03_0086" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="うん。&#xA;てやーっ！　でもいいよ。" speaker_show="True" stop="True" voice="mm11001_03_0053" />
+    <move obj_id="歳納 京子" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="源 モモ" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002002" position_id="left" x="-330" y="0" anchor="Bottom" />
+    <move obj_id="半蔵門 雪" position_id="left" x="-300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(実際の動きの説明になると、急に擬音語が多くなる。&#xA;師匠としてはまだまだ未熟ね、モモ。)" speaker_show="True" stop="True" voice="hy11002_03_0051" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="005_Facial_sad" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="半蔵門 雪" body_anim_type="15_Negative" force_end="False" loop="False" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(これでは、&#xA;きっと上手く伝わらないわ……。)" speaker_show="True" stop="True" voice="hy11002_03_0052" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="003_Facial_laugh" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="歳納 京子" body_anim_type="20_PositiveDouble" force_end="False" loop="False" mixing="True" />
+    <create_effect effect_id="Kirakira" effect_type="EffectKirakira" life_time="30.0" target_obj="歳納 京子" x="0" y="0" attach_head_bone="True" />
+    <msg speaker="歳納 京子" text="すっっっっごく、良く分かりました！" speaker_show="True" stop="True" voice="tk95002_03_0087" />
+    <delete obj_id="Kirakira" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="源 モモ" text="本当!?　良かったぁ！" speaker_show="True" stop="True" voice="mm11001_03_0054" />
+    <char_spine_animation obj_id="歳納 京子" face_anim_type="018_Facial_smug" body_anim_type="09_PutHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="歳納 京子" text="はい、モモさん教えるの&#xA;とっても上手ですね!!" speaker_show="True" stop="True" voice="tk95002_03_0088" />
+    <delete obj_id="Kirakira" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_cheek obj_id="源 モモ" type="Cheek03_strong" loop="True" />
+    <msg speaker="源 モモ" text="そーかなー？　えへへへ。" speaker_show="True" stop="True" voice="mm11001_03_0055" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(なるほど……お互いに感覚派同士、&#xA;相性が良いということね。)" speaker_show="True" stop="True" voice="hy11002_03_0053" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="(モモの指導を受けてどのように成長するのか、&#xA;楽しみだわ。)" speaker_show="True" stop="True" voice="hy11002_03_0054" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>

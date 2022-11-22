@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3012010203" />
+  </info>
+  <command>
+    <Start />
+    <fade_out time="0" type="Default" wait="False" />
+    <bg show="True" resource_type="Background" file="21_island_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <Comment comment="背景、キャラクターイラストは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <wait time="1" />
+    <sound cue_name="EnvSeaside" volume="30" />
+    <load_cue_sheet />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002013" position_id="left" x="-200" y="0" />
+    <create type="Character" obj_id="源 モモ" data_id="311001015" position_id="left" x="200" y="0" anchor="Bottom" />
+    <fade_in time="1" type="Default" wait="True" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg_window_show show="True" />
+    <msg speaker="半蔵門 雪" text="さあ、モモ………そこに寝て。" speaker_show="True" stop="True" voice="hy11002_02_0308" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="02_Idle" loop="True" />
+    <msg speaker="源 モモ" text="は、はぃ……。" speaker_show="True" stop="True" voice="mm11001_02_0391" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="そんなに私を見詰めないで、目を閉じなさい。" speaker_show="True" stop="True" voice="hy11002_02_0309" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="009_Facial_blush" loop="True" />
+    <msg speaker="源 モモ" text="は、はぃぃ～。" speaker_show="True" stop="True" voice="mm11001_02_0392" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="020_Facial_thinking" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="（うぅ～、師匠の声が耳元で聞こえる～。&#xA;緊張しちゃうよぉ～。）" speaker_show="True" stop="True" voice="mm11001_02_0393" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="020_Facial_thinking" body_anim_type="02_Idle" loop="True" />
+    <msg speaker="半蔵門 雪" text="静かに……ゆっくりと……深呼吸。" speaker_show="True" stop="True" voice="hy11002_02_0310" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="07_ChestBothHands" loop="True" />
+    <msg speaker="源 モモ" text="スゥーー……ハァーー……。" speaker_show="True" stop="True" voice="mm11001_02_0394" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="半蔵門 雪" text="脚から……腕から……全身から……&#xA;呼気と一緒に力を抜いていくのよ。" speaker_show="True" stop="True" voice="hy11002_02_0311" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="スゥ～……ハァ～……。" speaker_show="True" stop="True" voice="mm11001_02_0395" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="（あ……波の音や、鳥の声が聞こえてきた。&#xA;ずっと、こんなだったっけ……？）" speaker_show="True" stop="True" voice="mm11001_02_0396" lip_sync="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="パラソルで遮られていても、太陽の熱を&#xA;感じられるでしょう？" speaker_show="True" stop="True" voice="hy11002_02_0312" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="14_Positive" loop="False" />
+    <msg speaker="源 モモ" text="はい。それに、そよ風が吹いてるのも。&#xA;空崎の匂いとは、また別で穏やかな……潮風。" speaker_show="True" stop="True" voice="mm11001_02_0397" />
+    <char_spine_animation obj_id="源 モモ" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="気持ちイイ……。&#xA;何だか眠くなっちゃいそうです……。" speaker_show="True" stop="True" voice="mm11001_02_0398" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" loop="True" />
+    <msg speaker="半蔵門 雪" text="それで良いのよ。" speaker_show="True" stop="True" voice="hy11002_02_0313" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="源 モモ" text="え？　あ、あれ…？　なんだろ……&#xA;いつの間にか身体がすごく楽に……。" speaker_show="True" stop="True" voice="mm11001_02_0399" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" loop="True" />
+    <msg speaker="半蔵門 雪" text="そう。" speaker_show="True" stop="True" voice="hy11002_02_0314" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="不思議です。全身が軽くなったのに&#xA;少し力が湧いてきたみたいな感じが……。" speaker_show="True" stop="True" voice="mm11001_02_0400" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" />
+    <msg speaker="半蔵門 雪" text="五感のリセットを自在にする。&#xA;それがリラックスという事。" speaker_show="True" stop="True" voice="hy11002_02_0315" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" loop="True" />
+    <msg speaker="源 モモ" text="解りました、師匠！　力を抜くと&#xA;いつもよりずっと感覚も鋭くなるんですね。" speaker_show="True" stop="True" voice="mm11001_02_0401" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="休むのって、悪い事じゃなかったんだ……。&#xA;教えていただいて、ありがとうございます！" speaker_show="True" stop="True" voice="mm11001_02_0402" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="その感覚を覚えておけば、海辺でなくとも&#xA;日常の僅かな時間で、同じことができるわ。" speaker_show="True" stop="True" voice="hy11002_02_0316" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" loop="True" />
+    <msg speaker="源 モモ" text="なるほど！" speaker_show="True" stop="True" voice="mm11001_02_0403" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="18_ArmsCrossed" loop="True" />
+    <msg speaker="半蔵門 雪" text="でも今は、もう少しこの環境にいる事を&#xA;楽しみながら休んでおきましょう。" speaker_show="True" stop="True" voice="hy11002_02_0317" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="003_Facial_laugh" loop="True" />
+    <msg speaker="源 モモ" text="はい！　私、師匠の横にいて良いですか？" speaker_show="True" stop="True" voice="mm11001_02_0404" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="ええ。たまには、２人一緒にのんびりするのも&#xA;悪くない時間よ。では、私は読書に戻るわね。" speaker_show="True" stop="True" voice="hy11002_02_0318" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" loop="True" />
+    <msg speaker="源 モモ" text="それじゃあ私も……ふ～～。" speaker_show="True" stop="True" voice="mm11001_02_0405" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="011_Facial_surprise" body_anim_type="13_Question" loop="True" />
+    <msg speaker="半蔵門 雪" text="で……あなたは、また私を観察するのね。" speaker_show="True" stop="True" voice="hy11002_02_0319" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" loop="True" />
+    <msg speaker="源 モモ" text="これが私のリラックス法……っていうのは&#xA;甘えすぎでしょうか？" speaker_show="True" stop="True" voice="mm11001_02_0406" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" />
+    <msg speaker="半蔵門 雪" text="しょうがないわね。好きにしなさい。" speaker_show="True" stop="True" voice="hy11002_02_0320" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" />
+    <msg speaker="源 モモ" text="えへへ♪　ありがとうございます、師匠。" speaker_show="True" stop="True" voice="mm11001_02_0407" />
+    <msg_window_show show="False" />
+    <sound_volume type="Bgm" cue_name="Adv1" volume="0" time="2" sound_stop="True" wait="False" />
+    <fade_out time="1" type="Default" wait="True" />
+    <sound_stop cue_name="EnvSeaside" />
+  </command>
+</adv>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/4000011003" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <Comment comment="Wasabi店内" />
+    <Comment comment="wasabi　店内" />
+    <bg show="True" file="02_wasabimo_001" resource_type="Background" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="009_Facial_blush" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="あ、あの、ごえちゃん。&#xA;これはその……。" speaker_show="True" stop="True" voice="kt11009_01_0434" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="101_Facial_trouble" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="す、すみません、失礼しました……！" speaker_show="True" stop="True" voice="ig11006_01_0698" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ちょ、ちょっと！　待ってごえちゃん!!&#xA;ここで逃げるのはナシよ。" speaker_show="True" stop="True" voice="kt11009_01_0435" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="見てません……！&#xA;私、何も見ていませんから!!" speaker_show="True" stop="True" voice="ig11006_01_0699" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="とにかく……話を聞いてくれる？&#xA;だから、ちょっと座って。……ね？" speaker_show="True" stop="True" voice="kt11009_01_0436" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="カトリーナ" />
+    <delete obj_id="石川 五恵" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="カトリーナ" data_id="311009001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006005" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="……で、片付けていたら&#xA;ここにこの服が置いてあったの。" speaker_show="True" stop="True" voice="kt11009_01_0437" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="それで、着てみたくなってしまって、&#xA;つい……。" speaker_show="True" stop="True" voice="kt11009_01_0438" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="は、はあ……。" speaker_show="True" stop="True" voice="ig11006_01_0700" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="あ、ほら！　最近手が足りてないみたいだし、&#xA;私も復帰したほうがいいかなーなんて……。" speaker_show="True" stop="True" voice="kt11009_01_0439" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="えーっと……。" speaker_show="True" stop="True" voice="ig11006_01_0701" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="カトリーナ" text="いえ、言いたいのはそういうことじゃなくて。&#xA;頑張ってるみんなを見て羨ましくなったというか……。" speaker_show="True" stop="True" voice="kt11009_01_0440" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="…………。" speaker_show="True" stop="True" voice="ig11006_01_0702" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="あ、キメ台詞とかもね。&#xA;昔はもっと決まってたのよ。本当よ？" speaker_show="True" stop="True" voice="kt11009_01_0441" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="石川 五恵" text="あ、はい……。" speaker_show="True" stop="True" voice="ig11006_01_0703" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="ご、ごえちゃん……！　このことは&#xA;誰にも言わないでもらえると助かるわ……。" speaker_show="True" stop="True" voice="kt11009_01_0442" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="わ、わかりました。あの……&#xA;その服、私、忘れてしまって……。" speaker_show="True" stop="True" voice="ig11006_01_0704" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="あら、これ、ごえちゃんのだったのね。&#xA;それなら今すぐ……！" speaker_show="True" stop="True" voice="kt11009_01_0443" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="009_Facial_blush" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="石川 五恵" text="わわっ！　か、カトーさん!?" speaker_show="True" stop="True" voice="ig11006_01_0705" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="カトリーナ" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="あ、ごめんなさい！　つい……。&#xA;奥で着替えてくるから、少し待っててくれる？" speaker_show="True" stop="True" voice="kt11009_01_0444" />
+    <msg_window_show show="False" />
+    <create type="Character" obj_id="源 モモ" data_id="311001005" position_id="left" x="1000" y="0" anchor="Bottom" />
+    <sound type="Se" cue_name="DoorOpen" />
+    <move obj_id="源 モモ" position_id="left" x="500" x_move_type="MoveTo" time="1.0" wait="True" y="0" y_move_type="MoveValue" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="ごえちゃーん、まだー？&#xA;遅いから迎えに来ちゃ……。" speaker_show="True" stop="True" voice="mm11001_01_1040" />
+    <char_spine_animation obj_id="カトリーナ" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="10_FaceBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="カトリーナ" text="わーっ、今度はモモちゃん!?" speaker_show="True" stop="True" voice="kt11009_01_0445" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="源 モモ" text="えっ、カ、カトリーナさん!?" speaker_show="True" stop="True" voice="mm11001_01_1041" />
+  </command>
+</adv>

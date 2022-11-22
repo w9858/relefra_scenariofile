@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3005020102" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet cue_sheet="BGM/BGM07_Quest2" />
+    <sound type="Bgm" cue_name="Quest2" />
+    <bg show="True" resource_type="Background" file="03_tsukikage_003" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="0.5" wait="True" />
+    <telop text="ツキカゲ基地" in_time="0.5" show_time="1.0" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="八千代 命" data_id="311003001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="頑張れ頑張れフー♪&#xA;頑張れ頑張れ師匠～♪" speaker_show="True" stop="True" voice="ym11003_02_0112" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ちょっと師匠！　応援するのはいいですけど、&#xA;騒がないでください！" speaker_show="True" stop="True" voice="sf11004_02_0034" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="こっちはわずかな物音で、飛粋の気配を&#xA;探らなきゃいけないんだから……。ったく。" speaker_show="True" stop="True" voice="sf11004_02_0035" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="ちぇっ。じゃあメイ、心の声で応援するよ～。" speaker_show="True" stop="True" voice="ym11003_02_0113" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="八千代 命" text="頑張れ頑張れフー♪&#xA;頑張れ頑張れ師匠～♪" speaker_show="True" stop="True" voice="ym11003_02_0114" />
+    <delete obj_id="八千代 命" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="高坂 信" data_id="311010001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="高坂 信" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="高坂 信" text="メイちゃん、心の声、だだ漏れだよ……。" speaker_show="True" stop="True" voice="ks11010_02_0073" />
+    <delete obj_id="高坂 信" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="にしても、どこから来るかわからない&#xA;ってのもやっかいよね。" speaker_show="True" stop="True" voice="sf11004_02_0036" />
+    <msg speaker="宗近 飛粋" text="そうだねー" speaker_show="True" stop="True" voice="mh12001_02_0122" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="え？　この声どこから？&#xA;って、いつの間にか目の前に！" speaker_show="True" stop="True" voice="sf11004_02_0037" />
+    <msg_window_show show="False" />
+    <delete obj_id="相模 楓" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <camera move_x="0" move_y="-400" scale_x="3.0" scale_y="3.0" time="1" easing="Unset" wait="True" />
+    <msg speaker="宗近 飛粋" text="えーい！" speaker_show="True" stop="True" voice="mh12001_02_0123" />
+    <msg_window_show show="False" />
+    <sound cue_name="PushTheBody" />
+    <wait time="0.7" />
+    <camera move_x="0" move_y="0" scale_x="1.0" scale_y="1.0" time="0" easing="Unset" wait="True" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="相模 楓" data_id="311004001" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="くっ、アタシの盾が間に合わないなんて。" speaker_show="True" stop="True" voice="sf11004_02_0038" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="楓、失格一番乗りよ。" speaker_show="True" stop="True" voice="hy11002_02_0162" />
+    <char_spine_animation obj_id="相模 楓" face_anim_type="005_Facial_sad" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="相模 楓" text="ぐぬぬ……。飛粋、恐るべし。&#xA;って言ってる間にも、脱落者が……。" speaker_show="True" stop="True" voice="sf11004_02_0039" />
+    <delete obj_id="相模 楓" />
+    <delete obj_id="半蔵門 雪" />
+    <msg_window_show show="False" />
+    <sound cue_name="PushTheBody" />
+    <wait time="0.7" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" mixing="True" />
+    <msg speaker="石川 五恵" text="うそっ　いつの間に！" speaker_show="True" stop="True" voice="ig11006_02_0053" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="さっきからずっと近くにいたよー。&#xA;はっ、あっちに新たな標的発見。じゃっ。" speaker_show="True" stop="True" voice="mh12001_02_0124" />
+    <move obj_id="宗近 飛粋" x="1500" time="1.0" wait="True" />
+    <msg_window_show show="False" />
+    <transition time="0.5" wait="True" />
+    <delete obj_id="宗近 飛粋" />
+    <delete obj_id="石川 五恵" />
+    <transition type="In" time="0.5" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="隠れる場所もなさそうだし、&#xA;逃げ切れたようだな。" speaker_show="True" stop="True" voice="tr11007_02_0101" />
+    <msg speaker="宗近 飛粋" text="ふふふ、そうでしょうか？" speaker_show="True" stop="True" voice="mh12001_02_0125" />
+    <msg_window_show show="False" />
+    <sound cue_name="PushTheBody" />
+    <wait time="0.7" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="015_Facial_poker" body_anim_type="04_HipLeftHand" force_end="False" loop="True" mixing="True" />
+    <msg speaker="テレジア" text="むっ、やられた。&#xA;宗近、なかなかの能力だ。" speaker_show="True" stop="True" voice="tr11007_02_0102" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="えへへ。案外ラクショーかも。&#xA;次の標的は、白虎ちゃんだね！" speaker_show="True" stop="True" voice="mh12001_02_0127" />
+    <msg_window_show show="False" />
+    <move obj_id="宗近 飛粋" x="1500" time="1" wait="True" />
+    <transition time="0.5" wait="True" />
+    <delete obj_id="テレジア" />
+    <delete obj_id="宗近 飛粋" />
+    <transition type="In" time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="宗近 飛粋" data_id="312001007" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" force_end="False" loop="True" mixing="True" />
+    <char_spine_animation obj_id="白虎" face_anim_type="012_Facial_surpriseOpenMouth" body_anim_type="16_BendBackward" force_end="False" loop="True" mixing="True" />
+    <sound cue_name="PushTheBody" />
+    <wait time="0.7" />
+    <msg speaker="白虎" text="うわっ！" speaker_show="True" stop="True" voice="bk11008_02_0030" />
+    <delete obj_id="白虎" />
+    <char_spine_animation obj_id="宗近 飛粋" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" mixing="True" />
+    <msg speaker="宗近 飛粋" text="よし！　これで全員……あれ？&#xA;誰か忘れている気が……。" speaker_show="True" stop="True" voice="mh12001_02_0128" />
+    <delete obj_id="宗近 飛粋" />
+    <create type="Character" obj_id="半蔵門 雪" data_id="311002001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="半蔵門 雪" face_anim_type="001_Facial_blink" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" mixing="True" />
+    <msg speaker="半蔵門 雪" text="残るは先輩だけね。" speaker_show="True" stop="True" voice="hy11002_02_0163" />
+    <sound_stop cue_name="Quest1" />
+  </command>
+</adv>

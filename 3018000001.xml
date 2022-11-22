@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3018000001" />
+  </info>
+  <command>
+    <Start />
+    <load_cue_sheet />
+    <Comment comment="一部背景とキャラクターイラストは仮の物を使用" />
+    <sound type="Bgm" cue_name="Adv1" />
+    <bg show="True" resource_type="Background" file="23_rivermo_01" color="#ffffffff" effect="Immediately" effect_time="0.3" wait="False" />
+    <telop text="河川敷" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="12_DropShoulders" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ふぅ……。" speaker_show="True" stop="True" voice="ig11006_02_0294" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="どうしたの、ごえちゃん？" speaker_show="True" stop="True" voice="mm11001_02_0560" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="最近、なんだか肩こりがひどくて……。" speaker_show="True" stop="True" voice="ig11006_02_0295" />
+    <move obj_id="石川 五恵" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="-400" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" force_end="False" loop="True" />
+    <move obj_id="八千代 命" x="-190" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <shake target="Character" obj_id="八千代 命" x="20" vibrate="10" time="1" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="その胸につけている立派なもののせいかー！" speaker_show="True" stop="True" voice="ym11003_02_0652" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ええ!?" speaker_show="True" stop="True" voice="ig11006_02_0296" />
+    <move obj_id="八千代 命" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="06_ChestLeftHand" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ごえちゃん、中間テストで勉強を頑張りすぎたとか？" speaker_show="True" stop="True" voice="mm11001_02_0561" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="うーん、そうかも。&#xA;でも、肩こりになるなんて初めてだよ。" speaker_show="True" stop="True" voice="ig11006_02_0297" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="きっとすぐに治るよ！" speaker_show="True" stop="True" voice="mm11001_02_0562" />
+    <delete obj_id="石川 五恵" />
+    <move obj_id="八千代 命" x="-200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <move obj_id="源 モモ" x="200" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そだね、気にすることないっしょ。&#xA;ところで、モモち――" speaker_show="True" stop="True" voice="ym11003_02_0653" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="うん？" speaker_show="True" stop="True" voice="mm11001_02_0563" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ぎゃおおおン！&#xA;ゾンビだぞー！" speaker_show="True" stop="True" voice="ym11003_02_0654" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ひゃっ！&#xA;どうしたの急に？" speaker_show="True" stop="True" voice="mm11001_02_0564" />
+    <move obj_id="八千代 命" x="0" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <move obj_id="源 モモ" x="300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="False" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" x="-400" y="0" anchor="Bottom" />
+    <move obj_id="石川 五恵" x="-300" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="005_Facial_sad" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="……発作？" speaker_show="True" stop="True" voice="ig11006_02_0298" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="15_Negative" force_end="False" loop="False" />
+    <msg speaker="八千代 命" text="メイに変な持病はない！" speaker_show="True" stop="True" voice="ym11003_02_0655" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="これは間もなく行われる『ソラサキハロウィン』、&#xA;略して『ソラハロ』のための準備運動さ！" speaker_show="True" stop="True" voice="ym11003_02_0656" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="そっか、もうそんな時期なんだ！" speaker_show="True" stop="True" voice="mm11001_02_0565" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <msg window_type="SystemMsg" text="空崎では毎年10月の１ヶ月間、&#xA;市が協力して盛大なハロウィンイベントが催される。" stop="True" />
+    <msg window_type="SystemMsg" text="特に最終日のハロウィンパレードは、&#xA;数千人が参加し、大きな盛り上がりを見せる。" stop="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="300" y="0" anchor="Bottom" />
+    <create_effect effect_id="smilmei" effect_type="MampSmile" target_obj="八千代 命" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="003_Facial_laugh" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="今年はゾンビのコスプレをしようかなー。&#xA;仮装グランプリの優勝を狙う！" speaker_show="True" stop="True" voice="ym11003_02_0657" />
+    <delete obj_id="smilmei" />
+    <char_spine_animation obj_id="石川 五恵" body_anim_type="07_ChestBothHands" force_end="False" loop="True" face_anim_type="016_Facial_smileBitter" />
+    <msg speaker="石川 五恵" text="ゾンビは「ぎゃおおン」とは鳴かない気が。" speaker_show="True" stop="True" voice="ig11006_02_0299" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="002_Facial_smile" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="そこは新解釈！　「走るゾンビ」だって&#xA;ゾンビ界を揺るがす大発明だったっしょ。" speaker_show="True" stop="True" voice="ym11003_02_0658" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="あはは、ゾンビ界ってなんだろう……？" speaker_show="True" stop="True" voice="mm11001_02_0566" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="止めないカメラで撮影されるゾンビだっているし、&#xA;丸太を相棒にして戦うゾンビだっているんだ！" speaker_show="True" stop="True" voice="ym11003_02_0659" />
+    <char_spine_animation obj_id="八千代 命" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="考えてみた結果……" speaker_show="True" stop="True" voice="ym11003_02_0660" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="11_Point" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="メイのコスは、丸太を片手にラップを歌いながら、&#xA;全力ダッシュで城壁を登るゾンビに決定しました。" speaker_show="True" stop="True" voice="ym11003_02_0661" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="それ、ゾンビなの!?" speaker_show="True" stop="True" voice="mm11001_02_0567" />
+    <msg_window_show show="False" />
+    <transition effect="Default" type="Out" color_change="False" time="1.0" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <bg file="04_shopstreetsp_01" />
+    <transition effect="Default" type="In" color_change="False" time="1.0" wait="True" />
+    <telop text="商店街" in_time="0.5" show_time="0.5" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="石川 五恵" data_id="311006003" x="-300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="八千代 命" data_id="311003003" x="0" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="商店街もすっかりハロウィンの装飾に&#xA;なってるね。" speaker_show="True" stop="True" voice="ig11006_02_0300" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="002_Facial_smile" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="空崎市全体が協力してるから、&#xA;すっごく規模が大きいよね。" speaker_show="True" stop="True" voice="mm11001_02_0568" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="001_Facial_blink" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="仮装して街を歩いてる人もときどき見かけるねぇ。" speaker_show="True" stop="True" voice="ym11003_02_0662" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="018_Facial_smug" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="イベント最終日のハロウィンパレードに向け、&#xA;戦いはもう始まっている！" speaker_show="True" stop="True" voice="ym11003_02_0663" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="ああああっ！" speaker_show="True" stop="True" voice="ig11006_02_0301" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="はわ！　ど、どうしたの!?&#xA;任務発生!?" speaker_show="True" stop="True" voice="mm11001_02_0569" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="あの飾り付けの小さなジャック・オ・ランタン……&#xA;かわいい……。" speaker_show="True" stop="True" voice="ig11006_02_0302" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="002_Facial_smile" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="かわいい……ほしい……&#xA;ハロウィンが終わったらくれないかな……。" speaker_show="True" stop="True" voice="ig11006_02_0303" />
+    <create_effect effect_id="goe" effect_type="EffectHeart" target_obj="石川 五恵" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="003_Facial_laugh" body_anim_type="09_PutHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はあ～ぁ…………。" speaker_show="True" stop="True" voice="ig11006_02_0304" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="011_Facial_surprise" body_anim_type="05_HipBothHands" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="ごえちゃん、動かなくなっちゃったよ。" speaker_show="True" stop="True" voice="ym11003_02_0664" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="13_Question" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ごえちゃん～！&#xA;学校、遅刻するよ～！" speaker_show="True" stop="True" voice="mm11001_02_0570" />
+    <move obj_id="八千代 命" x="-40" x_move_type="MoveTo" y_move_type="MoveValue" time="0.3" wait="True" />
+    <shake target="Character" obj_id="八千代 命" x="30" vibrate="10" time="0.5" wait="True" />
+    <char_spine_animation obj_id="八千代 命" face_anim_type="008_Facial_serious" body_anim_type="18_ArmsCrossed" force_end="False" loop="True" />
+    <msg speaker="八千代 命" text="んぐぐ……駄目だ、全力で引っ張っても動かん！&#xA;さすが横綱、見事な角力だ！" speaker_show="True" stop="True" voice="ym11003_02_0665" />
+    <char_spine_animation obj_id="石川 五恵" face_anim_type="001_Facial_blink" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="石川 五恵" text="はぁ、かわいい……。" speaker_show="True" stop="True" voice="ig11006_02_0305" />
+    <create_effect effect_id="Sweet_momo" effect_type="MampSweat" target_obj="源 モモ" />
+    <char_spine_animation obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="07_ChestBothHands" force_end="False" loop="True" />
+    <msg speaker="源 モモ" text="ごーえーちゃーんー……！" speaker_show="True" stop="True" voice="mm11001_02_0571" />
+    <delete obj_id="Sweet_momo" />
+    <msg_window_show show="False" />
+    <fade_out time="1.0" type="Default" wait="True" />
+    <delete obj_id="石川 五恵" />
+    <delete obj_id="源 モモ" />
+    <delete obj_id="八千代 命" />
+    <msg window_type="SystemMsg" text="結局、学校にはぎりぎりで遅刻にならず&#xA;登校できたのだった。" stop="True" />
+    <msg_window_show show="False" />
+    <bg show="True" resource_type="Background" file="01_school1mo_003" effect="Immediately" effect_time="0.3" wait="False" />
+    <fade_in time="1.0" type="Default" wait="True" />
+    <create type="Character" obj_id="源 モモ" data_id="311001003" x="0" y="0" anchor="Bottom" />
+    <msg speaker="畠山 結愛" text="パレードに向けて仮装してる人、&#xA;多くなってきてるよねー！" speaker_show="True" stop="True" voice="ha99001_02_0011" />
+    <msg speaker="北斗 凪" text="うん。この前なんかすっごくリアルな幽霊の仮装を&#xA;してる人がいて、びっくりしちゃったよ。" speaker_show="True" stop="True" voice="hn99002_02_0017" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="001_Facial_blink" body_anim_type="03_BackBothHands" />
+    <msg speaker="源 モモ" text="みんな気合い入ってるね！" speaker_show="True" stop="True" voice="mm11001_02_0572" />
+    <msg speaker="畠山 結愛" text="ねえねえ、私たちも何かコスプレしてみない!?&#xA;モモちはちょいセクなお化けナースとか。" speaker_show="True" stop="True" voice="ha99001_02_0012" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="005_Facial_sad" body_anim_type="13_Question" />
+    <msg speaker="源 モモ" text="うーん、セクシー系はごえちゃんとか&#xA;だったら似合いそうだけど……。" speaker_show="True" stop="True" voice="mm11001_02_0573" />
+    <msg speaker="北斗 凪" text="ああ、そうだね。&#xA;石川さん似合いそう。" speaker_show="True" stop="True" voice="hn99002_02_0018" />
+    <msg speaker="畠山 結愛" text="いや待って！　石川さんは……" speaker_show="True" stop="True" voice="ha99001_02_0013" />
+    <msg speaker="畠山 結愛" text="…………あのバディでセクシー系は、&#xA;ちょっと、えっちくなりすぎる……。" speaker_show="True" stop="True" voice="ha99001_02_0014" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="016_Facial_smileBitter" body_anim_type="03_BackBothHands" />
+    <msg speaker="源 モモ" text="……そ、そうかも。" speaker_show="True" stop="True" voice="mm11001_02_0574" />
+    <msg speaker="北斗 凪" text="あれ？　フクロウが飛んでるよ。" speaker_show="True" stop="True" voice="hn99002_02_0019" />
+    <char_spine_animation force_end="False" loop="True" obj_id="源 モモ" face_anim_type="008_Facial_serious" body_anim_type="06_ChestLeftHand" />
+    <msg speaker="源 モモ" text="（モノミ！　モールストーンで……&#xA;に・ん・む・はっ・せ・い……招集の合図だ！)" speaker_show="True" stop="True" voice="mm11001_02_0575" lip_sync="False" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+    <sound_stop cue_name="Adv1" />
+  </command>
+</adv>

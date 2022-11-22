@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-16"?>
+<adv file="spyceadvfile">
+  <info>
+    <VoiceCueSheet value="AdvVoice/3007030502" />
+  </info>
+  <command>
+    <Start />
+    <sound type="Bgm" cue_name="Adv1" />
+    <fade_out time="0" type="Default" />
+    <bg show="True" file="08_parkev_01" resource_type="Background" />
+    <fade_in time="0.5" type="Default" wait="True" />
+    <telop text="公園" in_time="0.5" show_time="1" out_time="0.5" wait="True" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="覚悟しろ、完成型勇者！&#xA;一瞬で勝負をつけてやる！" speaker_show="True" stop="True" voice="bk11008_01_0197" />
+    <sound type="Se" />
+    <Comment comment="【ＳＥ】クナイ出す（ジャキン！）" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="011_Facial_surprise" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="ちょっ、ちょっと待った！&#xA;武器を出すなんて卑怯よ！" speaker_show="True" stop="True" voice="mk96005_01_0048" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="何がだ！　お前も使えば良いだろ。&#xA;刀でも何でも。" speaker_show="True" stop="True" voice="bk11008_01_0198" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="勇者の武器は、変身しないと使えないのよ！&#xA;誰か何か持ってない？　木刀と竹刀とか！" speaker_show="True" stop="True" voice="mk96005_01_0049" />
+    <delete obj_id="白虎" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="15_Negative" loop="True" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" body_anim_type="15_Negative" loop="False" to_idle="True" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="005_Facial_sad" loop="True" to_idle="True" force_end="False" />
+    <lip_sync target1="青葉 初芽" />
+    <msg speaker="樹・初芽" text="持ってませんよ……。" speaker_show="True" stop="True" voice="3007030502_01" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="300" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="ごちゃごちゃウルサイなあ。&#xA;だったら、とっとと変身しろ！" speaker_show="True" stop="True" voice="bk11008_01_0199" />
+    <char_spine_animation obj_id="三好 夏凜" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="あんた………喧嘩売る相手間違えんじゃないわよ。" speaker_show="True" stop="True" voice="mk96005_01_0050" />
+    <char_spine_animation obj_id="白虎" face_anim_type="101_Facial_unique" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="白虎" text="言ったな！&#xA;この白虎様をナメやがってーーー！" speaker_show="True" stop="True" voice="bk11008_01_0200" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="勇者をナメてんのはあんたでしょーーー！" speaker_show="True" stop="True" voice="mk96005_01_0051" />
+    <msg_window_show show="False" />
+    <char_spine_animation obj_id="三好 夏凜" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="白虎" body_anim_type="16_BendBackward" loop="True" to_idle="False" force_end="False" />
+    <move obj_id="白虎" position_id="left" x="125" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.2" wait="False" />
+    <move obj_id="三好 夏凜" position_id="left" x="-125" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.2" wait="True" />
+    <sound type="Se" cue_name="Clash" />
+    <wait time="0.5" />
+    <sound type="Se" cue_name="Clash" />
+    <shake target="Character" obj_id="三好 夏凜" x="50" vibrate="10" time="1.0" wait="False" />
+    <shake target="Character" obj_id="白虎" x="50" vibrate="10" time="1.0" wait="True" />
+    <Comment comment="【ＳＥ】殴り合い（ドカドカ！）" />
+    <wait time="0.5" />
+    <delete obj_id="白虎" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <Comment comment="テレジア、私服（夏）の予定" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="…………ペロッ……ペロ……ッ。" speaker_show="True" stop="True" voice="tr11007_01_0203" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="001_Facial_blink" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="テレちゃんは、何を舐めて………あら？&#xA;そのアイスクリーム、どこで買ったんです？" speaker_show="True" stop="True" voice="ah11005_01_0492" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="あそこ。" speaker_show="True" stop="True" voice="tr11007_01_0204" />
+    <move obj_id="テレジア" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="青葉 初芽" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="ああ、公園にワゴンで売りに来ているんですね。&#xA;２段重ねで、美味しそう～♪" speaker_show="True" stop="True" voice="ii96004_01_0057" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="うん。ペロ…ッ、ペロ……ッ。&#xA;甘くて冷たくて、すごく美味しい。" speaker_show="True" stop="True" voice="tr11007_01_0205" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="青葉 初芽" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="白虎" data_id="311007001" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="白虎" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="Exclamation_白虎" effect_type="MampExclamation" life_time="1.0" target_obj="白虎" />
+    <msg speaker="白虎" text="いま誰か美味しいって言ったか!?&#xA;何がそんなに美味し………テレ公、なんだそれは!!" speaker_show="True" stop="True" voice="bk11008_01_0201" />
+    <move obj_id="白虎" position_id="left" x="200" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.3" wait="True" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <Comment comment="テレジア、私服（夏）の予定" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="002_Facial_smile" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="アイス。&#xA;トロピカルマンゴーとフレッシュミント。" speaker_show="True" stop="True" voice="tr11007_01_0206" />
+    <char_spine_animation obj_id="白虎" face_anim_type="002_Facial_smile" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <shake target="MsgWindow" x="10" y="10" vibrate="20" time="0.5" />
+    <msg speaker="白虎" text="なにーーーーっ!?　ズルイぞ自分だけーーー！&#xA;私もそれ食べるーーーー！" speaker_show="True" stop="True" voice="bk11008_01_0202" />
+    <msg_window_show show="False" />
+    <sound type="Se" cue_name="Run" />
+    <Comment comment="【ＳＥ】ダッシュ" />
+    <move obj_id="白虎" position_id="left" x="1500" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="1" wait="True" />
+    <wait time="1.0" />
+    <delete obj_id="白虎" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="101_Facial_trouble" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <create_effect effect_id="Sweat_karin" effect_type="MampSweat" life_time="1.0" target_obj="三好 夏凜" />
+    <msg speaker="三好 夏凜" text="あっ！　な、なによ、勝負よりアイスなの!?&#xA;ったく……ホントに球子そっくりだわ。" speaker_show="True" stop="True" voice="mk96005_01_0052" />
+    <delete obj_id="三好 夏凜" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="青葉 初芽" data_id="311005006" position_id="left" x="200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="002_Facial_smile" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="でも、これで余計な争いが避けられて&#xA;ホッとしました……。" speaker_show="True" stop="True" voice="ii96004_01_0058" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="11_Point" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="私達も食べませんか？&#xA;御馳走しますよ。" speaker_show="True" stop="True" voice="ah11005_01_0493" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="003_Facial_laugh" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="ありがとうございます！&#xA;ほら、夏凜さんも休憩しましょう。" speaker_show="True" stop="True" voice="ii96004_01_0059" />
+    <move obj_id="青葉 初芽" position_id="left" x="300" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="False" />
+    <move obj_id="犬吠埼 樹" position_id="left" x="0" x_move_type="MoveTo" y="0" y_move_type="MoveValue" time="0.5" wait="True" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-300" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="002_Facial_smile" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="しゃーないわね。&#xA;でも自分の分は自分で払っ……あ。" speaker_show="True" stop="True" voice="mk96005_01_0053" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="005_Facial_sad" body_anim_type="07_ChestBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="03_BackBothHands" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="005_Facial_sad" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="この時代のお金、持ってないんですよ。&#xA;私達……。" speaker_show="True" stop="True" voice="ii96004_01_0060" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="101_Facial_trouble" body_anim_type="13_Question" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="そうだったわね……。園子は大丈夫かしら？&#xA;どこかに買い物に行くって言ってたけど。" speaker_show="True" stop="True" voice="mk96005_01_0054" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="003_Facial_laugh" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="青葉 初芽" text="御心配なく。園子さんには、私のカードを&#xA;お渡ししておきましたから。" speaker_show="True" stop="True" voice="ah11005_01_0494" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="011_Facial_surprise" body_anim_type="08_MouthBothHands" loop="True" to_idle="False" force_end="False" />
+    <shake target="MsgWindow" x="10" y="10" vibrate="20" time="0.5" />
+    <msg speaker="犬吠埼 樹" text="ええーーー!?&#xA;クレジットカードをですか!?" speaker_show="True" stop="True" voice="ii96004_01_0061" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="008_Facial_serious" body_anim_type="05_HipBothHands" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="そんな物預けて、限度額オーバーしても&#xA;勇者部は責任とれないわよ!?" speaker_show="True" stop="True" voice="mk96005_01_0055" />
+    <char_spine_animation obj_id="青葉 初芽" face_anim_type="002_Facial_smile" body_anim_type="14_Positive" loop="False" to_idle="True" force_end="False" />
+    <msg speaker="青葉 初芽" text="限度額のないカードですから、大丈夫ですよ？" speaker_show="True" stop="True" voice="ah11005_01_0495" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="011_Facial_surprise" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="夏凜・樹" text="は？" speaker_show="True" stop="True" voice="3007030502_02" />
+    <delete obj_id="三好 夏凜" />
+    <delete obj_id="犬吠埼 樹" />
+    <delete obj_id="青葉 初芽" />
+    <create type="Character" obj_id="テレジア" data_id="311008003" position_id="left" x="0" y="0" anchor="Bottom" />
+    <Comment comment="テレジア、私服（夏）の予定" />
+    <char_spine_animation obj_id="テレジア" face_anim_type="001_Facial_blink" body_anim_type="04_HipLeftHand" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="テレジア" text="青葉家は金持ち……。しかも凄まじいレベルの。" speaker_show="True" stop="True" voice="tr11007_01_0207" />
+    <delete obj_id="テレジア" />
+    <create type="Character" obj_id="犬吠埼 樹" data_id="396004003" position_id="left" x="200" y="0" anchor="Bottom" />
+    <create type="Character" obj_id="三好 夏凜" data_id="396005003" position_id="left" x="-200" y="0" anchor="Bottom" />
+    <char_spine_animation obj_id="犬吠埼 樹" face_anim_type="101_Facial_trouble" body_anim_type="06_ChestLeftHand" loop="True" to_idle="False" force_end="False" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="005_Facial_sad" body_anim_type="02_Idle" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="犬吠埼 樹" text="あぁ……園子さんの御同類……。" speaker_show="True" stop="True" voice="ii96004_01_0063" />
+    <char_spine_animation obj_id="三好 夏凜" face_anim_type="101_Facial_trouble" body_anim_type="12_DropShoulders" loop="True" to_idle="False" force_end="False" />
+    <msg speaker="三好 夏凜" text="どこにでもいるのね……こういう人種って。" speaker_show="True" stop="True" voice="mk96005_01_0057" />
+    <msg_window_show show="False" />
+    <fade_out time="0.5" type="Default" wait="True" />
+  </command>
+</adv>
